@@ -1,0 +1,238 @@
+{
+    "week_id": "week6_numbers_souvenirs",
+    "title": "🔢 Numbers & Souvenir Shop",
+    "description": "Учим числа 21-100, учимся покупать сувениры и читаем смешную историю о неудачном шопинге. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🔢",
+    "order_num": 6,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Numbers 21-50",
+            "description": "Учим числа от двадцати одного до пятидесяти",
+            "grammar": {
+                "title": "Numbers 21-50",
+                "rule": "Числа от 21 до 99 образуются просто: десятки + единицы через дефис.\n\n📌 20 — twenty\n📌 21 — twenty-one\n📌 22 — twenty-two\n📌 30 — thirty (не three-ty!)\n📌 40 — forty (не four-ty!)\n📌 50 — fifty (не five-ty!)\n\n🎯 Лайфхак: Запомни исключения — thirty, forty, fifty, а остальные пишутся по правилу!\n🎯 Мем: 'How much money do I have? Twenty... actually, two.' 😂",
+                "examples": [
+                    "Leo: 'I have twenty-three euros. Enough for pizza!' 🍕",
+                    "Mia: 'There are thirty students in my class.' 👥",
+                    "Sam: 'My phone battery is at forty-two percent. It's fine.' 📱",
+                    "The answer is forty-four. No, it's forty-five! Math is hard.' 🤯"
+                ],
+                "keywords": "twenty, thirty, forty, fifty, numbers, twenty-one, twenty-two"
+            },
+            "vocabulary": [
+                {"icon": "2️⃣0️⃣", "word": "twenty", "transcription": "/ˈtwen.ti/", "translation": "двадцать", "example": "I have twenty euros.", "context_translation": "двадцать", "context_example": "У меня двадцать евро."},
+                {"icon": "2️⃣1️⃣", "word": "twenty-one", "transcription": "/ˌtwen.ti ˈwʌn/", "translation": "двадцать один", "example": "Twenty-one is my lucky number.", "context_translation": "двадцать один", "context_example": "Двадцать один — моё счастливое число."},
+                {"icon": "3️⃣0️⃣", "word": "thirty", "transcription": "/ˈθɜː.ti/", "translation": "тридцать", "example": "My mum is thirty years old.", "context_translation": "тридцать", "context_example": "Моей маме тридцать лет."},
+                {"icon": "4️⃣0️⃣", "word": "forty", "transcription": "/ˈfɔː.ti/", "translation": "сорок", "example": "Forty is twenty plus twenty.", "context_translation": "сорок", "context_example": "Сорок — это двадцать плюс двадцать."},
+                {"icon": "5️⃣0️⃣", "word": "fifty", "transcription": "/ˈfɪf.ti/", "translation": "пятьдесят", "example": "I have fifty unread messages!", "context_translation": "пятьдесят", "context_example": "У меня пятьдесят непрочитанных сообщений!"},
+                {"icon": "2️⃣5️⃣", "word": "twenty-five", "transcription": "/ˌtwen.ti ˈfaɪv/", "translation": "двадцать пять", "example": "Twenty-five minutes until lunch!", "context_translation": "двадцать пять", "context_example": "Двадцать пять минут до обеда!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is 30 in English? 🔢", "options": ["twenty", "thirty", "forty", "fifty"], "correct": "thirty", "explanation": "30 — thirty (исключение! Не three-ty!)", "topic": "numbers"},
+                {"id": 2, "type": "multiple_choice", "question": "What is 21 in English? 🔢", "options": ["twenty", "twenty-one", "twenty-two", "twenty-three"], "correct": "twenty-one", "explanation": "21 — twenty-one (десятки + единицы через дефис)", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "20 + 20 = ___ (forty / fifty)", "correct": "forty", "explanation": "20 + 20 = 40 — forty (не four-ty!)", "topic": "maths"},
+                {"id": 4, "type": "fill_blank", "question": "___ is 50 in English. (fifty / sixty)", "correct": "fifty", "explanation": "50 — fifty (исключение!)", "topic": "numbers"},
+                {"id": 5, "type": "true_false", "question": "Thirty is 13.", "correct": "False", "explanation": "Thirty — 30. Thirteen — 13. Не путай! 😅", "topic": "numbers"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Numbers 51-100",
+            "description": "Учим числа от пятидесяти одного до ста",
+            "grammar": {
+                "title": "Numbers 51-100",
+                "rule": "Продолжаем учить числа! Тот же принцип: десятки + единицы через дефис.\n\n📌 60 — sixty\n📌 70 — seventy\n📌 80 — eighty (одна буква 't'!)\n📌 90 — ninety\n📌 100 — one hundred\n\n🎯 Лайфхак: Запомни — eighty пишется с одной 't' (не eight-ty, а eighty)!",
+                "examples": [
+                    "Leo: 'I have sixty-three problems, but maths ain't one!' 🎤",
+                    "Mia: 'Seventy-eight percent on my test. Not bad!' 📝",
+                    "Sam: 'Eighty-four unread texts? I need to check my phone!' 📱",
+                    "The temperature is ninety-nine degrees. I'm melting!' 🥵"
+                ],
+                "keywords": "sixty, seventy, eighty, ninety, one hundred, numbers"
+            },
+            "vocabulary": [
+                {"icon": "6️⃣0️⃣", "word": "sixty", "transcription": "/ˈsɪk.sti/", "translation": "шестьдесят", "example": "Sixty seconds in a minute.", "context_translation": "шестьдесят", "context_example": "Шестьдесят секунд в минуте."},
+                {"icon": "7️⃣0️⃣", "word": "seventy", "transcription": "/ˈsev.ən.ti/", "translation": "семьдесят", "example": "My grandma is seventy years old.", "context_translation": "семьдесят", "context_example": "Моей бабушке семьдесят лет."},
+                {"icon": "8️⃣0️⃣", "word": "eighty", "transcription": "/ˈeɪ.ti/", "translation": "восемьдесят", "example": "Eighty is 8 x 10.", "context_translation": "восемьдесят", "context_example": "Восемьдесят — это 8 x 10."},
+                {"icon": "9️⃣0️⃣", "word": "ninety", "transcription": "/ˈnaɪn.ti/", "translation": "девяносто", "example": "Ninety-nine red balloons! 🎈", "context_translation": "девяносто", "context_example": "Девяносто девять красных шаров!"},
+                {"icon": "1️⃣0️⃣0️⃣", "word": "one hundred", "transcription": "/ˌwʌn ˈhʌn.drəd/", "translation": "сто", "example": "I have one hundred problems, but my phone isn't one.", "context_translation": "сто", "context_example": "У меня сто проблем, но телефон не одна из них."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is 80 in English? 🔢", "options": ["eighteen", "eighty", "eight", "eighty-eight"], "correct": "eighty", "explanation": "80 — eighty (с одной 't'!)", "topic": "numbers"},
+                {"id": 2, "type": "multiple_choice", "question": "What is 100 in English? 🔢", "options": ["one hundred", "one thousand", "ten", "hundred"], "correct": "one hundred", "explanation": "100 — one hundred", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "50 + 30 = ___", "correct": "eighty", "explanation": "50 + 30 = 80 — eighty", "topic": "maths"},
+                {"id": 4, "type": "fill_blank", "question": "___ is 90 in English. (ninety / ninety)", "correct": "ninety", "explanation": "90 — ninety", "topic": "numbers"},
+                {"id": 5, "type": "true_false", "question": "Eighty is 8 x 10.", "correct": "True", "explanation": "Yes! 8 x 10 = 80 — eighty", "topic": "maths"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Souvenir Shop — Vocabulary",
+            "description": "Учим слова для покупки сувениров",
+            "grammar": {
+                "title": "Shopping for souvenirs — Vocabulary",
+                "rule": "В сувенирном магазине тебе пригодятся эти фразы и слова:\n\n🛍️ souvenir — сувенир\n💰 How much is it? — Сколько это стоит?\n💷 It's ... pounds/euros/dollars — Это стоит ... фунтов/евро/долларов\n💳 I'd like to buy... — Я хотел(а) бы купить...\n🎁 key ring — брелок\n🧸 teddy bear — плюшевый мишка\n☕ mug — кружка\n🧢 cap — кепка\n👕 T-shirt — футболка\n\n🎯 Вопрос продавца: 'Can I help you?' — Могу я вам помочь?\n🎯 Ответ: 'Yes, please. I'd like to buy a souvenir.'",
+                "examples": [
+                    "Leo: 'How much is this key ring?' 💰",
+                    "Seller: 'It's five euros.' 💶",
+                    "Mia: 'I'd like to buy a mug with London on it.' ☕🇬🇧",
+                    "Sam: 'How much are these T-shirts?' 👕"
+                ],
+                "keywords": "souvenir, key ring, mug, T-shirt, cap, teddy bear, how much, I'd like to buy"
+            },
+            "vocabulary": [
+                {"icon": "🎁", "word": "souvenir", "transcription": "/ˌsuː.vəˈnɪər/", "translation": "сувенир", "example": "I want to buy a souvenir from London.", "context_translation": "сувенир", "context_example": "Я хочу купить сувенир из Лондона."},
+                {"icon": "🔑", "word": "key ring", "transcription": "/ˈkiː rɪŋ/", "translation": "брелок", "example": "This key ring is from Paris.", "context_translation": "брелок", "context_example": "Этот брелок из Парижа."},
+                {"icon": "☕", "word": "mug", "transcription": "/mʌɡ/", "translation": "кружка", "example": "I drink tea from my souvenir mug.", "context_translation": "кружка", "context_example": "Я пью чай из своей сувенирной кружки."},
+                {"icon": "👕", "word": "T-shirt", "transcription": "/ˈtiː ʃɜːt/", "translation": "футболка", "example": "This T-shirt says 'I love London'.", "context_translation": "футболка", "context_example": "На этой футболке написано 'Я люблю Лондон'."},
+                {"icon": "🧢", "word": "cap", "transcription": "/kæp/", "translation": "кепка", "example": "I wear my cap backwards.", "context_translation": "кепка", "context_example": "Я ношу кепку задом наперёд."},
+                {"icon": "🧸", "word": "teddy bear", "transcription": "/ˈted.i beər/", "translation": "плюшевый мишка", "example": "My little sister loves teddy bears.", "context_translation": "плюшевый мишка", "context_example": "Моя маленькая сестра любит плюшевых мишек."},
+                {"icon": "💰", "word": "price", "transcription": "/praɪs/", "translation": "цена", "example": "What is the price of this mug?", "context_translation": "цена", "context_example": "Какая цена у этой кружки?"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What do you ask to know the cost of something? 💰", "options": ["What time is it?", "How much is it?", "Where is it?", "Who is it?"], "correct": "How much is it?", "explanation": "'How much is it?' — Сколько это стоит?", "topic": "phrases"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you say when you want to buy something? 🛍️", "options": ["I don't like it.", "I'd like to buy...", "It's too expensive.", "Maybe later."], "correct": "I'd like to buy...", "explanation": "'I'd like to buy...' — Я хотел(а) бы купить...", "topic": "phrases"},
+                {"id": 3, "type": "fill_blank", "question": "I want to buy a ___ from London. (сувенир)", "correct": "souvenir", "explanation": "souvenir — сувенир", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "How much is this ___? (кружка)", "correct": "mug", "explanation": "mug — кружка", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "A teddy bear is a type of food.", "correct": "False", "explanation": "A teddy bear is a soft toy, not food! 🧸", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Souvenir Shop Dialogue",
+            "description": "Учимся вести диалог в сувенирном магазине",
+            "grammar": {
+                "title": "Shopping Dialogue",
+                "rule": "Типичный диалог в сувенирном магазине:\n\n🛍️ Seller: 'Can I help you?'\n😊 Customer: 'Yes, please. I'd like to buy a souvenir.'\n🛍️ Seller: 'How about this key ring?'\n😊 Customer: 'How much is it?'\n🛍️ Seller: 'It's five euros.'\n😊 Customer: 'OK. I'll take it. Here you are.'\n🛍️ Seller: 'Thank you. Have a nice day!'\n\n🎯 Вопросы продавца:\n• Can I help you?\n• How about this one?\n• Anything else?\n\n🎯 Фразы покупателя:\n• I'd like to buy...\n• How much is it?\n• I'll take it.\n• Here you are.",
+                "examples": [
+                    "Seller: 'Can I help you?' Leo: 'Yes, I'd like to buy a mug.' ☕",
+                    "Seller: 'How about this one? It's ten euros.' Leo: 'Hmm, too expensive. How about this key ring?' 🔑",
+                    "Seller: 'It's three euros.' Leo: 'Great! I'll take it. Here you are.' 💰"
+                ],
+                "keywords": "Can I help you?, I'd like to buy, How much is it?, I'll take it, Here you are"
+            },
+            "vocabulary": [
+                {"icon": "💶", "word": "euro", "transcription": "/ˈjʊə.rəʊ/", "translation": "евро", "example": "This key ring costs five euros.", "context_translation": "евро", "context_example": "Этот брелок стоит пять евро."},
+                {"icon": "💷", "word": "pound", "transcription": "/paʊnd/", "translation": "фунт", "example": "The mug is ten pounds.", "context_translation": "фунт", "context_example": "Кружка стоит десять фунтов."},
+                {"icon": "💸", "word": "expensive", "transcription": "/ɪkˈspen.sɪv/", "translation": "дорогой", "example": "This T-shirt is too expensive.", "context_translation": "дорогой", "context_example": "Эта футболка слишком дорогая."},
+                {"icon": "💵", "word": "cheap", "transcription": "/tʃiːp/", "translation": "дешёвый", "example": "This key ring is cheap!", "context_translation": "дешёвый", "context_example": "Этот брелок дешёвый!"},
+                {"icon": "🛍️", "word": "shopping", "transcription": "/ˈʃɒp.ɪŋ/", "translation": "покупки", "example": "I love shopping for souvenirs.", "context_translation": "покупки", "context_example": "Я люблю покупать сувениры."},
+                {"icon": "📦", "word": "gift", "transcription": "/ɡɪft/", "translation": "подарок", "example": "This is a gift for my mum.", "context_translation": "подарок", "context_example": "Это подарок для моей мамы."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What does the seller say first? 🛍️", "options": ["Goodbye!", "Can I help you?", "How much is it?", "I'll take it."], "correct": "Can I help you?", "explanation": "Продавец обычно начинает с: 'Can I help you?' — Могу я вам помочь?", "topic": "phrases"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you say when you want to pay? 💰", "options": ["How much is it?", "I'll take it.", "Here you are.", "All of the above"], "correct": "All of the above", "explanation": "Сначала спрашиваешь цену, потом говоришь 'I'll take it', потом 'Here you are' (вот, пожалуйста) при оплате.", "topic": "phrases"},
+                {"id": 3, "type": "fill_blank", "question": "This T-shirt is 50 euros. It's very ___ . (expensive / cheap)", "correct": "expensive", "explanation": "50 евро за футболку — дорого! 😱", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "This key ring is 1 euro. It's ___ . (expensive / cheap)", "correct": "cheap", "explanation": "1 евро за брелок — дёшево! 🎉", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "'I'll take it' means you want to buy it.", "correct": "True", "explanation": "Yes! 'I'll take it' — 'Я беру это' (согласие купить)", "topic": "phrases"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Numbers & Shopping",
+            "description": "Повторяем числа и фразы для покупок",
+            "grammar": {
+                "title": "Revision: Numbers & Shopping",
+                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Числа 21-100: twenty-one, thirty, forty, fifty, sixty, seventy, eighty, ninety, one hundred\n📌 Фразы в магазине:\n• Can I help you?\n• I'd like to buy...\n• How much is it?\n• It's ... euros/pounds.\n• I'll take it.\n• Here you are.\n\n🎯 Вопросы: How much is this mug? Do you have any key rings? What's the price?",
+                "examples": [
+                    "A: 'How much is this T-shirt?' 👕 B: 'It's twenty-five euros.'",
+                    "A: 'I'd like to buy a souvenir.' 🎁 B: 'How about this key ring? It's three pounds.' 🔑",
+                    "A: 'I'll take it! Here you are.' 💷 B: 'Thank you! Have a nice day!'"
+                ],
+                "keywords": "revision, numbers, shopping, souvenirs"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is 75 in English? 🔢", "options": ["seventy-five", "seventy five", "seventy-fifth", "seventeen-five"], "correct": "seventy-five", "explanation": "75 — seventy-five (с дефисом!)", "topic": "numbers"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you say to ask the price? 💰", "options": ["How much is it?", "What time is it?", "Where is it?", "Who is it?"], "correct": "How much is it?", "explanation": "'How much is it?' — Сколько это стоит?", "topic": "phrases"},
+                {"id": 3, "type": "fill_blank", "question": "This mug is 30 euros. That's very ___ .", "correct": "expensive", "explanation": "30 евро за кружку? Слишком дорого! 💸", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "I'd like to buy a ___ for my mum. (сувенир)", "correct": "souvenir", "explanation": "souvenir — сувенир", "topic": "vocabulary"},
+                {"id": 5, "type": "fill_blank", "question": "20 + 30 = ___", "correct": "fifty", "explanation": "20 + 30 = 50 — fifty", "topic": "maths"},
+                {"id": 6, "type": "correct_mistake", "question": "I'd like to buy a key ring. How much is they?", "correct": "I'd like to buy a key ring. How much is it?", "explanation": "key ring — единственное число, поэтому 'is it', не 'are they'", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — The Worst Souvenir Ever (Диалог в магазине)",
+            "description": "Читаем смешную историю о покупке сувенира",
+            "grammar": {
+                "title": "Reading: The Worst Souvenir Ever",
+                "rule": "Сегодня читаем историю о том, как Самуил купил самый странный сувенир в мире.",
+                "examples": [],
+                "keywords": "reading, funny, souvenir, shopping"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "Where did Sam want to buy a souvenir? 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+                    "options": ["London", "Paris", "Edinburgh", "Rome"],
+                    "correct": "Edinburgh",
+                    "explanation": "Sam is on holiday in Edinburgh, Scotland.",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🛍️ THE WORST SOUVENIR EVER\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: A souvenir shop in Edinburgh, Scotland. Sam is on holiday with his family.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🛍️ SELLER: Good afternoon! Can I help you?\n\n😎 SAM: Yes, please. I'd like to buy a souvenir.\n\n🛍️ SELLER: Of course! We have key rings, mugs, T-shirts, caps, and teddy bears.\n\n😎 SAM: How much is this key ring? (points to a key ring with a Scottish flag)\n\n🛍️ SELLER: That's three pounds.\n\n😎 SAM: Hmm. That's cheap. But I want something SPECIAL.\n\n🛍️ SELLER: Special? How about this? (holds up a stuffed Nessie — the Loch Ness Monster)\n\n😎 SAM: A stuffed monster? How much is it?\n\n🛍️ SELLER: It's twenty-five pounds.\n\n😎 SAM: Twenty-five? That's expensive! But... it's funny. I'll take it!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Later, at the hotel)\n\n👩 MUM: Sam, what did you buy?\n\n😎 SAM: A souvenir of Nessie! (shows the stuffed monster)\n\n👩 MUM: How much was it?\n\n😎 SAM: Twenty-five pounds.\n\n👩 MUM: TWENTY-FIVE POUNDS?! For a stuffed toy?\n\n😎 SAM: But it's NESSIE! The Loch Ness Monster!\n\n👩 MUM: Sam, Nessie isn't real.\n\n😎 SAM: (gasps) WHAT?!\n\n👩 MUM: It's a legend. A story. Like... a fairy tale.\n\n😎 SAM: (looks at the stuffed monster) So... I paid twenty-five pounds for a fake monster?\n\n👩 MUM: Yes, Sam.\n\n😎 SAM: (whispers to Nessie) 'You lied to me, Nessie.' 😭\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Back in the shop the next day)\n\n😎 SAM: Excuse me. Can I return this?\n\n🛍️ SELLER: Is there something wrong with it?\n\n😎 SAM: Yes. It's not a real monster.\n\n🛍️ SELLER: (stares at Sam) Sir... it's a toy.\n\n😎 SAM: I know that NOW!\n\n🛍️ SELLER: I'm sorry, sir. No returns on souvenirs.\n\n😎 SAM: (looks at Nessie) 'Congratulations, Nessie. You ruined my holiday budget.' 💸\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n😎 SAM (to Nessie, in the hotel room): 'This is my life now. Sleeping with a fake monster I paid twenty-five pounds for.'\n\n(holds up Nessie) 'But you ARE cute. I guess we're friends now.' 🤝\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "How much was the key ring? 🔑",
+                    "options": ["One pound", "Three pounds", "Five pounds", "Twenty-five pounds"],
+                    "correct": "Three pounds",
+                    "explanation": "The seller says: 'That's three pounds.' for the key ring.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What souvenir did Sam buy? 🦕",
+                    "options": ["A key ring", "A mug", "A stuffed Nessie", "A T-shirt"],
+                    "correct": "A stuffed Nessie",
+                    "explanation": "Sam bought a stuffed Nessie (the Loch Ness Monster) for twenty-five pounds!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "How much did Sam pay for Nessie? 💰",
+                    "options": ["Three pounds", "Fifteen pounds", "Twenty pounds", "Twenty-five pounds"],
+                    "correct": "Twenty-five pounds",
+                    "explanation": "Sam paid twenty-five pounds for the stuffed Nessie.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "Was Sam able to return Nessie? 🔄",
+                    "options": ["Yes", "No", "Maybe", "We don't know"],
+                    "correct": "No",
+                    "explanation": "The seller says: 'No returns on souvenirs.' Sam is stuck with Nessie! 😭",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "Nessie is a real monster.",
+                    "correct": "False",
+                    "explanation": "Sam's mum says: 'Nessie isn't real. It's a legend.' Poor Sam learned this too late! 😢",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Sam was happy about his purchase at the end.",
+                    "correct": "True",
+                    "explanation": "At the end, Sam says: 'You ARE cute. I guess we're friends now.' He accepts his fate! 🤝🦕",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

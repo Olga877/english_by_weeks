@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Неделя | English by Weeks</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-buttons-top">
+            <button class="btn-home" id="homeBtnTop">🏠 Домой</button>
+            <button class="btn-back" id="backBtnTop">← Назад</button>
+        </div>
+
+        <header>
+            <h1 id="weekTitle">Загрузка...</h1>
+            <p id="weekDescription"></p>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓 Тёмная/Светлая</button>
+        </header>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-value" id="completedDays">0</div>
+                <div class="stat-label">дней пройдено</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgScore">0%</div>
+                <div class="stat-label">средний балл</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="currentStreak">0</div>
+                <div class="stat-label">серия 🔥</div>
+            </div>
+        </div>
+
+        <div class="days-container" id="daysContainer"></div>
+
+        <div class="nav-buttons-bottom">
+            <button class="btn-home" id="homeBtnBottom">🏠 Домой</button>
+            <button class="btn-back" id="backBtnBottom">← Назад</button>
+        </div>
+    </div>
+
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/week.js"></script>
+</body>
+</html>

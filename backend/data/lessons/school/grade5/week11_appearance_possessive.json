@@ -1,0 +1,231 @@
+{
+    "week_id": "week11_appearance_possessive",
+    "title": "👀 Who's Who? Appearance & Possession",
+    "description": "Учим внешность, притяжательный падеж (чей?), вопросительное слово whose и повелительное наклонение. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "👀",
+    "order_num": 11,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Appearance — Hair and Eyes",
+            "description": "Учим описывать внешность: волосы и глаза",
+            "grammar": {
+                "title": "Appearance — Hair and Eyes",
+                "rule": "Чтобы описать внешность человека, используем:\n\n👧 Hair (волосы): long — длинные, short — короткие, curly — кудрявые, straight — прямые, blonde — светлые, brown — коричневые, black — чёрные, red — рыжие\n\n👀 Eyes (глаза): blue — голубые, green — зелёные, brown — карие, grey — серые\n\n🎯 Структура:\n✅ She has got long blonde hair.\n✅ He has got short brown hair and blue eyes.\n✅ I have got curly red hair.\n\n🎯 Мем: 'I have got brown hair. My mum says it's dirty blonde. It's brown, Mum!' 😂",
+                "examples": [
+                    "Leo: 'I have got short brown hair and brown eyes. Very boring.' 🟤",
+                    "Mia: 'She has got long blonde hair and blue eyes. Like a princess!' 👸",
+                    "Sam: 'He has got curly red hair. People call him a carrot.' 🥕😭"
+                ],
+                "keywords": "long, short, curly, straight, blonde, brown, black, red, blue, green, brown, grey, have got"
+            },
+            "vocabulary": [
+                {"icon": "👧", "word": "long hair", "transcription": "/lɒŋ heər/", "translation": "длинные волосы", "example": "She has got long hair.", "context_translation": "длинные волосы", "context_example": "У неё длинные волосы."},
+                {"icon": "👦", "word": "short hair", "transcription": "/ʃɔːt heər/", "translation": "короткие волосы", "example": "He has got short hair.", "context_translation": "короткие волосы", "context_example": "У него короткие волосы."},
+                {"icon": "🐑", "word": "curly hair", "transcription": "/ˈkɜː.li heər/", "translation": "кудрявые волосы", "example": "My sister has got curly hair.", "context_translation": "кудрявые волосы", "context_example": "У моей сестры кудрявые волосы."},
+                {"icon": "📏", "word": "straight hair", "transcription": "/streɪt heər/", "translation": "прямые волосы", "example": "I have got straight hair.", "context_translation": "прямые волосы", "context_example": "У меня прямые волосы."},
+                {"icon": "💛", "word": "blonde hair", "transcription": "/blɒnd heər/", "translation": "светлые волосы", "example": "He has got blonde hair.", "context_translation": "светлые волосы", "context_example": "У него светлые волосы."},
+                {"icon": "💙", "word": "blue eyes", "transcription": "/bluː aɪz/", "translation": "голубые глаза", "example": "She has got blue eyes.", "context_translation": "голубые глаза", "context_example": "У неё голубые глаза."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What do you call hair that is not straight? 🐑", "options": ["Long hair", "Short hair", "Curly hair", "Blonde hair"], "correct": "Curly hair", "explanation": "Curly hair — кудрявые волосы! 🐑", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "What colour are these eyes? 💙", "options": ["Brown", "Blue", "Green", "Grey"], "correct": "Blue", "explanation": "Blue eyes — голубые глаза! 💙", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "She has got ___ hair. (длинные)", "correct": "long", "explanation": "Long hair — длинные волосы! 👧", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "He has got ___ eyes. (карие)", "correct": "brown", "explanation": "Brown eyes — карие глаза! 🤎", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "People with red hair are sometimes called 'carrots'.", "correct": "True", "explanation": "Yes, Sam says people call him a carrot! 🥕", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Appearance — Height and Build",
+            "description": "Учим описывать рост и телосложение",
+            "grammar": {
+                "title": "Appearance — Height and Build",
+                "rule": "Продолжаем описывать внешность:\n\n📏 Рост (height): tall — высокий, short — низкий, medium height — среднего роста\n\n🏋️ Телосложение (build): thin — худой, plump — полный, athletic — спортивный, well-built — крепкого телосложения\n\n🎯 Структура:\n✅ He is tall and thin.\n✅ She is short and plump.\n✅ My brother is athletic.\n\n🎯 Мем: 'I am tall... when I stand on my bed.' 🛏️😅",
+                "examples": [
+                    "Leo: 'I am medium height and thin. I want to be tall!' 📏",
+                    "Mia: 'My dad is tall and well-built. He plays basketball.' 🏀",
+                    "Sam: 'My little brother is short and plump. He's like a little potato.' 🥔"
+                ],
+                "keywords": "tall, short, medium height, thin, plump, athletic, well-built"
+            },
+            "vocabulary": [
+                {"icon": "🦒", "word": "tall", "transcription": "/tɔːl/", "translation": "высокий", "example": "My father is very tall.", "context_translation": "высокий", "context_example": "Мой папа очень высокий."},
+                {"icon": "🐧", "word": "short", "transcription": "/ʃɔːt/", "translation": "низкий", "example": "My little brother is short.", "context_translation": "низкий", "context_example": "Мой младший брат низкий."},
+                {"icon": "🧍", "word": "thin", "transcription": "/θɪn/", "translation": "худой", "example": "Her brother is tall and thin.", "context_translation": "худой", "context_example": "Её брат высокий и худой."},
+                {"icon": "🐻", "word": "plump", "transcription": "/plʌmp/", "translation": "полный", "example": "My grandmother is short and plump.", "context_translation": "полный", "context_example": "Моя бабушка низкая и полная."},
+                {"icon": "💪", "word": "athletic", "transcription": "/æθˈlet.ɪk/", "translation": "спортивный", "example": "He has an athletic build.", "context_translation": "спортивный", "context_example": "У него спортивное телосложение."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is the opposite of 'tall'? 🦒", "options": ["Thin", "Short", "Plump", "Athletic"], "correct": "Short", "explanation": "Short — низкий, противоположность tall! 🐧", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "Which word describes someone who is not thin? 🐻", "options": ["Tall", "Short", "Plump", "Athletic"], "correct": "Plump", "explanation": "Plump — полный, пухлый! 🐻", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "A basketball player is usually ___ . (tall / short)", "correct": "tall", "explanation": "Basketball players are tall! 🏀", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "My grandpa is short and ___ . (thin / plump)", "correct": "plump", "explanation": "Plump — пухлый, как дедушка! 👴", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "Someone who is 'athletic' is good at sports.", "correct": "True", "explanation": "Athletic — спортивный, хорошо занимается спортом! 💪", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — Possessive ('s) and Whose",
+            "description": "Учим притяжательный падеж и вопрос 'чей?'",
+            "grammar": {
+                "title": "Possessive ('s) and Whose",
+                "rule": "Притяжательный падеж показывает, КОМУ ЧТО-ТО ПРИНАДЛЕЖИТ.\n\n📌 Добавляем 's к имени или существительному:\n✅ This is Leo's phone. — Это телефон ЛЕО.\n✅ That is Mia's bag. — Это сумка МИИ.\n✅ My brother's room is a mess. — Комната МОЕГО БРАТА — беспорядок.\n\n📌 Для множественного числа (оканчивается на s) добавляем только апостроф:\n✅ My parents' car is red. — Машина МОИХ РОДИТЕЛЕЙ красная.\n✅ The girls' bags are here. — Сумки ДЕВОЧЕК здесь.\n\n📌 Вопрос whose (чей?):\n❓ Whose phone is this? — Чей это телефон?\n✅ It's Leo's. — Лео.\n\n🎯 Мем: 'Whose pizza is this? — It's MINE. Don't touch!' 🍕",
+                "examples": [
+                    "Leo: 'Whose charger is this? — It's Sam's. He always forgets it.' 🔋",
+                    "Mia: 'My sister's hair is blonde. My hair is brown. We are different!' 👩",
+                    "Sam: 'My parents' car is old. My grandparents' car is new. Unfair!' 🚗"
+                ],
+                "keywords": "'s, s', whose, possession, belonging"
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "whose", "transcription": "/huːz/", "translation": "чей", "example": "Whose phone is this?", "context_translation": "чей", "context_example": "Чей это телефон?"},
+                {"icon": "🎒", "word": "bag", "transcription": "/bæɡ/", "translation": "сумка", "example": "Whose bag is this?", "context_translation": "сумка", "context_example": "Чья это сумка?"},
+                {"icon": "🔑", "word": "keys", "transcription": "/kiːz/", "translation": "ключи", "example": "These are my dad's keys.", "context_translation": "ключи", "context_example": "Это ключи моего папы."},
+                {"icon": "📚", "word": "notebook", "transcription": "/ˈnəʊt.bʊk/", "translation": "тетрадь", "example": "That is Mia's notebook.", "context_translation": "тетрадь", "context_example": "Это тетрадь Мии."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "How do you say that the phone belongs to Leo? 📱", "options": ["Leo phone", "Leo's phone", "Leos phone", "Phone of Leo"], "correct": "Leo's phone", "explanation": "Leo's phone — телефон Лео! 📱", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Whose bag is this? 🎒", "options": ["It's Mia.", "It's Mia's.", "It's Mias.", "It's of Mia."], "correct": "It's Mia's.", "explanation": "Mia's bag — сумка Мии! 🎒", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "My ___ (parents) car is blue.", "correct": "parents'", "explanation": "Parents' car — машина родителей (апостроф после s)! 🚗", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ (Чей) pencil is this? ✏️", "correct": "Whose", "explanation": "Whose — чей? ✏️", "topic": "grammar"},
+                {"id": 5, "type": "true_false", "question": "For plural nouns ending in s, we add 's.", "correct": "False", "explanation": "For plurals ending in s, we add just an apostrophe: parents' car 🚗", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Grammar — Imperative (Commands)",
+            "description": "Учим повелительное наклонение (команды, просьбы)",
+            "grammar": {
+                "title": "Imperative — Commands and Requests",
+                "rule": "Повелительное наклонение используется для КОМАНД, ПРОСЬБ и ИНСТРУКЦИЙ.\n\n📌 Для команды используем глагол без to:\n✅ Sit down! — Сядь!\n✅ Open your book! — Открой книгу!\n✅ Listen to me! — Слушай меня!\n\n📌 Для вежливой просьбы добавляем please:\n✅ Please close the door. — Пожалуйста, закрой дверь.\n✅ Sit down, please. — Садись, пожалуйста.\n\n📌 Для отрицания используем Don't:\n❌ Don't run! — Не бегай!\n❌ Don't touch my phone! — Не трогай мой телефон!\n\n🎯 Мем: 'Don't wake me up. I'm sleeping. Please.' 😴",
+                "examples": [
+                    "Teacher: 'Open your books to page 42.' 📖",
+                    "Mum: 'Don't forget to do your homework!' 📚",
+                    "Leo: 'Please don't eat my pizza. It's mine!' 🍕"
+                ],
+                "keywords": "imperative, commands, don't, please, sit down, open, close, listen"
+            },
+            "vocabulary": [
+                {"icon": "🚪", "word": "open", "transcription": "/ˈəʊ.pən/", "translation": "открыть", "example": "Open the window, please.", "context_translation": "открыть", "context_example": "Открой окно, пожалуйста."},
+                {"icon": "🚪", "word": "close", "transcription": "/kləʊz/", "translation": "закрыть", "example": "Close the door.", "context_translation": "закрыть", "context_example": "Закрой дверь."},
+                {"icon": "📖", "word": "open your book", "transcription": "/ˈəʊ.pən jɔː bʊk/", "translation": "открой книгу", "example": "Open your book, please.", "context_translation": "открой книгу", "context_example": "Открой свою книгу, пожалуйста."},
+                {"icon": "🤫", "word": "be quiet", "transcription": "/biː ˈkwaɪ.ət/", "translation": "будь тише", "example": "Be quiet! The baby is sleeping.", "context_translation": "будь тише", "context_example": "Тише! Ребёнок спит."},
+                {"icon": "🏃", "word": "don't run", "transcription": "/dəʊnt rʌn/", "translation": "не бегай", "example": "Don't run in the hallway!", "context_translation": "не бегай", "context_example": "Не бегай в коридоре!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What does the teacher say to start the lesson? 📖", "options": ["Close your book.", "Open your book.", "Don't open your book.", "Sit on your book."], "correct": "Open your book.", "explanation": "Teacher says: 'Open your book' — откройте книгу! 📖", "topic": "phrases"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you say when you want someone to be silent? 🤫", "options": ["Be quiet.", "Don't be quiet.", "Be noisy.", "Don't sit."], "correct": "Be quiet.", "explanation": "Be quiet — будь тише! 🤫", "topic": "phrases"},
+                {"id": 3, "type": "fill_blank", "question": "___ (Don't / Do) run in the classroom! 🏃", "correct": "Don't", "explanation": "Don't run — не бегай! 🏃❌", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ (Close / Open) the door. It's cold outside! 🥶", "correct": "Close", "explanation": "Close the door — закрой дверь! 🚪", "topic": "phrases"},
+                {"id": 5, "type": "true_false", "question": "'Please' is used to make a command more polite.", "correct": "True", "explanation": "Yes! Please makes commands more polite! 🙏", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Appearance + Possessive + Imperative",
+            "description": "Повторяем всё вместе",
+            "grammar": {
+                "title": "Revision: Appearance, Possessive, Imperative",
+                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Внешность: long/short/curly/straight hair, blonde/brown/black/red hair, blue/green/brown eyes, tall/short, thin/plump/athletic\n📌 Притяжательный падеж: Leo's phone, parents' car, Whose bag?\n📌 Повелительное наклонение: Open your book! Don't run! Please sit down.\n\n🎯 Структура: 'Whose curly hair is this? — It's Mia's.'",
+                "examples": [
+                    "Whose blue eyes are those? — They are my sister's. She has got beautiful eyes. 💙",
+                    "Don't eat my pizza! It's Leo's! 🍕",
+                    "Open your notebook and describe your best friend's appearance. 📓"
+                ],
+                "keywords": "revision, appearance, possessive, imperative"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Choose the correct sentence: 👧", "options": ["She has got long blonde hair.", "She has got blonde long hair.", "She has got hair long blonde.", "She have got long blonde hair."], "correct": "She has got long blonde hair.", "explanation": "Прилагательные в английском идут в определённом порядке: длинные, потом цвет! 👧", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Whose bag is this? 🎒", "options": ["It's my sisters.", "It's my sister's.", "It's my sister.", "It's sisters my."], "correct": "It's my sister's.", "explanation": "My sister's bag — сумка моей сестры! 🎒", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ (Whose / Who's) hat is this? 🧢", "correct": "Whose", "explanation": "Whose — чей? (не путай с who's = who is)! 🧢", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ (Don't / Do) touch my phone! 📱", "correct": "Don't", "explanation": "Don't touch — не трогай! ❌", "topic": "grammar"},
+                {"id": 5, "type": "fill_blank", "question": "He is tall and ___ . (thin / thick)", "correct": "thin", "explanation": "Thin — худой! 🧍", "topic": "vocabulary"},
+                {"id": 6, "type": "correct_mistake", "question": "She have got curly hair.", "correct": "She has got curly hair.", "explanation": "She has got, не have got! 👩", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — The Lost and Found Mystery",
+            "description": "Читаем детективную историю о потерянных вещах",
+            "grammar": {
+                "title": "Reading: The Lost and Found Mystery",
+                "rule": "Сегодня читаем историю о том, как Leo, Mia и Sam расследуют, кому принадлежат потерянные вещи. Используем whose, 's и imperative!",
+                "examples": [],
+                "keywords": "reading, mystery, whose, possessive, imperative"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What was in the first mystery box? 📦",
+                    "options": ["A phone", "A hat", "A pair of glasses", "A notebook"],
+                    "correct": "A hat",
+                    "explanation": "The first box had a hat inside.",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🕵️ THE LOST AND FOUND MYSTERY\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: School Lost and Found office. Three boxes of lost items.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: 'Look! Three mystery boxes! Let's find out who they belong to!'\n\nMIA: 'Open the first box, Leo.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Leo opens Box 1)\n\nLEO: 'A hat! A red baseball cap. Whose hat is this?'\n\nMIA: 'There's a name inside: SAM.'\n\nSAM: 'Hey! That's my hat! Where was it?'\n\nLEO: 'In the Lost and Found. Don't lose it again!'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Box 2)\n\nMIA: 'Open it, Sam.'\n\nSAM: (opens) 'A pair of glasses. Whose glasses are these?'\n\nLEO: 'Try them on, Sam.'\n\nSAM: (puts on glasses) 'Everything is blurry! These aren't mine.'\n\nMIA: 'Whose are they? They have flowers on the frame. They look like...'\n\nLEO: 'They're Ms. Johnson's! I've seen her wear them!'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Box 3)\n\nMIA: 'Last box! Open it, Leo.'\n\nLEO: (opens) 'A notebook. A pink notebook with a cat on the cover. Whose notebook is this?'\n\nSAM: 'Open it and look inside.'\n\nLEO: (opens) 'It's Mia's! Look — it has her name on the first page!'\n\nMIA: 'MY notebook! I thought I lost it forever!'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: 'Don't lose your things again, guys!'\n\nSAM: 'Be quiet, Leo! You lose your phone every week!'\n\nLEO: 'That's different. My phone is special.'\n\nMIA: 'Please close the boxes. We're done.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSAM: 'Whose turn is it to return Ms. Johnson's glasses?'\n\nEVERYONE looks at LEO.\n\nLEO: 'Why me?'\n\nMIA: 'Because you found them. Don't be lazy!'\n\nLEO: (sighs) 'Fine. But next time, it's your turn.' 👓\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "Whose hat was in Box 1? 🧢",
+                    "options": ["Leo's", "Mia's", "Sam's", "Ms. Johnson's"],
+                    "correct": "Sam's",
+                    "explanation": "The hat had SAM written inside. It was Sam's hat!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What was in Box 2? 👓",
+                    "options": ["A hat", "A notebook", "A pair of glasses", "A phone"],
+                    "correct": "A pair of glasses",
+                    "explanation": "Box 2 had a pair of glasses with flowers on the frame.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "Whose notebook was in Box 3? 📓",
+                    "options": ["Leo's", "Mia's", "Sam's", "Ms. Johnson's"],
+                    "correct": "Mia's",
+                    "explanation": "The notebook had Mia's name on the first page!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "Who lost their phone every week? 📱",
+                    "options": ["Sam", "Mia", "Leo", "Ms. Johnson"],
+                    "correct": "Leo",
+                    "explanation": "Sam says: 'You lose your phone every week!' to Leo.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "The glasses belonged to Leo.",
+                    "correct": "False",
+                    "explanation": "The glasses belonged to Ms. Johnson, not Leo! 👓",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Leo was happy to return Ms. Johnson's glasses.",
+                    "correct": "False",
+                    "explanation": "Leo sighed and said 'Fine. But next time, it's your turn.' He wasn't happy! 😒",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "week_id": "week7_rooms_ordinals",
+    "title": "🏠 Rooms & Floors",
+    "description": "Учим названия комнат и порядковые числительные (1st-20th) с юмором. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🏠",
+    "order_num": 7,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Rooms in a House",
+            "description": "Учим названия комнат",
+            "grammar": {
+                "title": "Types of Rooms",
+                "rule": "В каждом доме есть разные комнаты. Вот основные:\n\n🏠 living room — гостиная (место для отдыха, телевизор, диван)\n🍳 kitchen — кухня (место, где готовят еду)\n🛏️ bedroom — спальня (место для сна)\n🛁 bathroom — ванная (место, где принимают душ)\n🍽️ dining room — столовая (место для обеда)\n📚 study — кабинет (место для учёбы или работы)\n🚗 garage — гараж (место для машины)\n🧺 laundry room — прачечная (место для стирки)\n\n🎯 Вопрос: What room is this? — Что это за комната?",
+                "examples": [
+                    "Leo: 'I sleep in my bedroom. Sometimes I also do homework there... but mostly sleep.' 🛏️😴",
+                    "Mia: 'Mum is in the kitchen. She's making pizza. The best room ever!' 🍕",
+                    "Sam: 'The living room has a huge TV. That's where I watch YouTube.' 📺"
+                ],
+                "keywords": "living room, kitchen, bedroom, bathroom, dining room, study, garage"
+            },
+            "vocabulary": [
+                {"icon": "🛋️", "word": "living room", "transcription": "/ˈlɪv.ɪŋ ruːm/", "translation": "гостиная", "example": "We watch TV in the living room.", "context_translation": "гостиная", "context_example": "Мы смотрим телевизор в гостиной."},
+                {"icon": "🍳", "word": "kitchen", "transcription": "/ˈkɪtʃ.ɪn/", "translation": "кухня", "example": "Mum is cooking in the kitchen.", "context_translation": "кухня", "context_example": "Мама готовит на кухне."},
+                {"icon": "🛏️", "word": "bedroom", "transcription": "/ˈbed.ruːm/", "translation": "спальня", "example": "My bedroom is my favourite place.", "context_translation": "спальня", "context_example": "Моя спальня — моё любимое место."},
+                {"icon": "🛁", "word": "bathroom", "transcription": "/ˈbɑːθ.ruːm/", "translation": "ванная", "example": "I take a shower in the bathroom.", "context_translation": "ванная", "context_example": "Я принимаю душ в ванной."},
+                {"icon": "🍽️", "word": "dining room", "transcription": "/ˈdaɪ.nɪŋ ruːm/", "translation": "столовая", "example": "We eat dinner in the dining room.", "context_translation": "столовая", "context_example": "Мы ужинаем в столовой."},
+                {"icon": "📚", "word": "study", "transcription": "/ˈstʌd.i/", "translation": "кабинет", "example": "Dad works in his study.", "context_translation": "кабинет", "context_example": "Папа работает в своём кабинете."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Where do you sleep? 🛏️", "options": ["Kitchen", "Bathroom", "Bedroom", "Living room"], "correct": "Bedroom", "explanation": "Bedroom — спальня, место для сна! 😴", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "Where does mum cook dinner? 🍳", "options": ["Bathroom", "Kitchen", "Bedroom", "Garage"], "correct": "Kitchen", "explanation": "Kitchen — кухня, место для готовки! 👩‍🍳", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "I watch TV in the ___ room. (live / living)", "correct": "living", "explanation": "Living room — гостиная", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "We eat dinner in the ___ room. (dine / dining)", "correct": "dining", "explanation": "Dining room — столовая", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "You take a shower in the kitchen.", "correct": "False", "explanation": "You take a shower in the bathroom, not in the kitchen! 🚿", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: More Rooms and Places",
+            "description": "Учим дополнительные комнаты и места в доме",
+            "grammar": {
+                "title": "More Rooms",
+                "rule": "Продолжаем изучать комнаты и места в доме:\n\n🚗 garage — гараж\n🧺 laundry room — прачечная\n🎮 game room — игровая комната\n🏊 swimming pool — бассейн\n🌳 garden — сад\n🪑 attic — чердак\n地下室 basement — подвал\n\n🎯 Вопрос: Where is the car? — Где машина?\n🎯 Ответ: The car is in the garage.",
+                "examples": [
+                    "Sam: 'My dream house has a game room with five consoles!' 🎮",
+                    "Mia: 'We have a swimming pool in the garden. In summer, it's amazing!' 🏊",
+                    "Leo: 'Our attic is full of old toys and scary spiders.' 🕷️😱"
+                ],
+                "keywords": "garage, laundry room, game room, swimming pool, garden, attic, basement"
+            },
+            "vocabulary": [
+                {"icon": "🚗", "word": "garage", "transcription": "/ˈɡær.ɑːʒ/", "translation": "гараж", "example": "The car is in the garage.", "context_translation": "гараж", "context_example": "Машина в гараже."},
+                {"icon": "🧺", "word": "laundry room", "transcription": "/ˈlɔːn.dri ruːm/", "translation": "прачечная", "example": "Mum does laundry in the laundry room.", "context_translation": "прачечная", "context_example": "Мама стирает в прачечной."},
+                {"icon": "🎮", "word": "game room", "transcription": "/ˈɡeɪm ruːm/", "translation": "игровая комната", "example": "The game room has a PlayStation and Xbox.", "context_translation": "игровая комната", "context_example": "В игровой комнате есть PlayStation и Xbox."},
+                {"icon": "🏊", "word": "swimming pool", "transcription": "/ˈswɪm.ɪŋ puːl/", "translation": "бассейн", "example": "We swim in the swimming pool in summer.", "context_translation": "бассейн", "context_example": "Мы плаваем в бассейне летом."},
+                {"icon": "🌳", "word": "garden", "transcription": "/ˈɡɑː.dən/", "translation": "сад", "example": "Flowers grow in the garden.", "context_translation": "сад", "context_example": "Цветы растут в саду."},
+                {"icon": "🪑", "word": "attic", "transcription": "/ˈæt.ɪk/", "translation": "чердак", "example": "Old toys are in the attic.", "context_translation": "чердак", "context_example": "Старые игрушки на чердаке."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Where do you park the car? 🚗", "options": ["Garden", "Garage", "Attic", "Kitchen"], "correct": "Garage", "explanation": "Garage — гараж для машины! 🚘", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "Where do you swim in summer? 🏊", "options": ["Bathroom", "Swimming pool", "Kitchen", "Bedroom"], "correct": "Swimming pool", "explanation": "Swimming pool — бассейн! 💦", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "Old things are in the ___ . (attic / garage)", "correct": "attic", "explanation": "Attic — чердак, место для старых вещей 📦", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "Flowers grow in the ___ . (garden / garage)", "correct": "garden", "explanation": "Garden — сад для цветов 🌷", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "A game room is for cooking.", "correct": "False", "explanation": "A game room is for playing video games, not cooking! 🎮", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Ordinal Numbers 1st-10th",
+            "description": "Учим порядковые числительные от первого до десятого",
+            "grammar": {
+                "title": "Ordinal Numbers 1st-10th",
+                "rule": "Порядковые числительные показывают порядок предметов (первый, второй, третий...).\n\n1st — first 🥇\n2nd — second 🥈\n3rd — third 🥉\n4th — fourth\n5th — fifth\n6th — sixth\n7th — seventh\n8th — eighth\n9th — ninth\n10th — tenth\n\n🎯 Лайфхак: Запомни исключения — first, second, third, fifth, eighth, ninth! Остальные просто добавляют -th.\n🎯 Вопрос: Which floor? — Какой этаж?",
+                "examples": [
+                    "Leo: 'I live on the first floor. My room is the first door on the left.' 🚪",
+                    "Mia: 'My birthday is on the fifth of May!' 🎂",
+                    "Sam: 'I was the second person to arrive at school. The first was the teacher!' 🏫"
+                ],
+                "keywords": "first, second, third, fourth, fifth, sixth, seventh, eighth, ninth, tenth"
+            },
+            "vocabulary": [
+                {"icon": "🥇", "word": "first", "transcription": "/fɜːst/", "translation": "первый", "example": "I was first in the race!", "context_translation": "первый", "context_example": "Я был первым в гонке!"},
+                {"icon": "🥈", "word": "second", "transcription": "/ˈsek.ənd/", "translation": "второй", "example": "My birthday is on the second of June.", "context_translation": "второй", "context_example": "Мой день рождения второго июня."},
+                {"icon": "🥉", "word": "third", "transcription": "/θɜːd/", "translation": "третий", "example": "The third lesson is Maths.", "context_translation": "третий", "context_example": "Третий урок — математика."},
+                {"icon": "4️⃣", "word": "fourth", "transcription": "/fɔːθ/", "translation": "четвёртый", "example": "I live on the fourth floor.", "context_translation": "четвёртый", "context_example": "Я живу на четвёртом этаже."},
+                {"icon": "5️⃣", "word": "fifth", "transcription": "/fɪfθ/", "translation": "пятый", "example": "Friday is the fifth day of the week.", "context_translation": "пятый", "context_example": "Пятница — пятый день недели."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is the ordinal number for 1? 🥇", "options": ["One", "First", "Once", "Oneth"], "correct": "First", "explanation": "1st — first! 🥇", "topic": "numbers"},
+                {"id": 2, "type": "multiple_choice", "question": "What is the ordinal number for 3? 🥉", "options": ["Three", "Third", "Threeth", "Thirdth"], "correct": "Third", "explanation": "3rd — third! 🥉", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "5th — ___", "correct": "fifth", "explanation": "5th — fifth (исключение, не fiveth!)", "topic": "numbers"},
+                {"id": 4, "type": "fill_blank", "question": "8th — ___", "correct": "eighth", "explanation": "8th — eighth (только одна 't'!)", "topic": "numbers"},
+                {"id": 5, "type": "true_false", "question": "The ordinal number for 2 is 'twoth'.", "correct": "False", "explanation": "2nd — second, не 'twoth'! 🥈", "topic": "numbers"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Ordinal Numbers 11th-20th",
+            "description": "Учим порядковые числительные от одиннадцатого до двадцатого",
+            "grammar": {
+                "title": "Ordinal Numbers 11th-20th",
+                "rule": "Продолжаем изучать порядковые числительные:\n\n11th — eleventh\n12th — twelfth\n13th — thirteenth\n14th — fourteenth\n15th — fifteenth\n16th — sixteenth\n17th — seventeenth\n18th — eighteenth\n19th — nineteenth\n20th — twentieth\n\n🎯 Лайфхак: С 13 по 19 просто добавляем -th к числу (four → fourteenth). Исключение — 12th (twelfth, не twelveth!) и 20th (twentieth, заменили y на ie).",
+                "examples": [
+                    "Leo: 'The eleventh of November is a holiday.' 📅",
+                    "Mia: 'My grandma is eighty years old. She was born on the twentieth of March.' 👵",
+                    "Sam: 'I have fifteen problems in maths. The twelfth is the hardest!' 🤯"
+                ],
+                "keywords": "eleventh, twelfth, thirteenth, fourteenth, fifteenth, sixteenth, seventeenth, eighteenth, nineteenth, twentieth"
+            },
+            "vocabulary": [
+                {"icon": "1️⃣1️⃣", "word": "eleventh", "transcription": "/ɪˈlev.ənθ/", "translation": "одиннадцатый", "example": "November is the eleventh month.", "context_translation": "одиннадцатый", "context_example": "Ноябрь — одиннадцатый месяц."},
+                {"icon": "1️⃣2️⃣", "word": "twelfth", "transcription": "/twelfθ/", "translation": "двенадцатый", "example": "December is the twelfth month.", "context_translation": "двенадцатый", "context_example": "Декабрь — двенадцатый месяц."},
+                {"icon": "1️⃣3️⃣", "word": "thirteenth", "transcription": "/ˌθɜːˈtiːnθ/", "translation": "тринадцатый", "example": "Friday the thirteenth is unlucky for some!", "context_translation": "тринадцатый", "context_example": "Пятница тринадцатое — несчастливый день для некоторых!"},
+                {"icon": "1️⃣5️⃣", "word": "fifteenth", "transcription": "/ˌfɪfˈtiːnθ/", "translation": "пятнадцатый", "example": "My birthday is on the fifteenth of May.", "context_translation": "пятнадцатый", "context_example": "Мой день рождения пятнадцатого мая."},
+                {"icon": "2️⃣0️⃣", "word": "twentieth", "transcription": "/ˈtwen.ti.əθ/", "translation": "двадцатый", "example": "The twentieth century was from 1901 to 2000.", "context_translation": "двадцатый", "context_example": "Двадцатый век был с 1901 по 2000 год."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is the ordinal number for 12? 🔢", "options": ["Twelveth", "Twelfth", "Twelvth", "Twelve-th"], "correct": "Twelfth", "explanation": "12th — twelfth (не twelveth!)", "topic": "numbers"},
+                {"id": 2, "type": "multiple_choice", "question": "What is the ordinal number for 20? 🎂", "options": ["Twentyth", "Twentith", "Twentieth", "Twentiethe"], "correct": "Twentieth", "explanation": "20th — twentieth (y → ie!)", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "13th — ___", "correct": "thirteenth", "explanation": "13th — thirteenth", "topic": "numbers"},
+                {"id": 4, "type": "fill_blank", "question": "15th — ___", "correct": "fifteenth", "explanation": "15th — fifteenth (fifty? Нет, fifteen!)", "topic": "numbers"},
+                {"id": 5, "type": "true_false", "question": "The ordinal number for 11 is 'eleventh'.", "correct": "True", "explanation": "Yes! 11th — eleventh 👍", "topic": "numbers"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Rooms & Ordinals",
+            "description": "Повторяем комнаты и порядковые числительные вместе",
+            "grammar": {
+                "title": "Revision: Rooms & Ordinal Numbers",
+                "rule": "Сегодня соединяем комнаты и порядковые числительные!\n\n📌 Комнаты: living room, kitchen, bedroom, bathroom, dining room, study, garage, garden, attic\n📌 Порядковые числительные: 1st-20th\n\n🎯 Структура: 'The kitchen is on the first floor.'\n🎯 Вопрос: 'Which room is on the third floor?'\n🎯 Ответ: 'The bathroom is on the third floor.'",
+                "examples": [
+                    "Leo: 'My bedroom is on the second floor. The first floor has the living room and kitchen.' 🏠",
+                    "Mia: 'The bathroom is on the third floor. It's very tiny!' 🚿",
+                    "Sam: 'The attic is on the top floor. It's scary up there!' 👻"
+                ],
+                "keywords": "revision, rooms, ordinal numbers"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Which room is on the first floor? 🥇", "options": ["Bedroom", "Bathroom", "Living room", "Attic"], "correct": "Living room", "explanation": "Usually, the living room is on the first floor! 🛋️", "topic": "reading"},
+                {"id": 2, "type": "multiple_choice", "question": "What is the ordinal number for 6? 🔢", "options": ["Sixth", "Sixty", "Sixthth", "Sixteen"], "correct": "Sixth", "explanation": "6th — sixth", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "The ___ (4th) of July is a holiday in the USA. 🎆", "correct": "fourth", "explanation": "4th of July — Fourth of July", "topic": "numbers"},
+                {"id": 4, "type": "fill_blank", "question": "I sleep in the ___ . (living room / bedroom)", "correct": "bedroom", "explanation": "Bedroom — спальня для сна! 🛏️", "topic": "vocabulary"},
+                {"id": 5, "type": "fill_blank", "question": "The car is in the ___ . (garage / garden)", "correct": "garage", "explanation": "Garage — гараж для машины! 🚗", "topic": "vocabulary"},
+                {"id": 6, "type": "correct_mistake", "question": "I live on the twoth floor.", "correct": "I live on the second floor.", "explanation": "2nd — second, не 'twoth'!", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — The Mystery of the Third Floor",
+            "description": "Читаем детективную историю о загадочной комнате",
+            "grammar": {
+                "title": "Reading: The Mystery of the Third Floor",
+                "rule": "Сегодня читаем историю о семье, которая переехала в новый дом и обнаружила загадочную комнату...",
+                "examples": [],
+                "keywords": "reading, mystery, rooms, ordinal numbers"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "How many floors does the house have? 🏠",
+                    "options": ["Two", "Three", "Four", "Five"],
+                    "correct": "Three",
+                    "explanation": "The house has a first floor, second floor, and third floor.",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔍 THE MYSTERY OF THE THIRD FLOOR\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: The Johnson family moves into an old house. The house has three floors.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMUM: 'The kitchen and living room are on the first floor.'\n\nDAD: 'The children's bedrooms are on the second floor.'\n\nLEO: 'What's on the third floor?'\n\nDAD: 'Nothing. The third floor is just an empty attic.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(That night, Leo hears strange noises from the third floor. Bump. Bump. Bump.)\n\nLEO: (whispers to Mia) 'Do you hear that?'\n\nMIA: 'It's probably just a mouse.' 🐭\n\nLEO: 'A mouse that sounds like an elephant?'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(The next day, the children go upstairs to investigate.)\n\nMIA: 'The first floor is fine. The second floor is fine.'\n\nLEO: 'But the third floor... what is that room?'\n\n🚪 DOOR: 'DO NOT ENTER' (written in red letters)\n\nLEO: 'Mia, this is scary.'\n\nMIA: 'Don't be a baby, Leo.' (opens the door)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Inside the room, there is... A GUINEA PIG IN A TINY HOUSE! 🐹)\n\nMIA: 'It's a guinea pig!'\n\nLEO: 'That was the scary monster? A guinea pig?'\n\n🐹 GUINEA PIG: 'Wheek wheek!'\n\nLEO: (picks up the guinea pig) 'You scared me! But you're cute.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(Leo and Mia take the guinea pig downstairs.)\n\nMUM: 'Where did you find that?'\n\nLEO: 'On the third floor. In a tiny house.'\n\nMUM: 'Oh, that's Mr. Whiskers. The previous owner forgot him.'\n\nLEO: 'So... can we keep him?'\n\nMUM: 'Fine. But you clean his cage.'\n\nLEO: (looks at guinea pig) 'Welcome to the family, Mr. Whiskers. Now you live on the first floor with us.' 🐹\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n(That night, no strange noises. Just happy wheeking from the kitchen.)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What room is on the first floor? 🛋️",
+                    "options": ["Bedroom", "Attic", "Kitchen and living room", "Bathroom"],
+                    "correct": "Kitchen and living room",
+                    "explanation": "Mum says: 'The kitchen and living room are on the first floor.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What did Leo hear at night? ⚡",
+                    "options": ["Thunder", "A mouse", "Strange noises", "Music"],
+                    "correct": "Strange noises",
+                    "explanation": "Leo hears strange noises from the third floor: bump, bump, bump!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "What was on the third floor? 🐹",
+                    "options": ["A monster", "A dog", "A guinea pig", "A cat"],
+                    "correct": "A guinea pig",
+                    "explanation": "They found a guinea pig in a tiny house on the third floor!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "What is the guinea pig's name? 🏷️",
+                    "options": ["Mr. Whiskers", "Fluffy", "Leo", "Wheek"],
+                    "correct": "Mr. Whiskers",
+                    "explanation": "The guinea pig's name is Mr. Whiskers.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "The children's bedrooms are on the first floor.",
+                    "correct": "False",
+                    "explanation": "The children's bedrooms are on the second floor.",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Leo and Mia kept the guinea pig.",
+                    "correct": "True",
+                    "explanation": "Yes! They kept Mr. Whiskers. Mum said yes! 🐹",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

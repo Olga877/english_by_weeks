@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>English by Weeks — Английский для взрослых и школьников</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="data:,">
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EngWeeks">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 English by Weeks</h1>
+            <p>Учите английский неделя за неделей — с юмором и без скуки</p>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓 Тёмная/Светлая тема</button>
+        </header>
+
+        <div class="audience-switch">
+            <button id="adultsBtn" class="audience-btn">👨‍💼 Для взрослых (уровни A0-C2)</button>
+            <button id="schoolBtn" class="audience-btn">👩‍🎓 Для школьников (5-8 классы)</button>
+        </div>
+
+        <div id="levelsContainer" class="levels-grid">
+            <div class="loading">Загрузка...</div>
+        </div>
+    </div>
+
+     <!-- КНОПКА УСТАНОВКИ PWA (появляется автоматически) -->
+    <button id="installBtn" style="display: none; position: fixed; bottom: 20px; right: 20px; background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 30px; cursor: pointer; z-index: 1000; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+        📱 Установить приложение
+    </button>
+
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/index.js"></script>
+</body>
+</html>
