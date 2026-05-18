@@ -52,6 +52,7 @@ async function registerServiceWorker() {
             if (permission === 'granted') {
                 console.log('✅ Push notifications permission granted');
             }
+
             return registration;
         } catch (error) {
             console.error('❌ Service Worker registration failed:', error);

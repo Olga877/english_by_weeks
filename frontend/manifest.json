@@ -1,8 +1,9 @@
 {
+    "id": "/?lang=ru&audience=school",
     "name": "English by Weeks",
     "short_name": "EngWeeks",
     "description": "Учи английский язык неделя за неделей с юмором",
-    "start_url": "/static/index.html",
+    "start_url": "/static/index.html?utm_source=pwa",
     "display": "standalone",
     "theme_color": "#6366f1",
     "background_color": "#0f172a",
@@ -62,28 +63,12 @@
             "purpose": "any maskable"
         }
     ],
-    "screenshots": [
-        {
-            "src": "/static/screenshots/main.jpg",
-            "sizes": "1280x720",
-            "type": "image/jpeg",
-            "platform": "wide",
-            "label": "Главный экран с выбором уровней"
-        },
-        {
-            "src": "/static/screenshots/lesson.jpg",
-            "sizes": "1280x720",
-            "type": "image/jpeg",
-            "platform": "wide",
-            "label": "Страница урока с упражнениями"
-        }
-    ],
     "shortcuts": [
         {
             "name": "Для взрослых",
             "short_name": "Adult",
             "description": "Перейти к уровням для взрослых",
-            "url": "/static/index.html?audience=adults",
+            "url": "/static/index.html?audience=adults&utm_source=pwa",
             "icons": [
                 {
                     "src": "/static/icons/icon-96.png",
@@ -95,7 +80,7 @@
             "name": "Для школьников",
             "short_name": "School",
             "description": "Перейти к классам для школьников",
-            "url": "/static/index.html?audience=school",
+            "url": "/static/index.html?audience=school&utm_source=pwa",
             "icons": [
                 {
                     "src": "/static/icons/icon-96.png",
