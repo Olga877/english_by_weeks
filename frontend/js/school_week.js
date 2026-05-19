@@ -74,10 +74,10 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        const url = `/api/lessons/school/week/${currentGrade}/${currentWeekId}`;
-        console.log(`🔍 Fetching week from: ${url}`);
-
+        // Вместо API — загружаем из локального JSON
+        const url = `/english_by_weeks/frontend/${currentWeekId}.json`;
         const response = await fetch(url);
+
         if (!response.ok) throw new Error('Week not found');
         weekData = await response.json();
 
