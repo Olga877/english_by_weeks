@@ -4,16 +4,16 @@ const WEEKS_CACHE = 'weeks-v1';
 
 // Все статические файлы приложения
 const STATIC_ASSETS = [
-  '/static/',
-  '/static/index.html',
-  '/static/week.html',
-  '/static/school_week.html',
-  '/static/css/style.css',
-  '/static/js/common.js',
-  '/static/js/index.js',
-  '/static/js/week.js',
-  '/static/js/school_week.js',
-  '/static/manifest.json'
+  '/',
+  '/index.html',
+  '/week.html',
+  '/school_week.html',
+  '/css/style.css',
+  '/js/common.js',
+  '/js/index.js',
+  '/js/week.js',
+  '/js/school_week.js',
+  '/manifest.json'
 ];
 
 // Все JSON-файлы с уроками (5 класс)
@@ -122,8 +122,8 @@ async function sendDailyNotification() {
 
   self.registration.showNotification('📚 English by Weeks', {
     body: 'Пора пройти новый день! Ваш прогресс ждёт вас.',
-    icon: '/static/icons/icon-192.png',
-    badge: '/static/icons/icon-96.png',
+    icon: '/icons/icon-192.png',
+    badge: '/icons/icon-96.png',
     vibrate: [200, 100, 200]
   });
 }
@@ -131,6 +131,6 @@ async function sendDailyNotification() {
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
   event.waitUntil(
-    clients.openWindow('/static/index.html')
+    clients.openWindow('/index.html')
   );
 });
