@@ -8,11 +8,11 @@ const STATIC_ASSETS = [
   '/index.html',
   '/week.html',
   '/school_week.html',
-  '/css/style.css',
-  '/js/common.js',
-  '/js/index.js',
-  '/js/week.js',
-  '/js/school_week.js',
+  '/english_by_weeks/frontend/css/style.css',
+  '/english_by_weeks/frontend/js/common.js',
+  '/english_by_weeks/frontend/js/index.js',
+  '/english_by_weeks/frontend/js/week.js',
+  '/english_by_weeks/frontend/js/school_week.js',
   '/manifest.json'
 ];
 
