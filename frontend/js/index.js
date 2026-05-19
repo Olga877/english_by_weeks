@@ -46,13 +46,13 @@ const schoolGrades = [
 // Функция перехода к школьной неделе
 function goToWeek(gradeId, weekId) {
     sessionStorage.setItem('returnToPage', window.location.href);
-    window.location.href = `/static/school_week.html?grade=${gradeId}&week=${weekId}`;
+    window.location.href = `/english_by_weeks/frontend/school_week.html?grade=${gradeId}&week=${weekId}`;
 }
 
 // Функция перехода к взрослой неделе
 function goToAdultWeek(levelId, weekId) {
     sessionStorage.setItem('returnToPage', window.location.href);
-    window.location.href = `/static/week.html?level=${levelId}&week=${weekId}`;
+    window.location.href = `/english_by_weeks/frontend/week.html?level=${levelId}&week=${weekId}`;
 }
 
 // Инициализация страницы
