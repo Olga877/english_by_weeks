@@ -17,7 +17,7 @@ async function init() {
     console.log(`📌 grade: ${currentGrade}, week: ${currentWeekId}`);
 
     if (!currentGrade || !currentWeekId) {
-        window.location.href = '/static/index.html';
+        window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
         return;
     }
 
@@ -54,7 +54,7 @@ function setupNavigationButtons() {
 }
 
 function goHome() {
-    window.location.href = '/static/index.html';
+    window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
 }
 
 function goBack() {
@@ -65,10 +65,10 @@ function goBack() {
         return;
     }
 
-    if (document.referrer && document.referrer.includes('/static/')) {
+    if (document.referrer && document.referrer.includes('/english_by_weeks/frontend/')) {
         window.location.href = document.referrer;
     } else {
-        window.location.href = '/static/index.html';
+        window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
     }
 }
 
