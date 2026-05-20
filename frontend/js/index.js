@@ -51,7 +51,6 @@ function goToWeek(gradeId, weekId) {
 
 // Функция перехода к взрослой неделе
 function goToAdultWeek(levelId, weekId) {
-    sessionStorage.setItem('returnToPage', window.location.href);
     window.location.href = `/english_by_weeks/frontend/week.html?level=${levelId}&week=${weekId}`;
 }
 
