@@ -44,7 +44,7 @@ function loadTheme() {
 async function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         try {
-            const registration = await navigator.serviceWorker.register('/static/sw.js');
+            const registration = await navigator.serviceWorker.register('/english_by_weeks/frontend/sw.js');
             console.log('✅ Service Worker registered');
 
             // Запрашиваем разрешение на уведомления

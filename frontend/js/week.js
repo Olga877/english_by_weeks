@@ -17,7 +17,7 @@ async function init() {
     console.log(`📌 level: ${currentLevel}, week: ${currentWeekId}`);
 
     if (!currentLevel || !currentWeekId) {
-        window.location.href = '/static/index.html';
+        window.location.href = '/english_by_weeks/frontend/index.html';
         return;
     }
 
@@ -56,7 +56,7 @@ function setupNavigationButtons() {
 }
 
 function goHome() {
-    window.location.href = '/static/index.html';
+    window.location.href = '/english_by_weeks/frontend/index.html';
 }
 
 function goBack() {
@@ -68,7 +68,7 @@ function goBack() {
     }
 
     // Возвращаемся на страницу выбора уровней для взрослых
-    window.location.href = '/static/index.html?audience=adults';
+    window.location.href = '/english_by_weeks/frontend/index.html?audience=adults';
 }
 
 // ========== ЗАГРУЗКА ДАННЫХ ==========
