@@ -957,16 +957,21 @@ function setCurrentYear() {
     const yearSpan = document.getElementById('currentYear');
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
+        console.log('✅ Year set to:', yearSpan.textContent);
+    } else {
+        console.warn('⚠️ Element #currentYear not found yet, will retry...');
+        // Если элемент ещё не появился, пробуем снова через 100 мс
+        setTimeout(setCurrentYear, 100);
     }
 }
 
-// Автоматически вызываем при загрузке страницы
+// Запускаем после полной загрузки страницы
 if (typeof window !== 'undefined') {
-    // Если страница уже загружена
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', setCurrentYear);
     } else {
-        setCurrentYear();
+        // Если страница уже загружена, запускаем с небольшой задержкой
+        setTimeout(setCurrentYear, 50);
     }
 }
 
