@@ -680,3 +680,33 @@ header p {
 .footer-links {
     margin-top: 8px;
 }
+/* Блок "О проекте" */
+.about-section {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 40px 0;
+    border: 1px solid var(--border);
+}
+
+.about-icon {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.about-badge {
+    background: rgba(99, 102, 241, 0.1);
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 0.85rem;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .about-section {
+        padding: 20px;
+    }
+    .about-icon {
+        font-size: 3rem;
+    }
+}
