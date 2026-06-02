@@ -655,3 +655,28 @@ header p {
     .timetable-time { font-size: 0.7rem; padding: 4px; }
     .timetable-subject { font-size: 0.65rem; padding: 4px; }
 }
+
+/* Подвал */
+.site-footer {
+    text-align: center;
+    padding: 30px 20px 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.site-footer a {
+    color: var(--gray);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: var(--primary);
+}
+
+.footer-links {
+    margin-top: 8px;
+}
