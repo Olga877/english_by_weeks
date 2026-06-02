@@ -6,10 +6,11 @@
     box-sizing: border-box;
 }
 
+/* ========== БАЗОВЫЕ ПЕРЕМЕННЫЕ (запасной вариант) ========== */
 :root {
-    --primary: #6366f1;
-    --primary-dark: #4f46e5;
-    --secondary: #8b5cf6;
+    --primary: #f97316;
+    --primary-dark: #ea580c;
+    --secondary: #06b6d4;
     --success: #10b981;
     --danger: #ef4444;
     --warning: #f59e0b;
@@ -17,16 +18,42 @@
     --light: #f8fafc;
     --gray: #64748b;
     --card-bg: #ffffff;
-    --body-bg: #f1f5f9;
+    --body-bg: #fff7ed;
     --text: #334155;
-    --border: #e2e8f0;
+    --border: #fed7aa;
 }
 
-/* Тёмная тема — по умолчанию (старая, упадёт, если нет специфичной) */
+/* ========== СВЕТЛАЯ ТЕМА (школьная, по умолчанию) ========== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--body-bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* ========== ВЗРОСЛАЯ ТЕМА (светлая) ========== */
+body.adult-theme {
+    --primary: #0f3b5c;
+    --primary-dark: #0b2b44;
+    --secondary: #2e8b57;
+    --success: #2e8b57;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --dark: #1e293b;
+    --light: #f8fafc;
+    --gray: #64748b;
+    --card-bg: #ffffff;
+    --body-bg: #f1f5f9;
+    --text: #1e293b;
+    --border: #cbd5e1;
+}
+
+/* ========== ТЁМНАЯ ТЕМА (школьная) ========== */
 body.dark {
-    --primary: #818cf8;
-    --primary-dark: #6366f1;
-    --secondary: #a78bfa;
+    --primary: #f97316;
+    --primary-dark: #ea580c;
+    --secondary: #06b6d4;
     --success: #34d399;
     --danger: #f87171;
     --warning: #fbbf24;
@@ -35,25 +62,11 @@ body.dark {
     --card-bg: #1e293b;
     --body-bg: #0f172a;
     --text: #e2e8f0;
-    --border: #334155;
-}
-
-/* Тёмная тема + школьная (оранжевая) */
-body.dark.school-theme {
-    --primary: #f97316;
-    --primary-dark: #ea580c;
-    --secondary: #06b6d4;
-    --success: #34d399;
-    --danger: #f87171;
-    --warning: #fbbf24;
-    --card-bg: #1e293b;
-    --body-bg: #0f172a;
-    --text: #e2e8f0;
     --border: #f97316;
     --border-opacity: 0.3;
 }
 
-/* Тёмная тема + взрослая (синяя/изумрудная) */
+/* ========== ТЁМНАЯ ТЕМА + ВЗРОСЛАЯ ========== */
 body.dark.adult-theme {
     --primary: #0f3b5c;
     --primary-dark: #0b2b44;
@@ -67,13 +80,7 @@ body.dark.adult-theme {
     --border: #2e8b57;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: var(--body-bg);
-    color: var(--text);
-    min-height: 100vh;
-    transition: all 0.3s;
-}
+/* ========== ОСТАЛЬНЫЕ СТИЛИ (без изменений, оставляем как есть) ========== */
 
 .container {
     max-width: 1200px;
@@ -647,38 +654,4 @@ header p {
 
     .timetable-time { font-size: 0.7rem; padding: 4px; }
     .timetable-subject { font-size: 0.65rem; padding: 4px; }
-}
-
-/* Школьная тема — по умолчанию */
-:root {
-    --primary: #f97316;      /* яркий оранжевый (энергия, тепло) */
-    --primary-dark: #ea580c; /* тёмный оранжевый */
-    --secondary: #06b6d4;    /* бирюзовый (спокойствие, ясность) */
-    --success: #10b981;      /* зелёный */
-    --danger: #ef4444;       /* красный */
-    --warning: #f59e0b;      /* жёлтый */
-    --dark: #1e293b;
-    --light: #f8fafc;
-    --gray: #64748b;
-    --card-bg: #ffffff;
-    --body-bg: #fff7ed;      /* тёплый кремовый (не утомляет глаза) */
-    --text: #334155;
-    --border: #fed7aa;       /* светло-оранжевый */
-}
-
-/* Взрослая тема — при переключении */
-body.adult-theme {
-    --primary: #0f3b5c;      /* глубокий синий (доверие) */
-    --primary-dark: #0b2b44; /* ещё темнее */
-    --secondary: #2e8b57;    /* изумрудный (успех) */
-    --success: #2e8b57;
-    --danger: #ef4444;
-    --warning: #f59e0b;
-    --dark: #1e293b;
-    --light: #f8fafc;
-    --gray: #64748b;
-    --card-bg: #ffffff;
-    --body-bg: #f1f5f9;      /* светлый серо-голубой */
-    --text: #1e293b;
-    --border: #cbd5e1;
 }
