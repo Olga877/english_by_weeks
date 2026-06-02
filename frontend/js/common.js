@@ -975,6 +975,116 @@ if (typeof window !== 'undefined') {
     }
 }
 
+// ========== УВЕДОМЛЕНИЕ ОБ АВТОРСКИХ ПРАВАХ (ПОПАП) ==========
+function showCopyrightPopup() {
+    // Проверяем, видел ли пользователь уже это уведомление
+    const hasSeen = localStorage.getItem('copyright_popup_seen');
+    if (hasSeen === 'true') return;
+
+    // Создаём затемнённый фон
+    const overlay = document.createElement('div');
+    overlay.id = 'copyright-overlay';
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        backdrop-filter: blur(3px);
+    `;
+
+    // Создаём само окно
+    const popup = document.createElement('div');
+    popup.style.cssText = `
+        background: var(--card-bg);
+        color: var(--text);
+        max-width: 90%;
+        width: 450px;
+        border-radius: 20px;
+        padding: 25px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+        border: 2px solid var(--primary);
+        animation: fadeInUp 0.4s ease;
+    `;
+
+    // Добавляем анимацию, если её ещё нет
+    if (!document.querySelector('#copyright-popup-animation')) {
+        const style = document.createElement('style');
+        style.id = 'copyright-popup-animation';
+        style.textContent = `
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    // Содержимое окна
+    popup.innerHTML = `
+        <div style="text-align: center; margin-bottom: 15px;">
+            <span style="font-size: 3rem;">📚</span>
+        </div>
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 15px;">Уважаемый пользователь!</h2>
+        <p style="margin-bottom: 15px; line-height: 1.4;">
+            Все материалы на сайте <strong>English by Weeks</strong> являются интеллектуальной собственностью создателя.
+        </p>
+        <p style="margin-bottom: 15px; line-height: 1.4;">
+            <strong>❌ Запрещено:</strong> копировать, распространять, передавать третьим лицам, использовать в коммерческих целях.
+        </p>
+        <p style="margin-bottom: 20px; line-height: 1.4;">
+            <strong>✅ Разрешено:</strong> использовать для личного обучения, проходить уроки с семьёй (один аккаунт на домохозяйство).
+        </p>
+        <div style="background: rgba(99, 102, 241, 0.1); padding: 12px; border-radius: 12px; margin-bottom: 20px; font-size: 0.85rem;">
+            📖 Подробнее в <a href="/english_by_weeks/frontend/terms.html" target="_blank" style="color: var(--primary);">Условиях использования</a>
+        </div>
+        <button id="copyright-accept-btn" style="
+            width: 100%;
+            padding: 12px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        " onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+            ✅ Я принимаю условия
+        </button>
+    `;
+
+    overlay.appendChild(popup);
+    document.body.appendChild(overlay);
+
+    // Обработчик кнопки
+    const acceptBtn = document.getElementById('copyright-accept-btn');
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('copyright_popup_seen', 'true');
+            overlay.remove();
+        });
+    }
+}
+
+// Запускаем попап через 1 секунду после загрузки страницы
+if (typeof window !== 'undefined') {
+    window.addEventListener('load', () => {
+        setTimeout(showCopyrightPopup, 1000);
+    });
+}
+
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
 window.getSessionId = getSessionId;
 window.translateWord = translateWord;
