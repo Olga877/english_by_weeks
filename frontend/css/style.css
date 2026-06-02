@@ -802,3 +802,137 @@ header p {
         justify-content: center;
     }
 }
+
+/* ========== БЛОК ОТЗЫВОВ ========== */
+.reviews-section {
+    margin: 50px 0;
+}
+
+.reviews-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 35px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.reviews-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.review-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.review-avatar {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.review-author {
+    flex: 1;
+}
+
+.review-name {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+.review-role {
+    font-size: 0.75rem;
+    color: var(--gray);
+}
+
+.review-stars {
+    color: #fbbf24;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text);
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.review-text::before {
+    content: '«';
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-right: 3px;
+}
+
+.review-text::after {
+    content: '»';
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin-left: 3px;
+}
+
+.review-source {
+    font-size: 0.7rem;
+    color: var(--gray);
+    text-align: right;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .reviews-title {
+        font-size: 1.5rem;
+    }
+}
