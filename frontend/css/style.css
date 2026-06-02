@@ -22,14 +22,49 @@
     --border: #e2e8f0;
 }
 
+/* Тёмная тема — по умолчанию (старая, упадёт, если нет специфичной) */
 body.dark {
     --primary: #818cf8;
     --primary-dark: #6366f1;
     --secondary: #a78bfa;
+    --success: #34d399;
+    --danger: #f87171;
+    --warning: #fbbf24;
+    --dark: #0f172a;
+    --light: #1e293b;
     --card-bg: #1e293b;
     --body-bg: #0f172a;
     --text: #e2e8f0;
     --border: #334155;
+}
+
+/* Тёмная тема + школьная (оранжевая) */
+body.dark.school-theme {
+    --primary: #f97316;
+    --primary-dark: #ea580c;
+    --secondary: #06b6d4;
+    --success: #34d399;
+    --danger: #f87171;
+    --warning: #fbbf24;
+    --card-bg: #1e293b;
+    --body-bg: #0f172a;
+    --text: #e2e8f0;
+    --border: #f97316;
+    --border-opacity: 0.3;
+}
+
+/* Тёмная тема + взрослая (синяя/изумрудная) */
+body.dark.adult-theme {
+    --primary: #0f3b5c;
+    --primary-dark: #0b2b44;
+    --secondary: #2e8b57;
+    --success: #34d399;
+    --danger: #f87171;
+    --warning: #fbbf24;
+    --card-bg: #1e293b;
+    --body-bg: #0f172a;
+    --text: #e2e8f0;
+    --border: #2e8b57;
 }
 
 body {
