@@ -9,6 +9,11 @@ let certificateShown = false;
 
 async function init() {
     console.log("🔍 week.js init started");
+    // ===== ДОБАВЛЕННЫЕ СТРОЧКИ =====
+    // Принудительно включаем школьную цветовую тему
+    document.body.classList.add('adult-theme');
+    document.body.classList.remove('school-theme');
+    // ================================
 
     const urlParams = new URLSearchParams(window.location.search);
     currentLevel = urlParams.get('level');

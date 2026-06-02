@@ -10,6 +10,12 @@ let certificateShown = false;
 async function init() {
     console.log("🔍 school_week.js init started");
 
+    // ===== ДОБАВЛЕННЫЕ СТРОЧКИ =====
+    // Принудительно включаем школьную цветовую тему
+    document.body.classList.add('school-theme');
+    document.body.classList.remove('adult-theme');
+    // ================================
+
     const urlParams = new URLSearchParams(window.location.search);
     currentGrade = urlParams.get('grade');
     currentWeekId = urlParams.get('week');
@@ -17,7 +23,7 @@ async function init() {
     console.log(`📌 grade: ${currentGrade}, week: ${currentWeekId}`);
 
     if (!currentGrade || !currentWeekId) {
-        window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
+        window.location.href = '/static/index.html';
         return;
     }
 

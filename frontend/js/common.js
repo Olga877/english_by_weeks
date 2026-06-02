@@ -927,6 +927,31 @@ if (typeof window !== 'undefined') {
     });
 }
 
+// ========== АВТОМАТИЧЕСКАЯ ТЕМА В ЗАВИСИМОСТИ ОТ АУДИТОРИИ ==========
+function applyThemeByAudience() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const audience = urlParams.get('audience');
+
+    if (audience === 'school') {
+        document.body.classList.add('school-theme');
+        document.body.classList.remove('adult-theme');
+    } else if (audience === 'adults') {
+        document.body.classList.add('adult-theme');
+        document.body.classList.remove('school-theme');
+    } else {
+        // По умолчанию — школьная (или определите сами)
+        document.body.classList.add('school-theme');
+        document.body.classList.remove('adult-theme');
+    }
+}
+
+// Вызвать при загрузке страницы
+if (typeof window !== 'undefined') {
+    window.addEventListener('load', () => {
+        applyThemeByAudience();
+    });
+}
+
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
 window.getSessionId = getSessionId;
 window.translateWord = translateWord;
