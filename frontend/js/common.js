@@ -952,6 +952,24 @@ if (typeof window !== 'undefined') {
     });
 }
 
+// ========== УСТАНОВКА ТЕКУЩЕГО ГОДА В ПОДВАЛЕ ==========
+function setCurrentYear() {
+    const yearSpan = document.getElementById('currentYear');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+}
+
+// Автоматически вызываем при загрузке страницы
+if (typeof window !== 'undefined') {
+    // Если страница уже загружена
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setCurrentYear);
+    } else {
+        setCurrentYear();
+    }
+}
+
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
 window.getSessionId = getSessionId;
 window.translateWord = translateWord;
