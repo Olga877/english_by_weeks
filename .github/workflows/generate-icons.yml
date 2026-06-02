@@ -1,0 +1,30 @@
+name: Generate PNG icons from SVG
+
+on:
+  push:
+    paths:
+      - 'frontend/icons/icon.svg'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get install -y librsvg2-bin
+
+      - name: Generate PNG icons
+        run: |
+          cd frontend/icons
+          for size in 72 96 128 144 152 192 384 512; do
+            rsvg-convert -w $size -h $size icon.svg > icon-$size.png
+          done
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add frontend/icons/*.png
+          git commit -m "Auto-generate PNG icons from SVG" || echo "No changes"
+          git push
