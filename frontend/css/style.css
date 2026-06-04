@@ -1039,3 +1039,89 @@ header p {
         justify-content: center;
     }
 }
+
+/* ========== БЛОК СОВЕТ ДНЯ ========== */
+.tip-section {
+    background: linear-gradient(135deg, var(--primary-light, rgba(249, 115, 22, 0.08)), rgba(139, 92, 246, 0.08));
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 40px 0 30px;
+    border-left: 4px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+}
+
+.tip-section::before {
+    content: '💡';
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    font-size: 4rem;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.tip-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--primary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tip-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text);
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.tip-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tip-refresh {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    color: var(--gray);
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.tip-refresh:hover {
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
+@media (max-width: 600px) {
+    .tip-section {
+        padding: 20px;
+        margin: 30px 0 20px;
+    }
+
+    .tip-section::before {
+        font-size: 3rem;
+        right: 10px;
+        bottom: 5px;
+    }
+
+    .tip-content {
+        font-size: 0.9rem;
+    }
+}

@@ -1085,6 +1085,71 @@ if (typeof window !== 'undefined') {
     });
 }
 
+// ========== СОВЕТ ДНЯ ==========
+const TIPS_LIST = [
+    { icon: "🧠", text: "Английский легче учить по 15 минут каждый день, чем 2 часа раз в неделю. Регулярность важнее интенсивности!" },
+    { icon: "📖", text: "Самые популярные слова в английском — the, be, to, of, and. На них приходится около 10% любого текста!" },
+    { icon: "🎯", text: "Чтобы быстро запомнить слово, придумайте с ним смешное предложение. Эмоции помогают памяти!" },
+    { icon: "🗣️", text: "Разговаривайте сами с собой на английском. Да, это не странно — это эффективно!" },
+    { icon: "🎬", text: "Смотрите любимые фильмы и сериалы в оригинале с английскими субтитрами. Так вы привыкнете к живой речи!" },
+    { icon: "📝", text: "Ведите дневник на английском. Хотя бы 2-3 предложения в день — и прогресс не заставит себя ждать!" },
+    { icon: "🔊", text: "Слушайте подкасты на английском во время прогулки или уборки. Так вы тренируете восприятие на слух без дополнительного времени!" },
+    { icon: "📚", text: "Читайте книги, которые вы уже читали на русском. Знание сюжета поможет понять незнакомые слова из контекста!" },
+    { icon: "💬", text: "Используйте новый язык в быту: называйте предметы вокруг на английском, думайте на английском!" },
+    { icon: "🎮", text: "Играйте в видеоигры на английском. Диалоги и интерфейс — отличная языковая практика!" },
+    { icon: "📱", text: "Переключите телефон на английский. Вы будете видеть язык каждый день и быстро привыкнете!" },
+    { icon: "🎵", text: "Слушайте английские песни и пытайтесь подпевать. Это улучшает произношение и ритм речи!" }
+];
+
+function getRandomTip() {
+    const randomIndex = Math.floor(Math.random() * TIPS_LIST.length);
+    return TIPS_LIST[randomIndex];
+}
+
+function displayDailyTip() {
+    const tipBlock = document.getElementById('dailyTipText');
+    if (!tipBlock) return;
+
+    let tip = localStorage.getItem('dailyTip');
+    const lastTipDate = localStorage.getItem('dailyTipDate');
+    const today = new Date().toDateString();
+
+    // Если сегодня ещё не было совета или его нет в localStorage, генерируем новый
+    if (!tip || lastTipDate !== today) {
+        tip = getRandomTip();
+        localStorage.setItem('dailyTip', JSON.stringify(tip));
+        localStorage.setItem('dailyTipDate', today);
+    } else {
+        tip = JSON.parse(tip);
+    }
+
+    tipBlock.innerHTML = `<span class="tip-icon">${tip.icon}</span> ${tip.text}`;
+}
+
+function refreshDailyTip() {
+    const newTip = getRandomTip();
+    const tipBlock = document.getElementById('dailyTipText');
+    if (tipBlock) {
+        tipBlock.innerHTML = `<span class="tip-icon">${newTip.icon}</span> ${newTip.text}`;
+        // Показываем уведомление о смене совета
+        showToast('✨ Совет обновлён!', 'info');
+    }
+}
+
+// Запускаем при загрузке страницы
+if (typeof window !== 'undefined') {
+    // Добавляем обработчик для кнопки обновления, если она уже существует
+    document.addEventListener('DOMContentLoaded', () => {
+        displayDailyTip();
+
+        // На случай, если кнопка появится позже
+        const refreshBtn = document.getElementById('refreshTipBtn');
+        if (refreshBtn) {
+            refreshBtn.addEventListener('click', refreshDailyTip);
+        }
+    });
+}
+
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
 window.getSessionId = getSessionId;
 window.translateWord = translateWord;
