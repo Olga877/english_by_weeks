@@ -766,18 +766,38 @@ function showToast(message, type = 'success') {
 function makeWordsClickable(text, context = '') {
     if (!text) return '';
 
+    // Сохраняем HTML-теги (например, <br>, <strong>)
     const tagPlaceholders = [];
     let processedText = text.replace(/<[^>]+>/g, (match) => {
-        const placeholder = `__TAG_${tagPlaceholders.length}__`;
+        const placeholder = `__HTML_TAG_${tagPlaceholders.length}__`;
         tagPlaceholders.push(match);
         return placeholder;
     });
 
+    // Сохраняем эмодзи (любые символы в диапазоне эмодзи)
+    const emojiPlaceholders = [];
+    processedText = processedText.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, (match) => {
+        const placeholder = `__EMOJI_${emojiPlaceholders.length}__`;
+        emojiPlaceholders.push(match);
+        return placeholder;
+    });
+
+    // Обрабатываем переносы строк (уже защищённые)
+    processedText = processedText.replace(/\n/g, '<br>');
+
+    // Теперь обрабатываем только английские слова (не внутри плейсхолдеров)
+    // Но чтобы не трогать защищённые участки, делаем временную замену
     processedText = processedText.replace(/\b([a-zA-Z]{2,}(?:'[a-zA-Z]+)?)\b/g, (match) => {
         const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="${context.replace(/'/g, "\\'")}">${match}</span>`;
     });
 
+    // Возвращаем эмодзи обратно
+    emojiPlaceholders.forEach((placeholder, index) => {
+        processedText = processedText.replace(placeholder, emojiPlaceholders[index]);
+    });
+
+    // Возвращаем HTML-теги обратно
     tagPlaceholders.forEach((placeholder, index) => {
         processedText = processedText.replace(placeholder, tagPlaceholders[index]);
     });
