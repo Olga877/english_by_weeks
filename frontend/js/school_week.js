@@ -10,11 +10,8 @@ let certificateShown = false;
 async function init() {
     console.log("🔍 school_week.js init started");
 
-    // ===== ДОБАВЛЕННЫЕ СТРОЧКИ =====
-    // Принудительно включаем школьную цветовую тему
     document.body.classList.add('school-theme');
     document.body.classList.remove('adult-theme');
-    // ================================
 
     const urlParams = new URLSearchParams(window.location.search);
     currentGrade = urlParams.get('grade');
@@ -23,7 +20,7 @@ async function init() {
     console.log(`📌 grade: ${currentGrade}, week: ${currentWeekId}`);
 
     if (!currentGrade || !currentWeekId) {
-        window.location.href = '/static/index.html';
+        window.location.href = '/english_by_weeks/frontend/index.html';
         return;
     }
 
@@ -80,7 +77,6 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        // Вместо API — загружаем из локального JSON
         const url = `/english_by_weeks/frontend/${currentWeekId}.json`;
         const response = await fetch(url);
 
@@ -178,24 +174,17 @@ function renderWeek() {
 function renderGrammar(grammar) {
     if (!grammar) return '';
 
-    let examplesHtml = '';
-    if (grammar.examples && grammar.examples.length > 0) {
-        examplesHtml = '<div><strong>Примеры:</strong></div>';
-        grammar.examples.forEach(ex => {
-            const exWithButtons = makeWordsClickable(ex, '', weekData);
-            examplesHtml += `<div class="grammar-example">
-                ${exWithButtons}
-                <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('${ex.replace(/'/g, "\\'")}')">🔊</button>
-            </div>`;
-        });
+    // Форматируем правило с переносами строк
+    let ruleHtml = grammar.rule;
+    if (ruleHtml) {
+        ruleHtml = ruleHtml.replace(/\n/g, '<br>');
+        ruleHtml = makeWordsClickable(ruleHtml, '', weekData);
     }
 
     return `
         <div class="grammar-card">
             <h3>📖 ${grammar.title}</h3>
-            <div class="grammar-rule"><strong>Правило:</strong> ${makeWordsClickable(grammar.rule, '', weekData)}</div>
-            ${examplesHtml}
-            ${grammar.keywords ? `<div><strong>Ключевые слова:</strong> ${grammar.keywords}</div>` : ''}
+            <div class="grammar-rule"><strong>Правило:</strong><br>${ruleHtml}</div>
         </div>
     `;
 }
@@ -362,9 +351,32 @@ function selectOption(dayNum, exId, optIndex, value) {
     saveUserProgress();
 }
 
+// ========== ОСНОВНОЕ ИСПРАВЛЕНИЕ: ПОДДЕРЖКА МНОЖЕСТВЕННЫХ ОТВЕТОВ ==========
+function isAnswerCorrect(userAnswer, exercise) {
+    if (!userAnswer) return false;
+
+    const normalizedUser = userAnswer.toString().toLowerCase().trim();
+
+    // Если есть массив accept — используем его
+    if (exercise.accept && Array.isArray(exercise.accept)) {
+        const normalizedAccept = exercise.accept.map(a => a.toString().toLowerCase().trim());
+        return normalizedAccept.includes(normalizedUser);
+    }
+
+    // Иначе сравниваем с correct (один вариант)
+    const normalizedCorrect = exercise.correct.toString().toLowerCase().trim();
+    return normalizedUser === normalizedCorrect;
+}
+
 async function checkExercise(dayNum, exId, exType) {
     const dayData = weekData.days[dayNum - 1];
     const exercise = dayData.exercises.find(e => e.id === exId);
+
+    if (!exercise) {
+        showToast('Ошибка: упражнение не найдено', 'error');
+        return;
+    }
+
     let userAnswer = userAnswers[`day${dayNum}_ex${exId}`];
 
     if ((exType === 'fill_blank' || exType === 'correct_mistake') && !userAnswer) {
@@ -390,18 +402,23 @@ async function checkExercise(dayNum, exId, exType) {
         return;
     }
 
-    const isCorrect = (userAnswer.toLowerCase().trim() === exercise.correct.toLowerCase().trim());
+    const isCorrect = isAnswerCorrect(userAnswer, exercise);
     const card = document.getElementById(`ex-${dayNum}-${exId}`);
     const explanationDiv = document.getElementById(`explanation-${dayNum}-${exId}`);
 
     if (isCorrect) {
         card.classList.add('correct');
         card.classList.remove('incorrect');
-        explanationDiv.innerHTML = `<div style="color: var(--success);">✅ Правильно! ${exercise.explanation}</div>`;
+        explanationDiv.innerHTML = `<div style="color: var(--success);">✅ Правильно! ${exercise.explanation || ''}</div>`;
+        showToast('✅ Правильный ответ!', 'success');
     } else {
         card.classList.add('incorrect');
         card.classList.remove('correct');
-        explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Неправильно. Правильный ответ: ${exercise.correct}<br>${exercise.explanation}</div>`;
+        explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Неправильно. Правильный ответ: ${exercise.correct}<br>${exercise.explanation || ''}</div>`;
+        showToast('❌ Неправильно. Попробуйте ещё раз!', 'error');
+
+        // НЕ блокируем поле ввода — пользователь может исправить ответ
+        // НЕ засчитываем как непройденное — просто показываем ошибку
     }
     explanationDiv.classList.add('show');
 }
@@ -414,7 +431,7 @@ async function saveDayProgress(dayNum) {
     for (const ex of dayData.exercises) {
         let userAnswer = userAnswers[`day${dayNum}_ex${ex.id}`];
 
-        if ((ex.type === 'fill_blank' || ex.type === 'correct_mistake')) {
+        if (!userAnswer && (ex.type === 'fill_blank' || ex.type === 'correct_mistake')) {
             const input = document.getElementById(`input-${dayNum}-${ex.id}`);
             if (input && input.value.trim() !== '') {
                 userAnswer = input.value.trim();
@@ -430,8 +447,7 @@ async function saveDayProgress(dayNum) {
             }
         }
 
-        const isCorrect = userAnswer && (userAnswer.toLowerCase().trim() === ex.correct.toLowerCase().trim());
-        if (isCorrect) {
+        if (userAnswer && isAnswerCorrect(userAnswer, ex)) {
             correct++;
         }
     }
@@ -454,12 +470,18 @@ async function saveDayProgress(dayNum) {
         }
         showToast(`✅ День ${dayNum} сохранён! Результат: ${score}%`, 'success');
     } else {
+        // День НЕ считается пройденным — пользователь может вернуться и исправить ответы
+        const completedIndex = userProgress.completedDays.indexOf(dayNum);
+        if (completedIndex !== -1) {
+            userProgress.completedDays.splice(completedIndex, 1);
+        }
+
         const dayHeader = document.querySelector(`.day-block:nth-child(${dayNum}) .day-status-badge`);
         if (dayHeader) {
             dayHeader.textContent = `📅 ${score}% (нужно 70%)`;
             dayHeader.className = 'day-status-badge current';
         }
-        showToast(`⚠️ Вы набрали ${score}%. Нужно 70%`, 'error');
+        showToast(`⚠️ Вы набрали ${score}%. Нужно 70% для прохождения. Исправьте ответы и сохраните снова!`, 'error');
     }
 
     saveUserProgress();
