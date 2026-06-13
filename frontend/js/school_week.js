@@ -176,9 +176,7 @@ function renderGrammar(grammar) {
 
     let ruleHtml = grammar.rule;
     if (ruleHtml) {
-        // Заменяем Markdown ** на <strong>
-        ruleHtml = ruleHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-        // Заменяем переносы строк
+        // ТОЛЬКО ЭТО: заменяем переносы строк на <br>
         ruleHtml = ruleHtml.replace(/\n/g, '<br>');
     }
 
