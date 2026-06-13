@@ -174,11 +174,11 @@ function renderWeek() {
 function renderGrammar(grammar) {
     if (!grammar) return '';
 
-    // Форматируем правило с переносами строк
     let ruleHtml = grammar.rule;
     if (ruleHtml) {
+        // Заменяем переносы строк на <br>
         ruleHtml = ruleHtml.replace(/\n/g, '<br>');
-        ruleHtml = makeWordsClickable(ruleHtml, '', weekData);
+        // НЕ используем makeWordsClickable для правил — только для словаря и упражнений
     }
 
     return `
