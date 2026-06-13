@@ -176,9 +176,10 @@ function renderGrammar(grammar) {
 
     let ruleHtml = grammar.rule;
     if (ruleHtml) {
-        // Заменяем переносы строк на <br>
+        // Заменяем Markdown ** на <strong>
+        ruleHtml = ruleHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        // Заменяем переносы строк
         ruleHtml = ruleHtml.replace(/\n/g, '<br>');
-        // НЕ используем makeWordsClickable для правил — только для словаря и упражнений
     }
 
     return `
@@ -296,6 +297,7 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
 function renderReadingText(readingText) {
     if (!readingText) return '';
 
+    // Проверяем, является ли текст расписанием (с символами ┌ └ │)
     if (readingText.includes('┌') && readingText.includes('└')) {
         const lines = readingText.split('\n');
         let timetableHtml = '<div class="timetable-grid" style="overflow-x: auto;">';
@@ -308,7 +310,8 @@ function renderReadingText(readingText) {
                     let rowHtml = '<div class="timetable-row">';
                     for (let i = 0; i < cells.length; i++) {
                         const cellClass = i === 0 ? 'timetable-time' : 'timetable-subject';
-                        rowHtml += `<div class="${cellClass}">${makeWordsClickable(cells[i].trim(), '', weekData)}</div>`;
+                        // Для расписания используем специальную обработку
+                        rowHtml += `<div class="${cellClass}">${renderReadingTextContent(cells[i].trim())}</div>`;
                     }
                     rowHtml += '</div>';
                     timetableHtml += rowHtml;
@@ -316,27 +319,17 @@ function renderReadingText(readingText) {
             } else if (line.includes('NOTES:')) {
                 timetableHtml += `<div style="margin-top: 20px;"><strong>📌 NOTES:</strong></div>`;
             } else if (line.trim().startsWith('•')) {
-                timetableHtml += `<div style="margin-left: 20px; margin-top: 5px;">${makeWordsClickable(line, '', weekData)}</div>`;
+                timetableHtml += `<div style="margin-left: 20px; margin-top: 5px;">${renderReadingTextContent(line)}</div>`;
             } else if (line.trim() && !line.includes('───')) {
-                timetableHtml += `<div>${makeWordsClickable(line, '', weekData)}</div>`;
+                timetableHtml += `<div>${renderReadingTextContent(line)}</div>`;
             }
         }
         timetableHtml += '</div>';
         return timetableHtml;
     }
 
-    const lines = readingText.split('\n');
-    let htmlLines = [];
-    for (let line of lines) {
-        if (line.trim() === '') {
-            htmlLines.push('<br>');
-        } else {
-            line = line.replace(/__TAG_\d+__/g, '');
-            htmlLines.push(`<div style="margin-bottom: 2px;">${makeWordsClickable(line, '', weekData)}</div>`);
-        }
-    }
-
-    return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.3;">${htmlLines.join('')}</div>`;
+    // Обычный текст
+    return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.4;">${renderReadingTextContent(readingText)}</div>`;
 }
 
 function selectOption(dayNum, exId, optIndex, value) {
