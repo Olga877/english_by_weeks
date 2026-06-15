@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* ========== БАЗОВЫЕ ПЕРЕМЕННЫЕ (запасной вариант) ========== */
+/* ========== БАЗОВЫЕ ПЕРЕМЕННЫЕ (школьная светлая тема по умолчанию) ========== */
 :root {
     --primary: #f97316;
     --primary-dark: #ea580c;
@@ -19,75 +19,77 @@
     --gray: #64748b;
     --card-bg: #ffffff;
     --body-bg: #fff7ed;
-    --text: #334155;
+    --text: #451a03;
     --border: #fed7aa;
 }
 
-/* ========== СВЕТЛАЯ ТЕМА (школьная, по умолчанию) ========== */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--body-bg);
     color: var(--text);
     min-height: 100vh;
-    transition: all 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* ========== ВЗРОСЛАЯ ТЕМА (светлая) ========== */
-body.adult-theme {
-    --primary: #0f3b5c;
-    --primary-dark: #0b2b44;
-    --secondary: #2e8b57;
-    --success: #2e8b57;
-    --danger: #ef4444;
-    --warning: #f59e0b;
-    --dark: #1e293b;
-    --light: #f8fafc;
-    --gray: #64748b;
-    --card-bg: #ffffff;
-    --body-bg: #f1f5f9;
-    --text: #1e293b;
-    --border: #cbd5e1;
-}
-
-/* ========== ТЁМНАЯ ТЕМА (школьная) ========== */
+/* ========== ШКОЛЬНАЯ ТЁМНАЯ ТЕМА ========== */
 body.dark {
-    --primary: #f97316;
-    --primary-dark: #ea580c;
-    --secondary: #06b6d4;
+    --primary: #fb923c;
+    --primary-dark: #f97316;
+    --secondary: #22d3ee;
     --success: #34d399;
     --danger: #f87171;
     --warning: #fbbf24;
     --dark: #0f172a;
     --light: #1e293b;
-    --card-bg: #1e293b;
-    --body-bg: #0f172a;
-    --text: #e2e8f0;
+    --gray: #9ca3af;
+    --card-bg: #292524;
+    --body-bg: #1c1917;
+    --text: #fef3c7;
     --border: #f97316;
-    --border-opacity: 0.3;
 }
 
-/* ========== ТЁМНАЯ ТЕМА + ВЗРОСЛАЯ ========== */
+/* ========== ВЗРОСЛАЯ ТЕМА (СВЕТЛАЯ) ========== */
+body.adult-theme {
+    --primary: #1e3a5f;
+    --primary-dark: #152c4a;
+    --secondary: #2c7a47;
+    --success: #15803d;
+    --danger: #dc2626;
+    --warning: #d97706;
+    --dark: #0f172a;
+    --light: #f1f5f9;
+    --gray: #64748b;
+    --card-bg: #ffffff;
+    --body-bg: #f8fafc;
+    --text: #1e293b;
+    --border: #cbd5e1;
+}
+
+/* ========== ВЗРОСЛАЯ ТЁМНАЯ ТЕМА ========== */
 body.dark.adult-theme {
-    --primary: #0f3b5c;
-    --primary-dark: #0b2b44;
-    --secondary: #2e8b57;
-    --success: #34d399;
-    --danger: #f87171;
-    --warning: #fbbf24;
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --secondary: #4ade80;
+    --success: #22c55e;
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --dark: #020617;
+    --light: #1e293b;
+    --gray: #94a3b8;
     --card-bg: #1e293b;
     --body-bg: #0f172a;
     --text: #e2e8f0;
-    --border: #2e8b57;
+    --border: #334155;
 }
 
-/* ========== ОСТАЛЬНЫЕ СТИЛИ (без изменений, оставляем как есть) ========== */
-
+/* ========== ОБЩИЕ КОНТЕЙНЕРЫ ========== */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* ========== ХЕДЕР ========== */
 header {
     text-align: center;
     margin-bottom: 40px;
@@ -118,8 +120,15 @@ header p {
     cursor: pointer;
     color: var(--text);
     font-size: 0.9rem;
+    transition: all 0.2s;
 }
 
+.theme-toggle:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ========== НАВИГАЦИОННЫЕ КНОПКИ ========== */
 .nav-buttons-top, .nav-buttons-bottom {
     display: flex;
     justify-content: space-between;
@@ -128,7 +137,7 @@ header p {
     gap: 10px;
 }
 
-.btn-home, .btn-back {
+.btn-home, .btn-back, .btn-prev {
     background: var(--gray);
     color: white;
     border: none;
@@ -139,11 +148,12 @@ header p {
     transition: all 0.2s;
 }
 
-.btn-home:hover, .btn-back:hover {
+.btn-home:hover, .btn-back:hover, .btn-prev:hover {
     transform: translateY(-2px);
     filter: brightness(1.05);
 }
 
+/* ========== ПЕРЕКЛЮЧАТЕЛЬ АУДИТОРИИ ========== */
 .audience-switch {
     display: flex;
     gap: 20px;
@@ -174,6 +184,7 @@ header p {
     background: rgba(99, 102, 241, 0.1);
 }
 
+/* ========== СЕТКИ УРОВНЕЙ И КЛАССОВ ========== */
 .levels-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -186,7 +197,7 @@ header p {
     border-radius: 20px;
     padding: 24px;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease, border-color 0.3s ease;
     border: 1px solid var(--border);
     text-align: center;
 }
@@ -226,6 +237,13 @@ header p {
     margin-top: 12px;
 }
 
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: var(--gray);
+}
+
+/* ========== СТАТИСТИКА ========== */
 .stats-bar {
     display: flex;
     justify-content: center;
@@ -253,6 +271,11 @@ header p {
 .stat-label {
     font-size: 0.85rem;
     color: var(--gray);
+}
+
+/* ========== ДНИ НЕДЕЛИ ========== */
+.days-container {
+    margin-top: 20px;
 }
 
 .day-block {
@@ -304,6 +327,7 @@ header p {
     display: block;
 }
 
+/* ========== ГРАММАТИКА ========== */
 .grammar-card {
     background: var(--card-bg);
     border-radius: 20px;
@@ -323,6 +347,7 @@ header p {
     border-radius: 12px;
     margin: 16px 0;
     white-space: pre-wrap;
+    line-height: 1.5;
 }
 
 .grammar-example {
@@ -337,6 +362,7 @@ header p {
     gap: 8px;
 }
 
+/* ========== СЛОВАРЬ ========== */
 .vocab-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -350,7 +376,7 @@ header p {
     padding: 16px;
     text-align: center;
     border: 1px solid var(--border);
-    transition: transform 0.2s;
+    transition: transform 0.2s, background-color 0.3s, border-color 0.3s;
 }
 
 .vocab-item:hover {
@@ -385,6 +411,7 @@ header p {
     font-style: italic;
 }
 
+/* ========== УПРАЖНЕНИЯ ========== */
 .exercise-card {
     background: var(--card-bg);
     border-radius: 16px;
@@ -457,7 +484,7 @@ header p {
     border-color: var(--primary);
 }
 
-.btn-check {
+.btn-check, .btn-next {
     background: var(--primary);
     color: white;
     border: none;
@@ -468,27 +495,12 @@ header p {
     transition: all 0.2s;
 }
 
-.btn-check:hover {
+.btn-check:hover, .btn-next:hover {
     background: var(--primary-dark);
     transform: translateY(-1px);
 }
 
-.btn-next {
-    background: var(--primary);
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.2s;
-}
-
-.btn-next:hover {
-    transform: translateY(-2px);
-    filter: brightness(1.05);
-}
-
+/* ========== ПОЯСНЕНИЯ ========== */
 .explanation {
     margin-top: 16px;
     padding: 12px;
@@ -502,6 +514,7 @@ header p {
     display: block;
 }
 
+/* ========== АДАПТИВНАЯ ПОДСКАЗКА ========== */
 .adaptive-hint {
     background: rgba(245, 158, 11, 0.1);
     border-left: 4px solid var(--warning);
@@ -515,6 +528,7 @@ header p {
     margin-bottom: 8px;
 }
 
+/* ========== КНОПКИ ОЗВУЧКИ ========== */
 .speak-sentence-btn {
     background: none;
     border: none;
@@ -529,6 +543,7 @@ header p {
     background: rgba(99, 102, 241, 0.2);
 }
 
+/* ========== TOAST УВЕДОМЛЕНИЯ ========== */
 .toast {
     position: fixed;
     bottom: 20px;
@@ -558,6 +573,7 @@ header p {
     100% { opacity: 0; transform: translateX(-50%) translateY(-20px); }
 }
 
+/* ========== РАСПИСАНИЕ (Timetable) ========== */
 .timetable-grid {
     overflow-x: auto;
 }
@@ -587,99 +603,35 @@ header p {
     text-align: center;
 }
 
-.certificate-modal {
-    animation: fadeIn 0.3s ease;
+/* ========== КЛИКАБЕЛЬНЫЕ СЛОВА ========== */
+.clickable-word {
+    cursor: pointer;
+    border-bottom: 1px dashed var(--primary);
+    transition: background 0.2s;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.clickable-word:hover {
+    background: rgba(249, 115, 22, 0.2);
+    border-radius: 4px;
 }
 
-@media (max-width: 600px) {
-    .container { padding: 16px; }
-
-    header {
-        position: relative;
-        padding-top: 50px;
-        margin-bottom: 20px;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-        margin-top: 10px;
-    }
-
-    .theme-toggle {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: auto;
-        font-size: 0.7rem;
-        padding: 5px 10px;
-    }
-
-    .nav-buttons-top, .nav-buttons-bottom {
-        flex-direction: column;
-    }
-
-    .btn-home, .btn-back {
-        width: 100%;
-        text-align: center;
-    }
-
-    .stats-bar { gap: 8px; }
-    .stat-card { padding: 8px 12px; min-width: 70px; }
-    .stat-value { font-size: 1.2rem; }
-    .stat-label { font-size: 0.7rem; }
-
-    .weeks-grid { grid-template-columns: 1fr; }
-    .vocab-grid { grid-template-columns: 1fr; }
-
-    .audience-btn { padding: 6px 12px; font-size: 0.8rem; }
-
-    .day-header h3 { font-size: 0.9rem; }
-    .day-status-badge { font-size: 0.65rem; }
-
-    .grammar-card, .exercise-card { padding: 12px; }
-    .exercise-question { font-size: 0.9rem; }
-
-    .option { padding: 8px 12px; font-size: 0.85rem; }
-    .btn-check, .btn-next { padding: 8px 16px; font-size: 0.85rem; }
-
-    .timetable-row {
-        min-width: 450px;
-        gap: 4px;
-    }
-
-    .timetable-time { font-size: 0.7rem; padding: 4px; }
-    .timetable-subject { font-size: 0.65rem; padding: 4px; }
+/* ========== ПРОГРЕСС БАР (для lesson.html) ========== */
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    margin: 20px 0;
+    overflow: hidden;
 }
 
-/* Подвал */
-.site-footer {
-    text-align: center;
-    padding: 30px 20px 20px;
-    margin-top: 40px;
-    border-top: 1px solid var(--border);
-    font-size: 0.8rem;
-    color: var(--gray);
+.progress-fill {
+    height: 100%;
+    background: var(--success);
+    width: 0%;
+    transition: width 0.3s ease;
 }
 
-.site-footer a {
-    color: var(--gray);
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.2s;
-}
-
-.site-footer a:hover {
-    color: var(--primary);
-}
-
-.footer-links {
-    margin-top: 8px;
-}
 /* ========== БЛОК "О ПРОЕКТЕ" ========== */
 .about-section {
     background: var(--card-bg);
@@ -707,11 +659,6 @@ header p {
     font-size: 4.5rem;
     display: block;
     margin-bottom: 10px;
-}
-
-.about-icon-flag {
-    font-size: 2.5rem;
-    display: block;
 }
 
 .about-content {
@@ -773,34 +720,6 @@ header p {
 .about-badge:hover {
     background: rgba(99, 102, 241, 0.15);
     transform: translateY(-2px);
-}
-
-/* Центрирование заголовка и бейджей на телефонах */
-@media (max-width: 600px) {
-    .about-section {
-        padding: 25px;
-        margin: 30px 0;
-    }
-
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .about-icon {
-        flex: 0 0 auto;
-    }
-
-    .about-title::after {
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .about-badges {
-        justify-content: center;
-    }
 }
 
 /* ========== БЛОК ОТЗЫВОВ ========== */
@@ -922,21 +841,6 @@ header p {
     margin-top: 5px;
 }
 
-@media (max-width: 600px) {
-    .reviews-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .review-card {
-        padding: 20px;
-    }
-
-    .reviews-title {
-        font-size: 1.5rem;
-    }
-}
-
 /* ========== БЛОК ПРЕДЛОЖЕНИЙ ========== */
 .feedback-section {
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
@@ -1020,29 +924,9 @@ header p {
     color: var(--primary);
 }
 
-@media (max-width: 600px) {
-    .feedback-section {
-        padding: 25px;
-        margin: 30px 0;
-    }
-
-    .feedback-title {
-        font-size: 1.3rem;
-    }
-
-    .feedback-buttons {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .feedback-btn {
-        justify-content: center;
-    }
-}
-
 /* ========== БЛОК СОВЕТ ДНЯ ========== */
 .tip-section {
-    background: linear-gradient(135deg, var(--primary-light, rgba(249, 115, 22, 0.08)), rgba(139, 92, 246, 0.08));
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.08), rgba(139, 92, 246, 0.08));
     border-radius: 20px;
     padding: 25px 30px;
     margin: 40px 0 30px;
@@ -1109,7 +993,157 @@ header p {
     background: rgba(99, 102, 241, 0.1);
 }
 
+/* ========== ПОДВАЛ ========== */
+.site-footer {
+    text-align: center;
+    padding: 30px 20px 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.site-footer a {
+    color: var(--gray);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: var(--primary);
+}
+
+.footer-links {
+    margin-top: 8px;
+}
+
+/* ========== СЕРТИФИКАТ ========== */
+.certificate-modal {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* ========== АДАПТИВНОСТЬ (МОБИЛЬНЫЕ УСТРОЙСТВА) ========== */
 @media (max-width: 600px) {
+    .container { padding: 16px; }
+
+    header {
+        position: relative;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .theme-toggle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+        font-size: 0.7rem;
+        padding: 5px 10px;
+    }
+
+    .nav-buttons-top, .nav-buttons-bottom {
+        flex-direction: column;
+    }
+
+    .btn-home, .btn-back, .btn-prev {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats-bar { gap: 8px; }
+    .stat-card { padding: 8px 12px; min-width: 70px; }
+    .stat-value { font-size: 1.2rem; }
+    .stat-label { font-size: 0.7rem; }
+
+    .levels-grid { grid-template-columns: 1fr; }
+    .vocab-grid { grid-template-columns: 1fr; }
+
+    .audience-btn { padding: 6px 12px; font-size: 0.8rem; }
+
+    .day-header h3 { font-size: 0.9rem; }
+    .day-status-badge { font-size: 0.65rem; }
+
+    .grammar-card, .exercise-card { padding: 12px; }
+    .exercise-question { font-size: 0.9rem; }
+
+    .option { padding: 8px 12px; font-size: 0.85rem; }
+    .btn-check, .btn-next { padding: 8px 16px; font-size: 0.85rem; }
+
+    .timetable-row {
+        min-width: 450px;
+        gap: 4px;
+    }
+
+    .timetable-time { font-size: 0.7rem; padding: 4px; }
+    .timetable-subject { font-size: 0.65rem; padding: 4px; }
+
+    .about-section {
+        padding: 25px;
+        margin: 30px 0;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-icon {
+        flex: 0 0 auto;
+    }
+
+    .about-title::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about-badges {
+        justify-content: center;
+    }
+
+    .reviews-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .reviews-title {
+        font-size: 1.5rem;
+    }
+
+    .feedback-section {
+        padding: 25px;
+        margin: 30px 0;
+    }
+
+    .feedback-title {
+        font-size: 1.3rem;
+    }
+
+    .feedback-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .feedback-btn {
+        justify-content: center;
+    }
+
     .tip-section {
         padding: 20px;
         margin: 30px 0 20px;
@@ -1124,4 +1158,33 @@ header p {
     .tip-content {
         font-size: 0.9rem;
     }
+}
+
+/* ========== ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ДЛЯ LESSON.HTML ========== */
+.lesson-container {
+    max-width: 800px;
+}
+
+.lesson-header {
+    margin-bottom: 30px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.btn-prev, .btn-next {
+    flex: 1;
+    text-align: center;
+}
+
+.btn-next {
+    background: var(--primary);
+}
+
+.btn-prev {
+    background: var(--gray);
 }
