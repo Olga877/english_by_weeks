@@ -792,50 +792,48 @@ function makeWordsClickable(text, context = '') {
 function renderReadingTextContent(readingText) {
     if (!readingText) return '';
 
-    // Заменяем Markdown **жирный** на <strong>
+    // 1. Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-    // Временно защищаем HTML-теги
+    // 2. Заменяем \n на <br>
+    processedText = processedText.replace(/\n/g, '<br>');
+
+    // 3. НЕ трогаем уже существующие <br> — они останутся как есть
+
+    // 4. Защищаем HTML-теги (включая <br>) от разбора на слова
     const tagPlaceholders = [];
     processedText = processedText.replace(/<[^>]+>/g, (match) => {
-        const placeholder = `§§TAG_${tagPlaceholders.length}§§`;
+        const placeholder = `{{TAG_${tagPlaceholders.length}}}`;
         tagPlaceholders.push({ placeholder, tag: match });
         return placeholder;
     });
 
-    // Регулярное выражение для поиска эмодзи
+    // 5. Находим и сохраняем эмодзи
     const emojiRegex = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu;
+    const emojiParts = [];
+    let processedWithEmoji = processedText;
+    let emojiMatch;
+    let emojiIndex = 0;
 
-    const parts = [];
-    let lastIndex = 0;
-    let match;
-
-    function makeClickable(text) {
-        if (!text) return '';
-        return text.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
-            if (word.includes('§§TAG_')) return word;
-            const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-            return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
-        });
+    while ((emojiMatch = emojiRegex.exec(processedText)) !== null) {
+        const emojiPlaceholder = `{{EMOJI_${emojiIndex++}}}`;
+        emojiParts.push({ placeholder: emojiPlaceholder, emoji: emojiMatch[0] });
+        processedWithEmoji = processedWithEmoji.replace(emojiMatch[0], emojiPlaceholder);
     }
 
-    while ((match = emojiRegex.exec(processedText)) !== null) {
-        if (match.index > lastIndex) {
-            const textBefore = processedText.substring(lastIndex, match.index);
-            parts.push(makeClickable(textBefore));
-        }
-        parts.push(match[0]);
-        lastIndex = match.index + match[0].length;
+    // 6. Делаем слова кликабельными (только буквы, не трогаем плейсхолдеры)
+    let result = processedWithEmoji.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
+        if (word.includes('{{')) return word;
+        const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
+    });
+
+    // 7. Возвращаем эмодзи
+    for (const { placeholder, emoji } of emojiParts) {
+        result = result.split(placeholder).join(emoji);
     }
 
-    if (lastIndex < processedText.length) {
-        const textAfter = processedText.substring(lastIndex);
-        parts.push(makeClickable(textAfter));
-    }
-
-    let result = parts.length === 0 ? makeClickable(processedText) : parts.join('');
-
-    // Возвращаем HTML-теги
+    // 8. Возвращаем HTML-теги
     for (const { placeholder, tag } of tagPlaceholders) {
         result = result.split(placeholder).join(tag);
     }
