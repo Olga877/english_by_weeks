@@ -22,21 +22,18 @@ const schoolGrades = [
         description: 'Английский для 5 класса. 40+ уникальных недель!',
         available: true,
         weeks: [
-            // Уже существующие недели (НЕ УДАЛЯТЬ!)
-            { weekId: 'week1_school', title: '🏫 School Week' },
-            { weekId: 'week2_numbers', title: '🔢 Numbers & Me Week' },
-            { weekId: 'week3_capital_letters', title: '✏️ Capital Letters & My Choice' },
-            { weekId: 'week4_countries_nationalities', title: '🌍 Countries & Nationalities' },
-            { weekId: 'week5_personal_things', title: '🎒 My Stuff & That Thing Over There' },
-            { weekId: 'week6_numbers_souvenirs', title: '🔢 Numbers & Souvenir Shop' },
-            { weekId: 'week7_rooms_ordinals', title: '🏠 Rooms & Floors' },
-            { weekId: 'week8_furniture_there_is', title: '🛋️ My Room, My Castle' },
-            { weekId: 'week9_prepositions_house', title: '🔍 Where Is It? Prepositions & House Tour' },
-            { weekId: 'week10_family_can', title: '👨‍👩‍👧‍👦 Family Superpowers' },
-            { weekId: 'week11_appearance_possessive', title: '👀 Who\'s Who? Appearance & Possession' },
-
-
-        ]
+    { weekId: 'week1_school', title: '📚 School Subjects & I have / I like' },
+    { weekId: 'week2_numbers', title: '🔢 Numbers 1-100 & Verb to be (am/is/are)' },
+    { weekId: 'week3_capital_letters', title: '🔤 Capital Letters & I can / I can\'t' },
+    { weekId: 'week4_countries_nationalities', title: '🌍 Countries & Nationalities / to be from' },
+    { weekId: 'week5_personal_things', title: '🎒 Personal Things & This / That / These / Those' },
+    { weekId: 'week6_numbers_souvenirs', title: '💰 Numbers & How much? / How many?' },
+    { weekId: 'week7_rooms_ordinals', title: '🏠 Rooms & Ordinal numbers (1st-10th)' },
+    { weekId: 'week8_furniture_there_is', title: '🛋️ Furniture & There is / There are' },
+    { weekId: 'week9_prepositions_house', title: '📍 Prepositions of place & Where is/are?' },
+    { weekId: 'week10_family_can', title: '👨‍👩‍👧‍👦 Family & I can / I can\'t (abilities)' },
+    { weekId: 'week11_appearance_possessive', title: '😊 Appearance & Possessive adjectives' },
+]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
     { id: 'grade7', title: '7 класс', icon: '📖', description: 'Английский для 7 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
