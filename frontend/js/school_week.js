@@ -77,7 +77,8 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        const url = `/english_by_weeks/frontend/${currentWeekId}.json`;
+        // Новый путь: frontend/data/lessons/school/grade5/ + currentWeekId + .json
+        const url = `/english_by_weeks/frontend/data/lessons/school/grade5/${currentWeekId}.json`;
         const response = await fetch(url);
 
         if (!response.ok) throw new Error('Week not found');

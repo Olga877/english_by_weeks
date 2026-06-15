@@ -80,7 +80,10 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        const response = await fetch(`/api/lessons/week/${currentLevel}/${currentWeekId}`);
+        // Для взрослых: frontend/data/lessons/adults/B1/ + currentWeekId + .json
+        const url = `/english_by_weeks/frontend/data/lessons/adults/B1/${currentWeekId}.json`;
+        const response = await fetch(url);
+
         if (!response.ok) throw new Error('Week not found');
         weekData = await response.json();
 
@@ -88,7 +91,9 @@ async function loadWeekData() {
         document.getElementById('weekDescription').textContent = weekData.description;
     } catch (error) {
         console.error('Error loading week:', error);
-        document.getElementById('daysContainer').innerHTML = '<div style="text-align: center; padding: 40px; color: var(--danger);">❌ Week not found</div>';
+        document.getElementById('daysContainer').innerHTML = `<div style="text-align: center; padding: 40px; color: var(--danger);">
+            ❌ Week not found: ${error.message}
+        </div>`;
     }
 }
 
