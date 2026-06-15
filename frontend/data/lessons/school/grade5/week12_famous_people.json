@@ -210,69 +210,69 @@
             ]
         },
         {
-            "day": 4,
-            "title": "Day 4: Reading — Meet a Russian Star!",
-            "description": "Читаем текст о российской знаменитости и отвечаем на вопросы",
-            "grammar": {
-                "title": "Чтение и понимание текста",
-                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди ключевые слова (имя, страна, семья, хобби).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Не переводи каждое слово — старайся понять из контекста!",
-                "examples": []
-            },
-            "vocabulary": [],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "reading",
-                    "question": "What is the name of the famous person in the text?",
-                    "options": ["Khabib Nurmagomedov", "Dmitry Maslennikov", "Egor Krid", "Klava Koka"],
-                    "correct": "Dmitry Maslennikov",
-                    "accept": ["Dmitry Maslennikov", "Maslennikov", "dmitry maslennikov"],
-                    "explanation": "Дмитрий Масленников — популярный видеоблогер из России. У него миллионы подписчиков на YouTube! 📹",
-                    "readingText": "🌟 Meet Dmitry Maslennikov! 🌟\n\nHi guys! My name is Dmitry Maslennikov, but my friends call me Dima. I'm from Moscow, Russia. I was born on 2nd December 1993.\n\nI'm a YouTuber and blogger. I've got a channel called 'Dima Maslennikov' with over 5 million subscribers! What can I do? I can make funny prank videos, challenges, and vlogs about my life. My favourite hobby is playing video games — especially Minecraft and Among Us!\n\nI haven't got any brothers or sisters, but I've got a pet cat named Busya. She is very cute and likes to sleep on my keyboard while I'm working! 🐱\n\nMy fans are the best! They always support me. Can you make cool videos too? Maybe one day you'll be a famous blogger!",
-                    "topic": "reading"
-                },
-                {
-                    "id": 2,
-                    "type": "true_false",
-                    "question": "Dmitry Maslennikov has got a brother.",
-                    "correct": "False",
-                    "accept": ["False", "false", "FALSE", "No", "no"],
-                    "explanation": "В тексте сказано: \"I haven't got any brothers or sisters\" — у Дмитрия нет братьев и сестёр.",
-                    "readingText": "",
-                    "topic": "reading"
-                },
-                {
-                    "id": 3,
-                    "type": "true_false",
-                    "question": "Dmitry's favourite games are Minecraft and Among Us.",
-                    "correct": "True",
-                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
-                    "explanation": "Да, Дмитрий любит играть в Minecraft и Among Us — очень популярные игры среди блогеров! 🎮",
-                    "readingText": "",
-                    "topic": "reading"
-                },
-                {
-                    "id": 4,
-                    "type": "fill_blank",
-                    "question": "Dmitry's pet cat is called ___ . 🐱",
-                    "correct": "Busya",
-                    "accept": ["Busya", "busya", "BUSYA", "Busya"],
-                    "explanation": "Кошку Дмитрия зовут Буся. Она часто спит на клавиатуре — знакомая ситуация для многих! 😸",
-                    "readingText": "",
-                    "topic": "reading"
-                },
-                {
-                    "id": 5,
-                    "type": "fill_blank",
-                    "question": "Dmitry ___ from Moscow, Russia. He ___ got a YouTube channel with over 5 million subscribers!",
-                    "correct": "is, has",
-                    "accept": ["is, has", "Is, Has", "IS, HAS"],
-                    "explanation": "Dmitry is from Moscow (он из Москвы). He has got a channel (у него есть канал). 5 миллионов подписчиков — это очень много! 🚀",
-                    "readingText": "",
-                    "topic": "reading"
-                }
-            ]
+    "day": 4,
+    "title": "Day 4: Reading — Meet MrBeast!",
+    "description": "Читаем текст о самом щедром ютубере в мире и отвечаем на вопросы",
+    "grammar": {
+        "title": "Чтение и понимание текста",
+        "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди ключевые слова (имя, страна, семья, хобби).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Не переводи каждое слово — старайся понять из контекста!",
+        "examples": []
+    },
+    "vocabulary": [],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "reading",
+            "question": "What is the name of the YouTuber in the text?",
+            "options": ["PewDiePie", "MrBeast", "KSI", "Dima Maslennikov"],
+            "correct": "MrBeast",
+            "accept": ["MrBeast", "Mr beast", "mrbeast", "Jimmy Donaldson", "jimmy donaldson"],
+            "explanation": "MrBeast (Jimmy Donaldson) — the most generous YouTuber with over 200 million subscribers! 🎥",
+            "readingText": "🌟 Meet MrBeast — The Most Generous YouTuber! 🌟\n\nMrBeast is a famous American YouTuber. His real name is Jimmy Donaldson. He was born on 7th May 1998 in Kansas, USA.\n\nHis YouTube channel has over 200 million subscribers! He makes crazy challenges, gives away millions of dollars, and plants millions of trees. His favourite hobby is playing video games and making videos with his friends.\n\nMrBeast hasn't got any brothers or sisters, but he has got a pet dog named Carl! 🐶\n\nHis fans love him because he is kind, funny, and generous. Can you make cool videos too? Maybe one day you'll be a famous blogger like MrBeast!",
+            "topic": "reading"
         },
+        {
+            "id": 2,
+            "type": "true_false",
+            "question": "MrBeast was born in Russia.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "MrBeast is from the USA, not Russia. He was born in Kansas! 🇺🇸",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 3,
+            "type": "true_false",
+            "question": "MrBeast has got a pet dog named Carl.",
+            "correct": "True",
+            "accept": ["True", "true", "TRUE", "Yes", "yes"],
+            "explanation": "Yes, MrBeast has a dog named Carl. He often appears in his videos! 🐶",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "MrBeast's real name is ___ Donaldson.",
+            "correct": "Jimmy",
+            "accept": ["Jimmy", "jimmy", "JIMMY"],
+            "explanation": "MrBeast's real name is Jimmy Donaldson. Jimmy is the first name!",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "MrBeast ___ got any brothers or sisters.",
+            "correct": "hasn't",
+            "accept": ["hasn't", "has not", "hasn't got", "doesn't have"],
+            "explanation": "MrBeast is an only child — he hasn't got any brothers or sisters!",
+            "readingText": "",
+            "topic": "reading"
+        }
+    ]
+},
         {
             "day": 5,
             "title": "Day 5: Questions with Can & Short Answers",
