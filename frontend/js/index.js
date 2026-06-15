@@ -33,6 +33,7 @@ const schoolGrades = [
     { weekId: 'week9_prepositions_house', title: '📍 Prepositions of place & Where is/are?' },
     { weekId: 'week10_family_can', title: '👨‍👩‍👧‍👦 Family & I can / I can\'t (abilities)' },
     { weekId: 'week11_appearance_possessive', title: '😊 Appearance & Possessive adjectives' },
+    { weekId: 'week12_famous_people', title: '🎤 Famous People & can / can\'t (способности)' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
