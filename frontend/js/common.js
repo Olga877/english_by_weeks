@@ -747,6 +747,10 @@ function speakSentence(sentence, lang = 'en-US') {
     cleanSentence = cleanEnglishText(cleanSentence);
     cleanSentence = cleanSentence.replace(/_{2,}/g, ' ... ');
 
+    // Убираем точки и другие знаки препинания, которые мешают озвучке
+    cleanSentence = cleanSentence.replace(/[.,!?;:()\[\]{}"']/g, ' ');
+    cleanSentence = cleanSentence.replace(/\s+/g, ' ').trim();
+
     if (cleanSentence.length === 0) return;
 
     speak(cleanSentence, lang, 0.85);
