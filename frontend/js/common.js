@@ -795,28 +795,10 @@ function renderReadingTextContent(readingText) {
     // Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-    // Сохраняем эмодзи (но не делаем их кликабельными)
-    const emojiPlaceholders = [];
-    processedText = processedText.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, (match) => {
-        const placeholder = `__EMOJI_${emojiPlaceholders.length}__`;
-        emojiPlaceholders.push(match);
-        return placeholder;
-    });
-
-    // Обрабатываем переносы строк
+    // Заменяем переносы строк
     processedText = processedText.replace(/\n/g, '<br>');
 
-    // Делаем слова кликабельными (но без эмодзи)
-    processedText = processedText.replace(/\b([a-zA-Z]{2,}(?:'[a-zA-Z]+)?)\b/g, (match) => {
-        const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-        return `<span class="clickable-word" data-word="${safeWord}" data-context="">${match}</span>`;
-    });
-
-    // Возвращаем эмодзи
-    emojiPlaceholders.forEach((placeholder, index) => {
-        processedText = processedText.replace(placeholder, emojiPlaceholders[index]);
-    });
-
+    // Эмодзи оставляем как есть — НЕ делаем их кликабельными
     return processedText;
 }
 

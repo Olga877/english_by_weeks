@@ -312,7 +312,6 @@ function renderReadingText(readingText) {
                     let rowHtml = '<div class="timetable-row">';
                     for (let i = 0; i < cells.length; i++) {
                         const cellClass = i === 0 ? 'timetable-time' : 'timetable-subject';
-                        // Для расписания используем специальную обработку
                         rowHtml += `<div class="${cellClass}">${renderReadingTextContent(cells[i].trim())}</div>`;
                     }
                     rowHtml += '</div>';
@@ -330,7 +329,7 @@ function renderReadingText(readingText) {
         return timetableHtml;
     }
 
-    // Обычный текст
+    // Обычный текст — используем renderReadingTextContent
     return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.4;">${renderReadingTextContent(readingText)}</div>`;
 }
 
@@ -374,7 +373,8 @@ async function checkExercise(dayNum, exId, exType) {
 
     let userAnswer = userAnswers[`day${dayNum}_ex${exId}`];
 
-    if ((exType === 'fill_blank' || exType === 'correct_mistake') && !userAnswer) {
+    // Для fill_blank и correct_mistake — читаем из input каждый раз
+    if ((exType === 'fill_blank' || exType === 'correct_mistake')) {
         const input = document.getElementById(`input-${dayNum}-${exId}`);
         if (input) {
             userAnswer = input.value.trim();
@@ -412,7 +412,7 @@ async function checkExercise(dayNum, exId, exType) {
         explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Неправильно. Правильный ответ: ${exercise.correct}<br>${exercise.explanation || ''}</div>`;
         showToast('❌ Неправильно. Попробуйте ещё раз!', 'error');
 
-        // НЕ блокируем поле ввода — пользователь может исправить ответ
+        // ВАЖНО: НЕ блокируем поле ввода — пользователь может исправить ответ
         // НЕ засчитываем как непройденное — просто показываем ошибку
     }
     explanationDiv.classList.add('show');
