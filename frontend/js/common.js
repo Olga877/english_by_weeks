@@ -792,31 +792,33 @@ function makeWordsClickable(text, context = '') {
 function renderReadingTextContent(readingText) {
     if (!readingText) return '';
 
-    // 1. Заменяем Markdown **жирный** на <strong>
+    // Шаг 1: Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-    // 2. Сохраняем эмодзи (чтобы не сломать)
-    const emojiPlaceholders = [];
-    processedText = processedText.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, (match) => {
-        const placeholder = `__EMOJI_${emojiPlaceholders.length}__`;
-        emojiPlaceholders.push(match);
-        return placeholder;
+    // Шаг 2: Заменяем переносы строк на <br>
+    processedText = processedText.replace(/\n/g, '<br>');
+
+    // Шаг 3: Заменяем эмодзи на специальные маркеры (используем необычные символы)
+    // Используем маркер, который точно не встретится в обычном тексте
+    const emojiMarkers = [];
+    processedText = processedText.replace(/[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu, (emoji, index) => {
+        const marker = `🔷🔷_EMOJI_${index}_🔷🔷`;
+        emojiMarkers.push({ marker, emoji });
+        return marker;
     });
 
-    // 3. Делаем английские слова кликабельными
+    // Шаг 4: Делаем английские слова кликабельными
     processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (match) => {
-        if (match.startsWith('__') && match.endsWith('__')) return match;
+        // Пропускаем маркеры
+        if (match.includes('🔷🔷') || match.includes('EMOJI')) return match;
         const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="">${match}</span>`;
     });
 
-    // 4. Возвращаем эмодзи
-    emojiPlaceholders.forEach((placeholder, index) => {
-        processedText = processedText.replace(new RegExp(placeholder, 'g'), emojiPlaceholders[index]);
-    });
-
-    // 5. Заменяем переносы строк на <br>
-    processedText = processedText.replace(/\n/g, '<br>');
+    // Шаг 5: Возвращаем эмодзи на место
+    for (const { marker, emoji } of emojiMarkers) {
+        processedText = processedText.split(marker).join(emoji);
+    }
 
     return processedText;
 }
