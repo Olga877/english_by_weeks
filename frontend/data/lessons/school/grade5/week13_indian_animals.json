@@ -1,0 +1,394 @@
+{
+    "week_id": "week13_indian_animals",
+    "title": "🐯 Indian Animals & Present Simple (факты о животных)",
+    "description": "Учим названия животных Индии, части тела животных, прилагательные и Present Simple для описания фактов. Мемы, факты и хаски-блогеры! 🐾",
+    "level": "5 класс",
+    "icon": "🐯",
+    "order_num": 13,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Animals of India",
+            "description": "Знакомимся с животными Индии — тиграми, слонами, кобрами и носорогами",
+            "grammar": {
+                "title": "Present Simple (утверждение) для фактов",
+                "rule": "📘 **Present Simple** используется для фактов и постоянных ситуаций.\n\n📝 **Формула**:\n✅ I/You/We/They + глагол\n✅ He/She/It + глагол + **-s**\n\n🎯 **Примеры**:\n✅ The Bengal tiger lives in India.\n✅ Elephants eat plants.\n✅ A cobra has got a hood.\n\n🚫 **Важно**: Для he/she/it добавляем -s к глаголу!\n✅ It lives. ❌ It live.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🐯", "word": "Bengal tiger", "transcription": "/benˌɡɔːl ˈtaɪɡər/", "translation": "бенгальский тигр", "example": "The Bengal tiger is the national animal of India.", "context_translation": "бенгальский тигр", "context_example": "Бенгальский тигр — национальное животное Индии."},
+                {"icon": "🐍", "word": "Indian cobra", "transcription": "/ˈɪndiən ˈkəʊbrə/", "translation": "индийская кобра", "example": "The Indian cobra is a very dangerous snake.", "context_translation": "индийская кобра", "context_example": "Индийская кобра — очень опасная змея."},
+                {"icon": "🐘", "word": "Indian elephant", "transcription": "/ˈɪndiən ˈelɪfənt/", "translation": "индийский слон", "example": "Indian elephants have got small ears.", "context_translation": "индийский слон", "context_example": "У индийских слонов маленькие уши."},
+                {"icon": "🦏", "word": "Indian rhino", "transcription": "/ˈɪndiən ˈraɪnəʊ/", "translation": "индийский носорог", "example": "The Indian rhino has got only one horn.", "context_translation": "индийский носорог", "context_example": "У индийского носорога только один рог."},
+                {"icon": "🦌", "word": "deer", "transcription": "/dɪər/", "translation": "олень", "example": "Tigers hunt deer in the forest.", "context_translation": "олень", "context_example": "Тигры охотятся на оленей в лесу."},
+                {"icon": "🐍", "word": "snake", "transcription": "/sneɪk/", "translation": "змея", "example": "Snakes live in the grass.", "context_translation": "змея", "context_example": "Змеи живут в траве."},
+                {"icon": "🐅", "word": "stripes", "transcription": "/straɪps/", "translation": "полосы", "example": "The Bengal tiger has got black stripes.", "context_translation": "полосы", "context_example": "У бенгальского тигра чёрные полосы."},
+                {"icon": "🐘", "word": "trunk", "transcription": "/trʌŋk/", "translation": "хобот", "example": "Elephants use their trunks to eat and drink.", "context_translation": "хобот", "context_example": "Слоны используют хобот, чтобы есть и пить."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Which animal is the national animal of India? 🇮🇳",
+                    "options": ["Indian elephant", "Bengal tiger", "Indian rhino", "Indian cobra"],
+                    "correct": "Bengal tiger",
+                    "accept": ["Bengal tiger", "bengal tiger", "Bengal Tiger"],
+                    "explanation": "The Bengal tiger is the national animal of India! 🐯",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The Indian cobra ___ (live) in India. 🐍",
+                    "correct": "lives",
+                    "accept": ["lives", "Lives", "LIVES"],
+                    "explanation": "Cobra — он (it), поэтому добавляем -s: lives! 🐍",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Indian elephants have got big ears.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Indian elephants have got SMALL ears. African elephants have big ears! 🐘",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "A rhino ___ (have) one horn. 🦏",
+                    "correct": "has",
+                    "accept": ["has", "Has", "HAS"],
+                    "explanation": "Rhino — он (it), поэтому has (не have)! У индийского носорога один рог 🦏",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Tigers hunt deer. They eat meat.",
+                    "correct": "Correct",
+                    "accept": ["Correct", "correct", "CORRECT"],
+                    "explanation": "Всё верно! Тигры охотятся на оленей и едят мясо. Это факт! 🐯🦌",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Parts of the Body",
+            "description": "Учим части тела животных и описываем их",
+            "grammar": {
+                "title": "Present Simple — описания",
+                "rule": "📘 **Как описать животное**:\n✅ It has got + часть тела\n✅ It is + цвет/размер\n✅ It lives + место\n✅ It eats + еда\n\n🎯 **Примеры**:\n✅ The tiger has got orange fur with black stripes.\n✅ It lives in the jungle.\n✅ It eats deer.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🦷", "word": "teeth", "transcription": "/tiːθ/", "translation": "зубы", "example": "Tigers have got sharp teeth.", "context_translation": "зубы", "context_example": "У тигров острые зубы."},
+                {"icon": "🦅", "word": "wings", "transcription": "/wɪŋz/", "translation": "крылья", "example": "Birds have got wings, but snakes haven't.", "context_translation": "крылья", "context_example": "У птиц есть крылья, а у змей нет."},
+                {"icon": "🐾", "word": "paws", "transcription": "/pɔːz/", "translation": "лапы", "example": "Cats have got soft paws.", "context_translation": "лапы", "context_example": "У кошек мягкие лапы."},
+                {"icon": "🦚", "word": "feathers", "transcription": "/ˈfeðəz/", "translation": "перья", "example": "Peacocks have got colourful feathers.", "context_translation": "перья", "context_example": "У павлинов разноцветные перья."},
+                {"icon": "🦒", "word": "neck", "transcription": "/nek/", "translation": "шея", "example": "Giraffes have got very long necks.", "context_translation": "шея", "context_example": "У жирафов очень длинные шеи."},
+                {"icon": "🐘", "word": "tusks", "transcription": "/tʌsks/", "translation": "бивни", "example": "Elephants have got long tusks.", "context_translation": "бивни", "context_example": "У слонов длинные бивни."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What does an elephant use to eat and drink? 🐘",
+                    "options": ["Tusks", "Trunk", "Teeth", "Paws"],
+                    "correct": "Trunk",
+                    "accept": ["Trunk", "trunk", "TRUNK"],
+                    "explanation": "Elephants use their trunk to eat and drink! 🐘",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "A peacock has got colourful ___ . 🦚",
+                    "correct": "feathers",
+                    "accept": ["feathers", "Feathers", "FEATHERS"],
+                    "explanation": "Peacock — павлин. У него красивые разноцветные перья! 🦚",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Snakes have got wings.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Snakes haven't got wings! У змей нет крыльев 🐍",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Tigers have got sharp ___ . (teeth / paws)",
+                    "correct": "teeth",
+                    "accept": ["teeth", "Teeth", "TEETH"],
+                    "explanation": "Tigers have got sharp teeth for hunting! 🐯🦷",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Giraffes have got short necks.",
+                    "correct": "Giraffes have got long necks.",
+                    "accept": ["Giraffes have got long necks", "Giraffes have long necks"],
+                    "explanation": "Giraffes have got LONG necks, not short! 🦒",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Adjectives — Describing Animals",
+            "description": "Учим прилагательные для описания животных",
+            "grammar": {
+                "title": "Adjectives for Animals",
+                "rule": "📘 **Прилагательные для описания животных**:\n\n📏 **Размер**: big, small, tall, short, long\n🎨 **Цвет**: orange, black, brown, white, yellow, grey\n📊 **Особенности**: dangerous, beautiful, heavy, funny, strong, fast, slow, cute\n\n🎯 **Структура**:\n✅ The Bengal tiger is beautiful.\n✅ The elephant is very heavy.\n✅ The cobra is dangerous!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🐯", "word": "dangerous", "transcription": "/ˈdeɪndʒərəs/", "translation": "опасный", "example": "Cobras are very dangerous snakes.", "context_translation": "опасный", "context_example": "Кобры — очень опасные змеи."},
+                {"icon": "🐘", "word": "heavy", "transcription": "/ˈhevi/", "translation": "тяжёлый", "example": "Elephants are very heavy animals.", "context_translation": "тяжёлый", "context_example": "Слоны — очень тяжёлые животные."},
+                {"icon": "🐯", "word": "beautiful", "transcription": "/ˈbjuːtɪfl/", "translation": "красивый", "example": "The Bengal tiger is a beautiful animal.", "context_translation": "красивый", "context_example": "Бенгальский тигр — красивое животное."},
+                {"icon": "🦏", "word": "funny", "transcription": "/ˈfʌni/", "translation": "забавный, смешной", "example": "The Indian rhino looks funny with its one horn.", "context_translation": "забавный", "context_example": "Индийский носорог выглядит забавно со своим одним рогом."},
+                {"icon": "🐍", "word": "fast", "transcription": "/fɑːst/", "translation": "быстрый", "example": "Cobras can move very fast!", "context_translation": "быстрый", "context_example": "Кобры могут двигаться очень быстро!"},
+                {"icon": "🐘", "word": "strong", "transcription": "/strɒŋ/", "translation": "сильный", "example": "Elephants are very strong animals.", "context_translation": "сильный", "context_example": "Слоны — очень сильные животные."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Which word describes something that can hurt you? ⚠️",
+                    "options": ["Beautiful", "Dangerous", "Funny", "Heavy"],
+                    "correct": "Dangerous",
+                    "accept": ["Dangerous", "dangerous", "DANGEROUS"],
+                    "explanation": "Dangerous — опасный. Кобра может быть опасной! 🐍",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The elephant is very ___ . (heavy / light)",
+                    "correct": "heavy",
+                    "accept": ["heavy", "Heavy", "HEAVY"],
+                    "explanation": "Слон очень тяжёлый! 🐘",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A cobra is a beautiful animal.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Cobras can be beautiful — they have interesting patterns! 🐍",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The Indian rhino looks ___ with its one horn. (funny / heavy)",
+                    "correct": "funny",
+                    "accept": ["funny", "Funny", "FUNNY"],
+                    "explanation": "Носорог выглядит забавно с одним рогом! 😄🦏",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "multiple_choice",
+                    "question": "What is the opposite of 'slow'? 🏃",
+                    "options": ["Heavy", "Fast", "Dangerous", "Funny"],
+                    "correct": "Fast",
+                    "accept": ["Fast", "fast", "FAST"],
+                    "explanation": "Fast — быстрый, противоположность slow 🏃",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Amazing Creatures of India",
+            "description": "Читаем текст о животных Индии и учимся находить факты",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди ключевые слова (названия животных, цвета, размеры).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на глаголы в Present Simple!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "How many Indian rhinos are there today? 🦏",
+                    "options": ["About 2,000", "About 5,000", "About 10,000", "About 1,000"],
+                    "correct": "About 2,000",
+                    "accept": ["About 2,000", "about 2000", "2000", "two thousand"],
+                    "explanation": "There are only about 2,000 Indian rhinos today. They are endangered! 🦏",
+                    "readingText": "🌟 AMAZING CREATURES OF INDIA 🌟\n\nIndia has got some of the most amazing animals in the world! Let's learn about them.\n\n🐯 BENGAL TIGER\n\nThe Bengal tiger is the national animal of India. It has got orange fur with black, grey or brown stripes. Tigers hide in tall grass and hunt big animals like deer. They are really beautiful!\n\n🐍 INDIAN COBRA\n\nThe Indian cobra is a black, brown, white or yellow snake. It is very dangerous and can bite. Cobras can move very fast!\n\n🐘 INDIAN ELEPHANT\n\nIndian elephants are very big and tall (2-3 metres), but they have got small ears. Usually a big female is the leader of a family of elephants. Indian people use elephants to carry heavy things with their trunks.\n\n🦏 INDIAN RHINO\n\nThe Indian rhino is a funny animal! It only has got one horn (African rhinos have got two). It usually lives alone and likes to sit in water or mud. There are only about 2,000 Indian rhinos today. We must protect them!\n\n🌿 WHAT DO YOU THINK?\n\nWhich animal is your favourite? Comment below! 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What colour is the Indian cobra? 🐍",
+                    "options": ["Orange with stripes", "Black, brown, white or yellow", "Grey with a horn", "Big and heavy"],
+                    "correct": "Black, brown, white or yellow",
+                    "accept": ["Black, brown, white or yellow", "black, brown, white or yellow"],
+                    "explanation": "The Indian cobra is black, brown, white or yellow! 🐍",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Indian elephants have got big ears.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Indian elephants have got SMALL ears. Big ears are for African elephants! 🐘",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "The Indian rhino has got one horn.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! The Indian rhino has got one horn. African rhinos have two! 🦏",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The Bengal tiger hides in tall ___ . 🌿",
+                    "correct": "grass",
+                    "accept": ["grass", "Grass", "GRASS"],
+                    "explanation": "The Bengal tiger hides in tall grass to hunt deer! 🐯🌿",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Present Simple Practice",
+            "description": "Тренируем Present Simple с животными",
+            "grammar": {
+                "title": "Present Simple — тренировка",
+                "rule": "📘 **Ещё раз правила**:\n\n✅ I/You/We/They + глагол (без -s)\n✅ He/She/It + глагол + -s\n\n🎯 **Примеры**:\n✅ Tigers eat meat. (множественное число — без -s)\n✅ A tiger eats meat. (одно животное — с -s)\n✅ Elephants live in India.\n✅ An elephant lives in India.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Tigers ___ (hunt) deer in the jungle. 🐯",
+                    "correct": "hunt",
+                    "accept": ["hunt", "Hunt", "HUNT"],
+                    "explanation": "Tigers — множественное число (they), поэтому hunt без -s! 🐯",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "A cobra ___ (live) in India. 🐍",
+                    "correct": "lives",
+                    "accept": ["lives", "Lives", "LIVES"],
+                    "explanation": "A cobra — he/she/it (одна змея), поэтому lives с -s! 🐍",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "multiple_choice",
+                    "question": "Which sentence is correct? 🐘",
+                    "options": ["An elephant eat plants.", "An elephant eats plants.", "An elephant eat plant.", "An elephant eats plant."],
+                    "correct": "An elephant eats plants.",
+                    "accept": ["An elephant eats plants", "an elephant eats plants"],
+                    "explanation": "An elephant — one animal (he/she/it) → eats с -s! 🐘",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "correct_mistake",
+                    "question": "Snakes lives in grass.",
+                    "correct": "Snakes live in grass.",
+                    "accept": ["Snakes live in grass", "snakes live in grass"],
+                    "explanation": "Snakes — множественное число (they), поэтому live без -s! 🐍",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "An Indian rhino ___ (like) to sit in water. 🦏",
+                    "correct": "likes",
+                    "accept": ["likes", "Likes", "LIKES"],
+                    "explanation": "A rhino — one animal (he/she/it) → likes с -s! 🦏💧",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Animal",
+            "description": "Пишем текст о любимом животном по плану",
+            "grammar": {
+                "title": "Повторение: описание животного",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is it? (Название животного)\n2️⃣ Where does it live? (Где живёт?)\n3️⃣ What does it look like? (Как выглядит?)\n4️⃣ What does it eat? (Что ест?)\n5️⃣ Why do you like it? (Почему ты его любишь?)\n\n🎯 **Пример**:\nMy favourite animal is the Bengal tiger. It lives in India. It has got orange fur with stripes. It eats deer. I like it because it is beautiful and strong!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite animal is the ___ . (напиши название)",
+                    "correct": "tiger",
+                    "accept": ["tiger", "elephant", "cobra", "rhino", "lion", "giraffe", "zebra", "monkey", "panda", "koala", "dolphin", "whale"],
+                    "explanation": "Напиши название своего любимого животного! 🐯",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It ___ in India. (live / lives)",
+                    "correct": "lives",
+                    "accept": ["lives", "Lives", "LIVES"],
+                    "explanation": "It — he/she/it → lives с -s! 🌍",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "It has got ___ fur with stripes. (orange / black)",
+                    "correct": "orange",
+                    "accept": ["orange", "Orange", "ORANGE", "black", "brown", "white", "yellow", "grey"],
+                    "explanation": "Напиши цвет своего животного! 🎨",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "It ___ deer. (eat / eats)",
+                    "correct": "eats",
+                    "accept": ["eats", "Eats", "EATS"],
+                    "explanation": "It — he/she/it → eats с -s! 🍖",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like it because it is ___ and ___ . (напиши два прилагательных)",
+                    "correct": "beautiful, strong",
+                    "accept": ["beautiful, strong", "beautiful, strong", "beautiful and strong", "strong, beautiful", "cool, smart", "funny, cute", "amazing, fast"],
+                    "explanation": "Напиши два слова, почему тебе нравится это животное! Например: beautiful, strong 💪",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}
