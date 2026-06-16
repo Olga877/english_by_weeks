@@ -1,0 +1,393 @@
+{
+    "week_id": "week14_at_the_zoo",
+    "title": "🦒 At the Zoo & Present Simple (вопросы с do/does)",
+    "description": "Учим животных зоопарка, учимся задавать вопросы о животных и вести диалог в зоопарке. Мемы и факты! 🐘",
+    "level": "5 класс",
+    "icon": "🦒",
+    "order_num": 14,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Zoo Animals",
+            "description": "Знакомимся с животными зоопарка — жирафами, обезьянами, медведями и другими",
+            "grammar": {
+                "title": "Present Simple: вопросы с do/does",
+                "rule": "📘 **Как задать вопрос о животном?**\n\n✅ **Do** + I/you/we/they + глагол?\n❓ Do tigers eat meat? — Yes, they do.\n\n✅ **Does** + he/she/it + глагол?\n❓ Does a giraffe eat meat? — No, it doesn't.\n\n📝 **Краткие ответы**:\n✅ Yes, I/you/we/they do.\n✅ Yes, he/she/it does.\n❌ No, I/you/we/they don't.\n❌ No, he/she/it doesn't.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🦒", "word": "giraffe", "transcription": "/dʒəˈrɑːf/", "translation": "жираф", "example": "Giraffes have got very long necks.", "context_translation": "жираф", "context_example": "У жирафов очень длинные шеи."},
+                {"icon": "🐒", "word": "monkey", "transcription": "/ˈmʌŋki/", "translation": "обезьяна", "example": "Monkeys are very noisy!", "context_translation": "обезьяна", "context_example": "Обезьяны очень шумные!"},
+                {"icon": "🐻", "word": "bear", "transcription": "/beər/", "translation": "медведь", "example": "Bears sleep in winter.", "context_translation": "медведь", "context_example": "Медведи спят зимой."},
+                {"icon": "🐧", "word": "penguin", "transcription": "/ˈpeŋɡwɪn/", "translation": "пингвин", "example": "Penguins can swim very well.", "context_translation": "пингвин", "context_example": "Пингвины умеют очень хорошо плавать."},
+                {"icon": "🦚", "word": "peacock", "transcription": "/ˈpiːkɒk/", "translation": "павлин", "example": "Peacocks have got beautiful tails.", "context_translation": "павлин", "context_example": "У павлинов красивые хвосты."},
+                {"icon": "🐊", "word": "crocodile", "transcription": "/ˈkrɒkədaɪl/", "translation": "крокодил", "example": "Crocodiles live in rivers.", "context_translation": "крокодил", "context_example": "Крокодилы живут в реках."},
+                {"icon": "🦜", "word": "parrot", "transcription": "/ˈpærət/", "translation": "попугай", "example": "Parrots can talk!", "context_translation": "попугай", "context_example": "Попугаи умеют говорить!"},
+                {"icon": "🦁", "word": "lion", "transcription": "/ˈlaɪən/", "translation": "лев", "example": "Lions are the kings of the jungle.", "context_translation": "лев", "context_example": "Львы — короли джунглей."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Which animal has got a very long neck? 🦒",
+                    "options": ["Monkey", "Giraffe", "Bear", "Penguin"],
+                    "correct": "Giraffe",
+                    "accept": ["Giraffe", "giraffe", "GIRAFFE"],
+                    "explanation": "Giraffes have got very long necks! 🦒",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ monkeys live in trees? — Yes, they do. 🐒",
+                    "correct": "Do",
+                    "accept": ["Do", "do", "DO"],
+                    "explanation": "Monkeys — they (множественное число) → Do they? 🐒",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Penguins can fly.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Penguins can't fly! They can swim very well! 🐧",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ a peacock have got a beautiful tail? 🦚",
+                    "correct": "Does",
+                    "accept": ["Does", "does", "DOES"],
+                    "explanation": "A peacock — he/she/it (один) → Does it? 🦚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Do a crocodile live in water?",
+                    "correct": "Does a crocodile live in water?",
+                    "accept": ["Does a crocodile live in water", "does a crocodile live in water"],
+                    "explanation": "A crocodile — один (it) → Does it live? 🐊",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Describing Zoo Animals",
+            "description": "Учимся описывать животных зоопарка — какой они формы и размера",
+            "grammar": {
+                "title": "Вопросы: What does it look like?",
+                "rule": "📘 **Как спросить, как выглядит животное?**\n\n❓ **What does it look like?** — Как оно выглядит?\n\n✅ **Ответ**: It has got + части тела.\n\n🎯 **Примеры**:\n❓ What does a giraffe look like?\n✅ It has got a long neck and long legs.\n\n❓ What does a penguin look like?\n✅ It has got black and white feathers.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🦒", "word": "long neck", "transcription": "/lɒŋ nek/", "translation": "длинная шея", "example": "Giraffes have got long necks.", "context_translation": "длинная шея", "context_example": "У жирафов длинная шея."},
+                {"icon": "🦒", "word": "long legs", "transcription": "/lɒŋ leɡz/", "translation": "длинные ноги", "example": "Giraffes have got long legs.", "context_translation": "длинные ноги", "context_example": "У жирафов длинные ноги."},
+                {"icon": "🐒", "word": "long tail", "transcription": "/lɒŋ teɪl/", "translation": "длинный хвост", "example": "Monkeys have got long tails.", "context_translation": "длинный хвост", "context_example": "У обезьян длинные хвосты."},
+                {"icon": "🐻", "word": "short tail", "transcription": "/ʃɔːt teɪl/", "translation": "короткий хвост", "example": "Bears have got short tails.", "context_translation": "короткий хвост", "context_example": "У медведей короткие хвосты."},
+                {"icon": "🐧", "word": "black and white", "transcription": "/blæk ænd waɪt/", "translation": "чёрно-белый", "example": "Penguins are black and white.", "context_translation": "чёрно-белый", "context_example": "Пингвины чёрно-белые."},
+                {"icon": "🦁", "word": "big teeth", "transcription": "/bɪɡ tiːθ/", "translation": "большие зубы", "example": "Lions have got big teeth.", "context_translation": "большие зубы", "context_example": "У львов большие зубы."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What does a giraffe look like? 🦒",
+                    "options": ["It has got a long neck and long legs.", "It has got a short tail.", "It has got big teeth.", "It has got black and white feathers."],
+                    "correct": "It has got a long neck and long legs.",
+                    "accept": ["It has got a long neck and long legs", "it has got a long neck and long legs"],
+                    "explanation": "Giraffes have got long necks and long legs! 🦒",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "What ___ a penguin look like? 🐧",
+                    "correct": "does",
+                    "accept": ["does", "Does", "DOES"],
+                    "explanation": "A penguin — один (it) → What does it look like? 🐧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Monkeys have got short tails.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Monkeys have got LONG tails! 🐒",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Penguins are ___ and white. 🐧",
+                    "correct": "black",
+                    "accept": ["black", "Black", "BLACK"],
+                    "explanation": "Penguins are black and white! 🐧",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "What do a bear look like?",
+                    "correct": "What does a bear look like?",
+                    "accept": ["What does a bear look like", "what does a bear look like"],
+                    "explanation": "A bear — один (it) → What does it look like? 🐻",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Dialogue — At the Zoo",
+            "description": "Учимся вести диалог в зоопарке",
+            "grammar": {
+                "title": "Диалог: At the Zoo",
+                "rule": "📘 **Полезные фразы для зоопарка**:\n\n❓ What's that animal over there? — Что это за животное там?\n❓ What does it look like? — Как оно выглядит?\n❓ Do you like monkeys? — Тебе нравятся обезьяны?\n✅ Yes, I do. / No, I don't.\n\n📝 **Выражения эмоций**:\n😍 They are so beautiful!\n😱 I don't like them. They are noisy.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🗣️", "word": "over there", "transcription": "/ˈəʊvə ðeər/", "translation": "вон там", "example": "Look! That animal over there is a lion.", "context_translation": "вон там", "context_example": "Смотри! Вон там животное — это лев."},
+                {"icon": "🔊", "word": "noisy", "transcription": "/ˈnɔɪzi/", "translation": "шумный", "example": "Monkeys are very noisy!", "context_translation": "шумный", "context_example": "Обезьяны очень шумные!"},
+                {"icon": "🤫", "word": "quiet", "transcription": "/ˈkwaɪət/", "translation": "тихий, спокойный", "example": "The library is quiet.", "context_translation": "тихий", "context_example": "В библиотеке тихо."},
+                {"icon": "🐒", "word": "cute", "transcription": "/kjuːt/", "translation": "милый, симпатичный", "example": "I find monkeys cute!", "context_translation": "милый", "context_example": "Я считаю обезьян милыми!"},
+                {"icon": "😍", "word": "beautiful", "transcription": "/ˈbjuːtɪfl/", "translation": "красивый", "example": "Peacocks are so beautiful!", "context_translation": "красивый", "context_example": "Павлины такие красивые!"},
+                {"icon": "🐻", "word": "bear", "transcription": "/beər/", "translation": "медведь", "example": "Let's go and see the bears.", "context_translation": "медведь", "context_example": "Давай пойдём посмотрим на медведей."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you say when you see an animal far away? 👀",
+                    "options": ["What does it look like?", "What's that animal over there?", "Do you like monkeys?", "Let's go!"],
+                    "correct": "What's that animal over there?",
+                    "accept": ["What's that animal over there", "what's that animal over there"],
+                    "explanation": "You ask 'What's that animal over there?' when you see something far away! 👀",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ you like monkeys? 🐒 — Yes, I do.",
+                    "correct": "Do",
+                    "accept": ["Do", "do", "DO"],
+                    "explanation": "You — множественное число → Do you like? 🐒",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Monkeys are quiet animals.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Monkeys are NOISY, not quiet! 🐒🔊",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Peacocks are so ___ ! 🦚 (beautiful / noisy)",
+                    "correct": "beautiful",
+                    "accept": ["beautiful", "Beautiful", "BEAUTIFUL"],
+                    "explanation": "Peacocks are beautiful with their colourful feathers! 🦚",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Let's go and see the bears. — OK.",
+                    "correct": "Correct",
+                    "accept": ["Correct", "correct", "CORRECT"],
+                    "explanation": "This dialogue is correct! Let's go see the bears! 🐻",
+                    "topic": "phrases"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — A Day at the Zoo",
+            "description": "Читаем историю о дне в зоопарке",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди названия животных и их описания.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на вопросы с do/does!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "Where did Leo, Mia and Sam go? 🏞️",
+                    "options": ["To the park", "To the zoo", "To the cinema", "To the museum"],
+                    "correct": "To the zoo",
+                    "accept": ["To the zoo", "to the zoo", "the zoo"],
+                    "explanation": "They went to the zoo! 🏞️",
+                    "readingText": "🌟 A DAY AT THE ZOO 🌟\n\nLeo, Mia and Sam went to the zoo on Saturday. It was a sunny day and they were very excited!\n\n🦒 FIRST STOP: GIRAFFES\n\nLeo: 'Look at the giraffes! They have got such long necks!'\n\nMia: 'What do giraffes eat? Do they eat meat?'\n\nLeo: 'No, they don't. They eat leaves from trees.'\n\nSam: 'That makes sense! They need a long neck to reach the leaves!' 🦒\n\n🐒 SECOND STOP: MONKEYS\n\nSam: 'Look at the monkeys! They are so funny!'\n\nMia: 'Do you like monkeys, Sam?'\n\nSam: 'Yes, I do! They are very cute. But they are so noisy!'\n\nLeo: 'I don't like monkeys. They are too loud and they steal everything!' 🐒\n\n🐻 THIRD STOP: BEARS\n\nLeo: 'Let's go and see the bears!'\n\nMia: 'What do bears look like?'\n\nSam: 'They are big and they have got thick fur. They eat fish and berries.'\n\nLeo: 'Do bears sleep in winter?'\n\nSam: 'Yes, they do. They hibernate!' 🐻\n\n🐧 FOURTH STOP: PENGUINS\n\nMia: 'Penguins are my favourite! They are black and white and they can swim very well!'\n\nLeo: 'Do penguins live in the Arctic?'\n\nSam: 'No, they don't. They live in Antarctica!'\n\nMia: 'I want to see them in real life one day!' 🐧\n\n🦚 LAST STOP: PEACOCKS\n\nLeo: 'Wow! Peacocks are so beautiful! Look at their colourful tails!'\n\nSam: 'Do they use their tails to fly?'\n\nMia: 'No, they don't. They use them to attract females!'\n\nLeo: 'That's interesting!' 🦚\n\n🔙 ON THE WAY HOME\n\nMia: 'That was the best day ever!'\n\nSam: 'What was your favourite animal?'\n\nLeo: 'The giraffe. It's so elegant!'\n\nMia: 'My favourite is the penguin. They are so cute!'\n\nSam: 'I liked the monkeys. They are so funny and clever!' 🐒\n\n💬 What's YOUR favourite zoo animal? 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What do giraffes eat? 🦒",
+                    "options": ["Meat", "Leaves", "Fish", "Berries"],
+                    "correct": "Leaves",
+                    "accept": ["Leaves", "leaves", "LEAVES"],
+                    "explanation": "Giraffes eat leaves from trees! 🦒🌿",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Leo likes monkeys.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Leo says 'I don't like monkeys. They are too loud!' 🐒",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Penguins live in Antarctica.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Sam says: 'They live in Antarctica!' 🐧",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Mia's favourite animal is the ___ . 🐧",
+                    "correct": "penguin",
+                    "accept": ["penguin", "Penguin", "PENGUIN"],
+                    "explanation": "Mia says: 'My favourite is the penguin.' 🐧",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Present Simple Questions Practice",
+            "description": "Тренируем вопросы с do/does о животных",
+            "grammar": {
+                "title": "Present Simple — вопросы и ответы",
+                "rule": "📘 **Ещё раз вопросы с do/does**:\n\n❓ **Do** + I/you/we/they + глагол?\n✅ Do tigers eat meat? — Yes, they do.\n\n❓ **Does** + he/she/it + глагол?\n✅ Does a tiger eat meat? — Yes, it does.\n\n📝 **Отрицательные ответы**:\n❌ No, they don't.\n❌ No, it doesn't.\n\n🎯 **Примеры**:\n❓ Do penguins live in Russia?\n❌ No, they don't. They live in Antarctica.\n\n❓ Does a giraffe have a short neck?\n❌ No, it doesn't. It has a long neck.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "___ tigers eat meat? 🐯",
+                    "options": ["Do", "Does", "Is", "Are"],
+                    "correct": "Do",
+                    "accept": ["Do", "do", "DO"],
+                    "explanation": "Tigers — they (множественное число) → Do they eat? 🐯",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ a penguin swim well? 🐧 — Yes, it does.",
+                    "correct": "Does",
+                    "accept": ["Does", "does", "DOES"],
+                    "explanation": "A penguin — один (it) → Does it swim? 🐧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Do peacocks eat meat? — Yes, they do.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Peacocks eat seeds and insects, not meat! 🦚",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ a bear eat fish? 🐻 — Yes, it does.",
+                    "correct": "Does",
+                    "accept": ["Does", "does", "DOES"],
+                    "explanation": "A bear — один (it) → Does it eat fish? 🐻🐟",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Does monkeys live in trees?",
+                    "correct": "Do monkeys live in trees?",
+                    "accept": ["Do monkeys live in trees", "do monkeys live in trees"],
+                    "explanation": "Monkeys — they (множественное число) → Do they live? 🐒",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Zoo Animal",
+            "description": "Пишем текст о любимом животном в зоопарке",
+            "grammar": {
+                "title": "Повторение: описание животного",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is the animal? (Название животного)\n2️⃣ What does it look like? (Как выглядит?)\n3️⃣ Where does it live? (Где живёт?)\n4️⃣ What does it eat? (Что ест?)\n5️⃣ Why do you like it? (Почему ты его любишь?)\n\n🎯 **Пример**:\nMy favourite zoo animal is the penguin. It has got black and white feathers. It lives in Antarctica. It eats fish. I like it because it is cute and can swim very well! 🐧",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite zoo animal is the ___ . (напиши название)",
+                    "correct": "penguin",
+                    "accept": ["penguin", "giraffe", "monkey", "bear", "peacock", "lion", "elephant", "tiger", "panda", "koala", "dolphin", "whale", "crocodile", "parrot"],
+                    "explanation": "Напиши название своего любимого животного! 🐧",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It has got ___ . (опиши внешность)",
+                    "correct": "black and white feathers",
+                    "accept": ["black and white feathers", "a long neck", "long legs", "big teeth", "a long tail", "thick fur", "colourful feathers", "stripes"],
+                    "explanation": "Опиши, как выглядит твоё животное! 🎨",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "It lives in ___ . (напиши место)",
+                    "correct": "Antarctica",
+                    "accept": ["Antarctica", "the jungle", "the forest", "the river", "trees", "Africa", "India", "the Arctic"],
+                    "explanation": "Где живёт твоё животное? 🌍",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "It eats ___ . (напиши еду)",
+                    "correct": "fish",
+                    "accept": ["fish", "meat", "leaves", "plants", "fruit", "insects", "berries", "seeds"],
+                    "explanation": "Что ест твоё животное? 🍖",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like it because it is ___ and ___ . (напиши два прилагательных)",
+                    "correct": "cute, funny",
+                    "accept": ["cute, funny", "cute and funny", "beautiful, strong", "funny, clever", "amazing, cool", "quiet, elegant", "cute, clever", "beautiful, amazing"],
+                    "explanation": "Почему тебе нравится это животное? Напиши два слова! 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}
