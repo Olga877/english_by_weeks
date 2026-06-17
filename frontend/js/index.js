@@ -37,7 +37,8 @@ const schoolGrades = [
     { weekId: 'week13_indian_animals', title: '🐯 Indian Animals & Present Simple (факты о животных)' },
     { weekId: 'week14_at_the_zoo', title: '🦒 At the Zoo & Present Simple (вопросы с do/does)' },
     { weekId: 'week15_my_pet', title: '🐕 My Pet & Present Simple: tag-questions' },
-    { weekId: 'week16_daily_routine', title: '⏰ Daily Routine & Adverbs of frequency' }
+    { weekId: 'week16_daily_routine', title: '⏰ Daily Routine & Adverbs of frequency' },
+    { weekId: 'week17_jobs', title: '💼 Jobs & Present Continuous (действия сейчас)' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
