@@ -41,7 +41,8 @@ const schoolGrades = [
     { weekId: 'week17_jobs', title: '💼 Jobs & Present Continuous (действия сейчас)' },
     { weekId: 'week18_weekends', title: '🎮 Weekends & Present Simple vs Present Continuous' },
     { weekId: 'week19_big_ben', title: '🏛️ Big Ben & Comparatives (степени сравнения)' },
-    { weekId: 'week20_seasons', title: '🌤️ Seasons & Weather (времена года и погода)' }
+    { weekId: 'week20_seasons', title: '🌤️ Seasons & Weather (времена года и погода)' },
+    { weekId: 'week21_clothes', title: '👗 Clothes (одежда) & Present Simple vs Present Continuous' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
