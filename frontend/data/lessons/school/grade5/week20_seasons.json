@@ -1,0 +1,391 @@
+{
+    "week_id": "week20_seasons",
+    "title": "🌤️ Seasons & Weather (времена года и погода)",
+    "description": "Учимся говорить о погоде, временах года, месяцах и обсуждать, что делать в разную погоду. Мемы, TikTok и погодные приколы! 🌡️",
+    "level": "5 класс",
+    "icon": "🌤️",
+    "order_num": 20,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Seasons and Months",
+            "description": "Знакомимся с временами года и месяцами",
+            "grammar": {
+                "title": "Seasons and Months",
+                "rule": "📘 **Времена года и месяцы**:\n\n🌸 **Spring** (весна): March, April, May\n☀️ **Summer** (лето): June, July, August\n🍂 **Autumn** (осень): September, October, November\n❄️ **Winter** (зима): December, January, February\n\n📌 **Важно**: Названия месяцев и дней недели в английском пишутся с **заглавной буквы**!\n\n🎯 **Мем**:\n'What's your favourite season?'\n'Summer! Because no school!'\n'What about winter?'\n'Winter is just summer with less sun and more homework.' ❄️😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🌸", "word": "spring", "transcription": "/sprɪŋ/", "translation": "весна", "example": "Spring is my favourite season.", "context_translation": "весна", "context_example": "Весна — моё любимое время года."},
+                {"icon": "☀️", "word": "summer", "transcription": "/ˈsʌmər/", "translation": "лето", "example": "I love summer holidays!", "context_translation": "лето", "context_example": "Я люблю летние каникулы!"},
+                {"icon": "🍂", "word": "autumn", "transcription": "/ˈɔːtəm/", "translation": "осень", "example": "In autumn, the leaves are orange.", "context_translation": "осень", "context_example": "Осенью листья оранжевые."},
+                {"icon": "❄️", "word": "winter", "transcription": "/ˈwɪntər/", "translation": "зима", "example": "Winter is cold and snowy.", "context_translation": "зима", "context_example": "Зимой холодно и снежно."},
+                {"icon": "📅", "word": "month", "transcription": "/mʌnθ/", "translation": "месяц", "example": "December is the last month of the year.", "context_translation": "месяц", "context_example": "Декабрь — последний месяц года."},
+                {"icon": "🌡️", "word": "weather", "transcription": "/ˈweðər/", "translation": "погода", "example": "The weather is nice today.", "context_translation": "погода", "context_example": "Сегодня хорошая погода."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What are the summer months? ☀️",
+                    "options": ["March, April, May", "June, July, August", "September, October, November", "December, January, February"],
+                    "correct": "June, July, August",
+                    "accept": ["June, July, August", "june, july, august"],
+                    "explanation": "Summer is June, July, August! ☀️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Winter months are ___, January and February. ❄️",
+                    "correct": "December",
+                    "accept": ["December", "december", "DECEMBER"],
+                    "explanation": "Winter: December, January, February! ❄️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Autumn is from September to November. 🍂",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! Autumn = September, October, November! 🍂",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "My favourite season is ___ . (напиши время года)",
+                    "correct": "summer",
+                    "accept": ["summer", "spring", "autumn", "winter"],
+                    "explanation": "Какое твоё любимое время года? 🌸☀️🍂❄️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The weather is nice in october.",
+                    "correct": "The weather is nice in October.",
+                    "accept": ["The weather is nice in October", "The weather is nice in October."],
+                    "explanation": "Месяцы пишутся с заглавной буквы: October! 📅",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Weather Vocabulary",
+            "description": "Учимся описывать погоду",
+            "grammar": {
+                "title": "Weather — Vocabulary",
+                "rule": "📘 **Как говорить о погоде**:\n\n☀️ **It's sunny.** — Солнечно.\n☁️ **It's cloudy.** — Облачно.\n🌧️ **It's raining.** — Идёт дождь.\n❄️ **It's snowing.** — Идёт снег.\n🌬️ **It's windy.** — Ветрено.\n🌫️ **It's foggy.** — Туманно.\n🔥 **It's hot.** — Жарко.\n🥶 **It's cold.** — Холодно.\n🌡️ **It's warm.** — Тепло.\n❄️ **It's freezing.** — Морозно.\n\n🎯 **Мем**:\n'The weather app says sunny. I look outside. It's raining. \nThe weather app lied to me. I'll never trust again!' 🌧️😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "☀️", "word": "sunny", "transcription": "/ˈsʌni/", "translation": "солнечный", "example": "It's sunny today.", "context_translation": "солнечный", "context_example": "Сегодня солнечно."},
+                {"icon": "☁️", "word": "cloudy", "transcription": "/ˈklaʊdi/", "translation": "облачный", "example": "It's cloudy and grey.", "context_translation": "облачный", "context_example": "Облачно и серо."},
+                {"icon": "🌧️", "word": "rainy", "transcription": "/ˈreɪni/", "translation": "дождливый", "example": "It's rainy today. Take an umbrella!", "context_translation": "дождливый", "context_example": "Сегодня дождливо. Возьми зонт!"},
+                {"icon": "🌬️", "word": "windy", "transcription": "/ˈwɪndi/", "translation": "ветреный", "example": "It's very windy! My hat flew away!", "context_translation": "ветреный", "context_example": "Очень ветрено! Моя шляпа улетела!"},
+                {"icon": "🌫️", "word": "foggy", "transcription": "/ˈfɒɡi/", "translation": "туманный", "example": "It's foggy. I can't see anything.", "context_translation": "туманный", "context_example": "Туманно. Ничего не видно."},
+                {"icon": "❄️", "word": "snowy", "transcription": "/ˈsnəʊi/", "translation": "снежный", "example": "It's snowy outside!", "context_translation": "снежный", "context_example": "На улице снежно!"}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you need when it's raining? 🌧️",
+                    "options": ["Sunglasses", "Umbrella", "Hat", "Gloves"],
+                    "correct": "Umbrella",
+                    "accept": ["Umbrella", "umbrella", "UMBRELLA"],
+                    "explanation": "You need an umbrella when it's raining! ☔",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's ___ today. The sun is shining! ☀️",
+                    "correct": "sunny",
+                    "accept": ["sunny", "Sunny", "SUNNY"],
+                    "explanation": "Sun is shining = sunny! ☀️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "When it's cloudy, the sun is not visible.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Cloudy = солнце не видно! ☁️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "It's ___ today. My hat flew away! 🎩💨",
+                    "correct": "windy",
+                    "accept": ["windy", "Windy", "WINDY"],
+                    "explanation": "Windy = ветрено! Ветер унёс шляпу! 🎩",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "It is rain today.",
+                    "correct": "It is raining today.",
+                    "accept": ["It is raining today", "It is raining today."],
+                    "explanation": "It is raining — идёт дождь! 🌧️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Weather and Activities",
+            "description": "Что мы делаем в разную погоду",
+            "grammar": {
+                "title": "Weather and Activities",
+                "rule": "📘 **Что делать в разную погоду**:\n\n☀️ **When it's sunny**: go swimming, have a picnic, play outside\n🌧️ **When it's rainy**: stay at home, read a book, watch a film\n❄️ **When it's snowy**: make a snowman, play snowballs, go skiing\n🌬️ **When it's windy**: fly a kite, stay inside\n\n🎯 **Мем**:\n'When it's raining, I stay in bed and watch Netflix.\nWhen it's sunny, I stay in bed and watch Netflix.\nThe weather doesn't change my plans.' 😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🏊", "word": "swim", "transcription": "/swɪm/", "translation": "плавать", "example": "I swim in summer.", "context_translation": "плавать", "context_example": "Я плаваю летом."},
+                {"icon": "🧺", "word": "picnic", "transcription": "/ˈpɪknɪk/", "translation": "пикник", "example": "We have a picnic in the park.", "context_translation": "пикник", "context_example": "Мы устраиваем пикник в парке."},
+                {"icon": "☃️", "word": "snowman", "transcription": "/ˈsnəʊmæn/", "translation": "снеговик", "example": "We make a snowman in winter.", "context_translation": "снеговик", "context_example": "Мы лепим снеговика зимой."},
+                {"icon": "🪁", "word": "kite", "transcription": "/kaɪt/", "translation": "воздушный змей", "example": "We fly a kite when it's windy.", "context_translation": "воздушный змей", "context_example": "Мы запускаем воздушного змея, когда ветрено."},
+                {"icon": "⛷️", "word": "ski", "transcription": "/skiː/", "translation": "кататься на лыжах", "example": "I ski in the mountains.", "context_translation": "кататься на лыжах", "context_example": "Я катаюсь на лыжах в горах."},
+                {"icon": "☕", "word": "stay inside", "transcription": "/steɪ ɪnˈsaɪd/", "translation": "оставаться внутри", "example": "We stay inside on rainy days.", "context_translation": "оставаться внутри", "context_example": "Мы остаёмся дома в дождливые дни."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you do when it's sunny? ☀️",
+                    "options": ["Make a snowman", "Have a picnic", "Stay at home", "Fly a kite"],
+                    "correct": "Have a picnic",
+                    "accept": ["Have a picnic", "have a picnic", "HAVE A PICNIC"],
+                    "explanation": "When it's sunny, you can have a picnic! 🧺",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "When it's windy, you can fly a ___ . 🪁",
+                    "correct": "kite",
+                    "accept": ["kite", "Kite", "KITE"],
+                    "explanation": "Fly a kite — запускать воздушного змея! 🪁",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You make a snowman in summer.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "You make a snowman in WINTER, not summer! ❄️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "When it's ___ , we stay inside and watch films. 🌧️",
+                    "correct": "rainy",
+                    "accept": ["rainy", "Rainy", "RAINY"],
+                    "explanation": "Rainy day = stay inside! 📺",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "We make snowman in winter.",
+                    "correct": "We make a snowman in winter.",
+                    "accept": ["We make a snowman in winter", "We make a snowman in winter."],
+                    "explanation": "A snowman — снеговик! ☃️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Weather Talk in a Chat",
+            "description": "Читаем чат о погоде в разных городах мира",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай чат целиком, чтобы понять, где какие люди.\n2️⃣ Найди, какая погода в разных городах.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на названия городов и стран!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is the weather like in Moscow? 🇷🇺",
+                    "options": ["Sunny and hot", "Rainy and cold", "Snowy and freezing", "Windy and cloudy"],
+                    "correct": "Snowy and freezing",
+                    "accept": ["Snowy and freezing", "snowy and freezing"],
+                    "explanation": "Moscow is snowy and freezing! ❄️🥶",
+                    "readingText": "🌟 WEATHER TALK IN THE SCHOOL CHAT 🌟\n\nThe students are talking about the weather in different places. Let's see what they're saying!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇷🇺 LEO (Moscow, Russia):\n'It's snowing again! I'm so tired of winter. It's freezing outside! 🥶'\n\n🇬🇧 EMMA (London, UK):\n'London weather is always the same — cloudy and rainy. I wish it was sunny! ☁️🌧️'\n\n🇺🇸 SAM (New York, USA):\n'It's cold and windy here. But no snow yet. My hat keeps flying away! 🎩💨'\n\n🇦🇺 MIA (Sydney, Australia):\n'Guys! It's hot and sunny here! I'm at the beach. The weather is amazing! ☀️🌊'\n\n🇷🇺 LEO:\n'Mia, it's winter here! I'm so jealous! 🥲'\n\n🇦🇺 MIA:\n'That's because it's summer in Australia! We have opposite seasons! 🌏'\n\n🇬🇧 EMMA:\n'I want to go to Australia! It's always rainy in London... ☔'\n\n🇺🇸 SAM:\n'Emma, London is beautiful even in the rain! But yeah, I'd love some sun too. ☀️'\n\n🇧🇷 CARLOS (Rio de Janeiro, Brazil):\n'It's very hot here! 35 degrees! I'm going swimming after school! 🏊'\n\n🇷🇺 LEO:\n'35 degrees?! It's -10 here! I have to wear 3 jackets! 🧥'\n\n🇦🇺 MIA:\n'I'm going to the beach! Want to see my photos? 📸'\n\n🇷🇺 LEO:\n'Yes! Show us! Let me live vicariously through you!' 😂\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 WHAT'S THE WEATHER LIKE WHERE YOU ARE? 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What is the weather like in London? 🇬🇧",
+                    "options": ["Sunny", "Cloudy and rainy", "Snowy", "Hot"],
+                    "correct": "Cloudy and rainy",
+                    "accept": ["Cloudy and rainy", "cloudy and rainy"],
+                    "explanation": "Emma says: 'Cloudy and rainy' — typical London weather! ☁️🌧️",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "It's summer in Australia.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Mia says: 'It's summer in Australia!' 🌏",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "It's very cold in Brazil.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Carlos says: 'It's very hot here! 35 degrees!' 🇧🇷",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Leo has to wear 3 ___ in Moscow. 🧥",
+                    "correct": "jackets",
+                    "accept": ["jackets", "Jackets", "JACKETS"],
+                    "explanation": "Leo says: 'I have to wear 3 jackets!' ❄️🥶",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: It-sentences and Present Simple Practice",
+            "description": "Учимся говорить о погоде с it и использовать Present Simple",
+            "grammar": {
+                "title": "It-sentences about weather",
+                "rule": "📘 **Как говорить о погоде**:\n\n📌 Всегда используй **it** для описания погоды:\n✅ It's sunny. (Правильно)\n❌ I'm sunny. (Неправильно!)\n\n📌 **Вопросы**:\n❓ What's the weather like? — Какая погода?\n❓ Is it raining? — Идёт дождь?\n\n📌 **Ответы**:\n✅ It's sunny and warm.\n✅ No, it isn't raining.\n\n🎯 **Мем**:\n'What's the weather like?'\n'It's terrible. I'm sad. It's raining again.' 🌧️😢",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What's the weather like? 🌤️",
+                    "options": ["It's sunny.", "I'm sunny.", "It sunny.", "I sunny."],
+                    "correct": "It's sunny.",
+                    "accept": ["It's sunny", "It is sunny", "It's sunny."],
+                    "explanation": "All weather sentences start with IT! It's sunny! ☀️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ it raining? 🌧️ — No, it isn't.",
+                    "correct": "Is",
+                    "accept": ["Is", "is", "IS"],
+                    "explanation": "Is it raining? — Идёт дождь? 🌧️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I'm snowy' is a correct weather sentence.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "It's snowy! Not I'm snowy! ❄️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ the weather like? ❓",
+                    "correct": "What's",
+                    "accept": ["What's", "whats", "What is"],
+                    "explanation": "What's the weather like? — Какая погода? ❓",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "It rain today.",
+                    "correct": "It's raining today.",
+                    "accept": ["It is raining today", "It's raining today."],
+                    "explanation": "It's raining today — идёт дождь сегодня! 🌧️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Season",
+            "description": "Пишем текст о любимом времени года",
+            "grammar": {
+                "title": "Повторение: погода, сезоны, занятия",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What's your favourite season? (Какое любимое время года?)\n2️⃣ What's the weather like? (Какая погода?)\n3️⃣ What do you do in this season? (Что ты делаешь?)\n4️⃣ What do you wear? (Что ты носишь?)\n5️⃣ Why do you like it? (Почему тебе нравится?)\n\n🎯 **Пример**:\nMy favourite season is summer. It's hot and sunny. I swim in the sea and have picnics with friends. I wear shorts and T-shirts. I like summer because there is no school! ☀️🌊",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite season is ___ . (напиши время года)",
+                    "correct": "summer",
+                    "accept": ["summer", "spring", "autumn", "winter", "Summer", "Spring", "Autumn", "Winter"],
+                    "explanation": "Напиши своё любимое время года! 🌸☀️🍂❄️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's ___ and ___ in summer. (напиши погоду)",
+                    "correct": "hot, sunny",
+                    "accept": ["hot, sunny", "warm, sunny", "sunny, hot", "sunny, warm"],
+                    "explanation": "Опиши погоду летом! ☀️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I ___ in the sea. (напиши действие)",
+                    "correct": "swim",
+                    "accept": ["swim", "swim", "play", "relax", "have fun"],
+                    "explanation": "Что ты делаешь летом? 🏊",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I wear ___ and ___ . (напиши одежду)",
+                    "correct": "shorts, T-shirts",
+                    "accept": ["shorts, T-shirts", "dresses, sandals", "light clothes", "summer clothes"],
+                    "explanation": "Что ты носишь летом? 👕🩳",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like summer because ___ . (напиши причину)",
+                    "correct": "there is no school",
+                    "accept": ["there is no school", "it's warm", "I can swim", "I have holidays", "it's sunny"],
+                    "explanation": "Почему ты любишь это время года? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}
