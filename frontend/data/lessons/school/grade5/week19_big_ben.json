@@ -1,0 +1,397 @@
+{
+    "week_id": "week19_big_ben",
+    "title": "🏛️ Landmarks (достопримечательности) & Comparatives (степени сравнения)",
+    "description": "Учимся говорить о достопримечательностях мира и сравнивать их. Мемы, факты и путешествия! 🌍",
+    "level": "5 класс",
+    "icon": "🏛️",
+    "order_num": 19,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Famous Landmarks",
+            "description": "Знакомимся с известными достопримечательностями мира",
+            "grammar": {
+                "title": "Landmarks — Vocabulary",
+                "rule": "📘 **Известные достопримечательности мира**:\n\n🇬🇧 **Big Ben** — Биг-Бен (Лондон)\n🇫🇷 **Eiffel Tower** — Эйфелева башня (Париж)\n🇮🇹 **Colosseum** — Колизей (Рим)\n🇪🇬 **Pyramids** — Пирамиды (Египет)\n🇺🇸 **Statue of Liberty** — Статуя Свободы (Нью-Йорк)\n🇦🇺 **Sydney Opera House** — Сиднейский оперный театр\n🇨🇳 **Great Wall of China** — Великая Китайская стена\n🇮🇳 **Taj Mahal** — Тадж-Махал (Индия)\n\n🎯 **Мем**:\n'Let's visit Big Ben!'\n'But we're in Russia...'\n'Fine, let's visit the Kremlin!' 🇷🇺",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🇬🇧", "word": "Big Ben", "transcription": "/bɪɡ ben/", "translation": "Биг-Бен", "example": "Big Ben is in London.", "context_translation": "Биг-Бен", "context_example": "Биг-Бен находится в Лондоне."},
+                {"icon": "🇫🇷", "word": "Eiffel Tower", "transcription": "/ˈaɪfəl ˈtaʊər/", "translation": "Эйфелева башня", "example": "The Eiffel Tower is in Paris.", "context_translation": "Эйфелева башня", "context_example": "Эйфелева башня находится в Париже."},
+                {"icon": "🇮🇹", "word": "Colosseum", "transcription": "/ˌkɒləˈsiːəm/", "translation": "Колизей", "example": "The Colosseum is in Rome.", "context_translation": "Колизей", "context_example": "Колизей находится в Риме."},
+                {"icon": "🇪🇬", "word": "Pyramids", "transcription": "/ˈpɪrəmɪdz/", "translation": "Пирамиды", "example": "The Pyramids are in Egypt.", "context_translation": "Пирамиды", "context_example": "Пирамиды находятся в Египте."},
+                {"icon": "🇺🇸", "word": "Statue of Liberty", "transcription": "/ˈstætʃuː əv ˈlɪbəti/", "translation": "Статуя Свободы", "example": "The Statue of Liberty is in New York.", "context_translation": "Статуя Свободы", "context_example": "Статуя Свободы находится в Нью-Йорке."},
+                {"icon": "🇦🇺", "word": "Sydney Opera House", "transcription": "/ˈsɪdni ˈɒpərə haʊs/", "translation": "Сиднейский оперный театр", "example": "The Sydney Opera House is in Australia.", "context_translation": "Сиднейский оперный театр", "context_example": "Сиднейский оперный театр находится в Австралии."},
+                {"icon": "🇨🇳", "word": "Great Wall of China", "transcription": "/ɡreɪt wɔːl əv ˈtʃaɪnə/", "translation": "Великая Китайская стена", "example": "The Great Wall is in China.", "context_translation": "Великая Китайская стена", "context_example": "Великая Китайская стена находится в Китае."},
+                {"icon": "🇮🇳", "word": "Taj Mahal", "transcription": "/ˈtɑːdʒ məˈhɑːl/", "translation": "Тадж-Махал", "example": "The Taj Mahal is in India.", "context_translation": "Тадж-Махал", "context_example": "Тадж-Махал находится в Индии."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Where is Big Ben? 🇬🇧",
+                    "options": ["Paris", "London", "Rome", "New York"],
+                    "correct": "London",
+                    "accept": ["London", "london", "LONDON"],
+                    "explanation": "Big Ben is in London! 🇬🇧",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The ___ Tower is in Paris. 🇫🇷",
+                    "correct": "Eiffel",
+                    "accept": ["Eiffel", "eiffel", "EIFFEL"],
+                    "explanation": "The Eiffel Tower is in Paris! 🗼",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "The Colosseum is in Egypt.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "The Colosseum is in Rome, Italy! 🇮🇹",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The ___ Wall is in China. 🇨🇳",
+                    "correct": "Great",
+                    "accept": ["Great", "great", "GREAT"],
+                    "explanation": "The Great Wall of China! 🇨🇳",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The Statue of Liberty is in London.",
+                    "correct": "The Statue of Liberty is in New York.",
+                    "accept": ["The Statue of Liberty is in New York", "The Statue of Liberty is in the USA"],
+                    "explanation": "The Statue of Liberty is in New York, not London! 🇺🇸",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Comparatives — tall, short, big, small",
+            "description": "Учимся сравнивать достопримечательности",
+            "grammar": {
+                "title": "Comparatives — сравнительная степень",
+                "rule": "📘 **Как сравнивать два предмета**:\n\n📌 **Короткие прилагательные** (1 слог) → + -er:\n✅ tall → taller (выше)\n✅ short → shorter (ниже)\n✅ big → bigger (больше)\n✅ small → smaller (меньше)\n\n📌 **Правила правописания**:\n• big → bigger (удваиваем g)\n• tall → taller (просто +er)\n\n📌 **Структура**:\n✅ Big Ben is **taller** than the Colosseum.\n✅ The Eiffel Tower is **shorter** than the Sydney Tower.\n\n🎯 **Мем**:\n'My homework is bigger than yours!'\n'That's not how comparatives work...' 📚😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📏", "word": "tall", "transcription": "/tɔːl/", "translation": "высокий", "example": "Big Ben is tall.", "context_translation": "высокий", "context_example": "Биг-Бен высокий."},
+                {"icon": "📏", "word": "taller", "transcription": "/ˈtɔːlər/", "translation": "выше", "example": "The Eiffel Tower is taller than Big Ben.", "context_translation": "выше", "context_example": "Эйфелева башня выше, чем Биг-Бен."},
+                {"icon": "📏", "word": "short", "transcription": "/ʃɔːt/", "translation": "низкий, короткий", "example": "The Colosseum is short.", "context_translation": "низкий", "context_example": "Колизей низкий."},
+                {"icon": "📏", "word": "shorter", "transcription": "/ˈʃɔːtər/", "translation": "ниже, короче", "example": "Big Ben is shorter than the Eiffel Tower.", "context_translation": "ниже", "context_example": "Биг-Бен ниже, чем Эйфелева башня."},
+                {"icon": "📐", "word": "big", "transcription": "/bɪɡ/", "translation": "большой", "example": "The Colosseum is big.", "context_translation": "большой", "context_example": "Колизей большой."},
+                {"icon": "📐", "word": "bigger", "transcription": "/ˈbɪɡər/", "translation": "больше", "example": "The Colosseum is bigger than Big Ben.", "context_translation": "больше", "context_example": "Колизей больше, чем Биг-Бен."},
+                {"icon": "📐", "word": "small", "transcription": "/smɔːl/", "translation": "маленький", "example": "The Statue of Liberty is small.", "context_translation": "маленький", "context_example": "Статуя Свободы маленькая."},
+                {"icon": "📐", "word": "smaller", "transcription": "/ˈsmɔːlər/", "translation": "меньше", "example": "Big Ben is smaller than the Eiffel Tower.", "context_translation": "меньше", "context_example": "Биг-Бен меньше, чем Эйфелева башня."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The Eiffel Tower is ___ than Big Ben. 🗼",
+                    "options": ["tall", "taller", "tallest", "more tall"],
+                    "correct": "taller",
+                    "accept": ["taller", "Taller", "TALLER"],
+                    "explanation": "Eiffel Tower is TALLER than Big Ben! 🗼",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The Colosseum is ___ (big) than Big Ben. 🇮🇹",
+                    "correct": "bigger",
+                    "accept": ["bigger", "Bigger", "BIGGER"],
+                    "explanation": "big → bigger (удваиваем g)! 🇮🇹",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'Shorter' means 'more short'.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Shorter = more short (более короткий/низкий)! 📏",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Big Ben is ___ (small) than the Eiffel Tower. 🇬🇧",
+                    "correct": "smaller",
+                    "accept": ["smaller", "Smaller", "SMALLER"],
+                    "explanation": "small → smaller! Биг-Бен меньше Эйфелевой башни! 🇬🇧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The Eiffel Tower is more taller than Big Ben.",
+                    "correct": "The Eiffel Tower is taller than Big Ben.",
+                    "accept": ["The Eiffel Tower is taller than Big Ben", "The Eiffel Tower is taller than Big Ben."],
+                    "explanation": "Не 'more taller'! Просто 'taller'! 🗼",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Comparatives — old, new, famous, interesting",
+            "description": "Учимся сравнивать достопримечательности по возрасту и известности",
+            "grammar": {
+                "title": "Comparatives — длинные прилагательные",
+                "rule": "📘 **Длинные прилагательные** (2+ слогов) → **more** + прилагательное:\n\n📌 **Примеры**:\n✅ famous → more famous (более известный)\n✅ interesting → more interesting (более интересный)\n✅ beautiful → more beautiful (более красивый)\n✅ expensive → more expensive (более дорогой)\n\n📌 **Сравнение**:\n✅ Big Ben is **more famous** than the Colosseum.\n✅ The Pyramids are **more interesting** than Big Ben.\n\n🎯 **Мем**:\n'Is Big Ben interesting?'\n'Yes, but the Pyramids are MORE interesting!' 🏛️",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🕰️", "word": "old", "transcription": "/əʊld/", "translation": "старый", "example": "The Pyramids are very old.", "context_translation": "старый", "context_example": "Пирамиды очень старые."},
+                {"icon": "🕰️", "word": "older", "transcription": "/ˈəʊldər/", "translation": "старше, старее", "example": "The Pyramids are older than the Colosseum.", "context_translation": "старше", "context_example": "Пирамиды старше, чем Колизей."},
+                {"icon": "🆕", "word": "new", "transcription": "/njuː/", "translation": "новый", "example": "The Sydney Opera House is new.", "context_translation": "новый", "context_example": "Сиднейский оперный театр новый."},
+                {"icon": "🆕", "word": "newer", "transcription": "/ˈnjuːər/", "translation": "новее", "example": "The Sydney Opera House is newer than the Colosseum.", "context_translation": "новее", "context_example": "Сиднейский оперный театр новее, чем Колизей."},
+                {"icon": "⭐", "word": "famous", "transcription": "/ˈfeɪməs/", "translation": "известный", "example": "Big Ben is very famous.", "context_translation": "известный", "context_example": "Биг-Бен очень известный."},
+                {"icon": "⭐", "word": "more famous", "transcription": "/mɔːr ˈfeɪməs/", "translation": "более известный", "example": "The Pyramids are more famous than the Colosseum.", "context_translation": "более известный", "context_example": "Пирамиды более известны, чем Колизей."},
+                {"icon": "🤔", "word": "interesting", "transcription": "/ˈɪntrəstɪŋ/", "translation": "интересный", "example": "The Colosseum is interesting.", "context_translation": "интересный", "context_example": "Колизей интересный."},
+                {"icon": "🤔", "word": "more interesting", "transcription": "/mɔːr ˈɪntrəstɪŋ/", "translation": "более интересный", "example": "The Pyramids are more interesting than Big Ben.", "context_translation": "более интересный", "context_example": "Пирамиды более интересны, чем Биг-Бен."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The Pyramids are ___ than the Colosseum. 🏛️",
+                    "options": ["old", "older", "more old", "oldest"],
+                    "correct": "older",
+                    "accept": ["older", "Older", "OLDER"],
+                    "explanation": "old → older (старше)! 🏛️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The Eiffel Tower is ___ (famous) than Big Ben. 🗼",
+                    "correct": "more famous",
+                    "accept": ["more famous", "More famous", "MORE FAMOUS"],
+                    "explanation": "famous — длинное слово → more famous! 🗼",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'More interesting' is the comparative form of 'interesting'.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! interesting → more interesting! 🤔",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The Sydney Opera House is ___ (new) than the Colosseum. 🇦🇺",
+                    "correct": "newer",
+                    "accept": ["newer", "Newer", "NEWER"],
+                    "explanation": "new → newer! 🇦🇺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The Pyramids are more older than the Colosseum.",
+                    "correct": "The Pyramids are older than the Colosseum.",
+                    "accept": ["The Pyramids are older than the Colosseum", "The Pyramids are older than the Colosseum."],
+                    "explanation": "Не 'more older'! Просто 'older'! 🏛️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Big Ben",
+            "description": "Читаем текст о Биг-Бене и отвечаем на вопросы",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди факты о Биг-Бене (высота, вес, история).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на сравнительные степени!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is Big Ben? 🇬🇧",
+                    "options": ["A clock tower", "A bell", "A clock", "A building"],
+                    "correct": "A bell",
+                    "accept": ["A bell", "a bell", "bell"],
+                    "explanation": "Big Ben is a huge bell! Most people think it's the tower, but it's actually the bell! 🔔",
+                    "readingText": "🌟 BIG BEN — LONDON'S MOST FAMOUS BELL 🌟\n\nMost people think Big Ben is the clock tower in London. But they are wrong! Big Ben is actually the name of the huge bell inside the tower. Let's learn more about this amazing landmark!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🔔 BIG BEN — THE BELL\n\nThe bell is called Big Ben. It weighs 14 tons! That's heavier than two elephants! 🐘🐘\n\nThe bell is very loud. It rings every hour. You can hear it from far away.\n\nThe name 'Big Ben' comes from Sir Benjamin Hall. He was a very big man. His nickname was 'Big Ben'!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🕰️ THE CLOCK TOWER\n\nThe tower is 96 metres tall. It's taller than the Colosseum in Rome!\n\nEach clock face is 7 metres wide. The hour hand is 3 metres long. The minute hand is 4 metres long. That's longer than a car! 🚗\n\nThere are 334 steps to the top. That's a lot of steps! People who work there climb them every day.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💡 INTERESTING FACTS\n\n• The tower is more than 150 years old.\n• It survived World War II bombs.\n• It leans a little bit! Not as much as the Leaning Tower of Pisa, but it does lean!\n• It's one of the most famous landmarks in the world.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🤔 WOULD YOU CLIMB 334 STEPS?\n\nLots of tourists visit Big Ben every year. Some of them climb to the top. But you need to be very fit! 334 steps is not easy. Would you do it? 🏃\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "How heavy is the Big Ben bell? 🔔",
+                    "options": ["1 ton", "7 tons", "14 tons", "20 tons"],
+                    "correct": "14 tons",
+                    "accept": ["14 tons", "14 ton", "fourteen tons"],
+                    "explanation": "Big Ben weighs 14 tons! That's heavier than two elephants! 🐘🐘",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Big Ben is the clock tower.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Big Ben is actually the BELL inside the tower! Most people don't know this! 🔔",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "The clock tower is 96 metres tall.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! The tower is 96 metres tall! 🗼",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The tower has ___ steps to the top. 🏃",
+                    "correct": "334",
+                    "accept": ["334", "three hundred thirty four", "334 steps"],
+                    "explanation": "There are 334 steps to the top! That's a lot of exercise! 🏃",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Comparatives Practice",
+            "description": "Тренируемся сравнивать достопримечательности",
+            "grammar": {
+                "title": "Comparatives — практика",
+                "rule": "📘 **Как сравнивать достопримечательности**:\n\n📌 **Короткие слова** (+er):\n✅ tall → taller, big → bigger, old → older, new → newer\n\n📌 **Длинные слова** (more +):\n✅ famous → more famous, interesting → more interesting, beautiful → more beautiful\n\n📌 **Структура**:\n✅ [A] is [comparative] than [B].\n\n🎯 **Примеры**:\n✅ The Eiffel Tower is taller than Big Ben.\n✅ The Pyramids are more famous than the Colosseum.\n✅ The Colosseum is older than Big Ben.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The Eiffel Tower is ___ than Big Ben. 🗼",
+                    "options": ["tall", "taller", "more tall", "tallest"],
+                    "correct": "taller",
+                    "accept": ["taller", "Taller", "TALLER"],
+                    "explanation": "tall → taller! 🗼",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The Pyramids are ___ (old) than the Colosseum. 🏛️",
+                    "correct": "older",
+                    "accept": ["older", "Older", "OLDER"],
+                    "explanation": "old → older! 🏛️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'More interesting' is the comparative of 'interesting'.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! interesting → more interesting! 🤔",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The Sydney Opera House is ___ (new) than the Colosseum. 🇦🇺",
+                    "correct": "newer",
+                    "accept": ["newer", "Newer", "NEWER"],
+                    "explanation": "new → newer! 🇦🇺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Big Ben is more famous than the Eiffel Tower?",
+                    "correct": "Is Big Ben more famous than the Eiffel Tower?",
+                    "accept": ["Is Big Ben more famous than the Eiffel Tower", "Is Big Ben more famous than the Eiffel Tower?"],
+                    "explanation": "It's a question! 'Is Big Ben more famous than the Eiffel Tower?' 🤔",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — Comparing Landmarks",
+            "description": "Пишем текст о достопримечательностях",
+            "grammar": {
+                "title": "Повторение: сравнительные степени",
+                "rule": "📚 **План для письма**:\n\n1️⃣ Выбери две достопримечательности.\n2️⃣ Опиши, чем они похожи.\n3️⃣ Сравни их (размер, возраст, известность).\n4️⃣ Напиши, какая тебе нравится больше и почему.\n\n🎯 **Пример**:\nBig Ben and the Eiffel Tower are both famous landmarks. The Eiffel Tower is taller than Big Ben, but Big Ben is older. The Eiffel Tower is more famous, but I like Big Ben more because it has a beautiful bell.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Big Ben and the Eiffel Tower are both ___ landmarks. (известные)",
+                    "correct": "famous",
+                    "accept": ["famous", "Famous", "FAMOUS"],
+                    "explanation": "Обе достопримечательности известные! 🌍",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The Eiffel Tower is ___ (tall) than Big Ben. 🗼",
+                    "correct": "taller",
+                    "accept": ["taller", "Taller", "TALLER"],
+                    "explanation": "Eiffel Tower is TALLER than Big Ben! 🗼",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Big Ben is ___ (old) than the Eiffel Tower. 🇬🇧",
+                    "correct": "older",
+                    "accept": ["older", "Older", "OLDER"],
+                    "explanation": "Big Ben is OLDER than the Eiffel Tower! 🇬🇧",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I like ___ more because it has a beautiful bell. (напиши достопримечательность)",
+                    "correct": "Big Ben",
+                    "accept": ["Big Ben", "big ben", "Big ben"],
+                    "explanation": "Какая достопримечательность тебе нравится больше? 🔔",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The Pyramids are more ___ (interesting / famous) than the Colosseum.",
+                    "correct": "interesting",
+                    "accept": ["interesting", "Interesting", "INTERESTING"],
+                    "explanation": "Напиши своё мнение! 🤔",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

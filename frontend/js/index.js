@@ -39,7 +39,8 @@ const schoolGrades = [
     { weekId: 'week15_my_pet', title: '🐕 My Pet & Present Simple: tag-questions' },
     { weekId: 'week16_daily_routine', title: '⏰ Daily Routine & Adverbs of frequency' },
     { weekId: 'week17_jobs', title: '💼 Jobs & Present Continuous (действия сейчас)' },
-    { weekId: 'week18_weekends', title: '🎮 Weekends & Present Simple vs Present Continuous' }
+    { weekId: 'week18_weekends', title: '🎮 Weekends & Present Simple vs Present Continuous' },
+    { weekId: 'week19_big_ben', title: '🏛️ Big Ben & Comparatives (степени сравнения)' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
