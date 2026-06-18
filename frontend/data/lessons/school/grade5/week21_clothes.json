@@ -77,72 +77,72 @@
             ]
         },
         {
-            "day": 2,
-            "title": "Day 2: More Clothes and Accessories",
-            "description": "Учим больше одежды и аксессуаров",
-            "grammar": {
-                "title": "Clothes and Accessories",
-                "rule": "📘 **Аксессуары и дополнительная одежда**:\n\n🧣 **scarf** — шарф\n🧤 **gloves** — перчатки\n🧢 **cap** — кепка\n👒 **hat** — шляпа\n🕶️ **sunglasses** — солнечные очки\n👠 **high heels** — туфли на каблуке\n🧦 **socks** — носки\n👔 **tie** — галстук\n👛 **bag** — сумка\n\n🎯 **Мем**:\n'I wear sunglasses in winter to look cool. \nIt doesn't work. I just look confused.' 😅🕶️",
-                "examples": []
-            },
-            "vocabulary": [
-                {"icon": "🧣", "word": "scarf", "transcription": "/skɑːf/", "translation": "шарф", "example": "I wear a scarf when it's cold.", "context_translation": "шарф", "context_example": "Я ношу шарф, когда холодно."},
-                {"icon": "🧤", "word": "gloves", "transcription": "/ɡlʌvz/", "translation": "перчатки", "example": "Gloves keep my hands warm.", "context_translation": "перчатки", "context_example": "Перчатки согревают мои руки."},
-                {"icon": "🧢", "word": "cap", "transcription": "/kæp/", "translation": "кепка", "example": "I wear a cap when it's sunny.", "context_translation": "кепка", "context_example": "Я ношу кепку, когда солнечно."},
-                {"icon": "👒", "word": "hat", "transcription": "/hæt/", "translation": "шляпа", "example": "She wears a hat to the beach.", "context_translation": "шляпа", "context_example": "Она носит шляпу на пляж."},
-                {"icon": "🕶️", "word": "sunglasses", "transcription": "/ˈsʌnˌɡlɑːsɪz/", "translation": "солнечные очки", "example": "I wear sunglasses in summer.", "context_translation": "солнечные очки", "context_example": "Я ношу солнечные очки летом."},
-                {"icon": "🧦", "word": "socks", "transcription": "/sɒks/", "translation": "носки", "example": "I wear socks with trainers.", "context_translation": "носки", "context_example": "Я ношу носки с кроссовками."},
-                {"icon": "👛", "word": "bag", "transcription": "/bæɡ/", "translation": "сумка", "example": "I carry my books in a bag.", "context_translation": "сумка", "context_example": "Я ношу книги в сумке."}
-            ],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "multiple_choice",
-                    "question": "What do you wear on your head when it's sunny? 🧢",
-                    "options": ["Scarf", "Cap", "Gloves", "Socks"],
-                    "correct": "Cap",
-                    "accept": ["Cap", "cap", "CAP"],
-                    "explanation": "Cap — кепка для солнца! 🧢☀️",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 2,
-                    "type": "fill_blank",
-                    "question": "I wear ___ in winter to keep my hands warm. 🧤",
-                    "correct": "gloves",
-                    "accept": ["gloves", "Gloves", "GLOVES"],
-                    "explanation": "Gloves — перчатки! 🧤",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 3,
-                    "type": "true_false",
-                    "question": "Sunglasses are worn in winter only.",
-                    "correct": "False",
-                    "accept": ["False", "false", "FALSE", "No", "no"],
-                    "explanation": "Sunglasses are worn in summer, not only winter! 🕶️",
-                    "topic": "reading"
-                },
-                {
-                    "id": 4,
-                    "type": "fill_blank",
-                    "question": "I wear a ___ around my neck when it's cold. 🧣",
-                    "correct": "scarf",
-                    "accept": ["scarf", "Scarf", "SCARF"],
-                    "explanation": "Scarf — шарф на шею! 🧣",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 5,
-                    "type": "correct_mistake",
-                    "question": "I wear gloves on my feet.",
-                    "correct": "I wear gloves on my hands.",
-                    "accept": ["I wear gloves on my hands", "I wear gloves on my hands."],
-                    "explanation": "Gloves are for hands, not feet! 🧤",
-                    "topic": "reading"
-                }
-            ]
+    "day": 2,
+    "title": "Day 2: Opposites — Adjectives for Clothes",
+    "description": "Учим прилагательные-антонимы для описания одежды: long/short, heavy/light, tight/loose",
+    "grammar": {
+        "title": "Opposites (антонимы) для описания одежды",
+        "rule": "📘 **Прилагательные-антонимы для одежды**:\n\n📏 **long** (длинный) ↔ **short** (короткий)\n⚖️ **heavy** (тяжёлый) ↔ **light** (лёгкий)\n👗 **tight** (обтягивающий) ↔ **loose** (свободный)\n\n📌 **Примеры**:\n✅ Anna is wearing a **long** skirt.\n✅ He is wearing a **short** T-shirt.\n✅ This coat is **heavy**. I can't carry it!\n✅ I wear **light** clothes in summer.\n✅ These jeans are too **tight**! I need a bigger size.\n✅ I like **loose** hoodies. They are comfortable.\n\n🎯 **Мем**:\n'My jeans are too tight after dinner.'\n'That's why I wear loose clothes to eat!' 😅",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "📏", "word": "long", "transcription": "/lɒŋ/", "translation": "длинный", "example": "She is wearing a long dress.", "context_translation": "длинный", "context_example": "На ней длинное платье."},
+        {"icon": "📏", "word": "short", "transcription": "/ʃɔːt/", "translation": "короткий", "example": "He is wearing short trousers.", "context_translation": "короткий", "context_example": "На нём короткие брюки."},
+        {"icon": "⚖️", "word": "heavy", "transcription": "/ˈhevi/", "translation": "тяжёлый", "example": "This winter coat is heavy.", "context_translation": "тяжёлый", "context_example": "Это зимнее пальто тяжёлое."},
+        {"icon": "⚖️", "word": "light", "transcription": "/laɪt/", "translation": "лёгкий (по весу)", "example": "I wear light clothes in summer.", "context_translation": "лёгкий", "context_example": "Я ношу лёгкую одежду летом."},
+        {"icon": "👗", "word": "tight", "transcription": "/taɪt/", "translation": "обтягивающий, тесный", "example": "These jeans are too tight.", "context_translation": "обтягивающий", "context_example": "Эти джинсы слишком тесные."},
+        {"icon": "👗", "word": "loose", "transcription": "/luːs/", "translation": "свободный, мешковатый", "example": "I like loose T-shirts.", "context_translation": "свободный", "context_example": "Я люблю свободные футболки."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "What is the opposite of 'long'? 📏",
+            "options": ["Tall", "Short", "Heavy", "Tight"],
+            "correct": "Short",
+            "accept": ["Short", "short", "SHORT"],
+            "explanation": "Long ↔ Short! Длинный ↔ Короткий! 📏",
+            "topic": "vocabulary"
         },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What is the opposite of 'heavy'? ⚖️",
+            "options": ["Tight", "Loose", "Light", "Short"],
+            "correct": "Light",
+            "accept": ["Light", "light", "LIGHT"],
+            "explanation": "Heavy ↔ Light! Тяжёлый ↔ Лёгкий! ⚖️",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "These jeans are too ___ . I can't breathe! (tight / loose)",
+            "correct": "tight",
+            "accept": ["tight", "Tight", "TIGHT"],
+            "explanation": "Tight — тесный, обтягивающий! Не могу дышать! 😅",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "I like ___ clothes in summer. (heavy / light)",
+            "correct": "light",
+            "accept": ["light", "Light", "LIGHT"],
+            "explanation": "Light clothes — лёгкая одежда для лета! ☀️",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 5,
+            "type": "correct_mistake",
+            "question": "Anna is wearing a short dress.",
+            "correct": "Anna is wearing a long dress.",
+            "accept": ["Anna is wearing a long dress", "Anna is wearing a long dress."],
+            "explanation": "Anna is wearing a LONG dress, not short! 📏",
+            "topic": "vocabulary"
+        }
+    ]
+},
         {
             "day": 3,
             "title": "Day 3: What Are You Wearing? (Present Continuous)",
