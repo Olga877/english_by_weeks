@@ -44,7 +44,8 @@ const schoolGrades = [
     { weekId: 'week20_seasons', title: '🌤️ Seasons & Weather (времена года и погода)' },
     { weekId: 'week21_clothes', title: '👗 Clothes (одежда) & Present Simple vs Present Continuous' },
     { weekId: 'week22_celebrations', title: '🎉 Celebrations (праздники) & Countable/Uncountable nouns' },
-    { weekId: 'week23_food', title: '🍕 Food & Drinks & Some/Any/Much/Many' }
+    { weekId: 'week23_food', title: '🍕 Food & Drinks & Some/Any/Much/Many' },
+    { weekId: 'week24_birthday', title: '🎂 Birthday Treats & -ing/-ed adjectives' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
