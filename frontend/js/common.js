@@ -3275,6 +3275,8 @@ const localDictionary = new Map([
 ['week', 'неделя'],
 ['month', 'месяц'],
 ['year', 'год'],
+['acts', 'снимается (просто как профессия)'],
+['stars', 'играет главную роль'],
 
 // ========== WEEK 27: FILMS & PAST SIMPLE (IRREGULAR VERBS) ==========
 
