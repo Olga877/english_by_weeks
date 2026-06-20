@@ -13,7 +13,7 @@
             "description": "Что мы делаем на праздниках? Учим слова и фразы",
             "grammar": {
                 "title": "Festive Activities — Vocabulary",
-                "rule": "📘 **Что мы делаем на праздниках?**:\n\n🎆 **set off fireworks** — запускать фейерверки\n🎪 **have street parades** — устраивать уличные парады\n🎭 **dress up** — наряжаться\n🎁 **exchange gifts** — обмениваться подарками\n🍽️ **have family dinners** — устраивать семейные ужины\n🎶 **sing songs** — петь песни\n💃 **dance** — танцевать\n🍰 **eat special food** — есть особую еду\n\n📌 **Пример**:\n✅ On Victory Day, we have street parades.\n✅ We set off fireworks on New Year's Eve.\n\n📌 **Пример**:\n'On Victory Day, we have street parades. We also set off fireworks. It's so cool! 🎆'",
+                "rule": "📘 **Что мы делаем на праздниках?**:\n\n🎆 **set off fireworks** — запускать фейерверки\n🎪 **have street parades** — устраивать уличные парады\n🎭 **dress up** — наряжаться\n🎁 **exchange gifts** — обмениваться подарками\n🍽️ **have family dinners** — устраивать семейные ужины\n🎶 **sing songs** — петь песни\n💃 **dance** — танцевать\n🍰 **eat special food** — есть особую еду\n\n📌 **Пример**:\nOn Victory Day, we have street parades.\nWe set off fireworks on New Year's Eve.",
                 "examples": []
             },
             "vocabulary": [
@@ -65,11 +65,11 @@
                 },
                 {
                     "id": 5,
-                    "type": "correct_mistake",
-                    "question": "We have a big dinner on New Year.",
-                    "correct": "Correct",
-                    "accept": ["Correct", "correct", "CORRECT"],
-                    "explanation": "This is correct! A big dinner on New Year! 🍽️",
+                    "type": "fill_blank",
+                    "question": "We have a big ___ on New Year. 🍽️",
+                    "correct": "dinner",
+                    "accept": ["dinner", "Dinner", "DINNER"],
+                    "explanation": "We have a big dinner on New Year! 🍽️",
                     "topic": "grammar"
                 }
             ]
@@ -80,13 +80,13 @@
             "description": "Учимся говорить о праздниках урожая в разных странах",
             "grammar": {
                 "title": "Harvest Festivals — Vocabulary",
-                "rule": "📘 **Праздники урожая в мире**:\n\n🇺🇸🇨🇦 **Thanksgiving** — День благодарения (США, Канада)\n🇮🇳 **Holi** — Холи (Индия, праздник урожая)\n🇵🇭 **Banana Festival** — Фестиваль бананов (Филиппины)\n🇰🇷 **Chuseok** — Чусок (Корея, праздник урожая)\n\n📌 **Пример**:\n✅ Thanksgiving is in November in the USA.\n✅ Holi is a five-day festival in India.\n\n📌 **Пример**:\n'Thanksgiving is a festival. People eat turkey and pumpkin pie. 🦃🥧'",
+                "rule": "📘 **Праздники урожая в мире**:\n\n🇺🇸🇨🇦 **Thanksgiving** — День благодарения (США, Канада)\n🇮🇳 **Holi** — Холи (Индия, праздник урожая)\n🇵🇭 **Banana Festival** — Фестиваль бананов (Филиппины)\n🇰🇷 **Chuseok** — Чусок (Корея, праздник урожая)\n\n📌 **Пример**:\nThanksgiving is in November in the USA.\nHoli is a five-day festival in India.",
                 "examples": []
             },
             "vocabulary": [
                 {"icon": "🇺🇸", "word": "Thanksgiving", "transcription": "/ˌθæŋksˈɡɪvɪŋ/", "translation": "День благодарения", "example": "Thanksgiving is in November.", "context_translation": "День благодарения", "context_example": "День благодарения отмечается в ноябре."},
                 {"icon": "🇮🇳", "word": "harvest", "transcription": "/ˈhɑːvɪst/", "translation": "урожай, собирать урожай", "example": "Farmers harvest wheat in summer.", "context_translation": "урожай", "context_example": "Фермеры собирают урожай пшеницы летом."},
-                {"icon": "🇵🇭", "word": "varieties", "transcription": "/vəˈraɪətiz/", "translation": "разновидности", "example": "There are many varieties of bananas.", "context_translation": "разновидности", "context_example": "Существует много разновидностей бананов."},
+                {"icon": "🇵🇭", "word": "variety", "transcription": "/vəˈraɪəti/", "translation": "разновидность", "example": "There are many varieties of bananas.", "context_translation": "разновидность", "context_example": "Существует много разновидностей бананов."},
                 {"icon": "🇰🇷", "word": "tradition", "transcription": "/trəˈdɪʃn/", "translation": "традиция", "example": "It's a tradition to wear costumes.", "context_translation": "традиция", "context_example": "Это традиция — носить костюмы."}
             ],
             "exercises": [
@@ -129,11 +129,11 @@
                 },
                 {
                     "id": 5,
-                    "type": "correct_mistake",
-                    "question": "Chuseok is a Korean festival.",
-                    "correct": "Correct",
-                    "accept": ["Correct", "correct", "CORRECT"],
-                    "explanation": "Chuseok is a Korean harvest festival! 🇰🇷",
+                    "type": "true_false",
+                    "question": "Chuseok is a festival in Japan.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Chuseok is a Korean festival, not Japanese! 🇰🇷",
                     "topic": "reading"
                 }
             ]
@@ -189,7 +189,7 @@
                 {
                     "id": 4,
                     "type": "fill_blank",
-                    "question": "I want ___ apple. (a / some)",
+                    "question": "I want ___ apple. (a / an)",
                     "correct": "an",
                     "accept": ["an", "An", "AN"],
                     "explanation": "Apple — countable singular → an apple! 🍎",
@@ -277,7 +277,7 @@
             "description": "Тренируем исчисляемые и неисчисляемые существительные",
             "grammar": {
                 "title": "Countable/Uncountable — практика",
-                "rule": "📘 **Как использовать исчисляемые и неисчисляемые существительные**:\n\n📌 **Countable + plural**:\n✅ I have some apples.\n✅ I don't have any oranges.\n\n📌 **Uncountable**:\n✅ I have some milk.\n✅ I don't have any water.\n\n📌 **Вопросы**:\n❓ How many apples? (countable)\n❓ How much milk? (uncountable)\n\n📌 **Пример**:\n❓ How many bananas have you got?\n✅ I have two bananas.\n❓ How much rice have you got?\n✅ I have a lot of rice.",
+                "rule": "📘 **Как использовать исчисляемые и неисчисляемые существительные**:\n\n📌 **Countable + plural**:\n✅ I have some apples.\n✅ I don't have any oranges.\n\n📌 **Uncountable**:\n✅ I have some milk.\n✅ I don't have any water.\n\n📌 **Вопросы**:\n❓ How many apples? (countable)\n❓ How much milk? (uncountable)\n\n📌 **Пример**:\nHow many bananas have you got? — I have two bananas.\nHow much rice have you got? — I have a lot of rice.",
                 "examples": []
             },
             "vocabulary": [],
@@ -382,7 +382,7 @@
                     "type": "fill_blank",
                     "question": "I like it because ___ . (напиши причину)",
                     "correct": "it's fun",
-                    "accept": ["it's fun", "it's fun", "I get presents", "I see my family", "we have a good time"],
+                    "accept": ["it's fun", "I get presents", "I see my family", "we have a good time"],
                     "explanation": "Почему тебе нравится этот праздник? 💖",
                     "topic": "writing"
                 }

@@ -13,7 +13,7 @@
             "description": "Знакомимся с названиями продуктов и напитков",
             "grammar": {
                 "title": "Food and Drinks — Vocabulary",
-                "rule": "📘 **Продукты и напитки**:\n\n🍞 **bread** — хлеб\n🥛 **milk** — молоко\n🧀 **cheese** — сыр\n🥩 **meat** — мясо\n🐟 **fish** — рыба\n🍗 **chicken** — курица\n🥚 **eggs** — яйца\n🍚 **rice** — рис\n🍝 **pasta** — паста, макароны\n🧈 **butter** — масло\n🍰 **cake** — торт\n🍫 **chocolate** — шоколад\n🍬 **sugar** — сахар\n🍯 **jam** — варенье\n🧅 **onions** — лук\n🥕 **carrots** — морковь\n🍋 **lemons** — лимоны\n🍓 **strawberries** — клубника\n🍍 **pineapple** — ананас\n🍊 **orange** — апельсин\n🧃 **orange juice** — апельсиновый сок\n🍦 **ice cream** — мороженое\n🥬 **cabbage** — капуста\n🥫 **tomatoes** — помидоры\n\n📌 **Пример**:\nI like pizza. I don't like cabbage. I love chocolate! 🍫\n\n📌 **Пример**:\n'I like pizza, but I don't like pineapple on pizza. Who invented that?! 🍍🍕'",
+                "rule": "📘 **Продукты и напитки**:\n\n🍞 **bread** — хлеб\n🥛 **milk** — молоко\n🧀 **cheese** — сыр\n🥩 **meat** — мясо\n🐟 **fish** — рыба\n🍗 **chicken** — курица\n🥚 **eggs** — яйца\n🍚 **rice** — рис\n🍝 **pasta** — паста, макароны\n🧈 **butter** — масло\n🍰 **cake** — торт\n🍫 **chocolate** — шоколад\n🍬 **sugar** — сахар\n🍯 **jam** — варенье\n🧅 **onions** — лук\n🥕 **carrots** — морковь\n🍋 **lemons** — лимоны\n🍓 **strawberries** — клубника\n🍍 **pineapple** — ананас\n🍊 **orange** — апельсин\n🧃 **orange juice** — апельсиновый сок\n🍦 **ice cream** — мороженое\n🥬 **cabbage** — капуста\n🥫 **tomatoes** — помидоры\n\n📌 **Пример**:\nI like pizza. I don't like cabbage. I love chocolate! 🍫",
                 "examples": []
             },
             "vocabulary": [
@@ -70,12 +70,12 @@
                 },
                 {
                     "id": 5,
-                    "type": "correct_mistake",
-                    "question": "I drink milk every day.",
-                    "correct": "Correct",
-                    "accept": ["Correct", "correct", "CORRECT"],
-                    "explanation": "This is correct! Drinking milk is good! 🥛",
-                    "topic": "grammar"
+                    "type": "fill_blank",
+                    "question": "I drink ___ every day. (milk / rice)",
+                    "correct": "milk",
+                    "accept": ["milk", "Milk", "MILK"],
+                    "explanation": "You drink milk, not rice! 🥛",
+                    "topic": "vocabulary"
                 }
             ]
         },
@@ -85,7 +85,7 @@
             "description": "Учим названия контейнеров для продуктов",
             "grammar": {
                 "title": "Containers — Vocabulary",
-                "rule": "📘 **Контейнеры для продуктов**:\n\n🥛 **a carton of** — пакет (молока, сока)\n📦 **a box of** — коробка (печенья, конфет)\n🥣 **a bowl of** — миска (супа, салата)\n🥤 **a glass of** — стакан (воды, сока)\n📦 **a packet of** — пакетик (чая, сахара)\n🧴 **a bottle of** — бутылка (воды, масла)\n\n📌 **Пример**:\n✅ I want a glass of water.\n✅ Can I have a bowl of soup?\n\n📌 **Пример**:\n'I need a bottle of water and a packet of biscuits. Snack time! 🥤'",
+                "rule": "📘 **Контейнеры для продуктов**:\n\n🥛 **a carton of** — пакет (молока, сока)\n📦 **a box of** — коробка (печенья, конфет)\n🥣 **a bowl of** — миска (супа, салата)\n🥤 **a glass of** — стакан (воды, сока)\n📦 **a packet of** — пакетик (чая, сахара)\n🧴 **a bottle of** — бутылка (воды, масла)\n\n📌 **Пример**:\nI want a glass of water.\nCan I have a bowl of soup?",
                 "examples": []
             },
             "vocabulary": [
@@ -136,12 +136,12 @@
                 },
                 {
                     "id": 5,
-                    "type": "correct_mistake",
-                    "question": "I have a carton of juice.",
-                    "correct": "Correct",
-                    "accept": ["Correct", "correct", "CORRECT"],
-                    "explanation": "This is correct! A carton of juice! 🧃",
-                    "topic": "grammar"
+                    "type": "fill_blank",
+                    "question": "I have a ___ of juice. (carton / box)",
+                    "correct": "carton",
+                    "accept": ["carton", "Carton", "CARTON"],
+                    "explanation": "A carton of juice! 🧃",
+                    "topic": "vocabulary"
                 }
             ]
         },
@@ -151,7 +151,7 @@
             "description": "Учимся использовать some и any",
             "grammar": {
                 "title": "Some and Any",
-                "rule": "📘 **Some и Any**:\n\n📌 **Some** — в утвердительных предложениях:\n✅ I have some bread.\n✅ There is some milk.\n\n📌 **Any** — в вопросах и отрицаниях:\n❓ Is there any cheese?\n❌ I don't have any sugar.\n\n📌 **Пример**:\n✅ I have some bananas.\n❌ I don't have any bananas.\n❓ Do you have any bananas?\n\n📌 **Пример**:\n'I have some cake. Do you have any cake?'\n'No, I don't have any. But I have some cookies!' 🍪'",
+                "rule": "📘 **Some и Any**:\n\n📌 **Some** — в утвердительных предложениях:\n✅ I have some bread.\n✅ There is some milk.\n\n📌 **Any** — в вопросах и отрицаниях:\n❓ Is there any cheese?\n❌ I don't have any sugar.\n\n📌 **Пример**:\n✅ I have some bananas.\n❌ I don't have any bananas.\n❓ Do you have any bananas?",
                 "examples": []
             },
             "vocabulary": [
@@ -217,7 +217,7 @@
             "description": "Учимся использовать much и many",
             "grammar": {
                 "title": "Much and Many",
-                "rule": "📘 **Much и Many**:\n\n📌 **Many** — для исчисляемых существительных (которые можно посчитать):\n✅ How many apples?\n✅ Not many. Just a few.\n\n📌 **Much** — для неисчисляемых существительных (которые нельзя посчитать):\n✅ How much milk?\n✅ Not much. Just a little.\n\n📌 **Пример**:\n❓ How many eggs have we got?\n✅ Not many. Just a few.\n❓ How much rice is there?\n✅ Not much. Just a little.\n\n📌 **Пример**:\n'How many bananas do you want? Two? Three?'\n'I want as many as I can eat! 🍌'",
+                "rule": "📘 **Much и Many**:\n\n📌 **Many** — для исчисляемых существительных (которые можно посчитать):\n✅ How many apples?\n✅ Not many. Just a few.\n\n📌 **Much** — для неисчисляемых существительных (которые нельзя посчитать):\n✅ How much milk?\n✅ Not much. Just a little.\n\n📌 **Пример**:\nHow many eggs have we got? — Not many. Just a few.\nHow much rice is there? — Not much. Just a little.",
                 "examples": []
             },
             "vocabulary": [
@@ -282,7 +282,7 @@
             "description": "Тренируем some, any, much и many вместе",
             "grammar": {
                 "title": "Some/Any/Much/Many — практика",
-                "rule": "📘 **Сводная таблица**:\n\n📌 **Some** — утверждение:\n✅ I have some cheese.\n✅ There is some milk.\n\n📌 **Any** — вопрос/отрицание:\n❓ Do you have any meat?\n❌ I don't have any eggs.\n\n📌 **Many** — countable (можно посчитать):\n❓ How many eggs?\n\n📌 **Much** — uncountable (нельзя посчитать):\n❓ How much milk?\n\n📌 **Пример**:\n'How many eggs do you need? Two? Three?'\n'I need some eggs. Not many. Just three. And some milk. Not much.'",
+                "rule": "📘 **Сводная таблица**:\n\n📌 **Some** — утверждение:\n✅ I have some cheese.\n✅ There is some milk.\n\n📌 **Any** — вопрос/отрицание:\n❓ Do you have any meat?\n❌ I don't have any eggs.\n\n📌 **Many** — countable (можно посчитать):\n❓ How many eggs?\n\n📌 **Much** — uncountable (нельзя посчитать):\n❓ How much milk?",
                 "examples": []
             },
             "vocabulary": [],
