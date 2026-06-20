@@ -139,70 +139,74 @@
             ]
         },
         {
-            "day": 3,
-            "title": "Day 3: Making Suggestions",
-            "description": "Как предлагать идеи для вечеринки",
-            "grammar": {
-                "title": "Making Suggestions",
-                "rule": "📘 **Как предлагать идеи**:\n\n📌 **Предложения**:\n✅ Would you like to (have) ...?\n✅ What/How about (having) ...?\n✅ Shall we (have) ...?\n✅ Let's (have) ...\n\n📌 **Согласие**:\n✅ That would be nice!\n✅ That's a great idea!\n✅ I'd love to.\n✅ That sounds great!\n\n📌 **Отказ**:\n❌ I don't like ...\n❌ I hate ...\n❌ I don't think so.\n\n📌 **Пример**:\nA: Shall we have some chocolate biscuits?\nB: Yes, that's a great idea!",
-                "examples": []
-            },
-            "vocabulary": [
-                {"icon": "🍪", "word": "biscuits", "transcription": "/ˈbɪskɪts/", "translation": "печенье", "example": "Shall we have some biscuits?", "context_translation": "печенье", "context_example": "Давай возьмём печенье?"},
-                {"icon": "🍕", "word": "sandwiches", "transcription": "/ˈsænwɪtʃɪz/", "translation": "бутерброды", "example": "How about sandwiches?", "context_translation": "бутерброды", "context_example": "Как насчёт бутербродов?"},
-                {"icon": "🍫", "word": "chocolate", "transcription": "/ˈtʃɒklət/", "translation": "шоколад", "example": "I love chocolate!", "context_translation": "шоколад", "context_example": "Я люблю шоколад!"},
-                {"icon": "🍦", "word": "ice cream", "transcription": "/ˌaɪs ˈkriːm/", "translation": "мороженое", "example": "Would you like ice cream?", "context_translation": "мороженое", "context_example": "Хочешь мороженое?"},
-                {"icon": "🎈", "word": "party", "transcription": "/ˈpɑːti/", "translation": "вечеринка", "example": "Let's have a party!", "context_translation": "вечеринка", "context_example": "Давай устроим вечеринку!"}
-            ],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "multiple_choice",
-                    "question": "How do you suggest having chocolate biscuits? 🍪",
-                    "options": ["Would you like to have chocolate biscuits?", "I don't like chocolate biscuits.", "I hate chocolate biscuits.", "No, thanks."],
-                    "correct": "Would you like to have chocolate biscuits?",
-                    "accept": ["Would you like to have chocolate biscuits", "Would you like to have chocolate biscuits?"],
-                    "explanation": "This is a suggestion! 🍪",
-                    "topic": "phrases"
-                },
-                {
-                    "id": 2,
-                    "type": "fill_blank",
-                    "question": "___ we have some pizza? 🍕 — Yes, that's a great idea!",
-                    "correct": "Shall",
-                    "accept": ["Shall", "shall", "SHALL"],
-                    "explanation": "Shall we — давай! 🍕",
-                    "topic": "phrases"
-                },
-                {
-                    "id": 3,
-                    "type": "true_false",
-                    "question": "'I don't think so' means you agree.",
-                    "correct": "False",
-                    "accept": ["False", "false", "FALSE", "No", "no"],
-                    "explanation": "I don't think so = я так не думаю (отказ)! ❌",
-                    "topic": "reading"
-                },
-                {
-                    "id": 4,
-                    "type": "fill_blank",
-                    "question": "___ about having a party? 🎉 — That sounds great!",
-                    "correct": "How",
-                    "accept": ["How", "how", "HOW"],
-                    "explanation": "How about — как насчёт? 🎉",
-                    "topic": "phrases"
-                },
-                {
-                    "id": 5,
-                    "type": "fill_blank",
-                    "question": "A: Let's have ice cream! 🍦\nB: I'd ___ to! (love / hate)",
-                    "correct": "love",
-                    "accept": ["love", "Love", "LOVE"],
-                    "explanation": "I'd love to = я бы хотел! 🍦",
-                    "topic": "phrases"
-                }
-            ]
+    "day": 3,
+    "title": "Day 3: Making Suggestions",
+    "description": "Как предлагать идеи для вечеринки",
+    "grammar": {
+        "title": "Making Suggestions — как предлагать идеи",
+        "rule": "📘 **Как предлагать идеи на английском**:\n\n📌 **Способы сделать предложение**:\n✅ Would you like to (have) ...? — Ты бы хотел(а) ...?\n✅ What/How about (having) ...? — Как насчёт ...?\n✅ Shall we (have) ...? — Давай ...?\n✅ Let's (have) ...! — Давай ...!\n✅ Why don't we (have) ...? — Почему бы нам не ...?\n\n📌 **Как согласиться**:\n✅ That would be nice! — Это было бы здорово!\n✅ That's a great idea! — Это отличная идея!\n✅ I'd love to. — Я бы с удовольствием.\n✅ That sounds great! — Звучит здорово!\n✅ Good idea! — Хорошая идея!\n\n📌 **Как отказаться**:\n❌ I don't like ... — Мне не нравится ...\n❌ I hate ... — Я ненавижу ...\n❌ I don't think so. — Я так не думаю.\n❌ I'd rather not. — Я бы предпочёл не делать этого.\n❌ Sorry, I'm busy. — Извини, я занят(а).\n\n📌 **Примеры диалогов**:\n\n🎉 **Предложение 1**:\nA: Shall we have some chocolate biscuits? — Давай возьмём печенье?\nB: Yes, that's a great idea! — Да, отличная идея!\n\n🎉 **Предложение 2**:\nA: How about having a party on Saturday? — Как насчёт вечеринки в субботу?\nB: That sounds great! — Звучит здорово!\n\n🎉 **Предложение 3**:\nA: Would you like to go to the cinema? — Ты бы хотел(а) пойти в кино?\nB: I'd love to! — Я бы с удовольствием!\n\n🎉 **Предложение 4** (отказ):\nA: Let's order pizza! — Давай закажем пиццу!\nB: I don't like pizza. How about burgers? — Я не люблю пиццу. Как насчёт бургеров?\nA: OK, let's have burgers! — Хорошо, давай бургеры!",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🍪", "word": "biscuits", "transcription": "/ˈbɪskɪts/", "translation": "печенье", "example": "Shall we have some biscuits?", "context_translation": "печенье", "context_example": "Давай возьмём печенье?"},
+        {"icon": "🍕", "word": "sandwiches", "transcription": "/ˈsænwɪtʃɪz/", "translation": "бутерброды", "example": "How about sandwiches?", "context_translation": "бутерброды", "context_example": "Как насчёт бутербродов?"},
+        {"icon": "🍫", "word": "chocolate", "transcription": "/ˈtʃɒklət/", "translation": "шоколад", "example": "I love chocolate!", "context_translation": "шоколад", "context_example": "Я люблю шоколад!"},
+        {"icon": "🍦", "word": "ice cream", "transcription": "/ˌaɪs ˈkriːm/", "translation": "мороженое", "example": "Would you like ice cream?", "context_translation": "мороженое", "context_example": "Хочешь мороженое?"},
+        {"icon": "🎈", "word": "party", "transcription": "/ˈpɑːti/", "translation": "вечеринка", "example": "Let's have a party!", "context_translation": "вечеринка", "context_example": "Давай устроим вечеринку!"},
+        {"icon": "🍕", "word": "pizza", "transcription": "/ˈpiːtsə/", "translation": "пицца", "example": "Let's order pizza!", "context_translation": "пицца", "context_example": "Давай закажем пиццу!"},
+        {"icon": "🍔", "word": "burgers", "transcription": "/ˈbɜːɡəz/", "translation": "бургеры", "example": "How about burgers?", "context_translation": "бургеры", "context_example": "Как насчёт бургеров?"}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Как предложить пойти в кино? 🎬",
+            "options": ["I don't like cinema.", "Shall we go to the cinema?", "I hate cinema.", "No, thanks."],
+            "correct": "Shall we go to the cinema?",
+            "accept": ["Shall we go to the cinema", "Shall we go to the cinema?"],
+            "explanation": "Shall we go to the cinema? — Давай сходим в кино? 🎬",
+            "topic": "phrases"
         },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "Как согласиться на предложение? ✅",
+            "options": ["I don't think so.", "That sounds great!", "I don't like it.", "I hate it."],
+            "correct": "That sounds great!",
+            "accept": ["That sounds great", "That sounds great!"],
+            "explanation": "That sounds great! — Звучит здорово! ✅",
+            "topic": "phrases"
+        },
+        {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Как отказаться от предложения? ❌",
+            "options": ["Good idea!", "I'd love to.", "I don't think so.", "That sounds great!"],
+            "correct": "I don't think so.",
+            "accept": ["I don't think so", "I don't think so."],
+            "explanation": "I don't think so. — Я так не думаю. ❌",
+            "topic": "phrases"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "___ we have some pizza? 🍕 — Yes, that's a great idea!",
+            "correct": "Shall",
+            "accept": ["Shall", "shall", "SHALL"],
+            "explanation": "Shall we — давай! 🍕",
+            "topic": "phrases"
+        },
+        {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "A: Let's have ice cream! 🍦\nB: I'd ___ to! (love / hate)",
+            "correct": "love",
+            "accept": ["love", "Love", "LOVE"],
+            "explanation": "I'd love to = я бы хотел! 🍦",
+            "topic": "phrases"
+        }
+    ]
+},
         {
             "day": 4,
             "title": "Day 4: Grammar — -ing and -ed Adjectives",
