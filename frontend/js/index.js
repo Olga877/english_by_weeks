@@ -47,7 +47,8 @@ const schoolGrades = [
     { weekId: 'week23_food', title: '🍕 Food & Drinks & Some/Any/Much/Many' },
     { weekId: 'week24_birthday', title: '🎂 Birthday Treats & -ing/-ed adjectives' },
     { weekId: 'week25_shopping', title: '🛍️ Shopping & Articles (a/an/the/zero) + Past Simple: was/were' },
-    { weekId: 'week26_past_simple', title: '🎢 It Was Great! & Past Simple (regular verbs)' }
+    { weekId: 'week26_past_simple', title: '🎢 It Was Great! & Past Simple (regular verbs)' },
+    { weekId: 'week27_films', title: '🎬 Don\'t Miss It! & Past Simple (irregular verbs)' }
 ]
     },
     { id: 'grade6', title: '6 класс', icon: '📚', description: 'Английский для 6 класса — материалы скоро появятся!', available: false, comingSoon: true, weeks: [] },
