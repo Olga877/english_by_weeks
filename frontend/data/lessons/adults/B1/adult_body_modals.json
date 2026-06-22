@@ -12,20 +12,20 @@
             "title": "Day 1: Parts of the Body",
             "description": "Основные части тела на английском",
             "grammar": {
-                "title": "Parts of the Body — Vocabulary",
-                "rule": "📘 **Части тела**:\n\n**Голова**:\n✅ hair — волосы\n✅ head — голова\n✅ face — лицо\n✅ eyes — глаза\n✅ ears — уши\n✅ nose — нос\n✅ mouth — рот\n✅ teeth — зубы\n✅ chin — подбородок\n\n**Верхняя часть тела**:\n✅ neck — шея\n✅ shoulders — плечи\n✅ back — спина\n✅ chest — грудь\n✅ stomach — живот\n✅ arms — руки\n✅ hands — кисти рук\n✅ fingers — пальцы (на руках)\n✅ thumbs — большие пальцы\n\n**Нижняя часть тела**:\n✅ legs — ноги\n✅ knees — колени\n✅ feet — стопы\n✅ toes — пальцы (на ногах)",
+                "title": "Parts of the Body",
+                "rule": "📘 **Части тела**:\n\n👤 **Голова**:\n✅ hair — волосы\n✅ head — голова\n✅ face — лицо\n✅ eyes — глаза\n✅ ears — уши\n✅ nose — нос\n✅ mouth — рот\n✅ teeth — зубы\n✅ chin — подбородок\n\n💪 **Верхняя часть тела**:\n✅ neck — шея\n✅ shoulders — плечи\n✅ back — спина\n✅ chest — грудь\n✅ stomach — живот\n✅ arms — руки (от плеч до кистей)\n✅ hands — кисти рук\n✅ fingers — пальцы (на руках)\n✅ thumbs — большие пальцы\n\n🦵 **Нижняя часть тела**:\n✅ legs — ноги (от бедер до стоп)\n✅ knees — колени\n✅ feet — стопы\n✅ toes — пальцы (на ногах)",
                 "examples": []
             },
             "vocabulary": [
-                {"icon": "🧑", "word": "head", "transcription": "/hed/", "translation": "голова", "example": "He has a big head.", "context_translation": "голова", "context_example": "У него большая голова."},
-                {"icon": "👀", "word": "eye", "transcription": "/aɪ/", "translation": "глаз", "example": "She has blue eyes.", "context_translation": "глаз", "context_example": "У неё голубые глаза."},
+                {"icon": "👤", "word": "head", "transcription": "/hed/", "translation": "голова", "example": "He has a big head.", "context_translation": "голова", "context_example": "У него большая голова."},
+                {"icon": "👀", "word": "eyes", "transcription": "/aɪz/", "translation": "глаза", "example": "She has blue eyes.", "context_translation": "глаза", "context_example": "У неё голубые глаза."},
                 {"icon": "👃", "word": "nose", "transcription": "/nəʊz/", "translation": "нос", "example": "He has a big nose.", "context_translation": "нос", "context_example": "У него большой нос."},
                 {"icon": "👄", "word": "mouth", "transcription": "/maʊθ/", "translation": "рот", "example": "Open your mouth!", "context_translation": "рот", "context_example": "Открой рот!"},
                 {"icon": "🧔", "word": "chin", "transcription": "/tʃɪn/", "translation": "подбородок", "example": "She has a small chin.", "context_translation": "подбородок", "context_example": "У неё маленький подбородок."},
-                {"icon": "💪", "word": "arm", "transcription": "/ɑːm/", "translation": "рука (от плеча до кисти)", "example": "He has strong arms.", "context_translation": "рука", "context_example": "У него сильные руки."},
-                {"icon": "🖐️", "word": "hand", "transcription": "/hænd/", "translation": "кисть руки", "example": "I write with my right hand.", "context_translation": "кисть руки", "context_example": "Я пишу правой рукой."},
-                {"icon": "🦵", "word": "leg", "transcription": "/leɡ/", "translation": "нога (от бедра до стопы)", "example": "He has long legs.", "context_translation": "нога", "context_example": "У него длинные ноги."},
-                {"icon": "🦶", "word": "foot", "transcription": "/fʊt/", "translation": "стопа", "example": "My feet are cold.", "context_translation": "стопа", "context_example": "Мои ноги замёрзли."}
+                {"icon": "💪", "word": "arms", "transcription": "/ɑːmz/", "translation": "руки (от плеч до кистей)", "example": "He has strong arms.", "context_translation": "руки", "context_example": "У него сильные руки."},
+                {"icon": "🖐️", "word": "hands", "transcription": "/hændz/", "translation": "кисти рук", "example": "I write with my hands.", "context_translation": "кисти рук", "context_example": "Я пишу своими руками."},
+                {"icon": "🦵", "word": "legs", "transcription": "/leɡz/", "translation": "ноги (от бедер до стоп)", "example": "He has long legs.", "context_translation": "ноги", "context_example": "У него длинные ноги."},
+                {"icon": "🦶", "word": "feet", "transcription": "/fiːt/", "translation": "стопы", "example": "My feet are cold.", "context_translation": "стопы", "context_example": "Мои ноги замёрзли."}
             ],
             "exercises": [
                 {
@@ -41,10 +41,10 @@
                 {
                     "id": 2,
                     "type": "fill_blank",
-                    "question": "I write with my right ___ . 🖐️ (hand / leg)",
-                    "correct": "hand",
-                    "accept": ["hand", "Hand", "HAND"],
-                    "explanation": "You write with your hand! 🖐️",
+                    "question": "I write with my ___ . 🖐️ (hand / leg)",
+                    "correct": "hands",
+                    "accept": ["hands", "Hands", "HANDS"],
+                    "explanation": "You write with your hands! 🖐️",
                     "topic": "vocabulary"
                 },
                 {
@@ -59,7 +59,7 @@
                 {
                     "id": 4,
                     "type": "fill_blank",
-                    "question": "He has a big ___ . (nose / hand)",
+                    "question": "He has a big ___ . 👃 (nose / hand)",
                     "correct": "nose",
                     "accept": ["nose", "Nose", "NOSE"],
                     "explanation": "A big nose! 👃",
@@ -68,7 +68,7 @@
                 {
                     "id": 5,
                     "type": "fill_blank",
-                    "question": "Your ___ is in the middle of your face. (nose / leg)",
+                    "question": "Your ___ is in the middle of your face. 👃 (nose / leg)",
                     "correct": "nose",
                     "accept": ["nose", "Nose", "NOSE"],
                     "explanation": "Your nose is in the middle of your face! 👃",
@@ -82,16 +82,18 @@
             "description": "Как описывать внешность людей на английском",
             "grammar": {
                 "title": "Appearance — Vocabulary",
-                "rule": "📘 **Как описывать внешность**:\n\n📌 **Рост**:\n✅ tall — высокий\n✅ short — низкий\n✅ medium height — среднего роста\n\n📌 **Телосложение**:\n✅ slim — стройный\n✅ thin — худой\n✅ overweight — полный\n✅ athletic — спортивный\n\n📌 **Волосы**:\n✅ long — длинные\n✅ short — короткие\n✅ curly — кудрявые\n✅ straight — прямые\n✅ blonde — светлые\n✅ dark — тёмные\n✅ red — рыжие\n\n📌 **Особенности**:\n✅ beard — борода\n✅ moustache — усы\n✅ glasses — очки",
+                "rule": "📘 **Как описывать внешность**:\n\n📏 **Рост**:\n✅ tall — высокий\n✅ short — низкий\n✅ medium height — среднего роста\n\n💪 **Телосложение**:\n✅ slim — стройный\n✅ thin — худой\n✅ overweight — полный\n✅ athletic — спортивный\n\n👨 **Волосы**:\n✅ long — длинные\n✅ short — короткие\n✅ curly — кудрявые\n✅ straight — прямые\n✅ blonde — светлые\n✅ dark — тёмные\n✅ red — рыжие\n\n🧔 **Особенности**:\n✅ beard — борода\n✅ moustache — усы\n✅ glasses — очки",
                 "examples": []
             },
             "vocabulary": [
-                {"icon": "👨", "word": "tall", "transcription": "/tɔːl/", "translation": "высокий", "example": "He is tall and slim.", "context_translation": "высокий", "context_example": "Он высокий и стройный."},
-                {"icon": "👨", "word": "short", "transcription": "/ʃɔːt/", "translation": "низкий, невысокий", "example": "She is short.", "context_translation": "низкий", "context_example": "Она невысокая."},
-                {"icon": "👨", "word": "slim", "transcription": "/slɪm/", "translation": "стройный", "example": "He is slim and fit.", "context_translation": "стройный", "context_example": "Он стройный и подтянутый."},
-                {"icon": "👨", "word": "overweight", "transcription": "/ˌəʊvəˈweɪt/", "translation": "полный, с лишним весом", "example": "He is a bit overweight.", "context_translation": "полный", "context_example": "Он немного полный."},
+                {"icon": "📏", "word": "tall", "transcription": "/tɔːl/", "translation": "высокий", "example": "He is tall and slim.", "context_translation": "высокий", "context_example": "Он высокий и стройный."},
+                {"icon": "📏", "word": "short", "transcription": "/ʃɔːt/", "translation": "низкий, невысокий", "example": "She is short.", "context_translation": "низкий", "context_example": "Она невысокая."},
+                {"icon": "💪", "word": "slim", "transcription": "/slɪm/", "translation": "стройный", "example": "He is slim and fit.", "context_translation": "стройный", "context_example": "Он стройный и подтянутый."},
+                {"icon": "⚖️", "word": "overweight", "transcription": "/ˌəʊvəˈweɪt/", "translation": "полный, с лишним весом", "example": "He is a bit overweight.", "context_translation": "полный", "context_example": "Он немного полный."},
                 {"icon": "🧔", "word": "beard", "transcription": "/bɪəd/", "translation": "борода", "example": "He has a beard.", "context_translation": "борода", "context_example": "У него борода."},
-                {"icon": "👓", "word": "glasses", "transcription": "/ˈɡlɑːsɪz/", "translation": "очки", "example": "She wears glasses.", "context_translation": "очки", "context_example": "Она носит очки."}
+                {"icon": "👓", "word": "glasses", "transcription": "/ˈɡlɑːsɪz/", "translation": "очки", "example": "She wears glasses.", "context_translation": "очки", "context_example": "Она носит очки."},
+                {"icon": "🧑", "word": "curly", "transcription": "/ˈkɜːli/", "translation": "кудрявый", "example": "She has curly hair.", "context_translation": "кудрявый", "context_example": "У неё кудрявые волосы."},
+                {"icon": "🧑", "word": "blonde", "transcription": "/blɒnd/", "translation": "светлый (о волосах)", "example": "She has blonde hair.", "context_translation": "светлый", "context_example": "У неё светлые волосы."}
             ],
             "exercises": [
                 {
@@ -148,7 +150,7 @@
             "description": "Учим must для уверенных предположений",
             "grammar": {
                 "title": "Modals of Deduction: must",
-                "rule": "📘 **Must для предположений**:\n\nМы используем **must**, когда мы УВЕРЕНЫ на 90-100%, что что-то правда.\n\n📌 **Формула**:\n✅ [subject] + **must** + [infinitive]\n\n📌 **Примеры**:\n✅ She **must** be a doctor. She works at a hospital.\n✅ He **must** be tired. He works 12 hours a day.\n✅ They **must** have a lot of money. They have a big house.\n\n📌 **Внимание!**\n❌ **mustn't** НЕ используется для предположений!\n✅ Для отрицательных предположений используем **can't**.\n\n📌 **Пример**:\n✅ She **must** be happy. She's smiling.\n❌ She **mustn't** be happy. (НЕПРАВИЛЬНО!)\n✅ She **can't** be happy. She's crying. (ПРАВИЛЬНО!)",
+                "rule": "📘 **Must для предположений**:\n\nМы используем **must**, когда мы УВЕРЕНЫ на 90-100%, что что-то правда.\n\n📌 **Формула**:\n✅ [subject] + **must** + [infinitive]\n\n✅ She **must** be a doctor. She works at a hospital.\n✅ He **must** be tired. He works 12 hours a day.\n✅ They **must** have a lot of money. They have a big house.\n\n⚠️ **Важно**:\n❌ **mustn't** НЕ используется для предположений!\n✅ Для отрицательных предположений используем **can't**.\n\n✅ She **must** be happy. She's smiling.\n❌ She **mustn't** be happy. (НЕПРАВИЛЬНО!)\n✅ She **can't** be happy. She's crying. (ПРАВИЛЬНО!)",
                 "examples": []
             },
             "vocabulary": [],
@@ -208,7 +210,7 @@
             "description": "Учим might для возможных и can't для невозможных предположений",
             "grammar": {
                 "title": "Modals of Deduction: might and can't",
-                "rule": "📘 **Might для возможных предположений**:\n\nМы используем **might / may / could**, когда мы НЕ УВЕРЕНЫ (50-70%).\n\n📌 **Формула**:\n✅ [subject] + **might** + [infinitive]\n\n📌 **Примеры**:\n✅ She **might** be a doctor. I'm not sure.\n✅ He **may** be at home. Let's call him.\n✅ They **could** be on holiday. I don't know.\n\n📘 **Can't для невозможных предположений**:\n\nМы используем **can't**, когда мы УВЕРЕНЫ, что что-то НЕПРАВДА.\n\n📌 **Формула**:\n✅ [subject] + **can't** + [infinitive]\n\n📌 **Примеры**:\n✅ He's only 15. He **can't** be a university student.\n✅ She's laughing. She **can't** be sad.\n✅ It's summer. It **can't** be snowing.",
+                "rule": "📘 **Might для возможных предположений**:\n\nМы используем **might / may / could**, когда мы НЕ УВЕРЕНЫ (50-70%).\n\n✅ She **might** be a doctor. I'm not sure.\n✅ He **may** be at home. Let's call him.\n✅ They **could** be on holiday. I don't know.\n\n📘 **Can't для невозможных предположений**:\n\nМы используем **can't**, когда мы УВЕРЕНЫ, что что-то НЕПРАВДА.\n\n✅ He's only 15. He **can't** be a university student.\n✅ She's laughing. She **can't** be sad.\n✅ It's summer. It **can't** be snowing.",
                 "examples": []
             },
             "vocabulary": [],
@@ -268,7 +270,7 @@
             "description": "Соединяем модальные глаголы и описание внешности",
             "grammar": {
                 "title": "Modals of Deduction + Body — Practice",
-                "rule": "📘 **Соединяем всё вместе**:\n\n📌 **must** — уверен:\n✅ He must be a sportsperson. He has a strong body.\n✅ She must be tired. She has bags under her eyes.\n\n📌 **might** — возможно:\n✅ He might be a model. He's tall and slim.\n✅ She might have a beard. I can't see properly.\n\n📌 **can't** — невозможно:\n✅ He's bald. He can't have long hair.\n✅ She's short. She can't be a basketball player.\n\n📌 **Пример**:\nHe has a beard and glasses. He must be a professor.\nShe has blonde hair and blue eyes. She might be Swedish.\nHe's only 1.5 metres tall. He can't be a basketball player.",
+                "rule": "📘 **Соединяем всё вместе**:\n\n📌 **must** — уверен:\n✅ He must be a sportsperson. He has a strong body.\n✅ She must be tired. She has bags under her eyes.\n\n📌 **might** — возможно:\n✅ He might be a model. He's tall and slim.\n\n📌 **can't** — невозможно:\n✅ He's bald. He can't have long hair.\n✅ She's short. She can't be a basketball player.",
                 "examples": []
             },
             "vocabulary": [],
@@ -324,59 +326,66 @@
         },
         {
             "day": 6,
-            "title": "Day 6: Writing — Describing a Person",
-            "description": "Пишем описание человека, используя внешность и предположения",
+            "title": "Day 6: Reading — Who Is This Person?",
+            "description": "Читаем описание человека и угадываем, кто это",
             "grammar": {
-                "title": "Повторение: body, appearance, modals of deduction",
-                "rule": "📚 **План для письма**:\n\n1️⃣ What does the person look like? (Как выглядит человек?)\n2️⃣ What are their features? (Какие у него/неё особенности?)\n3️⃣ What do they wear? (Что они носят?)\n4️⃣ What can you guess about them? (Что ты можешь предположить о них?)\n5️⃣ Why do you think that? (Почему ты так думаешь?)\n\n📌 **Пример**:\nI see a woman. She is tall and slim with long blonde hair. She wears glasses and a smart dress. She must be a businesswoman because she looks confident. She might be in her 30s. She can't be a student because she's too old.",
+                "title": "Reading: Describing a Person",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди детали внешности и одежды.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на прилагательные для описания внешности!",
                 "examples": []
             },
             "vocabulary": [],
             "exercises": [
                 {
                     "id": 1,
-                    "type": "fill_blank",
-                    "question": "I see a ___ . (man / woman)",
-                    "correct": "man",
-                    "accept": ["man", "woman", "girl", "boy", "person"],
-                    "explanation": "Кого ты видишь? 👤",
-                    "topic": "writing"
+                    "type": "reading",
+                    "question": "What is the person's job? 💼",
+                    "options": ["Teacher", "Doctor", "Businesswoman", "Artist"],
+                    "correct": "Businesswoman",
+                    "accept": ["Businesswoman", "businesswoman", "BUSINESSWOMAN"],
+                    "explanation": "She looks professional and serious. She must be a businesswoman! 💼",
+                    "readingText": "🕵️ WHO IS THIS PERSON? 🕵️\n\nLook at the description. Can you guess who this person is?\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👩 PERSON DESCRIPTION\n\nI see a woman in her late 30s. She is tall and slim with long blonde hair. She has blue eyes and a friendly smile. She wears glasses and a smart black dress. She also wears high heels and carries a leather bag.\n\nShe looks very confident and professional. She speaks clearly and makes eye contact with people. She doesn't smile too much — she looks serious but kind.\n\nShe is in a big office. There is a computer, a phone and many papers on her desk. She is talking to a man in a suit. She is pointing at a document and explaining something.\n\nShe might be a manager or a director. She can't be a teacher because she is not in a classroom. She must be a businesswoman.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💭 WHAT DO YOU THINK?\n\nWhat is her job? What is she like? 👇\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
                 },
                 {
                     "id": 2,
-                    "type": "fill_blank",
-                    "question": "He/She is ___ and ___ . (напиши рост и телосложение)",
-                    "correct": "tall, slim",
-                    "accept": ["tall, slim", "short, overweight", "medium height, athletic"],
-                    "explanation": "Опиши рост и телосложение! 📏",
-                    "topic": "writing"
+                    "type": "reading",
+                    "question": "What colour are her eyes? 👀",
+                    "options": ["Brown", "Green", "Blue", "Grey"],
+                    "correct": "Blue",
+                    "accept": ["Blue", "blue", "BLUE"],
+                    "explanation": "The text says: 'She has blue eyes.' 👀",
+                    "readingText": "",
+                    "topic": "reading"
                 },
                 {
                     "id": 3,
-                    "type": "fill_blank",
-                    "question": "He/She has ___ hair and ___ . (напиши цвет и ещё одну деталь)",
-                    "correct": "blonde, blue eyes",
-                    "accept": ["blonde, blue eyes", "dark, brown eyes", "red, green eyes", "curly, glasses"],
-                    "explanation": "Опиши волосы и другие детали! 👩",
-                    "topic": "writing"
+                    "type": "true_false",
+                    "question": "She is wearing a casual T-shirt.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "She is wearing a smart black dress, not a casual T-shirt! 👗",
+                    "readingText": "",
+                    "topic": "reading"
                 },
                 {
                     "id": 4,
-                    "type": "fill_blank",
-                    "question": "He/She ___ be a ___ . (must / might / can't + профессия)",
-                    "correct": "must, businesswoman",
-                    "accept": ["must, businesswoman", "must, teacher", "must, doctor", "might, model", "can't, student"],
-                    "explanation": "Кем может быть этот человек? 💼",
-                    "topic": "writing"
+                    "type": "true_false",
+                    "question": "She is in a classroom.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "She is in an office, not a classroom! 💼",
+                    "readingText": "",
+                    "topic": "reading"
                 },
                 {
                     "id": 5,
                     "type": "fill_blank",
-                    "question": "I think this because ___ . (напиши причину)",
-                    "correct": "he looks confident",
-                    "accept": ["he looks confident", "she wears smart clothes", "he has a serious face", "she looks professional"],
-                    "explanation": "Почему ты так думаешь? 🤔",
-                    "topic": "writing"
+                    "question": "She must be a ___ . 💼 (businesswoman / doctor)",
+                    "correct": "businesswoman",
+                    "accept": ["businesswoman", "Businesswoman", "BUSINESSWOMAN"],
+                    "explanation": "She looks professional and serious. She must be a businesswoman! 💼",
+                    "readingText": "",
+                    "topic": "reading"
                 }
             ]
         }
