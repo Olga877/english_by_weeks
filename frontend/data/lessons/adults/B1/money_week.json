@@ -1,7 +1,7 @@
 {
     "week_id": "money_week",
-    "title": "💰 Money Week",
-    "description": "Учим Present Perfect vs Past Simple и деньги с юмором",
+    "title": "💰 Money Week & Present Perfect vs Past Simple",
+    "description": "Учим деньги, Present Perfect vs Past Simple и фразовые глаголы с юмором",
     "level": "B1",
     "icon": "💰",
     "order_num": 1,
@@ -14,33 +14,71 @@
             "grammar": {
                 "title": "Present Perfect (настоящее совершенное время)",
                 "rule": "Используйте Present Perfect (have/has + глагол в 3-й форме), когда:\n\n✅ Говорите о жизненном опыте (неважно, когда именно): 'Я копил деньги когда-то'\n✅ Действие произошло недавно, но время не указано: 'Я только что заплатил'\n✅ Результат важен сейчас: 'Я накопил €500, и могу купить эту классную куртку'\n\n❌ НЕ используйте, если есть точное время (yesterday, last week, in 2020) — там Past Simple!",
-                "examples": [
-                    "I have saved €500 this year. (Моя копилка очень счастлива 🐷)",
-                    "She has never borrowed money. (Она скорее продаст старые носки на eBay, чем займёт 🧦)",
-                    "Have you ever inherited money? (Жду звонка от богатого дяди... 📞)"
-                ],
-                "keywords": "ever, never, already, yet, just, since, for"
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "🤝💰", "word": "borrow", "transcription": "/ˈbɒr.əʊ/", "translation": "занимать", "example": "borrow money from a friend (and then avoid them for a month 😅)"},
-                {"icon": "💰🤝", "word": "lend", "transcription": "/lend/", "translation": "давать в долг", "example": "lend money to someone — say goodbye to that money 👋"},
-                {"icon": "🐷💰", "word": "save", "transcription": "/seɪv/", "translation": "копить", "example": "save money in a piggy bank (and resist the urge to break it open)"},
-                {"icon": "🗑️💸", "word": "waste", "transcription": "/weɪst/", "translation": "тратить впустую", "example": "waste money on things you don't need (like a gold-plated toothbrush)"},
-                {"icon": "💼💵", "word": "earn", "transcription": "/ɜːn/", "translation": "зарабатывать", "example": "earn a salary (and wonder where it all went by Monday)"},
-                {"icon": "📝💳", "word": "owe", "transcription": "/əʊ/", "translation": "быть должным", "example": "owe money to the bank — they never forget 😬"},
-                {"icon": "👴💎", "word": "inherit", "transcription": "/ɪnˈher.ɪt/", "translation": "унаследовать", "example": "inherit a fortune (if you're lucky enough to have a rich great-aunt)"},
-                {"icon": "🔧💸", "word": "charge", "transcription": "/tʃɑːdʒ/", "translation": "брать плату", "example": "charge for a service (my cat charges me in treats 🐱)"},
-                {"icon": "💭🏠", "word": "afford", "transcription": "/əˈfɔːd/", "translation": "позволить себе", "example": "afford a new house — maybe in another lifetime"},
-                {"icon": "🏷️💲", "word": "cost", "transcription": "/kɒst/", "translation": "стоить", "example": "cost an arm and a leg (literally, if you don't have insurance)"},
-                {"icon": "📈💹", "word": "invest", "transcription": "/ɪnˈvest/", "translation": "инвестировать", "example": "invest in stocks — or in a good pizza. Pizza never loses value 🍕"},
-                {"icon": "🙌💰", "word": "raise", "transcription": "/reɪz/", "translation": "собирать деньги", "example": "raise money for charity (or for your own coffee addiction ☕)"}
+                {"icon": "🤝💰", "word": "borrow", "transcription": "/ˈbɒr.əʊ/", "translation": "занимать", "example": "borrow money from a friend", "context_translation": "занимать", "context_example": "занять деньги у друга"},
+                {"icon": "💰🤝", "word": "lend", "transcription": "/lend/", "translation": "давать в долг", "example": "lend money to someone", "context_translation": "давать в долг", "context_example": "одолжить деньги кому-то"},
+                {"icon": "🐷💰", "word": "save", "transcription": "/seɪv/", "translation": "копить", "example": "save money in a piggy bank", "context_translation": "копить", "context_example": "копить деньги в копилке"},
+                {"icon": "🗑️💸", "word": "waste", "transcription": "/weɪst/", "translation": "тратить впустую", "example": "waste money on things you don't need", "context_translation": "тратить впустую", "context_example": "тратить деньги на ненужные вещи"},
+                {"icon": "💼💵", "word": "earn", "transcription": "/ɜːn/", "translation": "зарабатывать", "example": "earn a salary", "context_translation": "зарабатывать", "context_example": "зарабатывать зарплату"},
+                {"icon": "📝💳", "word": "owe", "transcription": "/əʊ/", "translation": "быть должным", "example": "owe money to the bank", "context_translation": "быть должным", "context_example": "быть должным банку"},
+                {"icon": "👴💎", "word": "inherit", "transcription": "/ɪnˈher.ɪt/", "translation": "унаследовать", "example": "inherit a fortune", "context_translation": "унаследовать", "context_example": "унаследовать состояние"},
+                {"icon": "🔧💸", "word": "charge", "transcription": "/tʃɑːdʒ/", "translation": "брать плату", "example": "charge for a service", "context_translation": "брать плату", "context_example": "брать плату за услугу"},
+                {"icon": "💭🏠", "word": "afford", "transcription": "/əˈfɔːd/", "translation": "позволить себе", "example": "afford a new house", "context_translation": "позволить себе", "context_example": "позволить себе новый дом"},
+                {"icon": "🏷️💲", "word": "cost", "transcription": "/kɒst/", "translation": "стоить", "example": "cost an arm and a leg", "context_translation": "стоить", "context_example": "стоить целое состояние"},
+                {"icon": "📈💹", "word": "invest", "transcription": "/ɪnˈvest/", "translation": "инвестировать", "example": "invest in stocks", "context_translation": "инвестировать", "context_example": "инвестировать в акции"},
+                {"icon": "🙌💰", "word": "raise", "transcription": "/reɪz/", "translation": "собирать деньги", "example": "raise money for charity", "context_translation": "собирать деньги", "context_example": "собирать деньги на благотворительность"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "Can I _________ €20 from you until Friday? (I promise I'll pay you back... maybe)", "options": ["borrow", "lend", "save", "waste"], "correct": "borrow", "explanation": "Borrow = взять взаймы. Lend = дать взаймы. Не перепутайте, иначе дружба под угрозой! 🤝", "topic": "verbs"},
-                {"id": 2, "type": "multiple_choice", "question": "I need to _________ some money for a new laptop. (My old one sounds like a helicopter 🚁)", "options": ["waste", "spend", "save", "lend"], "correct": "save", "explanation": "Save = копить. Waste = тратить на ерунду. Выбор за вами!", "topic": "verbs"},
-                {"id": 3, "type": "multiple_choice", "question": "She _________ £2,000 a month in her new job. (And she still can't afford a coffee in London ☕)", "options": ["owes", "earns", "borrows", "charges"], "correct": "earns", "explanation": "Earn = зарабатывать. Owe = быть должным. Надеюсь, она зарабатывает больше, чем должна!", "topic": "verbs"},
-                {"id": 4, "type": "fill_blank", "question": "I _______________ (save) €800 this year. (My piggy bank is getting heavy 🐷)", "correct": "have saved", "explanation": "Present Perfect! Время не указано, важен результат.", "topic": "grammar"},
-                {"id": 5, "type": "fill_blank", "question": "She _______________ (already / inherit) a fortune. (Lucky her! Meanwhile, I inherited my grandma's cat 🐱)", "correct": "has already inherited", "explanation": "Has already inherited — 'already' ставим между have/has и глаголом.", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Can I ___ €20 from you until Friday?",
+                    "options": ["borrow", "lend", "save", "waste"],
+                    "correct": "borrow",
+                    "accept": ["borrow", "Borrow", "BORROW"],
+                    "explanation": "Borrow = взять взаймы. Lend = дать взаймы.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "I need to ___ some money for a new laptop.",
+                    "options": ["waste", "spend", "save", "lend"],
+                    "correct": "save",
+                    "accept": ["save", "Save", "SAVE"],
+                    "explanation": "Save = копить. Waste = тратить на ерунду.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 3,
+                    "type": "multiple_choice",
+                    "question": "She ___ £2,000 a month in her new job.",
+                    "options": ["owes", "earns", "borrows", "charges"],
+                    "correct": "earns",
+                    "accept": ["earns", "Earns", "EARNS"],
+                    "explanation": "Earn = зарабатывать. Owe = быть должным.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (save) €800 this year.",
+                    "correct": "have saved",
+                    "accept": ["have saved", "Have saved", "HAVE SAVED", "have saved"],
+                    "explanation": "Present Perfect! Время не указано, важен результат.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "She ___ (already / inherit) a fortune.",
+                    "correct": "has already inherited",
+                    "accept": ["has already inherited", "Has already inherited", "HAS ALREADY INHERITED", "has inherited"],
+                    "explanation": "Has already inherited — 'already' ставим между have/has и глаголом.",
+                    "topic": "grammar"
+                }
             ]
         },
         {
@@ -50,26 +88,55 @@
             "grammar": {
                 "title": "Past Simple (простое прошедшее время)",
                 "rule": "Используйте Past Simple, когда действие закончилось в прошлом и ЕСТЬ точное время или контекст:\n\n✅ Вчера, на прошлой неделе, в 2010 году, 5 минут назад\n❌ НЕ используйте, если время не указано или важен результат (там Present Perfect)\n\n🎯 Простое правило: есть точное время → Past Simple. Нет времени → Present Perfect.",
-                "examples": [
-                    "I borrowed £50 yesterday. (И теперь мой друг не отвечает на звонки 📱)",
-                    "She lent me £20 last week. (Я до сих пор пытаюсь вспомнить, зачем мне были нужны эти £20)",
-                    "They bought a car in 2015. (И с тех пор продали почку, чтобы её обслуживать 🚗)"
-                ],
-                "keywords": "yesterday, last week, in 2010, ago"
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "💳✅", "word": "pay by card", "transcription": "/peɪ baɪ kɑːd/", "translation": "платить картой", "example": "pay by credit card (and cry when you see the bill 😭)"},
-                {"icon": "🧾💸", "word": "pay for", "transcription": "/peɪ fɔː/", "translation": "платить за", "example": "pay for dinner (and pretend you didn't see the price)"},
-                {"icon": "🛍️💷", "word": "spend on", "transcription": "/spend ɒn/", "translation": "тратить на", "example": "spend money on clothes (and wear them once)"},
-                {"icon": "📊🏠", "word": "invest in", "transcription": "/ɪnˈvest ɪn/", "translation": "инвестировать в", "example": "invest in property (or in a really nice tent ⛺)"},
-                {"icon": "💸➡️👤", "word": "lend to", "transcription": "/lend tuː/", "translation": "одолжить кому-то", "example": "lend to a friend (kiss your money goodbye 👋)"},
-                {"icon": "🏦⬅️💰", "word": "borrow from", "transcription": "/ˈbɒr.əʊ frɒm/", "translation": "занять у кого-то", "example": "borrow from a bank (and then avoid their calls)"}
+                {"icon": "💳✅", "word": "pay by card", "transcription": "/peɪ baɪ kɑːd/", "translation": "платить картой", "example": "pay by credit card", "context_translation": "платить картой", "context_example": "платить кредитной картой"},
+                {"icon": "🧾💸", "word": "pay for", "transcription": "/peɪ fɔː/", "translation": "платить за", "example": "pay for dinner", "context_translation": "платить за", "context_example": "платить за ужин"},
+                {"icon": "🛍️💷", "word": "spend on", "transcription": "/spend ɒn/", "translation": "тратить на", "example": "spend money on clothes", "context_translation": "тратить на", "context_example": "тратить деньги на одежду"},
+                {"icon": "📊🏠", "word": "invest in", "transcription": "/ɪnˈvest ɪn/", "translation": "инвестировать в", "example": "invest in property", "context_translation": "инвестировать в", "context_example": "инвестировать в недвижимость"},
+                {"icon": "💸➡️👤", "word": "lend to", "transcription": "/lend tuː/", "translation": "одолжить кому-то", "example": "lend to a friend", "context_translation": "одолжить кому-то", "context_example": "одолжить другу"},
+                {"icon": "🏦⬅️💰", "word": "borrow from", "transcription": "/ˈbɒr.əʊ frɒm/", "translation": "занять у кого-то", "example": "borrow from a bank", "context_translation": "занять у кого-то", "context_example": "занять у банка"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "I _________ £50 from my friend yesterday. (He still doesn't know I spent it on a talking fish 🐠)", "options": ["borrow", "borrowed", "have borrowed", "borrowing"], "correct": "borrowed", "explanation": "Past Simple! 'Yesterday' — точное время в прошлом.", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "She _________ me £20 last week. (I should probably pay her back... eventually)", "options": ["lend", "lent", "have lent", "lending"], "correct": "lent", "explanation": "Lent — неправильный глагол, в Past Simple форма 'lent'.", "topic": "grammar"},
-                {"id": 3, "type": "correct_mistake", "question": "I have seen him yesterday.", "correct": "I saw him yesterday.", "explanation": "Ошибка! 'Yesterday' требует Past Simple, а не Present Perfect. 'I saw him yesterday' — правильно.", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "They _______________ (move) to London in 2015. (Bad timing — just before rent prices exploded 📈)", "correct": "moved", "explanation": "Past Simple. 'In 2015' — конкретный год в прошлом.", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ £50 from my friend yesterday.",
+                    "options": ["borrow", "borrowed", "have borrowed", "borrowing"],
+                    "correct": "borrowed",
+                    "accept": ["borrowed", "Borrowed", "BORROWED"],
+                    "explanation": "Past Simple! 'Yesterday' — точное время в прошлом.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "She ___ me £20 last week.",
+                    "options": ["lend", "lent", "have lent", "lending"],
+                    "correct": "lent",
+                    "accept": ["lent", "Lent", "LENT"],
+                    "explanation": "Lent — неправильный глагол, в Past Simple форма 'lent'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "correct_mistake",
+                    "question": "I have seen him yesterday.",
+                    "correct": "I saw him yesterday.",
+                    "accept": ["I saw him yesterday", "I saw him yesterday."],
+                    "explanation": "Ошибка! 'Yesterday' требует Past Simple.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They ___ (move) to London in 2015.",
+                    "correct": "moved",
+                    "accept": ["moved", "Moved", "MOVED"],
+                    "explanation": "Past Simple. 'In 2015' — конкретный год в прошлом.",
+                    "topic": "grammar"
+                }
             ]
         },
         {
@@ -77,28 +144,56 @@
             "title": "Day 3: Present Perfect vs Past Simple",
             "description": "Сравниваем оба времени — когда что использовать",
             "grammar": {
-                "title": "Present Perfect vs Past Simple — Битва титанов",
-                "rule": "🎯 Главное отличие — есть точное время или нет?\n\nPresent Perfect (опыт/результат, время НЕ указано):\n• 'I have visited Paris' — был когда-то в жизни, неважно когда\n• 'She has never been in debt' — опыт\n\nPast Simple (конкретный факт, время УКАЗАНО):\n• 'I visited Paris in 2019' — конкретный год\n• 'She was in debt last year' — конкретный период\n\n💡 Лайфхак: видите yesterday, last week, in 2010, ago → Past Simple. Нет времени или есть ever/never/just/already/yet → Present Perfect.",
-                "examples": [
-                    "I have visited Paris. (Опыт. Айфелева башня была красивой, но очереди... 🗼)",
-                    "I visited Paris in 2019. (Конкретный год. Тогда я ещё мог позволить себе круассан 🥐)",
-                    "She has never been in debt. (Как ей это удаётся? Тайна века 🤯)",
-                    "She was in debt last year. (Но теперь она свободна! Почти... 💪)"
-                ],
-                "keywords": "Present Perfect: ever, never, already, yet, since, for | Past Simple: yesterday, last week, in 2010, ago"
+                "title": "Present Perfect vs Past Simple",
+                "rule": "🎯 Главное отличие — есть точное время или нет?\n\nPresent Perfect (опыт/результат, время НЕ указано):\n✅ 'I have visited Paris' — был когда-то в жизни, неважно когда\n✅ 'She has never been in debt' — опыт\n\nPast Simple (конкретный факт, время УКАЗАНО):\n✅ 'I visited Paris in 2019' — конкретный год\n✅ 'She was in debt last year' — конкретный период\n\n💡 Лайфхак: видите yesterday, last week, in 2010, ago → Past Simple. Нет времени или есть ever/never/just/already/yet → Present Perfect.",
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "📄💸", "word": "bill", "transcription": "/bɪl/", "translation": "счёт", "definition": "money you owe for a service (and wish you never ordered that appetizer 🍟)"},
-                {"icon": "📊📋", "word": "budget", "transcription": "/ˈbʌdʒ.ɪt/", "translation": "бюджет", "definition": "a plan for spending money (that you ignore by Tuesday)"},
-                {"icon": "🏦💶", "word": "loan", "transcription": "/ləʊn/", "translation": "кредит", "definition": "money borrowed from a bank (and then they own your soul)"},
-                {"icon": "🏠💷", "word": "mortgage", "transcription": "/ˈmɔː.ɡɪdʒ/", "translation": "ипотека", "definition": "a loan to buy a house (say goodbye to your salary for 30 years 🏠)"},
-                {"icon": "💼💰", "word": "salary", "transcription": "/ˈsæl.ər.i/", "translation": "зарплата", "definition": "money earned from work (that disappears like magic by the 5th of the month ✨)"}
+                {"icon": "📄💸", "word": "bill", "transcription": "/bɪl/", "translation": "счёт", "example": "pay the bill", "context_translation": "счёт", "context_example": "оплатить счёт"},
+                {"icon": "📊📋", "word": "budget", "transcription": "/ˈbʌdʒ.ɪt/", "translation": "бюджет", "example": "stick to a budget", "context_translation": "бюджет", "context_example": "придерживаться бюджета"},
+                {"icon": "🏦💶", "word": "loan", "transcription": "/ləʊn/", "translation": "кредит", "example": "take out a loan", "context_translation": "кредит", "context_example": "взять кредит"},
+                {"icon": "🏠💷", "word": "mortgage", "transcription": "/ˈmɔː.ɡɪdʒ/", "translation": "ипотека", "example": "pay a mortgage", "context_translation": "ипотека", "context_example": "платить ипотеку"},
+                {"icon": "💼💰", "word": "salary", "transcription": "/ˈsæl.ər.i/", "translation": "зарплата", "example": "earn a good salary", "context_translation": "зарплата", "context_example": "получать хорошую зарплату"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "I _____ to Paris three times in my life. (And I still can't speak French 🇫🇷)", "options": ["went", "have been", "go", "was going"], "correct": "have been", "explanation": "Present Perfect — жизненный опыт. Неважно, когда именно.", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "She _____ a new phone yesterday. (Her old one finally gave up after 7 years 📱💀)", "options": ["has bought", "bought", "buys", "was buying"], "correct": "bought", "explanation": "Past Simple — 'yesterday' точное время.", "topic": "grammar"},
-                {"id": 3, "type": "fill_blank", "question": "I _______________ (never / be) to Japan. (But I've eaten a lot of sushi 🍣)", "correct": "have never been", "explanation": "Present Perfect + never — для опыта.", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "They _______________ (get) married in 2010. (And they're still happy! Or maybe just good at hiding it 😄)", "correct": "got", "explanation": "Past Simple — 'in 2010' конкретный год.", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ to Paris three times in my life.",
+                    "options": ["went", "have been", "go", "was going"],
+                    "correct": "have been",
+                    "accept": ["have been", "Have been", "HAVE BEEN"],
+                    "explanation": "Present Perfect — жизненный опыт. Неважно, когда именно.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "She ___ a new phone yesterday.",
+                    "options": ["has bought", "bought", "buys", "was buying"],
+                    "correct": "bought",
+                    "accept": ["bought", "Bought", "BOUGHT"],
+                    "explanation": "Past Simple — 'yesterday' точное время.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I ___ (never / be) to Japan.",
+                    "correct": "have never been",
+                    "accept": ["have never been", "Have never been", "HAVE NEVER BEEN"],
+                    "explanation": "Present Perfect + never — для опыта.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They ___ (get) married in 2010.",
+                    "correct": "got",
+                    "accept": ["got", "Got", "GOT"],
+                    "explanation": "Past Simple — 'in 2010' конкретный год.",
+                    "topic": "grammar"
+                }
             ]
         },
         {
@@ -108,54 +203,119 @@
             "grammar": {
                 "title": "Повторение: Present Perfect vs Past Simple",
                 "rule": "🎯 Напоминаю главное правило:\n• Present Perfect (have/has + V3) — для опыта и результата. Время НЕ указано.\n• Past Simple (V2/ed) — для конкретных фактов. Время УКАЗАНО.\n\nЕсли сомневаетесь — посмотрите на слово-подсказку (yesterday, ever, never, ago, last week, already, yet).",
-                "examples": [
-                    "I have taken out a loan. (Опыт. И теперь банк звонит каждый день 📞)",
-                    "I took out a loan last year. (Конкретный год. С тех пор я экономлю на кофе ☕)"
-                ]
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "🏦➡️💰", "word": "take out", "transcription": "/teɪk aʊt/", "translation": "взять (кредит)", "example": "take out a loan (and then take out another to pay the first one)"},
-                {"icon": "💸🔄🤝", "word": "pay back", "transcription": "/peɪ bæk/", "translation": "вернуть долг", "example": "pay back the money (in another lifetime maybe)"},
-                {"icon": "💰🏠", "word": "live on", "transcription": "/lɪv ɒn/", "translation": "жить на (определённую сумму)", "example": "live on a small salary (ramen noodles, anyone? 🍜)"},
-                {"icon": "🐷📈", "word": "save up", "transcription": "/seɪv ʌp/", "translation": "копить на", "example": "save up for a car (should take only 47 years 🚗)"},
-                {"icon": "✂️📉", "word": "cut back on", "transcription": "/kʌt bæk ɒn/", "translation": "сократить расходы", "example": "cut back on spending (goodbye, daily avocado toast 🥑)"},
-                {"icon": "🚶‍♂️💵", "word": "get by", "transcription": "/get baɪ/", "translation": "сводить концы с концами", "example": "get by on minimum wage (barely, but somehow)"}
+                {"icon": "🏦➡️💰", "word": "take out", "transcription": "/teɪk aʊt/", "translation": "взять (кредит)", "example": "take out a loan", "context_translation": "взять", "context_example": "взять кредит"},
+                {"icon": "💸🔄🤝", "word": "pay back", "transcription": "/peɪ bæk/", "translation": "вернуть долг", "example": "pay back the money", "context_translation": "вернуть", "context_example": "вернуть деньги"},
+                {"icon": "💰🏠", "word": "live on", "transcription": "/lɪv ɒn/", "translation": "жить на", "example": "live on a small salary", "context_translation": "жить на", "context_example": "жить на маленькую зарплату"},
+                {"icon": "🐷📈", "word": "save up", "transcription": "/seɪv ʌp/", "translation": "копить на", "example": "save up for a car", "context_translation": "копить на", "context_example": "копить на машину"},
+                {"icon": "✂️📉", "word": "cut back on", "transcription": "/kʌt bæk ɒn/", "translation": "сократить расходы", "example": "cut back on spending", "context_translation": "сократить", "context_example": "сократить расходы"},
+                {"icon": "🚶‍♂️💵", "word": "get by", "transcription": "/get baɪ/", "translation": "сводить концы с концами", "example": "get by on minimum wage", "context_translation": "сводить концы с концами", "context_example": "сводить концы с концами на минимальную зарплату"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "I need to take _____ a loan to buy a house. (Or a cardboard box, depending on the loan amount 📦)", "options": ["out", "off", "back", "up"], "correct": "out", "explanation": "Take out a loan = взять кредит. Out — правильная частица.", "topic": "phrasal"},
-                {"id": 2, "type": "multiple_choice", "question": "Can I pay you _____ next week? (I promise I'm good for it... probably)", "options": ["out", "off", "back", "up"], "correct": "back", "explanation": "Pay back = вернуть долг. Не забудьте! 🤝", "topic": "phrasal"},
-                {"id": 3, "type": "fill_blank", "question": "Many students live _____ their parents. (It's not ideal, but the fridge is always full 🍕)", "correct": "off", "explanation": "Live off = жить за чей-то счёт. Off — правильная частица.", "topic": "phrasal"},
-                {"id": 4, "type": "fill_blank", "question": "I'm saving _____ for a new phone. (My current one has more cracks than a broken mirror 📱💔)", "correct": "up", "explanation": "Save up = копить на что-то. Up — правильная частица.", "topic": "phrasal"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I need to take ___ a loan to buy a house.",
+                    "options": ["out", "off", "back", "up"],
+                    "correct": "out",
+                    "accept": ["out", "Out", "OUT"],
+                    "explanation": "Take out a loan = взять кредит.",
+                    "topic": "phrasal"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Can I pay you ___ next week?",
+                    "options": ["out", "off", "back", "up"],
+                    "correct": "back",
+                    "accept": ["back", "Back", "BACK"],
+                    "explanation": "Pay back = вернуть долг.",
+                    "topic": "phrasal"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Many students live ___ their parents.",
+                    "correct": "off",
+                    "accept": ["off", "Off", "OFF"],
+                    "explanation": "Live off = жить за чей-то счёт.",
+                    "topic": "phrasal"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I'm saving ___ for a new phone.",
+                    "correct": "up",
+                    "accept": ["up", "Up", "UP"],
+                    "explanation": "Save up = копить на что-то.",
+                    "topic": "phrasal"
+                }
             ]
         },
         {
             "day": 5,
-            "title": "Day 5: Collocations & Аудирование",
-            "description": "Практикуем устойчивые выражения с деньгами и слушаем диалоги",
+            "title": "Day 5: Collocations & Practice",
+            "description": "Практикуем устойчивые выражения с деньгами",
             "grammar": {
                 "title": "Практика смешанных времён",
-                "rule": "Выбирайте время в зависимости от того, указано ли точное время действия.\n\n📌 Present Perfect (нет времени / опыт / результат):\n• I have never borrowed money.\n• She has already paid the bill.\n\n📌 Past Simple (есть yesterday, last week, in 2010, ago):\n• I borrowed €50 yesterday.\n• She paid the bill an hour ago.",
+                "rule": "Выбирайте время в зависимости от того, указано ли точное время действия.\n\n📌 Present Perfect (нет времени / опыт / результат):\n✅ I have never borrowed money.\n✅ She has already paid the bill.\n\n📌 Past Simple (есть yesterday, last week, in 2010, ago):\n✅ I borrowed €50 yesterday.\n✅ She paid the bill an hour ago.",
                 "examples": []
             },
             "vocabulary": [
-                {"icon": "💰💼", "word": "make money", "translation": "зарабатывать деньги", "example": "make money online (from the comfort of your bed 🛌)"},
-                {"icon": "📉💸", "word": "lose money", "translation": "терять деньги", "example": "lose money on stocks (but gain wisdom? No, just regret 📉)"},
-                {"icon": "🗑️💸", "word": "waste money", "translation": "тратить впустую", "example": "waste money on gambling (or on that 'revolutionary' juicer 🥤)"},
-                {"icon": "🐷💰", "word": "save money", "translation": "экономить деньги", "example": "save money on groceries (by eating what's in the back of the fridge 🧀)"},
-                {"icon": "🤝💰", "word": "borrow money", "translation": "занимать деньги", "example": "borrow money from a friend (and then avoid them for a month)"},
-                {"icon": "💰🤝", "word": "lend money", "translation": "давать в долг", "example": "lend money to a relative (and kiss it goodbye 👋)"},
-                {"icon": "💵✋", "word": "pay cash", "translation": "платить наличными", "example": "pay cash for the car (feel like a boss for 5 seconds 💪)"},
-                {"icon": "📈💸", "word": "pay interest", "translation": "платить проценты", "example": "pay interest on a loan (the bank's favourite word 🏦)"}
+                {"icon": "💰💼", "word": "make money", "transcription": "/meɪk ˈmʌni/", "translation": "зарабатывать деньги", "example": "make money online", "context_translation": "зарабатывать", "context_example": "зарабатывать деньги онлайн"},
+                {"icon": "📉💸", "word": "lose money", "transcription": "/luːz ˈmʌni/", "translation": "терять деньги", "example": "lose money on stocks", "context_translation": "терять", "context_example": "терять деньги на акциях"},
+                {"icon": "🗑️💸", "word": "waste money", "transcription": "/weɪst ˈmʌni/", "translation": "тратить впустую", "example": "waste money on gambling", "context_translation": "тратить впустую", "context_example": "тратить деньги на азартные игры"},
+                {"icon": "🐷💰", "word": "save money", "transcription": "/seɪv ˈmʌni/", "translation": "экономить деньги", "example": "save money on groceries", "context_translation": "экономить", "context_example": "экономить на продуктах"},
+                {"icon": "🤝💰", "word": "borrow money", "transcription": "/ˈbɒr.əʊ ˈmʌni/", "translation": "занимать деньги", "example": "borrow money from a friend", "context_translation": "занимать", "context_example": "занять деньги у друга"},
+                {"icon": "💰🤝", "word": "lend money", "transcription": "/lend ˈmʌni/", "translation": "давать в долг", "example": "lend money to a relative", "context_translation": "давать в долг", "context_example": "одолжить деньги родственнику"},
+                {"icon": "💵✋", "word": "pay cash", "transcription": "/peɪ kæʃ/", "translation": "платить наличными", "example": "pay cash for the car", "context_translation": "платить наличными", "context_example": "платить наличными за машину"},
+                {"icon": "📈💸", "word": "pay interest", "transcription": "/peɪ ˈɪn.trəst/", "translation": "платить проценты", "example": "pay interest on a loan", "context_translation": "платить проценты", "context_example": "платить проценты по кредиту"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "I need to _____ a loan from the bank. (Wish me luck — they're not very friendly 😬)", "options": ["take out", "pay back", "save up", "cut back"], "correct": "take out", "explanation": "Take out a loan — правильное устойчивое выражение.", "topic": "collocations"},
-                {"id": 2, "type": "listening", "question": "What does Mark want to buy? (Listen carefully — his dreams are expensive 💭)", "options": ["A house", "A car", "A phone", "A holiday"], "correct": "A car", "explanation": "Mark says: 'I'm thinking about buying a new car.' Он мечтает о машине!", "listeningText": "🎧 Mark: I'm thinking about taking out a loan to buy a new car. Lisa: Have you saved up enough? Mark: I've saved £2,000, but the car costs £10,000. Lisa: That's a big difference! Mark: I know... maybe I should look at cheaper cars. Or win the lottery. 🍀", "topic": "listening"},
-                {"id": 3, "type": "listening", "question": "How much did Lisa borrow for her holiday? (She really wanted that beach vacation 🏖️)", "options": ["£1,000", "£2,000", "£3,000", "£4,000"], "correct": "£3,000", "explanation": "Lisa says: 'I borrowed £3,000.' А потом пожалела...", "listeningText": "🎧 Lisa: I borrowed £3,000 for my holiday in Thailand. The interest was so high — I ended up paying back £4,000! Mark: Ouch. Was it worth it? Lisa: The holiday was amazing. The debt, not so much. 🇹🇭", "topic": "listening"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I need to ___ a loan from the bank.",
+                    "options": ["take out", "pay back", "save up", "cut back"],
+                    "correct": "take out",
+                    "accept": ["take out", "Take out", "TAKE OUT"],
+                    "explanation": "Take out a loan — правильное устойчивое выражение.",
+                    "topic": "collocations"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I ___ (never / borrow) money from anyone.",
+                    "correct": "have never borrowed",
+                    "accept": ["have never borrowed", "Have never borrowed", "HAVE NEVER BORROWED"],
+                    "explanation": "Present Perfect + never — для опыта за всю жизнь.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "She ___ (pay) the bill an hour ago.",
+                    "correct": "paid",
+                    "accept": ["paid", "Paid", "PAID"],
+                    "explanation": "Past Simple — 'an hour ago' точное время.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "To 'make money' means to earn or gain money.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! Make money = зарабатывать деньги.",
+                    "topic": "reading"
+                }
             ]
         },
         {
             "day": 6,
-            "title": "Day 6: Reading & Финальная практика",
+            "title": "Day 6: Reading — Money Habits Around the World",
             "description": "Читаем о финансовых привычках со всего мира",
             "grammar": {
                 "title": "Финальное повторение",
@@ -163,40 +323,63 @@
                 "examples": []
             },
             "vocabulary": [
-                {"icon": "🏦📂", "word": "open an account", "transcription": "/ˈəʊpən æn əˈkaʊnt/", "translation": "открыть счёт", "example": "open a bank account (and get a free toaster 🍞)"},
-                {"icon": "🏦🔒", "word": "close an account", "transcription": "/kləʊz æn əˈkaʊnt/", "translation": "закрыть счёт", "example": "close an old account (like breaking up with a bank 💔)"},
-                {"icon": "🏧💰", "word": "withdraw money", "transcription": "/wɪðˈdrɔː ˈmʌni/", "translation": "снять деньги", "example": "withdraw money from an ATM (and hope it doesn't eat your card)"},
-                {"icon": "💵🏦", "word": "deposit money", "transcription": "/dɪˈpɒzɪt ˈmʌni/", "translation": "положить деньги", "example": "deposit money into savings (out of sight, out of mind)"},
-                {"icon": "💸➡️🏦", "word": "transfer money", "transcription": "/trænsˈfɜː ˈmʌni/", "translation": "перевести деньги", "example": "transfer money online (without leaving your couch 🛋️)"},
-                {"icon": "💱🌍", "word": "exchange currency", "transcription": "/ɪksˈtʃeɪndʒ ˈkʌrənsi/", "translation": "обменять валюту", "example": "exchange currency at the airport (worst rates ever ✈️)"}
+                {"icon": "🏦📂", "word": "open an account", "transcription": "/ˈəʊpən æn əˈkaʊnt/", "translation": "открыть счёт", "example": "open a bank account", "context_translation": "открыть", "context_example": "открыть банковский счёт"},
+                {"icon": "🏦🔒", "word": "close an account", "transcription": "/kləʊz æn əˈkaʊnt/", "translation": "закрыть счёт", "example": "close an old account", "context_translation": "закрыть", "context_example": "закрыть старый счёт"},
+                {"icon": "🏧💰", "word": "withdraw money", "transcription": "/wɪðˈdrɔː ˈmʌni/", "translation": "снять деньги", "example": "withdraw money from an ATM", "context_translation": "снять", "context_example": "снять деньги в банкомате"},
+                {"icon": "💵🏦", "word": "deposit money", "transcription": "/dɪˈpɒzɪt ˈmʌni/", "translation": "положить деньги", "example": "deposit money into savings", "context_translation": "положить", "context_example": "положить деньги на сберегательный счёт"},
+                {"icon": "💸➡️🏦", "word": "transfer money", "transcription": "/trænsˈfɜː ˈmʌni/", "translation": "перевести деньги", "example": "transfer money online", "context_translation": "перевести", "context_example": "перевести деньги онлайн"},
+                {"icon": "💱🌍", "word": "exchange currency", "transcription": "/ɪksˈtʃeɪndʒ ˈkʌrənsi/", "translation": "обменять валюту", "example": "exchange currency at the airport", "context_translation": "обменять", "context_example": "обменять валюту в аэропорту"}
             ],
             "exercises": [
                 {
                     "id": 1,
                     "type": "reading",
-                    "question": "How do many Germans prefer to pay? (They're not fans of plastic money 💶)",
+                    "question": "How do many Germans prefer to pay?",
                     "options": ["By credit card", "In cash", "By mobile app", "By cheque"],
                     "correct": "In cash",
-                    "explanation": "The text says: 'Many Germans prefer to save money and pay in cash.' Наличные — король в Германии!",
-                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📖 THE WEIRDEST MONEY HABITS AROUND THE WORLD\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 GERMANY\nDid you know that in Germany, many people still pay with cash — even for a €500 purchase? They say \"Cash is king\" and hate credit cards.\n\n📍 SWEDEN\nMeanwhile, in Sweden, you can pay with a microchip under your skin. Yes, really! 😱\n\n📍 JAPAN\nIn Japan, tipping is considered rude. If you leave extra money, the waiter might run after you to give it back. Awkward!\n\n📍 UNITED KINGDOM\nIn the UK, people love to complain about money but never actually do anything about it. \"Mustn't grumble\" is the national motto.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 WHAT ABOUT YOU?\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nDo you save your coins in a piggy bank or spend everything on Friday night?\n\nOne thing is certain: money makes the world go round — but also makes people a little bit crazy. 🤪",
+                    "accept": ["In cash", "in cash", "cash"],
+                    "explanation": "The text says: 'Many Germans prefer to pay in cash.'",
+                    "readingText": "📖 THE WEIRDEST MONEY HABITS AROUND THE WORLD\n\n📍 GERMANY\n\nDid you know that in Germany, many people still pay with cash — even for a €500 purchase? They say \"Cash is king\" and hate credit cards.\n\n📍 SWEDEN\n\nMeanwhile, in Sweden, you can pay with a microchip under your skin. Yes, really! 😱\n\n📍 JAPAN\n\nIn Japan, tipping is considered rude. If you leave extra money, the waiter might run after you to give it back. Awkward!\n\n📍 UNITED KINGDOM\n\nIn the UK, people love to complain about money but never actually do anything about it. \"Mustn't grumble\" is the national motto.\n\n💭 WHAT ABOUT YOU?\n\nDo you save your coins in a piggy bank or spend everything on Friday night? One thing is certain: money makes the world go round — but also makes people a little bit crazy.",
                     "topic": "reading"
                 },
                 {
                     "id": 2,
                     "type": "reading",
-                    "question": "What is the key to financial health according to experts? (Spoiler: it's not winning the lottery 🎰)",
-                    "options": ["Having many credit cards", "Investing in stocks", "Having a budget and saving regularly", "Paying in cash"],
-                    "correct": "Having a budget and saving regularly",
-                    "explanation": "Experts agree: бюджет + регулярные сбережения = финансовое здоровье. Скучно, но работает! 📊",
+                    "question": "In which country is tipping considered rude?",
+                    "options": ["Germany", "Sweden", "Japan", "The UK"],
+                    "correct": "Japan",
+                    "accept": ["Japan", "japan", "JAPAN"],
+                    "explanation": "The text says: 'In Japan, tipping is considered rude.'",
+                    "readingText": "",
                     "topic": "reading"
                 },
                 {
                     "id": 3,
                     "type": "fill_blank",
-                    "question": "I _______________ (never / be) in debt. (Are you a wizard? How do you do it? 🧙)",
+                    "question": "I ___ (never / be) in debt.",
                     "correct": "have never been",
+                    "accept": ["have never been", "Have never been", "HAVE NEVER BEEN"],
                     "explanation": "Present Perfect + never — для опыта за всю жизнь.",
                     "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "She ___ (take out) a loan last year.",
+                    "correct": "took out",
+                    "accept": ["took out", "Took out", "TOOK OUT"],
+                    "explanation": "Past Simple — 'last year' точное время.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "In the UK, people love to complain about money.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "The text says: 'In the UK, people love to complain about money.'",
+                    "readingText": "",
+                    "topic": "reading"
                 }
             ]
         },
@@ -211,16 +394,102 @@
             },
             "vocabulary": [],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "Can I _____ £50 from you? (I'll be your best friend forever 🤞)", "options": ["borrow", "lend", "save", "earn"], "correct": "borrow", "explanation": "Borrow = занять у кого-то. Lend = дать в долг. Не перепутайте!", "topic": "verbs"},
-                {"id": 2, "type": "multiple_choice", "question": "She _____ me £20 yesterday. (And I still haven't paid her back... oops 😬)", "options": ["borrowed", "lent", "saved", "earned"], "correct": "lent", "explanation": "Lent — прошедшее время от lend (давать в долг).", "topic": "verbs"},
-                {"id": 3, "type": "multiple_choice", "question": "I can't _____ a new car right now. (My budget says 'no', but my heart says 'maybe?' 💔)", "options": ["afford", "cost", "earn", "save"], "correct": "afford", "explanation": "Afford = позволить себе (иметь достаточно денег).", "topic": "verbs"},
-                {"id": 4, "type": "multiple_choice", "question": "A _____ is a loan to buy a house. (Also known as 'goodbye, salary for 30 years' 🏠)", "options": ["mortgage", "budget", "bill", "salary"], "correct": "mortgage", "explanation": "Mortgage = ипотека. Долгосрочные отношения с банком.", "topic": "nouns"},
-                {"id": 5, "type": "multiple_choice", "question": "I _____ a new phone last week. (My old one finally died after 5 years of loyal service 📱⚰️)", "options": ["have bought", "bought", "buy", "was buying"], "correct": "bought", "explanation": "Past Simple — 'last week' точное время.", "topic": "grammar"},
-                {"id": 6, "type": "multiple_choice", "question": "She _____ never _____ to Japan. (But she's been to the Japanese restaurant down the street 🍣)", "options": ["has / been", "did / go", "was / going", "is / going"], "correct": "has / been", "explanation": "Present Perfect + never = опыт за всю жизнь.", "topic": "grammar"},
-                {"id": 7, "type": "fill_blank", "question": "I need to take _____ a loan. (And then cry about it for the next 5 years 😭)", "correct": "out", "explanation": "Take out a loan — правильный фразовый глагол.", "topic": "phrasal"},
-                {"id": 8, "type": "fill_blank", "question": "Can I pay you _____ next week? (I promise I'm good for it... probably)", "correct": "back", "explanation": "Pay back = вернуть долг.", "topic": "phrasal"},
-                {"id": 9, "type": "fill_blank", "question": "I _______________ (save) €500 this year. (My piggy bank is getting heavier every day 🐷)", "correct": "have saved", "explanation": "Present Perfect — результат важен, время не указано.", "topic": "grammar"},
-                {"id": 10, "type": "fill_blank", "question": "They _______________ (move) to London in 2015. (Bad timing — just before rent exploded 📈)", "correct": "moved", "explanation": "Past Simple — 'in 2015' конкретный год.", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Can I ___ £50 from you?",
+                    "options": ["borrow", "lend", "save", "earn"],
+                    "correct": "borrow",
+                    "accept": ["borrow", "Borrow", "BORROW"],
+                    "explanation": "Borrow = занять у кого-то. Lend = дать в долг.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "She ___ me £20 yesterday.",
+                    "options": ["borrowed", "lent", "saved", "earned"],
+                    "correct": "lent",
+                    "accept": ["lent", "Lent", "LENT"],
+                    "explanation": "Lent — прошедшее время от lend.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 3,
+                    "type": "multiple_choice",
+                    "question": "I can't ___ a new car right now.",
+                    "options": ["afford", "cost", "earn", "save"],
+                    "correct": "afford",
+                    "accept": ["afford", "Afford", "AFFORD"],
+                    "explanation": "Afford = позволить себе.",
+                    "topic": "verbs"
+                },
+                {
+                    "id": 4,
+                    "type": "multiple_choice",
+                    "question": "A ___ is a loan to buy a house.",
+                    "options": ["mortgage", "budget", "bill", "salary"],
+                    "correct": "mortgage",
+                    "accept": ["mortgage", "Mortgage", "MORTGAGE"],
+                    "explanation": "Mortgage = ипотека.",
+                    "topic": "nouns"
+                },
+                {
+                    "id": 5,
+                    "type": "multiple_choice",
+                    "question": "I ___ a new phone last week.",
+                    "options": ["have bought", "bought", "buy", "was buying"],
+                    "correct": "bought",
+                    "accept": ["bought", "Bought", "BOUGHT"],
+                    "explanation": "Past Simple — 'last week' точное время.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 6,
+                    "type": "multiple_choice",
+                    "question": "She ___ never ___ to Japan.",
+                    "options": ["has / been", "did / go", "was / going", "is / going"],
+                    "correct": "has / been",
+                    "accept": ["has / been", "Has / been", "HAS / BEEN"],
+                    "explanation": "Present Perfect + never = опыт за всю жизнь.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 7,
+                    "type": "fill_blank",
+                    "question": "I need to take ___ a loan.",
+                    "correct": "out",
+                    "accept": ["out", "Out", "OUT"],
+                    "explanation": "Take out a loan — правильный фразовый глагол.",
+                    "topic": "phrasal"
+                },
+                {
+                    "id": 8,
+                    "type": "fill_blank",
+                    "question": "Can I pay you ___ next week?",
+                    "correct": "back",
+                    "accept": ["back", "Back", "BACK"],
+                    "explanation": "Pay back = вернуть долг.",
+                    "topic": "phrasal"
+                },
+                {
+                    "id": 9,
+                    "type": "fill_blank",
+                    "question": "I ___ (save) €500 this year.",
+                    "correct": "have saved",
+                    "accept": ["have saved", "Have saved", "HAVE SAVED"],
+                    "explanation": "Present Perfect — результат важен, время не указано.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 10,
+                    "type": "fill_blank",
+                    "question": "They ___ (move) to London in 2015.",
+                    "correct": "moved",
+                    "accept": ["moved", "Moved", "MOVED"],
+                    "explanation": "Past Simple — 'in 2015' конкретный год.",
+                    "topic": "grammar"
+                }
             ]
         }
     ]
