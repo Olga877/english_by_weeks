@@ -794,14 +794,28 @@ function renderReadingTextContent(readingText) {
     // Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-    // Заменяем переносы строк на <br>
+    // Заменяем \n на <br>
     processedText = processedText.replace(/\n/g, '<br>');
 
-    // Делаем слова кликабельными (только английские слова)
+    // Защищаем HTML-теги от обработки кликабельностью
+    const tagPlaceholders = [];
+    processedText = processedText.replace(/<[^>]+>/g, (match) => {
+        const placeholder = `{{TAG_${tagPlaceholders.length}}}`;
+        tagPlaceholders.push({ placeholder, tag: match });
+        return placeholder;
+    });
+
+    // Делаем слова кликабельными
     processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
+        if (word.includes('{{TAG_')) return word;
         const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
     });
+
+    // Возвращаем HTML-теги обратно
+    for (const { placeholder, tag } of tagPlaceholders) {
+        processedText = processedText.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), tag);
+    }
 
     return processedText;
 }
