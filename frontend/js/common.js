@@ -797,32 +797,13 @@ function renderReadingTextContent(readingText) {
     // Заменяем переносы строк на <br>
     processedText = processedText.replace(/\n/g, '<br>');
 
-    // Сохраняем эмодзи
-    const emojiRegex = /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{1F900}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu;
-    const emojiParts = [];
-    let processedWithEmoji = processedText;
-    let emojiMatch;
-    let emojiIndex = 0;
-
-    while ((emojiMatch = emojiRegex.exec(processedText)) !== null) {
-        const emojiPlaceholder = `{{EMOJI_${emojiIndex++}}}`;
-        emojiParts.push({ placeholder: emojiPlaceholder, emoji: emojiMatch[0] });
-        processedWithEmoji = processedWithEmoji.replace(emojiMatch[0], emojiPlaceholder);
-    }
-
-    // Делаем слова кликабельными
-    let result = processedWithEmoji.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
-        if (word.includes('{{')) return word;
+    // Делаем слова кликабельными (только английские слова)
+    processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
         const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
     });
 
-    // Возвращаем эмодзи
-    for (const { placeholder, emoji } of emojiParts) {
-        result = result.split(placeholder).join(emoji);
-    }
-
-    return result;
+    return processedText;
 }
 
 async function handleWordClickEvent(event) {
