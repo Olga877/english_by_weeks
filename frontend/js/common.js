@@ -794,7 +794,7 @@ function renderReadingTextContent(readingText) {
     // Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
-    // Заменяем \n на <br>
+    // Заменяем переносы строк на <br>
     processedText = processedText.replace(/\n/g, '<br>');
 
     // Сохраняем эмодзи
@@ -822,44 +822,7 @@ function renderReadingTextContent(readingText) {
         result = result.split(placeholder).join(emoji);
     }
 
-    // Улучшаем структуру абзацев: заменяем <br><br> на разделители абзацев
-    // Разбиваем текст на абзацы по двойным переносам строк
-    const paragraphs = result.split(/(<br>\s*){2,}/g).filter(p => p && !p.match(/^<br\s*\/?>$/));
-
-    if (paragraphs.length > 1) {
-        // Если есть несколько абзацев, оборачиваем каждый в <p>
-        result = paragraphs.map(p => {
-            // Убираем лишние <br> внутри абзаца
-            let clean = p.replace(/<br>/g, ' ');
-            return `<p>${clean}</p>`;
-        }).join('');
-    } else {
-        // Если текст без абзацев, просто оборачиваем в <p>
-        result = `<p>${result}</p>`;
-    }
-
-    // Добавляем CSS для красивого отображения
-    return `<style>
-        .reading-text p {
-            margin-bottom: 16px;
-            line-height: 1.6;
-        }
-        .reading-text p:last-child {
-            margin-bottom: 0;
-        }
-        .reading-text .clickable-word {
-            cursor: pointer;
-            border-bottom: 1px dashed var(--primary, #f97316);
-            transition: background 0.2s;
-        }
-        .reading-text .clickable-word:hover {
-            background: rgba(249, 115, 22, 0.15);
-            border-radius: 3px;
-        }
-        .reading-text strong {
-            color: var(--primary, #f97316);
-        }
-    </style><div class="reading-text">${result}</div>`;
+    return result;
 }
 
 async function handleWordClickEvent(event) {
