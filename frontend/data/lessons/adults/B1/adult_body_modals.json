@@ -388,6 +388,78 @@
                     "topic": "reading"
                 }
             ]
+        },
+        {
+    "day": 7,
+    "title": "Day 7: Verbs Related to the Body",
+    "description": "Учим глаголы, связанные с частями тела: bite, clap, kick, nod, point, smell, smile, stare, taste, touch, whistle",
+    "grammar": {
+        "title": "Verbs Related to the Body",
+        "rule": "📘 Глаголы, связанные с телом:\n\n🦷 **bite** — кусать\n👏 **clap** — хлопать\n🦵 **kick** — пинать\n🤔 **nod** — кивать\n☝️ **point** — указывать\n👃 **smell** — нюхать, пахнуть\n😊 **smile** — улыбаться\n👀 **stare** — пристально смотреть\n👅 **taste** — пробовать на вкус\n🤲 **touch** — трогать\n😗 **whistle** — свистеть\n\n📌 **Примеры**:\n✅ The dog won't bite you. He's friendly.\n✅ She nodded and smiled at me.\n✅ Can you taste the soup? I think it needs salt.\n✅ Don't stare at people — it's rude!",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🦷", "word": "bite", "transcription": "/baɪt/", "translation": "кусать", "example": "The dog won't bite you.", "context_translation": "кусать", "context_example": "Собака не укусит тебя."},
+        {"icon": "👏", "word": "clap", "transcription": "/klæp/", "translation": "хлопать", "example": "The audience clapped loudly.", "context_translation": "хлопать", "context_example": "Публика громко хлопала."},
+        {"icon": "🦵", "word": "kick", "transcription": "/kɪk/", "translation": "пинать", "example": "He kicked the ball over the fence.", "context_translation": "пинать", "context_example": "Он пнул мяч через забор."},
+        {"icon": "🤔", "word": "nod", "transcription": "/nɒd/", "translation": "кивать", "example": "She nodded to show she agreed.", "context_translation": "кивать", "context_example": "Она кивнула, показывая, что согласна."},
+        {"icon": "☝️", "word": "point", "transcription": "/pɔɪnt/", "translation": "указывать", "example": "He pointed at the map.", "context_translation": "указывать", "context_example": "Он указал на карту."},
+        {"icon": "👃", "word": "smell", "transcription": "/smel/", "translation": "нюхать, пахнуть", "example": "Something smells delicious!", "context_translation": "пахнуть", "context_example": "Что-то вкусно пахнет!"},
+        {"icon": "😊", "word": "smile", "transcription": "/smaɪl/", "translation": "улыбаться", "example": "She smiled at me warmly.", "context_translation": "улыбаться", "context_example": "Она тепло мне улыбнулась."},
+        {"icon": "👀", "word": "stare", "transcription": "/steə/", "translation": "пристально смотреть", "example": "Don't stare at people.", "context_translation": "пристально смотреть", "context_example": "Не пялься на людей."},
+        {"icon": "👅", "word": "taste", "transcription": "/teɪst/", "translation": "пробовать на вкус", "example": "Can you taste the sauce?", "context_translation": "пробовать на вкус", "context_example": "Можешь попробовать соус?"},
+        {"icon": "🤲", "word": "touch", "transcription": "/tʌtʃ/", "translation": "трогать", "example": "Don't touch the hot stove!", "context_translation": "трогать", "context_example": "Не трогай горячую плиту!"},
+        {"icon": "😗", "word": "whistle", "transcription": "/ˈwɪsəl/", "translation": "свистеть", "example": "He whistled a happy tune.", "context_translation": "свистеть", "context_example": "Он насвистывал весёлую мелодию."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "What do you do with your nose when you smell flowers? 👃",
+            "options": ["Smile", "Smell", "Stare", "Whistle"],
+            "correct": "Smell",
+            "accept": ["Smell", "smell", "SMELL"],
+            "explanation": "You smell flowers with your nose! 👃",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What do you do when you agree with someone? 🤔",
+            "options": ["Nod", "Stare", "Whistle", "Kick"],
+            "correct": "Nod",
+            "accept": ["Nod", "nod", "NOD"],
+            "explanation": "You nod when you agree! 🤔",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "Don't be afraid of the dog. He won't ___ you. 🦷",
+            "correct": "bite",
+            "accept": ["bite", "Bite", "BITE"],
+            "explanation": "Bite — кусать! 🦷",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "The audience ___ (clap) after the performance.",
+            "correct": "clapped",
+            "accept": ["clapped", "Clapped", "CLAPPED"],
+            "explanation": "Past Simple: clap → clapped! 👏",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 5,
+            "type": "correct_mistake",
+            "question": "He pointed at the map to show the way.",
+            "correct": "Correct",
+            "accept": ["Correct", "correct", "CORRECT"],
+            "explanation": "This is correct! Point at — указывать на что-то. ☝️",
+            "topic": "vocabulary"
         }
+    ]
+}
     ]
 }
