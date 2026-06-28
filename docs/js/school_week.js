@@ -57,7 +57,7 @@ function setupNavigationButtons() {
 }
 
 function goHome() {
-    window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
+    window.location.href = '/index.html?audience=school';
 }
 
 function goBack() {
@@ -78,7 +78,7 @@ function goBack() {
 async function loadWeekData() {
     try {
         // Новый путь: frontend/data/lessons/school/grade5/ + currentWeekId + .json
-        const url = `/english_by_weeks/frontend/data/lessons/school/grade5/${currentWeekId}.json`;
+        const url = `/data/lessons/school/grade5/${currentWeekId}.json`;
         const response = await fetch(url);
 
         if (!response.ok) throw new Error('Week not found');

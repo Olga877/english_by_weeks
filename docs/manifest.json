@@ -2,7 +2,7 @@
     "name": "English by Weeks",
     "short_name": "EngWeeks",
     "description": "Учи английский язык неделя за неделей с юмором",
-    "start_url": "index.html",
+    "start_url": "/",
     "display": "standalone",
     "theme_color": "#6366f1",
     "background_color": "#0f172a",

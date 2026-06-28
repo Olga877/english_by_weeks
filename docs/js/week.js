@@ -20,7 +20,7 @@ async function init() {
     console.log(`📌 level: ${currentLevel}, week: ${currentWeekId}`);
 
     if (!currentLevel || !currentWeekId) {
-        window.location.href = '/english_by_weeks/frontend/index.html';
+        window.location.href = '/index.html';
         return;
     }
 
@@ -77,7 +77,7 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        const url = `/english_by_weeks/frontend/data/lessons/adults/B1/${currentWeekId}.json`;
+        const url = `/data/lessons/adults/B1/${currentWeekId}.json`;
         const response = await fetch(url);
 
         if (!response.ok) throw new Error('Week not found');
