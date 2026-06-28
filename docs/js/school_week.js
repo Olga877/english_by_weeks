@@ -68,10 +68,11 @@ function goBack() {
         return;
     }
 
-    if (document.referrer && document.referrer.includes('/english_by_weeks/frontend/')) {
+    // Если есть реферер, возвращаемся на него, иначе на главную для школьников
+    if (document.referrer && document.referrer.includes(window.location.hostname)) {
         window.location.href = document.referrer;
     } else {
-        window.location.href = '/english_by_weeks/frontend/index.html?audience=school';
+        window.location.href = '/index.html?audience=school';
     }
 }
 

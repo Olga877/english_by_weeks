@@ -59,7 +59,7 @@ function setupNavigationButtons() {
 }
 
 function goHome() {
-    window.location.href = '/english_by_weeks/frontend/index.html';
+    window.location.href = '/index.html';
 }
 
 function goBack() {
@@ -70,7 +70,8 @@ function goBack() {
         return;
     }
 
-    window.location.href = '/english_by_weeks/frontend/index.html?audience=adults';
+    // Возвращаемся на главную для взрослых
+    window.location.href = '/index.html?audience=adults';
 }
 
 // ========== ЗАГРУЗКА ДАННЫХ ==========
