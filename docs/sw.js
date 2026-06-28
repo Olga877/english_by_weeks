@@ -8,28 +8,48 @@ const STATIC_ASSETS = [
   '/index.html',
   '/week.html',
   '/school_week.html',
-  '/english_by_weeks/frontend/css/style.css',
-  '/english_by_weeks/frontend/js/common.js',
-  '/english_by_weeks/frontend/js/index.js',
-  '/english_by_weeks/frontend/js/week.js',
-  '/english_by_weeks/frontend/js/school_week.js',
+  '/css/style.css',
+  '/js/common.js',
+  '/js/index.js',
+  '/js/week.js',
+  '/js/school_week.js',
   '/manifest.json'
 ];
 
-// Все JSON-файлы с уроками (5 класс)
 const WEEK_FILES = [
-  '/api/lessons/school/week/grade5/week1_school',
-  '/api/lessons/school/week/grade5/week2_numbers',
-  '/api/lessons/school/week/grade5/week3_capital_letters',
-  '/api/lessons/school/week/grade5/week4_countries_nationalities',
-  '/api/lessons/school/week/grade5/week5_personal_things',
-  '/api/lessons/school/week/grade5/week6_numbers_souvenirs',
-  '/api/lessons/school/week/grade5/week7_rooms_ordinals',
-  '/api/lessons/school/week/grade5/week8_furniture_there_is',
-  '/api/lessons/school/week/grade5/week9_prepositions_house',
-  '/api/lessons/school/week/grade5/week10_family_can',
-  '/api/lessons/school/week/grade5/week11_appearance_possessive'
+  // Школьные недели (5 класс)
+  '/data/lessons/school/grade5/week1_school.json',
+  '/data/lessons/school/grade5/week2_numbers.json',
+  '/data/lessons/school/grade5/week3_capital_letters.json',
+  '/data/lessons/school/grade5/week4_countries_nationalities.json',
+  '/data/lessons/school/grade5/week5_personal_things.json',
+  '/data/lessons/school/grade5/week6_numbers_souvenirs.json',
+  '/data/lessons/school/grade5/week7_rooms_ordinals.json',
+  '/data/lessons/school/grade5/week8_furniture_there_is.json',
+  '/data/lessons/school/grade5/week9_prepositions_house.json',
+  '/data/lessons/school/grade5/week10_family_can.json',
+  '/data/lessons/school/grade5/week11_appearance_possessive.json',
+  '/data/lessons/school/grade5/week12_famous_people.json',
+  '/data/lessons/school/grade5/week13_indian_animals.json',
+  '/data/lessons/school/grade5/week14_at_the_zoo.json',
+  '/data/lessons/school/grade5/week15_my_pet.json',
+  '/data/lessons/school/grade5/week16_daily_routine.json',
+  '/data/lessons/school/grade5/week17_jobs.json',
+  '/data/lessons/school/grade5/week18_weekends.json',
+  '/data/lessons/school/grade5/week19_big_ben.json',
+  '/data/lessons/school/grade5/week20_seasons.json',
+  '/data/lessons/school/grade5/week21_clothes.json',
+  '/data/lessons/school/grade5/week22_celebrations.json',
+  '/data/lessons/school/grade5/week23_food.json',
+  '/data/lessons/school/grade5/week24_birthday.json',
+  '/data/lessons/school/grade5/week25_shopping.json',
+  '/data/lessons/school/grade5/week26_past_simple.json',
+  '/data/lessons/school/grade5/week27_films.json',
+  // Взрослые недели (B1)
+  '/data/lessons/adults/B1/money_week.json',
+  '/data/lessons/adults/B1/adult_body_modals.json'
 ];
+
 
 // Установка — кэшируем всё при первом запуске
 self.addEventListener('install', (event) => {
