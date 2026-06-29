@@ -117,7 +117,7 @@ async function switchAudience(audience) {
     currentAudience = audience;
 
     // Обновляем URL без перезагрузки страницы
-    const newUrl = `/static/index.html?audience=${audience}`;
+    const newUrl = `/?audience=${audience}`;
     window.history.pushState({}, '', newUrl);
 
     updateActiveButton();
