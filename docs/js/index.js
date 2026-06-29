@@ -234,8 +234,8 @@ function renderSchoolGrades(container) {
     info.style.border = '1px solid var(--border)';
     info.innerHTML = `
         <p>🎓 Школьный раздел постепенно пополняется новыми темами.</p>
-        <p>📚 Сейчас доступны темы для 5 класса:</p>
-        <p><strong>"🏫 School Week"</strong> и <strong>"🔢 Numbers & Me Week"</strong></p>
+        <p>📚 Сейчас доступны темы для 5 класса.</p>
+//        <p><strong>"🏫 School Week"</strong> и <strong>"🔢 Numbers & Me Week"</strong></p>
         <p>✨ Скоро появятся материалы для 6, 7 и 8 классов!</p>
     `;
     container.appendChild(info);
