@@ -27,7 +27,7 @@
                 {
                     "id": 1,
                     "type": "multiple_choice",
-                    "question": "Where is the pen? ✒️",
+                    "question": "Where is the pen? ✒️ (в коробке)",
                     "options": ["In the box", "On the box", "Under the box", "Next to the box"],
                     "correct": "In the box",
                     "accept": ["In the box", "in the box", "IN THE BOX"],
@@ -37,7 +37,7 @@
                 {
                     "id": 2,
                     "type": "multiple_choice",
-                    "question": "Where is the book? 📖",
+                    "question": "Where is the book? 📖 (на столе)",
                     "options": ["In the table", "On the table", "Under the table", "Behind the table"],
                     "correct": "On the table",
                     "accept": ["On the table", "on the table", "ON THE TABLE"],
@@ -93,7 +93,7 @@
                 {
                     "id": 1,
                     "type": "multiple_choice",
-                    "question": "Where is the cat? 🐱",
+                    "question": "Where is the cat? 🐱 (за коробкой)",
                     "options": ["Behind the box", "Between the boxes", "Next to the box", "In the box"],
                     "correct": "Behind the box",
                     "accept": ["Behind the box", "behind the box", "BEHIND THE BOX"],
@@ -103,7 +103,7 @@
                 {
                     "id": 2,
                     "type": "multiple_choice",
-                    "question": "Where is the ball? ⚽",
+                    "question": "Where is the ball? ⚽ (между стульями)",
                     "options": ["Behind the chairs", "Between the chairs", "Next to the chairs", "On the chairs"],
                     "correct": "Between the chairs",
                     "accept": ["Between the chairs", "between the chairs", "BETWEEN THE CHAIRS"],
@@ -226,7 +226,7 @@
                 {
                     "id": 1,
                     "type": "multiple_choice",
-                    "question": "The mirror is ___ the wall. 🪞",
+                    "question": "The mirror is ___ the wall. 🪞 (на стене)",
                     "options": ["in", "on", "under", "between"],
                     "correct": "on",
                     "accept": ["on", "On", "ON"],
@@ -236,7 +236,7 @@
                 {
                     "id": 2,
                     "type": "multiple_choice",
-                    "question": "The charger is ___ the bed and the wardrobe. 🔌",
+                    "question": "The charger is ___ the bed and the wardrobe. 🔌 (между кроватью и шкафом)",
                     "options": ["on", "under", "behind", "between"],
                     "correct": "between",
                     "accept": ["between", "Between", "BETWEEN"],
@@ -286,7 +286,7 @@
                 {
                     "id": 1,
                     "type": "multiple_choice",
-                    "question": "The school is ___ the bank and the post office. 🏫",
+                    "question": "The school is ___ the bank and the post office. 🏫 (между банком и почтой)",
                     "options": ["behind", "between", "next to", "under"],
                     "correct": "between",
                     "accept": ["between", "Between", "BETWEEN"],
