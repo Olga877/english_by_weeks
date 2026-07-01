@@ -273,74 +273,88 @@
             ]
         },
         {
-            "day": 5,
-            "title": "Day 5: Practice — All prepositions + house viewing",
-            "description": "Повторяем предлоги и фразы для просмотра квартиры",
-            "grammar": {
-                "title": "Revision: Prepositions + Viewing a House",
-                "rule": "📘 Сегодня проверяем себя! 🎯\n\n📌 Предлоги: in, on, under, behind, between, next to\n📌 Фразы: How many bedrooms?, How much is the rent?, What floor?, Is there a garden?\n📌 Описание комнаты: There is a sofa in the living room. The TV is on the wall.",
-                "examples": []
-            },
-            "vocabulary": [],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "multiple_choice",
-                    "question": "The school is ___ the bank and the post office. 🏫 (между банком и почтой)",
-                    "options": ["behind", "between", "next to", "under"],
-                    "correct": "between",
-                    "accept": ["between", "Between", "BETWEEN"],
-                    "explanation": "Between two buildings — между двумя зданиями!",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 2,
-                    "type": "multiple_choice",
-                    "question": "What do you ask to know the floor? 🏢",
-                    "options": ["How many bedrooms?", "How much is the rent?", "What floor is it on?", "Is there a garden?"],
-                    "correct": "What floor is it on?",
-                    "accept": ["What floor is it on", "what floor is it on", "WHAT FLOOR IS IT ON"],
-                    "explanation": "What floor is it on? — На каком этаже?",
-                    "topic": "phrases"
-                },
-                {
-                    "id": 3,
-                    "type": "fill_blank",
-                    "question": "The keys are ___ the table. 🔑 (next to / between)",
-                    "correct": "next to",
-                    "accept": ["next to", "Next to", "NEXT TO"],
-                    "explanation": "Keys are NEXT TO the table — рядом со столом! 🔑",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 4,
-                    "type": "fill_blank",
-                    "question": "There is a poster ___ the wall. 🖼️ (on / in)",
-                    "correct": "on",
-                    "accept": ["on", "On", "ON"],
-                    "explanation": "Poster is ON the wall — на стене! 🖼️",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 5,
-                    "type": "fill_blank",
-                    "question": "The remote control is ___ the sofa. 📺 (behind / between)",
-                    "correct": "behind",
-                    "accept": ["behind", "Behind", "BEHIND"],
-                    "explanation": "Remote is BEHIND the sofa — за диваном! 📺",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 6,
-                    "type": "correct_mistake",
-                    "question": "The books are in the shelf.",
-                    "correct": "The books are on the shelf.",
-                    "accept": ["The books are on the shelf", "the books are on the shelf"],
-                    "explanation": "Books are ON the shelf — на полке, не внутри! 📚",
-                    "topic": "grammar"
-                }
-            ]
+    "day": 5,
+    "title": "Day 5: Practice — All prepositions + house viewing",
+    "description": "Повторяем предлоги и фразы для просмотра квартиры",
+    "grammar": {
+        "title": "Revision: Prepositions + Viewing a House",
+        "rule": "📘 Сегодня проверяем себя! 🎯\n\n📌 Предлоги: in, on, under, behind, between, next to\n📌 Фразы: How many bedrooms?, How much is the rent?, What floor?, Is there a garden?\n📌 Описание комнаты: There is a sofa in the living room. The TV is on the wall.",
+        "examples": []
+    },
+    "vocabulary": [],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "The school is ___ the bank and the post office. 🏫 (между банком и почтой)",
+            "options": ["behind", "between", "next to", "under"],
+            "correct": "between",
+            "accept": ["between", "Between", "BETWEEN"],
+            "explanation": "Between two buildings — между двумя зданиями!",
+            "topic": "grammar"
         },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What do you ask to know the floor? 🏢",
+            "options": [
+                "How many bedrooms?",
+                "How much is the rent?",
+                "What floor is it on?",
+                "Is there a garden?"
+            ],
+            "correct": "What floor is it on?",
+            "accept": [
+                "What floor is it on?",
+                "what floor is it on?",
+                "What floor is it on",
+                "what floor is it on"
+            ],
+            "explanation": "What floor is it on? — На каком этаже?",
+            "topic": "phrases"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "The keys are ___ the table. 🔑 (next to / between)",
+            "correct": "next to",
+            "accept": ["next to", "Next to", "NEXT TO"],
+            "explanation": "Keys are NEXT TO the table — рядом со столом! 🔑",
+            "topic": "grammar"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "There is a poster ___ the wall. 🖼️ (on / in)",
+            "correct": "on",
+            "accept": ["on", "On", "ON"],
+            "explanation": "Poster is ON the wall — на стене! 🖼️",
+            "topic": "grammar"
+        },
+        {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "The remote control is ___ the sofa. 📺 (behind / between)",
+            "correct": "behind",
+            "accept": ["behind", "Behind", "BEHIND"],
+            "explanation": "Remote is BEHIND the sofa — за диваном! 📺",
+            "topic": "grammar"
+        },
+        {
+            "id": 6,
+            "type": "correct_mistake",
+            "question": "The books are in the shelf.",
+            "correct": "The books are on the shelf.",
+            "accept": [
+                "The books are on the shelf",
+                "the books are on the shelf",
+                "THE BOOKS ARE ON THE SHELF"
+            ],
+            "explanation": "Books are ON the shelf — на полке, не внутри! 📚",
+            "topic": "grammar"
+        }
+    ]
+},
         {
             "day": 6,
             "title": "Day 6: Reading — The Mystery of Leo's Missing Phone",
