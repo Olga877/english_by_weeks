@@ -13,27 +13,64 @@
             "description": "Учим основные предлоги места: в, на, под",
             "grammar": {
                 "title": "Prepositions of Place — in, on, under",
-                "rule": "Предлоги места показывают, ГДЕ находится предмет.\n\n📦 in — внутри, в (в ящике, в комнате, в шкафу)\n📦 on — на поверхности (на столе, на полу, на стене)\n📦 under — под (под кроватью, под столом, под диваном)\n\n🎯 Лайфхак: in = внутри, on = сверху, under = снизу.\n🎯 Мем: 'My phone is in my hand. My charger is on the floor. My motivation is under the bed.' 📱😅",
-                "examples": [
-                    "Leo: 'My phone is in my pocket. Where are my headphones? On the table!' 🎧",
-                    "Mia: 'The cat is under the sofa. She hides there when the vacuum is on.' 🐱🧹",
-                    "Sam: 'There is a monster under my bed. Actually, it's just my dirty socks.' 👻🧦"
-                ],
-                "keywords": "in, on, under, where, location"
+                "rule": "📘 Предлоги места показывают, ГДЕ находится предмет.\n\n📦 **in** — внутри, в (в ящике, в комнате, в шкафу)\n📦 **on** — на поверхности (на столе, на полу, на стене)\n📦 **under** — под (под кроватью, под столом, под диваном)\n\n💡 Лайфхак: in = внутри, on = сверху, under = снизу.",
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "📦", "word": "in", "transcription": "/ɪn/", "translation": "в, внутри", "example": "The pencil is in the pencil case.", "context_translation": "в", "context_example": "Карандаш в пенале."},
-                {"icon": "📦", "word": "on", "transcription": "/ɒn/", "translation": "на", "example": "The book is on the table.", "context_translation": "на", "context_example": "Книга на столе."},
-                {"icon": "📦", "word": "under", "transcription": "/ˈʌn.dər/", "translation": "под", "example": "The cat is under the chair.", "context_translation": "под", "context_example": "Кошка под стулом."},
-                {"icon": "📦", "word": "box", "transcription": "/bɒks/", "translation": "коробка", "example": "The toy is in the box.", "context_translation": "коробка", "context_example": "Игрушка в коробке."},
-                {"icon": "🧦", "word": "sock", "transcription": "/sɒk/", "translation": "носок", "example": "My sock is under the bed.", "context_translation": "носок", "context_example": "Мой носок под кроватью."}
+                {"icon": "📱👕", "word": "in", "transcription": "/ɪn/", "translation": "в, внутри", "example": "The phone is in the pocket.", "context_translation": "в", "context_example": "Телефон в кармане."},
+                {"icon": "📖📚", "word": "on", "transcription": "/ɒn/", "translation": "на", "example": "The book is on the table.", "context_translation": "на", "context_example": "Книга на столе."},
+                {"icon": "🐱🪑", "word": "under", "transcription": "/ˈʌn.dər/", "translation": "под", "example": "The cat is under the chair.", "context_translation": "под", "context_example": "Кошка под стулом."},
+                {"icon": "📦🧸", "word": "box", "transcription": "/bɒks/", "translation": "коробка", "example": "The toy is in the box.", "context_translation": "коробка", "context_example": "Игрушка в коробке."},
+                {"icon": "🛏️🧦", "word": "sock", "transcription": "/sɒk/", "translation": "носок", "example": "My sock is under the bed.", "context_translation": "носок", "context_example": "Мой носок под кроватью."}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "Where is the pen? ✒️", "options": ["In the box", "On the box", "Under the box", "Next to the box"], "correct": "In the box", "explanation": "Pen is INSIDE the box — in the box! 📦", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "Where is the book? 📖", "options": ["In the table", "On the table", "Under the table", "Behind the table"], "correct": "On the table", "explanation": "Book is ON TOP of the table — on the table!", "topic": "grammar"},
-                {"id": 3, "type": "fill_blank", "question": "The cat is ___ the chair. (under / on)", "correct": "under", "explanation": "Кошка ПОД стулом — under! 🐱", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "The phone is ___ my pocket. (in / on)", "correct": "in", "explanation": "Телефон В кармане — in! 📱", "topic": "grammar"},
-                {"id": 5, "type": "true_false", "question": "If a book is on the table, it is inside the table.", "correct": "False", "explanation": "On the table — НА столе, не внутри! 📖", "topic": "reading"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Where is the pen? ✒️",
+                    "options": ["In the box", "On the box", "Under the box", "Next to the box"],
+                    "correct": "In the box",
+                    "accept": ["In the box", "in the box", "IN THE BOX"],
+                    "explanation": "Pen is INSIDE the box — in the box! 📦",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Where is the book? 📖",
+                    "options": ["In the table", "On the table", "Under the table", "Behind the table"],
+                    "correct": "On the table",
+                    "accept": ["On the table", "on the table", "ON THE TABLE"],
+                    "explanation": "Book is ON TOP of the table — on the table!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The cat is ___ the chair. 🐱 (under / on)",
+                    "correct": "under",
+                    "accept": ["under", "Under", "UNDER"],
+                    "explanation": "Кошка ПОД стулом — under! 🐱",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The phone is ___ my pocket. 📱 (in / on)",
+                    "correct": "in",
+                    "accept": ["in", "In", "IN"],
+                    "explanation": "Телефон В кармане — in! 📱",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "If a book is on the table, it is inside the table.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "On the table — НА столе, не внутри! 📖",
+                    "topic": "reading"
+                }
             ]
         },
         {
@@ -42,27 +79,64 @@
             "description": "Учим предлоги: за, между, рядом с",
             "grammar": {
                 "title": "Prepositions — behind, between, next to",
-                "rule": "Продолжаем изучать предлоги места:\n\n🚪 behind — за, позади (за дверью, за диваном)\n🚪 between — между (между двумя предметами)\n🚪 next to — рядом с (рядом с кем-то или чем-то)\n\n🎯 Лайфхак: behind = сзади, between = в середине (между двумя), next to = сбоку.\n🎯 Мем: 'I am between my bed and my alarm clock. I don't want to get up.' ⏰😴",
-                "examples": [
-                    "Leo: 'The remote control is behind the TV. I found it after three days!' 📺",
-                    "Mia: 'My house is between the school and the park. Very convenient!' 🏠",
-                    "Sam: 'I sit next to Leo in class. He talks too much!' 🗣️"
-                ],
-                "keywords": "behind, between, next to, location"
+                "rule": "📘 Продолжаем изучать предлоги места:\n\n🚪 **behind** — за, позади (за дверью, за диваном)\n🚪 **between** — между (между двумя предметами)\n🚪 **next to** — рядом с (рядом с кем-то или чем-то)\n\n💡 Лайфхак: behind = сзади, between = в середине (между двумя), next to = сбоку.",
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "🚪", "word": "behind", "transcription": "/bɪˈhaɪnd/", "translation": "за, позади", "example": "The ball is behind the sofa.", "context_translation": "за", "context_example": "Мяч за диваном."},
-                {"icon": "🔄", "word": "between", "transcription": "/bɪˈtwiːn/", "translation": "между", "example": "The book is between the lamp and the clock.", "context_translation": "между", "context_example": "Книга между лампой и часами."},
-                {"icon": "➡️", "word": "next to", "transcription": "/ˈnekst tuː/", "translation": "рядом с", "example": "The school is next to the park.", "context_translation": "рядом с", "context_example": "Школа рядом с парком."},
-                {"icon": "🖼️", "word": "picture", "transcription": "/ˈpɪk.tʃər/", "translation": "картина", "example": "The picture is on the wall.", "context_translation": "картина", "context_example": "Картина на стене."},
-                {"icon": "⏰", "word": "clock", "transcription": "/klɒk/", "translation": "часы", "example": "The clock is on the wall.", "context_translation": "часы", "context_example": "Часы на стене."}
+                {"icon": "🛋️⚽", "word": "behind", "transcription": "/bɪˈhaɪnd/", "translation": "за, позади", "example": "The ball is behind the sofa.", "context_translation": "за", "context_example": "Мяч за диваном."},
+                {"icon": "🪑🪑📖", "word": "between", "transcription": "/bɪˈtwiːn/", "translation": "между", "example": "The book is between the chairs.", "context_translation": "между", "context_example": "Книга между стульями."},
+                {"icon": "🏫🌳", "word": "next to", "transcription": "/ˈnekst tuː/", "translation": "рядом с", "example": "The school is next to the park.", "context_translation": "рядом с", "context_example": "Школа рядом с парком."},
+                {"icon": "🖼️🧱", "word": "picture", "transcription": "/ˈpɪk.tʃər/", "translation": "картина", "example": "The picture is on the wall.", "context_translation": "картина", "context_example": "Картина на стене."},
+                {"icon": "🕰️🧱", "word": "clock", "transcription": "/klɒk/", "translation": "часы", "example": "The clock is on the wall.", "context_translation": "часы", "context_example": "Часы на стене."}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "Where is the cat? 🐱", "options": ["Behind the box", "Between the boxes", "Next to the box", "In the box"], "correct": "Behind the box", "explanation": "Cat is BEHIND the box — за коробкой!", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "Where is the ball? ⚽", "options": ["Behind the chairs", "Between the chairs", "Next to the chairs", "On the chairs"], "correct": "Between the chairs", "explanation": "Ball is BETWEEN the chairs — между стульями!", "topic": "grammar"},
-                {"id": 3, "type": "fill_blank", "question": "The school is ___ the bank. (next to / between)", "correct": "next to", "explanation": "School is NEXT TO the bank — рядом с банком! 🏫", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "The cat is hiding ___ the sofa. (behind / next to)", "correct": "behind", "explanation": "Cat is hiding BEHIND the sofa — за диваном! 🐱", "topic": "grammar"},
-                {"id": 5, "type": "true_false", "question": "If you sit between two friends, you sit next to both of them.", "correct": "True", "explanation": "Between = в середине, рядом с обоими! 👥", "topic": "reading"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Where is the cat? 🐱",
+                    "options": ["Behind the box", "Between the boxes", "Next to the box", "In the box"],
+                    "correct": "Behind the box",
+                    "accept": ["Behind the box", "behind the box", "BEHIND THE BOX"],
+                    "explanation": "Cat is BEHIND the box — за коробкой!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Where is the ball? ⚽",
+                    "options": ["Behind the chairs", "Between the chairs", "Next to the chairs", "On the chairs"],
+                    "correct": "Between the chairs",
+                    "accept": ["Between the chairs", "between the chairs", "BETWEEN THE CHAIRS"],
+                    "explanation": "Ball is BETWEEN the chairs — между стульями!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The school is ___ the bank. 🏫 (next to / between)",
+                    "correct": "next to",
+                    "accept": ["next to", "Next to", "NEXT TO"],
+                    "explanation": "School is NEXT TO the bank — рядом с банком! 🏫",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The cat is hiding ___ the sofa. 🐱 (behind / next to)",
+                    "correct": "behind",
+                    "accept": ["behind", "Behind", "BEHIND"],
+                    "explanation": "Cat is hiding BEHIND the sofa — за диваном! 🐱",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "If you sit between two friends, you sit next to both of them.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Between = в середине, рядом с обоими! 👥",
+                    "topic": "reading"
+                }
             ]
         },
         {
@@ -71,28 +145,65 @@
             "description": "Учим фразы для осмотра квартиры",
             "grammar": {
                 "title": "Viewing a House — Useful Phrases",
-                "rule": "Когда смотришь квартиру для аренды или покупки, полезно знать эти фразы:\n\n💬 Estate agent (риелтор):\n• 'Let me show you around.' — Позвольте показать вам.\n• 'This is the living room.' — Это гостиная.\n• 'The kitchen is on the left.' — Кухня слева.\n\n💬 You (покупатель/арендатор):\n• 'How many bedrooms are there?' — Сколько спален?\n• 'Is there a garden?' — Есть сад?\n• 'How much is the rent?' — Сколько арендная плата?\n• 'What floor is it on?' — На каком этаже?\n\n🎯 Мем: 'Is there a washing machine?' — 'There is, but it only plays music.' 🎵🧺",
-                "examples": [
-                    "Agent: 'This is the living room. There is a beautiful view.' 🌅",
-                    "Leo: 'How many bedrooms are there?' Agent: 'Two.' Leo: 'Perfect for me and my games!' 🎮",
-                    "Mia: 'Is there a garden?' Agent: 'Yes, but it's very small.' Mia: 'Perfect for my cat!' 🐱"
-                ],
-                "keywords": "viewing a house, estate agent, how many, how much, what floor, garden, rent"
+                "rule": "📘 Когда смотришь квартиру для аренды или покупки, полезно знать эти фразы:\n\n💬 Estate agent (риелтор):\n• 'Let me show you around.' — Позвольте показать вам.\n• 'This is the living room.' — Это гостиная.\n• 'The kitchen is on the left.' — Кухня слева.\n\n💬 You (покупатель/арендатор):\n• 'How many bedrooms are there?' — Сколько спален?\n• 'Is there a garden?' — Есть сад?\n• 'How much is the rent?' — Сколько арендная плата?\n• 'What floor is it on?' — На каком этаже?",
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "🏠", "word": "viewing", "transcription": "/ˈvjuː.ɪŋ/", "translation": "просмотр", "example": "We have a house viewing at 3 pm.", "context_translation": "просмотр", "context_example": "У нас просмотр дома в 3 часа."},
-                {"icon": "💰", "word": "rent", "transcription": "/rent/", "translation": "аренда, арендная плата", "example": "How much is the rent?", "context_translation": "аренда", "context_example": "Сколько стоит аренда?"},
-                {"icon": "🏢", "word": "floor", "transcription": "/flɔːr/", "translation": "этаж", "example": "What floor is it on?", "context_translation": "этаж", "context_example": "На каком этаже?"},
-                {"icon": "🌳", "word": "garden", "transcription": "/ˈɡɑː.dən/", "translation": "сад", "example": "Is there a garden?", "context_translation": "сад", "context_example": "Есть сад?"},
-                {"icon": "🗝️", "word": "key", "transcription": "/kiː/", "translation": "ключ", "example": "Here is the key.", "context_translation": "ключ", "context_example": "Вот ключ."},
-                {"icon": "🏡", "word": "estate agent", "transcription": "/ɪˈsteɪt ˌeɪ.dʒənt/", "translation": "риелтор", "example": "The estate agent showed us the flat.", "context_translation": "риелтор", "context_example": "Риелтор показал нам квартиру."}
+                {"icon": "🏠👀", "word": "viewing", "transcription": "/ˈvjuː.ɪŋ/", "translation": "просмотр", "example": "We have a house viewing at 3 pm.", "context_translation": "просмотр", "context_example": "У нас просмотр дома в 3 часа."},
+                {"icon": "💰📋", "word": "rent", "transcription": "/rent/", "translation": "аренда, арендная плата", "example": "How much is the rent?", "context_translation": "аренда", "context_example": "Сколько стоит аренда?"},
+                {"icon": "🏢🔢", "word": "floor", "transcription": "/flɔːr/", "translation": "этаж", "example": "What floor is it on?", "context_translation": "этаж", "context_example": "На каком этаже?"},
+                {"icon": "🌳🌸", "word": "garden", "transcription": "/ˈɡɑː.dən/", "translation": "сад", "example": "Is there a garden?", "context_translation": "сад", "context_example": "Есть сад?"},
+                {"icon": "🗝️🚪", "word": "key", "transcription": "/kiː/", "translation": "ключ", "example": "Here is the key.", "context_translation": "ключ", "context_example": "Вот ключ."},
+                {"icon": "🏡👔", "word": "estate agent", "transcription": "/ɪˈsteɪt ˌeɪ.dʒənt/", "translation": "риелтор", "example": "The estate agent showed us the flat.", "context_translation": "риелтор", "context_example": "Риелтор показал нам квартиру."}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "What do you ask about the number of bedrooms? 🛏️", "options": ["How much is the rent?", "How many bedrooms are there?", "What floor is it on?", "Is there a garden?"], "correct": "How many bedrooms are there?", "explanation": "How many bedrooms are there? — Сколько спален?", "topic": "phrases"},
-                {"id": 2, "type": "multiple_choice", "question": "What do you ask about the price? 💰", "options": ["How many bedrooms are there?", "How much is the rent?", "What floor is it on?", "Is there a garden?"], "correct": "How much is the rent?", "explanation": "How much is the rent? — Сколько стоит аренда?", "topic": "phrases"},
-                {"id": 3, "type": "fill_blank", "question": "The flat is on the fifth ___ . (floor / garden)", "correct": "floor", "explanation": "Floor — этаж! 🏢", "topic": "vocabulary"},
-                {"id": 4, "type": "fill_blank", "question": "The ___ showed us the house. (estate agent / key)", "correct": "estate agent", "explanation": "Estate agent — риелтор! 🏡", "topic": "vocabulary"},
-                {"id": 5, "type": "true_false", "question": "'Let me show you around' means the estate agent will give you a tour.", "correct": "True", "explanation": "Yes! 'Show you around' — показать вам квартиру! 🏠", "topic": "reading"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you ask about the number of bedrooms? 🛏️",
+                    "options": ["How much is the rent?", "How many bedrooms are there?", "What floor is it on?", "Is there a garden?"],
+                    "correct": "How many bedrooms are there?",
+                    "accept": ["How many bedrooms are there", "how many bedrooms are there", "HOW MANY BEDROOMS ARE THERE"],
+                    "explanation": "How many bedrooms are there? — Сколько спален?",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "What do you ask about the price? 💰",
+                    "options": ["How many bedrooms are there?", "How much is the rent?", "What floor is it on?", "Is there a garden?"],
+                    "correct": "How much is the rent?",
+                    "accept": ["How much is the rent", "how much is the rent", "HOW MUCH IS THE RENT"],
+                    "explanation": "How much is the rent? — Сколько стоит аренда?",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The flat is on the fifth ___ . 🏢 (floor / garden)",
+                    "correct": "floor",
+                    "accept": ["floor", "Floor", "FLOOR"],
+                    "explanation": "Floor — этаж! 🏢",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The ___ showed us the house. 🏡 (estate agent / key)",
+                    "correct": "estate agent",
+                    "accept": ["estate agent", "Estate agent", "ESTATE AGENT"],
+                    "explanation": "Estate agent — риелтор! 🏡",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "'Let me show you around' means the estate agent will give you a tour.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! 'Show you around' — показать вам квартиру! 🏠",
+                    "topic": "reading"
+                }
             ]
         },
         {
@@ -101,27 +212,64 @@
             "description": "Соединяем все предлоги для описания комнаты",
             "grammar": {
                 "title": "Describing a Room with Prepositions",
-                "rule": "Теперь мы можем полноценно описать комнату!\n\n📌 Структура: [There is/are] + [предмет] + [предлог] + [место]\n\n✅ There is a lamp on the desk. 💡\n✅ There are two chairs next to the table. 🪑\n✅ The cat is under the bed. 🐱\n✅ The picture is behind the sofa. 🖼️\n✅ The books are between the bookends. 📚\n\n🎯 Мем: 'My homework is on the table. My motivation is under the bed. My phone is in my hand.' 📱",
-                "examples": [
-                    "Leo: 'There is a computer on my desk. There are games under the bed. There is a poster on the wall.' 💻",
-                    "Mia: 'There is a mirror behind the door. There are shoes next to the wardrobe.' 👟",
-                    "Sam: 'There is a pizza box between the books. Don't tell my mum!' 🍕"
-                ],
-                "keywords": "describe a room, prepositions, there is, there are"
+                "rule": "📘 Теперь мы можем полноценно описать комнату!\n\n📌 Структура: [There is/are] + [предмет] + [предлог] + [место]\n\n✅ There is a lamp on the desk. 💡\n✅ There are two chairs next to the table. 🪑\n✅ The cat is under the bed. 🐱\n✅ The picture is behind the sofa. 🖼️\n✅ The books are between the bookends. 📚",
+                "examples": []
             },
             "vocabulary": [
-                {"icon": "🪞", "word": "mirror", "transcription": "/ˈmɪr.ər/", "translation": "зеркало", "example": "The mirror is on the wall.", "context_translation": "зеркало", "context_example": "Зеркало на стене."},
-                {"icon": "🪑", "word": "desk", "transcription": "/desk/", "translation": "письменный стол", "example": "I do my homework at my desk.", "context_translation": "письменный стол", "context_example": "Я делаю уроки за письменным столом."},
-                {"icon": "🧸", "word": "teddy bear", "transcription": "/ˈted.i beər/", "translation": "плюшевый мишка", "example": "The teddy bear is on the bed.", "context_translation": "плюшевый мишка", "context_example": "Плюшевый мишка на кровати."},
-                {"icon": "🎮", "word": "game console", "transcription": "/ɡeɪm ˈkɒn.səʊl/", "translation": "игровая приставка", "example": "The game console is next to the TV.", "context_translation": "игровая приставка", "context_example": "Игровая приставка рядом с телевизором."},
-                {"icon": "🔌", "word": "charger", "transcription": "/ˈtʃɑː.dʒər/", "translation": "зарядное устройство", "example": "Where is my phone charger?", "context_translation": "зарядное устройство", "context_example": "Где моё зарядное устройство?"}
+                {"icon": "🪞🧱", "word": "mirror", "transcription": "/ˈmɪr.ər/", "translation": "зеркало", "example": "The mirror is on the wall.", "context_translation": "зеркало", "context_example": "Зеркало на стене."},
+                {"icon": "🪑📚", "word": "desk", "transcription": "/desk/", "translation": "письменный стол", "example": "I do my homework at my desk.", "context_translation": "письменный стол", "context_example": "Я делаю уроки за письменным столом."},
+                {"icon": "🧸🛏️", "word": "teddy bear", "transcription": "/ˈted.i beər/", "translation": "плюшевый мишка", "example": "The teddy bear is on the bed.", "context_translation": "плюшевый мишка", "context_example": "Плюшевый мишка на кровати."},
+                {"icon": "🎮📺", "word": "game console", "transcription": "/ɡeɪm ˈkɒn.səʊl/", "translation": "игровая приставка", "example": "The game console is next to the TV.", "context_translation": "игровая приставка", "context_example": "Игровая приставка рядом с телевизором."},
+                {"icon": "🔌📱", "word": "charger", "transcription": "/ˈtʃɑː.dʒər/", "translation": "зарядное устройство", "example": "Where is my phone charger?", "context_translation": "зарядное устройство", "context_example": "Где моё зарядное устройство?"}
             ],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "The mirror is ___ the wall. 🪞", "options": ["in", "on", "under", "between"], "correct": "on", "explanation": "Mirror is ON the wall — на стене!", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "The charger is ___ the bed and the wardrobe. 🔌", "options": ["on", "under", "behind", "between"], "correct": "between", "explanation": "Charger is BETWEEN the bed and the wardrobe — между кроватью и шкафом!", "topic": "grammar"},
-                {"id": 3, "type": "fill_blank", "question": "There is a lamp ___ the desk. (on / under)", "correct": "on", "explanation": "Lamp is ON the desk — на столе! 💡", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "The teddy bear is ___ the bed. (on / under)", "correct": "on", "explanation": "Teddy bear is ON the bed — на кровати! 🧸", "topic": "grammar"},
-                {"id": 5, "type": "correct_mistake", "question": "The cat is on the bed.", "correct": "Correct", "explanation": "The sentence is correct! 🐱", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The mirror is ___ the wall. 🪞",
+                    "options": ["in", "on", "under", "between"],
+                    "correct": "on",
+                    "accept": ["on", "On", "ON"],
+                    "explanation": "Mirror is ON the wall — на стене!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "The charger is ___ the bed and the wardrobe. 🔌",
+                    "options": ["on", "under", "behind", "between"],
+                    "correct": "between",
+                    "accept": ["between", "Between", "BETWEEN"],
+                    "explanation": "Charger is BETWEEN the bed and the wardrobe — между кроватью и шкафом!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "There is a lamp ___ the desk. 💡 (on / under)",
+                    "correct": "on",
+                    "accept": ["on", "On", "ON"],
+                    "explanation": "Lamp is ON the desk — на столе! 💡",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The teddy bear is ___ the bed. 🧸 (on / under)",
+                    "correct": "on",
+                    "accept": ["on", "On", "ON"],
+                    "explanation": "Teddy bear is ON the bed — на кровати! 🧸",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The cat is on the bed.",
+                    "correct": "The cat is on the bed.",
+                    "accept": ["The cat is on the bed", "the cat is on the bed"],
+                    "explanation": "The sentence is correct! 🐱",
+                    "topic": "grammar"
+                }
             ]
         },
         {
@@ -130,22 +278,67 @@
             "description": "Повторяем предлоги и фразы для просмотра квартиры",
             "grammar": {
                 "title": "Revision: Prepositions + Viewing a House",
-                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Предлоги: in, on, under, behind, between, next to\n📌 Фразы: How many bedrooms?, How much is the rent?, What floor?, Is there a garden?\n📌 Описание комнаты: There is a sofa in the living room. The TV is on the wall.\n\n🎯 Вопрос: Where is the washing machine? — It's in the kitchen, next to the fridge.",
-                "examples": [
-                    "Where is the phone? — It's in my hand, as always. 📱",
-                    "Where is the homework? — It's on the desk. Under a pile of pizza boxes. 🍕",
-                    "Where is the cat? — Behind the sofa. Hiding from the dog. 🐱🐶"
-                ],
-                "keywords": "revision, prepositions, house viewing, describe room"
+                "rule": "📘 Сегодня проверяем себя! 🎯\n\n📌 Предлоги: in, on, under, behind, between, next to\n📌 Фразы: How many bedrooms?, How much is the rent?, What floor?, Is there a garden?\n📌 Описание комнаты: There is a sofa in the living room. The TV is on the wall.",
+                "examples": []
             },
             "vocabulary": [],
             "exercises": [
-                {"id": 1, "type": "multiple_choice", "question": "Choose the correct preposition: The school is ___ the bank and the post office. 🏫", "options": ["behind", "between", "next to", "under"], "correct": "between", "explanation": "Between two buildings — между двумя зданиями!", "topic": "grammar"},
-                {"id": 2, "type": "multiple_choice", "question": "What do you ask to know the floor? 🏢", "options": ["How many bedrooms?", "How much is the rent?", "What floor is it on?", "Is there a garden?"], "correct": "What floor is it on?", "explanation": "What floor is it on? — На каком этаже?", "topic": "phrases"},
-                {"id": 3, "type": "fill_blank", "question": "The keys are ___ the table. (next to / between)", "correct": "next to", "explanation": "Keys are NEXT TO the table — рядом со столом! 🔑", "topic": "grammar"},
-                {"id": 4, "type": "fill_blank", "question": "There is a poster ___ the wall. (on / in)", "correct": "on", "explanation": "Poster is ON the wall — на стене! 🖼️", "topic": "grammar"},
-                {"id": 5, "type": "fill_blank", "question": "The remote control is ___ the sofa. (behind / between)", "correct": "behind", "explanation": "Remote is BEHIND the sofa — за диваном! 📺", "topic": "grammar"},
-                {"id": 6, "type": "correct_mistake", "question": "The books are in the shelf.", "correct": "The books are on the shelf.", "explanation": "Books are ON the shelf — на полке, не внутри! 📚", "topic": "grammar"}
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The school is ___ the bank and the post office. 🏫",
+                    "options": ["behind", "between", "next to", "under"],
+                    "correct": "between",
+                    "accept": ["between", "Between", "BETWEEN"],
+                    "explanation": "Between two buildings — между двумя зданиями!",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "What do you ask to know the floor? 🏢",
+                    "options": ["How many bedrooms?", "How much is the rent?", "What floor is it on?", "Is there a garden?"],
+                    "correct": "What floor is it on?",
+                    "accept": ["What floor is it on", "what floor is it on", "WHAT FLOOR IS IT ON"],
+                    "explanation": "What floor is it on? — На каком этаже?",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The keys are ___ the table. 🔑 (next to / between)",
+                    "correct": "next to",
+                    "accept": ["next to", "Next to", "NEXT TO"],
+                    "explanation": "Keys are NEXT TO the table — рядом со столом! 🔑",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "There is a poster ___ the wall. 🖼️ (on / in)",
+                    "correct": "on",
+                    "accept": ["on", "On", "ON"],
+                    "explanation": "Poster is ON the wall — на стене! 🖼️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The remote control is ___ the sofa. 📺 (behind / between)",
+                    "correct": "behind",
+                    "accept": ["behind", "Behind", "BEHIND"],
+                    "explanation": "Remote is BEHIND the sofa — за диваном! 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 6,
+                    "type": "correct_mistake",
+                    "question": "The books are in the shelf.",
+                    "correct": "The books are on the shelf.",
+                    "accept": ["The books are on the shelf", "the books are on the shelf"],
+                    "explanation": "Books are ON the shelf — на полке, не внутри! 📚",
+                    "topic": "grammar"
+                }
             ]
         },
         {
@@ -154,7 +347,7 @@
             "description": "Читаем детективную историю о поисках пропавшего телефона",
             "grammar": {
                 "title": "Reading: The Mystery of Leo's Missing Phone",
-                "rule": "Сегодня читаем историю о том, как Leo потерял телефон и искал его по всей квартире. Используем предлоги места!",
+                "rule": "📘 Сегодня читаем историю о том, как Leo потерял телефон и искал его по всей квартире. Используем предлоги места!",
                 "examples": [],
                 "keywords": "reading, mystery, prepositions, missing phone"
             },
@@ -166,8 +359,9 @@
                     "question": "Where did Leo look first? 🔍",
                     "options": ["In his bedroom", "In the kitchen", "In the bathroom", "Under the sofa"],
                     "correct": "In his bedroom",
+                    "accept": ["In his bedroom", "in his bedroom", "IN HIS BEDROOM"],
                     "explanation": "Leo looked in his bedroom first.",
-                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔍 THE MYSTERY OF LEO'S MISSING PHONE\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: Leo's house. Leo is panicking.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: 'Where is my phone?! I need it! My battery is at 2%!'\n\nMIA: 'Calm down, Leo. Where did you last have it?'\n\nLEO: 'I don't know! I was in my bedroom, then in the kitchen, then in the bathroom...'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'Let's search together! Is it in your bedroom?'\n\nLEO: (looks under the pillow) 'No.'\n\nMIA: 'Is it on the desk?'\n\nLEO: 'No. There is only a pizza box on the desk.' 🍕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'Let's check the kitchen. Is it on the table?'\n\nLEO: 'No, there is a plate on the table.'\n\nMIA: 'Is it in the fridge?'\n\nLEO: 'Why would my phone be in the fridge?'\n\nMIA: 'I don't know! Just check!'\n\nLEO: (opens fridge) 'No phone. But there is pizza. Want some?' 🍕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'FOCUS, LEO! Check the bathroom.'\n\nLEO: (goes to bathroom) 'Is it behind the mirror?' → No.\n\nLEO: 'Is it next to the sink?' → No.\n\nLEO: 'Is it in the washing machine?'\n\nMIA: 'Did you put your phone in the washing machine?!'\n\nLEO: 'No! But my socks are there.' 🧦\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'Last place: the living room. Is it under the sofa?'\n\nLEO: (looks under sofa) 'No. Just dust and one old french fry.' 🍟\n\nMIA: 'Is it between the cushions?'\n\nLEO: (checks between cushions) 'NO!'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: (sits on the sofa, puts hand in pocket) 'Oh. It's in my pocket.'\n\nMIA: '...'\n\nLEO: 'It was in my pocket the whole time.' 😐\n\nMIA: 'Leo, you are... special.'\n\nLEO: 'At least my battery is still at 2%!' 📱\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'Let's never talk about this again.'\n\nLEO: 'Agreed. Want pizza?' 🍕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "readingText": "🔍 THE MYSTERY OF LEO'S MISSING PHONE 🔍\n\n📍 SCENE: Leo's house. Leo is panicking.\n\nLEO: 'Where is my phone?! I need it! My battery is at 2%!'\n\nMIA: 'Calm down, Leo. Where did you last have it?'\n\nLEO: 'I don't know! I was in my bedroom, then in the kitchen, then in the bathroom...'\n\nMIA: 'Let's search together! Is it in your bedroom?'\n\nLEO: (looks under the pillow) 'No.'\n\nMIA: 'Is it on the desk?'\n\nLEO: 'No. There is only a pizza box on the desk.' 🍕\n\nMIA: 'Let's check the kitchen. Is it on the table?'\n\nLEO: 'No, there is a plate on the table.'\n\nMIA: 'Is it in the fridge?'\n\nLEO: 'Why would my phone be in the fridge?'\n\nMIA: 'I don't know! Just check!'\n\nLEO: (opens fridge) 'No phone. But there is pizza. Want some?' 🍕\n\nMIA: 'FOCUS, LEO! Check the bathroom.'\n\nLEO: (goes to bathroom) 'Is it behind the mirror?' → No.\n\nLEO: 'Is it next to the sink?' → No.\n\nLEO: 'Is it in the washing machine?'\n\nMIA: 'Did you put your phone in the washing machine?!'\n\nLEO: 'No! But my socks are there.' 🧦\n\nMIA: 'Last place: the living room. Is it under the sofa?'\n\nLEO: (looks under sofa) 'No. Just dust and one old french fry.' 🍟\n\nMIA: 'Is it between the cushions?'\n\nLEO: (checks between cushions) 'NO!'\n\nLEO: (sits on the sofa, puts hand in pocket) 'Oh. It's in my pocket.'\n\nMIA: '...'\n\nLEO: 'It was in my pocket the whole time.' 😐\n\nMIA: 'Leo, you are... special.'\n\nLEO: 'At least my battery is still at 2%!' 📱\n\nMIA: 'Let's never talk about this again.'\n\nLEO: 'Agreed. Want pizza?' 🍕\n\n💭 QUESTIONS ABOUT THE TEXT",
                     "topic": "reading"
                 },
                 {
@@ -176,6 +370,7 @@
                     "question": "What did Leo find in the fridge? 🧊",
                     "options": ["His phone", "Pizza", "French fries", "Socks"],
                     "correct": "Pizza",
+                    "accept": ["Pizza", "pizza", "PIZZA"],
                     "explanation": "Leo found pizza in the fridge! Not his phone, though.",
                     "readingText": "",
                     "topic": "reading"
@@ -186,6 +381,7 @@
                     "question": "Where did Leo find his phone in the end? 📱",
                     "options": ["Under the sofa", "In the fridge", "In his pocket", "Between the cushions"],
                     "correct": "In his pocket",
+                    "accept": ["In his pocket", "in his pocket", "IN HIS POCKET"],
                     "explanation": "His phone was in his pocket the whole time!",
                     "readingText": "",
                     "topic": "reading"
@@ -196,6 +392,7 @@
                     "question": "What did Mia find under the sofa? 🛋️",
                     "options": ["The phone", "Dust and a french fry", "A sock", "A pizza box"],
                     "correct": "Dust and a french fry",
+                    "accept": ["Dust and a french fry", "dust and a french fry"],
                     "explanation": "Just dust and one old french fry under the sofa!",
                     "readingText": "",
                     "topic": "reading"
@@ -206,6 +403,7 @@
                     "question": "What was Leo's phone battery level? 🔋",
                     "options": ["100%", "50%", "10%", "2%"],
                     "correct": "2%",
+                    "accept": ["2%", "2", "two"],
                     "explanation": "Leo says: 'My battery is at 2%!' — an emergency!",
                     "readingText": "",
                     "topic": "reading"
@@ -215,6 +413,7 @@
                     "type": "true_false",
                     "question": "Leo found his phone in the washing machine.",
                     "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
                     "explanation": "He found socks in the washing machine, not his phone! 🧦",
                     "topic": "reading"
                 },
@@ -223,6 +422,7 @@
                     "type": "true_false",
                     "question": "Mia helped Leo search for his phone.",
                     "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
                     "explanation": "Mia helped Leo search everywhere! She's a good friend.",
                     "topic": "reading"
                 }
