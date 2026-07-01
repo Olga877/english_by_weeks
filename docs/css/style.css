@@ -411,6 +411,23 @@ header p {
     font-style: italic;
 }
 
+/* ========== КНОПКИ ОЗВУЧКИ В СЛОВАРЕ (исправление для тёмной темы) ========== */
+.vocab-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text);
+    font-size: 0.85rem;
+    transition: color 0.2s;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.vocab-item button:hover {
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
+
 /* ========== УПРАЖНЕНИЯ ========== */
 .exercise-card {
     background: var(--card-bg);
@@ -537,10 +554,12 @@ header p {
     padding: 4px 8px;
     border-radius: 20px;
     transition: all 0.2s;
+    color: var(--text);
 }
 
 .speak-sentence-btn:hover {
     background: rgba(99, 102, 241, 0.2);
+    color: var(--primary);
 }
 
 /* ========== TOAST УВЕДОМЛЕНИЯ ========== */
