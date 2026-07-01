@@ -19,7 +19,7 @@
             "vocabulary": [
                 {"icon": "🤝💰", "word": "borrow", "transcription": "/ˈbɒr.əʊ/", "translation": "занимать", "example": "borrow money from a friend", "context_translation": "занимать", "context_example": "занять деньги у друга"},
                 {"icon": "💰🤝", "word": "lend", "transcription": "/lend/", "translation": "давать в долг", "example": "lend money to someone", "context_translation": "давать в долг", "context_example": "одолжить деньги кому-то"},
-                {"icon": "🐷💰", "word": "save", "transcription": "/seɪv/", "translation": "копить", "example": "save money in a piggy bank", "context_translation": "копить", "context_example": "копить деньги в копилке"},
+                {"icon": "🐷💰", "word": "save", "transcription": "/seɪv/", "translation": "копить", "example": "save money in a piggy bank (копилка)", "context_translation": "копить", "context_example": "копить деньги в копилке"},
                 {"icon": "🗑️💸", "word": "waste", "transcription": "/weɪst/", "translation": "тратить впустую", "example": "waste money on things you don't need", "context_translation": "тратить впустую", "context_example": "тратить деньги на ненужные вещи"},
                 {"icon": "💼💵", "word": "earn", "transcription": "/ɜːn/", "translation": "зарабатывать", "example": "earn a salary", "context_translation": "зарабатывать", "context_example": "зарабатывать зарплату"},
                 {"icon": "📝💳", "word": "owe", "transcription": "/əʊ/", "translation": "быть должным", "example": "owe money to the bank", "context_translation": "быть должным", "context_example": "быть должным банку"},

@@ -13,7 +13,7 @@
             "description": "Первые 5 школьных предметов",
             "grammar": {
                 "title": "I have / I like",
-                "rule": "📘 **I have** = у меня есть\n🎯 **I like** = мне нравится\n🚫 **I don't have** = у меня нет\n🚫 **I don't like** = мне не нравится\n\n⚠️ **Важно**: После I like и I don't like НЕ нужно ставить a/an.\n\n✅ I have Maths.\n✅ I like English.\n✅ I don't have Science on Monday.\n✅ I don't like History.",
+                "rule": "📘 **I have** = у меня есть\n🎯 **I like** = мне нравится\n🚫 **I don't have** = у меня нет\n🚫 **I don't like** = мне не нравится\n\n⚠️ **Важно**: После I like и I don't like НЕ нужно ставить a/an перед названием учебной дисциплины.\n\n✅ I have Maths.\n✅ I like English.\n✅ I don't have Science on Monday.\n✅ I don't like History.",
                 "examples": []
             },
             "vocabulary": [
