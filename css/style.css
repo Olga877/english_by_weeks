@@ -615,7 +615,7 @@ header p {
 }
 
 /* ========== ЗАГОЛОВОК НЕДЕЛИ В РАМКЕ ========== */
-.week-title-box {
+.week-title-wrapper {
     display: inline-block;
     background: var(--card-bg);
     padding: 16px 32px;
@@ -623,15 +623,12 @@ header p {
     border: 3px solid var(--primary);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     margin-bottom: 8px;
-    font-size: 2rem;
-    text-align: center;
 }
-
-/* Для мобильных */
-@media (max-width: 600px) {
-    .week-title-box {
-        font-size: 1.3rem;
-        padding: 12px 20px;
-        border-width: 2px;
-    }
+.week-title-wrapper h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--text);
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
 }
