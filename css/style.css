@@ -613,3 +613,25 @@ header p {
     .timetable-time { font-size: 0.7rem; padding: 4px; }
     .timetable-subject { font-size: 0.65rem; padding: 4px; }
 }
+
+/* ========== ЗАГОЛОВОК НЕДЕЛИ В РАМКЕ ========== */
+.week-title-box {
+    display: inline-block;
+    background: var(--card-bg);
+    padding: 16px 32px;
+    border-radius: 16px;
+    border: 3px solid var(--primary);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    margin-bottom: 8px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Для мобильных */
+@media (max-width: 600px) {
+    .week-title-box {
+        font-size: 1.3rem;
+        padding: 12px 20px;
+        border-width: 2px;
+    }
+}

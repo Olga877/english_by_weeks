@@ -13,7 +13,7 @@
             "description": "12 глаголов о деньгах и основы Present Perfect",
             "grammar": {
                 "title": "Present Perfect (настоящее совершенное время)",
-                "rule": "Используйте Present Perfect (have/has + глагол в 3-й форме), когда:\n\n✅ Говорите о жизненном опыте (неважно, когда именно): 'Я копил деньги когда-то'\n✅ Действие произошло недавно, но время не указано: 'Я только что заплатил'\n✅ Результат важен сейчас: 'Я накопил €500, и могу купить эту классную куртку'\n\n❌ НЕ используйте, если есть точное время (yesterday, last week, in 2020) — там Past Simple!",
+                "rule": "Используйте Present Perfect (have/has + глагол в 3-й форме), когда:\n\n✅ Говорите о жизненном опыте (неважно, когда именно): 'Я накопил деньги (когда-то) - I have saved money.'\n✅ Действие произошло недавно, но время не указано: 'Я только что заплатил - I have just paid.'\n✅ Результат важен сейчас: 'Я накопил €500, и могу купить эту классную куртку - I've saved €500 and can buy this awesome jacket.'\n\n❌ НЕ используйте, если есть точное время (yesterday, last week, in 2020) — там Past Simple!\nI bought this awesome jacket <strong>last week</strong>",
                 "examples": []
             },
             "vocabulary": [
@@ -82,63 +82,67 @@
             ]
         },
         {
-            "day": 2,
-            "title": "Day 2: Past Simple & Повторение",
-            "description": "Практикуем Past Simple и повторяем денежные глаголы",
-            "grammar": {
-                "title": "Past Simple (простое прошедшее время)",
-                "rule": "Используйте Past Simple, когда действие закончилось в прошлом и ЕСТЬ точное время или контекст:\n\n✅ Вчера, на прошлой неделе, в 2010 году, 5 минут назад\n❌ НЕ используйте, если время не указано или важен результат (там Present Perfect)\n\n🎯 Простое правило: есть точное время → Past Simple. Нет времени → Present Perfect.",
-                "examples": []
-            },
-            "vocabulary": [
-                {"icon": "💳✅", "word": "pay by card", "transcription": "/peɪ baɪ kɑːd/", "translation": "платить картой", "example": "pay by credit card", "context_translation": "платить картой", "context_example": "платить кредитной картой"},
-                {"icon": "🧾💸", "word": "pay for", "transcription": "/peɪ fɔː/", "translation": "платить за", "example": "pay for dinner", "context_translation": "платить за", "context_example": "платить за ужин"},
-                {"icon": "🛍️💷", "word": "spend on", "transcription": "/spend ɒn/", "translation": "тратить на", "example": "spend money on clothes", "context_translation": "тратить на", "context_example": "тратить деньги на одежду"},
-                {"icon": "📊🏠", "word": "invest in", "transcription": "/ɪnˈvest ɪn/", "translation": "инвестировать в", "example": "invest in property", "context_translation": "инвестировать в", "context_example": "инвестировать в недвижимость"},
-                {"icon": "💸➡️👤", "word": "lend to", "transcription": "/lend tuː/", "translation": "одолжить кому-то", "example": "lend to a friend", "context_translation": "одолжить кому-то", "context_example": "одолжить другу"},
-                {"icon": "🏦⬅️💰", "word": "borrow from", "transcription": "/ˈbɒr.əʊ frɒm/", "translation": "занять у кого-то", "example": "borrow from a bank", "context_translation": "занять у кого-то", "context_example": "занять у банка"}
-            ],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "multiple_choice",
-                    "question": "I ___ £50 from my friend yesterday.",
-                    "options": ["borrow", "borrowed", "have borrowed", "borrowing"],
-                    "correct": "borrowed",
-                    "accept": ["borrowed", "Borrowed", "BORROWED"],
-                    "explanation": "Past Simple! 'Yesterday' — точное время в прошлом.",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 2,
-                    "type": "multiple_choice",
-                    "question": "She ___ me £20 last week.",
-                    "options": ["lend", "lent", "have lent", "lending"],
-                    "correct": "lent",
-                    "accept": ["lent", "Lent", "LENT"],
-                    "explanation": "Lent — неправильный глагол, в Past Simple форма 'lent'.",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 3,
-                    "type": "correct_mistake",
-                    "question": "I have seen him yesterday.",
-                    "correct": "I saw him yesterday.",
-                    "accept": ["I saw him yesterday", "I saw him yesterday."],
-                    "explanation": "Ошибка! 'Yesterday' требует Past Simple.",
-                    "topic": "grammar"
-                },
-                {
-                    "id": 4,
-                    "type": "fill_blank",
-                    "question": "They ___ (move) to London in 2015.",
-                    "correct": "moved",
-                    "accept": ["moved", "Moved", "MOVED"],
-                    "explanation": "Past Simple. 'In 2015' — конкретный год в прошлом.",
-                    "topic": "grammar"
-                }
-            ]
+    "day": 2,
+    "title": "Day 2: Past Simple & Повторение",
+    "description": "Практикуем Past Simple и повторяем денежные глаголы",
+    "grammar": {
+        "title": "Past Simple (простое прошедшее время)",
+        "rule": "Используйте Past Simple, когда действие закончилось в прошлом и ЕСТЬ точное время или контекст:\n\n✅ Вчера, на прошлой неделе, в 2010 году, 5 минут назад\n❌ НЕ используйте, если время не указано или важен результат (там Present Perfect)\n\n🎯 Простое правило: есть точное время → Past Simple. Нет времени → Present Perfect.",
+        "examples": [
+            "I borrowed €50 yesterday.",
+            "She lent me £20 last week.",
+            "They didn't waste money on that."
+        ]
+    },
+    "vocabulary": [
+        {"icon": "💳✅", "word": "pay by card", "transcription": "/peɪ baɪ kɑːd/", "translation": "платить картой", "example": "pay by credit card", "context_translation": "платить картой", "context_example": "платить кредитной картой"},
+        {"icon": "🧾💸", "word": "pay for", "transcription": "/peɪ fɔː/", "translation": "платить за", "example": "pay for dinner", "context_translation": "платить за", "context_example": "платить за ужин"},
+        {"icon": "🛍️💷", "word": "spend on", "transcription": "/spend ɒn/", "translation": "тратить на", "example": "spend money on clothes", "context_translation": "тратить на", "context_example": "тратить деньги на одежду"},
+        {"icon": "📊🏠", "word": "invest in", "transcription": "/ɪnˈvest ɪn/", "translation": "инвестировать в", "example": "invest in property", "context_translation": "инвестировать в", "context_example": "инвестировать в недвижимость"},
+        {"icon": "💸➡️👤", "word": "lend to", "transcription": "/lend tuː/", "translation": "одолжить кому-то", "example": "lend to a friend", "context_translation": "одолжить кому-то", "context_example": "одолжить другу"},
+        {"icon": "🏦⬅️💰", "word": "borrow from", "transcription": "/ˈbɒr.əʊ frɒm/", "translation": "занять у кого-то", "example": "borrow from a bank", "context_translation": "занять у кого-то", "context_example": "занять у банка"}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "I ___ £50 from my friend yesterday.",
+            "options": ["borrow", "borrowed", "have borrowed", "borrowing"],
+            "correct": "borrowed",
+            "accept": ["borrowed", "Borrowed", "BORROWED"],
+            "explanation": "Past Simple! 'Yesterday' — точное время в прошлом.",
+            "topic": "grammar"
         },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "She ___ me £20 last week.",
+            "options": ["lend", "lent", "have lent", "lending"],
+            "correct": "lent",
+            "accept": ["lent", "Lent", "LENT"],
+            "explanation": "Lent — неправильный глагол, в Past Simple форма 'lent'.",
+            "topic": "grammar"
+        },
+        {
+            "id": 3,
+            "type": "correct_mistake",
+            "question": "I have seen him yesterday.",
+            "correct": "I saw him yesterday.",
+            "accept": ["I saw him yesterday", "I saw him yesterday."],
+            "explanation": "Ошибка! 'Yesterday' требует Past Simple.",
+            "topic": "grammar"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "They ___ (move) to London in 2015.",
+            "correct": "moved",
+            "accept": ["moved", "Moved", "MOVED"],
+            "explanation": "Past Simple. 'In 2015' — конкретный год в прошлом.",
+            "topic": "grammar"
+        }
+    ]
+},
         {
             "day": 3,
             "title": "Day 3: Present Perfect vs Past Simple",
