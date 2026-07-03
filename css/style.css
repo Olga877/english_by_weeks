@@ -617,10 +617,10 @@ header p {
 /* ========== ЗАГОЛОВОК НЕДЕЛИ В РАМКЕ ========== */
 .week-title-wrapper {
     display: inline-block;
-    background: var(--card-bg);
+    background: var(--card-bg) !important;
     padding: 16px 32px;
     border-radius: 16px;
-    border: 3px solid var(--primary);
+    border: 3px solid var(--primary) !important;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     margin-bottom: 8px;
 }
