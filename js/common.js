@@ -10,7 +10,6 @@ function initTheme() {
         document.body.classList.add('dark');
         document.body.classList.remove('light');
     } else {
-        // По умолчанию тёмная тема
         document.body.classList.add('dark');
         document.body.classList.remove('light');
         localStorage.setItem('theme', 'dark');
@@ -44,10 +43,9 @@ function loadTheme() {
 async function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         try {
-            const registration = await navigator.serviceWorker.register('/static/sw.js');
+            const registration = await navigator.serviceWorker.register('/sw.js');
             console.log('✅ Service Worker registered');
 
-            // Запрашиваем разрешение на уведомления
             const permission = await Notification.requestPermission();
             if (permission === 'granted') {
                 console.log('✅ Push notifications permission granted');
@@ -62,7 +60,6 @@ async function registerServiceWorker() {
     }
 }
 
-// Отслеживаем установку PWA
 let deferredPrompt = null;
 
 window.addEventListener('beforeinstallprompt', (e) => {
@@ -70,7 +67,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt = e;
     console.log('✅ beforeinstallprompt fired');
 
-    // Показываем кнопку установки, если она есть на странице
     const installBtn = document.getElementById('installBtn');
     if (installBtn) {
         installBtn.style.display = 'block';
@@ -211,7 +207,7 @@ const localDictionary = new Map([
     ['borrowed', 'занял'],
     ['lent', 'одолжил'],
     ['earns', 'зарабатывает'],
-    ['can\'t', 'не может, не умеет'],
+    ["can't", 'не может, не умеет'],
     ['saved up', 'накопил'],
     ['thinking', 'думающий'],
     ['considered', 'считается'],
@@ -330,7 +326,7 @@ const localDictionary = new Map([
     ['old', 'старый'],
     ['hard', 'трудный, сложный'],
     ['easy', 'лёгкий'],
-    ['fun', 'весёлый', 'интересный'],
+    ['fun', 'весёлый, интересный'],
     ['boring', 'скучный'],
     ['interesting', 'интересный'],
     ['cool', 'крутой, классный'],
@@ -578,10 +574,308 @@ const localDictionary = new Map([
     ['eighteenth', 'восемнадцатый'],
     ['nineteenth', 'девятнадцатый'],
     ['twentieth', 'двадцатый'],
+
+    // ========== ADULT: THE BODY & MODALS OF DEDUCTION ==========
+    ['chin', 'подбородок'],
+    ['chins', 'подбородки'],
+    ['neck', 'шея'],
+    ['necks', 'шеи'],
+    ['shoulder', 'плечо'],
+    ['shoulders', 'плечи'],
+    ['chest', 'грудь'],
+    ['chests', 'груди'],
+    ['back', 'спина'],
+    ['backs', 'спины'],
+    ['stomach', 'живот'],
+    ['stomachs', 'животы'],
+    ['finger', 'палец (на руке)'],
+    ['fingers', 'пальцы (на руках)'],
+    ['thumb', 'большой палец'],
+    ['thumbs', 'большие пальцы'],
+    ['knee', 'колено'],
+    ['knees', 'колени'],
+    ['toe', 'палец (на ноге)'],
+    ['toes', 'пальцы (на ногах)'],
+    ['overweight', 'полный, с лишним весом'],
+    ['athletic', 'спортивный'],
+    ['curly', 'кудрявый'],
+    ['straight', 'прямой (о волосах)'],
+    ['blonde', 'светлый (о волосах)'],
+    ['dark', 'тёмный (о волосах)'],
+    ['red', 'рыжий (о волосах)'],
+    ['bald', 'лысый'],
+    ['slim', 'стройный'],
+    ['thin', 'худой'],
+    ['professional', 'профессиональный'],
+    ['confident', 'уверенный'],
+    ['serious', 'серьёзный'],
+    ['friendly', 'дружелюбный'],
+    ['kind', 'добрый'],
+    ['casual', 'повседневный, неформальный'],
+    ['smart', 'нарядный, умный'],
+    ['late', 'поздний, опоздавший'],
+    ['early', 'ранний'],
+    ['young', 'молодой'],
+    ['old', 'старый'],
+    ['yawn', 'зевать'],
+    ['yawns', 'зевает'],
+    ['yawning', 'зевающий'],
+    ['yawned', 'зевал'],
+    ['smile', 'улыбаться'],
+    ['smiles', 'улыбается'],
+    ['smiling', 'улыбающийся'],
+    ['smiled', 'улыбнулся'],
+    ['cry', 'плакать'],
+    ['cries', 'плачет'],
+    ['crying', 'плачущий'],
+    ['cried', 'плакал'],
+    ['laugh', 'смеяться'],
+    ['laughs', 'смеётся'],
+    ['laughing', 'смеющийся'],
+    ['laughed', 'смеялся'],
+    ['point', 'указывать'],
+    ['points', 'указывает'],
+    ['pointing', 'указывающий'],
+    ['pointed', 'указал'],
+    ['explain', 'объяснять'],
+    ['explains', 'объясняет'],
+    ['explaining', 'объясняющий'],
+    ['explained', 'объяснил'],
+    ['wear', 'носить (одежду)'],
+    ['wears', 'носит'],
+    ['wearing', 'носящий'],
+    ['wore', 'носил'],
+    ['look', 'выглядеть, смотреть'],
+    ['looks', 'выглядит, смотрит'],
+    ['looking', 'выглядящий, смотрящий'],
+    ['looked', 'выглядел, смотрел'],
+    ['speak', 'говорить'],
+    ['speaks', 'говорит'],
+    ['speaking', 'говорящий'],
+    ['spoke', 'говорил'],
+    ['carry', 'носить, нести'],
+    ['carries', 'носит, несёт'],
+    ['carrying', 'несущий'],
+    ['carried', 'нёс'],
+    ['appearance', 'внешность'],
+    ['feature', 'особенность, черта'],
+    ['features', 'особенности, черты'],
+    ['height', 'рост'],
+    ['build', 'телосложение'],
+    ['weight', 'вес'],
+    ['leather', 'кожа (материал)'],
+    ['heels', 'каблуки'],
+    ['documents', 'документы'],
+    ['manager', 'менеджер'],
+    ['director', 'директор'],
+    ['papers', 'бумаги, документы'],
+    ['document', 'документ'],
+    ['suit', 'костюм'],
+    ['suits', 'костюмы'],
+    ['dress', 'платье'],
+    ['dresses', 'платья'],
+    ['clearly', 'ясно, чётко'],
+    ['seriously', 'серьёзно'],
+    ['kindly', 'добро, любезно'],
+    ['professionally', 'профессионально'],
+    ['confidently', 'уверенно'],
+    ['too', 'тоже, слишком'],
+    ['quite', 'довольно'],
+    ['more', 'больше'],
+    ['most', 'большинство, самый'],
+    ['less', 'меньше'],
+    ['least', 'наименьший'],
+    ['swedish', 'шведский, швед'],
+    ['american', 'американский, американец'],
+    ['british', 'британский, британец'],
+    ['russian', 'русский'],
+    ['german', 'немецкий, немец'],
+    ['french', 'французский, француз'],
+    ['italian', 'итальянский, итальянец'],
+    ['spanish', 'испанский, испанец'],
+    ['chinese', 'китайский, китаец'],
+    ['japanese', 'японский, японец'],
+    ['korean', 'корейский, кореец'],
+    ['mexican', 'мексиканский, мексиканец'],
+    ['brazilian', 'бразильский, бразилец'],
+    ['canadian', 'канадский, канадец'],
+    ['australian', 'австралийский, австралиец'],
+    ['scottish', 'шотландский, шотландец'],
+    ['irish', 'ирландский, ирландец'],
+    ['dutch', 'голландский, голландец'],
+    ['portuguese', 'португальский, португалец'],
+    ['greek', 'греческий, грек'],
+    ['turkish', 'турецкий, турок'],
+    ['egyptian', 'египетский, египтянин'],
+    ['indian', 'индийский, индиец'],
+    ['african', 'африканский, африканец'],
+    ['european', 'европейский, европеец'],
+    ['asian', 'азиатский, азиат'],
+
+    // ========== ADULT: VERBS RELATED TO THE BODY ==========
+    ['bite', 'кусать'],
+    ['bites', 'кусает'],
+    ['biting', 'кусающий'],
+    ['bit', 'укусил'],
+    ['clap', 'хлопать'],
+    ['claps', 'хлопает'],
+    ['clapping', 'хлопающий'],
+    ['clapped', 'хлопал'],
+    ['kick', 'пинать'],
+    ['kicks', 'пинает'],
+    ['kicking', 'пинающий'],
+    ['kicked', 'пинал'],
+    ['nod', 'кивать'],
+    ['nods', 'кивает'],
+    ['nodding', 'кивающий'],
+    ['nodded', 'кивнул'],
+    ['smell', 'нюхать, пахнуть'],
+    ['smells', 'нюхает, пахнет'],
+    ['smelling', 'нюхающий, пахнущий'],
+    ['smelled', 'понюхал, пах'],
+    ['stare', 'пристально смотреть'],
+    ['stares', 'пристально смотрит'],
+    ['staring', 'пристально смотрящий'],
+    ['stared', 'пристально посмотрел'],
+    ['taste', 'пробовать на вкус'],
+    ['tastes', 'пробует на вкус'],
+    ['tasting', 'пробующий на вкус'],
+    ['tasted', 'попробовал на вкус'],
+    ['touch', 'трогать'],
+    ['touches', 'трогает'],
+    ['touching', 'трогающий'],
+    ['touched', 'потрогал'],
+    ['whistle', 'свистеть'],
+    ['whistles', 'свистит'],
+    ['whistling', 'свистящий'],
+    ['whistled', 'свистнул'],
+    ['audience', 'публика, зрители'],
+    ['performance', 'выступление, представление'],
+    ['performances', 'выступления'],
+    ['stove', 'плита'],
+    ['tune', 'мелодия'],
+    ['tunes', 'мелодии'],
+    ['flower', 'цветок'],
+    ['flowers', 'цветы'],
+    ['sauce', 'соус'],
+    ['sauces', 'соусы'],
+    ['fence', 'забор'],
+    ['fences', 'заборы'],
+    ['way', 'путь, способ'],
+    ['ways', 'пути, способы'],
+    ['frightened', 'испуганный'],
+    ['delicious', 'вкусный, восхитительный'],
+    ['rude', 'грубый, невежливый'],
+    ['warm', 'тёплый'],
+    ['loud', 'громкий'],
+    ['loudly', 'громко'],
+    ['happy', 'счастливый'],
+    ['warmly', 'тепло, радушно'],
+    ['hard', 'сильно, усердно'],
+    ['well', 'хорошо'],
+    ['badly', 'плохо'],
+    ['quickly', 'быстро'],
+    ['slowly', 'медленно'],
+    ['carefully', 'аккуратно, осторожно'],
+    ['nose', 'нос'],
+    ['tongue', 'язык'],
+    ['mouth', 'рот'],
+    ['teeth', 'зубы'],
+    ['hands', 'кисти рук'],
+    ['feet', 'стопы'],
+
+    // ========== СТРАНЫ И НАЦИОНАЛЬНОСТИ ==========
+    ['germany', 'Германия'],
+    ['sweden', 'Швеция'],
+    ['japan', 'Япония'],
+    ['uk', 'Великобритания'],
+    ['france', 'Франция'],
+    ['italy', 'Италия'],
+    ['spain', 'Испания'],
+    ['china', 'Китай'],
+    ['russia', 'Россия'],
+    ['america', 'Америка'],
+    ['australia', 'Австралия'],
+    ['canada', 'Канада'],
+    ['india', 'Индия'],
+    ['brazil', 'Бразилия'],
+
+    // ========== ВАЛЮТЫ ==========
+    ['euro', 'евро'],
+    ['euros', 'евро'],
+    ['pound', 'фунт (стерлингов)'],
+    ['pounds', 'фунты'],
+    ['dollar', 'доллар'],
+    ['dollars', 'доллары'],
+    ['yen', 'иена'],
+    ['yuan', 'юань'],
+    ['ruble', 'рубль'],
+    ['rubles', 'рубли'],
+    ['currency', 'валюта'],
+    ['currencies', 'валюты'],
+
+    // ========== ЕДА ==========
+    ['pizza', 'пицца'],
+    ['coffee', 'кофе'],
+    ['tea', 'чай'],
+    ['juice', 'сок'],
+    ['water', 'вода'],
+    ['bread', 'хлеб'],
+    ['cheese', 'сыр'],
+    ['meat', 'мясо'],
+    ['fish', 'рыба'],
+    ['chicken', 'курица'],
+    ['rice', 'рис'],
+    ['pasta', 'паста, макароны'],
+    ['cake', 'торт'],
+    ['cakes', 'торты'],
+    ['cookies', 'печенье'],
+    ['chocolate', 'шоколад'],
+    ['ice cream', 'мороженое'],
+    ['salad', 'салат'],
+    ['sandwich', 'бутерброд'],
+    ['sandwiches', 'бутерброды'],
+    ['soup', 'суп'],
+    ['fruit', 'фрукты'],
+    ['vegetables', 'овощи']
 ]);
 
-// Кэш переводов
+// ========== КЭШ ПЕРЕВОДОВ ==========
 const translationCache = new Map();
+const TRANSLATION_CACHE_KEY = 'translation_cache';
+
+function loadTranslationCache() {
+    try {
+        const data = localStorage.getItem(TRANSLATION_CACHE_KEY);
+        if (data) {
+            const parsed = JSON.parse(data);
+            for (const [key, value] of Object.entries(parsed)) {
+                translationCache.set(key, value);
+            }
+            console.log(`📚 Загружено ${translationCache.size} переводов из кэша`);
+        }
+    } catch (e) {
+        console.warn('Ошибка загрузки кэша переводов:', e);
+    }
+}
+
+function saveTranslationCache() {
+    try {
+        const obj = {};
+        for (const [key, value] of translationCache.entries()) {
+            // Сохраняем только те переводы, которые не являются самим словом (т.е. реальные переводы)
+            if (key !== value) {
+                obj[key] = value;
+            }
+        }
+        localStorage.setItem(TRANSLATION_CACHE_KEY, JSON.stringify(obj));
+    } catch (e) {
+        console.warn('Ошибка сохранения кэша переводов:', e);
+    }
+}
+
+// Загружаем кэш при инициализации
+loadTranslationCache();
 
 // ========== ФУНКЦИИ ДЛЯ РАБОТЫ СО СЛОВАМИ ==========
 function extractAndCacheWords(text) {
@@ -618,7 +912,11 @@ function extractAllWordsFromWeek(weekData) {
             if (day.grammar.rule) extractAndCacheWords(day.grammar.rule);
             if (day.grammar.examples) {
                 for (const ex of day.grammar.examples) {
-                    extractAndCacheWords(ex);
+                    if (typeof ex === 'string') {
+                        extractAndCacheWords(ex);
+                    } else if (typeof ex === 'object' && ex.en) {
+                        extractAndCacheWords(ex.en);
+                    }
                 }
             }
         }
@@ -639,6 +937,7 @@ function extractAllWordsFromWeek(weekData) {
     }
 
     console.log(`📚 Total cached words for this week: ${translationCache.size}`);
+    saveTranslationCache();
 }
 
 // ========== КОНТЕКСТНЫЙ СЛОВАРЬ ==========
@@ -672,7 +971,69 @@ function getContextTranslation(word) {
     return contextTranslationsMap.get(lowerWord) || null;
 }
 
-// ========== ОСНОВНЫЕ ФУНКЦИИ ПРИЛОЖЕНИЯ ==========
+// ========== ОСНОВНАЯ ФУНКЦИЯ ПЕРЕВОДА (С API) ==========
+async function translateWord(word, context = '') {
+    if (!word || word.length < 2) return word;
+
+    const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
+    if (cleanWord.length < 2) return word;
+
+    // Проверяем кэш в памяти
+    if (translationCache.has(cleanWord)) {
+        const cached = translationCache.get(cleanWord);
+        // Если это не просто слово-заглушка, возвращаем
+        if (!cached.startsWith('[')) {
+            return cached;
+        }
+        // Если заглушка, пробуем API
+    }
+
+    // Проверяем локальный словарь
+    if (localDictionary.has(cleanWord)) {
+        const translation = localDictionary.get(cleanWord);
+        translationCache.set(cleanWord, translation);
+        saveTranslationCache();
+        return translation;
+    }
+
+    // Если это слово-заглушка (например, [word]), пробуем API
+    // Проверяем, что слово состоит только из латиницы и апострофа
+    if (/^[a-zA-Z' ]+$/.test(cleanWord) && cleanWord.length > 2) {
+        try {
+            const apiUrl = 'https://libretranslate.com/translate';
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    q: cleanWord,
+                    source: 'en',
+                    target: 'ru',
+                    format: 'text'
+                })
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                if (data && data.translatedText) {
+                    const translation = data.translatedText;
+                    translationCache.set(cleanWord, translation);
+                    saveTranslationCache();
+                    return translation;
+                }
+            }
+        } catch (error) {
+            console.warn('Translation API error for word:', cleanWord, error);
+            // В случае ошибки просто возвращаем слово без перевода, но не кэшируем ошибку
+        }
+    }
+
+    // Если ничего не помогло — возвращаем слово как есть
+    translationCache.set(cleanWord, cleanWord);
+    saveTranslationCache();
+    return cleanWord;
+}
+
+// ========== ОСТАЛЬНЫЕ ФУНКЦИИ ==========
 function getSessionId() {
     let sessionId = localStorage.getItem('session_id');
     if (!sessionId) {
@@ -698,26 +1059,6 @@ function cleanEnglishText(text) {
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
 
     return cleaned;
-}
-
-async function translateWord(word, context = '') {
-    if (!word || word.length < 2) return word;
-
-    const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
-    if (cleanWord.length < 2) return word;
-
-    if (translationCache.has(cleanWord)) {
-        return translationCache.get(cleanWord);
-    }
-
-    if (localDictionary.has(cleanWord)) {
-        const translation = localDictionary.get(cleanWord);
-        translationCache.set(cleanWord, translation);
-        return translation;
-    }
-
-    translationCache.set(cleanWord, cleanWord);
-    return cleanWord;
 }
 
 function speak(text, lang = 'en-US', rate = 0.85) {
@@ -746,6 +1087,9 @@ function speakSentence(sentence, lang = 'en-US') {
     let cleanSentence = sentence.replace(/<[^>]*>/g, '');
     cleanSentence = cleanEnglishText(cleanSentence);
     cleanSentence = cleanSentence.replace(/_{2,}/g, ' ... ');
+
+    cleanSentence = cleanSentence.replace(/[.,!?;:()\[\]{}"']/g, ' ');
+    cleanSentence = cleanSentence.replace(/\s+/g, ' ').trim();
 
     if (cleanSentence.length === 0) return;
 
@@ -781,6 +1125,32 @@ function makeWordsClickable(text, context = '') {
     tagPlaceholders.forEach((placeholder, index) => {
         processedText = processedText.replace(placeholder, tagPlaceholders[index]);
     });
+
+    return processedText;
+}
+
+function renderReadingTextContent(readingText) {
+    if (!readingText) return '';
+
+    let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    processedText = processedText.replace(/\n/g, '<br>');
+
+    const tagPlaceholders = [];
+    processedText = processedText.replace(/<[^>]+>/g, (match) => {
+        const placeholder = `{{TAG_${tagPlaceholders.length}}}`;
+        tagPlaceholders.push({ placeholder, tag: match });
+        return placeholder;
+    });
+
+    processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
+        if (word.includes('{{TAG_')) return word;
+        const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+        return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
+    });
+
+    for (const { placeholder, tag } of tagPlaceholders) {
+        processedText = processedText.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), tag);
+    }
 
     return processedText;
 }
@@ -927,6 +1297,232 @@ if (typeof window !== 'undefined') {
     });
 }
 
+// ========== АВТОМАТИЧЕСКАЯ ТЕМА В ЗАВИСИМОСТИ ОТ АУДИТОРИИ ==========
+function applyThemeByAudience() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const audience = urlParams.get('audience');
+
+    if (audience === 'school') {
+        document.body.classList.add('school-theme');
+        document.body.classList.remove('adult-theme');
+    } else if (audience === 'adults') {
+        document.body.classList.add('adult-theme');
+        document.body.classList.remove('school-theme');
+    } else {
+        document.body.classList.add('school-theme');
+        document.body.classList.remove('adult-theme');
+    }
+}
+
+if (typeof window !== 'undefined') {
+    window.addEventListener('load', () => {
+        applyThemeByAudience();
+    });
+}
+
+// ========== УСТАНОВКА ТЕКУЩЕГО ГОДА В ПОДВАЛЕ ==========
+function setCurrentYear() {
+    const yearSpan = document.getElementById('currentYear');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+        console.log('✅ Year set to:', yearSpan.textContent);
+    } else {
+        console.warn('⚠️ Element #currentYear not found yet, will retry...');
+        setTimeout(setCurrentYear, 100);
+    }
+}
+
+if (typeof window !== 'undefined') {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', setCurrentYear);
+    } else {
+        setTimeout(setCurrentYear, 50);
+    }
+}
+
+// ========== УВЕДОМЛЕНИЕ ОБ АВТОРСКИХ ПРАВАХ (ПОПАП) ==========
+function showCopyrightPopup() {
+    const hasSeen = localStorage.getItem('copyright_popup_seen');
+    if (hasSeen === 'true') return;
+
+    const overlay = document.createElement('div');
+    overlay.id = 'copyright-overlay';
+    overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        backdrop-filter: blur(3px);
+    `;
+
+    const popup = document.createElement('div');
+    popup.style.cssText = `
+        background: var(--card-bg);
+        color: var(--text);
+        max-width: 90%;
+        width: 450px;
+        border-radius: 20px;
+        padding: 25px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+        border: 2px solid var(--primary);
+        animation: fadeInUp 0.4s ease;
+    `;
+
+    if (!document.querySelector('#copyright-popup-animation')) {
+        const style = document.createElement('style');
+        style.id = 'copyright-popup-animation';
+        style.textContent = `
+            @keyframes fadeInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    popup.innerHTML = `
+        <div style="text-align: center; margin-bottom: 15px;">
+            <span style="font-size: 3rem;">📚</span>
+        </div>
+        <h2 style="color: var(--primary); text-align: center; margin-bottom: 15px;">Уважаемый пользователь!</h2>
+        <p style="margin-bottom: 15px; line-height: 1.4;">
+            Все материалы на сайте <strong>English by Weeks</strong> являются интеллектуальной собственностью создателя.
+        </p>
+        <p style="margin-bottom: 15px; line-height: 1.4;">
+            <strong>❌ Запрещено:</strong> копировать, распространять, передавать третьим лицам, использовать в коммерческих целях.
+        </p>
+        <p style="margin-bottom: 20px; line-height: 1.4;">
+            <strong>✅ Разрешено:</strong> использовать для личного обучения, проходить уроки с семьёй (один аккаунт на домохозяйство).
+        </p>
+        <div style="background: rgba(99, 102, 241, 0.1); padding: 12px; border-radius: 12px; margin-bottom: 20px; font-size: 0.85rem;">
+            📖 Подробнее в <a href="/english_by_weeks/frontend/terms.html" target="_blank" style="color: var(--primary);">Условиях использования</a>
+        </div>
+        <button id="copyright-accept-btn" style="
+            width: 100%;
+            padding: 12px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 40px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        " onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+            ✅ Я принимаю условия
+        </button>
+    `;
+
+    overlay.appendChild(popup);
+    document.body.appendChild(overlay);
+
+    const acceptBtn = document.getElementById('copyright-accept-btn');
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('copyright_popup_seen', 'true');
+            overlay.remove();
+        });
+    }
+}
+
+if (typeof window !== 'undefined') {
+    window.addEventListener('load', () => {
+        setTimeout(showCopyrightPopup, 1000);
+    });
+}
+
+// ========== СОВЕТ ДНЯ ==========
+const TIPS_LIST = [
+    { icon: "🧠", text: "Английский легче учить по 15 минут каждый день, чем 2 часа раз в неделю. Регулярность важнее интенсивности!" },
+    { icon: "📖", text: "Самые популярные слова в английском — the, be, to, of, and. На них приходится около 10% любого текста!" },
+    { icon: "🎯", text: "Чтобы быстро запомнить слово, придумайте с ним смешное предложение. Эмоции помогают памяти!" },
+    { icon: "🗣️", text: "Разговаривайте сами с собой на английском. Да, это не странно — это эффективно!" },
+    { icon: "🎬", text: "Смотрите любимые фильмы и сериалы в оригинале с английскими субтитрами. Так вы привыкнете к живой речи!" },
+    { icon: "📝", text: "Ведите дневник на английском. Хотя бы 2-3 предложения в день — и прогресс не заставит себя ждать!" },
+    { icon: "🔊", text: "Слушайте подкасты на английском во время прогулки или уборки. Так вы тренируете восприятие на слух без дополнительного времени!" },
+    { icon: "📚", text: "Читайте книги, которые вы уже читали на русском. Знание сюжета поможет понять незнакомые слова из контекста!" },
+    { icon: "💬", text: "Используйте новый язык в быту: называйте предметы вокруг на английском, думайте на английском!" },
+    { icon: "🎮", text: "Играйте в видеоигры на английском. Диалоги и интерфейс — отличная языковая практика!" },
+    { icon: "📱", text: "Переключите телефон на английский. Вы будете видеть язык каждый день и быстро привыкнете!" },
+    { icon: "🎵", text: "Слушайте английские песни и пытайтесь подпевать. Это улучшает произношение и ритм речи!" },
+    { icon: "🔍", text: "Слово «каникулы» происходит от латинского «canicula» — так называли звезду Сириус (собачью звезду). В Древнем Риме в период её появления на небе школы закрывались на отдых." },
+    { icon: "📖", text: "Слово «школа» в переводе с греческого означает «досуг». В Древней Греции школой называли место, где люди проводили свободное время в философских беседах." },
+    { icon: "💻", text: "Слово «компьютер» раньше было профессией! Так называли людей, которые выполняли сложные расчёты вручную." },
+    { icon: "🤖", text: "Слово «робот» придумал чешский писатель Карел Чапек. Оно происходит от слова «robota», что означает «тяжёлая работа»." },
+    { icon: "📱", text: "Слово «смартфон» — это два слова: smart (умный) + phone (телефон). Но первый смартфон появился только в 1992 году!" },
+    { icon: "🎒", text: "Слово «рюкзак» — буквально «рюха» (мешок) + «зак» (за спиной). А по-английски backpack — это back (спина) + pack (пакет)." },
+    { icon: "🐘", text: "Слоны — единственные млекопитающие, которые не умеют прыгать. Зато они отлично плавают и даже ныряют, используя хобот как трубку!" },
+    { icon: "🐪", text: "Верблюды хранят жир не в горбах, а вокруг них. Горбы служат «крышей» для защиты от солнца. А воду они действительно могут долго не пить." },
+    { icon: "🦒", text: "Жирафам не нужно много спать — достаточно 30 минут в день. А ещё у них самый длинный хвост среди млекопитающих (до 2,5 метров!)." },
+    { icon: "🐧", text: "Императорские пингвины могут не есть до 3 месяцев, высиживая яйца в антарктическую зиму при температуре -50°C." },
+    { icon: "🍕", text: "Самая популярная пицца в мире — Маргарита. Она названа в честь королевы Италии Маргариты Савойской, которая попробовала её в 1889 году." },
+    { icon: "🍿", text: "Попкорн появился тысячи лет назад. Древние индейцы обнаружили, что некоторые зёрна кукурузы взрываются при нагревании." },
+    { icon: "✏️", text: "Обычным карандашом можно написать линию длиной около 56 километров — это больше, чем расстояние от Москвы до Подольска и обратно!" },
+    { icon: "⏰", text: "Учёные выяснили: мозг лучше всего запоминает информацию утром (через 1–2 часа после пробуждения) и перед сном." },
+    { icon: "🧠", text: "Объясняйте новую тему кому-то другому. Когда вы учите кого-то, вы запоминаете в 2 раза лучше." },
+    { icon: "🎯", text: "Разбивайте большую задачу на маленькие шаги. 5 минут занятий — это лучше, чем ничего. Главное — начать!" },
+    { icon: "🎨", text: "Рисование и музыка улучшают память и концентрацию. Ваш мозг работает активнее, когда вы творите." },
+    { icon: "💪", text: "Ошибки — это не провал, а часть обучения. Каждая ошибка делает ваш мозг сильнее." },
+    { icon: "🧘", text: "Делайте короткие перерывы каждые 25–30 минут. Мозгу нужно время, чтобы усвоить информацию." },
+    { icon: "🗣️", text: "Учитесь в комфортной обстановке и не бойтесь говорить вслух. Это помогает тренировать произношение и уверенность." }
+];
+
+function getRandomTip() {
+    const randomIndex = Math.floor(Math.random() * TIPS_LIST.length);
+    return TIPS_LIST[randomIndex];
+}
+
+function displayDailyTip() {
+    const tipBlock = document.getElementById('dailyTipText');
+    if (!tipBlock) return;
+
+    let tip = localStorage.getItem('dailyTip');
+    const lastTipHour = localStorage.getItem('dailyTipHour');
+    const currentHour = new Date().getHours();
+
+    if (!tip || lastTipHour != currentHour) {
+        tip = getRandomTip();
+        localStorage.setItem('dailyTip', JSON.stringify(tip));
+        localStorage.setItem('dailyTipHour', currentHour);
+    } else {
+        tip = JSON.parse(tip);
+    }
+
+    tipBlock.innerHTML = `<span class="tip-icon">${tip.icon}</span> ${tip.text}`;
+}
+
+function refreshDailyTip() {
+    const newTip = getRandomTip();
+    const tipBlock = document.getElementById('dailyTipText');
+    if (tipBlock) {
+        tipBlock.innerHTML = `<span class="tip-icon">${newTip.icon}</span> ${newTip.text}`;
+        showToast('✨ Совет обновлён!', 'info');
+    }
+}
+
+if (typeof window !== 'undefined') {
+    document.addEventListener('DOMContentLoaded', () => {
+        displayDailyTip();
+
+        const refreshBtn = document.getElementById('refreshTipBtn');
+        if (refreshBtn) {
+            refreshBtn.addEventListener('click', refreshDailyTip);
+        }
+    });
+}
+
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
 window.getSessionId = getSessionId;
 window.translateWord = translateWord;
@@ -944,3 +1540,4 @@ window.initClickableWords = initClickableWords;
 window.showCertificate = showCertificate;
 window.getCurrentUser = getCurrentUser;
 window.registerServiceWorker = registerServiceWorker;
+window.renderReadingTextContent = renderReadingTextContent;
