@@ -50,47 +50,41 @@ const WEEK_FILES = [
   '/data/lessons/adults/B1/adult_body_modals.json'
 ];
 
-
-// Установка — кэшируем всё при первом запуске
+// Установка — кэшируем статику и недели
 self.addEventListener('install', (event) => {
   console.log('🔧 SW: Установка...');
-
-  event.waitUntil(async () => {
-    // Кэш статики
-    const staticCache = await caches.open(STATIC_CACHE);
-    await staticCache.addAll(STATIC_ASSETS);
-
-    // Кэш всех недель
-    const weeksCache = await caches.open(WEEKS_CACHE);
-    for (const url of WEEK_FILES) {
-      try {
-        const response = await fetch(url);
-        if (response.ok) {
-          await weeksCache.put(url, response);
-          console.log(`✅ Загружена: ${url}`);
-        }
-      } catch (e) {
-        console.log(`⚠️ Не загружена: ${url}`);
-      }
-    }
-  }()));
-
+  event.waitUntil(
+    caches.open(STATIC_CACHE)
+      .then(cache => cache.addAll(STATIC_ASSETS))
+      .then(() => caches.open(WEEKS_CACHE))
+      .then(weeksCache => {
+        return Promise.all(WEEK_FILES.map(url =>
+          fetch(url)
+            .then(response => {
+              if (response.ok) {
+                weeksCache.put(url, response);
+                console.log(`✅ Загружена: ${url}`);
+              }
+            })
+            .catch(e => console.log(`⚠️ Не загружена: ${url}`))
+        ));
+      })
+      .then(() => console.log('✅ Все ресурсы закэшированы'))
+  );
   self.skipWaiting();
 });
 
 // Активация — чистим старые кэши
 self.addEventListener('activate', (event) => {
   console.log('🔧 SW: Активация...');
-
-  event.waitUntil(async () => {
-    const keys = await caches.keys();
-    await Promise.all(
-      keys.filter(key => key !== STATIC_CACHE && key !== WEEKS_CACHE)
-        .map(key => caches.delete(key))
-    );
-  });
-
-  event.waitUntil(clients.claim());
+  event.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(
+        keys.filter(key => key !== STATIC_CACHE && key !== WEEKS_CACHE)
+            .map(key => caches.delete(key))
+      ))
+      .then(() => clients.claim())
+  );
 });
 
 // Обработка запросов — сначала кэш, потом сеть
@@ -100,10 +94,8 @@ self.addEventListener('fetch', (event) => {
   // Статика — из кэша
   if (url.pathname.match(/\.(css|js|html|json|png|jpg|svg|ico)$/)) {
     event.respondWith(
-      caches.match(event.request).then(cached => {
-        if (cached) return cached;
-        return fetch(event.request);
-      })
+      caches.match(event.request)
+        .then(cached => cached || fetch(event.request))
     );
     return;
   }
@@ -111,21 +103,27 @@ self.addEventListener('fetch', (event) => {
   // API с уроками — из кэша недель
   if (url.pathname.includes('/api/lessons/')) {
     event.respondWith(
-      caches.open(WEEKS_CACHE).then(async (cache) => {
-        const cached = await cache.match(event.request);
-        if (cached) return cached;
-
-        const response = await fetch(event.request);
-        if (response.ok) cache.put(event.request, response.clone());
-        return response;
-      })
+      caches.open(WEEKS_CACHE)
+        .then(cache => cache.match(event.request))
+        .then(cached => {
+          if (cached) return cached;
+          return fetch(event.request)
+            .then(response => {
+              if (response.ok) {
+                caches.open(WEEKS_CACHE)
+                  .then(cache => cache.put(event.request, response.clone()));
+              }
+              return response;
+            });
+        })
     );
     return;
   }
 
   // Всё остальное — сеть, при ошибке кэш
   event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request))
+    fetch(event.request)
+      .catch(() => caches.match(event.request))
   );
 });
 
