@@ -73,7 +73,7 @@ self.addEventListener('install', (event) => {
         console.log(`⚠️ Не загружена: ${url}`);
       }
     }
-  }());
+  }()));
 
   self.skipWaiting();
 });
