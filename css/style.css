@@ -624,11 +624,13 @@ header p {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     margin-bottom: 8px;
 }
+
 header .week-title-wrapper h1 {
     margin: 0;
     font-size: 2rem;
-    color: var(--text);
-    background: none;
-    -webkit-background-clip: unset;
-    background-clip: unset;
+    color: var(--text) !important;
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    background-image: none !important;
 }

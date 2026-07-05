@@ -10,6 +10,7 @@ function initTheme() {
         document.body.classList.add('dark');
         document.body.classList.remove('light');
     } else {
+        // По умолчанию тёмная тема
         document.body.classList.add('dark');
         document.body.classList.remove('light');
         localStorage.setItem('theme', 'dark');
@@ -207,7 +208,7 @@ const localDictionary = new Map([
     ['borrowed', 'занял'],
     ['lent', 'одолжил'],
     ['earns', 'зарабатывает'],
-    ["can't", 'не может, не умеет'],
+    ['can\'t', 'не может, не умеет'],
     ['saved up', 'накопил'],
     ['thinking', 'думающий'],
     ['considered', 'считается'],
@@ -574,308 +575,10 @@ const localDictionary = new Map([
     ['eighteenth', 'восемнадцатый'],
     ['nineteenth', 'девятнадцатый'],
     ['twentieth', 'двадцатый'],
-
-    // ========== ADULT: THE BODY & MODALS OF DEDUCTION ==========
-    ['chin', 'подбородок'],
-    ['chins', 'подбородки'],
-    ['neck', 'шея'],
-    ['necks', 'шеи'],
-    ['shoulder', 'плечо'],
-    ['shoulders', 'плечи'],
-    ['chest', 'грудь'],
-    ['chests', 'груди'],
-    ['back', 'спина'],
-    ['backs', 'спины'],
-    ['stomach', 'живот'],
-    ['stomachs', 'животы'],
-    ['finger', 'палец (на руке)'],
-    ['fingers', 'пальцы (на руках)'],
-    ['thumb', 'большой палец'],
-    ['thumbs', 'большие пальцы'],
-    ['knee', 'колено'],
-    ['knees', 'колени'],
-    ['toe', 'палец (на ноге)'],
-    ['toes', 'пальцы (на ногах)'],
-    ['overweight', 'полный, с лишним весом'],
-    ['athletic', 'спортивный'],
-    ['curly', 'кудрявый'],
-    ['straight', 'прямой (о волосах)'],
-    ['blonde', 'светлый (о волосах)'],
-    ['dark', 'тёмный (о волосах)'],
-    ['red', 'рыжий (о волосах)'],
-    ['bald', 'лысый'],
-    ['slim', 'стройный'],
-    ['thin', 'худой'],
-    ['professional', 'профессиональный'],
-    ['confident', 'уверенный'],
-    ['serious', 'серьёзный'],
-    ['friendly', 'дружелюбный'],
-    ['kind', 'добрый'],
-    ['casual', 'повседневный, неформальный'],
-    ['smart', 'нарядный, умный'],
-    ['late', 'поздний, опоздавший'],
-    ['early', 'ранний'],
-    ['young', 'молодой'],
-    ['old', 'старый'],
-    ['yawn', 'зевать'],
-    ['yawns', 'зевает'],
-    ['yawning', 'зевающий'],
-    ['yawned', 'зевал'],
-    ['smile', 'улыбаться'],
-    ['smiles', 'улыбается'],
-    ['smiling', 'улыбающийся'],
-    ['smiled', 'улыбнулся'],
-    ['cry', 'плакать'],
-    ['cries', 'плачет'],
-    ['crying', 'плачущий'],
-    ['cried', 'плакал'],
-    ['laugh', 'смеяться'],
-    ['laughs', 'смеётся'],
-    ['laughing', 'смеющийся'],
-    ['laughed', 'смеялся'],
-    ['point', 'указывать'],
-    ['points', 'указывает'],
-    ['pointing', 'указывающий'],
-    ['pointed', 'указал'],
-    ['explain', 'объяснять'],
-    ['explains', 'объясняет'],
-    ['explaining', 'объясняющий'],
-    ['explained', 'объяснил'],
-    ['wear', 'носить (одежду)'],
-    ['wears', 'носит'],
-    ['wearing', 'носящий'],
-    ['wore', 'носил'],
-    ['look', 'выглядеть, смотреть'],
-    ['looks', 'выглядит, смотрит'],
-    ['looking', 'выглядящий, смотрящий'],
-    ['looked', 'выглядел, смотрел'],
-    ['speak', 'говорить'],
-    ['speaks', 'говорит'],
-    ['speaking', 'говорящий'],
-    ['spoke', 'говорил'],
-    ['carry', 'носить, нести'],
-    ['carries', 'носит, несёт'],
-    ['carrying', 'несущий'],
-    ['carried', 'нёс'],
-    ['appearance', 'внешность'],
-    ['feature', 'особенность, черта'],
-    ['features', 'особенности, черты'],
-    ['height', 'рост'],
-    ['build', 'телосложение'],
-    ['weight', 'вес'],
-    ['leather', 'кожа (материал)'],
-    ['heels', 'каблуки'],
-    ['documents', 'документы'],
-    ['manager', 'менеджер'],
-    ['director', 'директор'],
-    ['papers', 'бумаги, документы'],
-    ['document', 'документ'],
-    ['suit', 'костюм'],
-    ['suits', 'костюмы'],
-    ['dress', 'платье'],
-    ['dresses', 'платья'],
-    ['clearly', 'ясно, чётко'],
-    ['seriously', 'серьёзно'],
-    ['kindly', 'добро, любезно'],
-    ['professionally', 'профессионально'],
-    ['confidently', 'уверенно'],
-    ['too', 'тоже, слишком'],
-    ['quite', 'довольно'],
-    ['more', 'больше'],
-    ['most', 'большинство, самый'],
-    ['less', 'меньше'],
-    ['least', 'наименьший'],
-    ['swedish', 'шведский, швед'],
-    ['american', 'американский, американец'],
-    ['british', 'британский, британец'],
-    ['russian', 'русский'],
-    ['german', 'немецкий, немец'],
-    ['french', 'французский, француз'],
-    ['italian', 'итальянский, итальянец'],
-    ['spanish', 'испанский, испанец'],
-    ['chinese', 'китайский, китаец'],
-    ['japanese', 'японский, японец'],
-    ['korean', 'корейский, кореец'],
-    ['mexican', 'мексиканский, мексиканец'],
-    ['brazilian', 'бразильский, бразилец'],
-    ['canadian', 'канадский, канадец'],
-    ['australian', 'австралийский, австралиец'],
-    ['scottish', 'шотландский, шотландец'],
-    ['irish', 'ирландский, ирландец'],
-    ['dutch', 'голландский, голландец'],
-    ['portuguese', 'португальский, португалец'],
-    ['greek', 'греческий, грек'],
-    ['turkish', 'турецкий, турок'],
-    ['egyptian', 'египетский, египтянин'],
-    ['indian', 'индийский, индиец'],
-    ['african', 'африканский, африканец'],
-    ['european', 'европейский, европеец'],
-    ['asian', 'азиатский, азиат'],
-
-    // ========== ADULT: VERBS RELATED TO THE BODY ==========
-    ['bite', 'кусать'],
-    ['bites', 'кусает'],
-    ['biting', 'кусающий'],
-    ['bit', 'укусил'],
-    ['clap', 'хлопать'],
-    ['claps', 'хлопает'],
-    ['clapping', 'хлопающий'],
-    ['clapped', 'хлопал'],
-    ['kick', 'пинать'],
-    ['kicks', 'пинает'],
-    ['kicking', 'пинающий'],
-    ['kicked', 'пинал'],
-    ['nod', 'кивать'],
-    ['nods', 'кивает'],
-    ['nodding', 'кивающий'],
-    ['nodded', 'кивнул'],
-    ['smell', 'нюхать, пахнуть'],
-    ['smells', 'нюхает, пахнет'],
-    ['smelling', 'нюхающий, пахнущий'],
-    ['smelled', 'понюхал, пах'],
-    ['stare', 'пристально смотреть'],
-    ['stares', 'пристально смотрит'],
-    ['staring', 'пристально смотрящий'],
-    ['stared', 'пристально посмотрел'],
-    ['taste', 'пробовать на вкус'],
-    ['tastes', 'пробует на вкус'],
-    ['tasting', 'пробующий на вкус'],
-    ['tasted', 'попробовал на вкус'],
-    ['touch', 'трогать'],
-    ['touches', 'трогает'],
-    ['touching', 'трогающий'],
-    ['touched', 'потрогал'],
-    ['whistle', 'свистеть'],
-    ['whistles', 'свистит'],
-    ['whistling', 'свистящий'],
-    ['whistled', 'свистнул'],
-    ['audience', 'публика, зрители'],
-    ['performance', 'выступление, представление'],
-    ['performances', 'выступления'],
-    ['stove', 'плита'],
-    ['tune', 'мелодия'],
-    ['tunes', 'мелодии'],
-    ['flower', 'цветок'],
-    ['flowers', 'цветы'],
-    ['sauce', 'соус'],
-    ['sauces', 'соусы'],
-    ['fence', 'забор'],
-    ['fences', 'заборы'],
-    ['way', 'путь, способ'],
-    ['ways', 'пути, способы'],
-    ['frightened', 'испуганный'],
-    ['delicious', 'вкусный, восхитительный'],
-    ['rude', 'грубый, невежливый'],
-    ['warm', 'тёплый'],
-    ['loud', 'громкий'],
-    ['loudly', 'громко'],
-    ['happy', 'счастливый'],
-    ['warmly', 'тепло, радушно'],
-    ['hard', 'сильно, усердно'],
-    ['well', 'хорошо'],
-    ['badly', 'плохо'],
-    ['quickly', 'быстро'],
-    ['slowly', 'медленно'],
-    ['carefully', 'аккуратно, осторожно'],
-    ['nose', 'нос'],
-    ['tongue', 'язык'],
-    ['mouth', 'рот'],
-    ['teeth', 'зубы'],
-    ['hands', 'кисти рук'],
-    ['feet', 'стопы'],
-
-    // ========== СТРАНЫ И НАЦИОНАЛЬНОСТИ ==========
-    ['germany', 'Германия'],
-    ['sweden', 'Швеция'],
-    ['japan', 'Япония'],
-    ['uk', 'Великобритания'],
-    ['france', 'Франция'],
-    ['italy', 'Италия'],
-    ['spain', 'Испания'],
-    ['china', 'Китай'],
-    ['russia', 'Россия'],
-    ['america', 'Америка'],
-    ['australia', 'Австралия'],
-    ['canada', 'Канада'],
-    ['india', 'Индия'],
-    ['brazil', 'Бразилия'],
-
-    // ========== ВАЛЮТЫ ==========
-    ['euro', 'евро'],
-    ['euros', 'евро'],
-    ['pound', 'фунт (стерлингов)'],
-    ['pounds', 'фунты'],
-    ['dollar', 'доллар'],
-    ['dollars', 'доллары'],
-    ['yen', 'иена'],
-    ['yuan', 'юань'],
-    ['ruble', 'рубль'],
-    ['rubles', 'рубли'],
-    ['currency', 'валюта'],
-    ['currencies', 'валюты'],
-
-    // ========== ЕДА ==========
-    ['pizza', 'пицца'],
-    ['coffee', 'кофе'],
-    ['tea', 'чай'],
-    ['juice', 'сок'],
-    ['water', 'вода'],
-    ['bread', 'хлеб'],
-    ['cheese', 'сыр'],
-    ['meat', 'мясо'],
-    ['fish', 'рыба'],
-    ['chicken', 'курица'],
-    ['rice', 'рис'],
-    ['pasta', 'паста, макароны'],
-    ['cake', 'торт'],
-    ['cakes', 'торты'],
-    ['cookies', 'печенье'],
-    ['chocolate', 'шоколад'],
-    ['ice cream', 'мороженое'],
-    ['salad', 'салат'],
-    ['sandwich', 'бутерброд'],
-    ['sandwiches', 'бутерброды'],
-    ['soup', 'суп'],
-    ['fruit', 'фрукты'],
-    ['vegetables', 'овощи']
 ]);
 
-// ========== КЭШ ПЕРЕВОДОВ ==========
+// Кэш переводов (используется для API-переводов)
 const translationCache = new Map();
-const TRANSLATION_CACHE_KEY = 'translation_cache';
-
-function loadTranslationCache() {
-    try {
-        const data = localStorage.getItem(TRANSLATION_CACHE_KEY);
-        if (data) {
-            const parsed = JSON.parse(data);
-            for (const [key, value] of Object.entries(parsed)) {
-                translationCache.set(key, value);
-            }
-            console.log(`📚 Загружено ${translationCache.size} переводов из кэша`);
-        }
-    } catch (e) {
-        console.warn('Ошибка загрузки кэша переводов:', e);
-    }
-}
-
-function saveTranslationCache() {
-    try {
-        const obj = {};
-        for (const [key, value] of translationCache.entries()) {
-            // Сохраняем только те переводы, которые не являются самим словом (т.е. реальные переводы)
-            if (key !== value) {
-                obj[key] = value;
-            }
-        }
-        localStorage.setItem(TRANSLATION_CACHE_KEY, JSON.stringify(obj));
-    } catch (e) {
-        console.warn('Ошибка сохранения кэша переводов:', e);
-    }
-}
-
-// Загружаем кэш при инициализации
-loadTranslationCache();
 
 // ========== ФУНКЦИИ ДЛЯ РАБОТЫ СО СЛОВАМИ ==========
 function extractAndCacheWords(text) {
@@ -912,11 +615,7 @@ function extractAllWordsFromWeek(weekData) {
             if (day.grammar.rule) extractAndCacheWords(day.grammar.rule);
             if (day.grammar.examples) {
                 for (const ex of day.grammar.examples) {
-                    if (typeof ex === 'string') {
-                        extractAndCacheWords(ex);
-                    } else if (typeof ex === 'object' && ex.en) {
-                        extractAndCacheWords(ex.en);
-                    }
+                    extractAndCacheWords(ex);
                 }
             }
         }
@@ -937,7 +636,6 @@ function extractAllWordsFromWeek(weekData) {
     }
 
     console.log(`📚 Total cached words for this week: ${translationCache.size}`);
-    saveTranslationCache();
 }
 
 // ========== КОНТЕКСТНЫЙ СЛОВАРЬ ==========
@@ -971,69 +669,7 @@ function getContextTranslation(word) {
     return contextTranslationsMap.get(lowerWord) || null;
 }
 
-// ========== ОСНОВНАЯ ФУНКЦИЯ ПЕРЕВОДА (С API) ==========
-async function translateWord(word, context = '') {
-    if (!word || word.length < 2) return word;
-
-    const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
-    if (cleanWord.length < 2) return word;
-
-    // Проверяем кэш в памяти
-    if (translationCache.has(cleanWord)) {
-        const cached = translationCache.get(cleanWord);
-        // Если это не просто слово-заглушка, возвращаем
-        if (!cached.startsWith('[')) {
-            return cached;
-        }
-        // Если заглушка, пробуем API
-    }
-
-    // Проверяем локальный словарь
-    if (localDictionary.has(cleanWord)) {
-        const translation = localDictionary.get(cleanWord);
-        translationCache.set(cleanWord, translation);
-        saveTranslationCache();
-        return translation;
-    }
-
-    // Если это слово-заглушка (например, [word]), пробуем API
-    // Проверяем, что слово состоит только из латиницы и апострофа
-    if (/^[a-zA-Z' ]+$/.test(cleanWord) && cleanWord.length > 2) {
-        try {
-            const apiUrl = 'https://libretranslate.com/translate';
-            const response = await fetch(apiUrl, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    q: cleanWord,
-                    source: 'en',
-                    target: 'ru',
-                    format: 'text'
-                })
-            });
-
-            if (response.ok) {
-                const data = await response.json();
-                if (data && data.translatedText) {
-                    const translation = data.translatedText;
-                    translationCache.set(cleanWord, translation);
-                    saveTranslationCache();
-                    return translation;
-                }
-            }
-        } catch (error) {
-            console.warn('Translation API error for word:', cleanWord, error);
-            // В случае ошибки просто возвращаем слово без перевода, но не кэшируем ошибку
-        }
-    }
-
-    // Если ничего не помогло — возвращаем слово как есть
-    translationCache.set(cleanWord, cleanWord);
-    saveTranslationCache();
-    return cleanWord;
-}
-
-// ========== ОСТАЛЬНЫЕ ФУНКЦИИ ==========
+// ========== ОСНОВНЫЕ ФУНКЦИИ ПРИЛОЖЕНИЯ ==========
 function getSessionId() {
     let sessionId = localStorage.getItem('session_id');
     if (!sessionId) {
@@ -1059,6 +695,70 @@ function cleanEnglishText(text) {
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
 
     return cleaned;
+}
+
+// ========== ФУНКЦИЯ ПЕРЕВОДА (С ПОДДЕРЖКОЙ MYMEMORY API) ==========
+async function translateWord(word, context = '') {
+    if (!word || word.length < 2) return word;
+
+    const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
+    if (cleanWord.length < 2) return word;
+
+    // 1. Проверяем кэш переводов (localDictionary уже загружен в кэш)
+    if (translationCache.has(cleanWord)) {
+        const cached = translationCache.get(cleanWord);
+        // Если в кэше хранится плейсхолдер [слово] – значит, его нет в словаре, попробуем API
+        if (cached && !cached.startsWith('[')) {
+            return cached;
+        }
+        // Если это плейсхолдер, удаляем его, чтобы попробовать API
+        if (cached && cached.startsWith('[')) {
+            translationCache.delete(cleanWord);
+        }
+    }
+
+    // 2. Проверяем локальный словарь (если по какой-то причине его нет в кэше)
+    if (localDictionary.has(cleanWord)) {
+        const translation = localDictionary.get(cleanWord);
+        translationCache.set(cleanWord, translation);
+        return translation;
+    }
+
+    // 3. Если слова нет в словаре, делаем запрос к MyMemory API
+    try {
+        const response = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(cleanWord)}&langpair=en|ru&de=dasha@example.com`, {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error(`API error: ${response.status}`);
+        }
+
+        const data = await response.json();
+        // Проверяем, что ответ содержит перевод
+        if (data.responseData && data.responseData.translatedText) {
+            let translation = data.responseData.translatedText;
+            // Иногда MyMemory возвращает тот же текст, если слово не найдено
+            if (translation && translation.toLowerCase() !== cleanWord) {
+                translationCache.set(cleanWord, translation);
+                return translation;
+            }
+        }
+
+        // Если перевод не найден или совпадает с исходным, сохраняем плейсхолдер
+        const placeholder = `[${cleanWord}]`;
+        translationCache.set(cleanWord, placeholder);
+        return cleanWord;
+
+    } catch (error) {
+        console.warn('⚠️ MyMemory API error:', error);
+        // В случае ошибки возвращаем слово как есть
+        return cleanWord;
+    }
 }
 
 function speak(text, lang = 'en-US', rate = 0.85) {
@@ -1088,6 +788,7 @@ function speakSentence(sentence, lang = 'en-US') {
     cleanSentence = cleanEnglishText(cleanSentence);
     cleanSentence = cleanSentence.replace(/_{2,}/g, ' ... ');
 
+    // Убираем точки и другие знаки препинания, которые мешают озвучке
     cleanSentence = cleanSentence.replace(/[.,!?;:()\[\]{}"']/g, ' ');
     cleanSentence = cleanSentence.replace(/\s+/g, ' ').trim();
 
@@ -1110,6 +811,7 @@ function showToast(message, type = 'success') {
 function makeWordsClickable(text, context = '') {
     if (!text) return '';
 
+    // Сохраняем HTML-теги
     const tagPlaceholders = [];
     let processedText = text.replace(/<[^>]+>/g, (match) => {
         const placeholder = `__TAG_${tagPlaceholders.length}__`;
@@ -1129,12 +831,17 @@ function makeWordsClickable(text, context = '') {
     return processedText;
 }
 
+// ========== РЕНДЕР ТЕКСТА ДЛЯ ЧТЕНИЯ ==========
 function renderReadingTextContent(readingText) {
     if (!readingText) return '';
 
+    // Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+    // Заменяем \n на <br>
     processedText = processedText.replace(/\n/g, '<br>');
 
+    // Защищаем HTML-теги от обработки кликабельностью
     const tagPlaceholders = [];
     processedText = processedText.replace(/<[^>]+>/g, (match) => {
         const placeholder = `{{TAG_${tagPlaceholders.length}}}`;
@@ -1142,12 +849,14 @@ function renderReadingTextContent(readingText) {
         return placeholder;
     });
 
+    // Делаем слова кликабельными
     processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
         if (word.includes('{{TAG_')) return word;
         const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
     });
 
+    // Возвращаем HTML-теги обратно
     for (const { placeholder, tag } of tagPlaceholders) {
         processedText = processedText.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), tag);
     }
@@ -1407,7 +1116,7 @@ function showCopyrightPopup() {
             <strong>✅ Разрешено:</strong> использовать для личного обучения, проходить уроки с семьёй (один аккаунт на домохозяйство).
         </p>
         <div style="background: rgba(99, 102, 241, 0.1); padding: 12px; border-radius: 12px; margin-bottom: 20px; font-size: 0.85rem;">
-            📖 Подробнее в <a href="/english_by_weeks/frontend/terms.html" target="_blank" style="color: var(--primary);">Условиях использования</a>
+            📖 Подробнее в <a href="/terms.html" target="_blank" style="color: var(--primary);">Условиях использования</a>
         </div>
         <button id="copyright-accept-btn" style="
             width: 100%;
@@ -1457,12 +1166,16 @@ const TIPS_LIST = [
     { icon: "🎮", text: "Играйте в видеоигры на английском. Диалоги и интерфейс — отличная языковая практика!" },
     { icon: "📱", text: "Переключите телефон на английский. Вы будете видеть язык каждый день и быстро привыкнете!" },
     { icon: "🎵", text: "Слушайте английские песни и пытайтесь подпевать. Это улучшает произношение и ритм речи!" },
+
+    // === Этимология (происхождение слов) ===
     { icon: "🔍", text: "Слово «каникулы» происходит от латинского «canicula» — так называли звезду Сириус (собачью звезду). В Древнем Риме в период её появления на небе школы закрывались на отдых." },
     { icon: "📖", text: "Слово «школа» в переводе с греческого означает «досуг». В Древней Греции школой называли место, где люди проводили свободное время в философских беседах." },
     { icon: "💻", text: "Слово «компьютер» раньше было профессией! Так называли людей, которые выполняли сложные расчёты вручную." },
     { icon: "🤖", text: "Слово «робот» придумал чешский писатель Карел Чапек. Оно происходит от слова «robota», что означает «тяжёлая работа»." },
     { icon: "📱", text: "Слово «смартфон» — это два слова: smart (умный) + phone (телефон). Но первый смартфон появился только в 1992 году!" },
     { icon: "🎒", text: "Слово «рюкзак» — буквально «рюха» (мешок) + «зак» (за спиной). А по-английски backpack — это back (спина) + pack (пакет)." },
+
+    // === Забавные факты о мире ===
     { icon: "🐘", text: "Слоны — единственные млекопитающие, которые не умеют прыгать. Зато они отлично плавают и даже ныряют, используя хобот как трубку!" },
     { icon: "🐪", text: "Верблюды хранят жир не в горбах, а вокруг них. Горбы служат «крышей» для защиты от солнца. А воду они действительно могут долго не пить." },
     { icon: "🦒", text: "Жирафам не нужно много спать — достаточно 30 минут в день. А ещё у них самый длинный хвост среди млекопитающих (до 2,5 метров!)." },
@@ -1470,6 +1183,8 @@ const TIPS_LIST = [
     { icon: "🍕", text: "Самая популярная пицца в мире — Маргарита. Она названа в честь королевы Италии Маргариты Савойской, которая попробовала её в 1889 году." },
     { icon: "🍿", text: "Попкорн появился тысячи лет назад. Древние индейцы обнаружили, что некоторые зёрна кукурузы взрываются при нагревании." },
     { icon: "✏️", text: "Обычным карандашом можно написать линию длиной около 56 километров — это больше, чем расстояние от Москвы до Подольска и обратно!" },
+
+    // === Мотивация и лайфхаки для учёбы ===
     { icon: "⏰", text: "Учёные выяснили: мозг лучше всего запоминает информацию утром (через 1–2 часа после пробуждения) и перед сном." },
     { icon: "🧠", text: "Объясняйте новую тему кому-то другому. Когда вы учите кого-то, вы запоминаете в 2 раза лучше." },
     { icon: "🎯", text: "Разбивайте большую задачу на маленькие шаги. 5 минут занятий — это лучше, чем ничего. Главное — начать!" },
