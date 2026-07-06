@@ -755,63 +755,62 @@ async function translateWord(word, context = '') {
     const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
     if (cleanWord.length < 2) return word;
 
-    // 1. Проверяем кэш переводов (localDictionary уже загружен в кэш)
+    // 1. Проверяем кэш переводов
     if (translationCache.has(cleanWord)) {
         const cached = translationCache.get(cleanWord);
-        // Если в кэше хранится плейсхолдер [слово] – значит, его нет в словаре, попробуем API
         if (cached && !cached.startsWith('[')) {
             return cached;
         }
-        // Если это плейсхолдер, удаляем его, чтобы попробовать API
         if (cached && cached.startsWith('[')) {
             translationCache.delete(cleanWord);
         }
     }
 
-    // 2. Проверяем локальный словарь (если по какой-то причине его нет в кэше)
+    // 2. Проверяем локальный словарь
     if (localDictionary.has(cleanWord)) {
         const translation = localDictionary.get(cleanWord);
         translationCache.set(cleanWord, translation);
         return translation;
     }
 
-    // 3. Если слова нет в словаре, делаем запрос к LibreTranslate API
-try {
-    const response = await fetch(`https://libretranslate.com/translate`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            q: cleanWord,
-            source: 'en',
-            target: 'ru',
-            format: 'text'
-        })
-    });
+    // 3. Если слова нет в словаре, делаем запрос к LibreTranslate
+    try {
+        const response = await fetch('https://libretranslate.com/translate', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                q: cleanWord,
+                source: 'en',
+                target: 'ru',
+                format: 'text'
+            })
+        });
 
-    if (!response.ok) {
-        throw new Error(`API error: ${response.status}`);
-    }
-
-    const data = await response.json();
-    if (data && data.translatedText) {
-        let translation = data.translatedText;
-        if (translation && translation.toLowerCase() !== cleanWord) {
-            translationCache.set(cleanWord, translation);
-            return translation;
+        if (!response.ok) {
+            throw new Error(`API error: ${response.status}`);
         }
+
+        const data = await response.json();
+        if (data && data.translatedText) {
+            let translation = data.translatedText;
+            if (translation && translation.toLowerCase() !== cleanWord) {
+                translationCache.set(cleanWord, translation);
+                return translation;
+            }
+        }
+
+        // Если перевод не найден или совпадает с исходным
+        const placeholder = `[${cleanWord}]`;
+        translationCache.set(cleanWord, placeholder);
+        return cleanWord;
+
+    } catch (error) {
+        console.warn('⚠️ LibreTranslate API error:', error);
+        // В случае ошибки возвращаем слово как есть
+        return cleanWord;
     }
-
-    // Если перевод не найден или совпадает с исходным
-    const placeholder = `[${cleanWord}]`;
-    translationCache.set(cleanWord, placeholder);
-    return cleanWord;
-
-} catch (error) {
-    console.warn('⚠️ LibreTranslate API error:', error);
-    return cleanWord;
-}
 }
 
 function speak(text, lang = 'en-US', rate = 0.85) {
