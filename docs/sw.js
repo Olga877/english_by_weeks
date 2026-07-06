@@ -1,8 +1,7 @@
-const CACHE_NAME = 'english-by-weeks-v4';
+const CACHE_NAME = 'english-by-weeks-v5';
 const STATIC_CACHE = 'static-v1';
 const WEEKS_CACHE = 'weeks-v1';
 
-// Все статические файлы приложения
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -17,7 +16,6 @@ const STATIC_ASSETS = [
 ];
 
 const WEEK_FILES = [
-  // Школьные недели (5 класс)
   '/data/lessons/school/grade5/week1_school.json',
   '/data/lessons/school/grade5/week2_numbers.json',
   '/data/lessons/school/grade5/week3_capital_letters.json',
@@ -45,12 +43,10 @@ const WEEK_FILES = [
   '/data/lessons/school/grade5/week25_shopping.json',
   '/data/lessons/school/grade5/week26_past_simple.json',
   '/data/lessons/school/grade5/week27_films.json',
-  // Взрослые недели (B1)
   '/data/lessons/adults/B1/money_week.json',
   '/data/lessons/adults/B1/adult_body_modals.json'
 ];
 
-// Установка — кэшируем статику и недели
 self.addEventListener('install', (event) => {
   console.log('🔧 SW: Установка...');
   event.waitUntil(
@@ -74,7 +70,6 @@ self.addEventListener('install', (event) => {
   self.skipWaiting();
 });
 
-// Активация — чистим старые кэши
 self.addEventListener('activate', (event) => {
   console.log('🔧 SW: Активация...');
   event.waitUntil(
@@ -87,12 +82,27 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Обработка запросов — сначала кэш, потом сеть
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Статика — из кэша
-  if (url.pathname.match(/\.(css|js|html|json|png|jpg|svg|ico)$/)) {
+  // ===== JS и CSS — сначала СЕТЬ, потом кэш =====
+  if (url.pathname.match(/\.(js|css)$/)) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          // Кэшируем обновлённую версию
+          caches.open(STATIC_CACHE).then(cache => {
+            cache.put(event.request, response.clone());
+          });
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // ===== Остальная статика — из кэша, при ошибке сеть =====
+  if (url.pathname.match(/\.(html|json|png|jpg|svg|ico)$/)) {
     event.respondWith(
       caches.match(event.request)
         .then(cached => cached || fetch(event.request))
@@ -100,7 +110,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // API с уроками — из кэша недель
+  // ===== API с уроками — из кэша недель =====
   if (url.pathname.includes('/api/lessons/')) {
     event.respondWith(
       caches.open(WEEKS_CACHE)
@@ -120,7 +130,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Всё остальное — сеть, при ошибке кэш
+  // ===== Всё остальное — сеть, при ошибке кэш =====
   event.respondWith(
     fetch(event.request)
       .catch(() => caches.match(event.request))
