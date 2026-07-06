@@ -636,10 +636,16 @@ header .week-title-wrapper h1 {
 }
 
 /* ========== КЛИКАБЕЛЬНЫЕ СЛОВА (БЕЗ ПОДЧЁРКИВАНИЯ) ========== */
-.clickable-word {
-    cursor: pointer;
-    border-bottom: none !important;
+.clickable-word,
+.clickable-word:link,
+.clickable-word:visited,
+.clickable-word:hover,
+.clickable-word:active,
+a .clickable-word,
+.clickable-word a {
     text-decoration: none !important;
+    border-bottom: none !important;
+    cursor: pointer;
     transition: background 0.2s;
 }
 
