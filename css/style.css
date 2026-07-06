@@ -634,3 +634,16 @@ header .week-title-wrapper h1 {
     background-clip: unset !important;
     background-image: none !important;
 }
+
+/* ========== КЛИКАБЕЛЬНЫЕ СЛОВА (БЕЗ ПОДЧЁРКИВАНИЯ) ========== */
+.clickable-word {
+    cursor: pointer;
+    border-bottom: none !important;
+    text-decoration: none !important;
+    transition: background 0.2s;
+}
+
+.clickable-word:hover {
+    background: rgba(99, 102, 241, 0.1);
+    border-radius: 4px;
+}
