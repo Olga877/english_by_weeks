@@ -85,15 +85,18 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // ===== JS и CSS — сначала СЕТЬ, потом кэш =====
+  // ===== JS и CSS — сначала СЕТЬ, потом кэш (с исправлением clone) =====
   if (url.pathname.match(/\.(js|css)$/)) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
-          // Кэшируем обновлённую версию
-          caches.open(STATIC_CACHE).then(cache => {
-            cache.put(event.request, response.clone());
-          });
+          // Клонируем ответ ДО того, как вернуть его
+          if (response && response.ok) {
+            const responseToCache = response.clone();
+            caches.open(STATIC_CACHE).then(cache => {
+              cache.put(event.request, responseToCache);
+            });
+          }
           return response;
         })
         .catch(() => caches.match(event.request))
