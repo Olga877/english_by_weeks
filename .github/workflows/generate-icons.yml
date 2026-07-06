@@ -5,6 +5,10 @@ on:
     paths:
       - 'frontend/icons/icon.svg'
 
+env:
+  # Принудительно запускаем JavaScript-действия на Node.js 24
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
