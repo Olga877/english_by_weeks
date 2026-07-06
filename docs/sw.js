@@ -1,6 +1,6 @@
-const CACHE_NAME = 'english-by-weeks-v6';
-const STATIC_CACHE = 'static-v1';
-const WEEKS_CACHE = 'weeks-v1';
+const CACHE_NAME = 'english-by-weeks-v7';
+const STATIC_CACHE = 'static-v2';   // новое имя
+const WEEKS_CACHE = 'weeks-v2';     // новое имя
 
 const STATIC_ASSETS = [
   '/',
@@ -85,17 +85,19 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // ===== JS и CSS — сначала СЕТЬ, потом кэш (с исправлением clone) =====
+  // ===== JS и CSS — сначала СЕТЬ, потом кэш (с безопасным клонированием) =====
   if (url.pathname.match(/\.(js|css)$/)) {
     event.respondWith(
       fetch(event.request)
         .then(response => {
-          // Клонируем ответ ДО того, как вернуть его
           if (response && response.ok) {
             const responseToCache = response.clone();
-            caches.open(STATIC_CACHE).then(cache => {
-              cache.put(event.request, responseToCache);
-            });
+            caches.open(STATIC_CACHE)
+              .then(cache => {
+                cache.put(event.request, responseToCache)
+                  .catch(err => console.debug('Cache put error (ignored):', err));
+              })
+              .catch(err => console.debug('Cache open error:', err));
           }
           return response;
         })
