@@ -11,8 +11,8 @@ permissions:
   id-token: write
 
 env:
-  # Принудительно запускаем JavaScript-действия на Node.js 24
-  # (убирает предупреждение о deprecation Node.js 20)
+  # Принудительно запускает все JavaScript-действия на Node.js 24
+  # Убирает предупреждение о deprecation Node.js 20
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
@@ -29,10 +29,10 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'   # 👈 Папка с файлами сайта
+          path: './docs'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
