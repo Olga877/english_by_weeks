@@ -144,9 +144,13 @@ self.addEventListener('fetch', (event) => {
 });
 
 // Уведомления
-self.addEventListener('sync', (event) => {
-  if (event.tag === 'daily-notification') {
-    event.waitUntil(sendDailyNotification());
+self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
+  // === Игнорируем запросы к внешним доменам ===
+  if (url.origin !== location.origin) {
+    event.respondWith(fetch(event.request));
+    return;
   }
 });
 

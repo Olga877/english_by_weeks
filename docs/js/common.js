@@ -775,41 +775,43 @@ async function translateWord(word, context = '') {
         return translation;
     }
 
-    // 3. Если слова нет в словаре, делаем запрос к MyMemory API
-    try {
-        const response = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(cleanWord)}&langpair=en|ru&de=dasha@example.com`, {
-            method: 'GET',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            }
-        });
+    // 3. Если слова нет в словаре, делаем запрос к LibreTranslate API
+try {
+    const response = await fetch(`https://libretranslate.com/translate`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            q: cleanWord,
+            source: 'en',
+            target: 'ru',
+            format: 'text'
+        })
+    });
 
-        if (!response.ok) {
-            throw new Error(`API error: ${response.status}`);
-        }
-
-        const data = await response.json();
-        // Проверяем, что ответ содержит перевод
-        if (data.responseData && data.responseData.translatedText) {
-            let translation = data.responseData.translatedText;
-            // Иногда MyMemory возвращает тот же текст, если слово не найдено
-            if (translation && translation.toLowerCase() !== cleanWord) {
-                translationCache.set(cleanWord, translation);
-                return translation;
-            }
-        }
-
-        // Если перевод не найден или совпадает с исходным, сохраняем плейсхолдер
-        const placeholder = `[${cleanWord}]`;
-        translationCache.set(cleanWord, placeholder);
-        return cleanWord;
-
-    } catch (error) {
-        console.warn('⚠️ MyMemory API error:', error);
-        // В случае ошибки возвращаем слово как есть
-        return cleanWord;
+    if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
     }
+
+    const data = await response.json();
+    if (data && data.translatedText) {
+        let translation = data.translatedText;
+        if (translation && translation.toLowerCase() !== cleanWord) {
+            translationCache.set(cleanWord, translation);
+            return translation;
+        }
+    }
+
+    // Если перевод не найден или совпадает с исходным
+    const placeholder = `[${cleanWord}]`;
+    translationCache.set(cleanWord, placeholder);
+    return cleanWord;
+
+} catch (error) {
+    console.warn('⚠️ LibreTranslate API error:', error);
+    return cleanWord;
+}
 }
 
 function speak(text, lang = 'en-US', rate = 0.85) {
