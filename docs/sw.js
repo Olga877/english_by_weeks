@@ -1,18 +1,18 @@
-const CACHE_NAME = 'english-by-weeks-v7';
-const STATIC_CACHE = 'static-v2';   // новое имя
-const WEEKS_CACHE = 'weeks-v2';     // новое имя
+const CACHE_NAME = 'english-by-weeks-v9';
+const STATIC_CACHE = 'static-v4';
+const WEEKS_CACHE = 'weeks-v4';
 
 const STATIC_ASSETS = [
   '/',
-  '/index.html',
-  '/week.html',
-  '/school_week.html',
-  '/css/style.css',
-  '/js/common.js',
-  '/js/index.js',
-  '/js/week.js',
-  '/js/school_week.js',
-  '/manifest.json'
+  '/index.html?v=9',
+  '/week.html?v=9',
+  '/school_week.html?v=9',
+  '/css/style.css?v=9',
+  '/js/common.js?v=9',
+  '/js/index.js?v=9',
+  '/js/week.js?v=9',
+  '/js/school_week.js?v=9',
+  '/manifest.json?v=9'
 ];
 
 const WEEK_FILES = [
@@ -87,6 +87,7 @@ self.addEventListener('fetch', (event) => {
 
   // ===== JS и CSS — сначала СЕТЬ, потом кэш (с безопасным клонированием) =====
   if (url.pathname.match(/\.(js|css)$/)) {
+    const cacheUrl = url.pathname; // сохраняем без параметров
     event.respondWith(
       fetch(event.request)
         .then(response => {
