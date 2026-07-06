@@ -663,3 +663,45 @@ a .clickable-word,
     position: relative;
     overflow: hidden;
 }
+.tip-label {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 30px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.tip-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--text);
+    margin-bottom: 15px;
+    padding-right: 20px;
+}
+
+.tip-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tip-refresh {
+    background: none;
+    border: none;
+    color: var(--gray);
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.tip-refresh:hover {
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.1);
+}
