@@ -653,3 +653,13 @@ a .clickable-word,
     background: rgba(99, 102, 241, 0.1);
     border-radius: 4px;
 }
+
+.tip-section {
+    background: linear-gradient(135deg, rgba(249,115,22,0.08), rgba(139,92,246,0.08));
+    border-radius: 20px;
+    padding: 25px 30px;
+    margin: 40px 0 30px;
+    border-left: 4px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+}
