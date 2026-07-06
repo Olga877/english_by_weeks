@@ -900,3 +900,41 @@ a .clickable-word,
         justify-content: center;
     }
 }
+
+/* ========== ПОДВАЛ (ФУТЕР) ========== */
+.site-footer {
+    text-align: center;
+    padding: 30px 20px 20px;
+    margin-top: 40px;
+    border-top: 1px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--gray);
+}
+
+.site-footer a {
+    color: var(--gray);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+
+.site-footer a:hover {
+    color: var(--primary);
+}
+
+.footer-links {
+    margin-top: 8px;
+}
+
+/* Адаптация для мобильных устройств */
+@media (max-width: 600px) {
+    .site-footer {
+        padding: 20px 16px 16px;
+        margin-top: 20px;
+        font-size: 0.7rem;
+    }
+    .footer-links a {
+        display: inline-block;
+        margin: 4px 6px;
+    }
+}
