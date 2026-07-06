@@ -858,28 +858,28 @@ function showToast(message, type = 'success') {
     setTimeout(() => toast.remove(), 3000);
 }
 
-function makeWordsClickable(text, context = '') {
-    if (!text) return '';
-
-    // Сохраняем HTML-теги
-    const tagPlaceholders = [];
-    let processedText = text.replace(/<[^>]+>/g, (match) => {
-        const placeholder = `__TAG_${tagPlaceholders.length}__`;
-        tagPlaceholders.push(match);
-        return placeholder;
-    });
-
-    processedText = processedText.replace(/\b([a-zA-Z]{2,}(?:'[a-zA-Z]+)?)\b/g, (match) => {
-        const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
-        return `<span class="clickable-word" data-word="${safeWord}" data-context="${context.replace(/'/g, "\\'")}">${match}</span>`;
-    });
-
-    tagPlaceholders.forEach((placeholder, index) => {
-        processedText = processedText.replace(placeholder, tagPlaceholders[index]);
-    });
-
-    return processedText;
-}
+//function makeWordsClickable(text, context = '') {
+//    if (!text) return '';
+//
+//    // Сохраняем HTML-теги
+//    const tagPlaceholders = [];
+//    let processedText = text.replace(/<[^>]+>/g, (match) => {
+//        const placeholder = `__TAG_${tagPlaceholders.length}__`;
+//        tagPlaceholders.push(match);
+//        return placeholder;
+//    });
+//
+//    processedText = processedText.replace(/\b([a-zA-Z]{2,}(?:'[a-zA-Z]+)?)\b/g, (match) => {
+//        const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+//        return `<span class="clickable-word" data-word="${safeWord}" data-context="${context.replace(/'/g, "\\'")}">${match}</span>`;
+//    });
+//
+//    tagPlaceholders.forEach((placeholder, index) => {
+//        processedText = processedText.replace(placeholder, tagPlaceholders[index]);
+//    });
+//
+//    return processedText;
+//}
 
 // ========== РЕНДЕР ТЕКСТА ДЛЯ ЧТЕНИЯ ==========
 function renderReadingTextContent(readingText) {
