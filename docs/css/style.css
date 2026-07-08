@@ -939,32 +939,19 @@ a .clickable-word,
     }
 }
 
-/* ========== ЯРКИЕ СЛОВА И ПРИМЕРЫ В СЛОВАРЕ ========== */
-.vocab-word {
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 1.1rem;
-    letter-spacing: 0.3px;
+/* ========== КНОПКИ ОЗВУЧКИ В СЛОВАРЕ ========== */
+.vocab-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text);          /* наследуем цвет текста темы */
+    font-size: 0.85rem;
+    transition: color 0.2s, background 0.2s;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
 
-.vocab-example {
-    color: var(--text);
-    font-weight: 500;
-    font-style: italic;
-    opacity: 0.9; /* чуть ярче, чем обычно */
-}
-
-.vocab-translation {
-    color: var(--gray);
-    font-weight: 400;
-}
-
-/* Для тёмной темы можно дополнительно усилить контраст */
-body.dark .vocab-word {
-    color: var(--secondary); /* или оставить var(--primary), если он яркий */
-}
-
-body.dark .vocab-example {
-    color: #e2e8f0; /* светлый, контрастный */
-    opacity: 1;
+.vocab-item button:hover {
+    color: var(--primary);       /* при наведении — акцентный цвет */
+    background: rgba(99, 102, 241, 0.1);
 }
