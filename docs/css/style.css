@@ -938,3 +938,33 @@ a .clickable-word,
         margin: 4px 6px;
     }
 }
+
+/* ========== ЯРКИЕ СЛОВА И ПРИМЕРЫ В СЛОВАРЕ ========== */
+.vocab-word {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
+}
+
+.vocab-example {
+    color: var(--text);
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.9; /* чуть ярче, чем обычно */
+}
+
+.vocab-translation {
+    color: var(--gray);
+    font-weight: 400;
+}
+
+/* Для тёмной темы можно дополнительно усилить контраст */
+body.dark .vocab-word {
+    color: var(--secondary); /* или оставить var(--primary), если он яркий */
+}
+
+body.dark .vocab-example {
+    color: #e2e8f0; /* светлый, контрастный */
+    opacity: 1;
+}
