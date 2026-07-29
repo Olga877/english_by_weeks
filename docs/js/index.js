@@ -11,12 +11,13 @@ const adultLevels = [
         id: 'B1',
         title: 'B1 (Intermediate)',
         icon: '💰',
-        description: 'Доступные темы: Money Week, The Body & Modals of Deduction',
+        description: 'Доступные темы: Money Week, The Body, School & Education',
         available: true,
         comingSoon: false,
         weeks: [
             { weekId: 'money_week', title: '💰 Money Week: Present Perfect & Past Simple' },
-            { weekId: 'adult_body_modals', title: '🧍 The Body & Modals of Deduction' }
+            { weekId: 'adult_body_modals', title: '🧍 The Body & Modals of Deduction' },
+            { weekId: 'school_education', title: '🎓 School & Education: First Conditional' }
         ]
     },
     { id: 'B2', title: 'B2 (Upper-Intermediate)', icon: '🚀', description: 'Сложные темы, дебаты, бизнес-английский.', available: false, comingSoon: true },
