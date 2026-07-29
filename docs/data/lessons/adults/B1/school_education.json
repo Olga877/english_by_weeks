@@ -8,146 +8,146 @@
     "is_published": true,
     "days": [
         {
-            "day": 1,
-            "title": "Day 1: School System in the UK",
-            "description": "Знакомимся с типами школ и ключевыми словами о британской системе образования",
-            "grammar": {
-                "title": "School Vocabulary (UK)",
-                "rule": "📘 В Великобритании дети идут в начальную школу (primary school) в 5 лет. До этого некоторые посещают nursery school (с 2–4 лет), но это не обязательно. С 11 до 18 лет — secondary school. Большинство школ — государственные (state schools), финансируются правительством, обучение бесплатное. Около 10% — частные (private schools), где родители платят. Некоторые из них — школы-пансионы (boarding schools), где дети живут и учатся. Учеников начальной школы часто называют pupils, а средней и университета — students. Руководитель школы — head teacher. Учебный год делится на три terms (семестра). Чтобы поступить в университет, нужно сдать экзамены A-levels. Выпускник университета с degree называется graduate.",
-                "examples": []
-            },
-            "vocabulary": [
-                {"icon": "🏫", "word": "nursery", "transcription": "/ˈnɜːsəri/", "translation": "детский сад (для самых маленьких)", "example": "Many children go to nursery before primary school.", "context_translation": "детский сад", "context_example": "Многие дети ходят в детский сад перед начальной школой."},
-                {"icon": "📚", "word": "primary", "transcription": "/ˈpraɪməri/", "translation": "начальный (о школе)", "example": "Primary school starts at age 5.", "context_translation": "начальный", "context_example": "Начальная школа начинается с 5 лет."},
-                {"icon": "🏛️", "word": "secondary", "transcription": "/ˈsekəndri/", "translation": "средний (о школе)", "example": "Secondary school is for ages 11–18.", "context_translation": "средний", "context_example": "Средняя школа для возраста 11–18 лет."},
-                {"icon": "🏛️", "word": "state", "transcription": "/steɪt/", "translation": "государственный (о школе)", "example": "State schools are free.", "context_translation": "государственный", "context_example": "Государственные школы бесплатны."},
-                {"icon": "💷", "word": "private", "transcription": "/ˈpraɪvət/", "translation": "частный", "example": "Private schools charge fees.", "context_translation": "частный", "context_example": "Частные школы взимают плату."},
-                {"icon": "🏠", "word": "boarding", "transcription": "/ˈbɔːdɪŋ/", "translation": "пансион (школа с проживанием)", "example": "Boarding schools have dormitories.", "context_translation": "пансион", "context_example": "В школах-пансионах есть общежития."},
-                {"icon": "👦", "word": "pupil", "transcription": "/ˈpjuːpl/", "translation": "ученик (начальной школы)", "example": "Primary school pupils are young.", "context_translation": "ученик", "context_example": "Ученики начальной школы маленькие."},
-                {"icon": "👨‍🎓", "word": "student", "transcription": "/ˈstjuːdnt/", "translation": "студент, ученик (средней/высшей школы)", "example": "Secondary school students study many subjects.", "context_translation": "студент", "context_example": "Ученики средней школы изучают много предметов."},
-                {"icon": "👩‍🏫", "word": "head", "transcription": "/hed/", "translation": "директор (школы)", "example": "The head teacher is in charge.", "context_translation": "директор", "context_example": "Директор отвечает за школу."},
-                {"icon": "📅", "word": "term", "transcription": "/tɜːm/", "translation": "семестр, триместр", "example": "The school year has three terms.", "context_translation": "семестр", "context_example": "Учебный год состоит из трёх триместров."},
-                {"icon": "🎓", "word": "degree", "transcription": "/dɪˈɡriː/", "translation": "учёная степень (диплом)", "example": "She got a degree in law.", "context_translation": "степень", "context_example": "Она получила степень по праву."},
-                {"icon": "📖", "word": "graduate", "transcription": "/ˈɡrædʒuət/", "translation": "выпускник (университета)", "example": "Graduates often find good jobs.", "context_translation": "выпускник", "context_example": "Выпускники часто находят хорошую работу."}
-            ],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "fill_blank",
-                    "question": "In the UK, children go to ___ school at age 5. (primary / secondary)",
-                    "correct": "primary",
-                    "accept": ["primary", "Primary", "PRIMARY"],
-                    "explanation": "Primary school starts at age 5 in the UK.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 2,
-                    "type": "multiple_choice",
-                    "question": "Which type of school is free and paid for by the government?",
-                    "options": ["Private school", "State school", "Boarding school", "Nursery school"],
-                    "correct": "State school",
-                    "accept": ["State school", "state school", "STATE SCHOOL"],
-                    "explanation": "State schools are funded by the government and free.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 3,
-                    "type": "fill_blank",
-                    "question": "The person in charge of a school is called the ___ teacher.",
-                    "correct": "head",
-                    "accept": ["head", "Head", "HEAD"],
-                    "explanation": "The head teacher is the principal.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 4,
-                    "type": "true_false",
-                    "question": "In the UK, the school year is divided into two semesters.",
-                    "correct": "False",
-                    "accept": ["False", "false", "FALSE", "No", "no"],
-                    "explanation": "In the UK, it's divided into three terms, not two semesters.",
-                    "topic": "reading"
-                },
-                {
-                    "id": 5,
-                    "type": "multiple_choice",
-                    "question": "What do you call a person who has finished university with a degree?",
-                    "options": ["Pupil", "Student", "Graduate", "Head"],
-                    "correct": "Graduate",
-                    "accept": ["Graduate", "graduate", "GRADUATE"],
-                    "explanation": "A graduate is someone who has completed a university degree.",
-                    "topic": "vocabulary"
-                }
-            ]
+    "day": 1,
+    "title": "Day 1: School System in the UK",
+    "description": "Learn about types of schools and key vocabulary in the British education system",
+    "grammar": {
+        "title": "School Vocabulary (UK)",
+        "rule": "📘 In the UK, children start primary school when they are five. Before that, many children go to nursery school (between the ages of two and four), but this is not compulsory. From 11 to 18, children go to secondary school. The majority of schools in the UK (about 90%) are state schools, which means they are paid for by the government and education is free. The other 10% are private schools, where parents have to pay. A few of these are boarding schools, where children study, eat, and sleep. Children at primary school are often called pupils, and children at secondary school are usually called students, as are people who are studying at university. The person who is in charge of a school is called the head teacher. The school year is divided into three terms. If you want to go to university, you have to take exams called A levels in your last year at school. If your results are good enough, you get a place. A person who has finished university and has a degree is called a graduate.",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🏫", "word": "nursery", "transcription": "/ˈnɜːsəri/", "translation": "детский сад (для самых маленьких)", "example": "Many children go to nursery before primary school.", "context_translation": "детский сад", "context_example": "Многие дети ходят в детский сад перед начальной школой."},
+        {"icon": "📚", "word": "primary", "transcription": "/ˈpraɪməri/", "translation": "начальный (о школе)", "example": "Primary school starts at age 5.", "context_translation": "начальный", "context_example": "Начальная школа начинается с 5 лет."},
+        {"icon": "🏛️", "word": "secondary", "transcription": "/ˈsekəndri/", "translation": "средний (о школе)", "example": "Secondary school is for ages 11–18.", "context_translation": "средний", "context_example": "Средняя школа для возраста 11–18 лет."},
+        {"icon": "🏛️", "word": "state", "transcription": "/steɪt/", "translation": "государственный (о школе)", "example": "State schools are free.", "context_translation": "государственный", "context_example": "Государственные школы бесплатны."},
+        {"icon": "💷", "word": "private", "transcription": "/ˈpraɪvət/", "translation": "частный", "example": "Private schools charge fees.", "context_translation": "частный", "context_example": "Частные школы взимают плату."},
+        {"icon": "🏠", "word": "boarding", "transcription": "/ˈbɔːdɪŋ/", "translation": "пансион (школа с проживанием)", "example": "Boarding schools have dormitories.", "context_translation": "пансион", "context_example": "В школах-пансионах есть общежития."},
+        {"icon": "👦", "word": "pupil", "transcription": "/ˈpjuːpl/", "translation": "ученик (начальной школы)", "example": "Primary school pupils are young.", "context_translation": "ученик", "context_example": "Ученики начальной школы маленькие."},
+        {"icon": "👨‍🎓", "word": "student", "transcription": "/ˈstjuːdnt/", "translation": "студент, ученик (средней/высшей школы)", "example": "Secondary school students study many subjects.", "context_translation": "студент", "context_example": "Ученики средней школы изучают много предметов."},
+        {"icon": "👩‍🏫", "word": "head", "transcription": "/hed/", "translation": "директор (школы)", "example": "The head teacher is in charge.", "context_translation": "директор", "context_example": "Директор отвечает за школу."},
+        {"icon": "📅", "word": "term", "transcription": "/tɜːm/", "translation": "семестр, триместр", "example": "The school year has three terms.", "context_translation": "семестр", "context_example": "Учебный год состоит из трёх триместров."},
+        {"icon": "🎓", "word": "degree", "transcription": "/dɪˈɡriː/", "translation": "учёная степень (диплом)", "example": "She got a degree in law.", "context_translation": "степень", "context_example": "Она получила степень по праву."},
+        {"icon": "📖", "word": "graduate", "transcription": "/ˈɡrædʒuət/", "translation": "выпускник (университета)", "example": "Graduates often find good jobs.", "context_translation": "выпускник", "context_example": "Выпускники часто находят хорошую работу."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "fill_blank",
+            "question": "In the UK, children go to ___ school at age 5. (primary / secondary)",
+            "correct": "primary",
+            "accept": ["primary", "Primary", "PRIMARY"],
+            "explanation": "Primary school starts at age 5 in the UK.",
+            "topic": "vocabulary"
         },
         {
-            "day": 2,
-            "title": "Day 2: School System in the US",
-            "description": "Изучаем американскую систему образования и связанную лексику",
-            "grammar": {
-                "title": "School Vocabulary (US)",
-                "rule": "📘 В США система образования делится на три уровня: elementary school (начальная), middle school (или junior high school), и high school (старшая). Ученики делятся по возрастным группам на grades (классы). Самые маленькие начинают с kindergarten (детский сад), затем first grade и так до twelfth grade (последний класс старшей школы). Учебный год обычно делится на два semesters. Высшее образование в США часто называют college (колледж), хотя это может быть и университет.",
-                "examples": []
-            },
-            "vocabulary": [
-                {"icon": "🏫", "word": "elementary", "transcription": "/ˌelɪˈmentri/", "translation": "начальный (о школе)", "example": "Elementary school is for young children.", "context_translation": "начальный", "context_example": "Начальная школа для маленьких детей."},
-                {"icon": "🏛️", "word": "middle", "transcription": "/ˈmɪdl/", "translation": "средний (о школе, junior high)", "example": "Middle school is between elementary and high school.", "context_translation": "средний", "context_example": "Средняя школа находится между начальной и старшей."},
-                {"icon": "🏛️", "word": "high", "transcription": "/haɪ/", "translation": "старший (о школе)", "example": "High school is the final stage of secondary education.", "context_translation": "старший", "context_example": "Старшая школа — последний этап среднего образования."},
-                {"icon": "🧸", "word": "kindergarten", "transcription": "/ˈkɪndəɡɑːtn/", "translation": "детский сад (в США)", "example": "Children start kindergarten at age 5.", "context_translation": "детский сад", "context_example": "Дети идут в детский сад в 5 лет."},
-                {"icon": "📊", "word": "grade", "transcription": "/ɡreɪd/", "translation": "класс, оценка", "example": "She is in the fifth grade.", "context_translation": "класс", "context_example": "Она в пятом классе."},
-                {"icon": "📅", "word": "semester", "transcription": "/sɪˈmestər/", "translation": "семестр (в США)", "example": "The academic year has two semesters.", "context_translation": "семестр", "context_example": "Учебный год состоит из двух семестров."},
-                {"icon": "🏛️", "word": "college", "transcription": "/ˈkɒlɪdʒ/", "translation": "колледж (вуз)", "example": "Many students go to college after high school.", "context_translation": "колледж", "context_example": "Многие студенты идут в колледж после школы."}
-            ],
-            "exercises": [
-                {
-                    "id": 1,
-                    "type": "fill_blank",
-                    "question": "In the US, the youngest children start school in ___ .",
-                    "correct": "kindergarten",
-                    "accept": ["kindergarten", "Kindergarten", "KINDERGARTEN"],
-                    "explanation": "Kindergarten is the first year of schooling in the US.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 2,
-                    "type": "multiple_choice",
-                    "question": "What is the final year of high school in the US?",
-                    "options": ["Tenth grade", "Eleventh grade", "Twelfth grade", "Thirteenth grade"],
-                    "correct": "Twelfth grade",
-                    "accept": ["Twelfth grade", "twelfth grade", "TWELFTH GRADE"],
-                    "explanation": "High school ends with twelfth grade.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 3,
-                    "type": "fill_blank",
-                    "question": "The US school year is usually divided into two ___ .",
-                    "correct": "semesters",
-                    "accept": ["semesters", "Semesters", "SEMESTERS"],
-                    "explanation": "The academic year has two semesters.",
-                    "topic": "vocabulary"
-                },
-                {
-                    "id": 4,
-                    "type": "true_false",
-                    "question": "In the US, 'college' always means a university.",
-                    "correct": "False",
-                    "accept": ["False", "false", "FALSE", "No", "no"],
-                    "explanation": "In the US, 'college' often refers to higher education institutions, but it's not exactly the same as university, though they are used interchangeably.",
-                    "topic": "reading"
-                },
-                {
-                    "id": 5,
-                    "type": "multiple_choice",
-                    "question": "Which term is used for the middle school level?",
-                    "options": ["Elementary school", "Junior high school", "High school", "College"],
-                    "correct": "Junior high school",
-                    "accept": ["Junior high school", "junior high school", "JUNIOR HIGH SCHOOL", "middle school"],
-                    "explanation": "Middle school is also called junior high school.",
-                    "topic": "vocabulary"
-                }
-            ]
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "Which type of school is free and paid for by the government?",
+            "options": ["Private school", "State school", "Boarding school", "Nursery school"],
+            "correct": "State school",
+            "accept": ["State school", "state school", "STATE SCHOOL"],
+            "explanation": "State schools are funded by the government and free.",
+            "topic": "vocabulary"
         },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "The person in charge of a school is called the ___ teacher.",
+            "correct": "head",
+            "accept": ["head", "Head", "HEAD"],
+            "explanation": "The head teacher is the principal.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "true_false",
+            "question": "In the UK, the school year is divided into two semesters.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "In the UK, it's divided into three terms, not two semesters.",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "What do you call a person who has finished university with a degree?",
+            "options": ["Pupil", "Student", "Graduate", "Head"],
+            "correct": "Graduate",
+            "accept": ["Graduate", "graduate", "GRADUATE"],
+            "explanation": "A graduate is someone who has completed a university degree.",
+            "topic": "vocabulary"
+        }
+    ]
+},
+        {
+    "day": 2,
+    "title": "Day 2: School System in the US",
+    "description": "Learn about the US education system and related vocabulary",
+    "grammar": {
+        "title": "School Vocabulary (US)",
+        "rule": "📘 In the US, the school system is divided into three levels: elementary school, middle school (sometimes called junior high school), and high school. Schoolchildren are divided by age groups into grades. The youngest children start in kindergarten (followed by first grade) and continue until twelfth grade, which is the final year of high school. The school year is divided into two semesters. Higher education in the US is often called college, although many colleges are actually universities.",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🏫", "word": "elementary", "transcription": "/ˌelɪˈmentri/", "translation": "начальный (о школе)", "example": "Elementary school is for young children.", "context_translation": "начальный", "context_example": "Начальная школа для маленьких детей."},
+        {"icon": "🏛️", "word": "middle", "transcription": "/ˈmɪdl/", "translation": "средний (о школе, junior high)", "example": "Middle school is between elementary and high school.", "context_translation": "средний", "context_example": "Средняя школа находится между начальной и старшей."},
+        {"icon": "🏛️", "word": "high", "transcription": "/haɪ/", "translation": "старший (о школе)", "example": "High school is the final stage of secondary education.", "context_translation": "старший", "context_example": "Старшая школа — последний этап среднего образования."},
+        {"icon": "🧸", "word": "kindergarten", "transcription": "/ˈkɪndəɡɑːtn/", "translation": "детский сад (в США)", "example": "Children start kindergarten at age 5.", "context_translation": "детский сад", "context_example": "Дети идут в детский сад в 5 лет."},
+        {"icon": "📊", "word": "grade", "transcription": "/ɡreɪd/", "translation": "класс, оценка", "example": "She is in the fifth grade.", "context_translation": "класс", "context_example": "Она в пятом классе."},
+        {"icon": "📅", "word": "semester", "transcription": "/sɪˈmestər/", "translation": "семестр (в США)", "example": "The academic year has two semesters.", "context_translation": "семестр", "context_example": "Учебный год состоит из двух семестров."},
+        {"icon": "🏛️", "word": "college", "transcription": "/ˈkɒlɪdʒ/", "translation": "колледж (вуз)", "example": "Many students go to college after high school.", "context_translation": "колледж", "context_example": "Многие студенты идут в колледж после школы."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "fill_blank",
+            "question": "In the US, the youngest children start school in ___ .",
+            "correct": "kindergarten",
+            "accept": ["kindergarten", "Kindergarten", "KINDERGARTEN"],
+            "explanation": "Kindergarten is the first year of schooling in the US.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What is the final year of high school in the US?",
+            "options": ["Tenth grade", "Eleventh grade", "Twelfth grade", "Thirteenth grade"],
+            "correct": "Twelfth grade",
+            "accept": ["Twelfth grade", "twelfth grade", "TWELFTH GRADE"],
+            "explanation": "High school ends with twelfth grade.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "The US school year is usually divided into two ___ .",
+            "correct": "semesters",
+            "accept": ["semesters", "Semesters", "SEMESTERS"],
+            "explanation": "The academic year has two semesters.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "true_false",
+            "question": "In the US, 'college' always means a university.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "In the US, 'college' often refers to higher education institutions, but it's not exactly the same as university, though they are used interchangeably.",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Which term is used for the middle school level?",
+            "options": ["Elementary school", "Junior high school", "High school", "College"],
+            "correct": "Junior high school",
+            "accept": ["Junior high school", "junior high school", "JUNIOR HIGH SCHOOL", "middle school"],
+            "explanation": "Middle school is also called junior high school.",
+            "topic": "vocabulary"
+        }
+    ]
+},
         {
             "day": 3,
             "title": "Day 3: Grammar — First Conditional",
