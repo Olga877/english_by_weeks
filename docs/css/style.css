@@ -955,3 +955,36 @@ a .clickable-word,
     color: var(--primary);       /* при наведении — акцентный цвет */
     background: rgba(99, 102, 241, 0.1);
 }
+
+/* ========== ВЫРАВНИВАНИЕ ТЕКСТА ПО ШИРИНЕ ========== */
+
+/* Для правил в грамматике */
+.grammar-rule {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+}
+
+/* Для текстов чтения в упражнениях */
+.exercise-card .reading-text,
+.exercise-card .reading-text p,
+.reading-container {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+}
+
+/* Дополнительно: улучшаем читаемость (опционально) */
+.grammar-rule {
+    line-height: 1.6;
+    padding: 16px;
+}
+
+.reading-container {
+    line-height: 1.6;
+    padding: 16px;
+}
