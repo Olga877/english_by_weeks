@@ -10,10 +10,10 @@
         {
     "day": 1,
     "title": "Day 1: School System in the UK",
-    "description": "Learn about types of schools and key vocabulary in the British education system",
+    "description": "Узнайте о типах школ и ключевой лексике британской системы образования",
     "grammar": {
         "title": "School Vocabulary (UK)",
-        "rule": "📘 In the UK, children start primary school when they are five. Before that, many children go to nursery school (between the ages of two and four), but this is not compulsory. From 11 to 18, children go to secondary school. The majority of schools in the UK (about 90%) are state schools, which means they are paid for by the government and education is free. The other 10% are private schools, where parents have to pay. A few of these are boarding schools, where children study, eat, and sleep. Children at primary school are often called pupils, and children at secondary school are usually called students, as are people who are studying at university. The person who is in charge of a school is called the head teacher. The school year is divided into three terms. If you want to go to university, you have to take exams called A levels in your last year at school. If your results are good enough, you get a place. A person who has finished university and has a degree is called a graduate.",
+        "rule": "📘 В Великобритании дети идут в начальную школу (primary school) в 5 лет. До этого некоторые посещают nursery school (с 2–4 лет), но это не обязательно.\n\nС 11 до 18 лет — secondary school. Большинство школ — государственные (state schools), финансируются правительством, обучение бесплатное. Около 10% — частные (private schools), где родители платят. Некоторые из них — школы-пансионы (boarding schools), где дети живут и учатся.\n\nУчеников начальной школы часто называют pupils, а средней и университета — students. Руководитель школы — head teacher. Учебный год делится на три terms (семестра).\n\nЧтобы поступить в университет, нужно сдать экзамены A-levels. Выпускник университета с degree называется graduate.",
         "examples": []
     },
     "vocabulary": [
@@ -83,10 +83,10 @@
         {
     "day": 2,
     "title": "Day 2: School System in the US",
-    "description": "Learn about the US education system and related vocabulary",
+    "description": "Изучаем американскую систему образования и связанную лексику",
     "grammar": {
         "title": "School Vocabulary (US)",
-        "rule": "📘 In the US, the school system is divided into three levels: elementary school, middle school (sometimes called junior high school), and high school. Schoolchildren are divided by age groups into grades. The youngest children start in kindergarten (followed by first grade) and continue until twelfth grade, which is the final year of high school. The school year is divided into two semesters. Higher education in the US is often called college, although many colleges are actually universities.",
+        "rule": "📘 В США система образования делится на три уровня: elementary school (начальная), middle school (или junior high school), и high school (старшая).\n\nУченики делятся по возрастным группам на grades (классы). Самые маленькие начинают с kindergarten (детский сад), затем first grade и так до twelfth grade (последний класс старшей школы).\n\nУчебный год обычно делится на два semesters. Высшее образование в США часто называют college (колледж), хотя это может быть и университет.",
         "examples": []
     },
     "vocabulary": [
