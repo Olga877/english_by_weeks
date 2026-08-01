@@ -6,6 +6,7 @@
     "icon": "🎓",
     "order_num": 2,
     "is_published": true,
+    "is_paid": true,
     "days": [
         {
     "day": 1,

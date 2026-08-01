@@ -1,9 +1,12 @@
 # backend/database.py
-from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, ForeignKey, JSON, Boolean, Text
+from sqlalchemy import create_engine, Column, Integer, String, DateTime, ForeignKey, JSON, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 from datetime import datetime
 import os
+from dotenv import load_dotenv  # ← добавить импорт
+
+load_dotenv()  # ← добавить вызов
 
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./english_by_weeks.db")
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
@@ -15,11 +18,16 @@ class User(Base):
     __tablename__ = "users"
 
     id = Column(Integer, primary_key=True, index=True)
-    email = Column(String, unique=True, index=True, nullable=True)
+    email = Column(String, unique=True, index=True, nullable=False)  # теперь обязательное поле
     name = Column(String, default="Learner")
     level = Column(String, default="B1")
     created_at = Column(DateTime, default=datetime.utcnow)
     last_active = Column(DateTime, default=datetime.utcnow)
+    is_premium = Column(Boolean, default=False)
+    subscription_until = Column(DateTime, nullable=True)
+
+    # Связь с прогрессом: один пользователь – много записей прогресса
+    progress = relationship("UserProgress", back_populates="user", cascade="all, delete-orphan")
 
 
 class Week(Base):
@@ -35,6 +43,9 @@ class Week(Base):
     is_published = Column(Boolean, default=True)
     data = Column(JSON)  # полные данные недели (7 дней)
 
+    # Связь с прогрессом (необязательно, но удобно)
+    progress_records = relationship("UserProgress", back_populates="week")
+
 
 class UserProgress(Base):
     __tablename__ = "user_progress"
@@ -49,7 +60,12 @@ class UserProgress(Base):
     completed_at = Column(DateTime, nullable=True)
     badges = Column(JSON, default=list)
 
+    # Связи
+    user = relationship("User", back_populates="progress")
+    week = relationship("Week", back_populates="progress_records")
 
+
+# Создание таблиц при первом запуске (если их нет)
 Base.metadata.create_all(bind=engine)
 
 

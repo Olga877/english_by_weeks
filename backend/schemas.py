@@ -1,14 +1,12 @@
 # backend/schemas.py
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 from typing import List, Dict, Optional
 from datetime import datetime
-
 
 class UserCreate(BaseModel):
     name: str
     email: Optional[str] = None
     level: str = "B1"
-
 
 class UserResponse(BaseModel):
     id: int
@@ -17,6 +15,8 @@ class UserResponse(BaseModel):
     level: str
     created_at: datetime
 
+    # Эта настройка позволяет Pydantic v2 работать с ORM-объектами (например, SQLAlchemy)
+    model_config = ConfigDict(from_attributes=True)
 
 class WeekResponse(BaseModel):
     week_id: str
@@ -27,7 +27,6 @@ class WeekResponse(BaseModel):
     order_num: int
     is_published: bool
 
-
 class VocabularyItem(BaseModel):
     icon: str
     word: str
@@ -35,17 +34,15 @@ class VocabularyItem(BaseModel):
     translation: str
     example: str
 
-
 class GrammarRule(BaseModel):
     title: str
     rule: str
     examples: List[str]
     keywords: Optional[str] = None
 
-
 class Exercise(BaseModel):
     id: int
-    type: str  # multiple_choice, fill_blank, correct_mistake, listening, reading
+    type: str
     question: str
     options: Optional[List[str]] = None
     correct: str
@@ -53,7 +50,6 @@ class Exercise(BaseModel):
     topic: Optional[str] = None
     listening_text: Optional[str] = None
     reading_text: Optional[str] = None
-
 
 class DayResponse(BaseModel):
     day: int
@@ -63,7 +59,6 @@ class DayResponse(BaseModel):
     vocabulary: List[VocabularyItem]
     exercises: List[Exercise]
 
-
 class WeekDetailResponse(BaseModel):
     week_id: str
     title: str
@@ -72,13 +67,11 @@ class WeekDetailResponse(BaseModel):
     icon: str
     days: List[DayResponse]
 
-
 class ProgressUpdate(BaseModel):
     week_id: str
     day: int
     score: int
     completed: bool = True
-
 
 class ProgressResponse(BaseModel):
     week_id: str

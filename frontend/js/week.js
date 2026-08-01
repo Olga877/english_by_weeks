@@ -1,26 +1,26 @@
-// frontend/js/school_week.js - для школьных недель
+// frontend/js/week.js - для взрослых недель
 
 let weekData = null;
-let currentGrade = null;
+let currentLevel = null;
 let currentWeekId = null;
 let userAnswers = {};
 let userProgress = { completedDays: [], dayScores: {} };
 let certificateShown = false;
 
 async function init() {
-    console.log("🔍 school_week.js init started");
+    console.log("🔍 week.js init started");
 
-    document.body.classList.add('school-theme');
-    document.body.classList.remove('adult-theme');
+    document.body.classList.add('adult-theme');
+    document.body.classList.remove('school-theme');
 
     const urlParams = new URLSearchParams(window.location.search);
-    currentGrade = urlParams.get('grade');
+    currentLevel = urlParams.get('level');
     currentWeekId = urlParams.get('week');
 
-    console.log(`📌 grade: ${currentGrade}, week: ${currentWeekId}`);
+    console.log(`📌 level: ${currentLevel}, week: ${currentWeekId}`);
 
-    if (!currentGrade || !currentWeekId) {
-        window.location.href = '/english_by_weeks/frontend/index.html';
+    if (!currentLevel || !currentWeekId) {
+        window.location.href = '/index.html';
         return;
     }
 
@@ -37,6 +37,7 @@ async function init() {
     checkAndShowCertificate();
 }
 
+// ========== НАВИГАЦИОННЫЕ КНОПКИ ==========
 function setupNavigationButtons() {
     const homeBtns = document.querySelectorAll('#homeBtnTop, #homeBtnBottom');
     const backBtns = document.querySelectorAll('#backBtnTop, #backBtnBottom');
@@ -57,7 +58,7 @@ function setupNavigationButtons() {
 }
 
 function goHome() {
-    window.location.href = '/index.html?audience=school';
+    window.location.href = '/index.html';
 }
 
 function goBack() {
@@ -67,21 +68,16 @@ function goBack() {
         window.location.href = returnToPage;
         return;
     }
-
-    // Если есть реферер, возвращаемся на него, иначе на главную для школьников
-    if (document.referrer && document.referrer.includes(window.location.hostname)) {
-        window.location.href = document.referrer;
-    } else {
-        window.location.href = '/index.html?audience=school';
-    }
+    window.location.href = '/index.html?audience=adults';
 }
 
+// ========== ЗАГРУЗКА ДАННЫХ ==========
 async function loadWeekData() {
     try {
-        // Новый путь: frontend/data/lessons/school/grade5/ + currentWeekId + .json
-        const url = `/data/lessons/school/grade5/${currentWeekId}.json`;
-        const response = await fetch(url);
-
+        const headers = getAuthHeaders(); // если есть токен, вернёт объект с Authorization
+        const response = await fetch(`/api/weeks/${currentWeekId}`, {
+            headers: headers || {} // если токена нет, отправляем пустой объект
+        });
         if (!response.ok) throw new Error('Week not found');
         weekData = await response.json();
 
@@ -96,22 +92,23 @@ async function loadWeekData() {
 }
 
 async function loadUserProgress() {
+    // Загружаем прогресс с сервера
+    const progress = await loadProgressFromServer(currentWeekId);
+    userProgress = progress;
+
+    // Загружаем ответы на упражнения (локально)
     const savedAnswers = localStorage.getItem(`answers_${currentWeekId}`);
     if (savedAnswers) {
         userAnswers = JSON.parse(savedAnswers);
-    }
-
-    const savedProgress = localStorage.getItem(`progress_${currentWeekId}`);
-    if (savedProgress) {
-        userProgress = JSON.parse(savedProgress);
     }
 
     updateStatsDisplay();
 }
 
 function saveUserProgress() {
+    // Сохраняем ответы на упражнения локально
     localStorage.setItem(`answers_${currentWeekId}`, JSON.stringify(userAnswers));
-    localStorage.setItem(`progress_${currentWeekId}`, JSON.stringify(userProgress));
+    // Прогресс дней сохраняется на сервер через saveDayProgress
     updateStatsDisplay();
 }
 
@@ -125,6 +122,7 @@ function updateStatsDisplay() {
     document.getElementById('currentStreak').textContent = completedCount;
 }
 
+// ========== РЕНДЕР ==========
 function renderWeek() {
     if (!weekData || !weekData.days) {
         console.error("❌ No week data to render");
@@ -178,17 +176,27 @@ function renderGrammar(grammar) {
 
     let ruleHtml = grammar.rule;
     if (ruleHtml) {
-        // Заменяем переносы строк на <br>
         ruleHtml = ruleHtml.replace(/\n/g, '<br>');
+    }
 
-        // Заменяем **текст** на <strong>текст</strong>
-        ruleHtml = ruleHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    let examplesHtml = '';
+    if (grammar.examples && grammar.examples.length > 0) {
+        examplesHtml = '<div><strong>Примеры:</strong></div>';
+        grammar.examples.forEach(ex => {
+            const exWithButtons = makeWordsClickable(ex, '', weekData);
+            examplesHtml += `<div class="grammar-example">
+                ${exWithButtons}
+                <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('${ex.replace(/'/g, "\\'")}')">🔊</button>
+            </div>`;
+        });
     }
 
     return `
         <div class="grammar-card">
             <h3>📖 ${grammar.title}</h3>
             <div class="grammar-rule"><strong>Правило:</strong><br>${ruleHtml}</div>
+            ${examplesHtml}
+            ${grammar.keywords ? `<div><strong>Ключевые слова:</strong> ${grammar.keywords}</div>` : ''}
         </div>
     `;
 }
@@ -239,14 +247,13 @@ function renderExercises(exercises, dayNum) {
 function renderExerciseInput(ex, dayNum, savedAnswer) {
     if (ex.type === 'multiple_choice') {
         const cleanOptions = ex.options.map(opt => opt.trim());
-
         return `
             <div class="options" id="options-${dayNum}-${ex.id}">
                 ${cleanOptions.map((opt, optIdx) => `
                     <div class="option ${savedAnswer === opt ? 'selected' : ''}"
                          data-value="${opt.replace(/'/g, "\\'")}"
                          onclick="selectOption(${dayNum}, ${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">
-                        ${makeWordsClickable(opt, '', weekData)}
+                        ${opt}
                         <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('${opt.replace(/'/g, "\\'")}')">🔊</button>
                     </div>
                 `).join('')}
@@ -257,14 +264,8 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
     } else if (ex.type === 'true_false') {
         return `
             <div class="options" id="options-${dayNum}-${ex.id}">
-                <div class="option ${savedAnswer === 'True' ? 'selected' : ''}" data-value="True" onclick="selectOption(${dayNum}, ${ex.id}, 0, 'True')">
-                    ✅ True
-                    <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('True')">🔊</button>
-                </div>
-                <div class="option ${savedAnswer === 'False' ? 'selected' : ''}" data-value="False" onclick="selectOption(${dayNum}, ${ex.id}, 1, 'False')">
-                    ❌ False
-                    <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('False')">🔊</button>
-                </div>
+                <div class="option ${savedAnswer === 'True' ? 'selected' : ''}" data-value="True" onclick="selectOption(${dayNum}, ${ex.id}, 0, 'True')">✅ True <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('True')">🔊</button></div>
+                <div class="option ${savedAnswer === 'False' ? 'selected' : ''}" data-value="False" onclick="selectOption(${dayNum}, ${ex.id}, 1, 'False')">❌ False <button class="speak-sentence-btn" onclick="event.stopPropagation(); speakSentence('False')">🔊</button></div>
             </div>
         `;
     } else if (ex.type === 'correct_mistake') {
@@ -276,7 +277,7 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
         }
         html += `<div class="options" id="options-${dayNum}-${ex.id}">`;
         ex.options.forEach((opt, optIdx) => {
-            html += `<div class="option ${savedAnswer === opt ? 'selected' : ''}" data-value="${opt}" onclick="selectOption(${dayNum}, ${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${makeWordsClickable(opt, '', weekData)}</div>`;
+            html += `<div class="option ${savedAnswer === opt ? 'selected' : ''}" data-value="${opt}" onclick="selectOption(${dayNum}, ${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${opt}</div>`;
         });
         html += `</div>`;
         return html;
@@ -289,7 +290,7 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
         }
         html += `<div class="options" id="options-${dayNum}-${ex.id}">`;
         ex.options.forEach((opt, optIdx) => {
-            html += `<div class="option ${savedAnswer === opt ? 'selected' : ''}" data-value="${opt}" onclick="selectOption(${dayNum}, ${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${makeWordsClickable(opt, '', weekData)}</div>`;
+            html += `<div class="option ${savedAnswer === opt ? 'selected' : ''}" data-value="${opt}" onclick="selectOption(${dayNum}, ${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${opt}</div>`;
         });
         html += `</div>`;
         return html;
@@ -299,39 +300,10 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
 
 function renderReadingText(readingText) {
     if (!readingText) return '';
-
-    // Проверяем, является ли текст расписанием (с символами ┌ └ │)
-    if (readingText.includes('┌') && readingText.includes('└')) {
-        const lines = readingText.split('\n');
-        let timetableHtml = '<div class="timetable-grid" style="overflow-x: auto;">';
-
-        for (const line of lines) {
-            if (line.includes('┌') || line.includes('├') || line.includes('└')) continue;
-            if (line.includes('│')) {
-                const cells = line.split('│').filter(cell => cell.trim().length > 0);
-                if (cells.length >= 6) {
-                    let rowHtml = '<div class="timetable-row">';
-                    for (let i = 0; i < cells.length; i++) {
-                        const cellClass = i === 0 ? 'timetable-time' : 'timetable-subject';
-                        rowHtml += `<div class="${cellClass}">${renderReadingTextContent(cells[i].trim())}</div>`;
-                    }
-                    rowHtml += '</div>';
-                    timetableHtml += rowHtml;
-                }
-            } else if (line.includes('NOTES:')) {
-                timetableHtml += `<div style="margin-top: 20px;"><strong>📌 NOTES:</strong></div>`;
-            } else if (line.trim().startsWith('•')) {
-                timetableHtml += `<div style="margin-left: 20px; margin-top: 5px;">${renderReadingTextContent(line)}</div>`;
-            } else if (line.trim() && !line.includes('───')) {
-                timetableHtml += `<div>${renderReadingTextContent(line)}</div>`;
-            }
-        }
-        timetableHtml += '</div>';
-        return timetableHtml;
-    }
-
-    // Обычный текст — используем renderReadingTextContent
-    return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.4;">${renderReadingTextContent(readingText)}</div>`;
+    const processText = (typeof renderReadingTextContent === 'function')
+        ? renderReadingTextContent
+        : (text) => text.replace(/\n/g, '<br>');
+    return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.4;">${processText(readingText)}</div>`;
 }
 
 function selectOption(dayNum, exId, optIndex, value) {
@@ -341,24 +313,18 @@ function selectOption(dayNum, exId, optIndex, value) {
         options.forEach(opt => opt.classList.remove('selected'));
         if (options[optIndex]) options[optIndex].classList.add('selected');
     }
-
-    userAnswers[`day${dayNum}_ex${exId}`] = value;
+    userAnswers[`day${dayNum}_ex${ex.id}`] = value;
     saveUserProgress();
 }
 
-// ========== ОСНОВНОЕ ИСПРАВЛЕНИЕ: ПОДДЕРЖКА МНОЖЕСТВЕННЫХ ОТВЕТОВ ==========
+// ========== ПРОВЕРКА ОТВЕТОВ ==========
 function isAnswerCorrect(userAnswer, exercise) {
     if (!userAnswer) return false;
-
     const normalizedUser = userAnswer.toString().toLowerCase().trim();
-
-    // Если есть массив accept — используем его
     if (exercise.accept && Array.isArray(exercise.accept)) {
         const normalizedAccept = exercise.accept.map(a => a.toString().toLowerCase().trim());
         return normalizedAccept.includes(normalizedUser);
     }
-
-    // Иначе сравниваем с correct (один вариант)
     const normalizedCorrect = exercise.correct.toString().toLowerCase().trim();
     return normalizedUser === normalizedCorrect;
 }
@@ -366,7 +332,6 @@ function isAnswerCorrect(userAnswer, exercise) {
 async function checkExercise(dayNum, exId, exType) {
     const dayData = weekData.days[dayNum - 1];
     const exercise = dayData.exercises.find(e => e.id === exId);
-
     if (!exercise) {
         showToast('Ошибка: упражнение не найдено', 'error');
         return;
@@ -374,7 +339,6 @@ async function checkExercise(dayNum, exId, exType) {
 
     let userAnswer = userAnswers[`day${dayNum}_ex${exId}`];
 
-    // Для fill_blank и correct_mistake — читаем из input каждый раз
     if ((exType === 'fill_blank' || exType === 'correct_mistake')) {
         const input = document.getElementById(`input-${dayNum}-${exId}`);
         if (input) {
@@ -412,9 +376,6 @@ async function checkExercise(dayNum, exId, exType) {
         card.classList.remove('correct');
         explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Неправильно. Правильный ответ: ${exercise.correct}<br>${exercise.explanation || ''}</div>`;
         showToast('❌ Неправильно. Попробуйте ещё раз!', 'error');
-
-        // ВАЖНО: НЕ блокируем поле ввода — пользователь может исправить ответ
-        // НЕ засчитываем как непройденное — просто показываем ошибку
     }
     explanationDiv.classList.add('show');
 }
@@ -448,12 +409,16 @@ async function saveDayProgress(dayNum) {
         }
     }
 
-    saveUserProgress();
-
     const score = Math.round((correct / total) * 100);
-
     userProgress.dayScores = userProgress.dayScores || {};
     userProgress.dayScores[dayNum] = score;
+
+    // Сохраняем на сервер
+    const success = await saveProgressToServer(currentWeekId, dayNum, score, score >= 70);
+    if (!success) {
+        showToast('Ошибка при сохранении прогресса на сервере', 'error');
+        return;
+    }
 
     if (score >= 70) {
         if (!userProgress.completedDays.includes(dayNum)) {
@@ -466,12 +431,10 @@ async function saveDayProgress(dayNum) {
         }
         showToast(`✅ День ${dayNum} сохранён! Результат: ${score}%`, 'success');
     } else {
-        // День НЕ считается пройденным — пользователь может вернуться и исправить ответы
         const completedIndex = userProgress.completedDays.indexOf(dayNum);
         if (completedIndex !== -1) {
             userProgress.completedDays.splice(completedIndex, 1);
         }
-
         const dayHeader = document.querySelector(`.day-block:nth-child(${dayNum}) .day-status-badge`);
         if (dayHeader) {
             dayHeader.textContent = `📅 ${score}% (нужно 70%)`;
@@ -488,7 +451,7 @@ async function saveDayProgress(dayNum) {
 function checkAndShowCertificate() {
     if (certificateShown) return;
 
-    const totalDays = weekData?.days?.length || 6;
+    const totalDays = weekData?.days?.length || 7;
     const completedDays = userProgress.completedDays || [];
     const dayScores = userProgress.dayScores || {};
 
@@ -520,7 +483,6 @@ function toggleDay(dayNum) {
     } else {
         document.querySelectorAll('.day-content').forEach(c => c.classList.remove('open'));
         content.classList.add('open');
-
         setTimeout(() => {
             if (dayHeader) {
                 dayHeader.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -529,6 +491,7 @@ function toggleDay(dayNum) {
     }
 }
 
+// Глобальный экспорт
 window.toggleDay = toggleDay;
 window.selectOption = selectOption;
 window.checkExercise = checkExercise;

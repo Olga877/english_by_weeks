@@ -88,6 +88,102 @@ window.addEventListener('beforeinstallprompt', (e) => {
     }
 });
 
+// ========== АУТЕНТИФИКАЦИЯ ==========
+
+// Запрос ссылки для входа
+async function requestLoginLink() {
+    const emailInput = document.getElementById('email-input');
+    if (!emailInput) {
+        showToast('Форма входа не найдена', 'error');
+        return;
+    }
+    const email = emailInput.value.trim();
+    if (!email) {
+        showToast('Введите email', 'error');
+        return;
+    }
+    try {
+        const response = await fetch('/auth/request-link', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email })
+        });
+        if (response.ok) {
+            showToast('Ссылка для входа отправлена на почту (проверьте консоль сервера)', 'success');
+        } else {
+            const data = await response.json();
+            showToast(data.detail || 'Ошибка при отправке ссылки', 'error');
+        }
+    } catch (error) {
+        console.error(error);
+        showToast('Ошибка сети', 'error');
+    }
+}
+
+// Выход из системы
+function logout() {
+    localStorage.removeItem('access_token');
+    window.location.reload();
+}
+
+// Проверка авторизации и отображение информации о пользователе
+function checkAuth() {
+    const token = localStorage.getItem('access_token');
+    const loginForm = document.getElementById('login-form');
+    const userInfo = document.getElementById('user-info');
+    const userEmail = document.getElementById('user-email');
+
+    if (loginForm && userInfo) { // только если элементы есть (главная страница)
+        if (token) {
+            fetch('/auth/me', {
+                headers: { 'Authorization': `Bearer ${token}` }
+            })
+            .then(res => {
+                if (res.ok) return res.json();
+                throw new Error('Invalid token');
+            })
+            .then(user => {
+                loginForm.style.display = 'none';
+                userInfo.style.display = 'block';
+                if (userEmail) userEmail.textContent = user.email;
+            })
+            .catch(() => {
+                localStorage.removeItem('access_token');
+                window.location.reload();
+            });
+        } else {
+            loginForm.style.display = 'block';
+            userInfo.style.display = 'none';
+        }
+    }
+}
+
+// Получить заголовки для авторизованных запросов
+function getAuthHeaders() {
+    const token = localStorage.getItem('access_token');
+    if (!token) return null;
+    return {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+    };
+}
+// Очистка повреждённых данных в localStorage
+function clearCorruptedTips() {
+    const raw = localStorage.getItem('dailyTip');
+    if (raw) {
+        try {
+            const parsed = JSON.parse(raw);
+            if (typeof parsed !== 'object' || parsed === null || !parsed.icon) {
+                localStorage.removeItem('dailyTip');
+                localStorage.removeItem('dailyTipHour');
+            }
+        } catch (e) {
+            localStorage.removeItem('dailyTip');
+            localStorage.removeItem('dailyTipHour');
+        }
+    }
+}
+
 // ========== ОСНОВНОЙ ЛОКАЛЬНЫЙ СЛОВАРЬ ==========
 const localDictionary = new Map([
     // Артикли
@@ -879,20 +975,18 @@ const localDictionary = new Map([
     ['until', 'до тех пор, пока не'],
 ]);
 
+
 // Кэш переводов (используется для API-переводов)
 const translationCache = new Map();
 
 // ========== ФУНКЦИИ ДЛЯ РАБОТЫ СО СЛОВАМИ ==========
 function extractAndCacheWords(text) {
     if (!text || typeof text !== 'string') return;
-
     const words = text.match(/\b[a-zA-Z]{2,}(?:'[a-zA-Z]+)?\b/g) || [];
-
     for (const word of words) {
         const lowerWord = word.toLowerCase();
         if (lowerWord.length < 2) continue;
         if (translationCache.has(lowerWord)) continue;
-
         if (localDictionary.has(lowerWord)) {
             translationCache.set(lowerWord, localDictionary.get(lowerWord));
         } else {
@@ -903,7 +997,6 @@ function extractAndCacheWords(text) {
 
 function extractAllWordsFromWeek(weekData) {
     if (!weekData || !weekData.days) return;
-
     for (const day of weekData.days) {
         if (day.vocabulary) {
             for (const vocab of day.vocabulary) {
@@ -912,7 +1005,6 @@ function extractAllWordsFromWeek(weekData) {
                 if (vocab.context_example) extractAndCacheWords(vocab.context_example);
             }
         }
-
         if (day.grammar) {
             if (day.grammar.rule) extractAndCacheWords(day.grammar.rule);
             if (day.grammar.examples) {
@@ -921,7 +1013,6 @@ function extractAllWordsFromWeek(weekData) {
                 }
             }
         }
-
         if (day.exercises) {
             for (const ex of day.exercises) {
                 if (ex.question) extractAndCacheWords(ex.question);
@@ -936,7 +1027,6 @@ function extractAllWordsFromWeek(weekData) {
             }
         }
     }
-
     console.log(`📚 Total cached words for this week: ${translationCache.size}`);
 }
 
@@ -945,9 +1035,7 @@ let contextTranslationsMap = new Map();
 
 function loadContextTranslations(weekData) {
     contextTranslationsMap.clear();
-
     if (!weekData || !weekData.days) return;
-
     for (const day of weekData.days) {
         if (day.vocabulary) {
             for (const vocab of day.vocabulary) {
@@ -959,9 +1047,7 @@ function loadContextTranslations(weekData) {
             }
         }
     }
-
     extractAllWordsFromWeek(weekData);
-
     console.log(`📚 Loaded ${contextTranslationsMap.size} context translations`);
 }
 
@@ -973,6 +1059,7 @@ function getContextTranslation(word) {
 
 // ========== ОСНОВНЫЕ ФУНКЦИИ ПРИЛОЖЕНИЯ ==========
 function getSessionId() {
+    // Сохраняем для обратной совместимости (старый localStorage)
     let sessionId = localStorage.getItem('session_id');
     if (!sessionId) {
         sessionId = 'user_' + Math.random().toString(36).substr(2, 9);
@@ -983,7 +1070,6 @@ function getSessionId() {
 
 function cleanEnglishText(text) {
     if (!text) return '';
-
     let cleaned = text;
     cleaned = cleaned.replace(/[\u{1F600}-\u{1F64F}]/gu, '');
     cleaned = cleaned.replace(/[\u{1F300}-\u{1F5FF}]/gu, '');
@@ -995,14 +1081,12 @@ function cleanEnglishText(text) {
     cleaned = cleaned.replace(/[\(\)]/g, '');
     cleaned = cleaned.replace(/[^a-zA-Z0-9\s\.\,\!\?\'\'\£\$\€\-]/g, '');
     cleaned = cleaned.replace(/\s+/g, ' ').trim();
-
     return cleaned;
 }
 
 // ========== ФУНКЦИЯ ПЕРЕВОДА (С ПОДДЕРЖКОЙ MYMEMORY API) ==========
 async function translateWord(word, context = '') {
     if (!word || word.length < 2) return word;
-
     const cleanWord = word.replace(/<[^>]*>/g, '').trim().toLowerCase();
     if (cleanWord.length < 2) return word;
 
@@ -1028,9 +1112,7 @@ async function translateWord(word, context = '') {
     try {
         const response = await fetch('https://libretranslate.com/translate', {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 q: cleanWord,
                 source: 'en',
@@ -1038,11 +1120,7 @@ async function translateWord(word, context = '') {
                 format: 'text'
             })
         });
-
-        if (!response.ok) {
-            throw new Error(`API error: ${response.status}`);
-        }
-
+        if (!response.ok) throw new Error(`API error: ${response.status}`);
         const data = await response.json();
         if (data && data.translatedText) {
             let translation = data.translatedText;
@@ -1051,15 +1129,11 @@ async function translateWord(word, context = '') {
                 return translation;
             }
         }
-
-        // Если перевод не найден или совпадает с исходным
         const placeholder = `[${cleanWord}]`;
         translationCache.set(cleanWord, placeholder);
         return cleanWord;
-
     } catch (error) {
         console.warn('⚠️ LibreTranslate API error:', error);
-        // В случае ошибки возвращаем слово как есть
         return cleanWord;
     }
 }
@@ -1069,41 +1143,29 @@ function speak(text, lang = 'en-US', rate = 0.85) {
         showToast('🔊 Озвучка не поддерживается', 'error');
         return;
     }
-
     window.speechSynthesis.cancel();
-
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
     utterance.rate = rate;
     utterance.pitch = 1;
-
-    utterance.onerror = (e) => {
-        console.error('Speech error:', e);
-    };
-
+    utterance.onerror = (e) => console.error('Speech error:', e);
     window.speechSynthesis.speak(utterance);
 }
 
 function speakSentence(sentence, lang = 'en-US') {
     if (!sentence || sentence.length === 0) return;
-
     let cleanSentence = sentence.replace(/<[^>]*>/g, '');
     cleanSentence = cleanEnglishText(cleanSentence);
     cleanSentence = cleanSentence.replace(/_{2,}/g, ' ... ');
-
-    // Убираем точки и другие знаки препинания, которые мешают озвучке
     cleanSentence = cleanSentence.replace(/[.,!?;:()\[\]{}"']/g, ' ');
     cleanSentence = cleanSentence.replace(/\s+/g, ' ').trim();
-
     if (cleanSentence.length === 0) return;
-
     speak(cleanSentence, lang, 0.85);
 }
 
 function showToast(message, type = 'success') {
     const oldToasts = document.querySelectorAll('.toast');
     oldToasts.forEach(toast => toast.remove());
-
     const toast = document.createElement('div');
     toast.textContent = message;
     toast.className = `toast ${type}`;
@@ -1113,57 +1175,41 @@ function showToast(message, type = 'success') {
 
 function makeWordsClickable(text, context = '') {
     if (!text) return '';
-
-    // Сохраняем HTML-теги
     const tagPlaceholders = [];
     let processedText = text.replace(/<[^>]+>/g, (match) => {
         const placeholder = `__TAG_${tagPlaceholders.length}__`;
         tagPlaceholders.push(match);
         return placeholder;
     });
-
     processedText = processedText.replace(/\b([a-zA-Z]{2,}(?:'[a-zA-Z]+)?)\b/g, (match) => {
         const safeWord = match.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="${context.replace(/'/g, "\\'")}">${match}</span>`;
     });
-
     tagPlaceholders.forEach((placeholder, index) => {
         processedText = processedText.replace(placeholder, tagPlaceholders[index]);
     });
-
     return processedText;
 }
 
 // ========== РЕНДЕР ТЕКСТА ДЛЯ ЧТЕНИЯ ==========
 function renderReadingTextContent(readingText) {
     if (!readingText) return '';
-
-    // Заменяем Markdown **жирный** на <strong>
     let processedText = readingText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-
-    // Заменяем \n на <br>
     processedText = processedText.replace(/\n/g, '<br>');
-
-    // Защищаем HTML-теги от обработки кликабельностью
     const tagPlaceholders = [];
     processedText = processedText.replace(/<[^>]+>/g, (match) => {
         const placeholder = `{{TAG_${tagPlaceholders.length}}}`;
         tagPlaceholders.push({ placeholder, tag: match });
         return placeholder;
     });
-
-    // Делаем слова кликабельными
     processedText = processedText.replace(/\b([A-Za-z]{2,}(?:'[A-Za-z]+)?)\b/g, (word) => {
         if (word.includes('{{TAG_')) return word;
         const safeWord = word.replace(/'/g, "\\'").replace(/"/g, '&quot;');
         return `<span class="clickable-word" data-word="${safeWord}" data-context="">${word}</span>`;
     });
-
-    // Возвращаем HTML-теги обратно
     for (const { placeholder, tag } of tagPlaceholders) {
         processedText = processedText.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), tag);
     }
-
     return processedText;
 }
 
@@ -1172,12 +1218,9 @@ async function handleWordClickEvent(event) {
     if (target.classList && target.classList.contains('clickable-word')) {
         const word = target.getAttribute('data-word') || target.textContent;
         const context = target.getAttribute('data-context') || '';
-
         const originalText = target.textContent;
         target.textContent = '⏳';
-
         const translation = await translateWord(word, context);
-
         target.textContent = originalText;
         showToast(`📖 ${word} → ${translation}`, 'info');
         event.stopPropagation();
@@ -1188,18 +1231,19 @@ function initClickableWords() {
     document.body.addEventListener('click', handleWordClickEvent);
 }
 
-// ========== ПРОГРЕСС НА СЕРВЕРЕ ==========
+// ========== ПРОГРЕСС НА СЕРВЕРЕ (через API) ==========
 async function saveProgressToServer(weekId, day, score, completed = true) {
-    const sessionId = getSessionId();
+    const headers = getAuthHeaders();
+    if (!headers) return false;
+
     try {
-        const response = await fetch('/api/progress', {
+        const response = await fetch('/api/progress/', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: headers,
             body: JSON.stringify({
                 week_id: weekId,
                 day: day,
                 score: score,
-                session_id: sessionId,
                 completed: completed
             })
         });
@@ -1211,9 +1255,13 @@ async function saveProgressToServer(weekId, day, score, completed = true) {
 }
 
 async function loadProgressFromServer(weekId) {
-    const sessionId = getSessionId();
+    const headers = getAuthHeaders();
+    if (!headers) return { completed_days: [], day_scores: {}, current_day: 1, overall_percent: 0 };
+
     try {
-        const response = await fetch(`/api/progress/${weekId}?session_id=${sessionId}`);
+        const response = await fetch(`/api/progress/${weekId}`, {
+            headers: headers
+        });
         if (response.ok) {
             return await response.json();
         }
@@ -1230,27 +1278,19 @@ function showCertificate(weekTitle, overallScore, weekIcon = '🏆') {
 
     const modal = document.createElement('div');
     modal.className = 'certificate-modal';
-    modal.style.position = 'fixed';
-    modal.style.top = '0';
-    modal.style.left = '0';
-    modal.style.width = '100%';
-    modal.style.height = '100%';
-    modal.style.backgroundColor = 'rgba(0,0,0,0.8)';
-    modal.style.display = 'flex';
-    modal.style.alignItems = 'center';
-    modal.style.justifyContent = 'center';
-    modal.style.zIndex = '2000';
+    modal.style.cssText = `
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.8); display: flex; align-items: center;
+        justify-content: center; z-index: 2000;
+    `;
 
     const certificate = document.createElement('div');
-    certificate.style.backgroundColor = 'var(--card-bg)';
-    certificate.style.borderRadius = '24px';
-    certificate.style.padding = '40px';
-    certificate.style.maxWidth = '500px';
-    certificate.style.width = '90%';
-    certificate.style.textAlign = 'center';
-    certificate.style.boxShadow = '0 25px 50px -12px rgba(0,0,0,0.5)';
-    certificate.style.border = '3px solid var(--primary)';
-    certificate.style.animation = 'fadeInUp 0.5s ease';
+    certificate.style.cssText = `
+        background: var(--card-bg); border-radius: 24px; padding: 40px;
+        max-width: 500px; width: 90%; text-align: center;
+        box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+        border: 3px solid var(--primary); animation: fadeInUp 0.5s ease;
+    `;
 
     if (!document.querySelector('#certificate-animation')) {
         const style = document.createElement('style');
@@ -1274,7 +1314,7 @@ function showCertificate(weekTitle, overallScore, weekIcon = '🏆') {
         </div>
         <p style="margin-bottom: 24px; font-size: 1rem;">🎓 Вы получаете сертификат о прохождении недели!</p>
         <button onclick="this.closest('.certificate-modal').remove();"
-                style="background: var(--primary); color: white; border: none; padding: 12px 32px; border-radius: 40px; cursor: pointer; font-size: 1rem; transition: transform 0.2s;">
+                style="background: var(--primary); color: white; border: none; padding: 12px 32px; border-radius: 40px; cursor: pointer; font-size: 1rem;">
             Отлично! 🎉
         </button>
     `;
@@ -1283,16 +1323,13 @@ function showCertificate(weekTitle, overallScore, weekIcon = '🏆') {
     document.body.appendChild(modal);
 
     modal.onclick = (e) => {
-        if (e.target === modal) {
-            modal.remove();
-        }
+        if (e.target === modal) modal.remove();
     };
 }
 
 function getCurrentUser() {
     const token = localStorage.getItem('access_token');
     if (!token) return null;
-
     try {
         const payload = JSON.parse(atob(token.split('.')[1]));
         return { id: payload.user_id, email: payload.sub };
@@ -1305,7 +1342,9 @@ function getCurrentUser() {
 if (typeof window !== 'undefined') {
     window.addEventListener('load', () => {
         initTheme();
+        clearCorruptedTips();
         registerServiceWorker();
+        displayDailyTip();
     });
 }
 
@@ -1313,7 +1352,6 @@ if (typeof window !== 'undefined') {
 function applyThemeByAudience() {
     const urlParams = new URLSearchParams(window.location.search);
     const audience = urlParams.get('audience');
-
     if (audience === 'school') {
         document.body.classList.add('school-theme');
         document.body.classList.remove('adult-theme');
@@ -1327,9 +1365,7 @@ function applyThemeByAudience() {
 }
 
 if (typeof window !== 'undefined') {
-    window.addEventListener('load', () => {
-        applyThemeByAudience();
-    });
+    window.addEventListener('load', applyThemeByAudience);
 }
 
 // ========== УСТАНОВКА ТЕКУЩЕГО ГОДА В ПОДВАЛЕ ==========
@@ -1337,9 +1373,7 @@ function setCurrentYear() {
     const yearSpan = document.getElementById('currentYear');
     if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
-        console.log('✅ Year set to:', yearSpan.textContent);
     } else {
-        console.warn('⚠️ Element #currentYear not found yet, will retry...');
         setTimeout(setCurrentYear, 100);
     }
 }
@@ -1360,30 +1394,17 @@ function showCopyrightPopup() {
     const overlay = document.createElement('div');
     overlay.id = 'copyright-overlay';
     overlay.style.cssText = `
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 10000;
-        backdrop-filter: blur(3px);
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background: rgba(0,0,0,0.8); display: flex; align-items: center;
+        justify-content: center; z-index: 10000; backdrop-filter: blur(3px);
     `;
 
     const popup = document.createElement('div');
     popup.style.cssText = `
-        background: var(--card-bg);
-        color: var(--text);
-        max-width: 90%;
-        width: 450px;
-        border-radius: 20px;
-        padding: 25px;
-        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
-        border: 2px solid var(--primary);
-        animation: fadeInUp 0.4s ease;
+        background: var(--card-bg); color: var(--text);
+        max-width: 90%; width: 450px; border-radius: 20px;
+        padding: 25px; box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+        border: 2px solid var(--primary); animation: fadeInUp 0.4s ease;
     `;
 
     if (!document.querySelector('#copyright-popup-animation')) {
@@ -1391,23 +1412,15 @@ function showCopyrightPopup() {
         style.id = 'copyright-popup-animation';
         style.textContent = `
             @keyframes fadeInUp {
-                from {
-                    opacity: 0;
-                    transform: translateY(30px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
+                from { opacity: 0; transform: translateY(30px); }
+                to { opacity: 1; transform: translateY(0); }
             }
         `;
         document.head.appendChild(style);
     }
 
     popup.innerHTML = `
-        <div style="text-align: center; margin-bottom: 15px;">
-            <span style="font-size: 3rem;">📚</span>
-        </div>
+        <div style="text-align: center; margin-bottom: 15px;"><span style="font-size: 3rem;">📚</span></div>
         <h2 style="color: var(--primary); text-align: center; margin-bottom: 15px;">Уважаемый пользователь!</h2>
         <p style="margin-bottom: 15px; line-height: 1.4;">
             Все материалы на сайте <strong>English by Weeks</strong> являются интеллектуальной собственностью создателя.
@@ -1418,19 +1431,13 @@ function showCopyrightPopup() {
         <p style="margin-bottom: 20px; line-height: 1.4;">
             <strong>✅ Разрешено:</strong> использовать для личного обучения, проходить уроки с семьёй (один аккаунт на домохозяйство).
         </p>
-        <div style="background: rgba(99, 102, 241, 0.1); padding: 12px; border-radius: 12px; margin-bottom: 20px; font-size: 0.85rem;">
+        <div style="background: rgba(99,102,241,0.1); padding: 12px; border-radius: 12px; margin-bottom: 20px; font-size: 0.85rem;">
             📖 Подробнее в <a href="/terms.html" target="_blank" style="color: var(--primary);">Условиях использования</a>
         </div>
         <button id="copyright-accept-btn" style="
-            width: 100%;
-            padding: 12px;
-            background: var(--primary);
-            color: white;
-            border: none;
-            border-radius: 40px;
-            font-size: 1rem;
-            font-weight: bold;
-            cursor: pointer;
+            width: 100%; padding: 12px; background: var(--primary);
+            color: white; border: none; border-radius: 40px;
+            font-size: 1rem; font-weight: bold; cursor: pointer;
             transition: transform 0.2s;
         " onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
             ✅ Я принимаю условия
@@ -1450,9 +1457,7 @@ function showCopyrightPopup() {
 }
 
 if (typeof window !== 'undefined') {
-    window.addEventListener('load', () => {
-        setTimeout(showCopyrightPopup, 1000);
-    });
+    window.addEventListener('load', () => setTimeout(showCopyrightPopup, 1000));
 }
 
 // ========== СОВЕТ ДНЯ ==========
@@ -1469,16 +1474,14 @@ const TIPS_LIST = [
     { icon: "🎮", text: "Играйте в видеоигры на английском. Диалоги и интерфейс — отличная языковая практика!" },
     { icon: "📱", text: "Переключите телефон на английский. Вы будете видеть язык каждый день и быстро привыкнете!" },
     { icon: "🎵", text: "Слушайте английские песни и пытайтесь подпевать. Это улучшает произношение и ритм речи!" },
-
-    // === Этимология (происхождение слов) ===
+    // === Этимология ===
     { icon: "🔍", text: "Слово «каникулы» происходит от латинского «canicula» — так называли звезду Сириус (собачью звезду). В Древнем Риме в период её появления на небе школы закрывались на отдых." },
     { icon: "📖", text: "Слово «школа» в переводе с греческого означает «досуг». В Древней Греции школой называли место, где люди проводили свободное время в философских беседах." },
     { icon: "💻", text: "Слово «компьютер» раньше было профессией! Так называли людей, которые выполняли сложные расчёты вручную." },
     { icon: "🤖", text: "Слово «робот» придумал чешский писатель Карел Чапек. Оно происходит от слова «robota», что означает «тяжёлая работа»." },
     { icon: "📱", text: "Слово «смартфон» — это два слова: smart (умный) + phone (телефон). Но первый смартфон появился только в 1992 году!" },
     { icon: "🎒", text: "Слово «рюкзак» — буквально «рюха» (мешок) + «зак» (за спиной). А по-английски backpack — это back (спина) + pack (пакет)." },
-
-    // === Забавные факты о мире ===
+    // === Забавные факты ===
     { icon: "🐘", text: "Слоны — единственные млекопитающие, которые не умеют прыгать. Зато они отлично плавают и даже ныряют, используя хобот как трубку!" },
     { icon: "🐪", text: "Верблюды хранят жир не в горбах, а вокруг них. Горбы служат «крышей» для защиты от солнца. А воду они действительно могут долго не пить." },
     { icon: "🦒", text: "Жирафам не нужно много спать — достаточно 30 минут в день. А ещё у них самый длинный хвост среди млекопитающих (до 2,5 метров!)." },
@@ -1486,8 +1489,7 @@ const TIPS_LIST = [
     { icon: "🍕", text: "Самая популярная пицца в мире — Маргарита. Она названа в честь королевы Италии Маргариты Савойской, которая попробовала её в 1889 году." },
     { icon: "🍿", text: "Попкорн появился тысячи лет назад. Древние индейцы обнаружили, что некоторые зёрна кукурузы взрываются при нагревании." },
     { icon: "✏️", text: "Обычным карандашом можно написать линию длиной около 56 километров — это больше, чем расстояние от Москвы до Подольска и обратно!" },
-
-    // === Мотивация и лайфхаки для учёбы ===
+    // === Мотивация ===
     { icon: "⏰", text: "Учёные выяснили: мозг лучше всего запоминает информацию утром (через 1–2 часа после пробуждения) и перед сном." },
     { icon: "🧠", text: "Объясняйте новую тему кому-то другому. Когда вы учите кого-то, вы запоминаете в 2 раза лучше." },
     { icon: "🎯", text: "Разбивайте большую задачу на маленькие шаги. 5 минут занятий — это лучше, чем ничего. Главное — начать!" },
@@ -1498,27 +1500,47 @@ const TIPS_LIST = [
 ];
 
 function getRandomTip() {
+    if (!TIPS_LIST || TIPS_LIST.length === 0) {
+        return { icon: '🧠', text: 'Учитесь каждый день!' };
+    }
     const randomIndex = Math.floor(Math.random() * TIPS_LIST.length);
     return TIPS_LIST[randomIndex];
 }
 
 function displayDailyTip() {
     const tipBlock = document.getElementById('dailyTipText');
-    if (!tipBlock) return;
+    if (!tipBlock) {
+        console.warn('⚠️ Блок dailyTipText не найден на этой странице');
+        return;
+    }
 
-    let tip = localStorage.getItem('dailyTip');
+    // Очищаем битые данные
+    clearCorruptedTips();
+
+    let tip = null;
+    const raw = localStorage.getItem('dailyTip');
     const lastTipHour = localStorage.getItem('dailyTipHour');
     const currentHour = new Date().getHours();
 
-    if (!tip || lastTipHour != currentHour) {
+    if (raw && lastTipHour && parseInt(lastTipHour) === currentHour) {
+        try {
+            tip = JSON.parse(raw);
+            if (!tip || typeof tip !== 'object' || !tip.icon) {
+                tip = null;
+            }
+        } catch (e) {
+            tip = null;
+        }
+    }
+
+    if (!tip) {
         tip = getRandomTip();
         localStorage.setItem('dailyTip', JSON.stringify(tip));
         localStorage.setItem('dailyTipHour', currentHour);
-    } else {
-        tip = JSON.parse(tip);
     }
 
     tipBlock.innerHTML = `<span class="tip-icon">${tip.icon}</span> ${tip.text}`;
+    console.log('✅ Совет дня отображён:', tip.text);
 }
 
 function refreshDailyTip() {
@@ -1527,18 +1549,61 @@ function refreshDailyTip() {
     if (tipBlock) {
         tipBlock.innerHTML = `<span class="tip-icon">${newTip.icon}</span> ${newTip.text}`;
         showToast('✨ Совет обновлён!', 'info');
+        const currentHour = new Date().getHours();
+        localStorage.setItem('dailyTip', JSON.stringify(newTip));
+        localStorage.setItem('dailyTipHour', currentHour);
+        console.log('✅ Совет обновлён:', newTip.text);
+    } else {
+        console.warn('⚠️ Блок dailyTipText не найден на этой странице');
     }
 }
 
-if (typeof window !== 'undefined') {
-    document.addEventListener('DOMContentLoaded', () => {
-        displayDailyTip();
-
-        const refreshBtn = document.getElementById('refreshTipBtn');
-        if (refreshBtn) {
-            refreshBtn.addEventListener('click', refreshDailyTip);
+// ========== ПОДПИСКА (ОПЛАТА) ==========
+async function startSubscription() {
+    const token = localStorage.getItem('access_token');
+    if (!token) {
+        showToast('Сначала войдите', 'error');
+        return;
+    }
+    try {
+        const response = await fetch('/payments/create', {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const data = await response.json();
+        if (data.payment_url) {
+            window.location.href = data.payment_url; // переход на страницу ЮKassa
+        } else {
+            showToast('Ошибка при создании платежа', 'error');
         }
-    });
+    } catch (error) {
+        console.error(error);
+        showToast('Ошибка сети', 'error');
+    }
+}
+
+async function mockPay() {
+    const token = localStorage.getItem('access_token');
+    if (!token) {
+        showToast('Сначала войдите', 'error');
+        return;
+    }
+    try {
+        const response = await fetch('/payments/mock', {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${token}` }
+        });
+        const data = await response.json();
+        if (response.ok) {
+            showToast('✅ Премиум активирован!', 'success');
+            setTimeout(() => location.reload(), 1000);
+        } else {
+            showToast(data.message || 'Ошибка', 'error');
+        }
+    } catch (error) {
+        console.error(error);
+        showToast('Ошибка сети', 'error');
+    }
 }
 
 // ========== ЭКСПОРТ В ГЛОБАЛЬНУЮ ОБЛАСТЬ ==========
@@ -1559,3 +1624,9 @@ window.showCertificate = showCertificate;
 window.getCurrentUser = getCurrentUser;
 window.registerServiceWorker = registerServiceWorker;
 window.renderReadingTextContent = renderReadingTextContent;
+window.requestLoginLink = requestLoginLink;
+window.logout = logout;
+window.checkAuth = checkAuth;
+window.refreshDailyTip = refreshDailyTip;
+window.startSubscription = startSubscription;
+window.mockPay = mockPay;
