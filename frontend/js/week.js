@@ -74,9 +74,9 @@ function goBack() {
 // ========== ЗАГРУЗКА ДАННЫХ ==========
 async function loadWeekData() {
     try {
-        const headers = getAuthHeaders(); // если есть токен, вернёт объект с Authorization
+        const headers = getAuthHeaders();
         const response = await fetch(`/api/weeks/${currentWeekId}`, {
-            headers: headers || {} // если токена нет, отправляем пустой объект
+            headers: headers || {}
         });
         if (!response.ok) throw new Error('Week not found');
         weekData = await response.json();
@@ -92,11 +92,9 @@ async function loadWeekData() {
 }
 
 async function loadUserProgress() {
-    // Загружаем прогресс с сервера
     const progress = await loadProgressFromServer(currentWeekId);
     userProgress = progress;
 
-    // Загружаем ответы на упражнения (локально)
     const savedAnswers = localStorage.getItem(`answers_${currentWeekId}`);
     if (savedAnswers) {
         userAnswers = JSON.parse(savedAnswers);
@@ -106,9 +104,7 @@ async function loadUserProgress() {
 }
 
 function saveUserProgress() {
-    // Сохраняем ответы на упражнения локально
     localStorage.setItem(`answers_${currentWeekId}`, JSON.stringify(userAnswers));
-    // Прогресс дней сохраняется на сервер через saveDayProgress
     updateStatsDisplay();
 }
 
@@ -260,7 +256,7 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
             </div>
         `;
     } else if (ex.type === 'fill_blank') {
-        return `<input type="text" class="fill-input" id="input-${dayNum}-${ex.id}" value="${savedAnswer || ''}" placeholder="Введите ответ...">`;
+        return `<input type="text" class="fill-input" id="input-${dayNum}-${ex.id}" value="${savedAnswer || ''}" placeholder="Введите ответ..." oninput="clearExerciseState(${dayNum}, ${ex.id})">`;
     } else if (ex.type === 'true_false') {
         return `
             <div class="options" id="options-${dayNum}-${ex.id}">
@@ -269,7 +265,7 @@ function renderExerciseInput(ex, dayNum, savedAnswer) {
             </div>
         `;
     } else if (ex.type === 'correct_mistake') {
-        return `<input type="text" class="fill-input" id="input-${dayNum}-${ex.id}" value="${savedAnswer || ''}" placeholder="Исправьте ошибку...">`;
+        return `<input type="text" class="fill-input" id="input-${dayNum}-${ex.id}" value="${savedAnswer || ''}" placeholder="Исправьте ошибку..." oninput="clearExerciseState(${dayNum}, ${ex.id})">`;
     } else if (ex.type === 'listening') {
         let html = '';
         if (ex.listeningText) {
@@ -306,6 +302,7 @@ function renderReadingText(readingText) {
     return `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; line-height: 1.4;">${processText(readingText)}</div>`;
 }
 
+// ✅ ОСНОВНОЕ ИСПРАВЛЕНИЕ: правильное сохранение ответа и сброс состояния
 function selectOption(dayNum, exId, optIndex, value) {
     const optionsDiv = document.getElementById(`options-${dayNum}-${exId}`);
     if (optionsDiv) {
@@ -313,19 +310,47 @@ function selectOption(dayNum, exId, optIndex, value) {
         options.forEach(opt => opt.classList.remove('selected'));
         if (options[optIndex]) options[optIndex].classList.add('selected');
     }
-    userAnswers[`day${dayNum}_ex${ex.id}`] = value;
+
+    // Используем правильный ключ – exId
+    userAnswers[`day${dayNum}_ex${exId}`] = value;
     saveUserProgress();
+
+    // Сбрасываем состояние проверки
+    clearExerciseState(dayNum, exId);
+}
+
+// ✅ Функция сброса состояния упражнения (вызывается при выборе ответа или вводе текста)
+function clearExerciseState(dayNum, exId) {
+    const card = document.getElementById(`ex-${dayNum}-${exId}`);
+    if (card) {
+        card.classList.remove('correct', 'incorrect');
+    }
+    const explanationDiv = document.getElementById(`explanation-${dayNum}-${exId}`);
+    if (explanationDiv) {
+        explanationDiv.innerHTML = '';
+        explanationDiv.classList.remove('show');
+    }
 }
 
 // ========== ПРОВЕРКА ОТВЕТОВ ==========
 function isAnswerCorrect(userAnswer, exercise) {
     if (!userAnswer) return false;
-    const normalizedUser = userAnswer.toString().toLowerCase().trim();
+
+    const normalize = (str) => {
+        return str.trim()
+                  .toLowerCase()
+                  .replace(/[.!?,;:]+$/, '')
+                  .replace(/\s+/g, ' ');
+    };
+
+    const normalizedUser = normalize(userAnswer);
+
     if (exercise.accept && Array.isArray(exercise.accept)) {
-        const normalizedAccept = exercise.accept.map(a => a.toString().toLowerCase().trim());
+        const normalizedAccept = exercise.accept.map(a => normalize(a));
         return normalizedAccept.includes(normalizedUser);
     }
-    const normalizedCorrect = exercise.correct.toString().toLowerCase().trim();
+
+    const normalizedCorrect = normalize(exercise.correct);
     return normalizedUser === normalizedCorrect;
 }
 
@@ -366,14 +391,15 @@ async function checkExercise(dayNum, exId, exType) {
     const card = document.getElementById(`ex-${dayNum}-${exId}`);
     const explanationDiv = document.getElementById(`explanation-${dayNum}-${exId}`);
 
+    // Сбрасываем классы перед новой проверкой
+    card.classList.remove('correct', 'incorrect');
+
     if (isCorrect) {
         card.classList.add('correct');
-        card.classList.remove('incorrect');
         explanationDiv.innerHTML = `<div style="color: var(--success);">✅ Правильно! ${exercise.explanation || ''}</div>`;
         showToast('✅ Правильный ответ!', 'success');
     } else {
         card.classList.add('incorrect');
-        card.classList.remove('correct');
         explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Неправильно. Правильный ответ: ${exercise.correct}<br>${exercise.explanation || ''}</div>`;
         showToast('❌ Неправильно. Попробуйте ещё раз!', 'error');
     }
@@ -413,7 +439,6 @@ async function saveDayProgress(dayNum) {
     userProgress.dayScores = userProgress.dayScores || {};
     userProgress.dayScores[dayNum] = score;
 
-    // Сохраняем на сервер
     const success = await saveProgressToServer(currentWeekId, dayNum, score, score >= 70);
     if (!success) {
         showToast('Ошибка при сохранении прогресса на сервере', 'error');
@@ -494,6 +519,7 @@ function toggleDay(dayNum) {
 // Глобальный экспорт
 window.toggleDay = toggleDay;
 window.selectOption = selectOption;
+window.clearExerciseState = clearExerciseState;
 window.checkExercise = checkExercise;
 window.saveDayProgress = saveDayProgress;
 window.speak = speak;

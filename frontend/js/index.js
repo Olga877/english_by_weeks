@@ -15,6 +15,7 @@ const adultLevels = [
         available: true,
         comingSoon: false,
         weeks: [
+            { weekId: 'Food_continuous', title: '🍽️ Food & Cooking / Present Simple и Continuous' },
             { weekId: 'money_week', title: '💰 Money Week: Present Perfect & Past Simple' },
             { weekId: 'adult_body_modals', title: '🧍 The Body & Modals of Deduction' },
             { weekId: 'school_education', title: '🎓 School & Education: First Conditional' }

@@ -329,19 +329,35 @@ function selectOption(dayNum, exId, optIndex, value) {
         options.forEach(opt => opt.classList.remove('selected'));
         if (options[optIndex]) options[optIndex].classList.add('selected');
     }
-    userAnswers[`day${dayNum}_ex${ex.id}`] = value;
+
+    // ✅ ИСПРАВЛЕНО: используем exId, а не ex.id
+    userAnswers[`day${dayNum}_ex${exId}`] = value;
     saveUserProgress();
+
+    // ✅ Сбрасываем состояние проверки при выборе нового ответа
+    clearExerciseState(dayNum, exId);
 }
 
-// ========== ПРОВЕРКА ОТВЕТОВ ==========
+// ========== УЛУЧШЕННАЯ ПРОВЕРКА ОТВЕТОВ ==========
 function isAnswerCorrect(userAnswer, exercise) {
     if (!userAnswer) return false;
-    const normalizedUser = userAnswer.toString().toLowerCase().trim();
+
+    // Нормализация: удаляем пунктуацию в конце, лишние пробелы, приводим к нижнему регистру
+    const normalize = (str) => {
+        return str.trim()
+                  .toLowerCase()
+                  .replace(/[.!?,;:]+$/, '')   // убираем знаки препинания в конце
+                  .replace(/\s+/g, ' ');       // заменяем несколько пробелов на один
+    };
+
+    const normalizedUser = normalize(userAnswer);
+
     if (exercise.accept && Array.isArray(exercise.accept)) {
-        const normalizedAccept = exercise.accept.map(a => a.toString().toLowerCase().trim());
+        const normalizedAccept = exercise.accept.map(a => normalize(a));
         return normalizedAccept.includes(normalizedUser);
     }
-    const normalizedCorrect = exercise.correct.toString().toLowerCase().trim();
+
+    const normalizedCorrect = normalize(exercise.correct);
     return normalizedUser === normalizedCorrect;
 }
 

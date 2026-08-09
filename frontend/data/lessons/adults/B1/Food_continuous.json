@@ -1,0 +1,559 @@
+{
+  "week_id": "Food_continuous",
+  "title": "🍽️ Food & Cooking / Present Simple и Continuous",
+  "description": "Учим лексику о еде, готовке, времена Present Simple и Continuous, а также разницу между action и non‑action глаголами. Уровень B1. 7 дней.",
+  "level": "B1",
+  "icon": "🍽️",
+  "order_num": 3,
+  "is_published": true,
+  "days": [
+    {
+      "day": 1,
+      "title": "Tasty Words: Food Vocabulary",
+      "description": "Знакомимся с названиями продуктов: рыба, мясо, фрукты, овощи.",
+      "grammar": {
+        "title": "Food Vocabulary",
+        "rule": "📘 Сегодня мы учим слова по теме еды. Разделим их на группы:\n\n🐟 Fish and seafood: crab, lobster, mussels, prawns, salmon, squid, tuna.\n🥩 Meat: beef, chicken, duck, lamb, pork.\n🍎 Fruit and vegetables: aubergine, avocado, beetroot, cabbage, cherries, courgette, cucumber, grapes, green beans, lemon, mango, melon, peach, pear, raspberries, red pepper.\n\n💡 Запомните: в английском многие названия продуктов имеют неожиданные транскрипции. Например, *aubergine* произносится как /ˈəʊbəʒiːn/ (это баклажан, а в Америке говорят eggplant).",
+        "examples": []
+      },
+      "vocabulary": [
+        {"icon": "🦀", "word": "crab", "transcription": "/kræb/", "translation": "краб", "example": "I love crab soup.", "context_translation": "краб", "context_example": "Я люблю суп из крабов."},
+        {"icon": "🦞", "word": "lobster", "transcription": "/ˈlɒbstə/", "translation": "омар", "example": "Lobster is very expensive.", "context_translation": "омар", "context_example": "Омар очень дорогой."},
+        {"icon": "🐚", "word": "mussel", "transcription": "/ˈmʌsəl/", "translation": "мидия", "example": "Mussels are delicious with garlic sauce.", "context_translation": "мидия", "context_example": "Мидии вкусны с чесночным соусом."},
+        {"icon": "🦐", "word": "prawn", "transcription": "/prɔːn/", "translation": "креветка", "example": "I ordered grilled prawns.", "context_translation": "креветка", "context_example": "Я заказал креветки на гриле."},
+        {"icon": "🐟", "word": "salmon", "transcription": "/ˈsæmən/", "translation": "лосось", "example": "Smoked salmon is my favourite breakfast.", "context_translation": "лосось", "context_example": "Копчёный лосось — мой любимый завтрак."},
+        {"icon": "🦑", "word": "squid", "transcription": "/skwɪd/", "translation": "кальмар", "example": "Squid rings are popular in Mediterranean cuisine.", "context_translation": "кальмар", "context_example": "Кольца кальмаров популярны в средиземноморской кухне."},
+        {"icon": "🐠", "word": "tuna", "transcription": "/ˈtjuːnə/", "translation": "тунец", "example": "I always have a tuna sandwich for lunch.", "context_translation": "тунец", "context_example": "Я всегда ем бутерброд с тунцом на обед."},
+        {"icon": "🥩", "word": "beef", "transcription": "/biːf/", "translation": "говядина", "example": "British beef is famous for its quality.", "context_translation": "говядина", "context_example": "Британская говядина славится своим качеством."},
+        {"icon": "🍗", "word": "chicken", "transcription": "/ˈtʃɪkɪn/", "translation": "курица", "example": "Chicken is a healthy source of protein.", "context_translation": "курица", "context_example": "Курица — полезный источник белка."},
+        {"icon": "🦆", "word": "duck", "transcription": "/dʌk/", "translation": "утка", "example": "Peking duck is a famous Chinese dish.", "context_translation": "утка", "context_example": "Пекинская утка — известное китайское блюдо."},
+        {"icon": "🐑", "word": "lamb", "transcription": "/læm/", "translation": "баранина", "example": "Roast lamb with mint sauce is a classic.", "context_translation": "баранина", "context_example": "Жареная баранина с мятным соусом — классика."},
+        {"icon": "🐷", "word": "pork", "transcription": "/pɔːk/", "translation": "свинина", "example": "Many people avoid pork for religious reasons.", "context_translation": "свинина", "context_example": "Многие люди избегают свинины по религиозным причинам."},
+        {"icon": "🍆", "word": "aubergine", "transcription": "/ˈəʊbəʒiːn/", "translation": "баклажан", "example": "I love aubergine parmigiana.", "context_translation": "баклажан", "context_example": "Я люблю пармиджану из баклажанов."},
+        {"icon": "🥑", "word": "avocado", "transcription": "/ˌævəˈkɑːdəʊ/", "translation": "авокадо", "example": "Avocado toast is trendy now.", "context_translation": "авокадо", "context_example": "Тост с авокадо сейчас в моде."},
+        {"icon": "🍠", "word": "beetroot", "transcription": "/ˈbiːtruːt/", "translation": "свёкла", "example": "In Russia we eat beetroot in salads.", "context_translation": "свёкла", "context_example": "В России мы едим свёклу в салатах."},
+        {"icon": "🥬", "word": "cabbage", "transcription": "/ˈkæbɪdʒ/", "translation": "капуста", "example": "Cabbage is used in many traditional dishes.", "context_translation": "капуста", "context_example": "Капуста используется во многих традиционных блюдах."},
+        {"icon": "🍒", "word": "cherry", "transcription": "/ˈtʃeri/", "translation": "вишня", "example": "Cherry pie is a great dessert.", "context_translation": "вишня", "context_example": "Вишнёвый пирог — отличный десерт."},
+        {"icon": "🥒", "word": "courgette", "transcription": "/kʊəˈʒet/", "translation": "кабачок", "example": "Courgettes are low in calories.", "context_translation": "кабачок", "context_example": "Кабачки низкокалорийны."},
+        {"icon": "🥒", "word": "cucumber", "transcription": "/ˈkjuːkʌmbə/", "translation": "огурец", "example": "Cucumber is refreshing in summer.", "context_translation": "огурец", "context_example": "Огурец освежает летом."},
+        {"icon": "🍇", "word": "grape", "transcription": "/ɡreɪp/", "translation": "виноград", "example": "These grapes are very sweet.", "context_translation": "виноград", "context_example": "Этот виноград очень сладкий."},
+        {"icon": "🌿", "word": "green bean", "transcription": "/ɡriːn biːn/", "translation": "стручковая фасоль", "example": "Green beans are a healthy side dish.", "context_translation": "стручковая фасоль", "context_example": "Стручковая фасоль — полезный гарнир."},
+        {"icon": "🍋", "word": "lemon", "transcription": "/ˈlemən/", "translation": "лимон", "example": "Add a slice of lemon to your tea.", "context_translation": "лимон", "context_example": "Добавьте дольку лимона в чай."},
+        {"icon": "🥭", "word": "mango", "transcription": "/ˈmæŋɡəʊ/", "translation": "манго", "example": "Mango smoothies are delicious.", "context_translation": "манго", "context_example": "Смузи из манго вкусны."},
+        {"icon": "🍈", "word": "melon", "transcription": "/ˈmelən/", "translation": "дыня", "example": "Melon is a refreshing summer fruit.", "context_translation": "дыня", "context_example": "Дыня — освежающий летний фрукт."},
+        {"icon": "🍑", "word": "peach", "transcription": "/piːtʃ/", "translation": "персик", "example": "A ripe peach is very juicy.", "context_translation": "персик", "context_example": "Спелый персик очень сочный."},
+        {"icon": "🍐", "word": "pear", "transcription": "/peə/", "translation": "груша", "example": "Pears go well with blue cheese.", "context_translation": "груша", "context_example": "Груши хорошо сочетаются с голубым сыром."},
+        {"icon": "🍓", "word": "raspberry", "transcription": "/ˈrɑːzbəri/", "translation": "малина", "example": "Raspberries are full of vitamins.", "context_translation": "малина", "context_example": "Малина богата витаминами."},
+        {"icon": "🫑", "word": "red pepper", "transcription": "/red ˈpepə/", "translation": "красный перец", "example": "Red pepper adds colour to a salad.", "context_translation": "красный перец", "context_example": "Красный перец добавляет цвет салату."}
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "Which of these is a type of seafood?",
+          "options": ["Beef", "Lamb", "Lobster", "Pork"],
+          "correct": "Lobster",
+          "accept": ["Lobster", "lobster", "LOBSTER"],
+          "explanation": "Lobster – омар, морепродукт. Остальное – мясо.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "What is the Russian vegetable 'свёкла' in English?",
+          "options": ["Cabbage", "Beetroot", "Courgette", "Aubergine"],
+          "correct": "Beetroot",
+          "accept": ["Beetroot", "beetroot", "BEETROOT"],
+          "explanation": "Beetroot – свёкла.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank",
+          "question": "I like to eat ___ (crab / beef) for seafood.",
+          "correct": "crab",
+          "accept": ["crab", "Crab", "CRAB"],
+          "explanation": "Crab is seafood, beef is meat.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "Salmon is a type of meat.",
+          "correct": "False",
+          "accept": ["False", "false", "FALSE", "No", "no"],
+          "explanation": "Salmon is fish, not meat.",
+          "topic": "reading"
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "question": "She has a big ___ (nose / head) – but here we talk about food: I'll have a ___ of grapes.",
+          "correct": "bunch",
+          "accept": ["bunch", "Bunch", "BUNCH"],
+          "explanation": "A bunch of grapes – гроздь винограда.",
+          "topic": "vocabulary"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Present Simple: Facts and Routines",
+      "description": "Изучаем Present Simple для описания фактов и привычек.",
+      "grammar": {
+        "title": "Present Simple (настоящее простое время)",
+        "rule": "📘 Используем Present Simple для:\n✅ Фактов (всегда верно): *Water boils at 100°C.*\n✅ Регулярных действий (привычек, расписания): *I have breakfast at 8 am.*\n\n📌 Формула: subject + глагол (для he/she/it + -s/-es)\n❌ Отрицание: subject + do/does + not + глагол (без -s)\n❓ Вопрос: Do/Does + subject + глагол (без -s)?\n\n📌 Слова-маркеры: *usually, never, always, sometimes, every day, once a week.*\n\n⚠️ Важно: в вопросах и отрицаниях мы используем вспомогательный глагол *do/does*, а основной глагол остаётся в инфинитиве (без -s).",
+        "examples": [
+          "She works in a café.",
+          "We don't eat meat.",
+          "Does the supermarket open on Sundays?",
+          "He always wears smart clothes."
+        ]
+      },
+      "vocabulary": [],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "fill_blank",
+          "question": "Complete the sentences with the Present Simple of the verbs in brackets.",
+          "text": "1. My sister __________ (work) in a restaurant.\n2. We __________ (not / eat) meat very often.\n3. The film __________ (start) at 8 pm.\n4. He always __________ (wear) smart clothes to work.\n5. Where __________ you __________ (live)?\n6. She __________ (have) two children.\n7. They __________ (not / like) spicy food.\n8. The bus __________ (leave) every hour.",
+          "answers": ["works", "don't eat", "starts", "wears", "do", "live", "has", "don't like", "leaves"],
+          "explanation": "Проверьте: 3-е лицо ед.ч. добавляет -s/-es. В вопросах и отрицаниях используем do/does.",
+          "topic": "grammar"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "Choose the correct form.",
+          "options": [
+            "1. I (don't believe / am not believing) you.",
+            "2. Kate (doesn't want / isn't wanting) dinner now.",
+            "3. The chef (doesn't work / isn't working) today.",
+            "4. The bill (seems / is seeming) very expensive.",
+            "5. We (don't speak / aren't speaking) to each other now.",
+            "6. My mum (thinks / is thinking) my diet is awful.",
+            "7. (Do we need / Are we needing) to go shopping?",
+            "8. I (have / am having) lunch right now."
+          ],
+          "correct": [0, 0, 1, 0, 1, 0, 0, 1],
+          "explanation": "В упражнении проверяется различие между Present Simple (для состояний и привычек) и Present Continuous (для действий в процессе).",
+          "topic": "grammar"
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "We use Present Simple to talk about actions happening at the moment of speaking.",
+          "correct": "False",
+          "accept": ["False", "false", "FALSE", "No", "no"],
+          "explanation": "Present Simple is for facts and routines, not for actions in progress (that's Present Continuous).",
+          "topic": "grammar"
+        },
+        {
+          "id": 4,
+          "type": "fill_blank",
+          "question": "She usually __________ (have) cereal for breakfast.",
+          "correct": "has",
+          "accept": ["has", "Has", "HAS"],
+          "explanation": "3rd person singular: have → has.",
+          "topic": "grammar"
+        },
+        {
+          "id": 5,
+          "type": "correct_mistake",
+          "question": "Where does she lives?",
+          "correct": "Where does she live?",
+          "accept": ["Where does she live?", "Where does she live"],
+          "explanation": "In questions with 'does', the main verb is in infinitive (without -s).",
+          "topic": "grammar"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "title": "Present Continuous and Action vs Non‑Action Verbs",
+      "description": "Учим Present Continuous и разбираем, какие глаголы нельзя использовать в этом времени.",
+      "grammar": {
+        "title": "Present Continuous и глаголы состояния",
+        "rule": "📘 Present Continuous (be + V-ing) используем для действий, происходящих прямо сейчас или временно:\n✅ *I'm cooking dinner right now.*\n✅ *She's staying with her parents this week.*\n\n⚠️ Однако не все глаголы можно ставить в Present Continuous. Глаголы состояния (non‑action) описывают чувства, мнения, владение и т.д. Они обычно не используются в Continuous.\n\n📌 Типичные non‑action глаголы:\n*agree, be, believe, belong, depend, forget, hate, hear, know, like, love, matter, mean, need, prefer, realize, recognize, remember, seem, suppose, want* – и глаголы чувств: *look, smell, taste, sound*.\n\n🔹 Некоторые глаголы могут быть и action, и non‑action в зависимости от значения:\n• *have* – действие: *I'm having lunch now* (ем); состояние: *I have a cat* (имею).\n• *think* – действие: *I'm thinking about you* (думаю); состояние: *I think you're right* (мнение).",
+        "examples": [
+          "I'm making pasta for dinner.",
+          "She looks like her mother. (state)",
+          "What are you looking at? (action)"
+        ]
+      },
+      "vocabulary": [],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "Decide if the verb is action or non‑action in each sentence. Choose the correct form.",
+          "options": [
+            "1. I (think / am thinking) about moving to a new flat.",
+            "2. This soup (tastes / is tasting) delicious.",
+            "3. We (have / are having) a meeting right now.",
+            "4. She (looks / is looking) like her mother.",
+            "5. I (love / am loving) this pizza!",
+            "6. They (don't believe / aren't believing) in ghosts.",
+            "7. He (seems / is seeming) unhappy today.",
+            "8. I (need / am needing) some help with my homework."
+          ],
+          "correct": [1, 0, 1, 0, 0, 0, 0, 0],
+          "explanation": "Помните: глаголы чувств, мнений и владения обычно не используются в Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "question": "I can't talk now – I __________ (have) lunch.",
+          "correct": "am having",
+          "accept": ["am having", "Am having", "AM HAVING"],
+          "explanation": "Here 'have' means 'eat' – it's an action, so we use Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "We can use 'believe' in Present Continuous.",
+          "correct": "False",
+          "accept": ["False", "false", "FALSE", "No", "no"],
+          "explanation": "Believe is a non‑action verb (state), so we use Present Simple.",
+          "topic": "grammar"
+        },
+        {
+          "id": 4,
+          "type": "fill_blank",
+          "question": "What __________ you __________ (think) about?",
+          "correct": "are, thinking",
+          "accept": ["are thinking", "Are thinking", "ARE THINKING"],
+          "explanation": "Here 'think' means 'consider' – an action, so Present Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 5,
+          "type": "correct_mistake",
+          "question": "I am not believing you.",
+          "correct": "I don't believe you.",
+          "accept": ["I don't believe you.", "I don't believe you"],
+          "explanation": "'Believe' is a state verb, use Present Simple.",
+          "topic": "grammar"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Grammar Practice: Present Simple vs Continuous",
+      "description": "Тренируем выбор правильного времени в разных ситуациях.",
+      "grammar": {
+        "title": "Present Simple vs Present Continuous",
+        "rule": "📌 Главное правило: если действие происходит сейчас (в момент речи) или временно – используем Present Continuous. Если это факт, привычка или постоянная ситуация – Present Simple.\n\n🔹 Слова-маркеры Continuous: *now, at the moment, today, this week.*\n🔹 Слова-маркеры Simple: *usually, always, never, every day, sometimes.*\n\n💡 Осторожно с non‑action глаголами – они почти всегда в Simple, даже если речь о «сейчас».",
+        "examples": []
+      },
+      "vocabulary": [],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "Circle the correct form (Present Simple or Continuous).",
+          "options": [
+            "1. I don't believe / I'm not believing that you cooked this meal yourself.",
+            "2. Come on, let's order. The waiter comes / is coming.",
+            "3. Kate doesn't want / isn't wanting to have dinner now. She isn't hungry.",
+            "4. The head chef is ill, so he doesn't work / isn't working today.",
+            "5. The bill seems / is seeming very expensive to me.",
+            "6. We've had an argument and now we don't speak / aren't speaking to each other.",
+            "7. My mum thinks / is thinking my diet is awful these days.",
+            "8. Do we need / Are we needing to go shopping today?",
+            "9. Can I call you back? I have / I'm having lunch right now.",
+            "10. I didn't use to like oily fish, but now I love / I'm loving it!",
+            "11. Your cake is wonderful! It tastes / is tasting like one my mother used to make."
+          ],
+          "correct": [0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0],
+          "explanation": "Проверьте: non‑action глаголы обычно в Simple; действия в процессе – в Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 2,
+          "type": "fill_blank",
+          "question": "Complete with the Present Simple or Present Continuous of the verbs in brackets.",
+          "text": "1. We __________ (not go) to Chinese restaurants very often.\n2. I __________ (have) high cholesterol, so I never __________ (eat) fried food.\n3. __________ you __________ (take) any vitamins at the moment?\n4. Don't eat the spinach if you __________ (not like) it.\n5. __________ your boyfriend __________ (know) how to cook fish?\n6. We __________ (order) takeaway pizzas once a week.\n7. What __________ your mother __________ (make)? It __________ (smell) delicious!\n8. You look sad. What __________ you __________ (think) about?\n9. I __________ (think) the diet in my country __________ (get) worse.\n10. How often __________ you __________ (have) seafood?\n11. I usually __________ (not cook) red meat.",
+          "answers": ["don't go", "have", "eat", "Are", "taking", "don't like", "Does", "know", "order", "is", "making", "smells", "are", "thinking", "think", "is getting", "do", "have", "don't cook"],
+          "explanation": "Внимательно смотрите на слова-подсказки (now, at the moment, usually, every day) и на значение глагола.",
+          "topic": "grammar"
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "We use Present Continuous for future arrangements.",
+          "correct": "True",
+          "accept": ["True", "true", "TRUE", "Yes", "yes"],
+          "explanation": "Yes, Present Continuous can also express future plans (e.g. I'm meeting friends tomorrow).",
+          "topic": "grammar"
+        },
+        {
+          "id": 4,
+          "type": "fill_blank",
+          "question": "I __________ (think) about changing my diet.",
+          "correct": "am thinking",
+          "accept": ["am thinking", "Am thinking", "AM THINKING"],
+          "explanation": "Here it's an action (considering), so Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 5,
+          "type": "correct_mistake",
+          "question": "She is having a cat.",
+          "correct": "She has a cat.",
+          "accept": ["She has a cat.", "She has a cat"],
+          "explanation": "'Have' meaning 'possess' is a state verb – use Simple.",
+          "topic": "grammar"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "title": "How to Cook: Methods and Phrasal Verbs",
+      "description": "Учим способы приготовления и популярные фразовые глаголы о еде.",
+      "grammar": {
+        "title": "Cooking Methods & Phrasal Verbs",
+        "rule": "📘 Способы приготовления:\n• *boil* – варить (в кипящей воде)\n• *fry* – жарить (на сковороде с маслом)\n• *grill* – жарить на гриле (над огнём)\n• *roast* – запекать (в духовке, обычно с маслом)\n• *steam* – готовить на пару\n\n📘 Фразовые глаголы о еде:\n• *eat out* – есть вне дома (в ресторане/кафе)\n• *cut down on* – сократить потребление (чего-то)\n• *cut out* – полностью исключить из рациона\n\n📌 Примеры:\n✅ I often eat out because I have no time to cook.\n✅ I'm trying to cut down on coffee.\n✅ The doctor told me to cut out all dairy.",
+        "examples": []
+      },
+      "vocabulary": [
+        {"icon": "💧", "word": "boil", "transcription": "/bɔɪl/", "translation": "варить", "example": "Boil the potatoes for 20 minutes.", "context_translation": "варить", "context_example": "Варите картофель 20 минут."},
+        {"icon": "🍳", "word": "fry", "transcription": "/fraɪ/", "translation": "жарить", "example": "I usually fry eggs for breakfast.", "context_translation": "жарить", "context_example": "Я обычно жарю яйца на завтрак."},
+        {"icon": "🔥", "word": "grill", "transcription": "/ɡrɪl/", "translation": "жарить на гриле", "example": "Grilled chicken is healthy and tasty.", "context_translation": "жарить на гриле", "context_example": "Курица на гриле полезная и вкусная."},
+        {"icon": "🍗", "word": "roast", "transcription": "/rəʊst/", "translation": "запекать", "example": "We roast a turkey for Christmas dinner.", "context_translation": "запекать", "context_example": "Мы запекаем индейку на рождественский ужин."},
+        {"icon": "♨️", "word": "steam", "transcription": "/stiːm/", "translation": "готовить на пару", "example": "Steamed vegetables keep their nutrients.", "context_translation": "готовить на пару", "context_example": "Приготовленные на пару овощи сохраняют питательные вещества."},
+        {"icon": "🍽️", "word": "eat out", "transcription": "/iːt aʊt/", "translation": "есть вне дома", "example": "We eat out twice a week.", "context_translation": "есть вне дома", "context_example": "Мы едим вне дома два раза в неделю."},
+        {"icon": "✂️", "word": "cut down on", "transcription": "/kʌt daʊn ɒn/", "translation": "сократить (потребление)", "example": "I need to cut down on sugar.", "context_translation": "сократить", "context_example": "Мне нужно сократить потребление сахара."},
+        {"icon": "🚫", "word": "cut out", "transcription": "/kʌt aʊt/", "translation": "исключить (из рациона)", "example": "She cut out all meat from her diet.", "context_translation": "исключить", "context_example": "Она исключила всё мясо из своего рациона."}
+      ],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "Which cooking method uses steam?",
+          "options": ["Boil", "Fry", "Steam", "Roast"],
+          "correct": "Steam",
+          "accept": ["Steam", "steam", "STEAM"],
+          "explanation": "Steam – готовить на пару.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "If you eat in a restaurant, you ________.",
+          "options": ["eat out", "cut down on", "cut out", "eat in"],
+          "correct": "eat out",
+          "accept": ["eat out", "Eat out", "EAT OUT"],
+          "explanation": "Eat out – есть вне дома.",
+          "topic": "phrasal"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank",
+          "question": "I need to ___ sugar to lose weight.",
+          "correct": "cut down on",
+          "accept": ["cut down on", "Cut down on", "CUT DOWN ON"],
+          "explanation": "Cut down on = сократить потребление.",
+          "topic": "phrasal"
+        },
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "To 'steam' food means to cook it in hot oil.",
+          "correct": "False",
+          "accept": ["False", "false", "FALSE", "No", "no"],
+          "explanation": "Steam uses hot steam, not oil.",
+          "topic": "reading"
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "question": "The doctor told me to ___ all dairy products.",
+          "correct": "cut out",
+          "accept": ["cut out", "Cut out", "CUT OUT"],
+          "explanation": "Cut out = полностью исключить.",
+          "topic": "phrasal"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "title": "Reading: Food Culture in Russia",
+      "description": "Читаем о современных пищевых привычках в России и отвечаем на вопросы.",
+      "grammar": {
+        "title": "Reading Comprehension",
+        "rule": "📚 Прочитайте текст о том, как изменилось питание в России. Обратите внимание на употребление Present Simple и Continuous в тексте. Затем ответьте на вопросы.",
+        "examples": []
+      },
+      "vocabulary": [],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "reading",
+          "question": "What are three traditional Russian dishes mentioned?",
+          "options": ["Sushi, pizza, burgers", "Borsch, pelmeni, blini", "Pasta, steak, salad", "Soup, pancakes, pie"],
+          "correct": "Borsch, pelmeni, blini",
+          "accept": ["Borsch, pelmeni, blini", "borsch pelmeni blini"],
+          "explanation": "В тексте упоминаются борщ, пельмени и блины как традиционные блюда.",
+          "readingText": "📖 **Food in Modern Russia**\n\nRussian cuisine is rich and diverse. Traditional dishes like *borsch*, *pelmeni*, and *blini* are still popular, but modern Russian eating habits have changed a lot. Many people now eat out more often, especially in big cities. Sushi, pizza, and burgers are very common. However, home‑cooked meals remain important. Russians love potatoes, bread, and meat, but they also eat plenty of vegetables and fruit.\n\nInterestingly, the most popular fruit in Russia is the apple, followed by bananas and oranges. As for meat, chicken is the most consumed, then pork and beef. Fish is also popular, particularly salmon and herring.\n\nHealthy eating is becoming a trend. Many Russians are cutting down on sugar and trying to eat more organic food. Some even cut out meat completely and become vegetarians. But old habits die hard: a cup of tea with cakes or sweets is still a beloved pastime.",
+          "topic": "reading"
+        },
+        {
+          "id": 2,
+          "type": "reading",
+          "question": "Do Russians eat out more often now than before?",
+          "options": ["Yes, especially in big cities.", "No, they prefer home cooking.", "Only in Moscow.", "Not mentioned."],
+          "correct": "Yes, especially in big cities.",
+          "accept": ["Yes, especially in big cities.", "yes"],
+          "explanation": "В тексте сказано: 'Many people now eat out more often, especially in big cities.'",
+          "readingText": "",
+          "topic": "reading"
+        },
+        {
+          "id": 3,
+          "type": "reading",
+          "question": "Which fruit is the most popular in Russia?",
+          "options": ["Banana", "Apple", "Orange", "Grape"],
+          "correct": "Apple",
+          "accept": ["Apple", "apple"],
+          "explanation": "Текст: 'the most popular fruit in Russia is the apple'.",
+          "readingText": "",
+          "topic": "reading"
+        },
+        {
+          "id": 4,
+          "type": "reading",
+          "question": "What meat is most consumed in Russia?",
+          "options": ["Beef", "Pork", "Chicken", "Lamb"],
+          "correct": "Chicken",
+          "accept": ["Chicken", "chicken"],
+          "explanation": "Текст: 'chicken is the most consumed'.",
+          "readingText": "",
+          "topic": "reading"
+        },
+        {
+          "id": 5,
+          "type": "reading",
+          "question": "What trend is becoming popular in Russia?",
+          "options": ["Eating more fast food", "Healthy eating", "Eating less fruit", "Cooking at home only"],
+          "correct": "Healthy eating",
+          "accept": ["Healthy eating", "healthy eating"],
+          "explanation": "Текст: 'Healthy eating is becoming a trend.'",
+          "readingText": "",
+          "topic": "reading"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Review: Food and Grammar",
+      "description": "Финальный тест по всей неделе: лексика и грамматика.",
+      "grammar": {
+        "title": "Final Test",
+        "rule": "🎯 Проверьте все знания за неделю! В тесте 10 вопросов на лексику (продукты, способы приготовления, фразовые глаголы) и грамматику (Present Simple vs Continuous, action/non‑action). Удачи! 🍀",
+        "examples": []
+      },
+      "vocabulary": [],
+      "exercises": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "Which of these is a type of seafood?",
+          "options": ["Beef", "Lamb", "Lobster", "Pork"],
+          "correct": "Lobster",
+          "accept": ["Lobster", "lobster", "LOBSTER"],
+          "explanation": "Lobster – омар, морепродукт.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "What is the Russian vegetable 'свёкла' in English?",
+          "options": ["Cabbage", "Beetroot", "Courgette", "Aubergine"],
+          "correct": "Beetroot",
+          "accept": ["Beetroot", "beetroot", "BEETROOT"],
+          "explanation": "Beetroot – свёкла.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "question": "Which cooking method uses steam?",
+          "options": ["Boil", "Fry", "Steam", "Roast"],
+          "correct": "Steam",
+          "accept": ["Steam", "steam", "STEAM"],
+          "explanation": "Steam – готовить на пару.",
+          "topic": "vocabulary"
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "question": "If you eat in a restaurant, you ________.",
+          "options": ["eat out", "cut down on", "cut out", "eat in"],
+          "correct": "eat out",
+          "accept": ["eat out", "Eat out", "EAT OUT"],
+          "explanation": "Eat out – есть вне дома.",
+          "topic": "phrasal"
+        },
+        {
+          "id": 5,
+          "type": "fill_blank",
+          "question": "I __________ (never / eat) seafood because I __________ (not like) it.",
+          "correct": "never eat, don't like",
+          "accept": ["never eat don't like", "never eat, don't like"],
+          "explanation": "Оба глагола – состояния (привычка и мнение), используем Present Simple.",
+          "topic": "grammar"
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "question": "Listen! Someone __________ (knock) at the door.",
+          "options": ["knocks", "is knocking", "knock", "knocked"],
+          "correct": "is knocking",
+          "accept": ["is knocking"],
+          "explanation": "Действие происходит сейчас – Present Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 7,
+          "type": "fill_blank",
+          "question": "We __________ (meet) our friends for lunch every Sunday.",
+          "correct": "meet",
+          "accept": ["meet", "Meet"],
+          "explanation": "Регулярное действие – Present Simple.",
+          "topic": "grammar"
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "question": "He __________ (work) late this week because of a big project.",
+          "options": ["works", "is working", "worked", "has worked"],
+          "correct": "is working",
+          "accept": ["is working"],
+          "explanation": "Временная ситуация на этой неделе – Present Continuous.",
+          "topic": "grammar"
+        },
+        {
+          "id": 9,
+          "type": "fill_blank",
+          "question": "This soup __________ (smell) wonderful!",
+          "correct": "smells",
+          "accept": ["smells", "Smells"],
+          "explanation": "Глагол чувства – non‑action, используем Simple.",
+          "topic": "grammar"
+        },
+        {
+          "id": 10,
+          "type": "correct_mistake",
+          "question": "She is thinking you are right.",
+          "correct": "She thinks you are right.",
+          "accept": ["She thinks you are right.", "She thinks you're right."],
+          "explanation": "Think в значении 'мнение' – non‑action, используем Simple.",
+          "topic": "grammar"
+        }
+      ]
+    }
+  ]
+}
