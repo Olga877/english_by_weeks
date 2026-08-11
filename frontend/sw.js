@@ -1,4 +1,4 @@
-const CACHE_NAME = 'english-by-weeks-v9';
+const CACHE_NAME = 'english-by-weeks-v10';
 const STATIC_CACHE = 'static-v4';
 const WEEKS_CACHE = 'weeks-v4';
 
