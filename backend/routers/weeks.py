@@ -1,3 +1,4 @@
+from fastapi import Request
 from fastapi import APIRouter, Depends, HTTPException
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi.responses import JSONResponse
@@ -11,23 +12,20 @@ from typing import List, Dict, Any, Optional
 from ..database import get_db, User
 
 router = APIRouter(prefix="/api/weeks", tags=["weeks"])
-security = HTTPBearer()
 
 DATA_DIR = os.getenv("DATA_DIR", os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "data", "lessons"))
+print(f"🔍 DEBUG: DATA_DIR = {DATA_DIR}")
 
 WEEKS_CACHE: List[Dict[str, Any]] = []
 WEEK_DETAILS_CACHE: Dict[str, Dict[str, Any]] = {}
 
-# Опциональное получение пользователя (не выбрасывает 401)
-def get_current_user_optional(
-    credentials: HTTPAuthorizationCredentials = Depends(security),
-    db: Session = Depends(get_db)
-) -> Optional[User]:
-    token = credentials.credentials
-    SECRET_KEY = os.getenv("JWT_SECRET_KEY", "test_secret_key_123456")
-    ALGORITHM = "HS256"
+def get_current_user_optional(request: Request, db: Session = Depends(get_db)) -> Optional[User]:
+    authorization = request.headers.get("Authorization")
+    if not authorization or not authorization.startswith("Bearer "):
+        return None
+    token = authorization.split(" ")[1]
     try:
-        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        payload = jwt.decode(token, os.getenv("JWT_SECRET_KEY"), algorithms=["HS256"])
         user_id = payload.get("user_id")
         if not user_id:
             return None
@@ -41,6 +39,7 @@ def load_all_weeks():
     WEEKS_CACHE.clear()
     WEEK_DETAILS_CACHE.clear()
 
+    print(f"🔍 DEBUG: DATA_DIR = {DATA_DIR}")
     base_path = Path(DATA_DIR)
     if not base_path.exists():
         print(f"⚠️ Папка с данными не найдена: {DATA_DIR}")
@@ -72,7 +71,7 @@ def load_all_weeks():
 
 load_all_weeks()
 
-@router.get("/")
+@router.get("")
 async def get_weeks():
     return JSONResponse(content=WEEKS_CACHE)
 
