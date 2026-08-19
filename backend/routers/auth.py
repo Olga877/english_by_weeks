@@ -27,7 +27,6 @@ class EmailRequest(BaseModel):
 @router.post("/request-link")
 async def request_login_link(email_req: EmailRequest, db: Session = Depends(get_db)):
     email = email_req.email
-    # Ищем пользователя по email; если нет — создаём нового
     user = db.query(User).filter(User.email == email).first()
     if not user:
         user = User(email=email)
@@ -35,19 +34,13 @@ async def request_login_link(email_req: EmailRequest, db: Session = Depends(get_
         db.commit()
         db.refresh(user)
 
-    # Генерируем одноразовый токен (действителен 15 минут)
     token = jwt.encode(
         {"user_id": user.id, "exp": datetime.utcnow() + timedelta(minutes=TOKEN_EXPIRE_MINUTES)},
         SECRET_KEY,
         algorithm=ALGORITHM
     )
-    # Ссылка (локально)
-    link = f"http://127.0.0.1:8000/auth/verify?token={token}"
-
-    # Временно выводим в консоль (потом заменим на отправку письма)
-    print(f"\n🔗 Ссылка для входа: {link}\n")
-
-    return {"message": "Ссылка для входа отправлена на почту (проверьте консоль)"}
+    link = f"https://english-by-weeks.ru/auth/verify?token={token}"
+    return {"link": link}
 
 # --- 2. Проверка токена и выдача сессионного токена ---
 @router.get("/verify", response_class=HTMLResponse)
