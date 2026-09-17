@@ -1,0 +1,249 @@
+{
+    "week_id": "week4_countries_nationalities",
+    "title": "🌍 Countries & Nationalities / to be from",
+    "description": "Учим страны, национальности, суффиксы -an, -ish, -ian, -ese и глагол have got с мемами и культурными отсылками. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🌍",
+    "order_num": 4,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Where are you from?",
+            "description": "Учим названия стран и национальностей",
+            "grammar": {
+                "title": "Countries and Nationalities",
+                "rule": "Чтобы сказать, откуда ты родом, используй:\n\n✅ I am from + страна: 'I am from Russia.'\n✅ I am + национальность: 'I am Russian.'\n\n🎯 Вопрос: Where are you from? — Откуда ты?\n🎯 Ответ: I am from Russia. / I am Russian.\n\nВ английском языке названия стран и национальностей пишутся с заглавной буквы!\n\n📌 Страны и национальности из этого урока:\n\n🇷🇺 Russia → Russian (особый случай)\n🇬🇧 the UK → British (суффикс -ish)\n🇺🇸 the USA → American (суффикс -an)\n🇫🇷 France → French (исключение!)\n🇮🇹 Italy → Italian (суффикс -ian)\n🇪🇸 Spain → Spanish (суффикс -ish)\n🇨🇳 China → Chinese (суффикс -ese)\n🇯🇵 Japan → Japanese (суффикс -ese)\n🇩🇪 Germany → German (суффикс -an)\n🇧🇷 Brazil → Brazilian (суффикс -ian)\n🇨🇦 Canada → Canadian (суффикс -ian)\n🇵🇱 Poland → Polish (суффикс -ish)\n🇹🇷 Turkey → Turkish (суффикс -ish)",
+                "examples": [
+                    "Leo: 'Where are you from, Mia?'",
+                    "Mia: 'I am from Russia. I am Russian.' 🇷🇺",
+                    "Sam: 'I am from the UK. I am British.' 🇬🇧"
+                ],
+                "keywords": "country, nationality, where, from, be from"
+            },
+            "vocabulary": [
+                {"icon": "🇷🇺", "word": "Russia", "transcription": "/ˈrʌʃ.ə/", "translation": "Россия", "example": "I am from Russia.", "context_translation": "Россия", "context_example": "Я из России."},
+                {"icon": "🇷🇺", "word": "Russian", "transcription": "/ˈrʌʃ.ən/", "translation": "русский", "example": "I am Russian.", "context_translation": "русский", "context_example": "Я русский."},
+                {"icon": "🇬🇧", "word": "the UK", "transcription": "/ðə ˌjuː ˈkeɪ/", "translation": "Великобритания", "example": "I am from the UK.", "context_translation": "Великобритания", "context_example": "Я из Великобритании."},
+                {"icon": "🇬🇧", "word": "British", "transcription": "/ˈbrɪt.ɪʃ/", "translation": "британец", "example": "I am British.", "context_translation": "британец", "context_example": "Я британец."},
+                {"icon": "🇺🇸", "word": "the USA", "transcription": "/ðə ˌjuː es ˈeɪ/", "translation": "США", "example": "I am from the USA.", "context_translation": "США", "context_example": "Я из США."},
+                {"icon": "🇺🇸", "word": "American", "transcription": "/əˈmer.ɪ.kən/", "translation": "американец", "example": "I am American.", "context_translation": "американец", "context_example": "Я американец."},
+                {"icon": "🇫🇷", "word": "France", "transcription": "/frɑːns/", "translation": "Франция", "example": "I am from France.", "context_translation": "Франция", "context_example": "Я из Франции."},
+                {"icon": "🇫🇷", "word": "French", "transcription": "/frentʃ/", "translation": "француз", "example": "I am French.", "context_translation": "француз", "context_example": "Я француз."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Where are you from? 🇷🇺", "options": ["I am from Russia.", "I am Russian.", "I am from the USA.", "I am American."], "correct": "I am from Russia.", "explanation": "На вопрос 'Where are you from?' отвечают: 'I am from Russia.' — Я из России.", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "What nationality is she? She is from France. 🇫🇷", "options": ["French", "Frenchian", "Frenchnese", "France"], "correct": "French", "explanation": "France → French (французский). Это исключение, запомни его!", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "I am from ___. (Россия)", "correct": "Russia", "explanation": "Russia — это Россия", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "I am ___. (русский)", "correct": "Russian", "explanation": "Russian — русский", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "People from the UK are called British.", "correct": "True", "explanation": "Yes! People from the United Kingdom are British. 🇬🇧", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Word formation — suffixes",
+            "description": "Учим суффиксы -an, -ish, -ian, -ese для образования национальностей",
+            "grammar": {
+                "title": "Word Formation: Nationalities",
+                "rule": "Национальности в английском образуются с помощью суффиксов:\n\n📌 -an (или -ian): America → American, Germany → German, Italy → Italian, Brazil → Brazilian, Canada → Canadian\n📌 -ish: Britain → British, Spain → Spanish, Poland → Polish, Turkey → Turkish\n📌 -ian: Italy → Italian, Brazil → Brazilian, Canada → Canadian, Russia → Russian (особый случай!)\n📌 -ese: China → Chinese, Japan → Japanese, Vietnam → Vietnamese, Portugal → Portuguese\n\n🎯 Лайфхак для запоминания:\n• Страны на -a → добавляем -n (America→American)\n• Страны на -ia → меняем -ia на -ian (Italy→Italian)\n• Страны на -e → добавляем -se (China→Chinese)\n\n📌 ЗАПОМНИ ИСКЛЮЧЕНИЯ: France → French, Greece → Greek, the Netherlands → Dutch",
+                "examples": [
+                    "America → American 🇺🇸 (-an)",
+                    "Italy → Italian 🇮🇹 (-ian)",
+                    "Spain → Spanish 🇪🇸 (-ish)",
+                    "Japan → Japanese 🇯🇵 (-ese)",
+                    "Germany → German 🇩🇪 (-an)",
+                    "Brazil → Brazilian 🇧🇷 (-ian)",
+                    "Canada → Canadian 🇨🇦 (-ian)",
+                    "China → Chinese 🇨🇳 (-ese)",
+                    "Poland → Polish 🇵🇱 (-ish)",
+                    "France → French 🇫🇷 (исключение)"
+                ],
+                "keywords": "suffix, -an, -ish, -ian, -ese, nationality"
+            },
+            "vocabulary": [
+                {"icon": "🇮🇹", "word": "Italy", "transcription": "/ˈɪt.əl.i/", "translation": "Италия", "example": "Pizza is from Italy! 🍕", "context_translation": "Италия", "context_example": "Пицца из Италии!"},
+                {"icon": "🇮🇹", "word": "Italian", "transcription": "/ɪˈtæl.jən/", "translation": "итальянец", "example": "I like Italian food.", "context_translation": "итальянец", "context_example": "Мне нравится итальянская еда."},
+                {"icon": "🇪🇸", "word": "Spain", "transcription": "/speɪn/", "translation": "Испания", "example": "Flamenco is from Spain. 💃", "context_translation": "Испания", "context_example": "Фламенко из Испании."},
+                {"icon": "🇪🇸", "word": "Spanish", "transcription": "/ˈspæn.ɪʃ/", "translation": "испанец", "example": "I speak Spanish.", "context_translation": "испанец", "context_example": "Я говорю по-испански."},
+                {"icon": "🇨🇳", "word": "China", "transcription": "/ˈtʃaɪ.nə/", "translation": "Китай", "example": "Pandas live in China. 🐼", "context_translation": "Китай", "context_example": "Панды живут в Китае."},
+                {"icon": "🇨🇳", "word": "Chinese", "transcription": "/tʃaɪˈniːz/", "translation": "китаец", "example": "I like Chinese food.", "context_translation": "китаец", "context_example": "Мне нравится китайская еда."},
+                {"icon": "🇩🇪", "word": "Germany", "transcription": "/ˈdʒɜː.mə.ni/", "translation": "Германия", "example": "I am from Germany.", "context_translation": "Германия", "context_example": "Я из Германии."},
+                {"icon": "🇩🇪", "word": "German", "transcription": "/ˈdʒɜː.mən/", "translation": "немец", "example": "I speak German.", "context_translation": "немец", "context_example": "Я говорю по-немецки."},
+                {"icon": "🇧🇷", "word": "Brazil", "transcription": "/brəˈzɪl/", "translation": "Бразилия", "example": "Football is big in Brazil! ⚽", "context_translation": "Бразилия", "context_example": "Футбол популярен в Бразилии!"},
+                {"icon": "🇧🇷", "word": "Brazilian", "transcription": "/brəˈzɪl.jən/", "translation": "бразилец", "example": "I am Brazilian.", "context_translation": "бразилец", "context_example": "Я бразилец."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is the nationality of people from Italy? 🇮🇹", "options": ["Italy", "Italian", "Italish", "Italinese"], "correct": "Italian", "explanation": "Italy → Italian (суффикс -ian) — итальянец! Пицца, паста, mandolino! 🍕", "topic": "word formation"},
+                {"id": 2, "type": "multiple_choice", "question": "What is the nationality of people from China? 🇨🇳", "options": ["Chinan", "Chinish", "Chinian", "Chinese"], "correct": "Chinese", "explanation": "China → Chinese (суффикс -ese) — китаец! Панды и рис 🐼", "topic": "word formation"},
+                {"id": 3, "type": "fill_blank", "question": "Spain → ___", "correct": "Spanish", "explanation": "Spain → Spanish (суффикс -ish) — испанец! Фламенко и коррида! 💃", "topic": "word formation"},
+                {"id": 4, "type": "fill_blank", "question": "Japan → ___", "correct": "Japanese", "explanation": "Japan → Japanese (суффикс -ese) — японец! Аниме и суши! 🇯🇵", "topic": "word formation"},
+                {"id": 5, "type": "true_false", "question": "People from Brazil are called Brazilian.", "correct": "True", "explanation": "Brazil → Brazilian (суффикс -ian) — бразилец! Футбол и самба! 🇧🇷⚽", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — have got",
+            "description": "Учим глагол have got — у меня есть",
+            "grammar": {
+                "title": "Have got — possession",
+                "rule": "Глагол have got используется, чтобы сказать, ЧТО У ТЕБЯ ЕСТЬ.\n\n📌 I have got / I've got — у меня есть\n📌 You have got / You've got — у тебя есть\n📌 He/She/It has got / He's got — у него/неё есть\n📌 We/They have got / We've got — у нас/них есть\n\n❌ Отрицание: I haven't got / He hasn't got\n❓ Вопрос: Have you got? / Has she got?\n\n🎯 Пример: 'I have got a new phone!' 📱\n🎯 Мем: 'I haven't got any homework' — мечта каждого школьника! 😂",
+                "examples": [
+                    "Leo: 'I have got a new gaming laptop! My old one sounded like a helicopter.' 💻🚁",
+                    "Mia: 'She has got 50 unread messages on Likee. She hasn't got time to answer!' 📱",
+                    "Sam: 'Have you got a charger? My phone is at 2% and I'm watching a cat video!' 🔋🐱"
+                ],
+                "keywords": "have got, has got, possession, I've got, he's got"
+            },
+            "vocabulary": [
+                {"icon": "🪆", "word": "matryoshka", "transcription": "/ˌmæ.triˈɒʃ.kə/", "translation": "матрёшка", "example": "I have got a matryoshka doll from Russia.", "context_translation": "матрёшка", "context_example": "У меня есть матрёшка из России."},
+                {"icon": "🛹", "word": "skateboard", "transcription": "/ˈskeɪt.bɔːd/", "translation": "скейтборд", "example": "Sam has got a new skateboard.", "context_translation": "скейтборд", "context_example": "У Сэма новый скейтборд."},
+                {"icon": "🎮", "word": "game console", "transcription": "/ɡeɪm ˈkɒn.səʊl/", "translation": "игровая приставка", "example": "I have got a game console!", "context_translation": "игровая приставка", "context_example": "У меня есть игровая приставка!"},
+                {"icon": "📱", "word": "smartphone", "transcription": "/ˈsmɑːt.fəʊn/", "translation": "смартфон", "example": "Mia has got a new smartphone.", "context_translation": "смартфон", "context_example": "У Мии новый смартфон."},
+                {"icon": "🎧", "word": "headphones", "transcription": "/ˈhed.fəʊnz/", "translation": "наушники", "example": "I have got wireless headphones.", "context_translation": "наушники", "context_example": "У меня есть беспроводные наушники."},
+                {"icon": "⚽", "word": "football", "transcription": "/ˈfʊt.bɔːl/", "translation": "футбольный мяч", "example": "Carlos has got a football.", "context_translation": "футбольный мяч", "context_example": "У Карлоса есть футбольный мяч."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "I ___ got a new phone. 📱", "options": ["have", "has", "am", "is"], "correct": "have", "explanation": "I have got — у меня есть", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "She ___ got a cat. 🐱", "options": ["have", "has", "am", "are"], "correct": "has", "explanation": "She has got — у неё есть", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "They ___ got a big house. (have / has)", "correct": "have", "explanation": "They have got — у них есть", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "He ___ got a skateboard. (haven't / hasn't)", "correct": "hasn't", "explanation": "He hasn't got — у него нет", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "I has got a dog.", "correct": "I have got a dog.", "explanation": "I has got — неправильно. I have got", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Countries, nationalities and have got",
+            "description": "Соединяем страны, национальности и have got в предложениях",
+            "grammar": {
+                "title": "Countries + Nationalities + Have got",
+                "rule": "Теперь мы можем рассказывать о себе больше!\n\n📌 I am from Russia. I am Russian. I have got a matryoshka.\n📌 She is from Italy. She is Italian. She has got a pizza recipe! 🍕\n📌 He is from Brazil. He is Brazilian. He has got a football! ⚽\n\n🎯 Структура: [to be from + страна] + [to be + национальность] + [have got + предмет]\n\nПример: 'I am from Japan. I am Japanese. I have got a kimono.' 🇯🇵",
+                "examples": [
+                    "Leo: 'I am from Russia. I am Russian. I have got a balalaika and a love for borscht!' 🪕🥣",
+                    "Mia: 'She is from Italy. She is Italian. She has got a pasta maker and sings opera in the shower!' 🍝🎤",
+                    "Sam: 'He is from the USA. He is American. He has got a basketball and a dream to be like LeBron!' 🏀👑"
+                ],
+                "keywords": "country, nationality, have got, describe yourself"
+            },
+            "vocabulary": [
+                {"icon": "🇵🇱", "word": "Poland", "transcription": "/ˈpəʊ.lənd/", "translation": "Польша", "example": "I am from Poland.", "context_translation": "Польша", "context_example": "Я из Польши."},
+                {"icon": "🇵🇱", "word": "Polish", "transcription": "/ˈpəʊ.lɪʃ/", "translation": "поляк", "example": "I am Polish.", "context_translation": "поляк", "context_example": "Я поляк."},
+                {"icon": "🇨🇦", "word": "Canada", "transcription": "/ˈkæn.ə.də/", "translation": "Канада", "example": "Maple syrup is from Canada! 🍁", "context_translation": "Канада", "context_example": "Кленовый сироп из Канады!"},
+                {"icon": "🇨🇦", "word": "Canadian", "transcription": "/kəˈneɪ.di.ən/", "translation": "канадец", "example": "I am Canadian.", "context_translation": "канадец", "context_example": "Я канадец."},
+                {"icon": "🇹🇷", "word": "Turkey", "transcription": "/ˈtɜː.ki/", "translation": "Турция", "example": "I am from Turkey.", "context_translation": "Турция", "context_example": "Я из Турции."},
+                {"icon": "🇹🇷", "word": "Turkish", "transcription": "/ˈtɜː.kɪʃ/", "translation": "турок", "example": "I am Turkish.", "context_translation": "турок", "context_example": "Я турок."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "I am from Japan. I am ___. 🇯🇵", "options": ["Japan", "Japanish", "Japanese", "Japaneese"], "correct": "Japanese", "explanation": "Japan → Japanese (японец) — суффикс -ese! Любишь аниме? 🎌", "topic": "vocabulary"},
+                {"id": 2, "type": "fill_blank", "question": "She is from Poland. She is ___ . 🇵🇱", "correct": "Polish", "explanation": "Poland → Polish (поляк) — суффикс -ish!", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "He is from Germany. He is ___ . 🇩🇪", "correct": "German", "explanation": "Germany → German (немец) — суффикс -an!", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "She is from Canada. She is ___ . 🇨🇦", "correct": "Canadian", "explanation": "Canada → Canadian (канадец) — суффикс -ian! Кленовый сироп — это любовь! 🍁", "topic": "vocabulary"},
+                {"id": 5, "type": "correct_mistake", "question": "He are from Italy.", "correct": "He is from Italy.", "explanation": "He are — неправильно. He is from Italy.", "topic": "grammar"},
+                {"id": 6, "type": "true_false", "question": "People from Turkey are called Turkish.", "correct": "True", "explanation": "Turkey → Turkish (турок) — суффикс -ish! А ещё турецкий кебаб — это вкусно! 🇹🇷", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — All together",
+            "description": "Повторяем страны, национальности, суффиксы и have got",
+            "grammar": {
+                "title": "Revision: Countries, Nationalities, Have got",
+                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Страна → Национальность:\n• Russia → Russian (особый случай)\n• Italy → Italian (-ian)\n• Spain → Spanish (-ish)\n• China → Chinese (-ese)\n• Germany → German (-an)\n• Brazil → Brazilian (-ian)\n• Poland → Polish (-ish)\n• Japan → Japanese (-ese)\n• France → French (исключение!)\n• the UK → British (-ish)\n\n📌 Have got / Has got — у меня есть / у него есть\n📌 To be from / to be + национальность\n\n🎯 Вопросы: Where are you from? What nationality are you? Have you got...?",
+                "examples": [
+                    "Where are you from? — I am from Brazil. I am Brazilian. I have got a football and I do the samba on Fridays! ⚽💃",
+                    "Where is she from? — She is from Spain. She is Spanish. She has got a guitar and she watches La Casa de Papel! 🎸📺",
+                    "Where are they from? — They are from China. They are Chinese. They have got a panda poster on their wall! 🐼"
+                ],
+                "keywords": "revision, test yourself"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Choose the correct nationality: Brazil 🇧🇷", "options": ["Brazilian", "Brazilish", "Brazilean", "Braziles"], "correct": "Brazilian", "explanation": "Brazil → Brazilian (суффикс -ian) — бразилец! Роналду, самба, пляжи! 🇧🇷⚽", "topic": "word formation"},
+                {"id": 2, "type": "multiple_choice", "question": "Choose the correct nationality: Poland 🇵🇱", "options": ["Polandian", "Polish", "Polan", "Polanes"], "correct": "Polish", "explanation": "Poland → Polish (суффикс -ish) — поляк! Пьерогы и Лев Ванька Ванька? Нет, Роберт Левандовски! 🇵🇱⚽", "topic": "word formation"},
+                {"id": 3, "type": "fill_blank", "question": "I am from Canada. I am ___ . 🇨🇦", "correct": "Canadian", "explanation": "Canada → Canadian (суффикс -ian) — канадец! Хоккей и кленовый сироп! 🍁🏒", "topic": "word formation"},
+                {"id": 4, "type": "fill_blank", "question": "She is from Turkey. She is ___ . 🇹🇷", "correct": "Turkish", "explanation": "Turkey → Turkish (суффикс -ish) — турчанка! Кебаб и баклава! 🍡", "topic": "word formation"},
+                {"id": 5, "type": "fill_blank", "question": "He ___ got a new bicycle. (have / has)", "correct": "has", "explanation": "He has got — у него есть", "topic": "grammar"},
+                {"id": 6, "type": "correct_mistake", "question": "I from Russia.", "correct": "I am from Russia.", "explanation": "В английском языке нужен глагол: I am from Russia. Без 'am' — как борщ без свеклы! 🥣", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — International Meme Exchange",
+            "description": "Читаем про международный обмен мемами в школьном чате",
+            "grammar": {
+                "title": "Reading: International Meme Exchange",
+                "rule": "Сегодня читаем диалог в школьном чате, где ребята из разных стран делятся мемами и культурными отсылками.\n\n📌 Обрати внимание на страны и национальности в чате:\n• Russia → Russian\n• Brazil → Brazilian\n• France → French\n• Spain → Spanish\n• Japan → Japanese\n• the USA → American\n• Germany → German\n• China → Chinese\n\n🎯 Задача: понять, кто откуда и что они любят!",
+                "examples": [],
+                "keywords": "reading, memes, chat, countries, nationalities"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What meme did Leo send? 🐻",
+                    "options": ["A bear playing balalaika", "A dancing cat", "A crying cat", "A confused man"],
+                    "correct": "A bear playing balalaika",
+                    "explanation": "Leo sent a meme of a bear playing balalaika — very Russian! 🐻🪕",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💬 SCHOOL CHAT: INTERNATIONAL MEME EXCHANGE\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📱 CHAT: Oakwood Academy — Grade 5 — Meme Lovers\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇷🇺 LEO (Russia): Guys, look at this meme! It's a bear playing balalaika. So Russian! 🐻🪕\n\n🇧🇷 CARLOS (Brazil): Haha, nice! I've got a meme about football. Brazilians love football so much! The meme says: 'Brazil when it's not football season:' and it's a sad man crying. ⚽😢\n\n🇫🇷 SOPHIE (France): I'm sending a meme about croissants. 'How many croissants have you got?' — 'Yes.' 🥐😅\n\n🇪🇸 MATEO (Spain): Here's a meme about siesta. 'Me pretending to do homework but actually taking a nap.' Relatable? 😴📚\n\n🇯🇵 YUKI (Japan): I've got a meme about vending machines. In Japan, we have vending machines for EVERYTHING. Even ramen! 🍜\n\n🇺🇸 SAM (USA): I've got a meme about school lunches. 'American school lunch: pizza, fries, and more pizza.' 🍕😭\n\n🇩🇪 ANNA (Germany): My meme is about punctuality. 'German people when you are 1 minute late:' — a very angry face. ⏰😠\n\n🇨🇳 WEI (China): I'm sending a meme about pandas. 'Me trying to be productive:' — a panda eating bamboo. 🐼🎋\n\n🇬🇧 EMMA (the UK): And here's a meme about British weather. 'The four seasons of the UK:' — rain, rain, rain, and slightly warmer rain. ☔😂\n\nMs. Johnson: Great job, everyone! Now you know that memes are a universal language! 🌍\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE CHAT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What makes Brazilians sad according to Carlos' meme? ⚽",
+                    "options": ["When it rains", "When it's not football season", "When they lose a game", "When they have homework"],
+                    "correct": "When it's not football season",
+                    "explanation": "Carlos says: 'Brazil when it's not football season:' — and it's a sad man crying. Brazilians love football! 🇧🇷⚽",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What is special about vending machines in Japan? 🇯🇵",
+                    "options": ["They are very cheap", "They sell everything including ramen", "They are only for drinks", "They are very old"],
+                    "correct": "They sell everything including ramen",
+                    "explanation": "Yuki says: 'In Japan, we have vending machines for EVERYTHING. Even ramen!' 🍜",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "What makes Germans angry according to Anna's meme? 🇩🇪",
+                    "options": ["Bad food", "Being late", "Losing football", "Bad weather"],
+                    "correct": "Being late",
+                    "explanation": "Anna says: 'German people when you are 1 minute late:' — a very angry face. Немцы ценят пунктуальность! ⏰",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "What does Emma say about British weather? 🇬🇧",
+                    "options": ["It's always sunny", "It's always snowing", "Four seasons: rain, rain, rain, and slightly warmer rain", "It never rains"],
+                    "correct": "Four seasons: rain, rain, rain, and slightly warmer rain",
+                    "explanation": "Emma says: 'The four seasons of the UK:' — rain, rain, rain, and slightly warmer rain. ☔ Так и есть!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "Wei sent a meme about pandas eating bamboo. 🐼",
+                    "correct": "True",
+                    "explanation": "Wei says: 'I'm sending a meme about pandas. Me trying to be productive:' — a panda eating bamboo. Панды из Китая! 🇨🇳",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Sophie's meme was about pizza.",
+                    "correct": "False",
+                    "explanation": "Sophie sent a meme about croissants. 'How many croissants have you got?' — 'Yes.' Франция — родина круассанов! 🥐",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

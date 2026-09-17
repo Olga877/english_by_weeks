@@ -1,0 +1,533 @@
+{
+    "week_id": "school_education",
+    "title": "🎓 School & Education (школа и образование) & First Conditional + Future Time Clauses",
+    "description": "Учим лексику о школе, экзаменах, дисциплине, системах образования в UK и US, а также условные предложения первого типа и придаточные времени. Уровень B1. 7 дней.",
+    "level": "B1",
+    "icon": "🎓",
+    "order_num": 2,
+    "is_published": true,
+    "days": [
+        {
+    "day": 1,
+    "title": "Day 1: School System in the UK",
+    "description": "Узнайте о типах школ и ключевой лексике британской системы образования",
+    "grammar": {
+        "title": "School Vocabulary (UK)",
+        "rule": "📘 В Великобритании дети идут в начальную школу (primary school) в 5 лет. До этого некоторые посещают nursery school (с 2–4 лет), но это не обязательно.\n\nС 11 до 18 лет — secondary school. Большинство школ — государственные (state schools), финансируются правительством, обучение бесплатное. Около 10% — частные (private schools), где родители платят. Некоторые из них — школы-пансионы (boarding schools), где дети живут и учатся.\n\nУчеников начальной школы часто называют pupils, а средней и университета — students. Руководитель школы — head teacher. Учебный год делится на три terms (семестра).\n\nЧтобы поступить в университет, нужно сдать экзамены A-levels. Выпускник университета с degree называется graduate.",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🏫", "word": "nursery", "transcription": "/ˈnɜːsəri/", "translation": "детский сад (для самых маленьких)", "example": "Many children go to nursery before primary school.", "context_translation": "детский сад", "context_example": "Многие дети ходят в детский сад перед начальной школой."},
+        {"icon": "📚", "word": "primary", "transcription": "/ˈpraɪməri/", "translation": "начальный (о школе)", "example": "Primary school starts at age 5.", "context_translation": "начальный", "context_example": "Начальная школа начинается с 5 лет."},
+        {"icon": "🏛️", "word": "secondary", "transcription": "/ˈsekəndri/", "translation": "средний (о школе)", "example": "Secondary school is for ages 11–18.", "context_translation": "средний", "context_example": "Средняя школа для возраста 11–18 лет."},
+        {"icon": "🏛️", "word": "state", "transcription": "/steɪt/", "translation": "государственный (о школе)", "example": "State schools are free.", "context_translation": "государственный", "context_example": "Государственные школы бесплатны."},
+        {"icon": "💷", "word": "private", "transcription": "/ˈpraɪvət/", "translation": "частный", "example": "Private schools charge fees.", "context_translation": "частный", "context_example": "Частные школы взимают плату."},
+        {"icon": "🏠", "word": "boarding", "transcription": "/ˈbɔːdɪŋ/", "translation": "пансион (школа с проживанием)", "example": "Boarding schools have dormitories.", "context_translation": "пансион", "context_example": "В школах-пансионах есть общежития."},
+        {"icon": "👦", "word": "pupil", "transcription": "/ˈpjuːpl/", "translation": "ученик (начальной школы)", "example": "Primary school pupils are young.", "context_translation": "ученик", "context_example": "Ученики начальной школы маленькие."},
+        {"icon": "👨‍🎓", "word": "student", "transcription": "/ˈstjuːdnt/", "translation": "студент, ученик (средней/высшей школы)", "example": "Secondary school students study many subjects.", "context_translation": "студент", "context_example": "Ученики средней школы изучают много предметов."},
+        {"icon": "👩‍🏫", "word": "head", "transcription": "/hed/", "translation": "директор (школы)", "example": "The head teacher is in charge.", "context_translation": "директор", "context_example": "Директор отвечает за школу."},
+        {"icon": "📅", "word": "term", "transcription": "/tɜːm/", "translation": "семестр, триместр", "example": "The school year has three terms.", "context_translation": "семестр", "context_example": "Учебный год состоит из трёх триместров."},
+        {"icon": "🎓", "word": "degree", "transcription": "/dɪˈɡriː/", "translation": "учёная степень (диплом)", "example": "She got a degree in law.", "context_translation": "степень", "context_example": "Она получила степень по праву."},
+        {"icon": "📖", "word": "graduate", "transcription": "/ˈɡrædʒuət/", "translation": "выпускник (университета)", "example": "Graduates often find good jobs.", "context_translation": "выпускник", "context_example": "Выпускники часто находят хорошую работу."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "fill_blank",
+            "question": "In the UK, children go to ___ school at age 5. (primary / secondary)",
+            "correct": "primary",
+            "accept": ["primary", "Primary", "PRIMARY"],
+            "explanation": "Primary school starts at age 5 in the UK.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "Which type of school is free and paid for by the government?",
+            "options": ["Private school", "State school", "Boarding school", "Nursery school"],
+            "correct": "State school",
+            "accept": ["State school", "state school", "STATE SCHOOL"],
+            "explanation": "State schools are funded by the government and free.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "The person in charge of a school is called the ___ teacher.",
+            "correct": "head",
+            "accept": ["head", "Head", "HEAD"],
+            "explanation": "The head teacher is the principal.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "true_false",
+            "question": "In the UK, the school year is divided into two semesters.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "In the UK, it's divided into three terms, not two semesters.",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "What do you call a person who has finished university with a degree?",
+            "options": ["Pupil", "Student", "Graduate", "Head"],
+            "correct": "Graduate",
+            "accept": ["Graduate", "graduate", "GRADUATE"],
+            "explanation": "A graduate is someone who has completed a university degree.",
+            "topic": "vocabulary"
+        }
+    ]
+},
+        {
+    "day": 2,
+    "title": "Day 2: School System in the US",
+    "description": "Изучаем американскую систему образования и связанную лексику",
+    "grammar": {
+        "title": "School Vocabulary (US)",
+        "rule": "📘 В США система образования делится на три уровня: elementary school (начальная), middle school (или junior high school), и high school (старшая).\n\nУченики делятся по возрастным группам на grades (классы). Самые маленькие начинают с kindergarten (детский сад), затем first grade и так до twelfth grade (последний класс старшей школы).\n\nУчебный год обычно делится на два semesters. Высшее образование в США часто называют college (колледж), хотя это может быть и университет.",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🏫", "word": "elementary", "transcription": "/ˌelɪˈmentri/", "translation": "начальный (о школе)", "example": "Elementary school is for young children.", "context_translation": "начальный", "context_example": "Начальная школа для маленьких детей."},
+        {"icon": "🏛️", "word": "middle", "transcription": "/ˈmɪdl/", "translation": "средний (о школе, junior high)", "example": "Middle school is between elementary and high school.", "context_translation": "средний", "context_example": "Средняя школа находится между начальной и старшей."},
+        {"icon": "🏛️", "word": "high", "transcription": "/haɪ/", "translation": "старший (о школе)", "example": "High school is the final stage of secondary education.", "context_translation": "старший", "context_example": "Старшая школа — последний этап среднего образования."},
+        {"icon": "🧸", "word": "kindergarten", "transcription": "/ˈkɪndəɡɑːtn/", "translation": "детский сад (в США)", "example": "Children start kindergarten at age 5.", "context_translation": "детский сад", "context_example": "Дети идут в детский сад в 5 лет."},
+        {"icon": "📊", "word": "grade", "transcription": "/ɡreɪd/", "translation": "класс, оценка", "example": "She is in the fifth grade.", "context_translation": "класс", "context_example": "Она в пятом классе."},
+        {"icon": "📅", "word": "semester", "transcription": "/sɪˈmestər/", "translation": "семестр (в США)", "example": "The academic year has two semesters.", "context_translation": "семестр", "context_example": "Учебный год состоит из двух семестров."},
+        {"icon": "🏛️", "word": "college", "transcription": "/ˈkɒlɪdʒ/", "translation": "колледж (вуз)", "example": "Many students go to college after high school.", "context_translation": "колледж", "context_example": "Многие студенты идут в колледж после школы."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "fill_blank",
+            "question": "In the US, the youngest children start school in ___ .",
+            "correct": "kindergarten",
+            "accept": ["kindergarten", "Kindergarten", "KINDERGARTEN"],
+            "explanation": "Kindergarten is the first year of schooling in the US.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What is the final year of high school in the US?",
+            "options": ["Tenth grade", "Eleventh grade", "Twelfth grade", "Thirteenth grade"],
+            "correct": "Twelfth grade",
+            "accept": ["Twelfth grade", "twelfth grade", "TWELFTH GRADE"],
+            "explanation": "High school ends with twelfth grade.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "The US school year is usually divided into two ___ .",
+            "correct": "semesters",
+            "accept": ["semesters", "Semesters", "SEMESTERS"],
+            "explanation": "The academic year has two semesters.",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "true_false",
+            "question": "In the US, 'college' always means a university.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "In the US, 'college' often refers to higher education institutions, but it's not exactly the same as university, though they are used interchangeably.",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "multiple_choice",
+            "question": "Which term is used for the middle school level?",
+            "options": ["Elementary school", "Junior high school", "High school", "College"],
+            "correct": "Junior high school",
+            "accept": ["Junior high school", "junior high school", "JUNIOR HIGH SCHOOL", "middle school"],
+            "explanation": "Middle school is also called junior high school.",
+            "topic": "vocabulary"
+        }
+    ]
+},
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — First Conditional",
+            "description": "Изучаем условные предложения первого типа (if + present, will/won't)",
+            "grammar": {
+                "title": "First Conditional",
+                "rule": "📘 First conditional используется для описания возможной или вероятной ситуации в будущем и её последствий.\n\nФормула: if + present simple, will/won't + infinitive\n\n📌 Примеры:\n✅ If you work hard, you'll pass your exams.\n✅ The teacher won't be pleased if we're late.\n✅ If you don't study, you won't get good grades.\n\n⚠️ Важно: после if мы используем present simple (НЕ будущее время).\n❌ If you will work hard, you'll pass. (неправильно)\n✅ If you work hard, you'll pass. (правильно)\n\nМы также можем использовать unless (if...not):\n✅ Alison won't get into university unless she gets good grades.\n\nМы можем использовать повелительное наклонение вместо will-части:\n✅ If you have time, come and see us next week.",
+                "examples": [
+                    "If I fail my exams, I'll take them again next year.",
+                    "If you give in your homework late, the teacher won't mark it.",
+                    "Don't write anything unless you are sure of the answer."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "⚠️", "word": "unless", "transcription": "/ənˈles/", "translation": "если не", "example": "I won't go unless you go too.", "context_translation": "если не", "context_example": "Я не пойду, если ты не пойдёшь."},
+                {"icon": "📝", "word": "revise", "transcription": "/rɪˈvaɪz/", "translation": "повторять (материал к экзамену)", "example": "You should revise before the test.", "context_translation": "повторять", "context_example": "Тебе следует повторить перед тестом."},
+                {"icon": "✅", "word": "pass", "transcription": "/pɑːs/", "translation": "сдать (экзамен)", "example": "I hope I pass the exam.", "context_translation": "сдать", "context_example": "Надеюсь, я сдам экзамен."},
+                {"icon": "❌", "word": "fail", "transcription": "/feɪl/", "translation": "провалить (экзамен)", "example": "If you don't revise, you might fail.", "context_translation": "провалить", "context_example": "Если не повторишь, можешь провалиться."},
+                {"icon": "📊", "word": "result", "transcription": "/rɪˈzʌlt/", "translation": "результат (экзамена)", "example": "I won't get the result until July.", "context_translation": "результат", "context_example": "Я не получу результат до июля."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "If I fail my exams, I ___ them again next year.",
+                    "options": ["take", "will take", "took", "would take"],
+                    "correct": "will take",
+                    "accept": ["will take", "Will take", "WILL TAKE"],
+                    "explanation": "First conditional: if + present, will + infinitive.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "That girl ___ (get) into trouble if she doesn't wear her uniform.",
+                    "correct": "will get",
+                    "accept": ["will get", "Will get", "WILL GET"],
+                    "explanation": "First conditional: if + present, will + infinitive.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "If you give in your homework late, the teacher ___ (not mark) it.",
+                    "correct": "won't mark",
+                    "accept": ["won't mark", "will not mark", "Won't mark"],
+                    "explanation": "Negative first conditional: won't + infinitive.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "correct_mistake",
+                    "question": "If you will work hard, you'll pass all your exams.",
+                    "correct": "If you work hard, you'll pass all your exams.",
+                    "accept": ["If you work hard, you'll pass all your exams.", "If you work hard you'll pass all your exams."],
+                    "explanation": "After 'if' we use present simple, not 'will'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "___ (unless / if not) you study, you won't pass.",
+                    "correct": "Unless",
+                    "accept": ["Unless", "unless", "UNLESS"],
+                    "explanation": "Unless = if not.",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Grammar — Future Time Clauses (when, until, as soon as, etc.)",
+            "description": "Учим придаточные времени с when, until, as soon as, before, after",
+            "grammar": {
+                "title": "Future Time Clauses",
+                "rule": "📘 Для выражения будущего времени в придаточных предложениях времени мы используем present simple (НЕ будущее время) после союзов: when, until, as soon as, before, after.\n\n📌 Структура: главное предложение (future) + придаточное (present simple).\n\n✅ We'll have dinner when your father gets home.\n✅ As soon as you get your exam results, call me.\n✅ I won't go to bed until you come home.\n✅ I'll have a quick lunch before I leave.\n✅ After I finish university, I'll probably take a year off.\n\n⚠️ Важно: в придаточных времени мы НЕ используем will.\n❌ I'll call you when I will arrive. (неправильно)\n✅ I'll call you when I arrive. (правильно)",
+                "examples": [
+                    "Don't turn over the exam paper until the teacher tells you to.",
+                    "Please check the water's not too hot before the kids get in the bath.",
+                    "Your parents will be really happy when they hear your good news."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "⏰", "word": "until", "transcription": "/ənˈtɪl/", "translation": "до тех пор, пока не", "example": "Wait until I come back.", "context_translation": "до тех пор пока", "context_example": "Подожди, пока я не вернусь."},
+                {"icon": "⏰", "word": "as soon as", "transcription": "/əz suːn əz/", "translation": "как только", "example": "Call me as soon as you arrive.", "context_translation": "как только", "context_example": "Позвони мне, как только приедешь."},
+                {"icon": "⏰", "word": "before", "transcription": "/bɪˈfɔːr/", "translation": "перед, до того как", "example": "Finish your homework before you go out.", "context_translation": "перед", "context_example": "Закончи домашнюю работу, перед тем как выйти."},
+                {"icon": "⏰", "word": "after", "transcription": "/ˈɑːftər/", "translation": "после того как", "example": "I'll call you after I finish.", "context_translation": "после", "context_example": "Я позвоню тебе после того, как закончу."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I won't go to bed ___ you come home.",
+                    "options": ["when", "until", "as soon as", "before"],
+                    "correct": "until",
+                    "accept": ["until", "Until", "UNTIL"],
+                    "explanation": "We use 'until' to mean 'up to the moment when'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Please check the water's not too hot ___ the kids get in the bath.",
+                    "correct": "before",
+                    "accept": ["before", "Before", "BEFORE"],
+                    "explanation": "We use 'before' for an action that happens earlier.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Your parents will be really happy ___ they hear your good news.",
+                    "correct": "when",
+                    "accept": ["when", "When", "WHEN"],
+                    "explanation": "We use 'when' to mean 'at the time that'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "correct_mistake",
+                    "question": "I'll call you when I will arrive.",
+                    "correct": "I'll call you when I arrive.",
+                    "accept": ["I'll call you when I arrive.", "I'll call you when I arrive"],
+                    "explanation": "After 'when' we use present simple, not future.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "___ (After / Before) I finish university, I'll probably take a year off.",
+                    "correct": "After",
+                    "accept": ["After", "after", "AFTER"],
+                    "explanation": "We use 'after' to indicate a later time.",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Discipline and Exams — Vocabulary Practice",
+            "description": "Учим глаголы и выражения о дисциплине, поведении, экзаменах",
+            "grammar": {
+                "title": "Discipline and Exams — Vocabulary",
+                "rule": "📘 Важные глаголы и выражения:\n\n**Дисциплина:**\n✅ be allowed to — иметь разрешение (We aren't allowed to take phones.)\n✅ let (someone do) — позволять (They don't let us bring unhealthy food.)\n✅ make (someone do) — заставлять (The teacher made me do extra homework.)\n✅ misbehave — плохо себя вести\n✅ be punished — быть наказанным\n✅ be expelled — быть исключённым\n✅ cheat — списывать, жульничать\n\n**Экзамены:**\n✅ take an exam — сдавать экзамен\n✅ pass — сдать\n✅ fail — провалить\n✅ revise — повторять материал\n✅ result — результат",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🚫", "word": "allow", "transcription": "/əˈlaʊ/", "translation": "разрешать", "example": "We aren't allowed to use phones.", "context_translation": "разрешать", "context_example": "Нам не разрешают пользоваться телефонами."},
+                {"icon": "✅", "word": "let", "transcription": "/let/", "translation": "позволять (кому-то делать что-то)", "example": "They let us play games.", "context_translation": "позволять", "context_example": "Они позволяют нам играть в игры."},
+                {"icon": "💪", "word": "make", "transcription": "/meɪk/", "translation": "заставлять", "example": "The teacher made me stay behind.", "context_translation": "заставлять", "context_example": "Учитель заставил меня остаться после уроков."},
+                {"icon": "😤", "word": "misbehave", "transcription": "/ˌmɪsbɪˈheɪv/", "translation": "плохо себя вести", "example": "If you misbehave, you'll be punished.", "context_translation": "плохо себя вести", "context_example": "Если будешь плохо себя вести, будешь наказан."},
+                {"icon": "⚠️", "word": "punish", "transcription": "/ˈpʌnɪʃ/", "translation": "наказывать", "example": "The teacher will punish us if we're late.", "context_translation": "наказывать", "context_example": "Учитель накажет нас, если мы опоздаем."},
+                {"icon": "🚨", "word": "expel", "transcription": "/ɪkˈspel/", "translation": "исключать (из школы)", "example": "Cheating can lead to being expelled.", "context_translation": "исключать", "context_example": "Списывание может привести к исключению."},
+                {"icon": "📝", "word": "cheat", "transcription": "/tʃiːt/", "translation": "списывать, жульничать", "example": "Don't cheat in exams.", "context_translation": "списывать", "context_example": "Не списывай на экзаменах."},
+                {"icon": "📚", "word": "revise", "transcription": "/rɪˈvaɪz/", "translation": "повторять (материал)", "example": "I need to revise for the test.", "context_translation": "повторять", "context_example": "Мне нужно повторить к тесту."},
+                {"icon": "✅", "word": "pass", "transcription": "/pɑːs/", "translation": "сдать (экзамен)", "example": "I hope I pass.", "context_translation": "сдать", "context_example": "Надеюсь, сдам."},
+                {"icon": "❌", "word": "fail", "transcription": "/feɪl/", "translation": "провалить", "example": "I might fail if I don't revise.", "context_translation": "провалить", "context_example": "Могу провалить, если не повторю."},
+                {"icon": "📊", "word": "result", "transcription": "/rɪˈzʌlt/", "translation": "результат", "example": "The results come out in August.", "context_translation": "результат", "context_example": "Результаты выходят в августе."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "We ___ allowed to take our phones to school.",
+                    "options": ["aren't", "not", "don't", "weren't"],
+                    "correct": "aren't",
+                    "accept": ["aren't", "Aren't", "AREN'T"],
+                    "explanation": "We use 'be allowed to' in negative form.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "If you misbehave, you'll ___ (be punished / be expelled).",
+                    "correct": "be punished",
+                    "accept": ["be punished", "Be punished", "BE PUNISHED"],
+                    "explanation": "Misbehaving usually leads to punishment, not expulsion for minor cases.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "If you cheat in an exam, you might be expelled.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Cheating is serious and can lead to expulsion.",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "My teacher ___ me do extra homework. (made / let)",
+                    "correct": "made",
+                    "accept": ["made", "Made", "MADE"],
+                    "explanation": "'Make' means to force someone to do something.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "multiple_choice",
+                    "question": "I won't get the ___ until July.",
+                    "options": ["exam", "result", "degree", "grade"],
+                    "correct": "result",
+                    "accept": ["result", "Result", "RESULT"],
+                    "explanation": "We say 'get the result' (результат экзамена).",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — A Strict School",
+            "description": "Читаем текст о строгой школе и отвечаем на вопросы",
+            "grammar": {
+                "title": "Reading Comprehension",
+                "rule": "📚 Прочитайте текст о строгой школе. Обратите внимание на лексику дисциплины, экзаменов и условные предложения. Затем ответьте на вопросы.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What are students not allowed to bring to school?",
+                    "options": ["Phones", "Homework", "Lunch", "Books"],
+                    "correct": "Phones",
+                    "accept": ["Phones", "phones", "PHONES"],
+                    "explanation": "The text says: 'We aren't allowed to take our phones to school.'",
+                    "readingText": "📖 A STRICT SCHOOL\n\nDiscipline is very strict in our school. We aren't allowed to take our phones to school, and they don't let us bring unhealthy food for lunch, like crisps or fizzy drinks.\n\n Most children behave well, but if you misbehave, for example, talk too much in class, you'll be punished and the teacher will probably make you stay behind after class. If you do something more serious, like cheat in an exam, you might even be expelled.\n\nWe have to take important exams at the end of the year. Students usually revise a lot. If you don't revise, you might fail. But if you work hard, you'll pass. The results come out in July, and if you pass, you get a certificate. If you fail, you can retake the exam in September.",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What happens if you misbehave in class?",
+                    "options": ["You get a prize", "You are expelled", "You are punished and may stay behind", "Nothing happens"],
+                    "correct": "You are punished and may stay behind",
+                    "accept": ["You are punished and may stay behind", "you are punished and may stay behind", "punished and stay behind"],
+                    "explanation": "The text says: 'you'll be punished and the teacher will probably make you stay behind after class.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Students can bring crisps and fizzy drinks to school.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "The text says: 'they don't let us bring unhealthy food for lunch, like crisps or fizzy drinks.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "If you cheat in an exam, you might be expelled.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "The text says: 'If you do something more serious, like cheat in an exam, you might even be expelled.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "If you don't revise, you might ___ .",
+                    "correct": "fail",
+                    "accept": ["fail", "Fail", "FAIL"],
+                    "explanation": "The text says: 'If you don't revise, you might fail.'",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 7,
+            "title": "Day 7: Final Test — School and Education",
+            "description": "Проверяем все знания за неделю: лексика, грамматика, чтение",
+            "grammar": {
+                "title": "Final Test",
+                "rule": "Вы готовы? Пройдите все 10 упражнений, чтобы закрепить материал. Удачи! 🎓",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "In the UK, children start primary school at age ___.",
+                    "options": ["4", "5", "6", "7"],
+                    "correct": "5",
+                    "accept": ["5", "five"],
+                    "explanation": "The text says: 'Children start primary school when they're five.'",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "What type of school is paid for by the government?",
+                    "options": ["Private", "Boarding", "State", "Nursery"],
+                    "correct": "State",
+                    "accept": ["State", "state", "STATE"],
+                    "explanation": "State schools are paid for by the government.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The person in charge of a school is the ___ teacher.",
+                    "correct": "head",
+                    "accept": ["head", "Head", "HEAD"],
+                    "explanation": "Head teacher is the principal.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "multiple_choice",
+                    "question": "In the US, the final year of high school is called ___.",
+                    "options": ["Twelfth grade", "Tenth grade", "Eleventh grade", "College"],
+                    "correct": "Twelfth grade",
+                    "accept": ["Twelfth grade", "twelfth grade", "TWELFTH GRADE"],
+                    "explanation": "High school ends with twelfth grade.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "If I pass my exams, I ___ (go) to university.",
+                    "correct": "will go",
+                    "accept": ["will go", "Will go", "WILL GO"],
+                    "explanation": "First conditional: if + present, will + infinitive.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 6,
+                    "type": "fill_blank",
+                    "question": "We'll have dinner when your father ___ (get) home.",
+                    "correct": "gets",
+                    "accept": ["gets", "Gets", "GETS"],
+                    "explanation": "Future time clause: use present simple after 'when'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 7,
+                    "type": "correct_mistake",
+                    "question": "If you will study hard, you'll pass.",
+                    "correct": "If you study hard, you'll pass.",
+                    "accept": ["If you study hard, you'll pass.", "If you study hard you'll pass."],
+                    "explanation": "After 'if' we use present simple, not 'will'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 8,
+                    "type": "fill_blank",
+                    "question": "I won't go out ___ I finish my homework. (until / when)",
+                    "correct": "until",
+                    "accept": ["until", "Until", "UNTIL"],
+                    "explanation": "We use 'until' meaning 'up to the time when'.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 9,
+                    "type": "true_false",
+                    "question": "If you misbehave, you'll be punished.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Misbehaving usually leads to punishment.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 10,
+                    "type": "multiple_choice",
+                    "question": "What do you call a university graduate?",
+                    "options": ["Pupil", "Student", "Graduate", "Head"],
+                    "correct": "Graduate",
+                    "accept": ["Graduate", "graduate", "GRADUATE"],
+                    "explanation": "A graduate has completed a degree.",
+                    "topic": "vocabulary"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,398 @@
+{
+    "week_id": "week23_food",
+    "title": "🍕 Food & Drinks (еда и напитки) & Some/Any/Much/Many",
+    "description": "Учим названия еды и напитков, контейнеры для продуктов и правила использования some/any/much/many. Мемы, TikTok-рецепты и вкусные приключения! 🍔",
+    "level": "5 класс",
+    "icon": "🍕",
+    "order_num": 23,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Food and Drinks",
+            "description": "Знакомимся с названиями продуктов и напитков",
+            "grammar": {
+                "title": "Food and Drinks — Vocabulary",
+                "rule": "📘 **Продукты и напитки**:\n\n🍞 **bread** — хлеб\n🥛 **milk** — молоко\n🧀 **cheese** — сыр\n🥩 **meat** — мясо\n🐟 **fish** — рыба\n🍗 **chicken** — курица\n🥚 **eggs** — яйца\n🍚 **rice** — рис\n🍝 **pasta** — паста, макароны\n🧈 **butter** — масло\n🍰 **cake** — торт\n🍫 **chocolate** — шоколад\n🍬 **sugar** — сахар\n🍯 **jam** — варенье\n🧅 **onions** — лук\n🥕 **carrots** — морковь\n🍋 **lemons** — лимоны\n🍓 **strawberries** — клубника\n🍍 **pineapple** — ананас\n🍊 **orange** — апельсин\n🧃 **orange juice** — апельсиновый сок\n🍦 **ice cream** — мороженое\n🥬 **cabbage** — капуста\n🥫 **tomatoes** — помидоры\n\n📌 **Пример**:\nI like pizza. I don't like cabbage. I love chocolate! 🍫",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍞", "word": "bread", "transcription": "/bred/", "translation": "хлеб", "example": "I eat bread with butter.", "context_translation": "хлеб", "context_example": "Я ем хлеб с маслом."},
+                {"icon": "🥛", "word": "milk", "transcription": "/mɪlk/", "translation": "молоко", "example": "I drink milk every day.", "context_translation": "молоко", "context_example": "Я пью молоко каждый день."},
+                {"icon": "🧀", "word": "cheese", "transcription": "/tʃiːz/", "translation": "сыр", "example": "Pizza without cheese is not pizza!", "context_translation": "сыр", "context_example": "Пицца без сыра — не пицца!"},
+                {"icon": "🥩", "word": "meat", "transcription": "/miːt/", "translation": "мясо", "example": "I don't eat meat every day.", "context_translation": "мясо", "context_example": "Я не ем мясо каждый день."},
+                {"icon": "🐟", "word": "fish", "transcription": "/fɪʃ/", "translation": "рыба", "example": "I like fish with rice.", "context_translation": "рыба", "context_example": "Мне нравится рыба с рисом."},
+                {"icon": "🍗", "word": "chicken", "transcription": "/ˈtʃɪkɪn/", "translation": "курица", "example": "We eat chicken for dinner.", "context_translation": "курица", "context_example": "Мы едим курицу на ужин."},
+                {"icon": "🍚", "word": "rice", "transcription": "/raɪs/", "translation": "рис", "example": "Rice is popular in Asia.", "context_translation": "рис", "context_example": "Рис популярен в Азии."},
+                {"icon": "🍝", "word": "pasta", "transcription": "/ˈpæstə/", "translation": "паста, макароны", "example": "I love pasta with tomato sauce!", "context_translation": "паста", "context_example": "Я люблю пасту с томатным соусом!"},
+                {"icon": "🧈", "word": "butter", "transcription": "/ˈbʌtər/", "translation": "сливочное масло", "example": "I put butter on bread.", "context_translation": "сливочное масло", "context_example": "Я намазываю масло на хлеб."},
+                {"icon": "🍰", "word": "cake", "transcription": "/keɪk/", "translation": "торт", "example": "We have cake on birthdays.", "context_translation": "торт", "context_example": "Мы едим торт на дни рождения."},
+                {"icon": "🍫", "word": "chocolate", "transcription": "/ˈtʃɒklət/", "translation": "шоколад", "example": "I love dark chocolate!", "context_translation": "шоколад", "context_example": "Я люблю тёмный шоколад!"},
+                {"icon": "🍬", "word": "sugar", "transcription": "/ˈʃʊɡər/", "translation": "сахар", "example": "I don't put sugar in my tea.", "context_translation": "сахар", "context_example": "Я не кладу сахар в чай."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is pizza without cheese? 🍕",
+                    "options": ["Pizza", "Bread", "Cake", "Not pizza!"],
+                    "correct": "Not pizza!",
+                    "accept": ["Not pizza!", "not pizza", "NOT PIZZA"],
+                    "explanation": "Pizza without cheese is not pizza! 🧀🍕",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I like ___ with tomato sauce. 🍝",
+                    "correct": "pasta",
+                    "accept": ["pasta", "Pasta", "PASTA"],
+                    "explanation": "Pasta with tomato sauce — паста с томатным соусом! 🍝",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Sugar is healthy for you.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Too much sugar is not healthy! 🍬",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We eat ___ on birthdays. 🎂",
+                    "correct": "cake",
+                    "accept": ["cake", "Cake", "CAKE"],
+                    "explanation": "Cake on birthdays! 🎂",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I drink ___ every day. (milk / rice)",
+                    "correct": "milk",
+                    "accept": ["milk", "Milk", "MILK"],
+                    "explanation": "You drink milk, not rice! 🥛",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Containers for Food",
+            "description": "Учим названия контейнеров для продуктов",
+            "grammar": {
+                "title": "Containers — Vocabulary",
+                "rule": "📘 **Контейнеры для продуктов**:\n\n🥛 **a carton of** — пакет (молока, сока)\n📦 **a box of** — коробка (печенья, конфет)\n🥣 **a bowl of** — миска (супа, салата)\n🥤 **a glass of** — стакан (воды, сока)\n📦 **a packet of** — пакетик (чая, сахара)\n🧴 **a bottle of** — бутылка (воды, масла)\n\n📌 **Пример**:\nI want a glass of water.\nCan I have a bowl of soup?",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🥛", "word": "carton", "transcription": "/ˈkɑːtən/", "translation": "пакет (картонный)", "example": "I need a carton of milk.", "context_translation": "пакет", "context_example": "Мне нужен пакет молока."},
+                {"icon": "📦", "word": "box", "transcription": "/bɒks/", "translation": "коробка", "example": "There is a box of chocolates.", "context_translation": "коробка", "context_example": "Есть коробка шоколадных конфет."},
+                {"icon": "🥣", "word": "bowl", "transcription": "/bəʊl/", "translation": "миска", "example": "I eat cereal in a bowl.", "context_translation": "миска", "context_example": "Я ем кашу из миски."},
+                {"icon": "🥤", "word": "glass", "transcription": "/ɡlɑːs/", "translation": "стакан", "example": "I drink water from a glass.", "context_translation": "стакан", "context_example": "Я пью воду из стакана."},
+                {"icon": "📦", "word": "packet", "transcription": "/ˈpækɪt/", "translation": "пакетик, упаковка", "example": "I buy a packet of sweets.", "context_translation": "пакетик", "context_example": "Я покупаю пакетик конфет."},
+                {"icon": "🧴", "word": "bottle", "transcription": "/ˈbɒtl/", "translation": "бутылка", "example": "There is a bottle of water.", "context_translation": "бутылка", "context_example": "Есть бутылка воды."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you drink from? 🥤",
+                    "options": ["A bowl", "A glass", "A box", "A packet"],
+                    "correct": "A glass",
+                    "accept": ["A glass", "a glass", "glass"],
+                    "explanation": "You drink from a glass! 🥤",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I need a carton of ___ . 🥛",
+                    "correct": "milk",
+                    "accept": ["milk", "Milk", "MILK"],
+                    "explanation": "A carton of milk! 🥛",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You put soup in a glass.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "You put soup in a BOWL, not a glass! 🥣",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I want a ___ of water. (bottle / carton)",
+                    "correct": "bottle",
+                    "accept": ["bottle", "Bottle", "BOTTLE"],
+                    "explanation": "A bottle of water! 💧",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I have a ___ of juice. (carton / box)",
+                    "correct": "carton",
+                    "accept": ["carton", "Carton", "CARTON"],
+                    "explanation": "A carton of juice! 🧃",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — Some and Any",
+            "description": "Учимся использовать some и any",
+            "grammar": {
+                "title": "Some and Any",
+                "rule": "📘 **Some и Any**:\n\n📌 **Some** — в утвердительных предложениях:\n✅ I have some bread.\n✅ There is some milk.\n\n📌 **Any** — в вопросах и отрицаниях:\n❓ Is there any cheese?\n❌ I don't have any sugar.\n\n📌 **Пример**:\n✅ I have some bananas.\n❌ I don't have any bananas.\n❓ Do you have any bananas?",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍪", "word": "cookies", "transcription": "/ˈkʊkiz/", "translation": "печенье", "example": "I have some cookies.", "context_translation": "печенье", "context_example": "У меня есть печенье."},
+                {"icon": "🍅", "word": "tomato", "transcription": "/təˈmɑːtəʊ/", "translation": "помидор", "example": "Are there any tomatoes?", "context_translation": "помидор", "context_example": "Есть помидоры?"},
+                {"icon": "🧅", "word": "onion", "transcription": "/ˈʌnjən/", "translation": "лук", "example": "I need some onions.", "context_translation": "лук", "context_example": "Мне нужен лук."},
+                {"icon": "🥕", "word": "carrot", "transcription": "/ˈkærət/", "translation": "морковь", "example": "There are some carrots.", "context_translation": "морковь", "context_example": "Есть морковь."},
+                {"icon": "🍋", "word": "lemon", "transcription": "/ˈlemən/", "translation": "лимон", "example": "I have a lemon.", "context_translation": "лимон", "context_example": "У меня есть лимон."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I have ___ bread. 🍞",
+                    "options": ["some", "any", "a", "an"],
+                    "correct": "some",
+                    "accept": ["some", "Some", "SOME"],
+                    "explanation": "Affirmative → some! I have some bread! 🍞",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "I don't have ___ sugar. 🍬",
+                    "options": ["some", "any", "a", "an"],
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Negative → any! I don't have any sugar! 🍬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Are there ___ eggs? 🥚 — Yes, there are some.",
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Question → any! Are there any eggs? 🥚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "There isn't ___ milk in the fridge. 🥛",
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Negative → any! There isn't any milk! 🥛",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I don't have some tomatoes.",
+                    "correct": "I don't have any tomatoes.",
+                    "accept": ["I don't have any tomatoes", "I don't have any tomatoes."],
+                    "explanation": "Negative → any! Not some! 🍅",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Grammar — Much and Many",
+            "description": "Учимся использовать much и many",
+            "grammar": {
+                "title": "Much and Many",
+                "rule": "📘 **Much и Many**:\n\n📌 **Many** — для исчисляемых существительных (которые можно посчитать):\n✅ How many apples?\n✅ Not many. Just a few.\n\n📌 **Much** — для неисчисляемых существительных (которые нельзя посчитать):\n✅ How much milk?\n✅ Not much. Just a little.\n\n📌 **Пример**:\nHow many eggs have we got? — Not many. Just a few.\nHow much rice is there? — Not much. Just a little.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🧃", "word": "juice", "transcription": "/dʒuːs/", "translation": "сок", "example": "How much juice is there?", "context_translation": "сок", "context_example": "Сколько сока?"},
+                {"icon": "🍚", "word": "rice", "transcription": "/raɪs/", "translation": "рис", "example": "How much rice do we need?", "context_translation": "рис", "context_example": "Сколько риса нам нужно?"},
+                {"icon": "🍊", "word": "orange", "transcription": "/ˈɒrɪndʒ/", "translation": "апельсин", "example": "How many oranges are there?", "context_translation": "апельсин", "context_example": "Сколько апельсинов?"},
+                {"icon": "🍎", "word": "apple", "transcription": "/ˈæpl/", "translation": "яблоко", "example": "I have many apples.", "context_translation": "яблоко", "context_example": "У меня много яблок."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "How ___ apples have we got? 🍎",
+                    "options": ["much", "many", "more", "most"],
+                    "correct": "many",
+                    "accept": ["many", "Many", "MANY"],
+                    "explanation": "Apples — countable → how many! 🍎",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "How ___ milk is there? 🥛",
+                    "options": ["much", "many", "more", "most"],
+                    "correct": "much",
+                    "accept": ["much", "Much", "MUCH"],
+                    "explanation": "Milk — uncountable → how much! 🥛",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "How ___ eggs do we need? 🥚 — Not many.",
+                    "correct": "many",
+                    "accept": ["many", "Many", "MANY"],
+                    "explanation": "Eggs — countable → how many! 🥚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "How ___ water is there? 💧 — Not much.",
+                    "correct": "much",
+                    "accept": ["much", "Much", "MUCH"],
+                    "explanation": "Water — uncountable → how much! 💧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "How many rice do you want?",
+                    "correct": "How much rice do you want?",
+                    "accept": ["How much rice do you want", "How much rice do you want?"],
+                    "explanation": "Rice is uncountable → how much! 🍚",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Some/Any/Much/Many",
+            "description": "Тренируем some, any, much и many вместе",
+            "grammar": {
+                "title": "Some/Any/Much/Many — практика",
+                "rule": "📘 **Сводная таблица**:\n\n📌 **Some** — утверждение:\n✅ I have some cheese.\n✅ There is some milk.\n\n📌 **Any** — вопрос/отрицание:\n❓ Do you have any meat?\n❌ I don't have any eggs.\n\n📌 **Many** — countable (можно посчитать):\n❓ How many eggs?\n\n📌 **Much** — uncountable (нельзя посчитать):\n❓ How much milk?",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I have ___ eggs. 🥚",
+                    "options": ["some", "any", "much", "many"],
+                    "correct": "some",
+                    "accept": ["some", "Some", "SOME"],
+                    "explanation": "Affirmative → some! I have some eggs! 🥚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "I don't have ___ cheese. 🧀",
+                    "options": ["some", "any", "much", "many"],
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Negative → any! I don't have any cheese! 🧀",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "How ___ milk do you need? 🥛 — Not much.",
+                    "correct": "much",
+                    "accept": ["much", "Much", "MUCH"],
+                    "explanation": "Milk is uncountable → how much! 🥛",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Are there ___ bananas? 🍌 — No, there aren't any.",
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Question → any! Are there any bananas? 🍌",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I have many rice.",
+                    "correct": "I have much rice.",
+                    "accept": ["I have much rice", "I have a lot of rice"],
+                    "explanation": "Rice is uncountable → much rice! 🍚",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — Birthday Party Plan",
+            "description": "Планируем день рождения: пишем список того, что нужно",
+            "grammar": {
+                "title": "Повторение: еда, контейнеры, some/any/much/many",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is the date? (Когда?)\n2️⃣ What time is the party? (Во сколько?)\n3️⃣ How many people are coming? (Сколько гостей?)\n4️⃣ What food and drinks? (Что из еды и напитков?)\n5️⃣ What activities? (Чем заниматься?)\n\n📌 **Пример**:\nIt's my birthday on 15th May. The party is at 4 pm. There are 10 people. We need some pizza, some juice, a bottle of cola, and a cake. We are going to play games and dance! 🎉",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My birthday is on ___ . (напиши дату)",
+                    "correct": "15th May",
+                    "accept": ["15th May", "15 May", "May 15"],
+                    "explanation": "Когда твой день рождения? 📅",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The party is at ___ pm. (напиши время)",
+                    "correct": "4",
+                    "accept": ["4", "5", "6", "seven", "eight"],
+                    "explanation": "Во сколько вечеринка? ⏰",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "There are ___ people. (напиши количество)",
+                    "correct": "10",
+                    "accept": ["10", "ten", "fifteen", "twenty"],
+                    "explanation": "Сколько гостей? 👥",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We need some ___ and some ___ . (напиши еду)",
+                    "correct": "pizza, cake",
+                    "accept": ["pizza, cake", "sandwiches, juice", "cookies, milk"],
+                    "explanation": "Что из еды и напитков? 🍕🥤",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "We are going to ___ and ___ . (напиши занятия)",
+                    "correct": "play games, dance",
+                    "accept": ["play games, dance", "play games, dance", "watch films, eat"],
+                    "explanation": "Чем вы будете заниматься? 🎮💃",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

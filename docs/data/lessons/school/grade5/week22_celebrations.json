@@ -1,0 +1,392 @@
+{
+    "week_id": "week22_celebrations",
+    "title": "🎉 Celebrations (праздники) & Countable/Uncountable nouns",
+    "description": "Учимся говорить о праздниках, фестивалях и исчисляемых/неисчисляемых существительных. Мемы, TikTok и весёлые традиции! 🎊",
+    "level": "5 класс",
+    "icon": "🎉",
+    "order_num": 22,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Festive Activities",
+            "description": "Что мы делаем на праздниках? Учим слова и фразы",
+            "grammar": {
+                "title": "Festive Activities — Vocabulary",
+                "rule": "📘 **Что мы делаем на праздниках?**:\n\n🎆 **set off fireworks** — запускать фейерверки\n🎪 **have street parades** — устраивать уличные парады\n🎭 **dress up** — наряжаться\n🎁 **exchange gifts** — обмениваться подарками\n🍽️ **have family dinners** — устраивать семейные ужины\n🎶 **sing songs** — петь песни\n💃 **dance** — танцевать\n🍰 **eat special food** — есть особую еду\n\n📌 **Пример**:\nOn Victory Day, we have street parades.\nWe set off fireworks on New Year's Eve.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎆", "word": "fireworks", "transcription": "/ˈfaɪəwɜːks/", "translation": "фейерверки", "example": "We set off fireworks on New Year.", "context_translation": "фейерверки", "context_example": "Мы запускаем фейерверки в Новый год."},
+                {"icon": "🎪", "word": "parade", "transcription": "/pəˈreɪd/", "translation": "парад", "example": "There is a big parade on Victory Day.", "context_translation": "парад", "context_example": "В День Победы проходит большой парад."},
+                {"icon": "🎭", "word": "costume", "transcription": "/ˈkɒstjuːm/", "translation": "костюм (карнавальный)", "example": "Children wear costumes at Halloween.", "context_translation": "костюм", "context_example": "Дети носят костюмы на Хэллоуин."},
+                {"icon": "🎁", "word": "gift", "transcription": "/ɡɪft/", "translation": "подарок", "example": "We exchange gifts at Christmas.", "context_translation": "подарок", "context_example": "Мы обмениваемся подарками на Рождество."},
+                {"icon": "🍽️", "word": "dinner", "transcription": "/ˈdɪnər/", "translation": "ужин", "example": "We have a big dinner on New Year's Eve.", "context_translation": "ужин", "context_example": "У нас большой ужин в канун Нового года."},
+                {"icon": "🎶", "word": "song", "transcription": "/sɒŋ/", "translation": "песня", "example": "We sing songs at parties.", "context_translation": "песня", "context_example": "Мы поём песни на вечеринках."},
+                {"icon": "💃", "word": "dance", "transcription": "/dɑːns/", "translation": "танцевать, танец", "example": "Everyone dances at the festival.", "context_translation": "танцевать", "context_example": "Все танцуют на фестивале."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do we set off on New Year? 🎆",
+                    "options": ["Parades", "Fireworks", "Costumes", "Gifts"],
+                    "correct": "Fireworks",
+                    "accept": ["Fireworks", "fireworks", "FIREWORKS"],
+                    "explanation": "We set off fireworks on New Year! 🎆",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "On Victory Day, we have street ___ . 🎪",
+                    "correct": "parades",
+                    "accept": ["parades", "Parades", "PARADES"],
+                    "explanation": "Street parades — уличные парады! 🎪",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "We exchange gifts on New Year.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! We exchange gifts on New Year! 🎁",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Children wear ___ at parties. 🎭",
+                    "correct": "costumes",
+                    "accept": ["costumes", "Costumes", "COSTUMES"],
+                    "explanation": "Costumes — костюмы! 🎭",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "We have a big ___ on New Year. 🍽️",
+                    "correct": "dinner",
+                    "accept": ["dinner", "Dinner", "DINNER"],
+                    "explanation": "We have a big dinner on New Year! 🍽️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Harvest Festivals Around the World",
+            "description": "Учимся говорить о праздниках урожая в разных странах",
+            "grammar": {
+                "title": "Harvest Festivals — Vocabulary",
+                "rule": "📘 **Праздники урожая в мире**:\n\n🇺🇸🇨🇦 **Thanksgiving** — День благодарения (США, Канада)\n🇮🇳 **Holi** — Холи (Индия, праздник урожая)\n🇵🇭 **Banana Festival** — Фестиваль бананов (Филиппины)\n🇰🇷 **Chuseok** — Чусок (Корея, праздник урожая)\n\n📌 **Пример**:\nThanksgiving is in November in the USA.\nHoli is a five-day festival in India.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🇺🇸", "word": "Thanksgiving", "transcription": "/ˌθæŋksˈɡɪvɪŋ/", "translation": "День благодарения", "example": "Thanksgiving is in November.", "context_translation": "День благодарения", "context_example": "День благодарения отмечается в ноябре."},
+                {"icon": "🇮🇳", "word": "harvest", "transcription": "/ˈhɑːvɪst/", "translation": "урожай, собирать урожай", "example": "Farmers harvest wheat in summer.", "context_translation": "урожай", "context_example": "Фермеры собирают урожай пшеницы летом."},
+                {"icon": "🇵🇭", "word": "variety", "transcription": "/vəˈraɪəti/", "translation": "разновидность", "example": "There are many varieties of bananas.", "context_translation": "разновидность", "context_example": "Существует много разновидностей бананов."},
+                {"icon": "🇰🇷", "word": "tradition", "transcription": "/trəˈdɪʃn/", "translation": "традиция", "example": "It's a tradition to wear costumes.", "context_translation": "традиция", "context_example": "Это традиция — носить костюмы."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do people eat on Thanksgiving? 🦃",
+                    "options": ["Bananas", "Turkey", "Rice cakes", "Wheat"],
+                    "correct": "Turkey",
+                    "accept": ["Turkey", "turkey", "TURKEY"],
+                    "explanation": "People eat turkey on Thanksgiving! 🦃",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Holi is a ___ festival in India. 🇮🇳",
+                    "correct": "harvest",
+                    "accept": ["harvest", "Harvest", "HARVEST"],
+                    "explanation": "Holi is a harvest festival in India! 🇮🇳",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Thanksgiving is celebrated in July.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Thanksgiving is in November, not July! 🦃",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "There are many ___ of bananas. 🍌",
+                    "correct": "varieties",
+                    "accept": ["varieties", "Varieties", "VARIETIES"],
+                    "explanation": "Varieties — разновидности! 🍌",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "Chuseok is a festival in Japan.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Chuseok is a Korean festival, not Japanese! 🇰🇷",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — Countable and Uncountable Nouns",
+            "description": "Учим исчисляемые и неисчисляемые существительные",
+            "grammar": {
+                "title": "Countable and Uncountable Nouns",
+                "rule": "📘 **Исчисляемые и неисчисляемые существительные**:\n\n📌 **Countable nouns** (можно посчитать):\n✅ apple → two apples\n✅ banana → three bananas\n✅ egg → four eggs\n✅ costume → five costumes\n\n📌 **Uncountable nouns** (нельзя посчитать):\n✅ milk (молоко) ❌ a milk\n✅ rice (рис) ❌ a rice\n✅ water (вода) ❌ a water\n✅ bread (хлеб) ❌ a bread\n\n📌 **Слова-помощники**:\n• a/an + countable (singular)\n• some + uncountable / countable (plural)\n• any + negative/question\n\n📌 **Пример**:\nI want an apple. (исчисляемое, один)\nI want some milk. (неисчисляемое)\nI don't have any oranges. (исчисляемое, вопрос/отрицание)\nThere is some rice. (неисчисляемое)",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍎", "word": "apple", "transcription": "/ˈæpl/", "translation": "яблоко", "example": "I want an apple.", "context_translation": "яблоко", "context_example": "Я хочу яблоко."},
+                {"icon": "🍌", "word": "banana", "transcription": "/bəˈnɑːnə/", "translation": "банан", "example": "I have three bananas.", "context_translation": "банан", "context_example": "У меня три банана."},
+                {"icon": "🥛", "word": "milk", "transcription": "/mɪlk/", "translation": "молоко", "example": "I drink milk every day.", "context_translation": "молоко", "context_example": "Я пью молоко каждый день."},
+                {"icon": "🍚", "word": "rice", "transcription": "/raɪs/", "translation": "рис", "example": "There is some rice on the table.", "context_translation": "рис", "context_example": "На столе есть рис."},
+                {"icon": "🥖", "word": "bread", "transcription": "/bred/", "translation": "хлеб", "example": "Can I have some bread?", "context_translation": "хлеб", "context_example": "Можно мне хлеба?"},
+                {"icon": "🥚", "word": "egg", "transcription": "/eɡ/", "translation": "яйцо", "example": "She has got five eggs.", "context_translation": "яйцо", "context_example": "У неё пять яиц."},
+                {"icon": "💧", "word": "water", "transcription": "/ˈwɔːtər/", "translation": "вода", "example": "I need some water.", "context_translation": "вода", "context_example": "Мне нужна вода."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Which word is countable? 🔢",
+                    "options": ["Rice", "Milk", "Apple", "Water"],
+                    "correct": "Apple",
+                    "accept": ["Apple", "apple", "APPLE"],
+                    "explanation": "Apple — можно посчитать: one apple, two apples! 🍎",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Which word is uncountable? ❌",
+                    "options": ["Banana", "Egg", "Costume", "Rice"],
+                    "correct": "Rice",
+                    "accept": ["Rice", "rice", "RICE"],
+                    "explanation": "Rice — нельзя посчитать! ❌",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'A milk' is correct.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Milk is uncountable! 'Some milk', not 'a milk'! 🥛",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I want ___ apple. (a / an)",
+                    "correct": "an",
+                    "accept": ["an", "An", "AN"],
+                    "explanation": "Apple — countable singular → an apple! 🍎",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I have a rice.",
+                    "correct": "I have some rice.",
+                    "accept": ["I have some rice", "I have some rice."],
+                    "explanation": "Rice is uncountable! Use 'some rice'! 🍚",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Festivals Around the World",
+            "description": "Читаем о праздниках в разных странах",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди, какие праздники есть в разных странах.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на исчисляемые и неисчисляемые существительные!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What do people eat at Thanksgiving? 🦃",
+                    "options": ["Bananas", "Turkey, potatoes and pumpkin pie", "Rice cakes", "Wheat"],
+                    "correct": "Turkey, potatoes and pumpkin pie",
+                    "accept": ["Turkey, potatoes and pumpkin pie", "turkey, potatoes and pumpkin pie"],
+                    "explanation": "People eat turkey, sweet potatoes and pumpkin pie at Thanksgiving! 🦃🥧",
+                    "readingText": "🌟 HARVEST FESTIVALS AROUND THE WORLD 🌟\n\nPeople all over the world celebrate harvest festivals. Let's learn about some of them!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇺🇸🇨🇦 THANKSGIVING — USA AND CANADA\n\nThanksgiving is a big festival in the USA and Canada. It celebrates the harvest. Canadians celebrate it in October, and Americans celebrate it in November. On this day, families have big dinners. They eat turkey, sweet potatoes and cranberry sauce. For dessert, there is pumpkin pie. Some cities have parades. It's a very popular holiday! 🦃\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇮🇳 HOLI — INDIA\n\nHoli is a Hindu harvest festival. It's in late February or early March. The festival lasts five days! People dress up in colourful clothes and light fires. Farmers decorate their cows with flowers and let them run free in the streets. It's a very colourful and fun festival! 🌸\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇵🇭 BANANA FESTIVAL — THE PHILIPPINES\n\nIn the Philippines, people celebrate the Banana Festival in late March or early April. This is a harvest festival about different varieties of bananas. During the festival, children dress up in banana costumes and dance in the streets. There is also a cooking competition! Cooks use only bananas to make their dishes. 🍌\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🇰🇷 CHUSEOK — KOREA\n\nChuseok is the Korean harvest moon festival. It's an important holiday in Korea. The festival lasts for three days, usually between August and October. People make sweet rice cakes with fresh fruit. It's a time for families to come together. 🇰🇷\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 WHAT FESTIVAL DO YOU CELEBRATE? 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "How long does Holi last? 🇮🇳",
+                    "options": ["One day", "Three days", "Five days", "One week"],
+                    "correct": "Five days",
+                    "accept": ["Five days", "five days"],
+                    "explanation": "Holi lasts for five days! 🇮🇳",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Chuseok is a Korean festival.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! Chuseok is the Korean harvest moon festival! 🇰🇷",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "People eat bananas at Thanksgiving.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "People eat turkey and pumpkin pie at Thanksgiving, not bananas! 🦃",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "At the Banana Festival, cooks use only ___ to make dishes. 🍌",
+                    "correct": "bananas",
+                    "accept": ["bananas", "Bananas", "BANANAS"],
+                    "explanation": "Cooks use only bananas to make dishes at the Banana Festival! 🍌",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Countable/Uncountable Practice",
+            "description": "Тренируем исчисляемые и неисчисляемые существительные",
+            "grammar": {
+                "title": "Countable/Uncountable — практика",
+                "rule": "📘 **Как использовать исчисляемые и неисчисляемые существительные**:\n\n📌 **Countable + plural**:\n✅ I have some apples.\n✅ I don't have any oranges.\n\n📌 **Uncountable**:\n✅ I have some milk.\n✅ I don't have any water.\n\n📌 **Вопросы**:\n❓ How many apples? (countable)\n❓ How much milk? (uncountable)\n\n📌 **Пример**:\nHow many bananas have you got? — I have two bananas.\nHow much rice have you got? — I have a lot of rice.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "How ___ apples have you got? 🍎",
+                    "options": ["much", "many", "more", "most"],
+                    "correct": "many",
+                    "accept": ["many", "Many", "MANY"],
+                    "explanation": "Apples — countable → how many! 🍎",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "How ___ milk is there? 🥛",
+                    "correct": "much",
+                    "accept": ["much", "Much", "MUCH"],
+                    "explanation": "Milk — uncountable → how much! 🥛",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'How many water' is correct.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Water is uncountable → how much water! 💧",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I don't have ___ bananas. (some / any)",
+                    "correct": "any",
+                    "accept": ["any", "Any", "ANY"],
+                    "explanation": "Negative → any! I don't have any bananas! 🍌",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I have a milk.",
+                    "correct": "I have some milk.",
+                    "accept": ["I have some milk", "I have some milk."],
+                    "explanation": "Milk is uncountable → some milk! 🥛",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Festival",
+            "description": "Пишем текст о любимом празднике",
+            "grammar": {
+                "title": "Повторение: праздники и существительные",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is the name of the festival? (Название праздника)\n2️⃣ When is it? (Когда он отмечается?)\n3️⃣ What do people do? (Что люди делают?)\n4️⃣ What do they eat? (Что они едят?)\n5️⃣ Why do you like it? (Почему тебе нравится?)\n\n📌 **Пример**:\nMy favourite festival is New Year. It's on 31st December. We set off fireworks, have a big dinner and exchange gifts. We eat salad and cake. I like it because it's fun and I get presents! 🎄🎁",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite festival is ___ . (напиши название)",
+                    "correct": "New Year",
+                    "accept": ["New Year", "New Year's", "New Year Eve", "Christmas", "Easter"],
+                    "explanation": "Какой твой любимый праздник? 🎉",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's on ___ . (напиши дату)",
+                    "correct": "31st December",
+                    "accept": ["31st December", "31 December", "1st January"],
+                    "explanation": "Когда твой любимый праздник? 📅",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "We ___ fireworks and ___ gifts. (напиши действия)",
+                    "correct": "set off, exchange",
+                    "accept": ["set off, exchange", "light, give", "watch, get"],
+                    "explanation": "Что ты делаешь на празднике? 🎆🎁",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We eat ___ and ___ . (напиши еду)",
+                    "correct": "salad, cake",
+                    "accept": ["salad, cake", "cake, cookies", "pizza, cola"],
+                    "explanation": "Что ты ешь на празднике? 🍰",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like it because ___ . (напиши причину)",
+                    "correct": "it's fun",
+                    "accept": ["it's fun", "I get presents", "I see my family", "we have a good time"],
+                    "explanation": "Почему тебе нравится этот праздник? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

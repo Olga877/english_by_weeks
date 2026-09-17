@@ -1,0 +1,393 @@
+{
+    "week_id": "week17_jobs",
+    "title": "💼 Jobs (профессии) & Present Continuous (действия сейчас)",
+    "description": "Учим названия профессий, учимся говорить о том, что люди делают прямо сейчас. Мемы, факты и любимые блогеры! 👩‍💻",
+    "level": "5 класс",
+    "icon": "💼",
+    "order_num": 17,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Jobs — Who does what?",
+            "description": "Знакомимся с разными профессиями",
+            "grammar": {
+                "title": "Jobs and Professions",
+                "rule": "📘 **Профессии в английском языке**:\n\n👨‍🏫 **teacher** — учитель\n👨‍⚕️ **doctor** — врач\n👩‍🍳 **cook** — повар\n👨‍✈️ **pilot** — пилот\n👩‍🚀 **astronaut** — космонавт\n🧑‍💻 **programmer** — программист\n👩‍🎨 **artist** — художник\n👨‍🔧 **mechanic** — механик\n👩‍💼 **businesswoman** — бизнес-леди\n\n📝 **Суффиксы профессий**:\n• -er: teacher, driver, painter, writer\n• -or: doctor, actor, director\n• -ist: artist, scientist, dentist\n• -ian: musician, librarian, politician\n\n🎯 **Мем**: My mum is a teacher. She always says: 'I don't have a favourite student... but if I did, it would be you!' 😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "👩‍🏫", "word": "teacher", "transcription": "/ˈtiːtʃər/", "translation": "учитель", "example": "My mum is a teacher.", "context_translation": "учитель", "context_example": "Моя мама — учитель."},
+                {"icon": "👨‍⚕️", "word": "doctor", "transcription": "/ˈdɒktər/", "translation": "врач", "example": "My dad works as a doctor.", "context_translation": "врач", "context_example": "Мой папа работает врачом."},
+                {"icon": "🧑‍🍳", "word": "cook", "transcription": "/kʊk/", "translation": "повар", "example": "My aunt is a cook.", "context_translation": "повар", "context_example": "Моя тётя — повар."},
+                {"icon": "👨‍✈️", "word": "pilot", "transcription": "/ˈpaɪlət/", "translation": "пилот", "example": "A pilot flies a plane.", "context_translation": "пилот", "context_example": "Пилот управляет самолётом."},
+                {"icon": "🧑‍💻", "word": "programmer", "transcription": "/ˈprəʊɡræmər/", "translation": "программист", "example": "My brother wants to be a programmer.", "context_translation": "программист", "context_example": "Мой брат хочет стать программистом."},
+                {"icon": "👨‍🔧", "word": "mechanic", "transcription": "/məˈkænɪk/", "translation": "механик", "example": "A mechanic repairs cars.", "context_translation": "механик", "context_example": "Механик ремонтирует машины."},
+                {"icon": "🎨", "word": "artist", "transcription": "/ˈɑːtɪst/", "translation": "художник", "example": "She is a famous artist.", "context_translation": "художник", "context_example": "Она известный художник."},
+                {"icon": "🎵", "word": "musician", "transcription": "/mjuːˈzɪʃn/", "translation": "музыкант", "example": "He is a musician. He plays the guitar.", "context_translation": "музыкант", "context_example": "Он музыкант. Он играет на гитаре."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Who flies a plane? ✈️",
+                    "options": ["Teacher", "Doctor", "Pilot", "Mechanic"],
+                    "correct": "Pilot",
+                    "accept": ["Pilot", "pilot", "PILOT"],
+                    "explanation": "A pilot flies a plane! ✈️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "A ___ repairs cars. 🚗 (mechanic / musician)",
+                    "correct": "mechanic",
+                    "accept": ["mechanic", "Mechanic", "MECHANIC"],
+                    "explanation": "A mechanic repairs cars! 🔧",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A programmer writes code for computers. 💻",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! Programmers write code for computers! 💻",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "An ___ paints pictures. 🎨 (artist / actor)",
+                    "correct": "artist",
+                    "accept": ["artist", "Artist", "ARTIST"],
+                    "explanation": "An artist paints pictures! 🎨",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "A doctor help sick people.",
+                    "correct": "A doctor helps sick people.",
+                    "accept": ["A doctor helps sick people", "A doctor helps sick people."],
+                    "explanation": "Doctor — он (it), поэтому helps с -s! 👨‍⚕️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: More Jobs and Suffixes",
+            "description": "Учим больше профессий и суффиксы",
+            "grammar": {
+                "title": "Word formation: suffixes -er, -or, -ist, -ian",
+                "rule": "📘 **Как образуются названия профессий**:\n\n📌 **-er**: teach → teacher, drive → driver, paint → painter\n📌 **-or**: act → actor, direct → director, visit → visitor\n📌 **-ist**: art → artist, science → scientist, piano → pianist\n📌 **-ian**: music → musician, library → librarian, politics → politician\n\n🎯 **Лайфхак**:\n• Если глагол заканчивается на -e → убираем -e и добавляем -er: dance → dancer\n• Если глагол заканчивается на согласную + y → y → i + er: fly → flier\n• Но есть исключения!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🚗", "word": "driver", "transcription": "/ˈdraɪvər/", "translation": "водитель", "example": "A driver drives a car or a bus.", "context_translation": "водитель", "context_example": "Водитель управляет машиной или автобусом."},
+                {"icon": "🏗️", "word": "builder", "transcription": "/ˈbɪldər/", "translation": "строитель", "example": "A builder builds houses.", "context_translation": "строитель", "context_example": "Строитель строит дома."},
+                {"icon": "🍰", "word": "baker", "transcription": "/ˈbeɪkər/", "translation": "пекарь", "example": "A baker makes bread and cakes.", "context_translation": "пекарь", "context_example": "Пекарь печёт хлеб и торты."},
+                {"icon": "🔬", "word": "scientist", "transcription": "/ˈsaɪəntɪst/", "translation": "учёный", "example": "A scientist does experiments.", "context_translation": "учёный", "context_example": "Учёный проводит эксперименты."},
+                {"icon": "🦷", "word": "dentist", "transcription": "/ˈdentɪst/", "translation": "стоматолог", "example": "I go to the dentist twice a year.", "context_translation": "стоматолог", "context_example": "Я хожу к стоматологу два раза в год."},
+                {"icon": "🎭", "word": "actor", "transcription": "/ˈæktər/", "translation": "актёр", "example": "An actor performs in films and plays.", "context_translation": "актёр", "context_example": "Актёр снимается в фильмах и играет в театре."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What does a builder do? 🏗️",
+                    "options": ["Bakes bread", "Builds houses", "Drives cars", "Performs in films"],
+                    "correct": "Builds houses",
+                    "accept": ["Builds houses", "builds houses", "BUILDS HOUSES"],
+                    "explanation": "A builder builds houses! 🏗️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "A ___ makes bread and cakes. 🍞 (baker / builder)",
+                    "correct": "baker",
+                    "accept": ["baker", "Baker", "BAKER"],
+                    "explanation": "A baker makes bread and cakes! 🍞",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A dentist looks after your teeth. 🦷",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! A dentist looks after your teeth! 🦷",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Art + ist = ___ . 🎨 (artist / scientist)",
+                    "correct": "artist",
+                    "accept": ["artist", "Artist", "ARTIST"],
+                    "explanation": "Art → artist! 🎨",
+                    "topic": "word formation"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Science + ist = scient. (something is missing)",
+                    "correct": "Science + ist = scientist",
+                    "accept": ["scientist", "Scientist", "SCIENTIST"],
+                    "explanation": "Science → scientist! Учёный! 🔬",
+                    "topic": "word formation"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — Present Continuous (what is happening now)",
+            "description": "Учимся говорить о том, что происходит прямо сейчас",
+            "grammar": {
+                "title": "Present Continuous — действия сейчас",
+                "rule": "📘 **Present Continuous**:\n\nМы используем Present Continuous, когда говорим о том, что ПРОИСХОДИТ ПРЯМО СЕЙЧАС.\n\n📝 **Формула**:\n✅ am/is/are + глагол + -ing\n\n📌 **Утверждение**:\n✅ I am reading a book.\n✅ He is playing football.\n✅ They are watching TV.\n\n📌 **Отрицание**:\n❌ I am not reading.\n❌ He isn't playing.\n❌ They aren't watching.\n\n📌 **Вопрос**:\n❓ Are you reading?\n❓ Is he playing?\n❓ Are they watching?\n\n🎯 **Мем**:\n'What are you doing right now?'\n'I'm reading this lesson. And I'm trying not to fall asleep!' 😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📖", "word": "read", "transcription": "/riːd/", "translation": "читать", "example": "I am reading a book right now.", "context_translation": "читать", "context_example": "Я сейчас читаю книгу."},
+                {"icon": "✍️", "word": "write", "transcription": "/raɪt/", "translation": "писать", "example": "She is writing a letter.", "context_translation": "писать", "context_example": "Она пишет письмо."},
+                {"icon": "📺", "word": "watch", "transcription": "/wɒtʃ/", "translation": "смотреть", "example": "I am watching a film.", "context_translation": "смотреть", "context_example": "Я смотрю фильм."},
+                {"icon": "🎮", "word": "play", "transcription": "/pleɪ/", "translation": "играть", "example": "He is playing computer games.", "context_translation": "играть", "context_example": "Он играет в компьютерные игры."},
+                {"icon": "💻", "word": "work", "transcription": "/wɜːk/", "translation": "работать", "example": "My dad is working on his laptop.", "context_translation": "работать", "context_example": "Мой папа работает за ноутбуком."},
+                {"icon": "🍳", "word": "cook", "transcription": "/kʊk/", "translation": "готовить", "example": "My mum is cooking dinner.", "context_translation": "готовить", "context_example": "Моя мама готовит ужин."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What are you doing right now? 🧐",
+                    "options": ["I read a book.", "I am reading a book.", "I reads a book.", "I reading a book."],
+                    "correct": "I am reading a book.",
+                    "accept": ["I am reading a book", "I'm reading a book"],
+                    "explanation": "Right now = Present Continuous: I am reading! 📖",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "He ___ (play) football now. ⚽",
+                    "correct": "is playing",
+                    "accept": ["is playing", "Is playing", "IS PLAYING"],
+                    "explanation": "He is playing — он играет прямо сейчас! ⚽",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I am work' is a correct Present Continuous sentence.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "I am WORKING! Нужно добавлять -ing! 💻",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They ___ (not / watch) TV right now. 📺",
+                    "correct": "aren't watching",
+                    "accept": ["aren't watching", "are not watching", "Aren't watching"],
+                    "explanation": "They are not watching — отрицание в Present Continuous! 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "She are cooking dinner.",
+                    "correct": "She is cooking dinner.",
+                    "accept": ["She is cooking dinner", "She's cooking dinner"],
+                    "explanation": "She — is, не are! 👩‍🍳",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — What is Everyone Doing?",
+            "description": "Читаем текст о том, что делают люди в данный момент",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди, кто что делает в данный момент.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на глаголы в Present Continuous (am/is/are + -ing)!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is Leo doing right now? 💻",
+                    "options": ["He is doing homework.", "He is playing games.", "He is watching TikTok.", "He is sleeping."],
+                    "correct": "He is doing homework.",
+                    "accept": ["He is doing homework", "He's doing homework"],
+                    "explanation": "Leo is doing his Maths homework. 'Why is life so unfair?' 😅",
+                    "readingText": "🌟 WHAT IS EVERYONE DOING RIGHT NOW? 🌟\n\nIt's 7 pm on a Tuesday evening. Everyone is busy! Let's see what the Johnson family and their friends are doing.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📺 MUM AND DAD\nMum is watching her favourite TV show. She is laughing at something funny. Dad is reading a newspaper on the sofa. He is looking very relaxed. 📰\n\n📚 LEO\nLeo is in his room. He is doing his Maths homework. 'Why is life so unfair?' he says. He is not having fun! 😅\n\n🎨 MIA\nMia is in her room too. She is drawing a picture of a cat. She is listening to music on her headphones. She is very focused! 🎧\n\n🎮 SAM\nSam is on the phone with his friend. They are playing video games together. He is shouting 'YES!' because he is winning! 🎮\n\n🍕 GRANDMA\nGrandma is in the kitchen. She is cooking pizza for everyone. It smells amazing! 🍕\n\n🐱 LUNA (the cat)\nLuna is sleeping on Leo's bed. She is dreaming about something. Probably about fish! 🐟\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🕒 8 PM — DINNER TIME!\n\nMum is calling everyone to the table. 'Dinner is ready!' she shouts.\n\nLeo is running to the kitchen. He is hungry!\n\nMia is putting her drawing away.\n\nSam is telling his friend he'll call back later.\n\nDad is closing his newspaper.\n\nEveryone is gathering around the table. Grandma is bringing the pizza. 🍕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 WHAT ABOUT YOU?\nWhat are you doing right now? Are you reading this lesson? 😄",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What is Mia doing? 🎨",
+                    "options": ["She is reading a book.", "She is drawing a picture.", "She is watching TV.", "She is sleeping."],
+                    "correct": "She is drawing a picture.",
+                    "accept": ["She is drawing a picture", "She's drawing a picture"],
+                    "explanation": "Mia is drawing a picture of a cat! 🎨",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Dad is cooking dinner.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Dad is reading a newspaper. Grandma is cooking! 🍕",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Sam is winning at his video game.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Sam is shouting 'YES!' because he is winning! 🎮",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Luna the cat is ___ on Leo's bed. 🐱",
+                    "correct": "sleeping",
+                    "accept": ["sleeping", "Sleeping", "SLEEPING"],
+                    "explanation": "Luna is sleeping on Leo's bed! 🐱💤",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Present Continuous Practice",
+            "description": "Тренируем Present Continuous в вопросах и ответах",
+            "grammar": {
+                "title": "Present Continuous — вопросы и ответы",
+                "rule": "📘 **Как задавать вопросы в Present Continuous**:\n\n❓ **Am** + I + глагол-ing?\n❓ **Is** + he/she/it + глагол-ing?\n❓ **Are** + you/we/they + глагол-ing?\n\n📝 **Краткие ответы**:\n✅ Yes, I am. / No, I'm not.\n✅ Yes, he is. / No, he isn't.\n✅ Yes, they are. / No, they aren't.\n\n🎯 **Примеры**:\n❓ Are you reading this?\n✅ Yes, I am!\n\n❓ Is your mum cooking dinner?\n✅ Yes, she is! (Or maybe ordering pizza? 🍕)",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "___ you doing your homework? 📚",
+                    "options": ["Is", "Am", "Are", "Do"],
+                    "correct": "Are",
+                    "accept": ["Are", "are", "ARE"],
+                    "explanation": "You — Are you doing? 📚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ she cooking dinner? 🍳 — Yes, she is.",
+                    "correct": "Is",
+                    "accept": ["Is", "is", "IS"],
+                    "explanation": "She — Is she cooking? 👩‍🍳",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'Are they playing football?' — 'Yes, they are.' is correct.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes, that's correct! ⚽",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ you watching TV right now? 📺 — No, I'm not.",
+                    "correct": "Are",
+                    "accept": ["Are", "are", "ARE"],
+                    "explanation": "You — Are you watching? 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Is she play video games?",
+                    "correct": "Is she playing video games?",
+                    "accept": ["Is she playing video games", "Is she playing video games?"],
+                    "explanation": "Нужно playING! Present Continuous! 🎮",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — What is Everyone Doing?",
+            "description": "Пишем текст о том, что делают люди в данный момент",
+            "grammar": {
+                "title": "Повторение: Present Continuous",
+                "rule": "📚 **План для письма**:\n\n1️⃣ Выбери момент времени (например, сейчас, в данный момент).\n2️⃣ Опиши, что делают разные люди.\n3️⃣ Используй Present Continuous (am/is/are + -ing).\n4️⃣ Добавь детали: где, когда, почему.\n\n🎯 **Пример**:\nIt's 8 pm. Mum is cooking dinner in the kitchen. Dad is reading a newspaper on the sofa. I am doing my homework in my room. My sister is playing with her toys. My dog is sleeping under the table.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "It's ___ pm. (напиши время)",
+                    "correct": "7",
+                    "accept": ["7", "eight", "8", "nine", "9", "ten", "10"],
+                    "explanation": "Напиши время, когда происходит действие! ⏰",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Mum ___ (cook) dinner in the kitchen. 🍳",
+                    "correct": "is cooking",
+                    "accept": ["is cooking", "Is cooking", "IS COOKING"],
+                    "explanation": "Mum is cooking — мама готовит прямо сейчас! 👩‍🍳",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Dad ___ (read) a newspaper. 📰",
+                    "correct": "is reading",
+                    "accept": ["is reading", "Is reading", "IS READING"],
+                    "explanation": "Dad is reading — папа читает! 📰",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (do) my homework in my room. 📚",
+                    "correct": "am doing",
+                    "accept": ["am doing", "Am doing", "AM DOING"],
+                    "explanation": "I am doing — я делаю! 📚",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "My sister ___ (play) with her toys. 🧸",
+                    "correct": "is playing",
+                    "accept": ["is playing", "Is playing", "IS PLAYING"],
+                    "explanation": "My sister is playing — сестра играет! 🧸",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

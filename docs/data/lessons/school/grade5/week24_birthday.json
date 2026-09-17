@@ -1,0 +1,404 @@
+{
+    "week_id": "week24_birthday",
+    "title": "🎂 Birthday Treats (дни рождения) & -ing/-ed adjectives",
+    "description": "Учимся говорить о днях рождения, предлагать идеи, заказывать еду и описывать эмоции. Мемы, TikTok и праздничное настроение! 🎉",
+    "level": "5 класс",
+    "icon": "🎂",
+    "order_num": 24,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Birthday Celebrations",
+            "description": "Как мы празднуем дни рождения? Учим слова и фразы",
+            "grammar": {
+                "title": "Birthday Celebrations — Vocabulary",
+                "rule": "📘 **Что мы делаем на дне рождения?**:\n\n🎁 **bring a gift** — приносить подарок\n🎂 **make a cake** — печь торт\n🎈 **decorate with balloons** — украшать шарами\n🍰 **eat cake** — есть торт\n🎮 **play party games** — играть в игры\n🎶 **sing songs** — петь песни\n💃 **dance** — танцевать\n\n📌 **Пример**:\nOn my birthday, my mum makes a cake.\nWe decorate the house with balloons.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎂", "word": "birthday", "transcription": "/ˈbɜːθdeɪ/", "translation": "день рождения", "example": "My birthday is in June.", "context_translation": "день рождения", "context_example": "Мой день рождения в июне."},
+                {"icon": "🎁", "word": "gift", "transcription": "/ɡɪft/", "translation": "подарок", "example": "I bring a gift to the party.", "context_translation": "подарок", "context_example": "Я приношу подарок на вечеринку."},
+                {"icon": "🎂", "word": "cake", "transcription": "/keɪk/", "translation": "торт", "example": "We eat cake at the party.", "context_translation": "торт", "context_example": "Мы едим торт на вечеринке."},
+                {"icon": "🎈", "word": "balloon", "transcription": "/bəˈluːn/", "translation": "воздушный шар", "example": "We decorate with balloons.", "context_translation": "воздушный шар", "context_example": "Мы украшаем шарами."},
+                {"icon": "🎮", "word": "game", "transcription": "/ɡeɪm/", "translation": "игра", "example": "We play games at the party.", "context_translation": "игра", "context_example": "Мы играем в игры на вечеринке."},
+                {"icon": "🍰", "word": "crisps", "transcription": "/krɪsps/", "translation": "чипсы", "example": "We have crisps at the party.", "context_translation": "чипсы", "context_example": "У нас есть чипсы на вечеринке."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do we eat on birthdays? 🎂",
+                    "options": ["Pizza", "Cake", "Crisps", "All of the above"],
+                    "correct": "All of the above",
+                    "accept": ["All of the above", "all of the above", "ALL OF THE ABOVE"],
+                    "explanation": "We eat cake, pizza and crisps on birthdays! 🎂🍕",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "We decorate the house with ___ . 🎈",
+                    "correct": "balloons",
+                    "accept": ["balloons", "Balloons", "BALLOONS"],
+                    "explanation": "Balloons — воздушные шары! 🎈",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "We sing songs on birthdays. 🎶",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! We sing 'Happy Birthday' on birthdays! 🎶",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "My mum ___ a cake for my birthday. (make / makes)",
+                    "correct": "makes",
+                    "accept": ["makes", "Makes", "MAKES"],
+                    "explanation": "Mum — she → makes! 🎂",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "We ___ party games on my birthday. (play / plays)",
+                    "correct": "play",
+                    "accept": ["play", "Play", "PLAY"],
+                    "explanation": "We — plural → play! 🎮",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Birthday Traditions Around the World",
+            "description": "Как празднуют дни рождения в разных странах",
+            "grammar": {
+                "title": "Birthday Traditions — Vocabulary",
+                "rule": "📘 **Традиции дня рождения в мире**:\n\n🇬🇧 **Britain**: cake, gifts, party games, balloons\n🇨🇳 **China**: long noodles (long life), red eggs (good luck), red envelopes with money\n🇲🇽 **Mexico**: piñata, music, dancing\n🇷🇺 **Russia**: cake, gifts, dancing, singing\n\n📌 **Пример**:\nIn Britain, children play games at their birthday parties.\nIn China, people eat long noodles for good luck.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🇬🇧", "word": "tradition", "transcription": "/trəˈdɪʃn/", "translation": "традиция", "example": "It's a tradition to eat cake.", "context_translation": "традиция", "context_example": "Это традиция — есть торт."},
+                {"icon": "🇨🇳", "word": "noodles", "transcription": "/ˈnuːdlz/", "translation": "лапша", "example": "In China, they eat noodles.", "context_translation": "лапша", "context_example": "В Китае едят лапшу."},
+                {"icon": "🇨🇳", "word": "luck", "transcription": "/lʌk/", "translation": "удача", "example": "Red brings good luck.", "context_translation": "удача", "context_example": "Красный приносит удачу."},
+                {"icon": "🇨🇳", "word": "envelope", "transcription": "/ˈenvələʊp/", "translation": "конверт", "example": "Children get money in envelopes.", "context_translation": "конверт", "context_example": "Дети получают деньги в конвертах."},
+                {"icon": "🇲🇽", "word": "piñata", "transcription": "/pɪnˈjɑːtə/", "translation": "пиньята", "example": "In Mexico, they have a piñata.", "context_translation": "пиньята", "context_example": "В Мексике есть пиньята."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do people eat in China on birthdays? 🇨🇳",
+                    "options": ["Cake", "Noodles", "Pizza", "Crisps"],
+                    "correct": "Noodles",
+                    "accept": ["Noodles", "noodles", "NOODLES"],
+                    "explanation": "In China, people eat long noodles for a long life! 🍜",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Red brings good ___ . (luck / unlucky)",
+                    "correct": "luck",
+                    "accept": ["luck", "Luck", "LUCK"],
+                    "explanation": "Red brings good luck! 🍀",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "In Britain, children get money in envelopes.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "In CHINA children get money in envelopes, not Britain! 🇨🇳",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "In Mexico, they have a ___ . 🪅",
+                    "correct": "piñata",
+                    "accept": ["piñata", "pinata", "Piñata"],
+                    "explanation": "In Mexico, they have a piñata! 🪅",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "It's a ___ to eat cake on birthdays. (tradition / traditions)",
+                    "correct": "tradition",
+                    "accept": ["tradition", "Tradition", "TRADITION"],
+                    "explanation": "Tradition — традиция! 🎂",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+    "day": 3,
+    "title": "Day 3: Making Suggestions",
+    "description": "Как предлагать идеи для вечеринки",
+    "grammar": {
+        "title": "Making Suggestions — как предлагать идеи",
+        "rule": "📘 **Как предлагать идеи на английском**:\n\n📌 **Способы сделать предложение**:\n✅ Would you like to (have) ...? — Ты бы хотел(а) ...?\n✅ What/How about (having) ...? — Как насчёт ...?\n✅ Shall we (have) ...? — Давай ...?\n✅ Let's (have) ...! — Давай ...!\n✅ Why don't we (have) ...? — Почему бы нам не ...?\n\n📌 **Как согласиться**:\n✅ That would be nice! — Это было бы здорово!\n✅ That's a great idea! — Это отличная идея!\n✅ I'd love to. — Я бы с удовольствием.\n✅ That sounds great! — Звучит здорово!\n✅ Good idea! — Хорошая идея!\n\n📌 **Как отказаться**:\n❌ I don't like ... — Мне не нравится ...\n❌ I hate ... — Я ненавижу ...\n❌ I don't think so. — Я так не думаю.\n❌ I'd rather not. — Я бы предпочёл не делать этого.\n❌ Sorry, I'm busy. — Извини, я занят(а).\n\n📌 **Примеры диалогов**:\n\n🎉 **Предложение 1**:\nA: Shall we have some chocolate biscuits? — Давай возьмём печенье?\nB: Yes, that's a great idea! — Да, отличная идея!\n\n🎉 **Предложение 2**:\nA: How about having a party on Saturday? — Как насчёт вечеринки в субботу?\nB: That sounds great! — Звучит здорово!\n\n🎉 **Предложение 3**:\nA: Would you like to go to the cinema? — Ты бы хотел(а) пойти в кино?\nB: I'd love to! — Я бы с удовольствием!\n\n🎉 **Предложение 4** (отказ):\nA: Let's order pizza! — Давай закажем пиццу!\nB: I don't like pizza. How about burgers? — Я не люблю пиццу. Как насчёт бургеров?\nA: OK, let's have burgers! — Хорошо, давай бургеры!",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "🍪", "word": "biscuits", "transcription": "/ˈbɪskɪts/", "translation": "печенье", "example": "Shall we have some biscuits?", "context_translation": "печенье", "context_example": "Давай возьмём печенье?"},
+        {"icon": "🍕", "word": "sandwiches", "transcription": "/ˈsænwɪtʃɪz/", "translation": "бутерброды", "example": "How about sandwiches?", "context_translation": "бутерброды", "context_example": "Как насчёт бутербродов?"},
+        {"icon": "🍫", "word": "chocolate", "transcription": "/ˈtʃɒklət/", "translation": "шоколад", "example": "I love chocolate!", "context_translation": "шоколад", "context_example": "Я люблю шоколад!"},
+        {"icon": "🍦", "word": "ice cream", "transcription": "/ˌaɪs ˈkriːm/", "translation": "мороженое", "example": "Would you like ice cream?", "context_translation": "мороженое", "context_example": "Хочешь мороженое?"},
+        {"icon": "🎈", "word": "party", "transcription": "/ˈpɑːti/", "translation": "вечеринка", "example": "Let's have a party!", "context_translation": "вечеринка", "context_example": "Давай устроим вечеринку!"},
+        {"icon": "🍕", "word": "pizza", "transcription": "/ˈpiːtsə/", "translation": "пицца", "example": "Let's order pizza!", "context_translation": "пицца", "context_example": "Давай закажем пиццу!"},
+        {"icon": "🍔", "word": "burgers", "transcription": "/ˈbɜːɡəz/", "translation": "бургеры", "example": "How about burgers?", "context_translation": "бургеры", "context_example": "Как насчёт бургеров?"}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "Как предложить пойти в кино? 🎬",
+            "options": ["I don't like cinema.", "Shall we go to the cinema?", "I hate cinema.", "No, thanks."],
+            "correct": "Shall we go to the cinema?",
+            "accept": ["Shall we go to the cinema", "Shall we go to the cinema?"],
+            "explanation": "Shall we go to the cinema? — Давай сходим в кино? 🎬",
+            "topic": "phrases"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "Как согласиться на предложение? ✅",
+            "options": ["I don't think so.", "That sounds great!", "I don't like it.", "I hate it."],
+            "correct": "That sounds great!",
+            "accept": ["That sounds great", "That sounds great!"],
+            "explanation": "That sounds great! — Звучит здорово! ✅",
+            "topic": "phrases"
+        },
+        {
+            "id": 3,
+            "type": "multiple_choice",
+            "question": "Как отказаться от предложения? ❌",
+            "options": ["Good idea!", "I'd love to.", "I don't think so.", "That sounds great!"],
+            "correct": "I don't think so.",
+            "accept": ["I don't think so", "I don't think so."],
+            "explanation": "I don't think so. — Я так не думаю. ❌",
+            "topic": "phrases"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "___ we have some pizza? 🍕 — Yes, that's a great idea!",
+            "correct": "Shall",
+            "accept": ["Shall", "shall", "SHALL"],
+            "explanation": "Shall we — давай! 🍕",
+            "topic": "phrases"
+        },
+        {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "A: Let's have ice cream! 🍦\nB: I'd ___ to! (love / hate)",
+            "correct": "love",
+            "accept": ["love", "Love", "LOVE"],
+            "explanation": "I'd love to = я бы хотел! 🍦",
+            "topic": "phrases"
+        }
+    ]
+},
+        {
+            "day": 4,
+            "title": "Day 4: Grammar — -ing and -ed Adjectives",
+            "description": "Учим прилагательные на -ing и -ed",
+            "grammar": {
+                "title": "-ing and -ed Adjectives",
+                "rule": "📘 **Прилагательные на -ing и -ed**:\n\n📌 **-ing** — описывает то, что ВЫЗЫВАЕТ чувство:\n✅ This film is **boring**. (Этот фильм скучный.)\n✅ The party is **exciting**. (Вечеринка захватывающая.)\n✅ The game is **interesting**. (Игра интересная.)\n\n📌 **-ed** — описывает чувство, которое мы ИСПЫТЫВАЕМ:\n✅ I am **bored**. (Мне скучно.)\n✅ I am **excited**. (Я взволнован.)\n✅ I am **interested**. (Мне интересно.)\n\n📌 **Пример**:\nThe film is boring. I am bored.\nThe party is exciting. I am excited.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "😊", "word": "excited", "transcription": "/ɪkˈsaɪtɪd/", "translation": "взволнованный, взбудораженный", "example": "I am excited about my birthday!", "context_translation": "взволнованный", "context_example": "Я взволнован в ожидании дня рождения!"},
+                {"icon": "😴", "word": "bored", "transcription": "/bɔːd/", "translation": "скучающий, уставший", "example": "I am bored at the party.", "context_translation": "скучающий", "context_example": "Мне скучно на вечеринке."},
+                {"icon": "😍", "word": "interested", "transcription": "/ˈɪntrəstɪd/", "translation": "заинтересованный", "example": "I am interested in games.", "context_translation": "заинтересованный", "context_example": "Мне интересны игры."},
+                {"icon": "😬", "word": "scared", "transcription": "/skeəd/", "translation": "испуганный", "example": "I am scared of horror films.", "context_translation": "испуганный", "context_example": "Я боюсь фильмов ужасов."},
+                {"icon": "😎", "word": "surprised", "transcription": "/səˈpraɪzd/", "translation": "удивлённый", "example": "I am surprised by the gift!", "context_translation": "удивлённый", "context_example": "Я удивлён подарком!"}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The film is ___. I feel ___. 🎬",
+                    "options": ["boring / bored", "bored / boring", "boring / boring", "bored / bored"],
+                    "correct": "boring / bored",
+                    "accept": ["boring / bored", "boring bored"],
+                    "explanation": "The film is boring (скучный фильм). I am bored (мне скучно). 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I am ___ about my birthday! 🎂 (excited / exciting)",
+                    "correct": "excited",
+                    "accept": ["excited", "Excited", "EXCITED"],
+                    "explanation": "I am excited — я взволнован! 🎂",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "I am boring' means the same as 'I am bored'.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "I am boring = я скучный человек. I am bored = мне скучно. Это разные вещи! 😅",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The game is ___. I am ___. 🎮",
+                    "correct": "interesting, interested",
+                    "accept": ["interesting, interested", "interesting interested"],
+                    "explanation": "The game is interesting (интересная игра). I am interested (мне интересно). 🎮",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I am exciting about the party.",
+                    "correct": "I am excited about the party.",
+                    "accept": ["I am excited about the party", "I am excited about the party."],
+                    "explanation": "I am excited — я взволнован (чувство)! 🎉",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Word Formation — un-",
+            "description": "Учим приставку un- для образования отрицательных слов",
+            "grammar": {
+                "title": "Word Formation: un-",
+                "rule": "📘 **Приставка un-** образует слова с противоположным значением:\n\n📌 **Прилагательные**:\n✅ happy → **unhappy** (несчастливый)\n✅ lucky → **unlucky** (неудачливый)\n✅ kind → **unkind** (недобрый)\n✅ friendly → **unfriendly** (недружелюбный)\n\n📌 **Наречия**:\n✅ usually → **unusually** (необычно)\n✅ easily → **uneasily** (беспокойно)\n\n📌 **Существительные**:\n✅ safety → **unsafety** (опасность)\n\n📌 **Пример**:\nIt's unlucky to cut noodles in China.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "😞", "word": "unhappy", "transcription": "/ʌnˈhæpi/", "translation": "несчастливый", "example": "I feel unhappy when it rains.", "context_translation": "несчастливый", "context_example": "Я чувствую себя несчастливым, когда идёт дождь."},
+                {"icon": "🍀", "word": "unlucky", "transcription": "/ʌnˈlʌki/", "translation": "неудачливый", "example": "It's unlucky to cut noodles.", "context_translation": "неудачливый", "context_example": "Резать лапшу — к неудаче."},
+                {"icon": "😠", "word": "unkind", "transcription": "/ʌnˈkaɪnd/", "translation": "недобрый", "example": "Don't be unkind!", "context_translation": "недобрый", "context_example": "Не будь недобрым!"},
+                {"icon": "🙃", "word": "unfriendly", "transcription": "/ʌnˈfrendli/", "translation": "недружелюбный", "example": "She is unfriendly to new students.", "context_translation": "недружелюбный", "context_example": "Она недружелюбна к новым ученикам."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What does 'unhappy' mean? 😞",
+                    "options": ["Happy", "Not happy", "Very happy", "A little happy"],
+                    "correct": "Not happy",
+                    "accept": ["Not happy", "not happy", "NOT HAPPY"],
+                    "explanation": "Unhappy = not happy! 😞",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's ___ to cut noodles in China. 🍜 (lucky / unlucky)",
+                    "correct": "unlucky",
+                    "accept": ["unlucky", "Unlucky", "UNLUCKY"],
+                    "explanation": "It's unlucky to cut noodles in China! 🍜",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Unkind means not kind.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Unkind = not kind! 😠",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Be friendly, not ___ . (friendly / unfriendly)",
+                    "correct": "unfriendly",
+                    "accept": ["unfriendly", "Unfriendly", "UNFRIENDLY"],
+                    "explanation": "Be friendly, not unfriendly! 🙃",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "She is unkind to her friends. She helps them.",
+                    "correct": "She is kind to her friends. She helps them.",
+                    "accept": ["She is kind to her friends. She helps them.", "She is kind to her friends"],
+                    "explanation": "If she helps them, she is kind, not unkind! 😊",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Ordering Food and Writing",
+            "description": "Учимся заказывать еду в кафе и пишем о дне рождения",
+            "grammar": {
+                "title": "Ordering Food + Pronunciation",
+                "rule": "📘 **Как заказывать еду**:\n\n**Cashier (продавец)**:\n✅ Can I take your order? — Могу я принять заказ?\n✅ Would you like anything to drink with that? — Хотите что-нибудь выпить?\n✅ Is that eat in or takeaway? — Вы будете есть здесь или с собой?\n✅ Enjoy your meal! — Приятного аппетита!\n\n**Customer (покупатель)**:\n✅ I'd like a cheeseburger, please. — Я бы хотел чизбургер.\n✅ An orange juice, please. — Апельсиновый сок, пожалуйста.\n✅ Take away, please. — С собой, пожалуйста.\n✅ Here you are. — Вот, пожалуйста.\n\n🔊 **Произношение /g/ и /dʒ/**:\n\n/g/ — звук как в слове **glue** (клей):\n✅ glue, garlic, glass, green, great\n\n/dʒ/ — звук как в слове **orange** (апельсин):\n✅ orange, large, giraffe, magic, giant",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍔", "word": "cheeseburger", "transcription": "/ˈtʃiːzbɜːɡər/", "translation": "чизбургер", "example": "I'd like a cheeseburger.", "context_translation": "чизбургер", "context_example": "Я бы хотел чизбургер."},
+                {"icon": "🥤", "word": "drink", "transcription": "/drɪŋk/", "translation": "напиток", "example": "Would you like a drink?", "context_translation": "напиток", "context_example": "Хотите напиток?"},
+                {"icon": "🍟", "word": "chips", "transcription": "/tʃɪps/", "translation": "картофель фри", "example": "I'd like some chips.", "context_translation": "картофель фри", "context_example": "Я бы хотел картофель фри."},
+                {"icon": "🍔", "word": "burger", "transcription": "/ˈbɜːɡər/", "translation": "бургер", "example": "I want a burger.", "context_translation": "бургер", "context_example": "Я хочу бургер."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What does the cashier say? 🍔",
+                    "options": ["I'd like a burger.", "Can I take your order?", "Take away, please.", "Here you are."],
+                    "correct": "Can I take your order?",
+                    "accept": ["Can I take your order", "Can I take your order?"],
+                    "explanation": "The cashier says: Can I take your order? 🍔",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I'd ___ a cheeseburger. (like / love)",
+                    "correct": "like",
+                    "accept": ["like", "Like", "LIKE"],
+                    "explanation": "I'd like — я бы хотел! 🍔",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'Eat in' means you eat at the restaurant.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Eat in — есть в кафе! 🍽️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Would you like anything to ___ ? (drink / eat)",
+                    "correct": "drink",
+                    "accept": ["drink", "Drink", "DRINK"],
+                    "explanation": "Anything to drink? — Что-нибудь выпить? 🥤",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "A: Is that eat in or takeaway?\nB: ___ , please. (Take away / Eat in)",
+                    "correct": "Take away",
+                    "accept": ["Take away", "take away", "TAKE AWAY"],
+                    "explanation": "Take away — с собой! 🍔",
+                    "topic": "phrases"
+                }
+            ]
+        }
+    ]
+}

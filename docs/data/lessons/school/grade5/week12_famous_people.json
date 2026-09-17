@@ -1,0 +1,394 @@
+{
+    "week_id": "week4c_famous_people",
+    "title": "🎤 Famous People (известные люди) & can / can't (способности)",
+    "description": "Учимся рассказывать о знаменитостях, их способностях, талантах и увлечениях. Мемы, факты и немного магии! 🎸✨",
+    "level": "5 класс",
+    "icon": "🎤",
+    "order_num": 12,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Famous People & Professions",
+            "description": "Кто такие знаменитости? Учим профессии и способности",
+            "grammar": {
+                "title": "can / can't (способности)",
+                "rule": "📘 **I can** = я умею / могу\n🎯 **He/She can** = он/она умеет\n🚫 **I can't** = я не умею\n\n📝 **Формула**:\n✅ I/You/He/She/It/We/They + can + глагол\n\n✅ I can play the guitar.\n✅ She can sing very well.\n🚫 He can't draw, but he can dance!\n❓ Can you swim? — Yes, I can. / No, I can't.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎤", "word": "singer", "transcription": "/ˈsɪŋər/", "translation": "певец/певица", "example": "Billie Eilish is a famous singer.", "context_translation": "певец/певица", "context_example": "Билли Айлиш — известная певица."},
+                {"icon": "🎬", "word": "actor", "transcription": "/ˈæktər/", "translation": "актёр", "example": "Tom Holland is an actor. He plays Spider-Man!", "context_translation": "актёр", "context_example": "Том Холланд — актёр. Он играет Человека-паука!"},
+                {"icon": "⚽", "word": "athlete", "transcription": "/ˈæθliːt/", "translation": "спортсмен", "example": "Khabib is a famous athlete.", "context_translation": "спортсмен", "context_example": "Хабиб — известный спортсмен."},
+                {"icon": "📝", "word": "writer", "transcription": "/ˈraɪtər/", "translation": "писатель", "example": "J.K. Rowling is a writer. She wrote Harry Potter.", "context_translation": "писатель", "context_example": "Дж.К. Роулинг — писательница. Она написала Гарри Поттера."},
+                {"icon": "🎨", "word": "artist", "transcription": "/ˈɑːrtɪst/", "translation": "художник", "example": "An artist can paint beautiful pictures.", "context_translation": "художник", "context_example": "Художник может рисовать красивые картины."},
+                {"icon": "🎹", "word": "musician", "transcription": "/mjuːˈzɪʃn/", "translation": "музыкант", "example": "Finneas is a musician and producer.", "context_translation": "музыкант", "context_example": "Финнеас — музыкант и продюсер."},
+                {"icon": "💃", "word": "dancer", "transcription": "/ˈdænsər/", "translation": "танцор", "example": "A dancer can move really fast!", "context_translation": "танцор", "context_example": "Танцор может двигаться очень быстро!"},
+                {"icon": "📱", "word": "streamer", "transcription": "/ˈstriːmər/", "translation": "стример", "example": "My favourite streamer plays Minecraft.", "context_translation": "стример", "context_example": "Мой любимый стример играет в Minecraft."},
+                {"icon": "📹", "word": "YouTuber", "transcription": "/ˈjuːtjuːbər/", "translation": "ютубер", "example": "MrBeast is a famous YouTuber.", "context_translation": "ютубер", "context_example": "Мистер Бист — известный ютубер."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Who can sing very well? 🎤",
+                    "options": ["Messi", "Billie Eilish", "Tom Holland", "Khabib"],
+                    "correct": "Billie Eilish",
+                    "accept": ["Billie Eilish", "billie eilish", "Billie", "billie"],
+                    "explanation": "Billie Eilish — певица, она отлично поёт! Её хит \"Bad Guy\" знают во всём мире 🎵",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Messi ___ play football. He's the GOAT! 🐐",
+                    "correct": "can",
+                    "accept": ["can", "CAN", "Can"],
+                    "explanation": "GOAT = Greatest Of All Time — лучший в истории! Месси умеет играть в футбол, поэтому can ⚽",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A writer can draw pictures like an artist.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Писатель пишет книги, а художник рисует. Это разные профессии! Хотя бывают писатели, которые ещё и рисуют ✍️🎨",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "My favourite ___ is MrBeast. He can give away millions of dollars! 🤑",
+                    "correct": "YouTuber",
+                    "accept": ["YouTuber", "youtuber", "YOUTUBER", "youtube blogger", "blogger"],
+                    "explanation": "MrBeast — самый известный ютубер, который раздаёт деньги и устраивает безумные челленджи! 📹",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I ___ play the piano, but I want to learn! 🎹",
+                    "correct": "can't",
+                    "accept": ["can't", "cannot", "can not", "Can't", "CANT"],
+                    "explanation": "Если ты пока не умеешь, но хочешь научиться — используй can't. Никогда не поздно начать! 💪",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Hobbies & Talents",
+            "description": "Что умеют делать знаменитости в свободное время?",
+            "grammar": {
+                "title": "Вопросы с Can",
+                "rule": "❓ **Как задать вопрос?**\nCan + I/you/he/she/it/we/they + глагол?\n\n📝 **Примеры**:\n❓ Can you play the guitar?\n✅ Yes, I can.\n❌ No, I can't.\n\n❓ Can she dance?\n✅ Yes, she can. She's a pro!\n❌ No, she can't. But she can sing!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎨", "word": "painting", "transcription": "/ˈpeɪntɪŋ/", "translation": "рисование", "example": "She is painting a portrait of her cat.", "context_translation": "рисование", "context_example": "Она рисует портрет своего кота."},
+                {"icon": "💃", "word": "dancing", "transcription": "/ˈdænsɪŋ/", "translation": "танцы", "example": "Dancing is fun, especially on TikTok!", "context_translation": "танцы", "context_example": "Танцы — это весело, особенно в TikTok!"},
+                {"icon": "🎸", "word": "playing the guitar", "transcription": "/ˈpleɪɪŋ ðə ɡɪˈtɑːr/", "translation": "игра на гитаре", "example": "He is playing the guitar like a rock star!", "context_translation": "игра на гитаре", "context_example": "Он играет на гитаре как рок-звезда!"},
+                {"icon": "🎤", "word": "singing", "transcription": "/ˈsɪŋɪŋ/", "translation": "пение", "example": "Singing in the shower is the best!", "context_translation": "пение", "context_example": "Пение в душе — это лучшее!"},
+                {"icon": "🍕", "word": "cooking", "transcription": "/ˈkʊkɪŋ/", "translation": "готовка", "example": "My mom can cook amazing pizza.", "context_translation": "готовка", "context_example": "Моя мама умеет готовить потрясающую пиццу."},
+                {"icon": "📚", "word": "reading", "transcription": "/ˈriːdɪŋ/", "translation": "чтение", "example": "Reading manga is popular among teens.", "context_translation": "чтение", "context_example": "Чтение манги популярно среди подростков."},
+                {"icon": "🎮", "word": "playing video games", "transcription": "/ˈpleɪɪŋ ˈvɪdiəʊ ɡeɪmz/", "translation": "игры на компьютере/приставке", "example": "I can play Brawl Stars all day!", "context_translation": "игры на компьютере", "context_example": "Я могу играть в Brawl Stars весь день!"},
+                {"icon": "📱", "word": "making TikTok videos", "transcription": "/ˈmeɪkɪŋ ˈtɪktɒk ˈvɪdiəʊz/", "translation": "съёмка тиктоков", "example": "She can make TikTok videos with cool effects.", "context_translation": "съёмка тиктоков", "context_example": "Она умеет снимать тиктоки с крутыми эффектами."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Can you ___ the guitar? — Yes, I can. I'm learning \"Smoke on the Water\"! 🎸",
+                    "correct": "play",
+                    "accept": ["play", "Play", "PLAY"],
+                    "explanation": "После can всегда идёт глагол без частицы to. Play the guitar — играть на гитаре. Smoke on the Water — легендарный рифф Deep Purple! 🤘",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "correct_mistake",
+                    "question": "She can dances very well.",
+                    "correct": "She can dance very well.",
+                    "accept": ["She can dance very well", "she can dance very well", "She can dance very well."],
+                    "explanation": "После can мы НЕ добавляем -s к глаголу. Правильно: can dance, НЕ can dances 🩰",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "A: Can you make TikTok videos? 📱\nB: No, I ___. But my sister can!",
+                    "correct": "can't",
+                    "accept": ["can't", "cannot", "can not", "Can't", "CANT"],
+                    "explanation": "Краткий отрицательный ответ на вопрос Can you... — No, I can't 🙅",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "multiple_choice",
+                    "question": "What can a streamer do? 🎮",
+                    "options": ["bake bread", "play games and talk to viewers", "fly a plane", "perform surgery"],
+                    "correct": "play games and talk to viewers",
+                    "accept": ["play games and talk to viewers", "play games and talk to viewers"],
+                    "explanation": "Стример играет в игры и общается со зрителями в прямом эфире. Некоторые стримеры собирают миллионы зрителей! 📺",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "___ your best friend play Roblox? — Yes, he ___ . We play every day!",
+                    "correct": "Can, can",
+                    "accept": ["Can, can", "can, can", "CAN, CAN"],
+                    "explanation": "Вопрос: Can your best friend...? Ответ: Yes, he can. Roblox — одна из самых популярных игр среди подростков 🎮",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: All About Famous People",
+            "description": "Учимся рассказывать о знаменитостях: имя, день рождения, откуда они, семья",
+            "grammar": {
+                "title": "have got / has got для описания семьи",
+                "rule": "📘 **have got / has got** = иметь, у меня есть\n\n📝 **Формула**:\n✅ I/You/We/They have got = I've got\n✅ He/She/It has got = He's got\n🚫 I haven't got / He hasn't got\n\n✅ Khabib has got a wife and children.\n✅ Billie Eilish has got one brother.\n🚫 Tom Holland hasn't got a twin brother.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📋", "word": "full name", "transcription": "/fʊl neɪm/", "translation": "полное имя", "example": "Billie Eilish's full name is Billie Eilish Pirate Baird O'Connell.", "context_translation": "полное имя", "context_example": "Полное имя Билли Айлиш — Билли Айлиш Пайрет Бэрд О'Коннелл."},
+                {"icon": "🎂", "word": "date of birth", "transcription": "/deɪt əv bɜːθ/", "translation": "дата рождения", "example": "My date of birth is 15th June.", "context_translation": "дата рождения", "context_example": "Моя дата рождения — 15 июня."},
+                {"icon": "🌍", "word": "country", "transcription": "/ˈkʌntri/", "translation": "страна", "example": "Khabib is from Russia.", "context_translation": "страна", "context_example": "Хабиб из России."},
+                {"icon": "👨‍👩‍👧‍👦", "word": "family", "transcription": "/ˈfæməli/", "translation": "семья", "example": "My family is big and loud!", "context_translation": "семья", "context_example": "Моя семья большая и шумная!"},
+                {"icon": "👦", "word": "brother", "transcription": "/ˈbrʌðər/", "translation": "брат", "example": "She has got one brother.", "context_translation": "брат", "context_example": "У неё есть один брат."},
+                {"icon": "👧", "word": "sister", "transcription": "/ˈsɪstər/", "translation": "сестра", "example": "He hasn't got any sisters.", "context_translation": "сестра", "context_example": "У него нет сестёр."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Billie Eilish ___ got one brother. His name is Finneas. 🎹",
+                    "correct": "has",
+                    "accept": ["has", "Has", "HAS", "'s got"],
+                    "explanation": "Billie Eilish — она, поэтому has got. Finneas — её брат и музыкальный продюсер. Вместе они пишут хиты! 🎵",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Khabib Nurmagomedov ___ from Dagestan, Russia. He ___ got a wife and children. 🦅",
+                    "correct": "is, has",
+                    "accept": ["is, has", "Is, Has", "IS, HAS"],
+                    "explanation": "Khabib — один из лучших бойцов MMA в истории. Он непобеждённый чемпион UFC! 🏆",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Tom Holland has got a twin brother.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "У Тома Холланда есть братья, но они не близнецы. Зато он отлично играет Человека-паука! 🕷️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "correct_mistake",
+                    "question": "She have got three sisters.",
+                    "correct": "She has got three sisters.",
+                    "accept": ["She has got three sisters", "She has got three sisters.", "she has got three sisters"],
+                    "explanation": "После She/He/It мы используем has got, НЕ have got 👧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "___ Tom Cruise ___ any children? — Yes, he ___ . He has got three.",
+                    "correct": "Has, got, has",
+                    "accept": ["Has, got, has", "Has, got, has", "has, got, has"],
+                    "explanation": "Вопрос: Has + подлежащее + got? Ответ: Yes, he has. Том Круз — известный актёр, и у него трое детей 🎬",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+    "day": 4,
+    "title": "Day 4: Reading — Meet MrBeast!",
+    "description": "Читаем текст о самом щедром ютубере в мире и отвечаем на вопросы",
+    "grammar": {
+        "title": "Чтение и понимание текста",
+        "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди ключевые слова (имя, страна, семья, хобби).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Не переводи каждое слово — старайся понять из контекста!",
+        "examples": []
+    },
+    "vocabulary": [],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "reading",
+            "question": "What is the name of the YouTuber in the text?",
+            "options": ["PewDiePie", "MrBeast", "KSI", "Dima Maslennikov"],
+            "correct": "MrBeast",
+            "accept": ["MrBeast", "Mr beast", "mrbeast", "Jimmy Donaldson", "jimmy donaldson"],
+            "explanation": "MrBeast (Jimmy Donaldson) — the most generous YouTuber with over 200 million subscribers! 🎥",
+            "readingText": "🌟 Meet MrBeast — The Most Generous YouTuber! 🌟\n\nMrBeast is a famous American YouTuber. His real name is Jimmy Donaldson. He was born on 7th May 1998 in Kansas, USA.\n\nHis YouTube channel has over 200 million subscribers! He makes crazy challenges, gives away millions of dollars, and plants millions of trees. His favourite hobby is playing video games and making videos with his friends.\n\nMrBeast hasn't got any brothers or sisters, but he has got a pet dog named Carl! 🐶\n\nHis fans love him because he is kind, funny, and generous. Can you make cool videos too? Maybe one day you'll be a famous blogger like MrBeast!",
+            "topic": "reading"
+        },
+        {
+            "id": 2,
+            "type": "true_false",
+            "question": "MrBeast was born in Russia.",
+            "correct": "False",
+            "accept": ["False", "false", "FALSE", "No", "no"],
+            "explanation": "MrBeast is from the USA, not Russia. He was born in Kansas! 🇺🇸",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 3,
+            "type": "true_false",
+            "question": "MrBeast has got a pet dog named Carl.",
+            "correct": "True",
+            "accept": ["True", "true", "TRUE", "Yes", "yes"],
+            "explanation": "Yes, MrBeast has a dog named Carl. He often appears in his videos! 🐶",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "MrBeast's real name is ___ Donaldson.",
+            "correct": "Jimmy",
+            "accept": ["Jimmy", "jimmy", "JIMMY"],
+            "explanation": "MrBeast's real name is Jimmy Donaldson. Jimmy is the first name!",
+            "readingText": "",
+            "topic": "reading"
+        },
+        {
+            "id": 5,
+            "type": "fill_blank",
+            "question": "MrBeast ___ got any brothers or sisters.",
+            "correct": "hasn't",
+            "accept": ["hasn't", "has not", "hasn't got", "doesn't have"],
+            "explanation": "MrBeast is an only child — he hasn't got any brothers or sisters!",
+            "readingText": "",
+            "topic": "reading"
+        }
+    ]
+},
+        {
+            "day": 5,
+            "title": "Day 5: Questions with Can & Short Answers",
+            "description": "Учимся задавать вопросы с can и отвечать кратко",
+            "grammar": {
+                "title": "Вопросы с can и краткие ответы",
+                "rule": "❓ **Как задать вопрос?**\nCan + I/you/he/she/it/we/they + глагол?\n\n📝 **Краткие ответы**:\n✅ Yes, I/you/he/she/it/we/they can.\n❌ No, I/you/he/she/it/we/they can't.\n\n❓ Can you swim? → ✅ Yes, I can.\n❓ Can he play the piano? → ❌ No, he can't.\n❓ Can they speak French? → ✅ Yes, they can.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Can your dad cook pizza? 🍕 — No, he ___ . But he can order it!",
+                    "correct": "can't",
+                    "accept": ["can't", "cannot", "can not", "Can't", "CANT"],
+                    "explanation": "Если папа не умеет готовить пиццу, но может заказать — это уже победа! 😄🍕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Can they speak French? — ___ . They live in Paris, France. 🇫🇷",
+                    "options": ["Yes, they can", "No, they can't", "Yes, they do", "No, they don't"],
+                    "correct": "Yes, they can",
+                    "accept": ["Yes, they can", "yes they can", "Yes they can"],
+                    "explanation": "Если они живут в Париже, то скорее всего говорят по-французски. Поэтому Yes, they can! 🇫🇷🥖",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "correct_mistake",
+                    "question": "Can she sings opera? — Yes, she cans.",
+                    "correct": "Can she sing opera? — Yes, she can.",
+                    "accept": ["Can she sing opera? — Yes, she can", "can she sing opera? — yes, she can"],
+                    "explanation": "После can глагол без -s. И в кратком ответе тоже can, НЕ cans. Opera — опера, это очень сложно петь! 🎭",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ you play Minecraft? 🎮 — Yes, I ___ . My favourite server is Hypixel!",
+                    "correct": "Can, can",
+                    "accept": ["Can, can", "can, can", "CAN, CAN"],
+                    "explanation": "Hypixel — один из самых популярных серверов в Minecraft. Там миллионы игроков со всего мира! 🌍",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Can your best friend ___ a bike? — No, he can't. But he can skateboard! 🛹",
+                    "correct": "ride",
+                    "accept": ["ride", "Ride", "RIDE"],
+                    "explanation": "ride a bike — кататься на велосипеде. Если друг не умеет кататься на велике, но умеет на скейте — тоже круто! 🤙",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: My Favourite Famous Person",
+            "description": "Пишем текст о своём любимом блогере, певце или спортсмене",
+            "grammar": {
+                "title": "Повторение: can, have got, to be",
+                "rule": "📚 **Вспоминаем всё, что учили на этой неделе**:\n\n📘 I/He/She/They + can / can't\n📘 I/You/We/They + have got\n📘 He/She/It + has got\n📘 I am / He/She is / They are (to be)\n\n✅ My favourite singer can dance.\n✅ She has got a beautiful voice.\n✅ He is from Russia.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite ___ is Billie Eilish. 🎤",
+                    "correct": "singer",
+                    "accept": ["singer", "Singer", "SINGER"],
+                    "explanation": "Billie Eilish — певица, поэтому singer. Она самая популярная молодая певица в мире! 🌟",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "She ___ from the USA. She ___ born in Los Angeles. 🇺🇸",
+                    "correct": "is, was",
+                    "accept": ["is, was", "Is, Was", "IS, WAS"],
+                    "explanation": "Billie Eilish родилась в Лос-Анджелесе (was born). Она американка (is from the USA). 🇺🇸🎤",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "She has ___ one brother. His name is Finneas. 👨‍👧",
+                    "correct": "got",
+                    "accept": ["got", "Got", "GOT"],
+                    "explanation": "has got — имеет. У Билли есть брат Финнеас, который помогает ей писать песни 🎹",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "She ___ sing very well and she can ___ the piano too! 🎹",
+                    "correct": "can, play",
+                    "accept": ["can, play", "Can, play", "CAN, PLAY"],
+                    "explanation": "Billie может петь (can sing) и играть на пианино (play the piano). Талант! ✨",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like her because her songs are deep and ___ . Write your own answer! ✍️",
+                    "correct": "emotional",
+                    "accept": ["emotional", "cool", "awesome", "great", "nice", "beautiful", "amazing", "fantastic"],
+                    "explanation": "Напиши своё слово! Например: amazing, emotional, powerful. Это твоё мнение о песнях Билли 💭",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

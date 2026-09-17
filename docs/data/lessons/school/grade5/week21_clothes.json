@@ -1,0 +1,394 @@
+{
+    "week_id": "week21_clothes",
+    "title": "👗 Clothes (одежда) & Present Simple vs Present Continuous",
+    "description": "Учим названия одежды, учимся описывать, что мы носим обычно и что на нас сейчас. Мемы, мода и стиль! 👟",
+    "level": "5 класс",
+    "icon": "👗",
+    "order_num": 21,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Clothes — Vocabulary",
+            "description": "Знакомимся с названиями одежды",
+            "grammar": {
+                "title": "Clothes — Vocabulary",
+                "rule": "📘 **Основные предметы одежды**:\n\n👕 **T-shirt** — футболка\n👔 **shirt** — рубашка\n👗 **dress** — платье\n👖 **trousers** — брюки\n👖 **jeans** — джинсы\n🩳 **shorts** — шорты\n🧥 **coat** — пальто\n🧥 **jacket** — куртка\n🧣 **scarf** — шарф\n🧤 **gloves** — перчатки\n🧢 **cap** — кепка\n👟 **trainers** — кроссовки\n👠 **high heels** — туфли на каблуке\n\n🎯 **Мем**:\n'What's your favourite outfit?'\n'Hoodie and jeans. Every day. All year.' 😅👕",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "👕", "word": "T-shirt", "transcription": "/ˈtiː ʃɜːt/", "translation": "футболка", "example": "I wear a T-shirt in summer.", "context_translation": "футболка", "context_example": "Я ношу футболку летом."},
+                {"icon": "👔", "word": "shirt", "transcription": "/ʃɜːt/", "translation": "рубашка", "example": "My dad wears a shirt to work.", "context_translation": "рубашка", "context_example": "Мой папа носит рубашку на работу."},
+                {"icon": "👗", "word": "dress", "transcription": "/dres/", "translation": "платье", "example": "She wears a dress to parties.", "context_translation": "платье", "context_example": "Она носит платье на вечеринки."},
+                {"icon": "👖", "word": "trousers", "transcription": "/ˈtraʊzəz/", "translation": "брюки", "example": "He wears trousers to school.", "context_translation": "брюки", "context_example": "Он носит брюки в школу."},
+                {"icon": "👖", "word": "jeans", "transcription": "/dʒiːnz/", "translation": "джинсы", "example": "I love wearing jeans.", "context_translation": "джинсы", "context_example": "Я люблю носить джинсы."},
+                {"icon": "🩳", "word": "shorts", "transcription": "/ʃɔːts/", "translation": "шорты", "example": "I wear shorts when it's hot.", "context_translation": "шорты", "context_example": "Я ношу шорты, когда жарко."},
+                {"icon": "🧥", "word": "coat", "transcription": "/kəʊt/", "translation": "пальто", "example": "I wear a coat in winter.", "context_translation": "пальто", "context_example": "Я ношу пальто зимой."},
+                {"icon": "🧥", "word": "jacket", "transcription": "/ˈdʒækɪt/", "translation": "куртка", "example": "I wear a jacket when it's cold.", "context_translation": "куртка", "context_example": "Я ношу куртку, когда холодно."},
+                {"icon": "👟", "word": "trainers", "transcription": "/ˈtreɪnəz/", "translation": "кроссовки", "example": "I wear trainers for PE.", "context_translation": "кроссовки", "context_example": "Я ношу кроссовки на физкультуру."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you wear on your feet? 👟",
+                    "options": ["T-shirt", "Jeans", "Trainers", "Coat"],
+                    "correct": "Trainers",
+                    "accept": ["Trainers", "trainers", "TRAINERS"],
+                    "explanation": "Trainers — кроссовки для ног! 👟",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I wear a ___ in winter. 🧥",
+                    "correct": "coat",
+                    "accept": ["coat", "Coat", "COAT"],
+                    "explanation": "Coat — пальто или куртка для зимы! 🧥",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Shorts are worn in winter.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Shorts are worn in summer, not winter! 🩳",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ are trousers made of denim. 👖",
+                    "correct": "Jeans",
+                    "accept": ["Jeans", "jeans", "JEANS"],
+                    "explanation": "Jeans — джинсы! 👖",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I wear a T-shirt in winter.",
+                    "correct": "I wear a coat in winter.",
+                    "accept": ["I wear a coat in winter", "I wear a jacket in winter"],
+                    "explanation": "In winter you wear a coat or jacket, not a T-shirt! ❄️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+    "day": 2,
+    "title": "Day 2: Opposites — Adjectives for Clothes",
+    "description": "Учим прилагательные-антонимы для описания одежды: long/short, heavy/light, tight/loose",
+    "grammar": {
+        "title": "Opposites (антонимы) для описания одежды",
+        "rule": "📘 **Прилагательные-антонимы для одежды**:\n\n📏 **long** (длинный) ↔ **short** (короткий)\n⚖️ **heavy** (тяжёлый) ↔ **light** (лёгкий)\n👗 **tight** (обтягивающий) ↔ **loose** (свободный)\n\n📌 **Примеры**:\n✅ Anna is wearing a **long** skirt.\n✅ He is wearing a **short** T-shirt.\n✅ This coat is **heavy**. I can't carry it!\n✅ I wear **light** clothes in summer.\n✅ These jeans are too **tight**! I need a bigger size.\n✅ I like **loose** hoodies. They are comfortable.\n\n🎯 **Мем**:\n'My jeans are too tight after dinner.'\n'That's why I wear loose clothes to eat!' 😅",
+        "examples": []
+    },
+    "vocabulary": [
+        {"icon": "📏", "word": "long", "transcription": "/lɒŋ/", "translation": "длинный", "example": "She is wearing a long dress.", "context_translation": "длинный", "context_example": "На ней длинное платье."},
+        {"icon": "📏", "word": "short", "transcription": "/ʃɔːt/", "translation": "короткий", "example": "He is wearing short trousers.", "context_translation": "короткий", "context_example": "На нём короткие брюки."},
+        {"icon": "⚖️", "word": "heavy", "transcription": "/ˈhevi/", "translation": "тяжёлый", "example": "This winter coat is heavy.", "context_translation": "тяжёлый", "context_example": "Это зимнее пальто тяжёлое."},
+        {"icon": "⚖️", "word": "light", "transcription": "/laɪt/", "translation": "лёгкий (по весу)", "example": "I wear light clothes in summer.", "context_translation": "лёгкий", "context_example": "Я ношу лёгкую одежду летом."},
+        {"icon": "👗", "word": "tight", "transcription": "/taɪt/", "translation": "обтягивающий, тесный", "example": "These jeans are too tight.", "context_translation": "обтягивающий", "context_example": "Эти джинсы слишком тесные."},
+        {"icon": "👗", "word": "loose", "transcription": "/luːs/", "translation": "свободный, мешковатый", "example": "I like loose T-shirts.", "context_translation": "свободный", "context_example": "Я люблю свободные футболки."}
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "type": "multiple_choice",
+            "question": "What is the opposite of 'long'? 📏",
+            "options": ["Tall", "Short", "Heavy", "Tight"],
+            "correct": "Short",
+            "accept": ["Short", "short", "SHORT"],
+            "explanation": "Long ↔ Short! Длинный ↔ Короткий! 📏",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 2,
+            "type": "multiple_choice",
+            "question": "What is the opposite of 'heavy'? ⚖️",
+            "options": ["Tight", "Loose", "Light", "Short"],
+            "correct": "Light",
+            "accept": ["Light", "light", "LIGHT"],
+            "explanation": "Heavy ↔ Light! Тяжёлый ↔ Лёгкий! ⚖️",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 3,
+            "type": "fill_blank",
+            "question": "These jeans are too ___ . I can't breathe! (tight / loose)",
+            "correct": "tight",
+            "accept": ["tight", "Tight", "TIGHT"],
+            "explanation": "Tight — тесный, обтягивающий! Не могу дышать! 😅",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 4,
+            "type": "fill_blank",
+            "question": "I like ___ clothes in summer. (heavy / light)",
+            "correct": "light",
+            "accept": ["light", "Light", "LIGHT"],
+            "explanation": "Light clothes — лёгкая одежда для лета! ☀️",
+            "topic": "vocabulary"
+        },
+        {
+            "id": 5,
+            "type": "correct_mistake",
+            "question": "Anna is wearing a short dress.",
+            "correct": "Anna is wearing a long dress.",
+            "accept": ["Anna is wearing a long dress", "Anna is wearing a long dress."],
+            "explanation": "Anna is wearing a LONG dress, not short! 📏",
+            "topic": "vocabulary"
+        }
+    ]
+},
+        {
+            "day": 3,
+            "title": "Day 3: What Are You Wearing? (Present Continuous)",
+            "description": "Учимся говорить о том, что на нас сейчас",
+            "grammar": {
+                "title": "Present Continuous — одежда сейчас",
+                "rule": "📘 **Как сказать, что ты носишь прямо сейчас**:\n\n📌 **Present Continuous**: to be + wearing\n✅ I am wearing a T-shirt.\n✅ He is wearing jeans.\n✅ They are wearing trainers.\n\n📌 **Вопросы**:\n❓ What are you wearing? — Что на тебе сейчас?\n❓ Is she wearing a dress? — На ней платье?\n\n📌 **Ответы**:\n✅ I am wearing a hoodie and jeans.\n✅ No, he isn't wearing a coat.\n\n🎯 **Мем**:\n'What are you wearing right now?'\n'A hoodie and pajama pants. \nIt's a Zoom meeting outfit.' 😅💻",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "👕", "word": "wear", "transcription": "/weər/", "translation": "носить (одежду)", "example": "I am wearing a T-shirt.", "context_translation": "носить", "context_example": "На мне футболка."},
+                {"icon": "👕", "word": "wearing", "transcription": "/ˈweərɪŋ/", "translation": "носящий", "example": "She is wearing a dress.", "context_translation": "носящий", "context_example": "На ней платье."},
+                {"icon": "👔", "word": "tie", "transcription": "/taɪ/", "translation": "галстук", "example": "My dad is wearing a tie.", "context_translation": "галстук", "context_example": "На моём папе галстук."},
+                {"icon": "👕", "word": "hoodie", "transcription": "/ˈhʊdi/", "translation": "худи, толстовка", "example": "I am wearing a hoodie.", "context_translation": "худи", "context_example": "На мне худи."},
+                {"icon": "🧥", "word": "jacket", "transcription": "/ˈdʒækɪt/", "translation": "куртка", "example": "He is wearing a jacket.", "context_translation": "куртка", "context_example": "На нём куртка."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What are you wearing? 👕",
+                    "options": ["I wear a T-shirt.", "I am wearing a T-shirt.", "I wearing a T-shirt.", "I wears a T-shirt."],
+                    "correct": "I am wearing a T-shirt.",
+                    "accept": ["I am wearing a T-shirt", "I'm wearing a T-shirt"],
+                    "explanation": "Right now = Present Continuous! I am wearing! 👕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "She ___ (wear) a dress right now. 👗",
+                    "correct": "is wearing",
+                    "accept": ["is wearing", "Is wearing", "IS WEARING"],
+                    "explanation": "Right now = is wearing! 👗",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I wearing a hoodie' is correct.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "I AM wearing a hoodie! ✅",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "What ___ you wearing? ❓",
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "What ARE you wearing? ❓",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "He wearing jeans.",
+                    "correct": "He is wearing jeans.",
+                    "accept": ["He is wearing jeans", "He is wearing jeans."],
+                    "explanation": "He IS wearing jeans! 👖",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — A Fashion Show at School",
+            "description": "Читаем текст о школьном показе мод",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди, кто что носит.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на Present Continuous и названия одежды!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is the fashion show for? 👗",
+                    "options": ["For charity", "For a competition", "For fun", "For school"],
+                    "correct": "For charity",
+                    "accept": ["For charity", "for charity", "charity"],
+                    "explanation": "The fashion show is for charity! 🎗️",
+                    "readingText": "🌟 A FASHION SHOW AT SCHOOL 🌟\n\nIt's a special day at Oakwood Academy. The students are having a fashion show! They are wearing different outfits. Let's see what they're wearing!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👗 MIA\nMia is wearing a beautiful pink dress. She looks like a princess! She is wearing white shoes and a small bag. 'I feel like a celebrity!' she says. 🌟\n\n👔 LEO\nLeo is wearing a white shirt, black trousers and a red tie. He looks very serious. 'I don't like ties,' he says. 'But my mum made me wear it.' 😐\n\n👕 SAM\nSam is wearing jeans, a T-shirt and a cap. He looks cool and casual. 'This is my everyday style!' he says. 'I never wear shirts or ties!' 😎\n\n🧣 LEO'S MUM\nLeo's mum is wearing a long dress and a scarf. She is taking photos of everyone. 'This is so much fun!' she says. 📸\n\n🧥 TEACHER\nMs. Johnson is wearing a smart jacket and a blouse. She is the judge of the show. 'Everyone looks great!' she says. 🏆\n\n👟 DAD\nLeo's dad is wearing jeans and trainers. He is sitting in the audience. 'I'm comfortable!' he says. 😅\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🏆 AND THE WINNER IS...\n\nMs. Johnson: 'The winner of the fashion show is... MIA! Her dress is beautiful and she looks very elegant!'\n\nMia: 'Thank you! I'm so happy!' 🎉\n\nLeo: 'I didn't win! But my tie didn't help me...' 😅\n\nSam: 'That's why I wear caps!' 😎\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 WHAT ARE YOU WEARING RIGHT NOW? 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What is Leo wearing? 👔",
+                    "options": ["A T-shirt and jeans", "A white shirt, black trousers and a red tie", "A dress", "A hoodie"],
+                    "correct": "A white shirt, black trousers and a red tie",
+                    "accept": ["A white shirt, black trousers and a red tie", "a white shirt, black trousers and a red tie"],
+                    "explanation": "Leo is wearing a white shirt, black trousers and a red tie! 👔",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Sam is wearing a tie.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Sam is wearing jeans, a T-shirt and a cap. No tie! 😎",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Mia won the fashion show.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Mia won! The winner is Mia! 🎉",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Ms. Johnson is the ___ of the show. 🏆",
+                    "correct": "judge",
+                    "accept": ["judge", "Judge", "JUDGE"],
+                    "explanation": "Ms. Johnson is the judge of the show! 🏆",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Present Simple vs Present Continuous Practice",
+            "description": "Тренируемся выбирать между обычными действиями и тем, что на нас сейчас",
+            "grammar": {
+                "title": "Present Simple vs Present Continuous — одежда",
+                "rule": "📘 **Когда какое время использовать**:\n\n📌 **Present Simple** (обычно, всегда):\n✅ I usually wear jeans.\n✅ She always wears a hat.\n\n📌 **Present Continuous** (прямо сейчас):\n✅ I am wearing a T-shirt right now.\n✅ She is wearing a dress today.\n\n🎯 **Ключевые слова**:\n• Usually, always, sometimes, never → Present Simple\n• Now, right now, today → Present Continuous\n\n🎯 **Мем**:\n'I usually wear pyjamas at home. \nBut right now I am wearing a suit for a Zoom meeting. \nThey don't know I'm wearing pyjamas on the bottom!' 😅",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "She ___ (usually / wear) a dress to parties. 👗",
+                    "options": ["wear", "wears", "is wearing", "wearing"],
+                    "correct": "wears",
+                    "accept": ["wears", "Wears", "WEARS"],
+                    "explanation": "Usually = Present Simple! She wears! 👗",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Right now, I ___ (wear) a hoodie. 👕",
+                    "correct": "am wearing",
+                    "accept": ["am wearing", "Am wearing", "AM WEARING"],
+                    "explanation": "Right now = Present Continuous! I am wearing! 👕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I am wearing jeans' means it's a habit.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Am wearing = right now, not a habit! 👖",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "He usually ___ (wear) trainers. 👟 — Yes, but today he is wearing boots.",
+                    "correct": "wears",
+                    "accept": ["wears", "Wears", "WEARS"],
+                    "explanation": "Usually = Present Simple! He wears! 👟",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I am usually wearing jeans.",
+                    "correct": "I usually wear jeans.",
+                    "accept": ["I usually wear jeans", "I usually wear jeans."],
+                    "explanation": "Usually = Present Simple! I wear! 👖",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Outfit",
+            "description": "Пишем текст о любимом наряде",
+            "grammar": {
+                "title": "Повторение: одежда и времена",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is your favourite outfit? (Какой твой любимый наряд?)\n2️⃣ What does it look like? (Как он выглядит?)\n3️⃣ When do you wear it? (Когда ты его носишь?)\n4️⃣ What are you wearing right now? (Что на тебе сейчас?)\n5️⃣ Why do you like this outfit? (Почему тебе нравится этот наряд?)\n\n🎯 **Пример**:\nMy favourite outfit is a hoodie and jeans. The hoodie is blue and the jeans are black. I wear it to school and to meet friends. Right now, I am wearing a T-shirt and shorts because it's hot. I like this outfit because it's comfortable and cool! 😎",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite outfit is a ___ and ___ . (напиши одежду)",
+                    "correct": "hoodie, jeans",
+                    "accept": ["hoodie, jeans", "shirt, trousers", "T-shirt, shorts", "dress, shoes"],
+                    "explanation": "Какой твой любимый наряд? 👕👖",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The hoodie is ___ and the jeans are ___ . (напиши цвета)",
+                    "correct": "blue, black",
+                    "accept": ["blue, black", "red, blue", "black, grey", "white, blue"],
+                    "explanation": "Какого цвета твой наряд? 🎨",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I wear it to ___ . (напиши куда)",
+                    "correct": "school",
+                    "accept": ["school", "school", "parties", "friends", "the park", "the cinema"],
+                    "explanation": "Куда ты носишь этот наряд? 🏫",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Right now, I ___ (wear) a T-shirt. 👕",
+                    "correct": "am wearing",
+                    "accept": ["am wearing", "Am wearing", "AM WEARING"],
+                    "explanation": "Что на тебе сейчас? 👕",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like this outfit because it's ___ . (напиши причину)",
+                    "correct": "comfortable",
+                    "accept": ["comfortable", "cool", "cool", "nice", "fashionable", "cute", "stylish", "relaxed"],
+                    "explanation": "Почему тебе нравится этот наряд? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

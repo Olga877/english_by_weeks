@@ -1,0 +1,392 @@
+{
+    "week_id": "week16_daily_routine",
+    "title": "⏰ Daily Routine (распорядок дня) & Adverbs of frequency",
+    "description": "Учимся говорить о распорядке дня, использовать наречия частотности (always, usually, sometimes, never) и обсуждать любимых блогеров. Уровень A1. 6 дней.",
+    "level": "5 класс",
+    "icon": "⏰",
+    "order_num": 18,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Morning Routine (Утро)",
+            "description": "Что мы делаем утром? Учим глаголы для утренних действий",
+            "grammar": {
+                "title": "Adverbs of frequency (наречия частотности)",
+                "rule": "📘 **Наречия частотности показывают, как часто мы что-то делаем**:\n\n✅ **always** — всегда (100%)\n✅ **usually** — обычно (80-90%)\n✅ **often** — часто (60-70%)\n✅ **sometimes** — иногда (30-40%)\n✅ **never** — никогда (0%)\n\n📝 **Где ставить в предложении**:\n1️⃣ После глагола to be: I **am always** late.\n2️⃣ Перед смысловым глаголом: I **usually** get up at 7.\n\n🎯 **Мем**: My alarm clock **always** rings. I **never** want to get up. But I **always** do it... eventually. ⏰😴",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "⏰", "word": "wake up", "transcription": "/weɪk ʌp/", "translation": "просыпаться", "example": "I wake up at 7 am every day.", "context_translation": "просыпаться", "context_example": "Я просыпаюсь в 7 утра каждый день."},
+                {"icon": "🛏️", "word": "get up", "transcription": "/ɡet ʌp/", "translation": "вставать с кровати", "example": "I get up at 7:15.", "context_translation": "вставать", "context_example": "Я встаю в 7:15."},
+                {"icon": "🚿", "word": "have a shower", "transcription": "/hæv ə ˈʃaʊər/", "translation": "принимать душ", "example": "I always have a shower in the morning.", "context_translation": "принимать душ", "context_example": "Я всегда принимаю душ утром."},
+                {"icon": "🧴", "word": "get dressed", "transcription": "/ɡet drest/", "translation": "одеваться", "example": "I get dressed after my shower.", "context_translation": "одеваться", "context_example": "Я одеваюсь после душа."},
+                {"icon": "🍳", "word": "have breakfast", "transcription": "/hæv ˈbrekfəst/", "translation": "завтракать", "example": "I have breakfast at 7:45.", "context_translation": "завтракать", "context_example": "Я завтракаю в 7:45."},
+                {"icon": "🪥", "word": "brush teeth", "transcription": "/brʌʃ tiːθ/", "translation": "чистить зубы", "example": "I brush my teeth twice a day.", "context_translation": "чистить зубы", "context_example": "Я чищу зубы два раза в день."},
+                {"icon": "🚌", "word": "go to school", "transcription": "/ɡəʊ tuː skuːl/", "translation": "идти в школу", "example": "I go to school at 8 am.", "context_translation": "идти в школу", "context_example": "Я иду в школу в 8 утра."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you do first in the morning? ⏰",
+                    "options": ["Have breakfast", "Get dressed", "Wake up", "Go to school"],
+                    "correct": "Wake up",
+                    "accept": ["Wake up", "wake up", "WAKE UP"],
+                    "explanation": "First you WAKE UP, then everything else! ⏰",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I ___ (usually / never) wake up at 5 am. I'm not crazy! 😅",
+                    "correct": "never",
+                    "accept": ["never", "Never", "NEVER"],
+                    "explanation": "5 am is too early! Most people NEVER wake up at 5 am. 😴",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You brush your teeth after breakfast, don't you? 🪥",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Most people brush their teeth AFTER breakfast! 🪥",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (always / never) have a shower. I don't want to smell bad! 😅",
+                    "correct": "always",
+                    "accept": ["always", "Always", "ALWAYS"],
+                    "explanation": "Having a shower every day is important! 🚿",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I get dressed before I wake up.",
+                    "correct": "I wake up before I get dressed.",
+                    "accept": ["I wake up before I get dressed", "I wake up before getting dressed"],
+                    "explanation": "You can't get dressed before you wake up! First wake up, then get dressed! ⏰",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Afternoon and Evening Routine",
+            "description": "Что мы делаем днём и вечером? Учим глаголы для дневных и вечерних действий",
+            "grammar": {
+                "title": "Adverbs of frequency — практика",
+                "rule": "📘 **Продолжаем учить наречия частотности**:\n\n✅ **always** — всегда\n✅ **usually** — обычно\n✅ **often** — часто\n✅ **sometimes** — иногда\n✅ **never** — никогда\n\n📝 **Помни**:\nНаречия частотности ставятся ПЕРЕД основным глаголом.\n\n✅ I **sometimes** play video games after school.\n✅ She **always** does her homework.\n❌ I play sometimes video games. (неправильно!)",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🏠", "word": "come home", "transcription": "/kʌm həʊm/", "translation": "возвращаться домой", "example": "I come home at 3 pm.", "context_translation": "возвращаться домой", "context_example": "Я возвращаюсь домой в 3 часа."},
+                {"icon": "📚", "word": "do homework", "transcription": "/duː ˈhəʊmwɜːk/", "translation": "делать домашнее задание", "example": "I do my homework after school.", "context_translation": "делать домашнее задание", "context_example": "Я делаю домашнее задание после школы."},
+                {"icon": "🍽️", "word": "have dinner", "transcription": "/hæv ˈdɪnər/", "translation": "ужинать", "example": "We have dinner at 7 pm.", "context_translation": "ужинать", "context_example": "Мы ужинаем в 7 часов."},
+                {"icon": "📱", "word": "watch TikTok", "transcription": "/wɒtʃ tɪk tɒk/", "translation": "смотреть TikTok", "example": "I sometimes watch TikTok before bed.", "context_translation": "смотреть TikTok", "context_example": "Я иногда смотрю TikTok перед сном."},
+                {"icon": "🛋️", "word": "relax", "transcription": "/rɪˈlæks/", "translation": "отдыхать, расслабляться", "example": "I relax on the sofa after dinner.", "context_translation": "отдыхать", "context_example": "Я отдыхаю на диване после ужина."},
+                {"icon": "🛌", "word": "go to bed", "transcription": "/ɡəʊ tuː bed/", "translation": "ложиться спать", "example": "I go to bed at 10 pm.", "context_translation": "ложиться спать", "context_example": "Я ложусь спать в 10 часов."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you do after school? 📚",
+                    "options": ["Go to bed", "Do homework", "Have breakfast", "Wake up"],
+                    "correct": "Do homework",
+                    "accept": ["Do homework", "do homework", "DO HOMEWORK"],
+                    "explanation": "Most students do homework after school! 📚",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I ___ (usually / never) watch TikTok. My phone is always in my hand! 📱",
+                    "correct": "usually",
+                    "accept": ["usually", "Usually", "USUALLY"],
+                    "explanation": "Many teenagers USUALLY watch TikTok! 📱",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You have dinner in the morning.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Dinner is in the evening, not in the morning! 🍽️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (always / never) go to bed at midnight. I need sleep! 😴",
+                    "correct": "never",
+                    "accept": ["never", "Never", "NEVER"],
+                    "explanation": "Going to bed at midnight is too late for most students! 😴",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I watch sometimes TV in the evening.",
+                    "correct": "I sometimes watch TV in the evening.",
+                    "accept": ["I sometimes watch TV in the evening", "Sometimes I watch TV in the evening"],
+                    "explanation": "Adverbs of frequency go BEFORE the main verb: sometimes watch! 📺",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Daily Routine of a Blogger",
+            "description": "Учимся описывать распорядок дня блогера",
+            "grammar": {
+                "title": "Telling the time (спрашиваем и говорим время)",
+                "rule": "📘 **Как спросить время**:\n❓ What time is it? — Который час?\n❓ Have you got the time? — Вы не скажете, который час?\n\n📝 **Как отвечать**:\n⏰ **It's ... o'clock.** — Ровно ... часов.\n⏰ **It's half past ...** — Половина ...\n⏰ **It's quarter past ...** — Четверть ...\n⏰ **It's quarter to ...** — Без четверти ...\n\n🎯 **Мем**:\n❓ 'What time is it?'\n⏰ 'It's time to stop scrolling TikTok and go to sleep!' 😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "check phone", "transcription": "/tʃek fəʊn/", "translation": "проверять телефон", "example": "I check my phone every 5 minutes.", "context_translation": "проверять телефон", "context_example": "Я проверяю телефон каждые 5 минут."},
+                {"icon": "📷", "word": "take photos", "transcription": "/teɪk ˈfəʊtəʊz/", "translation": "делать фото", "example": "I take photos for my Instagram.", "context_translation": "делать фото", "context_example": "Я делаю фото для Инстаграма."},
+                {"icon": "🎬", "word": "edit video", "transcription": "/ˈedɪt ˈvɪdiəʊ/", "translation": "монтировать видео", "example": "I edit videos for my YouTube channel.", "context_translation": "монтировать видео", "context_example": "Я монтирую видео для своего YouTube-канала."},
+                {"icon": "📹", "word": "record video", "transcription": "/rɪˈkɔːd ˈvɪdiəʊ/", "translation": "записывать видео", "example": "I record videos in the morning.", "context_translation": "записывать видео", "context_example": "Я записываю видео утром."},
+                {"icon": "📊", "word": "check stats", "transcription": "/tʃek stæts/", "translation": "проверять статистику", "example": "I check my channel stats every day.", "context_translation": "проверять статистику", "context_example": "Я проверяю статистику канала каждый день."},
+                {"icon": "📩", "word": "reply to comments", "transcription": "/rɪˈplaɪ tuː ˈkɒments/", "translation": "отвечать на комментарии", "example": "I reply to comments on my posts.", "context_translation": "отвечать на комментарии", "context_example": "Я отвечаю на комментарии под своими постами."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What time is it? ⏰ 8:00",
+                    "options": ["It's eight o'clock.", "It's half past eight.", "It's quarter past eight.", "It's quarter to eight."],
+                    "correct": "It's eight o'clock.",
+                    "accept": ["It's eight o'clock", "it's eight o'clock", "Eight o'clock"],
+                    "explanation": "8:00 = It's eight o'clock! ⏰",
+                    "topic": "time"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's 7:30. It's half past ___ . ⏰",
+                    "correct": "seven",
+                    "accept": ["seven", "Seven", "SEVEN"],
+                    "explanation": "7:30 = half past seven! ⏰",
+                    "topic": "time"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A blogger checks stats to see how many views they have.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! Stats show views, likes, and subscribers! 📊",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "It's 2:45. It's quarter to ___ . ⏰",
+                    "correct": "three",
+                    "accept": ["three", "Three", "THREE"],
+                    "explanation": "2:45 = quarter to three! ⏰",
+                    "topic": "time"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "It's half past six. (6:30)",
+                    "correct": "Correct",
+                    "accept": ["Correct", "correct", "CORRECT"],
+                    "explanation": "6:30 = half past six! Correct! ⏰",
+                    "topic": "time"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — A Day in the Life of a Famous Blogger",
+            "description": "Читаем о распорядке дня известного блогера",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди действия блогера в разное время дня.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на наречия частотности (always, usually, sometimes, never)!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What time does Dima wake up? ⏰",
+                    "options": ["At 6 am", "At 7 am", "At 8 am", "At 9 am"],
+                    "correct": "At 8 am",
+                    "accept": ["At 8 am", "at 8 am", "8 am"],
+                    "explanation": "Dima wakes up at 8 am. Он блогер, а не ранняя пташка! 😅",
+                    "readingText": "🌟 A DAY IN THE LIFE OF A FAMOUS BLOGGER 🌟\n\nMeet Dima — he's a popular blogger from Russia. He has got 2 million subscribers on YouTube and 1 million followers on TikTok. Let's see what his daily routine looks like!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n⏰ 8:00 AM — WAKE UP\nDima wakes up at 8 am. He doesn't like mornings, but he always gets up. He checks his phone immediately — 50 new notifications! 'The life of a blogger is hard,' he says. 😅\n\n🚿 8:15 AM — SHOWER & GET DRESSED\nHe always has a shower and gets dressed. He usually wears a hoodie and jeans. 'Comfort is key!'\n\n🍳 8:30 AM — BREAKFAST\nDima has breakfast — usually cereal or a sandwich. He sometimes drinks coffee. 'I can't function without coffee!' ☕\n\n📹 9:30 AM — RECORD VIDEOS\nThe best time to record videos is in the morning. Dima often records 2-3 videos in one day. 'Sometimes I record videos and then I edit them in the afternoon.'\n\n💻 1:00 PM — EDIT VIDEOS\nDima edits videos for 2-3 hours. He often uses CapCut. 'Editing takes forever, but it's worth it!'\n\n📊 4:00 PM — CHECK STATS\nHe checks his channel stats. 'The numbers tell me what content works best.'\n\n🍽️ 6:00 PM — DINNER\nDima has dinner with his family. 'Family time is important!'\n\n📱 7:00 PM — REPLY TO COMMENTS\nHe replies to comments and talks to fans. 'My fans are the best!'\n\n🎮 9:00 PM — FREE TIME\nDima relaxes. He sometimes plays video games or watches Netflix. 'I need to disconnect from work.'\n\n🛌 12:00 AM — GO TO BED\nDima goes to bed at midnight. 'I try to sleep earlier, but I never can!' 😴\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💭 DIMA'S TIP FOR SUCCESS:\n'Be consistent! Post every day, even if you don't feel like it. Your audience will appreciate it!' 💪\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What does Dima usually wear? 👕",
+                    "options": ["A suit", "A hoodie and jeans", "A uniform", "A T-shirt and shorts"],
+                    "correct": "A hoodie and jeans",
+                    "accept": ["A hoodie and jeans", "a hoodie and jeans", "hoodie and jeans"],
+                    "explanation": "Dima says: 'I usually wear a hoodie and jeans. Comfort is key!'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Dima never drinks coffee.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Dima says: 'I can't function without coffee!' He SOMETIMES drinks coffee. ☕",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Dima records videos in the afternoon.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Dima records videos in the MORNING! He edits in the afternoon. 📹",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Dima goes to bed at ___ am. 🛌",
+                    "correct": "12",
+                    "accept": ["12", "twelve", "Twelve", "12 am", "midnight"],
+                    "explanation": "Dima goes to bed at midnight (12 am). 'I try to sleep earlier, but I never can!'",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: My Daily Routine",
+            "description": "Учимся говорить о своём распорядке дня",
+            "grammar": {
+                "title": "Present Simple + Adverbs of frequency",
+                "rule": "📘 **Как говорить о своём распорядке дня**:\n\n1️⃣ Используй Present Simple для действий, которые повторяются каждый день.\n2️⃣ Добавляй наречия частотности (always, usually, sometimes, never).\n3️⃣ Используй выражения времени: in the morning, after school, at 7 o'clock.\n\n🎯 **Структура**:\n✅ I **always** get up at 7 am.\n✅ I **usually** have breakfast at 7:30.\n✅ I **sometimes** watch YouTube before bed.\n✅ I **never** skip breakfast!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ get up early. I love sleeping! 😴",
+                    "options": ["always", "usually", "sometimes", "never"],
+                    "correct": "never",
+                    "accept": ["never", "Never", "NEVER"],
+                    "explanation": "If you love sleeping, you NEVER get up early! 😴",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I ___ (always / never) do my homework. I want to get good grades! 📚",
+                    "correct": "always",
+                    "accept": ["always", "Always", "ALWAYS"],
+                    "explanation": "If you want good grades, you ALWAYS do your homework! 📚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'Usually' means 100% of the time.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Usually means 80-90% of the time. Always means 100%! 🔢",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (sometimes / never) eat pizza for breakfast. It's a bit weird! 🍕",
+                    "correct": "sometimes",
+                    "accept": ["sometimes", "Sometimes", "SOMETIMES"],
+                    "explanation": "Eating pizza for breakfast is weird, but SOMETIMES it happens! 🍕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I never am late for school.",
+                    "correct": "I am never late for school.",
+                    "accept": ["I am never late for school", "I'm never late for school"],
+                    "explanation": "With 'am/is/are', the adverb goes AFTER the verb: am never! ⏰",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Daily Routine",
+            "description": "Пишем текст о своём распорядке дня",
+            "grammar": {
+                "title": "Повторение: распорядок дня",
+                "rule": "📚 **План для письма**:\n\n1️⃣ Что ты делаешь утром? (wake up, get up, have breakfast)\n2️⃣ Что ты делаешь днём? (go to school, do homework, have lunch)\n3️⃣ Что ты делаешь вечером? (have dinner, relax, go to bed)\n4️⃣ Используй наречия частотности (always, usually, sometimes, never)\n5️⃣ Используй выражения времени (at 7 am, in the morning, after school)\n\n🎯 **Пример**:\nI always wake up at 7 am. I usually have breakfast at 7:30. I go to school at 8 am. After school, I do my homework. In the evening, I watch TikTok and relax. I go to bed at 10 pm.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "I ___ wake up at 7 am. (наречие частотности)",
+                    "correct": "always",
+                    "accept": ["always", "usually", "often", "sometimes", "never"],
+                    "explanation": "Напиши, как часто ты просыпаешься в 7 утра! ⏰",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I have breakfast at ___ am. (напиши время)",
+                    "correct": "7:30",
+                    "accept": ["7:30", "7.30", "seven thirty", "Seven thirty", "7 30"],
+                    "explanation": "Во сколько ты завтракаешь? 🍳",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I go to school at ___ am. (напиши время)",
+                    "correct": "8",
+                    "accept": ["8", "eight", "8 am", "8:00", "8.00"],
+                    "explanation": "Во сколько ты идёшь в школу? 🚌",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "After school, I ___ my homework. (do / play)",
+                    "correct": "do",
+                    "accept": ["do", "Do", "DO"],
+                    "explanation": "Do homework — делать уроки! 📚",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I go to bed at ___ pm. (напиши время)",
+                    "correct": "10",
+                    "accept": ["10", "ten", "10 pm", "10:00", "10.00"],
+                    "explanation": "Во сколько ты ложишься спать? 🛌",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

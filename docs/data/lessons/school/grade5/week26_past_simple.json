@@ -1,0 +1,393 @@
+{
+    "week_id": "week26_past_simple",
+    "title": "🎢 Places & Past Simple (regular verbs)",
+    "description": "Учимся говорить о том, что мы делали в прошлом, используя Past Simple. Мемы, парки аттракционов и весёлые выходные! 🎡",
+    "level": "5 класс",
+    "icon": "🎢",
+    "order_num": 26,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Places to Go",
+            "description": "Знакомимся с местами для отдыха и развлечений",
+            "grammar": {
+                "title": "Places to Go — Vocabulary",
+                "rule": "📘 **Места, куда можно пойти**:\n\n🎨 **art gallery** — картинная галерея\n🎭 **theatre** — театр\n🎵 **concert hall** — концертный зал\n🎢 **adventure park** — парк аттракционов\n🍔 **fast food restaurant** — ресторан быстрого питания\n🐾 **zoo** — зоопарк\n\n📌 **Что можно делать в этих местах**:\n✅ look at paintings — смотреть на картины\n✅ watch a play — смотреть спектакль\n✅ listen to music — слушать музыку\n✅ go on a roller coaster — кататься на американских горках\n✅ eat a burger — есть бургер\n✅ see wild animals — видеть диких животных\n\n📌 **Пример**:\nYou can see wild animals at the zoo.\nYou can listen to music at the concert hall.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎨", "word": "gallery", "transcription": "/ˈɡæləri/", "translation": "галерея", "example": "We went to an art gallery.", "context_translation": "галерея", "context_example": "Мы пошли в картинную галерею."},
+                {"icon": "🎭", "word": "theatre", "transcription": "/ˈθɪətər/", "translation": "театр", "example": "We watch a play at the theatre.", "context_translation": "театр", "context_example": "Мы смотрим спектакль в театре."},
+                {"icon": "🎵", "word": "concert", "transcription": "/ˈkɒnsət/", "translation": "концерт", "example": "We listen to music at a concert.", "context_translation": "концерт", "context_example": "Мы слушаем музыку на концерте."},
+                {"icon": "🎢", "word": "adventure", "transcription": "/ədˈventʃər/", "translation": "приключение", "example": "We went to an adventure park.", "context_translation": "приключение", "context_example": "Мы пошли в парк приключений."},
+                {"icon": "🎡", "word": "roller coaster", "transcription": "/ˈrəʊlə ˈkəʊstər/", "translation": "американские горки", "example": "I went on a roller coaster.", "context_translation": "американские горки", "context_example": "Я прокатился на американских горках."},
+                {"icon": "🐾", "word": "zoo", "transcription": "/zuː/", "translation": "зоопарк", "example": "We saw animals at the zoo.", "context_translation": "зоопарк", "context_example": "Мы видели животных в зоопарке."},
+                {"icon": "🍔", "word": "burger", "transcription": "/ˈbɜːɡər/", "translation": "бургер", "example": "I ate a burger.", "context_translation": "бургер", "context_example": "Я съел бургер."},
+                {"icon": "🎡", "word": "ride", "transcription": "/raɪd/", "translation": "аттракцион", "example": "There were many rides.", "context_translation": "аттракцион", "context_example": "Было много аттракционов."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Where can you see wild animals? 🐾",
+                    "options": ["Art gallery", "Theatre", "Zoo", "Concert hall"],
+                    "correct": "Zoo",
+                    "accept": ["Zoo", "zoo", "ZOO"],
+                    "explanation": "You can see wild animals at the zoo! 🐾",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "You can watch a ___ at the theatre. 🎭 (play / ride)",
+                    "correct": "play",
+                    "accept": ["play", "Play", "PLAY"],
+                    "explanation": "You watch a play at the theatre! 🎭",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You can listen to music at a concert hall.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! You listen to music at a concert hall! 🎵",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I went on a ___ coaster. 🎢 (roller / adventure)",
+                    "correct": "roller",
+                    "accept": ["roller", "Roller", "ROLLER"],
+                    "explanation": "Roller coaster — американские горки! 🎢",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "You can ___ paintings at an art gallery. 🎨 (look / eat)",
+                    "correct": "look",
+                    "accept": ["look", "Look", "LOOK"],
+                    "explanation": "You look at paintings at an art gallery! 🎨",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Grammar — Past Simple (regular verbs)",
+            "description": "Учим прошедшее время правильных глаголов",
+            "grammar": {
+                "title": "Past Simple (regular verbs)",
+                "rule": "📘 **Past Simple — прошедшее время**:\n\nМы используем Past Simple, когда говорим о действиях, которые произошли в прошлом.\n\n📌 **Как образуется Past Simple**:\n✅ глагол + **-ed**: play → played, walk → walked\n✅ глагол + **-d** (если оканчивается на -e): like → liked\n✅ y → ied (если оканчивается на согласную + y): try → tried\n✅ удвоение последней согласной: stop → stopped\n\n📌 **Отрицание**:\n❌ I **didn't** play football yesterday.\n\n📌 **Вопрос**:\n❓ **Did** you play football yesterday?\n✅ Yes, I did. / ❌ No, I didn't.\n\n📌 **Слова-помощники**:\nyesterday, last night, last week, two days ago\n\n📌 **Пример**:\nI **played** football yesterday.\nI **didn't** watch TV last night.\n**Did** you visit your grandparents?",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "⚽", "word": "played", "transcription": "/pleɪd/", "translation": "играл", "example": "I played football yesterday.", "context_translation": "играл", "context_example": "Я играл в футбол вчера."},
+                {"icon": "🚶", "word": "walked", "transcription": "/wɔːkt/", "translation": "ходил, гулял", "example": "I walked to school.", "context_translation": "ходил", "context_example": "Я ходил в школу пешком."},
+                {"icon": "📺", "word": "watched", "transcription": "/wɒtʃt/", "translation": "смотрел", "example": "I watched a film.", "context_translation": "смотрел", "context_example": "Я смотрел фильм."},
+                {"icon": "🍕", "word": "cooked", "transcription": "/kʊkt/", "translation": "готовил", "example": "Mum cooked dinner.", "context_translation": "готовил", "context_example": "Мама готовила ужин."},
+                {"icon": "📞", "word": "called", "transcription": "/kɔːld/", "translation": "звонил", "example": "I called my friend.", "context_translation": "звонил", "context_example": "Я звонил своему другу."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ football yesterday. ⚽",
+                    "options": ["play", "played", "playing", "plays"],
+                    "correct": "played",
+                    "accept": ["played", "Played", "PLAYED"],
+                    "explanation": "Yesterday → Past Simple: played! ⚽",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "She ___ dinner last night. 🍕",
+                    "options": ["cook", "cooked", "cooking", "cooks"],
+                    "correct": "cooked",
+                    "accept": ["cooked", "Cooked", "COOKED"],
+                    "explanation": "Last night → Past Simple: cooked! 🍕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I ___ (walk) to school yesterday. 🚶",
+                    "correct": "walked",
+                    "accept": ["walked", "Walked", "WALKED"],
+                    "explanation": "Yesterday → walked! 🚶",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ you watch TV last night? 📺 — No, I didn't.",
+                    "correct": "Did",
+                    "accept": ["Did", "did", "DID"],
+                    "explanation": "Question → Did you watch? 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I didn't played football yesterday.",
+                    "correct": "I didn't play football yesterday.",
+                    "accept": ["I didn't play football yesterday", "I didn't play football yesterday."],
+                    "explanation": "After 'didn't' we use the base form: play, not played! ⚽",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Past Simple — Spelling Rules",
+            "description": "Учим правила правописания в Past Simple",
+            "grammar": {
+                "title": "Past Simple — Spelling Rules",
+                "rule": "📘 **Правила правописания в Past Simple**:\n\n📌 **1. Большинство глаголов** → +ed:\n✅ play → **played**, walk → **walked**, watch → **watched**\n\n📌 **2. Глаголы на -e** → +d:\n✅ like → **liked**, dance → **danced**, live → **lived**\n\n📌 **3. Глаголы на согласную + y** → y → ied:\n✅ try → **tried**, cry → **cried**, study → **studied**\n\n📌 **4. Глаголы на гласную + y** → +ed:\n✅ play → **played** (y остаётся), enjoy → **enjoyed**\n\n📌 **5. Короткие глаголы (согласная-гласная-согласная)** → удвоить последнюю согласную + ed:\n✅ stop → **stopped**, drop → **dropped**, plan → **planned**\n\n📌 **Пример**:\nI **tried** to call you, but you didn't answer.\nShe **stopped** playing games and started doing homework.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📝", "word": "tried", "transcription": "/traɪd/", "translation": "пытался, пробовал", "example": "I tried to call you.", "context_translation": "пытался", "context_example": "Я пытался тебе позвонить."},
+                {"icon": "😢", "word": "cried", "transcription": "/kraɪd/", "translation": "плакал", "example": "She cried because she was sad.", "context_translation": "плакал", "context_example": "Она плакала, потому что была грустна."},
+                {"icon": "✈️", "word": "planned", "transcription": "/plænd/", "translation": "планировал", "example": "We planned a trip.", "context_translation": "планировал", "context_example": "Мы планировали поездку."},
+                {"icon": "🛑", "word": "stopped", "transcription": "/stɒpt/", "translation": "остановился, прекратил", "example": "He stopped playing games.", "context_translation": "остановился", "context_example": "Он перестал играть в игры."},
+                {"icon": "💃", "word": "danced", "transcription": "/dɑːnst/", "translation": "танцевал", "example": "We danced at the party.", "context_translation": "танцевал", "context_example": "Мы танцевали на вечеринке."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is the past form of 'try'? 🤔",
+                    "options": ["tryed", "tried", "trieded", "tryyed"],
+                    "correct": "tried",
+                    "accept": ["tried", "Tried", "TRIED"],
+                    "explanation": "try → tried (y → ied)! 🤔",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "What is the past form of 'stop'? 🛑",
+                    "options": ["stoped", "stoppt", "stopped", "stoppped"],
+                    "correct": "stopped",
+                    "accept": ["stopped", "Stopped", "STOPPED"],
+                    "explanation": "stop → stopped (удвоить p)! 🛑",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I ___ (like) the film. It was great! 🎬",
+                    "correct": "liked",
+                    "accept": ["liked", "Liked", "LIKED"],
+                    "explanation": "like → liked (только +d)! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "She ___ (cry) because she was sad. 😢",
+                    "correct": "cried",
+                    "accept": ["cried", "Cried", "CRIED"],
+                    "explanation": "cry → cried (y → ied)! 😢",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "We planed a trip to the mountains.",
+                    "correct": "We planned a trip to the mountains.",
+                    "accept": ["We planned a trip to the mountains", "We planned a trip to the mountains."],
+                    "explanation": "plan → planned (удвоить n)! ✈️",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Email about a Weekend",
+            "description": "Читаем письмо о выходных в парке аттракционов",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай письмо целиком, чтобы понять общий смысл.\n2️⃣ Найди, куда ходил герой и что он делал.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на глаголы в Past Simple!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "Where did Sam go last weekend? 🎢",
+                    "options": ["To the zoo", "To the cinema", "To the adventure park", "To the theatre"],
+                    "correct": "To the adventure park",
+                    "accept": ["To the adventure park", "to the adventure park", "adventure park"],
+                    "explanation": "Sam went to the Crazy Ride Adventure Park! 🎢",
+                    "readingText": "🌟 EMAIL ABOUT A WEEKEND 🌟\n\nFrom: Sam\nTo: Sergei\nSubject: Guess where I was!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nHi, Sergei,\n\nI hope you're well. Guess where I was last weekend! I decided to go to the Crazy Ride Adventure Park with my friends. The weather was great. There were a lot of people there.\n\nThere were so many rides I couldn't choose which one to go on. I tried the Mega roller coaster. It was great! We wanted to go to the Hall of Mirrors but we didn't because there was a very long queue. We tried candyfloss but I didn't like it. We stayed until late in the evening.\n\nWhat about you? Did you visit your grandparents?\n\nWrite back soon.\n\nSam\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💬 QUESTIONS ABOUT THE EMAIL\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "Did Sam like the Mega roller coaster? 🎢",
+                    "options": ["Yes, he did.", "No, he didn't.", "We don't know.", "He didn't try it."],
+                    "correct": "Yes, he did.",
+                    "accept": ["Yes, he did", "Yes he did", "yes he did"],
+                    "explanation": "Sam says: 'I tried the Mega roller coaster. It was great!' 🎢",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Sam went to the adventure park with his parents.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Sam went with his friends, not his parents! 👥",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Sam tried candyfloss and liked it.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Sam says: 'We tried candyfloss but I didn't like it.' 😅",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Sam didn't go to the Hall of Mirrors because there was a long ___ . 🚶",
+                    "correct": "queue",
+                    "accept": ["queue", "Queue", "QUEUE"],
+                    "explanation": "There was a long queue! 🚶",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Past Simple Practice",
+            "description": "Тренируем Past Simple правильных глаголов",
+            "grammar": {
+                "title": "Past Simple — практика",
+                "rule": "📘 **Вспоминаем Past Simple**:\n\n📌 **Утверждение**:\n✅ I **walked** to school yesterday.\n✅ She **cooked** dinner last night.\n\n📌 **Отрицание**:\n❌ I **didn't walk** to school.\n❌ She **didn't cook** dinner.\n\n📌 **Вопрос**:\n❓ **Did** you walk to school?\n✅ Yes, I did. / ❌ No, I didn't.\n\n📌 **Слова-помощники**:\nyesterday, last night, last week, last month, ago",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ TV last night. 📺",
+                    "options": ["watch", "watched", "watching", "watches"],
+                    "correct": "watched",
+                    "accept": ["watched", "Watched", "WATCHED"],
+                    "explanation": "Last night → Past Simple: watched! 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ you play football yesterday? ⚽ — Yes, I did.",
+                    "correct": "Did",
+                    "accept": ["Did", "did", "DID"],
+                    "explanation": "Question → Did you play? ⚽",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "In Past Simple, we use 'didn't' + verb + -ed.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "We use 'didn't' + base form: I didn't play, NOT didn't played! ⚽",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We ___ (stay) at the park until 8 pm. 🎢",
+                    "correct": "stayed",
+                    "accept": ["stayed", "Stayed", "STAYED"],
+                    "explanation": "stay → stayed! 🎢",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I didn't liked the film.",
+                    "correct": "I didn't like the film.",
+                    "accept": ["I didn't like the film", "I didn't like the film."],
+                    "explanation": "After 'didn't' we use the base form: like, not liked! 🎬",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — Email about Last Weekend",
+            "description": "Пишем письмо другу о своих выходных",
+            "grammar": {
+                "title": "Повторение: Past Simple",
+                "rule": "📚 **План для письма**:\n\n1️⃣ Where did you go? (Куда ты ходил?)\n2️⃣ Who was with you? (Кто был с тобой?)\n3️⃣ What did you do? (Что ты делал?)\n4️⃣ What did you eat? (Что ты ел?)\n5️⃣ Did you like it? (Тебе понравилось?)\n\n📌 **Пример**:\nDear Sergei,\n\nLast weekend, I went to the adventure park with my friends. The weather was great. I tried the roller coaster and it was amazing! We also played games and ate pizza. I stayed until late in the evening. I had a fantastic time!\n\nWrite back soon!\n\nSam",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "Dear ___ , (напиши имя друга)",
+                    "correct": "Sergei",
+                    "accept": ["Sergei", "Masha", "Dima", "Anna", "Katya", "Alex", "Mia", "Leo", "Sam"],
+                    "explanation": "Кому ты пишешь письмо? 📧",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I went to the ___ last weekend. (напиши место)",
+                    "correct": "adventure park",
+                    "accept": ["adventure park", "cinema", "zoo", "theatre", "mall", "park"],
+                    "explanation": "Куда ты ходил? 🎢",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I went with my ___ . (напиши с кем)",
+                    "correct": "friends",
+                    "accept": ["friends", "friend", "family", "parents", "brother", "sister"],
+                    "explanation": "С кем ты был? 👥",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (try) the roller coaster. 🎢",
+                    "correct": "tried",
+                    "accept": ["tried", "Tried", "TRIED"],
+                    "explanation": "try → tried! 🎢",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I had a ___ time! (напиши прилагательное)",
+                    "correct": "fantastic",
+                    "accept": ["fantastic", "great", "amazing", "wonderful", "awesome", "cool"],
+                    "explanation": "Как прошли твои выходные? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

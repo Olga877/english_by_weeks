@@ -1,0 +1,233 @@
+{
+    "week_id": "week10_family_can",
+    "title": "👨‍👩‍👧‍👦 Family members & Possessive 's",
+    "description": "Учим членов семьи, глагол can (уметь, мочь), объектные и притяжательные местоимения. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "👨‍👩‍👧‍👦",
+    "order_num": 10,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Family Members",
+            "description": "Учим названия членов семьи",
+            "grammar": {
+                "title": "Family Members",
+                "rule": "Вот основные члены семьи на английском:\n\n👨 father (dad) — папа\n👩 mother (mum) — мама\n👨 brother — брат\n👩 sister — сестра\n👴 grandfather (grandpa) — дедушка\n👵 grandmother (grandma) — бабушка\n👨 uncle — дядя\n👩 aunt — тётя\n👨 cousin — двоюродный брат/сестра\n\n🎯 Вопрос: Who is this? — Кто это?\n🎯 Ответ: This is my mother.",
+                "examples": [
+                    "Leo: 'My father can fix anything. My mother can find anything I lose.' 🔧🔍",
+                    "Mia: 'My sister can annoy me in 5 seconds. It's a superpower!' 😤",
+                    "Sam: 'My grandma can bake the best cookies in the world. My grandpa can eat them all.' 🍪"
+                ],
+                "keywords": "father, mother, brother, sister, grandfather, grandmother, uncle, aunt, cousin"
+            },
+            "vocabulary": [
+                {"icon": "👨", "word": "father", "transcription": "/ˈfɑː.ðər/", "translation": "папа", "example": "My father works in an office.", "context_translation": "папа", "context_example": "Мой папа работает в офисе."},
+                {"icon": "👩", "word": "mother", "transcription": "/ˈmʌð.ər/", "translation": "мама", "example": "My mother cooks dinner every day.", "context_translation": "мама", "context_example": "Моя мама готовит ужин каждый день."},
+                {"icon": "👨", "word": "brother", "transcription": "/ˈbrʌð.ər/", "translation": "брат", "example": "My brother plays video games all day.", "context_translation": "брат", "context_example": "Мой брат играет в видеоигры весь день."},
+                {"icon": "👩", "word": "sister", "transcription": "/ˈsɪs.tər/", "translation": "сестра", "example": "My sister borrows my clothes without asking.", "context_translation": "сестра", "context_example": "Моя сестра берёт мою одежду без спроса."},
+                {"icon": "👴", "word": "grandfather", "transcription": "/ˈɡræn.fɑː.ðər/", "translation": "дедушка", "example": "My grandfather tells funny stories.", "context_translation": "дедушка", "context_example": "Мой дедушка рассказывает смешные истории."},
+                {"icon": "👵", "word": "grandmother", "transcription": "/ˈɡræn.mʌð.ər/", "translation": "бабушка", "example": "My grandmother knits sweaters.", "context_translation": "бабушка", "context_example": "Моя бабушка вяжет свитера."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Who is your mother's husband? 👨", "options": ["Brother", "Father", "Grandfather", "Uncle"], "correct": "Father", "explanation": "Mother's husband = father — папа! 👨", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "Who is your father's father? 👴", "options": ["Brother", "Father", "Grandfather", "Uncle"], "correct": "Grandfather", "explanation": "Father's father = grandfather — дедушка! 👴", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "My mother's sister is my ___ .", "correct": "aunt", "explanation": "Mother's sister = aunt — тётя! 👩", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "My father's brother is my ___ .", "correct": "uncle", "explanation": "Father's brother = uncle — дядя! 👨", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "Your sister's daughter is your cousin.", "correct": "False", "explanation": "Sister's daughter is your niece, not cousin! 👧", "topic": "reading"}
+            ]
+        },
+        {
+    "day": 2,
+    "title": "Day 2: Grammar — Can (ability)",
+    "description": "Учим глагол can — уметь, мочь",
+    "grammar": {
+        "title": "Can — Ability",
+        "rule": "Глагол can используется, чтобы сказать, ЧТО ТЫ УМЕЕШЬ ДЕЛАТЬ.\n\n✅ Утверждение: I can swim. / She can dance.\n❌ Отрицание: I can't swim. / He cannot swim.\n❓ Вопрос: Can you swim? — Yes, I can. / No, I can't.\n\n🎯 Лайфхак: После can всегда идёт глагол без to!\n❌ I can to swim (НЕПРАВИЛЬНО!)\n✅ I can swim (ПРАВИЛЬНО!)\n\n🎯 Мем: 'I can sleep for 10 hours. I can't wake up for school.' 😴",
+        "examples": [
+            "Leo: 'I can play chess, but I can't win against my dad.' ♟️",
+            "Mia: 'My sister can draw amazing cartoons. I can only draw stick figures.' 🎨",
+            "Sam: 'I can eat pizza every day. My mum can't stop me!' 🍕"
+        ],
+        "keywords": "can, can't, cannot, ability, I can, she can"
+    },
+    "vocabulary": [
+        {"icon": "🏊", "word": "swim", "transcription": "/swɪm/", "translation": "плавать", "example": "I can swim very fast.", "context_translation": "плавать", "context_example": "Я умею плавать очень быстро."},
+        {"icon": "🎨", "word": "draw", "transcription": "/drɔː/", "translation": "рисовать", "example": "She can draw beautiful pictures.", "context_translation": "рисовать", "context_example": "Она умеет рисовать красивые картины."},
+        {"icon": "🎸", "word": "play guitar", "transcription": "/pleɪ ɡɪˈtɑːr/", "translation": "играть на гитаре", "example": "My brother can play guitar.", "context_translation": "играть на гитаре", "context_example": "Мой брат умеет играть на гитаре."},
+        {"icon": "🍕", "word": "cook", "transcription": "/kʊk/", "translation": "готовить", "example": "My mum can cook pizza!", "context_translation": "готовить", "context_example": "Моя мама умеет готовить пиццу!"},
+        {"icon": "🎮", "word": "play games", "transcription": "/pleɪ ɡeɪmz/", "translation": "играть в игры", "example": "Leo can play games for hours.", "context_translation": "играть в игры", "context_example": "Лео может играть в игры часами."}
+    ],
+    "exercises": [
+        {"id": 1, "type": "multiple_choice", "question": "Which sentence is correct? 🏊", "options": ["I can to swim.", "I can swim.", "I can swimming.", "I am can swim."], "correct": "I can swim.", "explanation": "After 'can' we use the verb without 'to'! ✅ I can swim, ❌ I can to swim", "topic": "grammar"},
+        {"id": 2, "type": "multiple_choice", "question": "Choose the correct negative form: I ___ play the piano. 🎹", "options": ["can't", "don't can", "can not to", "cannot to"], "correct": "can't", "explanation": "can't = cannot — отрицательная форма!", "topic": "grammar"},
+        {"id": 3, "type": "fill_blank", "question": "She ___ draw very well. (can / can't)", "correct": "can", "explanation": "She can draw — она умеет рисовать! 🎨", "topic": "grammar"},
+        {"id": 4, "type": "fill_blank", "question": "I ___ (not) play football. I'm terrible at it! ⚽", "correct": "can't", "explanation": "I can't play football — я не умею играть в футбол!", "topic": "grammar"},
+        {"id": 5, "type": "true_false", "question": "'Can you swim?' — 'Yes, I can.' is correct.", "correct": "True", "explanation": "Yes, that's the correct short answer! 👍", "topic": "reading"}
+    ]
+},
+        {
+            "day": 3,
+            "title": "Day 3: Object Pronouns (me, him, her, us, them)",
+            "description": "Учим объектные местоимения",
+            "grammar": {
+                "title": "Object Pronouns",
+                "rule": "Объектные местоимения отвечают на вопросы КОГО? ЧЕМУ? и используются ПОСЛЕ глагола или предлога.\n\n📌 I → me (меня, мне)\n📌 you → you (тебя, тебе)\n📌 he → him (его, ему)\n📌 she → her (её, ей)\n📌 it → it (его, ему — для предметов)\n📌 we → us (нас, нам)\n📌 they → them (их, им)\n\n🎯 Примеры:\n✅ Call me later. — Позвони мне позже.\n✅ I like her. — Она мне нравится.\n✅ Give it to him. — Отдай это ему.\n\n🎯 Мем: 'My mum asks me to clean my room. I don't listen to her. She doesn't give up on me.' 🧹",
+                "examples": [
+                    "Leo: 'My dad helps me with homework. I love him for that.' 📚",
+                    "Mia: 'My sister annoys her. But I still love her.' 👧",
+                    "Sam: 'My grandparents visit us every Sunday. We cook dinner for them.' 🍽️"
+                ],
+                "keywords": "me, him, her, us, them, object pronouns"
+            },
+            "vocabulary": [
+                {"icon": "👤", "word": "me", "transcription": "/miː/", "translation": "мне, меня", "example": "Please help me.", "context_translation": "мне", "context_example": "Пожалуйста, помоги мне."},
+                {"icon": "👨", "word": "him", "transcription": "/hɪm/", "translation": "ему, его", "example": "I like him.", "context_translation": "его", "context_example": "Он мне нравится."},
+                {"icon": "👩", "word": "her", "transcription": "/hɜːr/", "translation": "ей, её", "example": "Give the book to her.", "context_translation": "ей", "context_example": "Отдай книгу ей."},
+                {"icon": "👥", "word": "us", "transcription": "/ʌs/", "translation": "нам, нас", "example": "Come with us.", "context_translation": "нами", "context_example": "Пойдём с нами."},
+                {"icon": "👥", "word": "them", "transcription": "/ðem/", "translation": "им, их", "example": "I see them every day.", "context_translation": "их", "context_example": "Я вижу их каждый день."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "I like my brother. I like ___ . 👨", "options": ["him", "her", "them", "us"], "correct": "him", "explanation": "brother — he → him!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "This is for you and me. This is for ___ . 👥", "options": ["him", "her", "us", "them"], "correct": "us", "explanation": "you and me = we → us!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "My grandmother calls ___ every Sunday. (me / us)", "correct": "me", "explanation": "Me — мне (бабушка звонит МНЕ) 👵", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "The teacher gives homework to ___ . (we / us)", "correct": "us", "explanation": "To us — нам (учитель даёт домашку НАМ) 📚", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "I love she.", "correct": "I love her.", "explanation": "После глагола love нужно her, не she! 💕", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Possessive Adjectives vs Object Pronouns",
+            "description": "Сравниваем притяжательные и объектные местоимения",
+            "grammar": {
+                "title": "Possessive Adjectives vs Object Pronouns",
+                "rule": "Важно не путать! 🎯\n\n📌 Possessive adjectives (чей?): my, your, his, her, its, our, their\n→ Они всегда ПЕРЕД существительным: my phone, her room\n\n📌 Object pronouns (кому? кого?): me, you, him, her, it, us, them\n→ Они ПОСЛЕ глагола или предлога: call me, give her\n\n🎯 Примеры:\n✅ This is MY book. (чей? — мой)\n✅ Give the book to ME. (кому? — мне)\n\n🎯 Мем: 'This is MY pizza. Don't take it from ME.' 🍕",
+                "examples": [
+                    "Leo: 'This is MY computer. My dad gave it to ME.' 💻",
+                    "Mia: 'HER room is a mess. I help HER clean it.' 🛏️",
+                    "Sam: 'OUR fridge is empty. Mum told US to go shopping.' 🧊"
+                ],
+                "keywords": "my/me, your/you, his/him, her/her, our/us, their/them"
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "my", "transcription": "/maɪ/", "translation": "мой", "example": "This is my phone.", "context_translation": "мой", "context_example": "Это мой телефон."},
+                {"icon": "👤", "word": "me", "transcription": "/miː/", "translation": "мне, меня", "example": "Call me later.", "context_translation": "мне", "context_example": "Позвони мне позже."},
+                {"icon": "👨", "word": "his", "transcription": "/hɪz/", "translation": "его", "example": "That is his backpack.", "context_translation": "его", "context_example": "Это его рюкзак."},
+                {"icon": "👨", "word": "him", "transcription": "/hɪm/", "translation": "ему, его", "example": "I see him every day.", "context_translation": "его", "context_example": "Я вижу его каждый день."},
+                {"icon": "👩", "word": "her", "transcription": "/hɜːr/", "translation": "её", "example": "This is her book.", "context_translation": "её", "context_example": "Это её книга."},
+                {"icon": "👩", "word": "her", "transcription": "/hɜːr/", "translation": "ей, её", "example": "I like her.", "context_translation": "её", "context_example": "Она мне нравится."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "This is ___ phone. (I / my / me)", "options": ["I", "my", "me"], "correct": "my", "explanation": "My phone — мой телефон! 📱", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Give the book to ___ . (I / my / me)", "options": ["I", "my", "me"], "correct": "me", "explanation": "Give to me — дай МНЕ! 📖", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "That is ___ car. (they / their / them)", "correct": "their", "explanation": "Their car — их машина! 🚗", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "I like ___ . (she / her)", "correct": "her", "explanation": "I like her — она мне нравится! 💕", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "This is me book.", "correct": "This is my book.", "explanation": "My book — моя книга, не me book! 📚", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Family + Can + Pronouns",
+            "description": "Повторяем всё вместе",
+            "grammar": {
+                "title": "Revision: Family, Can, Object Pronouns, Possessive Adjectives",
+                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Члены семьи: mother, father, brother, sister, grandmother, grandfather\n📌 Can: I can swim. She can't dance. Can you sing?\n📌 Объектные местоимения: me, him, her, us, them\n📌 Притяжательные: my, your, his, her, our, their\n\n🎯 Структура: My sister can help me with homework.",
+                "examples": [
+                    "My brother can play guitar. I listen to him every day. 🎸",
+                    "Our grandmother can bake cookies. She makes them for us. 🍪",
+                    "Their father can fix anything. They ask him for help. 🔧"
+                ],
+                "keywords": "revision, family, can, object pronouns, possessive adjectives"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "My sister can draw. I like ___ drawings. 🎨", "options": ["she", "her", "hers", "him"], "correct": "her", "explanation": "Her drawings — её рисунки! 🎨", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "My brother can play football. I play with ___ . ⚽", "options": ["he", "his", "him", "her"], "correct": "him", "explanation": "Play with him — играть с НИМ!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ (We / Us) mother can cook pizza. 🍕", "correct": "Our", "explanation": "Our mother — наша мама!", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "I can't find my keys. Can you help ___ ? (I / me)", "correct": "me", "explanation": "Help me — помоги МНЕ! 🔑", "topic": "grammar"},
+                {"id": 5, "type": "fill_blank", "question": "My sister ___ (can / can't) sing. She's terrible! 🎤", "correct": "can't", "explanation": "Can't — не умеет! 🎤😱", "topic": "grammar"},
+                {"id": 6, "type": "correct_mistake", "question": "My brother can to swim very well.", "correct": "My brother can swim very well.", "explanation": "После can НЕ нужен to! 🏊", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — The Family Talent Show",
+            "description": "Читаем смешную историю о семейном конкурсе талантов",
+            "grammar": {
+                "title": "Reading: The Family Talent Show",
+                "rule": "Сегодня читаем историю о том, как семья устроила конкурс талантов. Кто что умеет? Используем can и местоимения!",
+                "examples": [],
+                "keywords": "reading, family, talent show, can, pronouns"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What can Leo do? 🎮",
+                    "options": ["Cook pizza", "Beat the final boss", "Sing", "Dance"],
+                    "correct": "Beat the final boss",
+                    "explanation": "Leo says: 'I can beat the final boss in any game!'",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🎭 THE FAMILY TALENT SHOW\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: The Johnson family living room. Everyone is gathered.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMUM: 'Let's have a family talent show! Everyone shows what they can do!'\n\nDAD: 'Great idea! I'll be the judge.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: 'I can beat the final boss in any video game! Watch me!'\n\n(Leo plays for 30 seconds. His character dies.)\n\nDAD: 'You can't even beat the first level, Leo.'\n\nLEO: 'The controller is broken!' 🎮\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nMIA: 'I can draw! Look!' (shows a drawing)\n\nDAD: 'Is that a cat?'\n\nMIA: 'It's a dragon! 🐉'\n\nDAD: '... Okay.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nSAM: 'I can eat a whole pizza in 3 minutes! Watch me!'\n\n(Sam eats pizza. It takes 5 minutes. He needs a break.)\n\nDAD: 'You can't do it, Sam.'\n\nSAM: 'I can try again!' 🍕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nGRANDMA: 'I can knit a sweater in one hour!'\n\n(Everyone waits. Grandma knits. It's beautiful.)\n\nDAD: 'Grandma wins!'\n\nGRANDMA: 'Thank you, dear. Now who wants a sweater?' 🧣\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nLEO: 'Wait! I have one more talent! I can fall asleep anywhere! Watch me!'\n\n(Leo lies on the sofa. He falls asleep in 10 seconds. Snoring.) 😴\n\nMIA: 'That's not a talent, Leo.'\n\nSAM: 'But it's impressive.'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nDAD: 'The winner is Grandma! She can knit the best sweaters!'\n\nGRANDMA: 'And I can knit one for everyone!'\n\nEVERYONE: 'Yay!'\n\nLEO: (wakes up) 'Did I win?'\n\nEVERYONE: 'No, Leo.'\n\nLEO: 'Can I go back to sleep?'\n\nDAD: 'Yes, you can.' 😴\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What did Mia draw? 🎨",
+                    "options": ["A cat", "A dog", "A dragon", "A house"],
+                    "correct": "A dragon",
+                    "explanation": "Mia says: 'It's a dragon!' But Dad thought it was a cat.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "Who won the talent show? 🏆",
+                    "options": ["Leo", "Mia", "Sam", "Grandma"],
+                    "correct": "Grandma",
+                    "explanation": "Dad says: 'The winner is Grandma! She can knit the best sweaters!'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "What can Grandma do? 🧣",
+                    "options": ["Cook", "Knit sweaters", "Draw", "Sleep"],
+                    "correct": "Knit sweaters",
+                    "explanation": "Grandma can knit a sweater in one hour!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "What did Sam try to do? 🍕",
+                    "options": ["Beat a video game", "Eat a whole pizza", "Draw a dragon", "Knit a sweater"],
+                    "correct": "Eat a whole pizza",
+                    "explanation": "Sam tried to eat a whole pizza in 3 minutes. He failed.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "Leo can beat the final boss in any video game.",
+                    "correct": "False",
+                    "explanation": "Leo died in 30 seconds. He can't even beat the first level!",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Everyone was happy that Grandma won.",
+                    "correct": "True",
+                    "explanation": "Everyone said 'Yay!' and Grandma offered to knit sweaters for everyone!",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

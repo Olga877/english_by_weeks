@@ -1,0 +1,395 @@
+{
+    "week_id": "week15_my_pet",
+    "title": "🐕 My Pet & Present Simple: tag-questions",
+    "description": "Учим домашних питомцев, учимся описывать животных и задавать разделительные вопросы с юмором и мемами. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🐕",
+    "order_num": 15,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Pets and Farm Animals",
+            "description": "Знакомимся с домашними питомцами и сельскохозяйственными животными",
+            "grammar": {
+                "title": "Tag-questions (разделительные вопросы)",
+                "rule": "📘 **Tag-questions** — это вопросы в конце предложения, чтобы уточнить информацию.\n\n📝 **Формула**:\n✅ Утверждение + короткий вопрос с противоположным знаком.\n\n✅ You like dogs, **don't you?**\n✅ She has got a cat, **hasn't she?**\n✅ They aren't noisy, **are they?**\n\n📝 **Краткие ответы**:\n✅ Yes, I do. / No, I don't.\n\n🎯 **Мем**: 'You have a pet, don't you?' — 'Yes, I do. It's a potato.' 🥔",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🐕", "word": "dog", "transcription": "/dɒɡ/", "translation": "собака", "example": "Dogs are man's best friend.", "context_translation": "собака", "context_example": "Собака — лучший друг человека."},
+                {"icon": "🐈", "word": "cat", "transcription": "/kæt/", "translation": "кошка", "example": "Cats sleep a lot.", "context_translation": "кошка", "context_example": "Кошки много спят."},
+                {"icon": "🐹", "word": "guinea pig", "transcription": "/ˈɡɪni pɪɡ/", "translation": "морская свинка", "example": "Guinea pigs are very cute.", "context_translation": "морская свинка", "context_example": "Морские свинки очень милые."},
+                {"icon": "🐇", "word": "rabbit", "transcription": "/ˈræbɪt/", "translation": "кролик", "example": "Rabbits eat carrots.", "context_translation": "кролик", "context_example": "Кролики едят морковь."},
+                {"icon": "🐦", "word": "budgie", "transcription": "/ˈbʌdʒi/", "translation": "волнистый попугайчик", "example": "Budgies can talk a little.", "context_translation": "волнистый попугайчик", "context_example": "Волнистые попугайчики могут немного говорить."},
+                {"icon": "🐔", "word": "chicken", "transcription": "/ˈtʃɪkɪn/", "translation": "курица", "example": "Chickens lay eggs.", "context_translation": "курица", "context_example": "Куры несут яйца."},
+                {"icon": "🐄", "word": "cow", "transcription": "/kaʊ/", "translation": "корова", "example": "Cows give milk.", "context_translation": "корова", "context_example": "Коровы дают молоко."},
+                {"icon": "🐑", "word": "sheep", "transcription": "/ʃiːp/", "translation": "овца", "example": "Sheep have got thick wool.", "context_translation": "овца", "context_example": "У овец густая шерсть."},
+                {"icon": "🐴", "word": "horse", "transcription": "/hɔːs/", "translation": "лошадь", "example": "Horses can run fast.", "context_translation": "лошадь", "context_example": "Лошади умеют быстро бегать."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Which animal gives us milk? 🐄",
+                    "options": ["Dog", "Cat", "Cow", "Budgie"],
+                    "correct": "Cow",
+                    "accept": ["Cow", "cow", "COW"],
+                    "explanation": "Cows give milk! 🥛🐄",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "You like cats, ___ you? 🐈",
+                    "correct": "don't",
+                    "accept": ["don't", "Don't", "DONT", "do not"],
+                    "explanation": "You like cats (утверждение) → don't you? (отрицательный вопрос) 🐈",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Budgies are a type of fish.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Budgies are birds, not fish! 🐦",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "She has got a rabbit, ___ she? 🐇",
+                    "correct": "hasn't",
+                    "accept": ["hasn't", "Hasn't", "HASNT", "has not"],
+                    "explanation": "She has got a rabbit (утверждение) → hasn't she? (отрицательный вопрос) 🐇",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Cows give milk, do they?",
+                    "correct": "Cows give milk, don't they?",
+                    "accept": ["Cows give milk, don't they", "cows give milk, don't they"],
+                    "explanation": "Cows give milk (утверждение) → don't they? (отрицательный вопрос) 🐄",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: My Pet",
+            "description": "Учимся описывать своих питомцев",
+            "grammar": {
+                "title": "Tag-questions с have got",
+                "rule": "📘 **Tag-questions с have got**:\n\n✅ You have got a dog, **haven't you?**\n✅ She has got a cat, **hasn't she?**\n✅ They haven't got a pet, **have they?**\n\n📝 **Ответы**:\n✅ Yes, I have. / No, I haven't.\n\n🎯 **Примеры**:\n❓ You have got a pet, haven't you?\n✅ Yes, I have. I've got a cute cat.\n\n❓ She hasn't got a pet, has she?\n✅ No, she hasn't. But she wants a dog!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🐶", "word": "puppy", "transcription": "/ˈpʌpi/", "translation": "щенок", "example": "Puppies are very playful.", "context_translation": "щенок", "context_example": "Щенки очень игривые."},
+                {"icon": "🐱", "word": "kitten", "transcription": "/ˈkɪtn/", "translation": "котёнок", "example": "Kittens are so cute!", "context_translation": "котёнок", "context_example": "Котята такие милые!"},
+                {"icon": "🦜", "word": "parrot", "transcription": "/ˈpærət/", "translation": "попугай", "example": "Parrots can learn words.", "context_translation": "попугай", "context_example": "Попугаи могут учить слова."},
+                {"icon": "🐠", "word": "goldfish", "transcription": "/ˈɡəʊldfɪʃ/", "translation": "золотая рыбка", "example": "I have got a goldfish.", "context_translation": "золотая рыбка", "context_example": "У меня есть золотая рыбка."},
+                {"icon": "🐢", "word": "tortoise", "transcription": "/ˈtɔːtəs/", "translation": "черепаха (сухопутная)", "example": "Tortoises live a very long time.", "context_translation": "черепаха", "context_example": "Черепахи живут очень долго."},
+                {"icon": "🦎", "word": "lizard", "transcription": "/ˈlɪzəd/", "translation": "ящерица", "example": "Lizards eat insects.", "context_translation": "ящерица", "context_example": "Ящерицы едят насекомых."},
+                {"icon": "🐹", "word": "hamster", "transcription": "/ˈhæmstər/", "translation": "хомяк", "example": "Hamsters love to run in wheels.", "context_translation": "хомяк", "context_example": "Хомяки любят бегать в колесе."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is a baby dog called? 🐶",
+                    "options": ["Kitten", "Puppy", "Calf", "Foal"],
+                    "correct": "Puppy",
+                    "accept": ["Puppy", "puppy", "PUPPY"],
+                    "explanation": "A baby dog is called a puppy! 🐶",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "She has got a parrot, ___ she? 🦜",
+                    "correct": "hasn't",
+                    "accept": ["hasn't", "Hasn't", "HASNT", "has not"],
+                    "explanation": "She has got a parrot (утверждение) → hasn't she? 🦜",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Tortoises live a short time.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Tortoises live a very long time! 🐢",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "You have got a goldfish, ___ you? 🐠",
+                    "correct": "haven't",
+                    "accept": ["haven't", "Haven't", "HAVENT", "have not"],
+                    "explanation": "You have got a goldfish (утверждение) → haven't you? 🐠",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "Hamsters love to run, love they?",
+                    "correct": "Hamsters love to run, don't they?",
+                    "accept": ["Hamsters love to run, don't they", "hamsters love to run, don't they"],
+                    "explanation": "Hamsters love to run (утверждение) → don't they? 🐹",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Describing Your Pet",
+            "description": "Учимся описывать питомца — цвет, размер, особенности",
+            "grammar": {
+                "title": "Tag-questions с to be",
+                "rule": "📘 **Tag-questions с to be**:\n\n✅ It is cute, **isn't it?**\n✅ They are playful, **aren't they?**\n✅ He isn't noisy, **is he?**\n\n📝 **Ответы**:\n✅ Yes, it is. / No, it isn't.\n\n🎯 **Мем**:\n❓ My dog is the cutest, isn't it?\n✅ Yes, it is! But my cat is cuter! 🐱",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🦴", "word": "bone", "transcription": "/bəʊn/", "translation": "кость", "example": "Dogs like to chew bones.", "context_translation": "кость", "context_example": "Собаки любят грызть кости."},
+                {"icon": "🧶", "word": "toy", "transcription": "/tɔɪ/", "translation": "игрушка", "example": "My cat loves her toy mouse.", "context_translation": "игрушка", "context_example": "Моя кошка любит свою игрушечную мышь."},
+                {"icon": "🍖", "word": "food", "transcription": "/fuːd/", "translation": "еда", "example": "I buy food for my dog.", "context_translation": "еда", "context_example": "Я покупаю еду для своей собаки."},
+                {"icon": "🏠", "word": "cage", "transcription": "/keɪdʒ/", "translation": "клетка", "example": "My budgie lives in a cage.", "context_translation": "клетка", "context_example": "Мой волнистый попугайчик живёт в клетке."},
+                {"icon": "🛏️", "word": "bed", "transcription": "/bed/", "translation": "лежанка, кровать", "example": "My dog sleeps on her bed.", "context_translation": "лежанка", "context_example": "Моя собака спит на своей лежанке."},
+                {"icon": "⛓️", "word": "leash", "transcription": "/liːʃ/", "translation": "поводок", "example": "I walk my dog on a leash.", "context_translation": "поводок", "context_example": "Я выгуливаю собаку на поводке."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do dogs like to chew? 🦴",
+                    "options": ["Bones", "Cats", "Leashes", "Cages"],
+                    "correct": "Bones",
+                    "accept": ["Bones", "bones", "BONES"],
+                    "explanation": "Dogs like to chew bones! 🦴",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "My dog is playful, ___ she? 🐕",
+                    "correct": "isn't",
+                    "accept": ["isn't", "Isn't", "ISNT", "is not"],
+                    "explanation": "My dog is playful (утверждение) → isn't she? 🐕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A leash is used to walk a dog.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes, you use a leash to walk a dog! ⛓️",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They aren't noisy, ___ they? 🐹",
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "They aren't noisy (отрицание) → are they? (утвердительный вопрос) 🐹",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "My cat is cute, is it?",
+                    "correct": "My cat is cute, isn't it?",
+                    "accept": ["My cat is cute, isn't it", "my cat is cute, isn't it"],
+                    "explanation": "My cat is cute (утверждение) → isn't it? 🐱",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Pets in the Chat Forum",
+            "description": "Читаем сообщения в форуме о домашних питомцах",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Найди, у кого какой питомец.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на tag-questions в диалогах!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is Chris's pet? 🐦",
+                    "options": ["A dog", "A cat", "A budgie", "A horse"],
+                    "correct": "A budgie",
+                    "accept": ["A budgie", "a budgie", "budgie"],
+                    "explanation": "Chris says: 'My budgie has got blue, grey and white feathers.' 🐦",
+                    "readingText": "🌟 PETS IN THE CHAT FORUM 🌟\n\nWelcome to the 'English by Weeks' pet forum! Share your pets here! 👇\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐦 CHRIS: (10:35)\nHi everyone! I'm Chris. I like cats, but I haven't got one. I think budgies are the best! My budgie has got blue, grey and white feathers and a little yellow beak. His name is Tweety and he sings all day long. You have got a pet, haven't you? 🐦🎵\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐕 SARAH: (11:20)\nHi guys! I've got a dog. His name is Nelson and he's 3 years old. He is very big with golden fur. I take him for walks in the park every day. Does anyone else like dogs? 🐕\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐈 LEO: (12:05)\nI've got a cat! Her name is Luna. She is very clever and loves to play with toys. She sleeps on my bed every night. She's a bit noisy at 3 AM though... 🐈😴\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐹 MIA: (13:15)\nI have got two guinea pigs! Their names are Coco and Nibbles. They are so cute and fluffy! They eat vegetables and fruit. They are a bit messy though. You've got a pet too, haven't you? 🐹\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐇 SAM: (14:30)\nI've got a rabbit! Her name is Snowy because she is white like snow. She eats carrots and hay. She loves to run around the garden. Rabbits are the best pets, aren't they? 🐇\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🐠 EMMA: (15:45)\nI haven't got a pet... 😭 But I want a goldfish! My parents say it's easy to take care of. What do you think, guys? 🐠\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 DAD: (16:00)\nHey everyone! Don't forget to clean your pets' cages! 😅\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 MUM: (16:05)\nAnd feed them! 🍖\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 LEO: (16:10)\nOh no! I forgot to feed Luna! 🐈😅\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 SAM: (16:15)\nSnowy is eating my homework! 🐇📚\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 MIA: (16:20)\nCoco and Nibbles just made a mess... 🐹😅\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n**What pet do you have? Share below! 👇**",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What is the name of Sarah's dog? 🐕",
+                    "options": ["Tweety", "Nelson", "Luna", "Snowy"],
+                    "correct": "Nelson",
+                    "accept": ["Nelson", "nelson", "NELSON"],
+                    "explanation": "Sarah's dog is named Nelson! 🐕",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Leo has got a cat named Luna.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Leo says: 'I've got a cat! Her name is Luna.' 🐈",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Mia has got three guinea pigs.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Mia has got two guinea pigs, not three! 🐹🐹",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Sam's rabbit is named ___ . 🐇",
+                    "correct": "Snowy",
+                    "accept": ["Snowy", "snowy", "SNOWY"],
+                    "explanation": "Sam's rabbit is named Snowy because she is white like snow! 🐇",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Tag-questions Practice",
+            "description": "Тренируем разделительные вопросы с разными глаголами",
+            "grammar": {
+                "title": "Tag-questions — все случаи",
+                "rule": "📘 **Как образуются tag-questions**:\n\n1️⃣ **to be**:\n✅ It is cute, **isn't it?**\n✅ They aren't noisy, **are they?**\n\n2️⃣ **have got**:\n✅ You have got a pet, **haven't you?**\n✅ She hasn't got a dog, **has she?**\n\n3️⃣ **Present Simple**:\n✅ You like cats, **don't you?**\n✅ She doesn't like dogs, **does she?**\n\n📝 **Краткие ответы**:\n✅ Yes, I do. / No, I don't.\n✅ Yes, I have. / No, I haven't.\n✅ Yes, it is. / No, it isn't.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "You like cats, ___ you? 🐈",
+                    "options": ["do", "don't", "does", "doesn't"],
+                    "correct": "don't",
+                    "accept": ["don't", "Don't", "DONT", "do not"],
+                    "explanation": "You like cats (утверждение) → don't you? 🐈",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "She has got a dog, ___ she? 🐕",
+                    "correct": "hasn't",
+                    "accept": ["hasn't", "Hasn't", "HASNT", "has not"],
+                    "explanation": "She has got a dog (утверждение) → hasn't she? 🐕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "He doesn't like pets, does he? — Yes, he does.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "He doesn't like pets (отрицание) → does he? (утвердительный вопрос). Ответ 'Yes, he does' правильный! 👍",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They aren't noisy, ___ they? 🐹",
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "They aren't noisy (отрицание) → are they? (утвердительный вопрос) 🐹",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "You like dogs, isn't it?",
+                    "correct": "You like dogs, don't you?",
+                    "accept": ["You like dogs, don't you", "you like dogs, don't you"],
+                    "explanation": "You like dogs (утверждение) → don't you? (не isn't it!) 🐕",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Pet / My Dream Pet",
+            "description": "Пишем текст о своём питомце или о питомце мечты",
+            "grammar": {
+                "title": "Повторение: описание питомца",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What pet have you got? (Какой у тебя питомец?)\n2️⃣ What is its name? (Как его/её зовут?)\n3️⃣ What does it look like? (Как выглядит?)\n4️⃣ What does it eat? (Что ест?)\n5️⃣ What does it like to do? (Что любит делать?)\n6️⃣ Why do you like it? (Почему ты его любишь?)\n\n🎯 **Пример**:\nI've got a cat. Her name is Luna. She is black and white. She eats cat food and sometimes fish. She likes to sleep on my bed. I like her because she is cute and funny! 🐈",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "I've got a ___ . (напиши питомца)",
+                    "correct": "cat",
+                    "accept": ["cat", "dog", "rabbit", "hamster", "guinea pig", "budgie", "parrot", "goldfish", "tortoise", "horse", "lizard", "kitten", "puppy"],
+                    "explanation": "Напиши, какой у тебя питомец! 🐈",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "My pet's name is ___ . (напиши имя)",
+                    "correct": "Luna",
+                    "accept": ["Luna", "Nelson", "Tweety", "Snowy", "Coco", "Nibbles", "Fluffy", "Max", "Bella", "Charlie", "Lucy", "Molly", "Oscar", "Simba"],
+                    "explanation": "Напиши имя своего питомца! 🏷️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "It has got ___ fur / feathers. (напиши цвет)",
+                    "correct": "black and white",
+                    "accept": ["black and white", "golden", "brown", "white", "grey", "orange", "black", "blue", "yellow", "red", "green"],
+                    "explanation": "Какого цвета твой питомец? 🎨",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "It eats ___ . (напиши еду)",
+                    "correct": "cat food",
+                    "accept": ["cat food", "meat", "fish", "vegetables", "fruit", "carrots", "hay", "seeds", "insects", "dog food", "hamster food", "bird seed"],
+                    "explanation": "Что ест твой питомец? 🍖",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like my pet because it is ___ and ___ . (напиши два прилагательных)",
+                    "correct": "cute, funny",
+                    "accept": ["cute, funny", "cute and funny", "clever, playful", "cute, clever", "fluffy, cute", "playful, funny", "beautiful, elegant", "sweet, kind", "amazing, cool"],
+                    "explanation": "Почему ты любишь своего питомца? Напиши два слова! 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

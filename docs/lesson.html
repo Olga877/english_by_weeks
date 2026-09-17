@@ -1,0 +1,299 @@
+<!-- frontend/lesson.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Lesson | English by Weeks</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" type="image/svg+xml" href="/english_by_weeks/frontend/icons/icon.svg">
+</head>
+<body>
+    <div class="container lesson-container">
+        <div id="lessonContent"></div>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const weekId = urlParams.get('week');
+        const dayNum = parseInt(urlParams.get('day'));
+
+        let sessionId = localStorage.getItem('session_id');
+        if (!sessionId) {
+            sessionId = 'user_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('session_id', sessionId);
+        }
+
+        let currentLesson = null;
+        let userAnswers = {};
+        let mistakes = [];
+
+        async function loadLesson() {
+            try {
+                const [weekRes, progressRes] = await Promise.all([
+                    fetch(`/api/weeks/${weekId}`),
+                    fetch(`/api/progress/${weekId}?session_id=${sessionId}`)
+                ]);
+
+                const week = await weekRes.json();
+                const progress = await progressRes.json();
+
+                // Check if day is accessible
+                if (dayNum > progress.current_day && !progress.completed_days.includes(dayNum)) {
+                    alert('Please complete previous days first!');
+                    window.location.href = `/static/week.html?week=${weekId}`;
+                    return;
+                }
+
+                currentLesson = week.days[dayNum - 1];
+                renderLesson();
+            } catch (error) {
+                console.error('Error loading lesson:', error);
+                document.getElementById('lessonContent').innerHTML = '<div style="text-align: center; padding: 40px; color: var(--danger);">❌ Failed to load lesson.</div>';
+            }
+        }
+
+        function renderLesson() {
+            const container = document.getElementById('lessonContent');
+
+            let html = `
+                <div class="lesson-header">
+                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                        <button class="btn-prev" onclick="window.location.href='/static/week.html?week=${weekId}'" style="background: var(--gray); color: white; border: none; padding: 8px 16px; border-radius: 30px; cursor: pointer;">← Back</button>
+                        <h2>Day ${dayNum}: ${currentLesson.title}</h2>
+                        <div></div>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="lessonProgress" style="width: 0%"></div>
+                    </div>
+                </div>
+            `;
+
+            // Grammar section
+            if (currentLesson.grammar) {
+                html += `
+                    <div class="grammar-card">
+                        <h3>📖 ${currentLesson.grammar.title}</h3>
+                        <div class="grammar-rule">
+                            <strong>Rule:</strong> ${currentLesson.grammar.rule}
+                        </div>
+                        <div><strong>Examples:</strong></div>
+                        ${currentLesson.grammar.examples.map(ex => `<div class="grammar-example">${ex}</div>`).join('')}
+                        ${currentLesson.grammar.keywords ? `<div><strong>Keywords:</strong> ${currentLesson.grammar.keywords}</div>` : ''}
+                    </div>
+                `;
+            }
+
+            // Vocabulary section
+            if (currentLesson.vocabulary && currentLesson.vocabulary.length > 0) {
+                html += `<h3 style="margin-bottom: 16px;">📚 Vocabulary</h3><div class="vocab-grid">`;
+                currentLesson.vocabulary.forEach(v => {
+                    html += `
+                        <div class="vocab-item">
+                            <div class="vocab-icon">${v.icon || '📖'}</div>
+                            <div class="vocab-word">${v.word}</div>
+                            <div class="vocab-transcription">${v.transcription || ''}</div>
+                            <div class="vocab-translation">${v.translation || v.definition || ''}</div>
+                            <div class="vocab-example">${v.example || ''}</div>
+                            <button onclick="speak('${v.word}')" style="background: none; border: none; cursor: pointer; margin-top: 8px;">🔊</button>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+
+            // Exercises
+            html += `<h3 style="margin-bottom: 16px;">✍️ Exercises</h3>`;
+            currentLesson.exercises.forEach((ex, idx) => {
+                html += `
+                    <div class="exercise-card" id="ex-${ex.id}" data-correct="${ex.correct}">
+                        <div class="exercise-question">${idx+1}. ${ex.question}</div>
+                `;
+                if (ex.type === 'multiple_choice') {
+                    html += `<div class="options" id="options-${ex.id}">`;
+                    ex.options.forEach((opt, optIdx) => {
+                        html += `<div class="option" onclick="selectOption(${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${opt}</div>`;
+                    });
+                    html += `</div>`;
+                } else if (ex.type === 'fill_blank' || ex.type === 'correct_mistake') {
+                    html += `<input type="text" class="fill-input" id="input-${ex.id}" placeholder="Type your answer...">`;
+                } else if (ex.type === 'listening') {
+                    if (ex.listeningText) {
+                        html += `<button class="btn-check" onclick="speak('${ex.listeningText.replace(/'/g, "\\'")}')" style="margin-bottom: 16px; background: var(--secondary);">🎧 Listen to the text</button>`;
+                    }
+                    html += `<div class="options" id="options-${ex.id}">`;
+                    ex.options.forEach((opt, optIdx) => {
+                        html += `<div class="option" onclick="selectOption(${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${opt}</div>`;
+                    });
+                    html += `</div>`;
+                } else if (ex.type === 'reading') {
+                    if (ex.readingText) {
+                        html += `<div style="background: var(--body-bg); padding: 16px; border-radius: 12px; margin-bottom: 16px;">${ex.readingText}</div>`;
+                    }
+                    html += `<div class="options" id="options-${ex.id}">`;
+                    ex.options.forEach((opt, optIdx) => {
+                        html += `<div class="option" onclick="selectOption(${ex.id}, ${optIdx}, '${opt.replace(/'/g, "\\'")}')">${opt}</div>`;
+                    });
+                    html += `</div>`;
+                }
+                html += `<button class="btn-check" onclick="checkExercise(${ex.id})">✅ Check Answer</button>`;
+                html += `<div class="explanation" id="explanation-${ex.id}"></div>`;
+                html += `</div>`;
+            });
+
+            // Navigation
+            html += `<div class="nav-buttons">
+                        <button class="btn-prev" onclick="prevDay()">◀ Previous Day</button>
+                        <button class="btn-next" onclick="nextDay()">Next Day ▶</button>
+                    </div>`;
+
+            container.innerHTML = html;
+        }
+
+        function selectOption(exerciseId, optIndex, value) {
+            const optionsDiv = document.getElementById(`options-${exerciseId}`);
+            const options = optionsDiv.querySelectorAll('.option');
+            options.forEach(opt => opt.classList.remove('selected'));
+            options[optIndex].classList.add('selected');
+            userAnswers[exerciseId] = value;
+        }
+
+        async function checkExercise(exerciseId) {
+            const exercise = currentLesson.exercises.find(e => e.id === exerciseId);
+            let userAnswer = userAnswers[exerciseId];
+
+            if (exercise.type === 'fill_blank' || exercise.type === 'correct_mistake') {
+                const input = document.getElementById(`input-${exerciseId}`);
+                if (input) userAnswer = input.value.trim();
+            }
+
+            if (!userAnswer && exercise.type !== 'listening' && exercise.type !== 'reading') {
+                showToast('Please select or enter an answer', 'error');
+                return;
+            }
+
+            const isCorrect = (userAnswer && userAnswer.toLowerCase().trim() === exercise.correct.toLowerCase().trim());
+            const card = document.getElementById(`ex-${exerciseId}`);
+            const explanationDiv = document.getElementById(`explanation-${exerciseId}`);
+
+            if (isCorrect) {
+                card.classList.add('correct');
+                card.classList.remove('incorrect');
+                explanationDiv.innerHTML = `<div style="color: var(--success);">✅ Correct! ${exercise.explanation}</div>`;
+            } else {
+                card.classList.add('incorrect');
+                card.classList.remove('correct');
+                explanationDiv.innerHTML = `<div style="color: var(--danger);">❌ Incorrect. Correct answer: ${exercise.correct}<br>${exercise.explanation}</div>`;
+                mistakes.push({ id: exerciseId, topic: exercise.topic || 'general' });
+            }
+            explanationDiv.classList.add('show');
+
+            await evaluateDayScore();
+        }
+
+        async function evaluateDayScore() {
+            let total = currentLesson.exercises.length;
+            let correct = 0;
+            for (let ex of currentLesson.exercises) {
+                const explanationDiv = document.getElementById(`explanation-${ex.id}`);
+                if (explanationDiv && explanationDiv.innerHTML.includes('✅ Correct!')) {
+                    correct++;
+                }
+            }
+            const percentage = Math.round((correct / total) * 100);
+            document.getElementById('lessonProgress').style.width = `${(correct / total) * 100}%`;
+
+            if (percentage < 70 && mistakes.length > 0) {
+                showAdaptiveHint(mistakes);
+            }
+        }
+
+        function showAdaptiveHint(mistakesList) {
+            const weakTopics = [...new Set(mistakesList.map(m => m.topic).filter(t => t))];
+            if (weakTopics.length === 0) return;
+
+            let hintHtml = `<div class="adaptive-hint"><h4>💡 Need extra help?</h4><p>You scored below 70%. Focus on these topics:</p><ul>`;
+            weakTopics.forEach(topic => {
+                hintHtml += `<li><strong>${topic}</strong>: Review the grammar rule and vocabulary above.</li>`;
+            });
+            hintHtml += `<li>💡 Tip: Try the exercises again or review the theory.</li>`;
+            hintHtml += `</ul></div>`;
+
+            const container = document.getElementById('lessonContent');
+            if (!document.querySelector('.adaptive-hint')) {
+                container.insertAdjacentHTML('beforeend', hintHtml);
+            }
+        }
+
+        async function nextDay() {
+            let total = currentLesson.exercises.length;
+            let correct = 0;
+            for (let ex of currentLesson.exercises) {
+                const explanationDiv = document.getElementById(`explanation-${ex.id}`);
+                if (explanationDiv && explanationDiv.innerHTML.includes('✅ Correct!')) {
+                    correct++;
+                }
+            }
+            const percentage = Math.round((correct / total) * 100);
+            const weakTopics = [...new Set(mistakes.map(m => m.topic).filter(t => t))];
+
+            await fetch('/api/progress', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    week_id: weekId,
+                    day: dayNum,
+                    score: percentage,
+                    completed: percentage >= 70
+                })
+            } + `&session_id=${sessionId}`);
+
+            if (percentage < 70) {
+                showToast(`You scored ${percentage}%. You need at least 70% to proceed. Please review and try again.`, 'error');
+                return;
+            }
+
+            if (dayNum < 7) {
+                window.location.href = `/static/lesson.html?week=${weekId}&day=${dayNum + 1}`;
+            } else {
+                showToast('🎉 Congratulations! You completed the week!', 'success');
+                window.location.href = `/static/week.html?week=${weekId}`;
+            }
+        }
+
+        function prevDay() {
+            if (dayNum > 1) {
+                window.location.href = `/static/lesson.html?week=${weekId}&day=${dayNum - 1}`;
+            } else {
+                window.location.href = `/static/week.html?week=${weekId}`;
+            }
+        }
+
+        function speak(text) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-US';
+            utterance.rate = 0.9;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.createElement('div');
+            toast.textContent = message;
+            toast.className = `toast ${type}`;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 2000);
+        }
+
+        function toggleTheme() {
+            document.body.classList.toggle('dark');
+            localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+        }
+
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark');
+        }
+
+        loadLesson();
+    </script>
+</body>
+</html>

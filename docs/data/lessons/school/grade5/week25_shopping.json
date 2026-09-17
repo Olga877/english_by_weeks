@@ -1,0 +1,392 @@
+{
+    "week_id": "week25_shopping",
+    "title": "🛍️ Shopping (покупки) & Articles (a/an/the/zero) + Past Simple: was/were",
+    "description": "Учимся говорить о магазинах, покупках и использовать артикли и прошедшее время was/were. Мемы, шопинг и бюджет! 🛒",
+    "level": "5 класс",
+    "icon": "🛍️",
+    "order_num": 25,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Shops and Products",
+            "description": "Знакомимся с названиями магазинов и товаров",
+            "grammar": {
+                "title": "Shops and Products — Vocabulary",
+                "rule": "📘 **Магазины и что в них продаётся**:\n\n👟 **shoe shop** — обувной магазин (shoes)\n🧥 **clothes shop** — магазин одежды (clothes)\n📚 **bookshop** — книжный магазин (books)\n🧸 **toy shop** — магазин игрушек (toys)\n💐 **florist's** — цветочный магазин (flowers)\n🍞 **baker's** — булочная (bread, cakes)\n💊 **chemist's** — аптека (medicine)\n📰 **newsagent's** — газетный киоск (magazines, newspapers)\n📀 **music shop** — музыкальный магазин (music, instruments)\n☕ **cafe** — кафе (coffee, snacks)\n🍔 **fast food restaurant** — фаст-фуд (burgers, fries)\n\n📌 **Пример**:\nI want to buy a book. Let's go to the bookshop! 📚",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "👟", "word": "shoe shop", "transcription": "/ˈʃuː ʃɒp/", "translation": "обувной магазин", "example": "I buy trainers at the shoe shop.", "context_translation": "обувной магазин", "context_example": "Я покупаю кроссовки в обувном магазине."},
+                {"icon": "🧥", "word": "clothes shop", "transcription": "/kləʊðz ʃɒp/", "translation": "магазин одежды", "example": "She works in a clothes shop.", "context_translation": "магазин одежды", "context_example": "Она работает в магазине одежды."},
+                {"icon": "📚", "word": "bookshop", "transcription": "/ˈbʊkʃɒp/", "translation": "книжный магазин", "example": "I love going to the bookshop.", "context_translation": "книжный магазин", "context_example": "Я люблю ходить в книжный магазин."},
+                {"icon": "🧸", "word": "toy shop", "transcription": "/ˈtɔɪ ʃɒp/", "translation": "магазин игрушек", "example": "Children love the toy shop.", "context_translation": "магазин игрушек", "context_example": "Дети любят магазин игрушек."},
+                {"icon": "💐", "word": "florist's", "transcription": "/ˈflɒrɪsts/", "translation": "цветочный магазин", "example": "I buy flowers at the florist's.", "context_translation": "цветочный магазин", "context_example": "Я покупаю цветы в цветочном магазине."},
+                {"icon": "🍞", "word": "baker's", "transcription": "/ˈbeɪkəz/", "translation": "булочная", "example": "We buy bread at the baker's.", "context_translation": "булочная", "context_example": "Мы покупаем хлеб в булочной."},
+                {"icon": "💊", "word": "chemist's", "transcription": "/ˈkemɪsts/", "translation": "аптека", "example": "I go to the chemist's for medicine.", "context_translation": "аптека", "context_example": "Я хожу в аптеку за лекарствами."},
+                {"icon": "☕", "word": "cafe", "transcription": "/ˈkæfeɪ/", "translation": "кафе", "example": "We have coffee at the cafe.", "context_translation": "кафе", "context_example": "Мы пьём кофе в кафе."},
+                {"icon": "🍔", "word": "fast food restaurant", "transcription": "/ˌfɑːst ˈfuːd ˌrestrɒnt/", "translation": "ресторан быстрого питания", "example": "I eat burgers at the fast food restaurant.", "context_translation": "ресторан быстрого питания", "context_example": "Я ем бургеры в фаст-фуде."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Where can you buy bread? 🍞",
+                    "options": ["Shoe shop", "Clothes shop", "Baker's", "Florist's"],
+                    "correct": "Baker's",
+                    "accept": ["Baker's", "baker's", "BAKER'S"],
+                    "explanation": "You buy bread at the baker's! 🍞",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "You can buy flowers at the ___ . 💐",
+                    "correct": "florist's",
+                    "accept": ["florist's", "Florist's", "FLORIST'S"],
+                    "explanation": "Flowers at the florist's! 💐",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You can buy medicine at the shoe shop.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "You buy medicine at the chemist's, not the shoe shop! 💊",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Children love the ___ shop. 🧸 (toy / book)",
+                    "correct": "toy",
+                    "accept": ["toy", "Toy", "TOY"],
+                    "explanation": "Toy shop — магазин игрушек! 🧸",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "We have coffee at the ___ . ☕ (cafe / chemist's)",
+                    "correct": "cafe",
+                    "accept": ["cafe", "Cafe", "CAFE"],
+                    "explanation": "Coffee at the cafe! ☕",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Articles — a/an, the, zero article",
+            "description": "Учимся использовать артикли a/an, the и zero article",
+            "grammar": {
+                "title": "Articles: a/an, the, zero article",
+                "rule": "📘 **Когда использовать артикли**:\n\n📌 **a/an** — когда мы упоминаем предмет ВПЕРВЫЕ (неопределённый):\n✅ I see **a** shoe shop. (я вижу какой-то обувной магазин)\n✅ She has **an** orange. (у неё есть апельсин)\n\n📌 **the** — когда мы уже знаем, о чём идёт речь (определённый):\n✅ **The** shoe shop is next to the cafe. (тот самый магазин)\n\n📌 **zero article** — с неисчисляемыми или множественными существительными:\n✅ We buy **shoes** at Benny's. (нулевой артикль)\n\n📌 **Пример**:\nBenny's is a shoe shop. The shoe shop is next to Karen's.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📖", "word": "article", "transcription": "/ˈɑːtɪkl/", "translation": "артикль", "example": "There are three articles in English.", "context_translation": "артикль", "context_example": "В английском три артикля."},
+                {"icon": "🆕", "word": "first", "transcription": "/fɜːst/", "translation": "первый", "example": "First time — use a or an.", "context_translation": "первый", "context_example": "Первый раз — используй a или an."},
+                {"icon": "🔁", "word": "again", "transcription": "/əˈɡen/", "translation": "снова, опять", "example": "Next time — use the.", "context_translation": "снова", "context_example": "В следующий раз — используй the."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Benny's is ___ shoe shop. 👟",
+                    "options": ["a", "an", "the", "no article"],
+                    "correct": "a",
+                    "accept": ["a", "A"],
+                    "explanation": "First time → a shoe shop! 👟",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "___ shoe shop is next to Karen's. 👟",
+                    "options": ["A", "An", "The", "no article"],
+                    "correct": "The",
+                    "accept": ["The", "the"],
+                    "explanation": "We already know which shop → the shoe shop! 👟",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I see ___ bookshop. 📚 (a / the)",
+                    "correct": "a",
+                    "accept": ["a", "A"],
+                    "explanation": "First time → a bookshop! 📚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ bookshop is on the first floor. (A / The)",
+                    "correct": "The",
+                    "accept": ["The", "the"],
+                    "explanation": "We already know which shop → the bookshop! 📚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I buy a shoes at the shoe shop.",
+                    "correct": "I buy shoes at the shoe shop.",
+                    "accept": ["I buy shoes at the shoe shop", "I buy shoes at the shoe shop."],
+                    "explanation": "Shoes — plural → no article! 👟",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — was/were (Past Simple of 'to be')",
+            "description": "Учим прошедшее время глагола to be",
+            "grammar": {
+                "title": "was/were — Past Simple of 'to be'",
+                "rule": "📘 **Прошедшее время глагола to be**:\n\n📌 **was** — для I, he, she, it:\n✅ I **was** at the mall yesterday.\n✅ She **was** at the shoe shop.\n\n📌 **were** — для you, we, they:\n✅ You **were** at the cafe.\n✅ They **were** at the cinema.\n\n📌 **Отрицание**:\n❌ I **wasn't** at home.\n❌ They **weren't** at the park.\n\n📌 **Вопрос**:\n❓ **Were** you at the mall?\n❓ **Was** she at the shop?",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🕐", "word": "yesterday", "transcription": "/ˈjestədeɪ/", "translation": "вчера", "example": "I was at the mall yesterday.", "context_translation": "вчера", "context_example": "Я был в торговом центре вчера."},
+                {"icon": "🏢", "word": "mall", "transcription": "/mɔːl/", "translation": "торговый центр", "example": "We went to the mall.", "context_translation": "торговый центр", "context_example": "Мы пошли в торговый центр."},
+                {"icon": "🏠", "word": "home", "transcription": "/həʊm/", "translation": "домой, дома", "example": "I was at home yesterday.", "context_translation": "дом", "context_example": "Я был дома вчера."},
+                {"icon": "🎬", "word": "cinema", "transcription": "/ˈsɪnəmə/", "translation": "кинотеатр", "example": "We were at the cinema.", "context_translation": "кинотеатр", "context_example": "Мы были в кинотеатре."},
+                {"icon": "🐾", "word": "zoo", "transcription": "/zuː/", "translation": "зоопарк", "example": "Sam was at the zoo.", "context_translation": "зоопарк", "context_example": "Сэм был в зоопарке."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ at the mall yesterday. 🏢",
+                    "options": ["was", "were", "am", "are"],
+                    "correct": "was",
+                    "accept": ["was", "Was", "WAS"],
+                    "explanation": "I → was! 🏢",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "They ___ at the cinema last night. 🎬",
+                    "options": ["was", "were", "is", "are"],
+                    "correct": "were",
+                    "accept": ["were", "Were", "WERE"],
+                    "explanation": "They → were! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "She ___ at the shoe shop yesterday. 👟 (was / were)",
+                    "correct": "was",
+                    "accept": ["was", "Was", "WAS"],
+                    "explanation": "She → was! 👟",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We ___ at the cafe this morning. ☕ (was / were)",
+                    "correct": "were",
+                    "accept": ["were", "Were", "WERE"],
+                    "explanation": "We → were! ☕",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I were at the zoo yesterday.",
+                    "correct": "I was at the zoo yesterday.",
+                    "accept": ["I was at the zoo yesterday", "I was at the zoo yesterday."],
+                    "explanation": "I → was, not were! 🐾",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Shopping Dialogue",
+            "description": "Читаем диалог о покупках в торговом центре",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай диалог целиком, чтобы понять общий смысл.\n2️⃣ Найди, кто где был и что покупал.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на артикли и was/were!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "Where were Emma and Kelly yesterday? 🛍️",
+                    "options": ["At the cinema", "At the mall", "At the zoo", "At the bookshop"],
+                    "correct": "At the mall",
+                    "accept": ["At the mall", "at the mall", "the mall"],
+                    "explanation": "Emma says: 'I was at the mall yesterday with my mum.' 🛍️",
+                    "readingText": "🛍️ SHOPPING AT THE MALL 🛍️\n\nEmma and Kelly are at the shopping mall. Let's listen to their conversation!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👩 EMMA: Hi, Kelly! How are you?\n\n👩 KELLY: Hi, Emma! I'm well, thanks. What about you?\n\n👩 EMMA: I'm well too! Do you like my new shoes? I was at the mall yesterday with my mum. We were in Benny's shoe shop because there was a sale on.\n\n👩 KELLY: Oh! I love them! Were they expensive?\n\n👩 EMMA: No, they weren't. They were really cheap! Only £15!\n\n👩 KELLY: Were there any sandals in the sale?\n\n👩 EMMA: Yes, there were lots. Do you want to go to Benny's shoe shop together this afternoon?\n\n👩 KELLY: OK! We can have a snack at the Rainforest Cafe too.\n\n👩 EMMA: Good idea! I love the food there.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 QUESTIONS ABOUT THE DIALOGUE\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "Were Emma's new shoes expensive? 👟",
+                    "options": ["Yes, they were expensive.", "No, they weren't. They were cheap.", "We don't know.", "They were £50."],
+                    "correct": "No, they weren't. They were cheap.",
+                    "accept": ["No, they weren't. They were cheap.", "No, they weren't", "They were cheap"],
+                    "explanation": "Emma says: 'No, they weren't. They were really cheap! Only £15!' 👟",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Emma was at the mall with her dad.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Emma was at the mall with her MUM, not her dad! 👩",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Kelly wants to go to Benny's shoe shop.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Kelly says: 'OK! We can have a snack at the Rainforest Cafe too.' She agrees to go! 🛍️",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Emma was at the ___ yesterday with her mum. 🏢",
+                    "correct": "mall",
+                    "accept": ["mall", "Mall", "MALL"],
+                    "explanation": "Emma was at the mall yesterday with her mum! 🏢",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — was/were and Articles",
+            "description": "Тренируем was/were и артикли вместе",
+            "grammar": {
+                "title": "was/were and Articles — практика",
+                "rule": "📘 **Повторение**:\n\n📌 **was/were** (прошедшее время):\n✅ I **was** at the mall.\n✅ They **were** at the cinema.\n\n📌 **Артикли**:\n✅ I see **a** shoe shop.\n✅ **The** shoe shop is next to the cafe.\n✅ I buy **shoes** at the shop. (zero article)\n\n📌 **Пример**:\nI was at the mall yesterday. I bought shoes at Benny's. The shoes were very cheap! 🛍️",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ at the bookshop yesterday. 📚",
+                    "options": ["was", "were", "am", "are"],
+                    "correct": "was",
+                    "accept": ["was", "Was", "WAS"],
+                    "explanation": "I → was! 📚",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "___ you at the cinema last night? 🎬 — Yes, I was.",
+                    "correct": "Were",
+                    "accept": ["Were", "were", "WERE"],
+                    "explanation": "You → Were! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "I see a shoe shop. — First time → a shoe shop.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! First time → a shoe shop! 👟",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I buy ___ at the baker's. 🍞 (a bread / bread)",
+                    "correct": "bread",
+                    "accept": ["bread", "Bread", "BREAD"],
+                    "explanation": "Bread — uncountable → no article! 🍞",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "She were at the cafe yesterday.",
+                    "correct": "She was at the cafe yesterday.",
+                    "accept": ["She was at the cafe yesterday", "She was at the cafe yesterday."],
+                    "explanation": "She → was, not were! ☕",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — My Favourite Shop",
+            "description": "Пишем о любимом магазине",
+            "grammar": {
+                "title": "Повторение: магазины, артикли, was/were",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What is your favourite shop? (Какой твой любимый магазин?)\n2️⃣ What does it sell? (Что там продают?)\n3️⃣ Where is it? (Где он находится?)\n4️⃣ When were you there last? (Когда ты был там в последний раз?)\n5️⃣ Why do you like it? (Почему тебе нравится этот магазин?)\n\n📌 **Пример**:\nMy favourite shop is Topshop. It's a clothes shop. It sells dresses, T-shirts and jeans. It's near the cafe. I was there last Friday. I bought a T-shirt. I like it because the clothes are cool! 🛍️",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "My favourite shop is ___ . (напиши название)",
+                    "correct": "Topshop",
+                    "accept": ["Topshop", "Zara", "H&M", "Chanel", "Nike", "Adidas", "Puma", "Reebok"],
+                    "explanation": "Как называется твой любимый магазин? 🛍️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's a ___ shop. (clothes / book / shoe)",
+                    "correct": "clothes",
+                    "accept": ["clothes", "book", "shoe", "toy", "music", "flower"],
+                    "explanation": "Какой это магазин? 👕📚👟",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "It's ___ the cafe. (near / at)",
+                    "correct": "near",
+                    "accept": ["near", "near", "next to", "opposite"],
+                    "explanation": "Где находится магазин? 📍",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ there last weekend. (was / were)",
+                    "correct": "was",
+                    "accept": ["was", "Was", "WAS"],
+                    "explanation": "I → was! 🕐",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like it because ___ . (напиши причину)",
+                    "correct": "the clothes are cool",
+                    "accept": ["the clothes are cool", "the prices are good", "the staff is friendly", "it has nice clothes", "it's near my house"],
+                    "explanation": "Почему тебе нравится этот магазин? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

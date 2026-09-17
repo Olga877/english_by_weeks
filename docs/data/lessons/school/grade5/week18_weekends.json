@@ -1,0 +1,393 @@
+{
+    "week_id": "week18_weekends",
+    "title": "🎮 Weekends (выходные) & Present Simple vs Present Continuous",
+    "description": "Учимся говорить о том, что мы делаем обычно и что делаем прямо сейчас. Мемы, игры и выходные с пользой! 🎮",
+    "level": "5 класс",
+    "icon": "🎮",
+    "order_num": 18,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Weekend Activities",
+            "description": "Что мы делаем на выходных? Учим слова и фразы",
+            "grammar": {
+                "title": "Weekend Activities — Vocabulary",
+                "rule": "📘 **Что мы делаем на выходных?**\n\n🏠 **stay at home** — оставаться дома\n🛍️ **go shopping** — ходить за покупками\n🎬 **watch a film** — смотреть фильм\n🎮 **play video games** — играть в видеоигры\n📚 **read a book** — читать книгу\n🚴 **ride a bike** — кататься на велосипеде\n🏊 **go swimming** — ходить плавать\n🎂 **meet friends** — встречаться с друзьями\n\n🎯 **Мем**:\n'What do you do at the weekend?'\n'I sleep. That's my plan.' 😴",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🏠", "word": "stay at home", "transcription": "/steɪ æt həʊm/", "translation": "оставаться дома", "example": "On rainy days, I stay at home.", "context_translation": "оставаться дома", "context_example": "В дождливые дни я остаюсь дома."},
+                {"icon": "🛍️", "word": "go shopping", "transcription": "/ɡəʊ ˈʃɒpɪŋ/", "translation": "ходить за покупками", "example": "Mum and I go shopping on Saturdays.", "context_translation": "ходить за покупками", "context_example": "Мы с мамой ходим за покупками по субботам."},
+                {"icon": "🎬", "word": "watch a film", "transcription": "/wɒtʃ ə fɪlm/", "translation": "смотреть фильм", "example": "We watch a film on Sunday evenings.", "context_translation": "смотреть фильм", "context_example": "Мы смотрим фильм по воскресеньям вечером."},
+                {"icon": "🎮", "word": "play video games", "transcription": "/pleɪ ˈvɪdiəʊ ɡeɪmz/", "translation": "играть в видеоигры", "example": "I play video games with my friends.", "context_translation": "играть в видеоигры", "context_example": "Я играю в видеоигры с друзьями."},
+                {"icon": "📚", "word": "read a book", "transcription": "/riːd ə bʊk/", "translation": "читать книгу", "example": "I read a book before bed.", "context_translation": "читать книгу", "context_example": "Я читаю книгу перед сном."},
+                {"icon": "🚴", "word": "ride a bike", "transcription": "/raɪd ə baɪk/", "translation": "кататься на велосипеде", "example": "I ride my bike in the park.", "context_translation": "кататься на велосипеде", "context_example": "Я катаюсь на велосипеде в парке."},
+                {"icon": "🏊", "word": "go swimming", "transcription": "/ɡəʊ ˈswɪmɪŋ/", "translation": "ходить плавать", "example": "We go swimming every Sunday.", "context_translation": "ходить плавать", "context_example": "Мы ходим плавать каждое воскресенье."},
+                {"icon": "🎂", "word": "meet friends", "transcription": "/miːt frendz/", "translation": "встречаться с друзьями", "example": "I meet my friends at the weekend.", "context_translation": "встречаться с друзьями", "context_example": "Я встречаюсь с друзьями на выходных."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you do when it's rainy? ☔",
+                    "options": ["Go swimming", "Ride a bike", "Stay at home", "Go shopping"],
+                    "correct": "Stay at home",
+                    "accept": ["Stay at home", "stay at home", "STAY AT HOME"],
+                    "explanation": "When it's rainy, many people STAY AT HOME! 🏠",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I ___ shopping with my mum. (go / stay)",
+                    "correct": "go",
+                    "accept": ["go", "Go", "GO"],
+                    "explanation": "Go shopping — ходить за покупками! 🛍️",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "You ride a bike with your friends. 🚴",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! You ride a bike with friends! 🚴",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ friends at the weekend. (meet / read)",
+                    "correct": "meet",
+                    "accept": ["meet", "Meet", "MEET"],
+                    "explanation": "Meet friends — встречаться с друзьями! 🎂",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I go swim every Sunday.",
+                    "correct": "I go swimming every Sunday.",
+                    "accept": ["I go swimming every Sunday", "I go swimming on Sunday"],
+                    "explanation": "Go SWIMMING — нужно -ing! 🏊",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Present Simple vs Present Continuous",
+            "description": "Учимся различать обычные действия и действия сейчас",
+            "grammar": {
+                "title": "Present Simple vs Present Continuous",
+                "rule": "📘 **Когда использовать каждое время**:\n\n📌 **Present Simple** — для обычных, повторяющихся действий:\n✅ I usually play football on Saturdays.\n✅ She always reads before bed.\n\n📌 **Present Continuous** — для действий, происходящих прямо сейчас:\n✅ I am playing football right now.\n✅ She is reading a book at the moment.\n\n🎯 **Ключевые слова**:\n• Present Simple: usually, always, sometimes, never, often, every day\n• Present Continuous: now, right now, at the moment\n\n🎯 **Мем**:\n'I usually do homework. But right now I am scrolling TikTok.' 📱",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🔄", "word": "usually", "transcription": "/ˈjuːʒuəli/", "translation": "обычно", "example": "I usually get up at 8 am.", "context_translation": "обычно", "context_example": "Я обычно встаю в 8 утра."},
+                {"icon": "🕐", "word": "now", "transcription": "/naʊ/", "translation": "сейчас", "example": "I am doing homework now.", "context_translation": "сейчас", "context_example": "Я сейчас делаю уроки."},
+                {"icon": "🔄", "word": "always", "transcription": "/ˈɔːlweɪz/", "translation": "всегда", "example": "I always brush my teeth.", "context_translation": "всегда", "context_example": "Я всегда чищу зубы."},
+                {"icon": "⏰", "word": "never", "transcription": "/ˈnevər/", "translation": "никогда", "example": "I never wake up late on weekdays.", "context_translation": "никогда", "context_example": "Я никогда не просыпаюсь поздно по будням."},
+                {"icon": "📅", "word": "every day", "transcription": "/ˈevri deɪ/", "translation": "каждый день", "example": "I study English every day.", "context_translation": "каждый день", "context_example": "Я учу английский каждый день."},
+                {"icon": "🔄", "word": "sometimes", "transcription": "/ˈsʌmtaɪmz/", "translation": "иногда", "example": "I sometimes cook breakfast.", "context_translation": "иногда", "context_example": "Я иногда готовлю завтрак."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What do you usually do at the weekend? 🎮",
+                    "options": ["I am playing video games.", "I play video games.", "I playing video games.", "I usually play video games."],
+                    "correct": "I usually play video games.",
+                    "accept": ["I usually play video games", "I usually play video games."],
+                    "explanation": "Usually = Present Simple! 🎮",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Right now, I ___ (watch) TV. 📺",
+                    "correct": "am watching",
+                    "accept": ["am watching", "Am watching", "AM WATCHING"],
+                    "explanation": "Right now = Present Continuous! 📺",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I am watching TV' means it's a habit.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Am watching = action happening NOW, not a habit! 📺",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I ___ (usually / play) football on Saturdays. ⚽",
+                    "correct": "usually play",
+                    "accept": ["usually play", "Usually play", "USUALLY PLAY"],
+                    "explanation": "Usually = Present Simple! I usually play! ⚽",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I am usually play video games.",
+                    "correct": "I usually play video games.",
+                    "accept": ["I usually play video games", "I usually play video games."],
+                    "explanation": "Usually = Present Simple! Без am! 🎮",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: What is Everyone Doing Now?",
+            "description": "Учимся описывать, что делают люди в данный момент",
+            "grammar": {
+                "title": "Present Continuous — описание действий сейчас",
+                "rule": "📘 **Как описать, что происходит сейчас**:\n\n📌 **Структура**:\n✅ [to be] + [глагол + -ing]\n\n📝 **Примеры**:\n✅ Mum is cooking dinner.\n✅ Dad is reading a book.\n✅ My sister is playing with her toys.\n✅ I am doing my homework.\n\n🎯 **Вопросы**:\n❓ What is Mum doing? — She is cooking.\n❓ Are you doing your homework? — Yes, I am.\n\n🎯 **Мем**:\n'What are you doing?'\n'I am pretending to do homework. But actually I'm on TikTok.' 😅",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍳", "word": "cook dinner", "transcription": "/kʊk ˈdɪnər/", "translation": "готовить ужин", "example": "Mum is cooking dinner right now.", "context_translation": "готовить ужин", "context_example": "Мама сейчас готовит ужин."},
+                {"icon": "📰", "word": "read a newspaper", "transcription": "/riːd ə ˈnjuːzpeɪpər/", "translation": "читать газету", "example": "Dad is reading a newspaper.", "context_translation": "читать газету", "context_example": "Папа читает газету."},
+                {"icon": "🧸", "word": "play with toys", "transcription": "/pleɪ wɪð tɔɪz/", "translation": "играть с игрушками", "example": "My sister is playing with her toys.", "context_translation": "играть с игрушками", "context_example": "Моя сестра играет с игрушками."},
+                {"icon": "📚", "word": "do homework", "transcription": "/duː ˈhəʊmwɜːk/", "translation": "делать уроки", "example": "I am doing my homework.", "context_translation": "делать уроки", "context_example": "Я делаю уроки."},
+                {"icon": "🎮", "word": "play games", "transcription": "/pleɪ ɡeɪmz/", "translation": "играть в игры", "example": "The boys are playing games.", "context_translation": "играть в игры", "context_example": "Мальчики играют в игры."},
+                {"icon": "😴", "word": "sleep", "transcription": "/sliːp/", "translation": "спать", "example": "The cat is sleeping on the sofa.", "context_translation": "спать", "context_example": "Кошка спит на диване."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is Mum doing? 🍳",
+                    "options": ["She cooks dinner.", "She is cooking dinner.", "She is cook dinner.", "She cooking dinner."],
+                    "correct": "She is cooking dinner.",
+                    "accept": ["She is cooking dinner", "She's cooking dinner"],
+                    "explanation": "Right now = Present Continuous! She is cooking! 👩‍🍳",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The cat ___ (sleep) on the sofa. 🐱",
+                    "correct": "is sleeping",
+                    "accept": ["is sleeping", "Is sleeping", "IS SLEEPING"],
+                    "explanation": "The cat is sleeping — кот спит прямо сейчас! 🐱💤",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'I am doing homework' means I do homework every day.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "I am doing = ПРЯМО СЕЙЧАС, а не каждый день! 📚",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Dad ___ (read) a newspaper. 📰",
+                    "correct": "is reading",
+                    "accept": ["is reading", "Is reading", "IS READING"],
+                    "explanation": "Dad is reading — папа читает прямо сейчас! 📰",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "The boys are play games.",
+                    "correct": "The boys are playing games.",
+                    "accept": ["The boys are playing games", "The boys are playing games."],
+                    "explanation": "Нужно playING! Present Continuous! 🎮",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — A Typical Weekend",
+            "description": "Читаем текст о том, что люди делают на выходных",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай текст целиком, чтобы понять общий смысл.\n2️⃣ Обрати внимание: что делают ОБЫЧНО (Present Simple), а что ПРЯМО СЕЙЧАС (Present Continuous).\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Смотри на ключевые слова!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is the family doing right now? 🎬",
+                    "options": ["They are playing games.", "They are watching a film.", "They are having dinner.", "They are sleeping."],
+                    "correct": "They are watching a film.",
+                    "accept": ["They are watching a film", "They're watching a film"],
+                    "explanation": "The family is watching a film together right now! 🎬",
+                    "readingText": "🌟 A TYPICAL WEEKEND WITH THE JOHNSON FAMILY 🌟\n\nIt's Saturday morning. Everyone is doing their own thing.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🕘 9 AM — SATURDAY MORNING\n\nMum is in the living room. She is drinking coffee and reading a magazine. She usually reads magazines on Saturday mornings. ☕\n\nDad is in the garden. He is planting flowers. He always plants flowers in spring. 🌷\n\nLeo is in his room. He is playing video games. He usually plays video games on Saturday mornings. 🎮\n\nMia is in her room too. She is drawing. She often draws pictures of animals. 🎨\n\nLuna the cat is sleeping on Leo's bed. She always sleeps there. 🐱\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🕒 3 PM — SATURDAY AFTERNOON\n\nNow the family is together! They are having a picnic in the park. It's a beautiful sunny day. 🌞\n\nMum is making sandwiches. Dad is playing football with Leo and Mia. They are having fun!\n\nLuna is not with them. She is at home, sleeping as usual. 🐱💤\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n🕗 8 PM — SATURDAY EVENING\n\nThe family is back home. They are watching a film together. It's a comedy. Everyone is laughing. 🎬\n\nMum is eating popcorn. Dad is drinking tea. Leo and Mia are fighting over the remote control.\n\n'Give me the remote!' Leo says.\n\n'No! It's my turn!' Mia says.\n\nThis is a typical Saturday evening in the Johnson house. 😅\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n💬 WHAT ABOUT YOU?\nWhat do you usually do on weekends? What are you doing right now? 👇",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What does Mum usually do on Saturday mornings? ☕",
+                    "options": ["She plants flowers.", "She reads magazines.", "She plays video games.", "She draws pictures."],
+                    "correct": "She reads magazines.",
+                    "accept": ["She reads magazines", "She reads magazines."],
+                    "explanation": "Mum usually reads magazines on Saturday mornings! ☕",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "The family is having a picnic on Sunday.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "They are having a picnic on SATURDAY afternoon! 🌞",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Leo and Mia are fighting over the remote control.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! 'Leo and Mia are fighting over the remote control.' 😅",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The family is watching a ___ . 🎬",
+                    "correct": "film",
+                    "accept": ["film", "Film", "FILM", "movie", "comedy"],
+                    "explanation": "They are watching a film! 🎬",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Present Simple vs Present Continuous Practice",
+            "description": "Тренируемся выбирать правильное время",
+            "grammar": {
+                "title": "Present Simple vs Present Continuous — практика",
+                "rule": "📘 **Когда какое время использовать**:\n\n📌 **Present Simple** (обычные действия):\n✅ I always read before bed.\n✅ She usually goes to school by bus.\n\n📌 **Present Continuous** (прямо сейчас):\n✅ I am reading a book right now.\n✅ She is going to school at the moment.\n\n🎯 **Ключевые слова-помощники**:\n• always, usually, often, sometimes, never, every day → Present Simple\n• now, right now, at the moment → Present Continuous",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ to music every day. 🎵",
+                    "options": ["listen", "listening", "am listening", "listens"],
+                    "correct": "listen",
+                    "accept": ["listen", "Listen", "LISTEN"],
+                    "explanation": "Every day = Present Simple! I listen! 🎵",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Right now, I ___ (listen) to music. 🎧",
+                    "correct": "am listening",
+                    "accept": ["am listening", "Am listening", "AM LISTENING"],
+                    "explanation": "Right now = Present Continuous! I am listening! 🎧",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "'She is usually sleeping' is correct.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Usually = Present Simple! 'She usually sleeps'! 😴",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "They ___ (watch) a film right now. 🎬",
+                    "correct": "are watching",
+                    "accept": ["are watching", "Are watching", "ARE WATCHING"],
+                    "explanation": "Right now = Present Continuous! They are watching! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "He is always play football on Sundays.",
+                    "correct": "He always plays football on Sundays.",
+                    "accept": ["He always plays football on Sundays", "He always plays football on Sundays."],
+                    "explanation": "Always = Present Simple! He plays, not is playing! ⚽",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — What I Do on Weekends",
+            "description": "Пишем текст о своих выходных",
+            "grammar": {
+                "title": "Повторение: выходные и два времени",
+                "rule": "📚 **План для письма**:\n\n1️⃣ Что ты обычно делаешь на выходных? (Present Simple)\n2️⃣ Что ты делаешь прямо сейчас? (Present Continuous)\n3️⃣ Используй слова-помощники: usually, sometimes, now, right now\n4️⃣ Добавь детали: с кем, где, почему\n\n🎯 **Пример**:\nI usually wake up late on weekends. I often play video games with my friends. But right now, I am doing my homework. I am not having fun! 😅",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "I usually ___ (wake up / sleep) late on weekends.",
+                    "correct": "wake up",
+                    "accept": ["wake up", "Wake up", "WAKE UP"],
+                    "explanation": "Usually = Present Simple! I wake up late! 😴",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I often play video games with my ___ . (напиши с кем)",
+                    "correct": "friends",
+                    "accept": ["friends", "brother", "sister", "cousin", "classmates"],
+                    "explanation": "С кем ты играешь в игры? 🎮",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Right now, I ___ (write) my homework.",
+                    "correct": "am writing",
+                    "accept": ["am writing", "Am writing", "AM WRITING"],
+                    "explanation": "Right now = Present Continuous! I am writing! ✍️",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "I am not having ___ . (fun / homework)",
+                    "correct": "fun",
+                    "accept": ["fun", "Fun", "FUN"],
+                    "explanation": "Не весело, когда делаешь уроки! 😅",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I like weekends because I can ___ . (напиши что-то своё)",
+                    "correct": "relax",
+                    "accept": ["relax", "sleep", "play", "rest", "have fun", "meet friends"],
+                    "explanation": "За что ты любишь выходные? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,243 @@
+{
+    "week_id": "week5_personal_things",
+    "title": "🎒 Personal Things & This / That / These / Those",
+    "description": "Учим личные вещи, множественное число и указательные местоимения this/these - that/those с юмором. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🎒",
+    "order_num": 5,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: What's in your school bag?",
+            "description": "Учим названия личных вещей и школьных принадлежностей",
+            "grammar": {
+                "title": "Personal Things — Vocabulary",
+                "rule": "Вот основные вещи, которые есть у каждого школьника:\n\n📱 smartphone — смартфон\n🎧 headphones — наушники\n🪪 ID card — пропуск в школу\n💳 bus pass — проездной\n🔑 key — ключ\n💰 wallet — кошелёк\n🕶️ sunglasses — солнечные очки\n⌚ watch — часы\n🔋 power bank — пауэрбанк (зарядка для телефона)\n💄 lip balm — гигиеническая помада\n\n🎯 Вопрос: What's in your school bag? — Что у тебя в рюкзаке?",
+                "examples": [
+                    "Leo: 'I have got a smartphone, headphones and a power bank. My phone is always at 3%!' 📱🔋",
+                    "Mia: 'She has got a lip balm, sunglasses and a watch.' 🕶️⌚💄",
+                    "Sam: 'I have got a wallet... with no money inside. Sad!' 😭💰"
+                ],
+                "keywords": "smartphone, headphones, wallet, watch, power bank, lip balm, school bag"
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "smartphone", "transcription": "/ˈsmɑːt.fəʊn/", "translation": "смартфон", "example": "My smartphone is at 3%. Help!", "context_translation": "смартфон", "context_example": "У моего смартфона 3% заряда. Помогите!"},
+                {"icon": "🎧", "word": "headphones", "transcription": "/ˈhed.fəʊnz/", "translation": "наушники", "example": "I can't live without my headphones.", "context_translation": "наушники", "context_example": "Я не могу жить без наушников."},
+                {"icon": "💰", "word": "wallet", "transcription": "/ˈwɒl.ɪt/", "translation": "кошелёк", "example": "My wallet is empty. Sad story.", "context_translation": "кошелёк", "context_example": "Мой кошелёк пуст. Грустная история."},
+                {"icon": "⌚", "word": "watch", "transcription": "/wɒtʃ/", "translation": "часы", "example": "I look at my watch 100 times during Maths.", "context_translation": "часы", "context_example": "Я смотрю на часы 100 раз за математику."},
+                {"icon": "🔋", "word": "power bank", "transcription": "/ˈpaʊ.ə bæŋk/", "translation": "пауэрбанк", "example": "My power bank saves my phone every day.", "context_translation": "пауэрбанк", "context_example": "Мой пауэрбанк спасает мой телефон каждый день."},
+                {"icon": "🪪", "word": "ID card", "transcription": "/ˌaɪ ˈdiː kɑːd/", "translation": "пропуск", "example": "Don't forget your ID card!", "context_translation": "пропуск", "context_example": "Не забудь свой пропуск!"},
+                {"icon": "💳", "word": "bus pass", "transcription": "/ˈbʌs pɑːs/", "translation": "проездной", "example": "I lost my bus pass again!", "context_translation": "проездной", "context_example": "Я снова потерял проездной!"},
+                {"icon": "🕶️", "word": "sunglasses", "transcription": "/ˈsʌnˌɡlɑː.sɪz/", "translation": "солнечные очки", "example": "I wear sunglasses even when it's cloudy. Cool factor.", "context_translation": "солнечные очки", "context_example": "Я ношу солнечные очки, даже когда пасмурно. Ради крутости."},
+                {"icon": "💄", "word": "lip balm", "transcription": "/ˈlɪp bɑːm/", "translation": "гигиеническая помада", "example": "My lips are dry. I need lip balm!", "context_translation": "гигиеническая помада", "context_example": "У меня сухие губы. Мне нужна гигиеническая помада!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What do you use to listen to music without disturbing others? 🎧", "options": ["Smartphone", "Headphones", "Wallet", "Watch"], "correct": "Headphones", "explanation": "Headphones — наушники. Спаси соседа по парте! 🎧", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you need when your phone battery is low? 🔋", "options": ["Smartphone", "Headphones", "Power bank", "Wallet"], "correct": "Power bank", "explanation": "Power bank — пауэрбанк. Спасатель телефонов! 🔋", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "I need a ___ to charge my phone. (power bank / wallet)", "correct": "power bank", "explanation": "Power bank заряжает телефон. Wallet хранит деньги (или не хранит... 😅)", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "My ___ is empty. I have no money. 💰", "correct": "wallet", "explanation": "Wallet — кошелёк. Пустой кошелёк = грустный школьник.", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "Sunglasses are for protecting your eyes from the sun. 🕶️", "correct": "True", "explanation": "Yes! Sunglasses — солнечные очки. И для крутости тоже!", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Plurals — one, many",
+            "description": "Учим правила образования множественного числа",
+            "grammar": {
+                "title": "Plurals — Множественное число",
+                "rule": "В английском языке, когда предметов много (больше одного), мы добавляем окончание -s или -es.\n\n📌 Правила:\n✅ Большинство слов: +s → phone → phones, pen → pens\n✅ Слова на -s, -ss, -sh, -ch, -x, -o: +es → bus → buses, watch → watches, box → boxes, tomato → tomatoes\n✅ Слова на -y (согласная + y): y → i + es → baby → babies, party → parties\n✅ Слова на -f/-fe: f → v + es → leaf → leaves, knife → knives\n\n📌 Исключения (их нужно запомнить!):\n• man → men (мужчина → мужчины)\n• woman → women (женщина → женщины)\n• child → children (ребёнок → дети)\n• tooth → teeth (зуб → зубы)\n• foot → feet (стопа → стопы)\n• mouse → mice (мышь → мыши)\n• person → people (человек → люди)",
+                "examples": [
+                    "one phone → two phones 📱📱",
+                    "one watch → three watches ⌚⌚⌚",
+                    "one child → many children 👶👧🧒",
+                    "one person → five people 🧑🧑🧑🧑🧑"
+                ],
+                "keywords": "plurals, -s, -es, children, men, women, people"
+            },
+            "vocabulary": [
+                {"icon": "⌚", "word": "watch", "transcription": "/wɒtʃ/", "translation": "часы", "example": "I have two watches.", "context_translation": "часы", "context_example": "У меня двое часов."},
+                {"icon": "⌚⌚", "word": "watches", "transcription": "/ˈwɒtʃ.ɪz/", "translation": "часы (мн.ч.)", "example": "I have three watches.", "context_translation": "часы", "context_example": "У меня трое часов."},
+                {"icon": "👶", "word": "child", "transcription": "/tʃaɪld/", "translation": "ребёнок", "example": "One child is sleeping.", "context_translation": "ребёнок", "context_example": "Один ребёнок спит."},
+                {"icon": "👶👧🧒", "word": "children", "transcription": "/ˈtʃɪl.drən/", "translation": "дети", "example": "The children are playing.", "context_translation": "дети", "context_example": "Дети играют."},
+                {"icon": "👨", "word": "man", "transcription": "/mæn/", "translation": "мужчина", "example": "One man is running.", "context_translation": "мужчина", "context_example": "Один мужчина бежит."},
+                {"icon": "👨👨", "word": "men", "transcription": "/men/", "translation": "мужчины", "example": "Two men are running.", "context_translation": "мужчины", "context_example": "Два мужчины бегут."},
+                {"icon": "👩", "word": "woman", "transcription": "/ˈwʊm.ən/", "translation": "женщина", "example": "One woman is singing.", "context_translation": "женщина", "context_example": "Одна женщина поёт."},
+                {"icon": "👩👩", "word": "women", "transcription": "/ˈwɪm.ɪn/", "translation": "женщины", "example": "Two women are singing.", "context_translation": "женщины", "context_example": "Две женщины поют."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is the plural of 'watch'? ⌚", "options": ["watchs", "watches", "watchies", "watchves"], "correct": "watches", "explanation": "watch → watches (слова на -ch добавляют -es)", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "What is the plural of 'child'? 👶", "options": ["childs", "childes", "children", "childern"], "correct": "children", "explanation": "child → children (исключение! Запомни!)", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "One woman, two ___ . 👩👩", "correct": "women", "explanation": "woman → women (особое исключение)", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "One man, three ___ . 👨👨👨", "correct": "men", "explanation": "man → men (особое исключение)", "topic": "grammar"},
+                {"id": 5, "type": "fill_blank", "question": "I have two ___ (watch).", "correct": "watches", "explanation": "watch → watches (добавляем -es)", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: This/These — That/Those",
+            "description": "Учим указательные местоимения: этот, эти, тот, те",
+            "grammar": {
+                "title": "This/These — That/Those",
+                "rule": "Указательные местоимения показывают, ГДЕ находится предмет.\n\n📌 this — этот (один предмет, рядом): 'This is my phone.' 📱\n📌 these — эти (много предметов, рядом): 'These are my keys.' 🔑🔑\n📌 that — тот (один предмет, далеко): 'That is your house over there.' 🏠\n📌 those — те (много предметов, далеко): 'Those are your friends across the street.' 👥\n\n🎯 Лайфхак: this/these = здесь (рядом), that/those = там (далеко).\n🎯 Мем: 'This is my homework (рядом). That is my motivation (далеко, очень далеко).' 😂",
+                "examples": [
+                    "Leo holds his phone: 'This is my smartphone.' 📱",
+                    "Mia points to her collection: 'These are my key rings.' 🔑🔑",
+                    "Sam points to the school across the street: 'That is our school.' 🏫",
+                    "Leo points to some kids far away: 'Those are my friends from class 5B.' 👥"
+                ],
+                "keywords": "this, these, that, those, near, far"
+            },
+            "vocabulary": [
+                {"icon": "🖊️", "word": "pen", "transcription": "/pen/", "translation": "ручка", "example": "This is my pen.", "context_translation": "ручка", "context_example": "Это моя ручка."},
+                {"icon": "🖊️🖊️", "word": "pens", "transcription": "/penz/", "translation": "ручки", "example": "These are my pens.", "context_translation": "ручки", "context_example": "Это мои ручки."},
+                {"icon": "✏️", "word": "pencil", "transcription": "/ˈpen.səl/", "translation": "карандаш", "example": "That is my pencil.", "context_translation": "карандаш", "context_example": "То мой карандаш."},
+                {"icon": "✏️✏️", "word": "pencils", "transcription": "/ˈpen.səlz/", "translation": "карандаши", "example": "Those are my pencils.", "context_translation": "карандаши", "context_example": "Те мои карандаши."},
+                {"icon": "🔑", "word": "key", "transcription": "/kiː/", "translation": "ключ", "example": "This key opens my locker.", "context_translation": "ключ", "context_example": "Этот ключ открывает мой шкафчик."},
+                {"icon": "🔑🔑", "word": "keys", "transcription": "/kiːz/", "translation": "ключи", "example": "These are my house keys.", "context_translation": "ключи", "context_example": "Это мои ключи от дома."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "You are holding your phone. What do you say? 📱", "options": ["This is my phone.", "That is my phone.", "These are my phones.", "Those are my phones."], "correct": "This is my phone.", "explanation": "Предмет рядом (в руке) — this!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "You see a school across the street. What do you say? 🏫", "options": ["This is my school.", "That is my school.", "These are my schools.", "Those are my schools."], "correct": "That is my school.", "explanation": "Предмет далеко — that!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ are my keys. (рядом, много)", "correct": "These", "explanation": "These — для предметов рядом во множественном числе", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ is my pencil. (далеко, один)", "correct": "That", "explanation": "That — для одного предмета далеко", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "These is my phone.", "correct": "This is my phone.", "explanation": "These для множественного числа, phone — один. Нужно This is my phone.", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Personal things + plurals + this/these",
+            "description": "Соединяем всё вместе",
+            "grammar": {
+                "title": "All together: Things + Plurals + This/These/That/Those",
+                "rule": "Теперь мы можем описывать предметы вокруг нас!\n\n📌 Рядом, один: 'This is my smartphone.' 📱\n📌 Рядом, много: 'These are my headphones.' 🎧🎧\n📌 Далеко, один: 'That is my house.' 🏠\n📌 Далеко, много: 'Those are my friends.' 👥\n\n🎯 Структура: [This/These/That/Those] + [to be] + [предмет(ы)]\n\n🎯 Мем: 'This is my homework (рядом). That is my free time (далеко).' 😂",
+                "examples": [
+                    "Leo: 'This is my power bank. My phone thanks me every day.' 🔋📱",
+                    "Mia: 'These are my sunglasses. I wear them even in November.' 🕶️❄️",
+                    "Sam: 'That is my lost wallet over there. Finally!' 💰🎉",
+                    "Leo: 'Those are my report cards from last year. We don't talk about them.' 📋😅"
+                ],
+                "keywords": "this, these, that, those, plurals, personal things"
+            },
+            "vocabulary": [
+                {"icon": "💻", "word": "laptop", "transcription": "/ˈlæp.tɒp/", "translation": "ноутбук", "example": "This is my laptop.", "context_translation": "ноутбук", "context_example": "Это мой ноутбук."},
+                {"icon": "💻💻", "word": "laptops", "transcription": "/ˈlæp.tɒps/", "translation": "ноутбуки", "example": "These are our laptops.", "context_translation": "ноутбуки", "context_example": "Это наши ноутбуки."},
+                {"icon": "📖", "word": "textbook", "transcription": "/ˈtekst.bʊk/", "translation": "учебник", "example": "That is my textbook.", "context_translation": "учебник", "context_example": "То мой учебник."},
+                {"icon": "📖📖", "word": "textbooks", "transcription": "/ˈtekst.bʊks/", "translation": "учебники", "example": "Those are my textbooks.", "context_translation": "учебники", "context_example": "Те мои учебники."},
+                {"icon": "🧢", "word": "cap", "transcription": "/kæp/", "translation": "кепка", "example": "This is my favourite cap.", "context_translation": "кепка", "context_example": "Это моя любимая кепка."},
+                {"icon": "🧢🧢", "word": "caps", "transcription": "/kæps/", "translation": "кепки", "example": "These are my caps.", "context_translation": "кепки", "context_example": "Это мои кепки."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Your smartphone is in your hand. What do you say? 📱", "options": ["This is my smartphone.", "That is my smartphone.", "These are my smartphones.", "Those are my smartphones."], "correct": "This is my smartphone.", "explanation": "Рядом, один предмет — this!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Your friend's house is far away. What do you say? 🏠", "options": ["This is my friend's house.", "That is my friend's house.", "These are my friend's houses.", "Those are my friend's houses."], "correct": "That is my friend's house.", "explanation": "Далеко, один дом — that!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ are my headphones. (рядом, много) 🎧🎧", "correct": "These", "explanation": "These — для предметов рядом во множественном числе", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ is my textbook. (далеко, один) 📖", "correct": "That", "explanation": "That — для одного предмета далеко", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "Those is my cap.", "correct": "That is my cap.", "explanation": "Those для множественного числа, cap — один. Нужно That is my cap.", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — All together",
+            "description": "Повторяем всё: вещи, множественное число, this/these/that/those",
+            "grammar": {
+                "title": "Revision: Personal things + Plurals + This/These/That/Those",
+                "rule": "Сегодня проверяем себя! 🎯\n\n📌 Личные вещи: smartphone, headphones, wallet, watch, power bank, ID card, bus pass, sunglasses, lip balm\n📌 Множественное число: -s, -es, исключения (children, men, women, people, teeth, feet)\n📌 Указательные местоимения:\n• this — рядом, один\n• these — рядом, много\n• that — далеко, один\n• those — далеко, много\n\n🎯 Вопросы: What's in your bag? Is this your phone? Are those your friends?",
+                "examples": [
+                    "This is my phone. These are my headphones. That is my school. Those are my classmates.",
+                    "Question: 'Is this your wallet?' — 'No, that is my wallet over there.'",
+                    "Meme: 'This is my bed. These are my blankets. That is my alarm clock. Those are my dreams of sleeping longer.' 😴"
+                ],
+                "keywords": "revision, test yourself"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What's the plural of 'man'? 👨", "options": ["mans", "men", "manes", "mens"], "correct": "men", "explanation": "man → men (исключение!)", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "What do you say when you point to ONE thing far away? (один предмет далеко) 👉", "options": ["This", "These", "That", "Those"], "correct": "That", "explanation": "That — для одного предмета далеко. Those — для нескольких предметов.", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ is my power bank. (рядом, один) 🔋", "correct": "This", "explanation": "This — для одного предмета рядом", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ are my friends across the street. (далеко, много) 👥", "correct": "Those", "explanation": "Those — для предметов далеко во множественном числе", "topic": "grammar"},
+                {"id": 5, "type": "fill_blank", "question": "I have three ___ (watch).", "correct": "watches", "explanation": "watch → watches (добавляем -es)", "topic": "grammar"},
+                {"id": 6, "type": "correct_mistake", "question": "These is my keys.", "correct": "These are my keys.", "explanation": "These требует глагол are (множественное число)", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — Lost and Found Office (Диалог в бюро находок)",
+            "description": "Читаем смешной диалог в школьной комнате потерянных вещей",
+            "grammar": {
+                "title": "Reading: Lost and Found",
+                "rule": "Сегодня читаем диалог в школьной комнате потерянных вещей. Обрати внимание на this/these/that/those и множественное число!",
+                "examples": [],
+                "keywords": "reading, lost and found, funny, dialogue"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What did Leo lose?",
+                    "options": ["Smartphone", "Wallet", "Headphones", "Power bank"],
+                    "correct": "Wallet",
+                    "explanation": "Leo says: 'I lost my wallet! It's brown.'",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🔍 LOST AND FOUND OFFICE — THE CHAOS\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 SCENE: School's Lost and Found office. There are boxes FULL of lost items.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👩‍🏫 Ms. Johnson: Next! What did you lose?\n\n😭 LEO: I lost my wallet! It's brown. This is so sad!\n\n👩‍🏫 Ms. Johnson: Brown wallet... Brown wallet... (looks in boxes) Is this your wallet? (holds up a pink sparkly wallet)\n\n😭 LEO: No, that is NOT my wallet. That is someone's grandma's wallet.\n\n👩‍🏫 Ms. Johnson: OK... Is this your wallet? (holds up a wallet with a cartoon cat)\n\n😭 LEO: No! My wallet has... had... 5 euros inside. Maybe 5 euros I will never see again.\n\n👩‍🏫 Ms. Johnson: Oh, I see. Wait! These are wallets? (shows a box of wallets)\n\n😭 LEO: Those are not wallets. Those are my hopes and dreams. (cries inside)\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👩‍🏫 Ms. Johnson: Next!\n\n😎 SAM: Hi! I lost my headphones. They are wireless and very expensive.\n\n👩‍🏫 Ms. Johnson: Headphones... (looks into a box) Are these your headphones? (holds up bright pink headphones with cat ears)\n\n😎 SAM: Those are... not mine. But they are cool. Can I have them anyway?\n\n👩‍🏫 Ms. Johnson: No, Sam. Those belong to someone else.\n\n😎 SAM: OK... (looks sad) These are my headphones? (points to a box of tangled wires)\n\n👩‍🏫 Ms. Johnson: Those are not headphones. Those are spaghetti.\n\n😎 SAM: Why is there spaghetti in the Lost and Found?\n\n👩‍🏫 Ms. Johnson: I don't know, Sam. I don't know.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n👩‍🏫 Ms. Johnson: Next!\n\n😎 MIA: Hi! I lost my sunglasses. They are very cool. I wear them even when it's raining.\n\n👩‍🏫 Ms. Johnson: Sunglasses... Is this your glasses? (holds up reading glasses)\n\n😎 MIA: No, those are for old people. My sunglasses are... wait, is that them? (points to a box)\n\n👩‍🏫 Ms. Johnson: These? (holds up a pair of sunglasses) Are these yours?\n\n😎 MIA: Yes! Those are my sunglasses! Thank you!\n\n👩‍🏫 Ms. Johnson: Finally! Someone found their thing!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n😭 LEO (still standing there): What about my wallet?\n\n👩‍🏫 Ms. Johnson: Oh. Right. (looks in another box) Is this your wallet? (holds up a wallet)\n\n😭 LEO: No, that's a banana peel.\n\n👩‍🏫 Ms. Johnson: Sorry. Maybe tomorrow.\n\n😭 LEO: (writes on a piece of paper) 'This is my wallet. These are my 5 euros. Those were the good times.' ✍️\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What colour was Leo's wallet?",
+                    "options": ["Brown", "Black", "Pink", "Blue"],
+                    "correct": "Brown",
+                    "explanation": "Leo says: 'I lost my wallet! It's brown.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What did Ms. Johnson find instead of Sam's headphones? 🍝",
+                    "options": ["A banana", "Spaghetti", "A pencil", "A book"],
+                    "correct": "Spaghetti",
+                    "explanation": "Ms. Johnson says: 'Those are not headphones. Those are spaghetti.' (Why is there spaghetti? Good question!)",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "What did Mia lose? 🕶️",
+                    "options": ["Wallet", "Headphones", "Sunglasses", "Phone"],
+                    "correct": "Sunglasses",
+                    "explanation": "Mia says: 'I lost my sunglasses. They are very cool.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "Did Leo find his wallet in the end?",
+                    "options": ["Yes", "No", "Maybe", "We don't know"],
+                    "correct": "No",
+                    "explanation": "Leo didn't find his wallet. Instead, Ms. Johnson found a banana peel. Poor Leo! 😭",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "Sam found his headphones.",
+                    "correct": "False",
+                    "explanation": "Sam didn't find his headphones. He found spaghetti instead. Poor Sam! 🍝",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "Mia found her sunglasses.",
+                    "correct": "True",
+                    "explanation": "Yes! Mia found her sunglasses. She is the lucky one! 🕶️🎉",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

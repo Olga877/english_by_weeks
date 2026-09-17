@@ -1,0 +1,184 @@
+{
+    "week_id": "week1_school",
+    "title": "🏫 School Subjects & I have / I like",
+    "description": "Учим школьные предметы, дни недели и школьные принадлежности. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🏫",
+    "order_num": 1,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: School Subjects (Часть 1)",
+            "description": "Первые 5 школьных предметов",
+            "grammar": {
+                "title": "I have / I like",
+                "rule": "📘 **I have** = у меня есть\n🎯 **I like** = мне нравится\n🚫 **I don't have** = у меня нет\n🚫 **I don't like** = мне не нравится\n\n⚠️ **Важно**: После I like и I don't like НЕ нужно ставить a/an перед названием учебной дисциплины.\n\n✅ I have Maths.\n✅ I like English.\n✅ I don't have Science on Monday.\n✅ I don't like History.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📐", "word": "Maths (Mathematics)", "transcription": "/mæθs/", "translation": "математика", "example": "I have Maths. Numbers are hard.", "context_translation": "математика", "context_example": "У меня есть математика. Числа — это сложно."},
+                {"icon": "🇬🇧", "word": "English", "transcription": "/ˈɪŋɡlɪʃ/", "translation": "английский язык", "example": "I like English. Watching videos in English counts!", "context_translation": "английский язык", "context_example": "Мне нравится английский. Смотреть видео на английском — тоже считается!"},
+                {"icon": "🔬", "word": "Science", "transcription": "/ˈsaɪəns/", "translation": "естествознание", "example": "Science is cool. Experiments!", "context_translation": "естествознание", "context_example": "Естествознание — это круто. Опыты!"},
+                {"icon": "📜", "word": "History", "transcription": "/ˈhɪstəri/", "translation": "история", "example": "History is about the past.", "context_translation": "история", "context_example": "История — это о прошлом."},
+                {"icon": "🏃", "word": "PE (Physical Education)", "transcription": "/ˌpiː ˈiː/", "translation": "физкультура", "example": "PE is about sports and running.", "context_translation": "физкультура", "context_example": "Физкультура — это о спорте и беге."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Which subject uses numbers? 🧮", "options": ["Maths", "English", "Science", "History"], "correct": "Maths", "accept": ["Maths", "Mathematics", "maths", "mathematics"], "explanation": "Maths — это математика, где нужны числа!", "topic": "subjects"},
+                {"id": 2, "type": "multiple_choice", "question": "Which subject is about experiments? 🔬", "options": ["PE", "Art", "Science", "Music"], "correct": "Science", "accept": ["Science", "science"], "explanation": "Science — это наука, где проводят опыты!", "topic": "subjects"},
+                {"id": 3, "type": "fill_blank", "question": "I ___ Maths.", "correct": "have", "accept": ["have", "like"], "explanation": "I have Maths — у меня есть математика. I like Maths тоже правильно, но в этом задании проверяется have.", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "I ___ English. (like)", "correct": "like", "accept": ["like", "have"], "explanation": "I like English — мне нравится английский. I have English тоже возможно, но в задании указано like.", "topic": "grammar"},
+                {"id": 5, "type": "true_false", "question": "I have PE. PE is about sports and running.", "correct": "True", "accept": ["True", "true", "TRUE"], "explanation": "PE (Physical Education) — это физкультура, спорт и бег!", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: School Subjects (Часть 2)",
+            "description": "Ещё 4 школьных предмета",
+            "grammar": {
+                "title": "Do you have? / Do you like?",
+                "rule": "❓ **Do you have...?** = У тебя есть...?\n❓ **Do you like...?** = Тебе нравится...?\n\n📝 **Краткие ответы**:\n✅ Yes, I do.\n🚫 No, I don't.\n\n✅ Do you have Art on Monday? — Yes, I do.\n✅ Do you like Music? — No, I don't.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎨", "word": "Art", "transcription": "/ɑːt/", "translation": "рисование", "example": "I draw in Art. My drawing is a potato.", "context_translation": "рисование", "context_example": "Я рисую на рисовании. Мой рисунок похож на картошку."},
+                {"icon": "🎵", "word": "Music", "transcription": "/ˈmjuːzɪk/", "translation": "музыка", "example": "Music is loud. Sorry, neighbours!", "context_translation": "музыка", "context_example": "Музыка — это громко. Простите, соседи!"},
+                {"icon": "🌍", "word": "Geography", "transcription": "/dʒiˈɒɡrəfi/", "translation": "география", "example": "Geography = maps. I get lost anyway.", "context_translation": "география", "context_example": "География — это карты. Я всё равно теряюсь."},
+                {"icon": "💻", "word": "IT (Information Technology)", "transcription": "/ˌaɪ ˈtiː/", "translation": "информатика", "example": "IT is computers. No homework!", "context_translation": "информатика", "context_example": "Информатика — это компьютеры. Домашки нет!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "In which subject do you draw? 🎨", "options": ["Music", "Art", "IT", "Geography"], "correct": "Art", "accept": ["Art", "art"], "explanation": "Art — это рисование!", "topic": "subjects"},
+                {"id": 2, "type": "fill_blank", "question": "I ___ (have / like / don't have) Art on Monday.", "correct": "have", "accept": ["have", "like"], "explanation": "По контексту I have Art on Monday!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "Do you like Music? Yes, I ___ .", "correct": "do", "accept": ["do"], "explanation": "Yes, I do — краткий утвердительный ответ", "topic": "grammar"},
+                {"id": 4, "type": "correct_mistake", "question": "I has Maths.", "correct": "I have Maths.", "accept": ["I have Maths", "i have maths", "I have maths"], "explanation": "I has — неправильно. Правильно: I have", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Days of the Week",
+            "description": "Учим дни недели",
+            "grammar": {
+                "title": "on + день недели",
+                "rule": "📌 С днями недели используем предлог **ON**\n🔤 Дни недели всегда пишутся с **большой буквы**\n\n📅 on Monday = в понедельник\n📅 on Friday = в пятницу\n\n✅ I have PE on Friday.\n✅ Leo has Maths on Monday.\n✅ I don't have school on Saturday.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "😫", "word": "Monday", "transcription": "/ˈmʌndeɪ/", "translation": "понедельник", "example": "Monday. No. Just no.", "context_translation": "понедельник", "context_example": "Понедельник. Нет. Просто нет."},
+                {"icon": "😒", "word": "Tuesday", "transcription": "/ˈtjuːzdeɪ/", "translation": "вторник", "example": "Tuesday is Monday part 2.", "context_translation": "вторник", "context_example": "Вторник — это понедельник, часть 2."},
+                {"icon": "😐", "word": "Wednesday", "transcription": "/ˈwenzdeɪ/", "translation": "среда", "example": "Wednesday. Halfway through!", "context_translation": "среда", "context_example": "Среда. Половина недели пройдена!"},
+                {"icon": "😌", "word": "Thursday", "transcription": "/ˈθɜːzdeɪ/", "translation": "четверг", "example": "Thursday. The weekend is so close!", "context_translation": "четверг", "context_example": "Четверг. Выходные так близко!"},
+                {"icon": "🎉", "word": "Friday", "transcription": "/ˈfraɪdeɪ/", "translation": "пятница", "example": "Friday! Finally!", "context_translation": "пятница", "context_example": "Пятница! Наконец-то!"},
+                {"icon": "🛌", "word": "Saturday", "transcription": "/ˈsætədeɪ/", "translation": "суббота", "example": "Saturday. Sleep all day.", "context_translation": "суббота", "context_example": "Суббота. Спать весь день."},
+                {"icon": "😢", "word": "Sunday", "transcription": "/ˈsʌndeɪ/", "translation": "воскресенье", "example": "Sunday. Homework day.", "context_translation": "воскресенье", "context_example": "Воскресенье. День домашних заданий."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "fill_blank", "question": "Put days in order: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday", "correct": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday", "accept": ["Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday", "monday, tuesday, wednesday, thursday, friday, saturday, sunday"], "explanation": "Порядок дней недели", "topic": "order"},
+                {"id": 2, "type": "fill_blank", "question": "I have PE (Physical Education) ___ Friday.", "correct": "on", "accept": ["on"], "explanation": "on Friday — в пятницу", "topic": "grammar", "options": ["on", "in", "at"]},
+                {"id": 3, "type": "true_false", "question": "School is on Sunday.", "correct": "False", "accept": ["False", "false", "FALSE"], "explanation": "School is Monday to Friday, not Sunday!", "topic": "reading"},
+                {"id": 4, "type": "fill_blank", "question": "The day after Tuesday is ___ .", "correct": "Wednesday", "accept": ["Wednesday", "wednesday"], "explanation": "Tuesday → Wednesday", "topic": "order"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: School Objects",
+            "description": "Что лежит в рюкзаке",
+            "grammar": {
+                "title": "I have a/an... / I don't have...",
+                "rule": "📘 **I have** = у меня есть\n🚫 **I don't have** = у меня нет\n\n🔤 **a** — перед согласными звуками (b, c, d, f, g...)\n🔤 **an** — перед гласными звуками (a, e, i, o, u)\n\n✅ I have a pen.\n✅ I have an eraser.\n✅ I don't have a ruler.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "phone", "transcription": "/fəʊn/", "translation": "телефон", "example": "My phone is at 3%. Help!", "context_translation": "телефон", "context_example": "У моего телефона 3% заряда. Помогите!"},
+                {"icon": "✒️", "word": "pen", "transcription": "/pen/", "translation": "ручка", "example": "My pen is dead.", "context_translation": "ручка", "context_example": "Моя ручка умерла (закончились чернила)."},
+                {"icon": "✏️", "word": "pencil", "transcription": "/ˈpensl/", "translation": "карандаш", "example": "My pencil is 3 cm short.", "context_translation": "карандаш", "context_example": "Мой карандаш короткий — 3 сантиметра."},
+                {"icon": "📏", "word": "ruler", "transcription": "/ˈruːlə/", "translation": "линейка", "example": "I use ruler as a sword.", "context_translation": "линейка", "context_example": "Я использую линейку как меч."},
+                {"icon": "🧽", "word": "rubber (eraser)", "transcription": "/ˈrʌbə/", "translation": "ластик", "example": "My rubber has no corners.", "context_translation": "ластик", "context_example": "У моего ластика нет уголков."},
+                {"icon": "📓", "word": "notebook", "transcription": "/ˈnəʊtbʊk/", "translation": "тетрадь", "example": "Doodles, not notes.", "context_translation": "тетрадь", "context_example": "Рисунки, а не записи."},
+                {"icon": "📚", "word": "textbook", "transcription": "/ˈtekstbʊk/", "translation": "учебник", "example": "Under my bed.", "context_translation": "учебник", "context_example": "Под моей кроватью."},
+                {"icon": "🎒", "word": "backpack", "transcription": "/ˈbækpæk/", "translation": "рюкзак", "example": "So heavy!", "context_translation": "рюкзак", "context_example": "Такой тяжёлый!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "fill_blank", "question": "Leo writes with a ___ .", "correct": "pen", "accept": ["pen", "Pen"], "explanation": "Pen — ручка", "topic": "objects"},
+                {"id": 2, "type": "fill_blank", "question": "Mia uses a ___ to draw straight lines.", "correct": "ruler", "accept": ["ruler", "Ruler"], "explanation": "Ruler — линейка", "topic": "objects"},
+                {"id": 3, "type": "multiple_choice", "question": "I have ___ phone.", "options": ["a", "an"], "correct": "a", "accept": ["a"], "explanation": "a phone — phone начинается с согласного звука /f/", "topic": "grammar"},
+                {"id": 4, "type": "correct_mistake", "question": "I have an pen.", "correct": "I have a pen.", "accept": ["I have a pen", "i have a pen", "I have a pen."], "explanation": "an pen — неправильно. Правильно: a pen (pen начинается с согласного /p/)", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Articles a/an",
+            "description": "Учимся использовать a и an",
+            "grammar": {
+                "title": "a или an?",
+                "rule": "🔤 **a** — перед словами, которые начинаются с **согласного звука** [b, k, d, f, g, h, j, k, l, m, n, p, kw, r, s, t, v, w, y, z]\n\n🔤 **an** — перед словами, которые начинаются с **гласного звука** [æ, ɑː, ɒ, ɛ, ə, ɜː, ɪ, iː, ʌ, ʊ, uː, aɪ, aʊ, eɪ, oʊ, ɔɪ]\n\n🎯 **Простой способ**: an перед словами, которые начинаются с букв **A, E, I, O, U**. В остальных случаях a.\n\n✅ a pen — звук [p] (согласный)\n✅ a book — звук [b] (согласный)\n✅ an apple — звук [æ] (гласный)\n✅ an eraser — звук [ɪ] (гласный)\n✅ an hour — звук [aʊ] (гласный, h не произносится)",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🍎", "word": "apple", "transcription": "/ˈæpl/", "translation": "яблоко", "example": "an apple a day keeps the doctor away", "context_translation": "яблоко", "context_example": "яблоко в день — и доктор не нужен (пословица)"},
+                {"icon": "🧽", "word": "eraser", "transcription": "/ɪˈreɪzə/", "translation": "ластик", "example": "an eraser for mistakes", "context_translation": "ластик", "context_example": "ластик для ошибок"},
+                {"icon": "📘", "word": "book", "transcription": "/bʊk/", "translation": "книга", "example": "a book about adventures", "context_translation": "книга", "context_example": "книга о приключениях"},
+                {"icon": "🍊", "word": "orange", "transcription": "/ˈɒrɪndʒ/", "translation": "апельсин", "example": "an orange for lunch", "context_translation": "апельсин", "context_example": "апельсин на обед"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "___ pen", "options": ["a", "an"], "correct": "a", "accept": ["a"], "explanation": "a pen — pen начинается с согласного звука [p]", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "___ apple", "options": ["a", "an"], "correct": "an", "accept": ["an"], "explanation": "an apple — apple начинается с гласного звука [æ]", "topic": "grammar"},
+                {"id": 3, "type": "multiple_choice", "question": "___ hour", "options": ["a", "an"], "correct": "an", "accept": ["an"], "explanation": "an hour — hour начинается с гласного звука [aʊ] (буква h не произносится)", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "I have ___ new phone.", "correct": "a", "accept": ["a"], "explanation": "a new phone — phone начинается с согласного звука [f]", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "It's an emergency! My Wi-Fi is down.", "correct": "Correct", "accept": ["Correct", "correct", "True", "true"], "explanation": "an emergency — правильно, emergency начинается с гласного звука [ɪ]", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — Timetable and Notices",
+            "description": "Читаем расписание и объявления",
+            "grammar": {
+                "title": "Повторение",
+                "rule": "📚 Сегодня повторяем всё, что учили на этой неделе:\n\n📘 I have / I don't have\n❓ Do you have? / Do you like?\n📅 on + день недели\n🔤 a / an\n\n✅ Leo has Maths on Monday.\n✅ Do you have Art on Friday?\n✅ Mia has an eraser in her backpack.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "Look at the timetable. What subject does Leo have at 9:00 on Monday?",
+                    "options": ["Maths", "English", "Science", "PE"],
+                    "correct": "Maths",
+                    "accept": ["Maths", "maths", "Mathematics", "mathematics"],
+                    "explanation": "At 9:00 on Monday, Leo has Maths. Look at the first row, first column!",
+                    "readingText": "📅 LEO'S TIMETABLE (5th grade)\n\n┌─────────┬──────────┬───────────┬───────────┬───────────┬───────────┐\n│   Time  │  Monday  │  Tuesday  │ Wednesday │ Thursday  │  Friday   │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│  9:00   │  Maths   │  English  │  Science  │   Maths   │    PE     │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│ 10:00   │ English  │  History  │   Maths   │  English  │  Science  │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│ 11:00   │ Science  │    PE     │  English  │  History  │   Maths   │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│ 12:00   │  LUNCH!  │  LUNCH!   │  LUNCH!   │  LUNCH!   │  LUNCH!   │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│ 13:00   │ History  │   Maths   │    PE     │  Science  │  English  │\n├─────────┼──────────┼───────────┼───────────┼───────────┼───────────┤\n│ 14:00   │   Art    │   Music   │ Geography │    IT     │    Art    │\n└─────────┴──────────┴───────────┴───────────┴───────────┴───────────┘\n\n📌 NOTES:\n• Leo loves lunch. His favourite food is pizza! 🍕\n• He has Maths on Monday and Tuesday.\n• He has PE on Tuesday, Wednesday and Friday.\n• He doesn't like History because it's boring.\n• His favourite subject is PE because he can run and play football.",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "On which days does Leo have PE?",
+                    "options": ["Monday and Wednesday", "Tuesday, Wednesday and Friday", "Thursday and Friday", "Only on Friday"],
+                    "correct": "Tuesday, Wednesday and Friday",
+                    "accept": ["Tuesday, Wednesday and Friday", "tuesday, wednesday and friday"],
+                    "explanation": "Leo has PE on Tuesday (11:00), Wednesday (13:00), and Friday (9:00) — that's 3 times per week!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "School Notices: Gaming Club is on Wednesday at 3 PM.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE"],
+                    "explanation": "Yes! Gaming Club meets on Wednesday at 3 PM. Play Minecraft!",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Leo's favourite subject is ___ because he can run and play football.",
+                    "correct": "PE",
+                    "accept": ["PE", "P.E.", "Physical Education", "pe", "p.e.", "physical education"],
+                    "explanation": "PE (Physical Education) — физкультура. Leo любит бегать и играть в футбол!",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

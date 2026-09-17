@@ -1,0 +1,226 @@
+{
+    "week_id": "week2_numbers",
+    "title": "🔢 Numbers 1-100 & Verb to be (am/is/are)",
+    "description": "Учим числа 1-10, личные местоимения, глагол to be и вопросительные предложения с OR. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🔢",
+    "order_num": 2,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Numbers 1-5 (Считаем до пяти)",
+            "description": "Учим числа от одного до пяти",
+            "grammar": {
+                "title": "Numbers 1-5",
+                "rule": "Числа в английском языке пишутся словами. Они отвечают на вопрос 'How many?' (Сколько?).",
+                "examples": [
+                    "I have one brother.",
+                    "She has two cats.",
+                    "We have three apples.",
+                    "They have four pens.",
+                    "He has five euros."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "1️⃣", "word": "one", "transcription": "/wʌn/", "translation": "один", "example": "one book on the desk", "context_translation": "один", "context_example": "одна книга на столе"},
+                {"icon": "2️⃣", "word": "two", "transcription": "/tuː/", "translation": "два", "example": "two pencils in my bag", "context_translation": "два", "context_example": "два карандаша в моём рюкзаке"},
+                {"icon": "3️⃣", "word": "three", "transcription": "/θriː/", "translation": "три", "example": "three notebooks on the shelf", "context_translation": "три", "context_example": "три тетради на полке"},
+                {"icon": "4️⃣", "word": "four", "transcription": "/fɔː/", "translation": "четыре", "example": "four chairs in the classroom", "context_translation": "четыре", "context_example": "четыре стула в классе"},
+                {"icon": "5️⃣", "word": "five", "transcription": "/faɪv/", "translation": "пять", "example": "five students in the group", "context_translation": "пять", "context_example": "пять учеников в группе"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "How many fingers do you have on one hand? ✋", "options": ["three", "four", "five", "six"], "correct": "five", "explanation": "На одной руке пять пальцев! 👍", "topic": "numbers"},
+                {"id": 2, "type": "fill_blank", "question": "I have ___ brothers. (2)", "correct": "two", "explanation": "Two — это два", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "She has ___ cats. (3)", "correct": "three", "explanation": "Three — это три", "topic": "numbers"},
+                {"id": 4, "type": "true_false", "question": "One plus one equals three. (1+1=3)", "correct": "False", "explanation": "1+1=2, not 3!", "topic": "maths"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Numbers 6-10 (Считаем до десяти)",
+            "description": "Учим числа от шести до десяти",
+            "grammar": {
+                "title": "Numbers 6-10",
+                "rule": "Числа 6-10 запоминаем с помощью рифм и ассоциаций. Например, six — 'сикс' (шесть), seven — 'севен' (семь).",
+                "examples": [
+                    "I have six textbooks.",
+                    "She has seven pens.",
+                    "We need eight chairs.",
+                    "They have nine balloons.",
+                    "He has ten euros."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "6️⃣", "word": "six", "transcription": "/sɪks/", "translation": "шесть", "example": "six eggs in the fridge", "context_translation": "шесть", "context_example": "шесть яиц в холодильнике"},
+                {"icon": "7️⃣", "word": "seven", "transcription": "/ˈsev.ən/", "translation": "семь", "example": "seven days in a week", "context_translation": "семь", "context_example": "семь дней в неделе"},
+                {"icon": "8️⃣", "word": "eight", "transcription": "/eɪt/", "translation": "восемь", "example": "eight planets in the solar system", "context_translation": "восемь", "context_example": "восемь планет в солнечной системе"},
+                {"icon": "9️⃣", "word": "nine", "transcription": "/naɪn/", "translation": "девять", "example": "nine players in a baseball team", "context_translation": "девять", "context_example": "девять игроков в бейсбольной команде"},
+                {"icon": "🔟", "word": "ten", "transcription": "/ten/", "translation": "десять", "example": "ten fingers on two hands", "context_translation": "десять", "context_example": "десять пальцев на двух руках"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "How many days are there in a week? 📅", "options": ["five", "six", "seven", "eight"], "correct": "seven", "explanation": "В неделе семь дней!", "topic": "numbers"},
+                {"id": 2, "type": "fill_blank", "question": "A spider has ___ legs. 🕷️", "correct": "eight", "explanation": "Eight — это восемь", "topic": "numbers"},
+                {"id": 3, "type": "fill_blank", "question": "My phone number ends with ___ (10)", "correct": "ten", "explanation": "Ten — это десять", "topic": "numbers"},
+                {"id": 4, "type": "true_false", "question": "Five plus five equals nine. (5+5=9)", "correct": "False", "explanation": "5+5=10, not 9!", "topic": "maths"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Personal Pronouns (Личные местоимения)",
+            "description": "Учим местоимения I, you, he, she, it, we, they",
+            "grammar": {
+                "title": "Personal Pronouns",
+                "rule": "Местоимения заменяют имена существительные:\n\n• I = я (говорит о себе)\n• you = ты, вы (к кому обращаемся)\n• he = он (мальчик, мужчина)\n• she = она (девочка, женщина)\n• it = оно (предмет, животное)\n• we = мы (группа, включая говорящего)\n• they = они (группа людей или предметов)",
+                "examples": [
+                    "I am a student.",
+                    "You are my friend.",
+                    "He is Leo.",
+                    "She is Mia.",
+                    "It is a cat.",
+                    "We are classmates.",
+                    "They are teachers."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "👤", "word": "I", "transcription": "/aɪ/", "translation": "я", "example": "I am happy today", "context_translation": "я", "context_example": "я сегодня счастлив"},
+                {"icon": "👥", "word": "you", "transcription": "/juː/", "translation": "ты, вы", "example": "You are my best friend", "context_translation": "ты", "context_example": "ты мой лучший друг"},
+                {"icon": "👨", "word": "he", "transcription": "/hiː/", "translation": "он", "example": "He is my brother", "context_translation": "он", "context_example": "он мой брат"},
+                {"icon": "👩", "word": "she", "transcription": "/ʃiː/", "translation": "она", "example": "She is my sister", "context_translation": "она", "context_example": "она моя сестра"},
+                {"icon": "🐱", "word": "it", "transcription": "/ɪt/", "translation": "оно, это", "example": "It is a cat", "context_translation": "оно", "context_example": "это кошка"},
+                {"icon": "👨‍👩‍👧‍👦", "word": "we", "transcription": "/wiː/", "translation": "мы", "example": "We are friends", "context_translation": "мы", "context_example": "мы друзья"},
+                {"icon": "👥", "word": "they", "transcription": "/ðeɪ/", "translation": "они", "example": "They are teachers", "context_translation": "они", "context_example": "они учителя"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "___ am a student.", "options": ["I", "You", "He", "She"], "correct": "I", "explanation": "I am — я есть", "topic": "pronouns"},
+                {"id": 2, "type": "multiple_choice", "question": "___ are my best friend.", "options": ["I", "You", "He", "It"], "correct": "You", "explanation": "You are — ты есть", "topic": "pronouns"},
+                {"id": 3, "type": "fill_blank", "question": "___ (Leo) is my classmate.", "correct": "He", "explanation": "Leo — мальчик, поэтому he", "topic": "pronouns"},
+                {"id": 4, "type": "fill_blank", "question": "___ (Mia) is my sister.", "correct": "She", "explanation": "Mia — девочка, поэтому she", "topic": "pronouns"},
+                {"id": 5, "type": "fill_blank", "question": "___ (the cat) is sleeping.", "correct": "It", "explanation": "Cat — животное, поэтому it", "topic": "pronouns"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Verb \"to be\" (Глагол \"быть\")",
+            "description": "Учим формы глагола to be: am, is, are",
+            "grammar": {
+                "title": "Verb \"to be\" — am, is, are",
+                "rule": "Глагол to be означает 'быть, находиться, являться'. В настоящем времени у него три формы:\n\n• I am — я есть\n• He/She/It is — он/она/оно есть\n• You/We/They are — ты/вы/мы/они есть\n\nВ русском языке этот глагол часто опускается, но в английском он ОБЯЗАТЕЛЕН!",
+                "examples": [
+                    "I am a student. (Я студент)",
+                    "You are my friend. (Ты мой друг)",
+                    "He is Leo. (Он Лео)",
+                    "She is Mia. (Она Мия)",
+                    "It is a cat. (Это кошка)",
+                    "We are classmates. (Мы одноклассники)",
+                    "They are teachers. (Они учителя)"
+                ]
+            },
+            "vocabulary": [
+                {"icon": "✅", "word": "am", "transcription": "/æm/", "translation": "являюсь (для I)", "example": "I am a student", "context_translation": "являюсь", "context_example": "я студент"},
+                {"icon": "✅", "word": "is", "transcription": "/ɪz/", "translation": "является (для he/she/it)", "example": "She is happy", "context_translation": "является", "context_example": "она счастлива"},
+                {"icon": "✅", "word": "are", "transcription": "/ɑː/", "translation": "являетесь, являются (для you/we/they)", "example": "We are friends", "context_translation": "являемся", "context_example": "мы друзья"},
+                {"icon": "👨‍🎓", "word": "student", "transcription": "/ˈstjuː.dənt/", "translation": "студент, ученик", "example": "I am a student", "context_translation": "ученик", "context_example": "я ученик"},
+                {"icon": "🍎", "word": "teacher", "transcription": "/ˈtiː.tʃər/", "translation": "учитель", "example": "She is a teacher", "context_translation": "учитель", "context_example": "она учитель"},
+                {"icon": "🏠", "word": "friend", "transcription": "/frend/", "translation": "друг", "example": "You are my friend", "context_translation": "друг", "context_example": "ты мой друг"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "I ___ a student.", "options": ["am", "is", "are", "be"], "correct": "am", "explanation": "I am — я есть", "topic": "verb to be"},
+                {"id": 2, "type": "multiple_choice", "question": "She ___ my sister.", "options": ["am", "is", "are", "be"], "correct": "is", "explanation": "She is — она есть", "topic": "verb to be"},
+                {"id": 3, "type": "multiple_choice", "question": "We ___ classmates.", "options": ["am", "is", "are", "be"], "correct": "are", "explanation": "We are — мы есть", "topic": "verb to be"},
+                {"id": 4, "type": "fill_blank", "question": "They ___ teachers.", "correct": "are", "explanation": "They are — они есть", "topic": "verb to be"},
+                {"id": 5, "type": "correct_mistake", "question": "He am a student.", "correct": "He is a student.", "explanation": "He am — неправильно. He is", "topic": "verb to be"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: OR-Questions (Вопросы с OR)",
+            "description": "Учим задавать вопросы с выбором",
+            "grammar": {
+                "title": "Questions with \"or\" (Выбор между двумя вариантами)",
+                "rule": "Вопросы с OR предлагают выбор между двумя вариантами. В ответе НЕ используется yes/no, а выбирается один из вариантов.\n\nСтруктура: [To be] + [subject] + [option A] or [option B]?\n\nПример: \"Are you a student or a teacher?\" — \"I am a student.\"",
+                "examples": [
+                    "Are you a student or a teacher? — I am a student.",
+                    "Is it a cat or a dog? — It is a cat.",
+                    "Are they brothers or friends? — They are brothers."
+                ]
+            },
+            "vocabulary": [
+                {"icon": "❓", "word": "or", "transcription": "/ɔː/", "translation": "или", "example": "Is it a cat or a dog?", "context_translation": "или", "context_example": "это кошка или собака?"},
+                {"icon": "👨‍🎓", "word": "student", "transcription": "/ˈstjuː.dənt/", "translation": "ученик", "example": "I am a student", "context_translation": "ученик", "context_example": "я ученик"},
+                {"icon": "👩‍🏫", "word": "teacher", "transcription": "/ˈtiː.tʃər/", "translation": "учитель", "example": "She is a teacher", "context_translation": "учитель", "context_example": "она учитель"},
+                {"icon": "🐱", "word": "cat", "transcription": "/kæt/", "translation": "кошка", "example": "It is a cat", "context_translation": "кошка", "context_example": "это кошка"},
+                {"icon": "🐶", "word": "dog", "transcription": "/dɒɡ/", "translation": "собака", "example": "It is a dog", "context_translation": "собака", "context_example": "это собака"},
+                {"icon": "👨", "word": "brother", "transcription": "/ˈbrʌð.ər/", "translation": "брат", "example": "He is my brother", "context_translation": "брат", "context_example": "он мой брат"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Are you a student or a teacher? — I am a ___.", "options": ["student", "teacher", "friend", "brother"], "correct": "student", "explanation": "Student — ученик", "topic": "or questions"},
+                {"id": 2, "type": "multiple_choice", "question": "Is it a cat or a dog? — It is a ___.", "options": ["mouse", "cat", "bird", "fish"], "correct": "cat", "explanation": "Cat — кошка", "topic": "or questions"},
+                {"id": 3, "type": "fill_blank", "question": "Are you a student ___ a teacher?", "correct": "or", "explanation": "Or — или", "topic": "or questions"},
+                {"id": 4, "type": "fill_blank", "question": "___ they brothers or friends? (Are / Is)", "correct": "Are", "explanation": "Are they — они есть", "topic": "or questions"},
+                {"id": 5, "type": "correct_mistake", "question": "Is you a student or a teacher?", "correct": "Are you a student or a teacher?", "explanation": "Is you — неправильно. Are you", "topic": "or questions"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — Introducing Yourself (Знакомимся с новым учеником)",
+            "description": "Читаем диалог знакомства",
+            "grammar": {
+                "title": "Повторение",
+                "rule": "Сегодня повторяем всё, что учили на этой неделе:\n• Numbers 1-10\n• Personal pronouns (I, you, he, she, it, we, they)\n• Verb to be (am, is, are)\n• OR-questions",
+                "examples": [
+                    "I am Leo. I am ten years old.",
+                    "Are you a student or a teacher?",
+                    "We are classmates. They are friends."
+                ]
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is the new student's name?",
+                    "options": ["Leo", "Ella", "Max", "Sam"],
+                    "correct": "Ella",
+                    "explanation": "The new student's name is Ella. She says: 'Hello! I am Ella.'",
+                    "readingText": "📖 INTRODUCING YOURSELF — MEETING A NEW CLASSMATE\n\n📍 SCENE: Oakwood Academy, 5th grade classroom\n\n👩‍🏫 TEACHER: \"Good morning, class! We have a new student today. Her name is Ella. Please welcome her!\"\n\n👨 LEO: \"Hello, Ella! I am Leo. I am ten years old.\"\n\n👩 ELLA: \"Hi, Leo! Nice to meet you.\"\n\n👩 MIA: \"Hi, Ella! I am Mia. Are you a student or a teacher?\"\n\n👩 ELLA: \"Haha, I am a student, of course! I am in 5th grade.\"\n\n👨 SAM: \"How old are you, Ella?\"\n\n👩 ELLA: \"I am ten years old. I have one brother and one sister.\"\n\n👨 LEO: \"Do you like Maths or English?\"\n\n👩 ELLA: \"I like English! It is fun. But Maths is hard for me.\"\n\n👩 MIA: \"Is your favourite subject English or Art?\"\n\n👩 ELLA: \"My favourite subject is English, but I also like Music.\"\n\n👩‍🏫 TEACHER: \"Class, now you know Ella. Please be nice to her!\"\n\n💭 QUESTIONS ABOUT THE TEXT",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "How old is Ella?",
+                    "options": ["Nine", "Ten", "Eleven", "Twelve"],
+                    "correct": "Ten",
+                    "explanation": "Ella says: 'I am ten years old.'",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Ella has two brothers.",
+                    "correct": "False",
+                    "explanation": "Ella says: 'I have one brother and one sister.' — one brother, not two.",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Ella's favourite subject is English.",
+                    "correct": "True",
+                    "explanation": "Ella says: 'My favourite subject is English.'",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Ella is in ___ grade.",
+                    "correct": "5th",
+                    "explanation": "Ella says: 'I am in 5th grade.'",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

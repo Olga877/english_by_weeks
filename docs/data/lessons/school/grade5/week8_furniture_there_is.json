@@ -1,0 +1,236 @@
+{
+    "week_id": "week8_furniture_there_is",
+    "title": "🛋️ Furniture & There is / There are",
+    "description": "Учим мебель и бытовую технику, конструкцию there is/there are и притяжательные местоимения. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "🛋️",
+    "order_num": 8,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Furniture and Appliances",
+            "description": "Учим названия мебели и бытовой техники",
+            "grammar": {
+                "title": "Furniture and Appliances",
+                "rule": "Мебель (furniture) и бытовая техника (appliances) в доме:\n\n🪑 table — стол\n🛋️ sofa — диван\n🪑 chair — стул\n🛏️ bed — кровать\n📚 bookshelf — книжный шкаф\n🚪 wardrobe — гардероб, шкаф для одежды\n\nБытовая техника:\n📺 TV — телевизор\n💻 computer — компьютер\n🧊 fridge — холодильник\n🍳 cooker — плита\n🧺 washing machine — стиральная машина\n\n🎯 Вопрос: What's in your room? — Что в твоей комнате?",
+                "examples": [
+                    "Leo: 'My bed is always unmade. Mum is not happy.' 🛏️😅",
+                    "Mia: 'There's a huge TV in the living room. My dad watches football every night.' 📺⚽",
+                    "Sam: 'Our fridge is full of food, but there's never anything I want to eat!' 🧊😭"
+                ],
+                "keywords": "table, sofa, chair, bed, bookshelf, wardrobe, TV, computer, fridge, cooker, washing machine"
+            },
+            "vocabulary": [
+                {"icon": "🛋️", "word": "sofa", "transcription": "/ˈsəʊ.fə/", "translation": "диван", "example": "I sleep on the sofa when I watch TV late.", "context_translation": "диван", "context_example": "Я сплю на диване, когда поздно смотрю телевизор."},
+                {"icon": "🛏️", "word": "bed", "transcription": "/bed/", "translation": "кровать", "example": "My bed is my favourite place.", "context_translation": "кровать", "context_example": "Моя кровать — моё любимое место."},
+                {"icon": "🪑", "word": "chair", "transcription": "/tʃeər/", "translation": "стул", "example": "This chair is very comfortable.", "context_translation": "стул", "context_example": "Этот стул очень удобный."},
+                {"icon": "🪑", "word": "table", "transcription": "/ˈteɪ.bəl/", "translation": "стол", "example": "We eat dinner at the table.", "context_translation": "стол", "context_example": "Мы ужинаем за столом."},
+                {"icon": "📚", "word": "bookshelf", "transcription": "/ˈbʊk.ʃelf/", "translation": "книжный шкаф", "example": "My bookshelf is full of books I haven't read.", "context_translation": "книжный шкаф", "context_example": "Мой книжный шкаф полон книг, которые я не читал."},
+                {"icon": "🚪", "word": "wardrobe", "transcription": "/ˈwɔː.drəʊb/", "translation": "гардероб, шкаф", "example": "My wardrobe is full of clothes I never wear.", "context_translation": "гардероб", "context_example": "Мой шкаф полон одежды, которую я никогда не ношу."},
+                {"icon": "📺", "word": "TV", "transcription": "/ˌtiː ˈviː/", "translation": "телевизор", "example": "I watch YouTube on my TV.", "context_translation": "телевизор", "context_example": "Я смотрю YouTube на телевизоре."},
+                {"icon": "💻", "word": "computer", "transcription": "/kəmˈpjuː.tər/", "translation": "компьютер", "example": "I do my homework on the computer.", "context_translation": "компьютер", "context_example": "Я делаю уроки на компьютере."},
+                {"icon": "🧊", "word": "fridge", "transcription": "/frɪdʒ/", "translation": "холодильник", "example": "There is pizza in the fridge!", "context_translation": "холодильник", "context_example": "В холодильнике есть пицца!"}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Where do you sleep? 🛏️", "options": ["Sofa", "Chair", "Bed", "Table"], "correct": "Bed", "explanation": "Bed — кровать для сна! 😴", "topic": "vocabulary"},
+                {"id": 2, "type": "multiple_choice", "question": "Where do you keep food cold? 🧊", "options": ["Cooker", "Fridge", "Wardrobe", "Bookshelf"], "correct": "Fridge", "explanation": "Fridge — холодильник для еды! 🥶", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "I watch cartoons on the ___ . (TV / computer)", "correct": "TV", "explanation": "TV — телевизор для мультиков! 📺", "topic": "vocabulary"},
+                {"id": 4, "type": "fill_blank", "question": "I keep my clothes in the ___ . (wardrobe / bookshelf)", "correct": "wardrobe", "explanation": "Wardrobe — шкаф для одежды! 👕", "topic": "vocabulary"},
+                {"id": 5, "type": "true_false", "question": "A washing machine is for washing clothes.", "correct": "True", "explanation": "Yes! Washing machine стирает одежду 🧺", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Compound nouns",
+            "description": "Учим сложные слова (составные существительные)",
+            "grammar": {
+                "title": "Compound nouns",
+                "rule": "Сложные слова (compound nouns) образуются из двух слов:\n\n📚 bookshelf = book + shelf (книжный шкаф)\n🚪 wardrobe — не составное, просто запомни!\n🛋️ armchair = arm + chair (кресло)\n🛏️ bedroom = bed + room (спальня)\n🍽️ dining room = dining + room (столовая)\n🧺 washing machine = washing + machine (стиральная машина)\n📺 TV = television (не составное)\n\n🎯 Лайфхак: Если видишь два слова вместе — это часто сложное слово!",
+                "examples": [
+                    "Leo: 'My bedroom has a wardrobe and a bookshelf.' 🛏️📚",
+                    "Mia: 'We have a dining room, but we eat in the kitchen.' 🍽️",
+                    "Sam: 'Our washing machine is very loud. Sounds like a rocket!' 🚀🧺"
+                ],
+                "keywords": "compound nouns, bookshelf, bedroom, armchair, dining room, washing machine"
+            },
+            "vocabulary": [
+                {"icon": "🪑", "word": "armchair", "transcription": "/ˈɑːm.tʃeər/", "translation": "кресло", "example": "Grandpa sleeps in his armchair.", "context_translation": "кресло", "context_example": "Дедушка спит в своём кресле."},
+                {"icon": "🧺", "word": "washing machine", "transcription": "/ˈwɒʃ.ɪŋ məˌʃiːn/", "translation": "стиральная машина", "example": "The washing machine is in the bathroom.", "context_translation": "стиральная машина", "context_example": "Стиральная машина в ванной."},
+                {"icon": "🍽️", "word": "dining room", "transcription": "/ˈdaɪ.nɪŋ ruːm/", "translation": "столовая", "example": "We eat dinner in the dining room.", "context_translation": "столовая", "context_example": "Мы ужинаем в столовой."},
+                {"icon": "🛋️", "word": "coffee table", "transcription": "/ˈkɒf.i ˌteɪ.bəl/", "translation": "журнальный столик", "example": "There are magazines on the coffee table.", "context_translation": "журнальный столик", "context_example": "На журнальном столике лежат журналы."},
+                {"icon": "💡", "word": "lamp", "transcription": "/læmp/", "translation": "лампа", "example": "I read under my lamp at night.", "context_translation": "лампа", "context_example": "Я читаю под лампой ночью."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What is a 'bookshelf'? 📚", "options": ["A shelf for books", "A shelf for clothes", "A bed for books", "A book about shelves"], "correct": "A shelf for books", "explanation": "Bookshelf = book + shelf — книжный шкаф! 📖", "topic": "word formation"},
+                {"id": 2, "type": "multiple_choice", "question": "Which word is a compound noun? 🧺", "options": ["Wardrobe", "Washing machine", "Computer", "Television"], "correct": "Washing machine", "explanation": "Washing machine = washing + machine — стиральная машина!", "topic": "word formation"},
+                {"id": 3, "type": "fill_blank", "question": "Bed + room = ___", "correct": "bedroom", "explanation": "Bedroom — спальня! 🛏️", "topic": "word formation"},
+                {"id": 4, "type": "fill_blank", "question": "Dining + room = ___", "correct": "dining room", "explanation": "Dining room — столовая! 🍽️", "topic": "word formation"},
+                {"id": 5, "type": "true_false", "question": "'Armchair' is a compound noun.", "correct": "True", "explanation": "Armchair = arm + chair — кресло! 🪑", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — there is / there are",
+            "description": "Учим конструкцию there is/there are (есть, находится)",
+            "grammar": {
+                "title": "There is / There are",
+                "rule": "Конструкция there is/there are используется, чтобы сказать, ЧТО ГДЕ-ТО НАХОДИТСЯ.\n\n📌 there is + единственное число:\n✅ There is a sofa in the living room.\n❌ There is two sofas. (неправильно!)\n\n📌 there are + множественное число:\n✅ There are two chairs in the kitchen.\n❌ There are a chair. (неправильно!)\n\n📌 Вопрос: Is there a TV? / Are there any chairs?\n📌 Отрицание: There isn't a bed. / There aren't any tables.\n\n🎯 Мем: 'There is a phone in my hand. There are 100 unread messages on it.' 📱",
+                "examples": [
+                    "Leo: 'There is a computer in my room. There are also 50 games on it.' 💻🎮",
+                    "Mia: 'There is a cat on the sofa. There are no dogs in my house.' 🐱",
+                    "Sam: 'There aren't any snacks in the fridge. This is an emergency!' 🚨🧊"
+                ],
+                "keywords": "there is, there are, is there, are there, there isn't, there aren't"
+            },
+            "vocabulary": [
+                {"icon": "🖼️", "word": "picture", "transcription": "/ˈpɪk.tʃər/", "translation": "картина", "example": "There is a picture on the wall.", "context_translation": "картина", "context_example": "На стене висит картина."},
+                {"icon": "🪞", "word": "mirror", "transcription": "/ˈmɪr.ər/", "translation": "зеркало", "example": "There is a mirror in the bathroom.", "context_translation": "зеркало", "context_example": "В ванной есть зеркало."},
+                {"icon": "🧸", "word": "toy", "transcription": "/tɔɪ/", "translation": "игрушка", "example": "There are many toys on the floor.", "context_translation": "игрушка", "context_example": "На полу много игрушек."},
+                {"icon": "🪴", "word": "plant", "transcription": "/plɑːnt/", "translation": "растение", "example": "There is a plant on the windowsill.", "context_translation": "растение", "context_example": "На подоконнике стоит растение."},
+                {"icon": "🕯️", "word": "candle", "transcription": "/ˈkæn.dəl/", "translation": "свеча", "example": "There is a candle on the table.", "context_translation": "свеча", "context_example": "На столе стоит свеча."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Which sentence is correct? 🛋️", "options": ["There is two sofas.", "There are two sofas.", "There is a sofas.", "There are a sofa."], "correct": "There are two sofas.", "explanation": "sofas — множественное число, нужно there are!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Which sentence is correct? 🪑", "options": ["There is a chair.", "There are a chair.", "There is chairs.", "There are chair."], "correct": "There is a chair.", "explanation": "chair — единственное число, нужно there is!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ a cat on the sofa. (There is / There are)", "correct": "There is", "explanation": "cat — один, поэтому there is 🐱", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "___ two chairs in the kitchen. (There is / There are)", "correct": "There are", "explanation": "chairs — много, поэтому there are 🪑🪑", "topic": "grammar"},
+                {"id": 5, "type": "true_false", "question": "'There are a book on the table.' — This sentence is correct.", "correct": "False", "explanation": "Book — один, нужно 'There is a book on the table.' 📖", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Grammar — Possessive adjectives",
+            "description": "Учим притяжательные местоимения (мой, твой, его, её, наш, их)",
+            "grammar": {
+                "title": "Possessive Adjectives",
+                "rule": "Притяжательные местоимения показывают, кому что принадлежит.\n\n👤 I → my — мой (my phone)\n👤 you → your — твой, ваш (your bag)\n👤 he → his — его (his computer)\n👤 she → her — её (her room)\n👤 it → its — его/её (для животных и предметов) (its tail)\n👤 we → our — наш (our house)\n👤 they → their — их (their car)\n\n🎯 Лайфхак: В английском нет слова 'свой' — используем my/your/his/her/our/their!\n🎯 Мем: 'This is my bed. This is your bed. That is his bed. We all have beds.' 🛏️",
+                "examples": [
+                    "Leo: 'This is MY smartphone. Don't touch it!' 📱😠",
+                    "Mia: 'HER room is always clean. MY room is... creative mess.' 🎨",
+                    "Sam: 'OUR fridge is empty. THEIR fridge is full. Life is unfair!' 🧊😭"
+                ],
+                "keywords": "my, your, his, her, its, our, their"
+            },
+            "vocabulary": [
+                {"icon": "📱", "word": "my", "transcription": "/maɪ/", "translation": "мой", "example": "This is my phone.", "context_translation": "мой", "context_example": "Это мой телефон."},
+                {"icon": "👤", "word": "your", "transcription": "/jɔːr/", "translation": "твой, ваш", "example": "Is this your backpack?", "context_translation": "твой", "context_example": "Это твой рюкзак?"},
+                {"icon": "👨", "word": "his", "transcription": "/hɪz/", "translation": "его", "example": "That is his computer.", "context_translation": "его", "context_example": "Это его компьютер."},
+                {"icon": "👩", "word": "her", "transcription": "/hɜːr/", "translation": "её", "example": "Her room is pink.", "context_translation": "её", "context_example": "Её комната розовая."},
+                {"icon": "👥", "word": "our", "transcription": "/aʊər/", "translation": "наш", "example": "Our house is big.", "context_translation": "наш", "context_example": "Наш дом большой."},
+                {"icon": "👥", "word": "their", "transcription": "/ðeər/", "translation": "их", "example": "Their garden is beautiful.", "context_translation": "их", "context_example": "Их сад красивый."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "I have a phone. It is ___ phone. 📱", "options": ["my", "your", "his", "her"], "correct": "my", "explanation": "I → my — мой телефон!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Mia has a room. It is ___ room. 🛏️", "options": ["my", "your", "his", "her"], "correct": "her", "explanation": "She (Mia) → her — её комната!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "Leo has a computer. It is ___ computer. 💻", "correct": "his", "explanation": "He (Leo) → his — его компьютер!", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "We have a house. It is ___ house. 🏠", "correct": "our", "explanation": "We → our — наш дом!", "topic": "grammar"},
+                {"id": 5, "type": "correct_mistake", "question": "She has a cat. It is her cat.", "correct": "Correct", "explanation": "Всё правильно! She → her 🐱", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Furniture + there is/there are + possessive adjectives",
+            "description": "Повторяем всё вместе",
+            "grammar": {
+                "title": "Revision: Furniture, There is/are, Possessive adjectives",
+                "rule": "Сегодня соединяем всё, что учили!\n\n📌 Мебель и техника: sofa, bed, chair, table, bookshelf, wardrobe, TV, computer, fridge, washing machine\n📌 Конструкция: There is / There are — что где находится\n📌 Притяжательные: my, your, his, her, its, our, their\n\n🎯 Структура: 'There is a sofa in my living room.'\n🎯 Вопрос: 'Is there a TV in your bedroom?'",
+                "examples": [
+                    "Leo: 'There is a computer in my room. There are also 100 games on his computer.' 💻",
+                    "Mia: 'There is a plant in her room. There are flowers in our garden.' 🌸",
+                    "Sam: 'There aren't any snacks in their fridge. But there is pizza in our fridge!' 🍕"
+                ],
+                "keywords": "revision, furniture, there is/are, possessive adjectives"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Choose the correct sentence: 🛋️", "options": ["There is two sofas in the living room.", "There are two sofas in the living room.", "There is a two sofas in the living room.", "There are a two sofas in the living room."], "correct": "There are two sofas in the living room.", "explanation": "sofas — много, нужно there are!", "topic": "grammar"},
+                {"id": 2, "type": "multiple_choice", "question": "Leo has a bed. It is ___ bed. 🛏️", "options": ["my", "your", "his", "her"], "correct": "his", "explanation": "Leo — he → his!", "topic": "grammar"},
+                {"id": 3, "type": "fill_blank", "question": "___ a lamp on the table. (There is / There are)", "correct": "There is", "explanation": "lamp — один, поэтому there is 💡", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "We have a washing machine. It is ___ washing machine. 🧺", "correct": "our", "explanation": "We → our — наша стиральная машина!", "topic": "grammar"},
+                {"id": 5, "type": "fill_blank", "question": "Mia and Sam have a dog. It is ___ dog. 🐕", "correct": "their", "explanation": "They → their — их собака!", "topic": "grammar"},
+                {"id": 6, "type": "correct_mistake", "question": "There are a bookshelf in my room.", "correct": "There is a bookshelf in my room.", "explanation": "bookshelf — один, нужно there is 📚", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — Flat for Rent (What's wrong with this flat?)",
+            "description": "Читаем объявление о сдаче квартиры с юмором",
+            "grammar": {
+                "title": "Reading: Flat for Rent",
+                "rule": "Сегодня читаем объявление о сдаче квартиры, где всё пошло не так. Используем there is/there are и притяжательные местоимения!",
+                "examples": [],
+                "keywords": "reading, flat, rent, funny, there is, there are"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "How many bedrooms are there in the flat? 🛏️",
+                    "options": ["One", "Two", "Three", "None"],
+                    "correct": "Two",
+                    "explanation": "The text says: 'There are two bedrooms.'",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n🏠 FLAT FOR RENT — THE TRUTH\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n📍 AD: 'Beautiful flat in the city centre. Perfect for a family!'\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTHE TRUTH (from the previous tenant):\n\n🛋️ LIVING ROOM\nThere is a sofa in the living room. There is also a mysterious stain on it. We don't talk about the stain.\nThere is a TV, but there is no remote control. Good luck!\n\n🍳 KITCHEN\nThere is a fridge. There is no food inside. Just old ketchup from 2019.\nThere is a cooker, but there is no oven. Microwaved pizza only! 🍕\n\n🛏️ BEDROOMS\nThere are two bedrooms. There is a bed in each room. There are also strange noises at night. Probably just mice. 🐭\nThere is a wardrobe in the main bedroom. There is nothing inside except one lonely sock.\n\n🚿 BATHROOM\nThere is a shower. There is no hot water. Cold showers build character, right? 💪\nThere is a mirror. There is a crack in it. Seven years bad luck!\n\n🚗 OTHER\nThere is no parking. There is no lift. The flat is on the fifth floor. Prepare your legs! 🦵\nThere is a washing machine. There is no instruction manual. Guess the buttons!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nOWNER'S COMMENT: 'The flat is FULLY FURNISHED! Very comfortable!'\n\nPREVIOUS TENANT'S COMMENT: 'There is a reason I'm moving out. There are many reasons, actually.' 😭\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What is in the fridge? 🧊",
+                    "options": ["Pizza", "Vegetables", "Old ketchup", "Nothing"],
+                    "correct": "Old ketchup",
+                    "explanation": "There is no food inside. Just old ketchup from 2019!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "What floor is the flat on? 🦵",
+                    "options": ["First", "Second", "Fourth", "Fifth"],
+                    "correct": "Fifth",
+                    "explanation": "The flat is on the fifth floor. No lift! Prepare your legs!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "reading",
+                    "question": "What is in the wardrobe in the main bedroom? 🚪",
+                    "options": ["Clothes", "Shoes", "One lonely sock", "Nothing"],
+                    "correct": "One lonely sock",
+                    "explanation": "There is nothing inside except one lonely sock.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "reading",
+                    "question": "Is there hot water in the bathroom? 🚿",
+                    "options": ["Yes, always", "No, never", "Sometimes", "Only in the morning"],
+                    "correct": "No, never",
+                    "explanation": "There is no hot water. Cold showers build character!",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 6,
+                    "type": "true_false",
+                    "question": "There is a lift in the building.",
+                    "correct": "False",
+                    "explanation": "There is no lift. The flat is on the fifth floor. Good luck! 🦵",
+                    "topic": "reading"
+                },
+                {
+                    "id": 7,
+                    "type": "true_false",
+                    "question": "The previous tenant was happy with the flat.",
+                    "correct": "False",
+                    "explanation": "The previous tenant says: 'There are many reasons I'm moving out.' 😭",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "week_id": "week3_capital_letters",
+    "title": "✏️ Capital Letters & I can / I can't",
+    "description": "Учим правила заглавных букв и учимся заполнять форму выбора предметов. Уровень A0. 6 дней.",
+    "level": "5 класс",
+    "icon": "✏️",
+    "order_num": 3,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: When do we use capital letters?",
+            "description": "Изучаем правила: начало предложения, местоимение I, имена, дни недели",
+            "grammar": {
+                "title": "Capital Letters (Заглавные буквы)",
+                "rule": "В английском языке заглавные буквы используются в 5 случаях:\n\n1️⃣ Начало предложения: 'My name is Leo.'\n2️⃣ Местоимение 'I': 'I am a student.' (всегда большое I!)\n3️⃣ Имена людей: 'Mia', 'Sam', 'Ms. Johnson'\n4️⃣ Дни недели: 'Monday', 'Friday'\n5️⃣ Страны и города: 'Russia', 'Moscow', 'London'\n\n❌ Месяцы и времена года пишутся с маленькой буквы: 'january' → ❌, 'January' → ✅",
+                "examples": [
+                    "❌ i like pizza. → ✅ I like pizza.",
+                    "❌ my name is leo. → ✅ My name is Leo.",
+                    "❌ we have maths on monday. → ✅ We have Maths on Monday."
+                ],
+                "keywords": "capital letter, sentence, I, name, day, country"
+            },
+            "vocabulary": [
+                {"icon": "📝", "word": "capital letter", "transcription": "/ˈkæp.ɪ.təl ˈlet.ər/", "translation": "заглавная буква", "example": "Start a sentence with a capital letter.", "context_translation": "заглавная буква", "context_example": "Начинай предложение с заглавной буквы."},
+                {"icon": "📖", "word": "sentence", "transcription": "/ˈsen.təns/", "translation": "предложение", "example": "This is a sentence.", "context_translation": "предложение", "context_example": "Это предложение."},
+                {"icon": "👤", "word": "name", "transcription": "/neɪm/", "translation": "имя", "example": "My name is Leo.", "context_translation": "имя", "context_example": "Меня зовут Лео."},
+                {"icon": "🇷🇺", "word": "country", "transcription": "/ˈkʌn.tri/", "translation": "страна", "example": "Russia is my country.", "context_translation": "страна", "context_example": "Россия — моя страна."},
+                {"icon": "📅", "word": "Monday", "transcription": "/ˈmʌn.deɪ/", "translation": "понедельник", "example": "I have Maths on Monday.", "context_translation": "понедельник", "context_example": "У меня математика в понедельник."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Which word needs a capital letter?", "options": ["dog", "monday", "apple", "cat"], "correct": "monday", "explanation": "Дни недели всегда пишутся с заглавной буквы: Monday, not monday! 📅", "topic": "grammar"},
+                {"id": 2, "type": "fill_blank", "question": "___ am a student. (i / I)", "correct": "I", "explanation": "Местоимение 'I' всегда пишется с большой буквы!", "topic": "grammar"},
+                {"id": 3, "type": "correct_mistake", "question": "my name is leo.", "correct": "My name is Leo.", "explanation": "Начало предложения — заглавная буква. Имена людей — заглавные буквы.", "topic": "grammar"},
+                {"id": 4, "type": "true_false", "question": "The word 'russia' is written with a capital letter.", "correct": "True", "explanation": "Названия стран пишутся с заглавной буквы: Russia, not russia! 🌍", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Practice capital letters",
+            "description": "Тренируемся ставить заглавные буквы в предложениях",
+            "grammar": {
+                "title": "Capital Letters — Practice",
+                "rule": "Вспоминаем правила:\n\n✅ Начало предложения: 'Hello! How are you?'\n✅ Местоимение 'I': 'I like pizza.'\n✅ Имена: 'Leo', 'Mia', 'Sam', 'Ms. Johnson'\n✅ Дни недели: 'Monday', 'Friday', 'Sunday'\n✅ Страны и города: 'Russia', 'Moscow', 'London'\n\n🎯 Лайфхак: Если сомневаешься — посмотри на слово. Если это имя, день недели, страна или начало предложения — ставь заглавную букву!",
+                "examples": [
+                    "❌ i am from russia. → ✅ I am from Russia.",
+                    "❌ she goes to school on monday. → ✅ She goes to school on Monday.",
+                    "❌ my friend leo likes maths. → ✅ My friend Leo likes Maths."
+                ],
+                "keywords": "capital letter, sentence, name, day, country, I"
+            },
+            "vocabulary": [
+                {"icon": "🇬🇧", "word": "London", "transcription": "/ˈlʌn.dən/", "translation": "Лондон", "example": "London is the capital of England.", "context_translation": "Лондон", "context_example": "Лондон — столица Англии."},
+                {"icon": "🇫🇷", "word": "Paris", "transcription": "/ˈpær.ɪs/", "translation": "Париж", "example": "I want to visit Paris one day.", "context_translation": "Париж", "context_example": "Я хочу однажды посетить Париж."},
+                {"icon": "🇮🇹", "word": "Rome", "transcription": "/rəʊm/", "translation": "Рим", "example": "Rome is famous for pizza and pasta.", "context_translation": "Рим", "context_example": "Рим славится пиццей и пастой."},
+                {"icon": "📅", "word": "Friday", "transcription": "/ˈfraɪ.deɪ/", "translation": "пятница", "example": "Friday is my favourite day!", "context_translation": "пятница", "context_example": "Пятница — мой любимый день!"},
+                {"icon": "📅", "word": "Sunday", "transcription": "/ˈsʌn.deɪ/", "translation": "воскресенье", "example": "On Sunday I sleep until 11 am.", "context_translation": "воскресенье", "context_example": "В воскресенье я сплю до 11 утра."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "Which sentence is correct? ✏️", "options": ["i live in moscow.", "I live in Moscow.", "i live in Moscow.", "I live in moscow."], "correct": "I live in Moscow.", "explanation": "Начало предложения — I (большая), названия городов — Moscow!", "topic": "grammar"},
+                {"id": 2, "type": "fill_blank", "question": "___ is my favourite city. (paris / Paris)", "correct": "Paris", "explanation": "Названия городов пишутся с заглавной буквы! 🗼", "topic": "grammar"},
+                {"id": 3, "type": "correct_mistake", "question": "she likes english and maths.", "correct": "She likes English and Maths.", "explanation": "Начало предложения — She. Названия предметов — с заглавной? Нет! English — да (язык), Maths — нет. Но в расписании — да! В этом предложении English — язык.", "topic": "grammar"},
+                {"id": 4, "type": "true_false", "question": "The word 'friday' needs a capital letter.", "correct": "True", "explanation": "Дни недели всегда пишутся с заглавной буквы: Friday! 🎉", "topic": "grammar"}
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Subject Choice Form — new words",
+            "description": "Учим слова для заполнения формы выбора предметов",
+            "grammar": {
+                "title": "Subject Choice Form Vocabulary",
+                "rule": "Когда ты выбираешь дополнительные занятия в школе, нужно заполнить форму. Вот ключевые слова:\n\n📝 name — имя\n📝 class — класс\n📝 subject — предмет (Maths, English, Science...)\n📝 choose — выбирать\n📝 tick (✓) — отметить галочкой",
+                "examples": [
+                    "What is your name? — My name is Leo.",
+                    "What class are you in? — I am in class 5A.",
+                    "Which subjects do you choose? — I choose English and IT!"
+                ],
+                "keywords": "name, class, subject, choose, tick, form"
+            },
+            "vocabulary": [
+                {"icon": "📝", "word": "form", "transcription": "/fɔːm/", "translation": "анкета, бланк", "example": "Please fill in this form.", "context_translation": "анкета", "context_example": "Пожалуйста, заполните эту анкету."},
+                {"icon": "✅", "word": "tick", "transcription": "/tɪk/", "translation": "галочка, отметить", "example": "Tick your favourite subjects.", "context_translation": "отметить галочкой", "context_example": "Отметь галочкой любимые предметы."},
+                {"icon": "🤔", "word": "choose", "transcription": "/tʃuːz/", "translation": "выбирать", "example": "Choose two subjects.", "context_translation": "выбирать", "context_example": "Выбери два предмета."},
+                {"icon": "📊", "word": "information", "transcription": "/ˌɪn.fəˈmeɪ.ʃən/", "translation": "информация", "example": "Please write your information here.", "context_translation": "информация", "context_example": "Пожалуйста, напишите вашу информацию здесь."},
+                {"icon": "📋", "word": "list", "transcription": "/lɪst/", "translation": "список", "example": "Here is a list of subjects.", "context_translation": "список", "context_example": "Вот список предметов."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What do you write your name on? 📝", "options": ["book", "form", "notebook", "textbook"], "correct": "form", "explanation": "Form — это анкета или бланк, куда пишут имя.", "topic": "vocabulary"},
+                {"id": 2, "type": "fill_blank", "question": "Please ___ (tick / choose) the box.", "correct": "tick", "explanation": "Tick — поставить галочку. Choose — выбрать. Здесь нужно tick the box ✅", "topic": "vocabulary"},
+                {"id": 3, "type": "fill_blank", "question": "You need to ___ two subjects. (choose / tick)", "correct": "choose", "explanation": "Choose — выбирать. Tick — отмечать галочкой. Здесь choose two subjects.", "topic": "vocabulary"},
+                {"id": 4, "type": "true_false", "question": "You write your name on a form.", "correct": "True", "explanation": "Yes! On a form you write your name, class, and tick your subjects. 📝", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Filling in the form",
+            "description": "Учимся заполнять форму выбора предметов",
+            "grammar": {
+                "title": "How to fill in a subject choice form",
+                "rule": "Форма выбора предметов обычно содержит:\n\n1️⃣ Your name: What is your name? → Leo\n2️⃣ Your class: What class are you in? → 5A\n3️⃣ Subjects: Choose your favourite subjects → tick ✓\n\n🎯 Важно: Пиши аккуратно и проверяй заглавные буквы!\n\nПример заполненной формы:\n\nName: Leo Petrov\nClass: 5A\nSubjects: ☑ English, ☑ IT, ☐ History, ☐ Geography",
+                "examples": [
+                    "Student: 'What is your name?' — 'My name is Leo.'",
+                    "Teacher: 'What class are you in?' — 'I am in class 5A.'",
+                    "Teacher: 'Which subjects do you like?' — 'I like English and IT!'"
+                ],
+                "keywords": "name, class, subject, choose, fill in, form"
+            },
+            "vocabulary": [
+                {"icon": "✍️", "word": "fill in", "transcription": "/fɪl ɪn/", "translation": "заполнять", "example": "Fill in the form, please.", "context_translation": "заполнять", "context_example": "Пожалуйста, заполните анкету."},
+                {"icon": "📋", "word": "questionnaire", "transcription": "/ˌkwes.tʃəˈneər/", "translation": "опросник, анкета", "example": "Please complete this questionnaire.", "context_translation": "анкета", "context_example": "Пожалуйста, заполните эту анкету."},
+                {"icon": "🇬🇧", "word": "English", "transcription": "/ˈɪŋ.ɡlɪʃ/", "translation": "английский язык", "example": "English is my favourite subject!", "context_translation": "английский язык", "context_example": "Английский — мой любимый предмет!"},
+                {"icon": "💻", "word": "IT", "transcription": "/ˌaɪ ˈtiː/", "translation": "информатика", "example": "In IT class we learn about computers.", "context_translation": "информатика", "context_example": "На информатике мы изучаем компьютеры."},
+                {"icon": "🎨", "word": "Art", "transcription": "/ɑːt/", "translation": "рисование", "example": "I love Art class! I draw animals.", "context_translation": "рисование", "context_example": "Я люблю рисование! Я рисую животных."}
+            ],
+            "exercises": [
+                {"id": 1, "type": "multiple_choice", "question": "What do you do with a form? 📝", "options": ["Read it", "Fill it in", "Eat it", "Throw it"], "correct": "Fill it in", "explanation": "Fill in the form — заполнить анкету", "topic": "vocabulary"},
+                {"id": 2, "type": "fill_blank", "question": "My name is ___ . (Write your name)", "correct": "Leo", "explanation": "Напиши своё имя!", "topic": "writing"},
+                {"id": 3, "type": "fill_blank", "question": "I am in class ___ . (Write your class)", "correct": "5A", "explanation": "Напиши свой класс!", "topic": "writing"},
+                {"id": 4, "type": "true_false", "question": "You tick the subjects you like on the form.", "correct": "True", "explanation": "Yes! You tick ✓ your favourite subjects.", "topic": "reading"}
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Practice — Correct the mistakes",
+            "description": "Исправляем ошибки в заглавных буквах и заполняем форму",
+            "grammar": {
+                "title": "Revision: Capital Letters & Form",
+                "rule": "Сегодня повторяем всё, что учили:\n\n📌 Заглавные буквы: начало предложения, I, имена, дни недели, страны\n📌 Слова для формы: name, class, subject, choose, tick, fill in\n\n🎯 Задание: прочитай предложения, найди и исправь ошибки!",
+                "examples": [
+                    "❌ i am from russia. → ✅ I am from Russia.",
+                    "❌ she likes maths and science. → ✅ She likes Maths and Science.",
+                    "❌ my favourite day is friday. → ✅ My favourite day is Friday."
+                ],
+                "keywords": "revision, capital letters, form, mistakes"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {"id": 1, "type": "correct_mistake", "question": "i like english and maths.", "correct": "I like English and Maths.", "explanation": "I — заглавная, English — язык с заглавной, Maths — с заглавной как предмет в расписании", "topic": "grammar"},
+                {"id": 2, "type": "correct_mistake", "question": "my name is leo. i am from russia.", "correct": "My name is Leo. I am from Russia.", "explanation": "Начало предложения — заглавная, имена и страны — заглавные", "topic": "grammar"},
+                {"id": 3, "type": "correct_mistake", "question": "on monday we have science and pe.", "correct": "On Monday we have Science and PE.", "explanation": "On — начало, Monday и PE — заглавные, Science — заглавная", "topic": "grammar"},
+                {"id": 4, "type": "fill_blank", "question": "On the form, you need to ___ your favourite subjects. (tick / write)", "correct": "tick", "explanation": "Tick — отметить галочкой ✓", "topic": "vocabulary"}
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Reading — Subject Choice Form",
+            "description": "Читаем и заполняем форму выбора предметов",
+            "grammar": {
+                "title": "Reading: Subject Choice Form",
+                "rule": "Сегодня читаем текст о том, как ученики выбирают дополнительные занятия, и отвечаем на вопросы.",
+                "examples": [],
+                "keywords": "reading, subject choice form, comprehension"
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What is the girl's name in the text? 👧",
+                    "options": ["Mia", "Anna", "Sofia", "Emma"],
+                    "correct": "Anna",
+                    "explanation": "The girl's name is Anna. She is choosing her subjects.",
+                    "readingText": "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📋 SUBJECT CHOICE FORM — MEETING WITH THE TEACHER\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTeacher: Good morning, Anna. Please fill in this subject choice form.\n\nAnna: What do I need to write?\n\nTeacher: First, write your name and class.\n\nAnna writes: Name: Anna Petrova, Class: 5B.\n\nTeacher: Now, look at the list of subjects. Tick the ones you want to study next year. You can choose three subjects.\n\nAnna looks at the list and thinks.\n\nAnna: I like English and IT, but I don't like History. Can I choose Art?\n\nTeacher: Of course! Art is a great choice.\n\nAnna ticks: ✓ English, ✓ IT, ✓ Art.\n\nTeacher: Don't forget to write your name and class at the top!\n\nAnna: I already did!\n\nTeacher: Perfect! Now sign here.\n\nAnna signs the form and gives it to the teacher.\n\nAnna: Is that all?\n\nTeacher: Yes! Thank you, Anna. You will receive your timetable next week.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💭 QUESTIONS ABOUT THE TEXT\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "What class is Anna in?",
+                    "options": ["5A", "5B", "5C", "5D"],
+                    "correct": "5B",
+                    "explanation": "Anna writes: Class: 5B.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "reading",
+                    "question": "Which subjects did Anna choose? 📚",
+                    "options": ["Maths, Science, History", "English, History, Art", "English, IT, Art", "IT, Maths, Geography"],
+                    "correct": "English, IT, Art",
+                    "explanation": "Anna ticks: English, IT, and Art.",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Anna likes History.",
+                    "correct": "False",
+                    "explanation": "Anna says: 'I don't like History.'",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "Anna needs to sign the form.",
+                    "correct": "True",
+                    "explanation": "The teacher says: 'Now sign here.'",
+                    "topic": "reading"
+                }
+            ]
+        }
+    ]
+}

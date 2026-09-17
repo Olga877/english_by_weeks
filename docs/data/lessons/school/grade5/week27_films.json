@@ -1,0 +1,393 @@
+{
+    "week_id": "week27_films",
+    "title": "🎬 Films & Past Simple (irregular verbs)",
+    "description": "Учимся говорить о фильмах, использовать неправильные глаголы в прошедшем времени и делиться впечатлениями. Мемы, сериалы и киновечера! 🍿",
+    "level": "5 класс",
+    "icon": "🎬",
+    "order_num": 27,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Types of Films",
+            "description": "Знакомимся с разными жанрами фильмов",
+            "grammar": {
+                "title": "Types of Films — Vocabulary",
+                "rule": "📘 **Жанры фильмов на английском**:\n\n🎬 **action film** — боевик\n😂 **comedy** — комедия\n❤️ **romance** — романтический фильм\n😱 **horror film** — фильм ужасов\n🤯 **thriller** — триллер\n🎨 **animated film** — мультфильм\n🧙 **fantasy** — фэнтези\n🪐 **science fiction (sci-fi)** — научная фантастика\n\n📌 **Пример**:\nI love action films. They are exciting!\nI don't like horror films. They are too scary.\n\n📌 **Пример**:\n'What's your favourite film?'\n'I love Harry Potter! It's fantasy!' 🧙",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🎬", "word": "action", "transcription": "/ˈækʃn/", "translation": "боевик, экшн", "example": "I like action films.", "context_translation": "боевик", "context_example": "Мне нравятся боевики."},
+                {"icon": "😂", "word": "comedy", "transcription": "/ˈkɒmədi/", "translation": "комедия", "example": "Comedies make me laugh.", "context_translation": "комедия", "context_example": "Комедии заставляют меня смеяться."},
+                {"icon": "❤️", "word": "romance", "transcription": "/rəʊˈmæns/", "translation": "романтический фильм", "example": "My sister likes romances.", "context_translation": "романтический фильм", "context_example": "Моя сестра любит романтические фильмы."},
+                {"icon": "😱", "word": "horror", "transcription": "/ˈhɒrər/", "translation": "фильм ужасов", "example": "I don't like horror films!", "context_translation": "фильм ужасов", "context_example": "Я не люблю фильмы ужасов!"},
+                {"icon": "🎨", "word": "animated", "transcription": "/ˈænɪmeɪtɪd/", "translation": "мультипликационный", "example": "Children love animated films.", "context_translation": "мультипликационный", "context_example": "Дети любят мультфильмы."},
+                {"icon": "🧙", "word": "fantasy", "transcription": "/ˈfæntəzi/", "translation": "фэнтези", "example": "Harry Potter is a fantasy film.", "context_translation": "фэнтези", "context_example": "Гарри Поттер — это фильм в жанре фэнтези."},
+                {"icon": "🪐", "word": "science fiction", "transcription": "/ˌsaɪəns ˈfɪkʃn/", "translation": "научная фантастика", "example": "I love science fiction films.", "context_translation": "научная фантастика", "context_example": "Я люблю научно-фантастические фильмы."},
+                {"icon": "🤯", "word": "thriller", "transcription": "/ˈθrɪlər/", "translation": "триллер", "example": "Thrillers are exciting!", "context_translation": "триллер", "context_example": "Триллеры захватывающие!"}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What type of film makes you laugh? 😂",
+                    "options": ["Action", "Comedy", "Horror", "Fantasy"],
+                    "correct": "Comedy",
+                    "accept": ["Comedy", "comedy", "COMEDY"],
+                    "explanation": "Comedies make you laugh! 😂",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "Harry Potter is a ___ film. 🧙 (fantasy / horror)",
+                    "correct": "fantasy",
+                    "accept": ["fantasy", "Fantasy", "FANTASY"],
+                    "explanation": "Harry Potter is a fantasy film! 🧙",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Horror films are always funny.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Horror films are scary, not funny! 😱",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ films have aliens and space. 🪐 (Action / Science fiction)",
+                    "correct": "Science fiction",
+                    "accept": ["Science fiction", "science fiction", "SCIENCE FICTION", "Sci-fi"],
+                    "explanation": "Science fiction films have aliens and space! 🪐",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Children love ___ films. 🎨 (animated / horror)",
+                    "correct": "animated",
+                    "accept": ["animated", "Animated", "ANIMATED"],
+                    "explanation": "Children love animated films! 🎨",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Describing a Film",
+            "description": "Учимся описывать фильмы и свои впечатления",
+            "grammar": {
+                "title": "Describing a Film — Vocabulary",
+                "rule": "📘 **Как описывать фильм**:\n\n📌 **Сюжет (plot)**:\n✅ The film is about... — Фильм о...\n✅ The main character is... — Главный герой — это...\n\n📌 **Впечатления**:\n✅ The film is exciting. — Фильм захватывающий.\n✅ It's a must-see! — Это обязательно к просмотру!\n✅ It's well worth seeing. — Это стоит посмотреть.\n✅ The acting is wonderful. — Игра актёров великолепна.\n\n📌 **Пример**:\nHarry Potter is about a young wizard. The acting is wonderful. It's a must-see!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📝", "word": "plot", "transcription": "/plɒt/", "translation": "сюжет", "example": "The plot of the film is interesting.", "context_translation": "сюжет", "context_example": "Сюжет фильма интересный."},
+                {"icon": "⭐", "word": "character", "transcription": "/ˈkærəktər/", "translation": "персонаж", "example": "The main character is Harry.", "context_translation": "персонаж", "context_example": "Главный герой — Гарри."},
+                {"icon": "🎭", "word": "acting", "transcription": "/ˈæktɪŋ/", "translation": "игра актёров", "example": "The acting is wonderful!", "context_translation": "игра актёров", "context_example": "Игра актёров великолепна!"},
+                {"icon": "🌟", "word": "star", "transcription": "/stɑːr/", "translation": "звезда (актёр)", "example": "Daniel Radcliffe stars in the film.", "context_translation": "звезда", "context_example": "Дэниел Рэдклифф снимается в фильме."},
+                {"icon": "👀", "word": "scene", "transcription": "/siːn/", "translation": "сцена", "example": "My favourite scene is at the end.", "context_translation": "сцена", "context_example": "Моя любимая сцена в конце."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is the story of a film called? 📝",
+                    "options": ["Plot", "Scene", "Actor", "Star"],
+                    "correct": "Plot",
+                    "accept": ["Plot", "plot", "PLOT"],
+                    "explanation": "The story of a film is called the plot! 📝",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "The main ___ of the film is Harry Potter. ⭐ (character / scene)",
+                    "correct": "character",
+                    "accept": ["character", "Character", "CHARACTER"],
+                    "explanation": "The main character is Harry Potter! ⭐",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "A 'must-see' is a film you should watch.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Yes! A 'must-see' is a film you must watch! 🎬",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Daniel Radcliffe ___ in Harry Potter. 🌟 (acts / stars)",
+                    "correct": "stars",
+                    "accept": ["stars", "Stars", "STARS"],
+                    "explanation": "He stars in Harry Potter! 🌟",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The ___ is wonderful in this film. 🎭 (acting / plot)",
+                    "correct": "acting",
+                    "accept": ["acting", "Acting", "ACTING"],
+                    "explanation": "The acting is wonderful! 🎭",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Grammar — Past Simple (irregular verbs)",
+            "description": "Учим неправильные глаголы в прошедшем времени",
+            "grammar": {
+                "title": "Past Simple — Irregular Verbs",
+                "rule": "📘 **Неправильные глаголы в Past Simple**:\n\nНеправильные глаголы не образуют Past Simple по правилу (+ed). Их нужно запомнить!\n\n📌 **Группа 1 (меняют гласную)**:\n✅ begin → **began** (начал)\n✅ drink → **drank** (пил)\n✅ sing → **sang** (пел)\n✅ swim → **swam** (плавал)\n\n📌 **Группа 2 (меняют всё слово)**:\n✅ go → **went** (пошёл)\n✅ see → **saw** (увидел)\n✅ take → **took** (взял)\n✅ eat → **ate** (съел)\n✅ have → **had** (имел)\n✅ make → **made** (сделал)\n\n📌 **Группа 3 (совсем другие)**:\n✅ buy → **bought** (купил)\n✅ think → **thought** (думал)\n✅ find → **found** (нашёл)\n✅ write → **wrote** (написал)\n✅ read → **read** (читал — произносится /red/)\n\n📌 **Пример**:\nI **saw** a film yesterday.\nShe **went** to the cinema.\nWe **ate** popcorn.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🚶", "word": "went", "transcription": "/went/", "translation": "пошёл, поехал", "example": "I went to the cinema.", "context_translation": "пошёл", "context_example": "Я пошёл в кино."},
+                {"icon": "👀", "word": "saw", "transcription": "/sɔː/", "translation": "увидел, смотрел", "example": "I saw a film.", "context_translation": "увидел", "context_example": "Я посмотрел фильм."},
+                {"icon": "🍿", "word": "ate", "transcription": "/et/", "translation": "съел", "example": "I ate popcorn.", "context_translation": "съел", "context_example": "Я съел попкорн."},
+                {"icon": "🛒", "word": "bought", "transcription": "/bɔːt/", "translation": "купил", "example": "I bought tickets.", "context_translation": "купил", "context_example": "Я купил билеты."},
+                {"icon": "📝", "word": "wrote", "transcription": "/rəʊt/", "translation": "написал", "example": "I wrote an email.", "context_translation": "написал", "context_example": "Я написал письмо."},
+                {"icon": "📖", "word": "read", "transcription": "/red/", "translation": "читал (Past Simple)", "example": "I read the book.", "context_translation": "читал", "context_example": "Я прочитал книгу."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "What is the past form of 'go'? 🚶",
+                    "options": ["goed", "went", "gone", "going"],
+                    "correct": "went",
+                    "accept": ["went", "Went", "WENT"],
+                    "explanation": "go → went! 🚶",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "What is the past form of 'see'? 👀",
+                    "options": ["seed", "saw", "see", "seen"],
+                    "correct": "saw",
+                    "accept": ["saw", "Saw", "SAW"],
+                    "explanation": "see → saw! 👀",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "I ___ (eat) popcorn at the cinema. 🍿",
+                    "correct": "ate",
+                    "accept": ["ate", "Ate", "ATE"],
+                    "explanation": "eat → ate! 🍿",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "She ___ (buy) a ticket for the film. 🎫",
+                    "correct": "bought",
+                    "accept": ["bought", "Bought", "BOUGHT"],
+                    "explanation": "buy → bought! 🎫",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I goed to the cinema yesterday.",
+                    "correct": "I went to the cinema yesterday.",
+                    "accept": ["I went to the cinema yesterday", "I went to the cinema yesterday."],
+                    "explanation": "go → went, not goed! 🚶",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Reading — Film Review Email",
+            "description": "Читаем письмо с отзывом о фильме",
+            "grammar": {
+                "title": "Чтение и понимание текста",
+                "rule": "📚 **Стратегия чтения**:\n1️⃣ Прочитай письмо целиком, чтобы понять общий смысл.\n2️⃣ Найди, какой фильм посмотрел герой и что он о нём думает.\n3️⃣ Прочитай вопросы и найди ответы в тексте.\n\n💡 **Совет**: Обрати внимание на неправильные глаголы в Past Simple!",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "reading",
+                    "question": "What film did Samantha watch? 🎬",
+                    "options": ["Harry Potter", "Spider-Man", "Avatar", "Star Wars"],
+                    "correct": "Harry Potter",
+                    "accept": ["Harry Potter", "harry potter", "HARRY POTTER"],
+                    "explanation": "Samantha watched Harry Potter and the Half-Blood Prince! 🧙",
+                    "readingText": "🌟 FILM REVIEW EMAIL 🌟\n\nFrom: Samantha\nTo: Julia\nSubject: I saw a great film!\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nHi Julia,\n\nHow are you? I had a great weekend. I went to the cinema on Saturday night with my friends. We saw Harry Potter and the Half-Blood Prince. It's a fantasy film starring Daniel Radcliffe, Rupert Grint and Emma Watson.\n\nThe film is about Harry Potter getting ready to face Voldemort. The acting was wonderful. I found the film exciting. It's a must-see for everyone!\n\nHow about you? Did you go to the seaside last weekend?\n\nLove,\nSamantha\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n💬 QUESTIONS ABOUT THE EMAIL\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+                    "topic": "reading"
+                },
+                {
+                    "id": 2,
+                    "type": "reading",
+                    "question": "Who stars in the film? 🌟",
+                    "options": ["Daniel Radcliffe", "Tom Holland", "Messi", "Billie Eilish"],
+                    "correct": "Daniel Radcliffe",
+                    "accept": ["Daniel Radcliffe", "daniel radcliffe", "DANIEL RADCLIFFE"],
+                    "explanation": "Daniel Radcliffe stars in Harry Potter! 🌟",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "Samantha went to the cinema with her family.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Samantha went with her friends, not her family! 👥",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Samantha found the film boring.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Samantha says: 'I found the film exciting.' 🎬",
+                    "readingText": "",
+                    "topic": "reading"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "The film is about Harry Potter getting ready to face ___ . 🧙",
+                    "correct": "Voldemort",
+                    "accept": ["Voldemort", "voldemort", "VOLDEMORT"],
+                    "explanation": "Harry Potter is getting ready to face Voldemort! 🧙",
+                    "readingText": "",
+                    "topic": "reading"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Past Simple Practice — Irregular Verbs",
+            "description": "Тренируем неправильные глаголы в прошедшем времени",
+            "grammar": {
+                "title": "Past Simple — Irregular Verbs Practice",
+                "rule": "📘 **Вспоминаем неправильные глаголы**:\n\n📌 **Повторение**:\n✅ go → went\n✅ see → saw\n✅ eat → ate\n✅ buy → bought\n✅ write → wrote\n✅ read → read (произносится /red/)\n✅ take → took\n✅ make → made\n✅ have → had\n✅ find → found\n\n📌 **Пример**:\nI **saw** a film yesterday.\nShe **bought** popcorn.\nWe **had** a great time.",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ a great film last night. 🎬",
+                    "options": ["see", "saw", "seen", "sees"],
+                    "correct": "saw",
+                    "accept": ["saw", "Saw", "SAW"],
+                    "explanation": "Last night → saw! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "She ___ (buy) a new dress yesterday. 🛍️",
+                    "correct": "bought",
+                    "accept": ["bought", "Bought", "BOUGHT"],
+                    "explanation": "buy → bought! 🛍️",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "true_false",
+                    "question": "The past form of 'read' is pronounced like 'reed'.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "The past form of 'read' is pronounced /red/, not /riːd/! 📖",
+                    "topic": "reading"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "We ___ (go) to the cinema on Saturday. 🎬",
+                    "correct": "went",
+                    "accept": ["went", "Went", "WENT"],
+                    "explanation": "go → went! 🎬",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "She haved a great time at the cinema.",
+                    "correct": "She had a great time at the cinema.",
+                    "accept": ["She had a great time at the cinema", "She had a great time at the cinema."],
+                    "explanation": "have → had, not haved! 🎬",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Writing — Film Review Email",
+            "description": "Пишем письмо с отзывом о фильме",
+            "grammar": {
+                "title": "Повторение: Past Simple (irregular verbs)",
+                "rule": "📚 **План для письма**:\n\n1️⃣ What film did you see? (Какой фильм ты посмотрел?)\n2️⃣ What is the film about? (О чём фильм?)\n3️⃣ Who stars in it? (Кто снимается?)\n4️⃣ What did you think? (Что ты думаешь?)\n5️⃣ Would you recommend it? (Ты бы порекомендовал?)\n\n📌 **Пример**:\nHi Julia,\n\nI saw Harry Potter last weekend. It's a fantasy film about a young wizard. Daniel Radcliffe stars in it. I found the film exciting. The acting was great. It's a must-see for everyone!\n\nWrite back soon!\n\nSam",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "fill_blank",
+                    "question": "I ___ (see) a great film last weekend. 🎬",
+                    "correct": "saw",
+                    "accept": ["saw", "Saw", "SAW"],
+                    "explanation": "see → saw! 🎬",
+                    "topic": "writing"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "It's a ___ film. (напиши жанр)",
+                    "correct": "fantasy",
+                    "accept": ["fantasy", "comedy", "action", "thriller", "science fiction", "animated"],
+                    "explanation": "Какой жанр фильма? 🎬",
+                    "topic": "writing"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The film is about ___ . (напиши о чём фильм)",
+                    "correct": "a young wizard",
+                    "accept": ["a young wizard", "Harry Potter", "wizards", "magic", "friendship"],
+                    "explanation": "О чём фильм? 📝",
+                    "topic": "writing"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "___ stars in it. (напиши актёра)",
+                    "correct": "Daniel Radcliffe",
+                    "accept": ["Daniel Radcliffe", "Emma Watson", "Rupert Grint", "Tom Holland", "Zendaya", "Timothée Chalamet"],
+                    "explanation": "Кто снимается в фильме? 🌟",
+                    "topic": "writing"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "I found the film ___ . (напиши прилагательное)",
+                    "correct": "exciting",
+                    "accept": ["exciting", "great", "amazing", "fantastic", "wonderful", "interesting", "awesome", "brilliant"],
+                    "explanation": "Что ты думаешь о фильме? 💖",
+                    "topic": "writing"
+                }
+            ]
+        }
+    ]
+}

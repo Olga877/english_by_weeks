@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Английский по неделям</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:,">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EngWeeks">
+    <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()">🌓 Тёмная/Светлая тема</button>
+        </header>
+
+        <!-- Блок "Совет дня" -->
+        <div class="tip-section" id="dailyTipBlock">
+            <div class="tip-label">✨ BREAKING NEWS</div>
+            <div class="tip-content" id="dailyTipText">
+                <span class="tip-icon">🧠</span>
+                Загрузка...
+            </div>
+            <button class="tip-refresh" onclick="refreshDailyTip()">
+                🔄 Next
+            </button>
+        </div>
+
+        <div id="levelsContainer" class="levels-grid">
+            <div class="loading">Загрузка...</div>
+        </div>
+
+        <button id="installBtn" style="display: none; position: fixed; bottom: 20px; right: 20px; background: var(--primary); color: white; border: none; padding: 12px 20px; border-radius: 30px; cursor: pointer; z-index: 1000; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+            📱 Установить приложение
+        </button>
+
+        <script src="js/common.js"></script>
+        <script src="js/index.js"></script>
+    </div>
+</body>
+</html>
