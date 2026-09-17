@@ -1,0 +1,407 @@
+{
+    "week_id": "beginner_it_basics",
+    "title": "💻 IT Basics: Verb 'to be' & Daily Routines",
+    "description": "Учим глагол to be (I am / You are), числа и дни недели в контексте ежедневной работы IT-специалиста. Уровень Beginner. 6 дней.",
+    "level": "Beginner",
+    "icon": "💻",
+    "order_num": 1,
+    "is_published": true,
+    "days": [
+        {
+            "day": 1,
+            "title": "Day 1: Verb 'to be' (I am / You are)",
+            "description": "Знакомство с коллегами и основные утверждения",
+            "grammar": {
+                "title": "Verb 'to be' (I am / You are)",
+                "rule": "📘 Глагол 'to be' (быть):\n\n✅ I am = I'm (Я есть)\n✅ You are = You're (Ты/Вы есть)\n\n📌 Примеры:\nI am a developer. = I'm a developer.\nYou are a tester. = You're a tester.\n\n⚠️ В английском нельзя сказать 'I developer'. Нужно обязательно 'I am a developer'.",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "👨‍💻", "word": "developer", "transcription": "/dɪˈveləpə/", "translation": "разработчик", "example": "I'm a developer.", "context_translation": "разработчик", "context_example": "Я разработчик."},
+                {"icon": "🧪", "word": "tester", "transcription": "/ˈtestə/", "translation": "тестировщик", "example": "You're a tester.", "context_translation": "тестировщик", "context_example": "Ты тестировщик."},
+                {"icon": "📊", "word": "manager", "transcription": "/ˈmænɪdʒə/", "translation": "менеджер", "example": "I'm a manager.", "context_translation": "менеджер", "context_example": "Я менеджер."},
+                {"icon": "🌍", "word": "team", "transcription": "/tiːm/", "translation": "команда", "example": "You're in the QA team.", "context_translation": "команда", "context_example": "Ты в команде QA."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ a Python developer.",
+                    "options": ["am", "is", "are", "be"],
+                    "correct": "am",
+                    "accept": ["am", "Am", "AM"],
+                    "explanation": "С местоимением 'I' всегда используется 'am'. I am = I'm.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "You ___ in the QA team.",
+                    "options": ["am", "is", "are", "be"],
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "С местоимением 'You' всегда используется 'are'. You are = You're.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Hello! I ___ Anna. I'm a manager.",
+                    "correct": "am",
+                    "accept": ["am", "Am", "AM"],
+                    "explanation": "I am Anna. Сокращение: I'm Anna.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "You ___ a new tester.",
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "You are a new tester.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "correct_mistake",
+                    "question": "I developer.",
+                    "correct": "I am a developer.",
+                    "accept": ["I am a developer", "I am a developer.", "I'm a developer", "I'm a developer."],
+                    "explanation": "Ошибка! В английском предложении всегда нужен глагол 'to be'. I am a developer.",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 2,
+            "title": "Day 2: Negative and Questions (aren't / Are you?)",
+            "description": "Отрицания и вопросы с глаголом to be",
+            "grammar": {
+                "title": "Negative and Questions with 'to be'",
+                "rule": "📘 Отрицания и вопросы:\n\n❌ Отрицание:\nI am not = I'm not\nYou are not = You aren't\n\n❓ Вопрос:\nAm I...?\nAre you...?\n\n📌 Примеры:\nI'm not a tester. (Я не тестировщик.)\nYou aren't in room 5. (Ты не в комнате 5.)\nAre you a developer? (Ты разработчик?)",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🏢", "word": "office", "transcription": "/ˈɒfɪs/", "translation": "офис", "example": "You aren't in the office.", "context_translation": "офис", "context_example": "Ты не в офисе."},
+                {"icon": "💻", "word": "laptop", "transcription": "/ˈlæptɒp/", "translation": "ноутбук", "example": "I'm not at my laptop.", "context_translation": "ноутбук", "context_example": "Я не за ноутбуком."},
+                {"icon": "👋", "word": "new", "transcription": "/njuː/", "translation": "новый", "example": "Are you new here?", "context_translation": "новый", "context_example": "Ты здесь новенький?"}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Выберите правильное отрицание: 'You are in the Houston office.'",
+                    "options": ["You aren't in the Houston office.", "You am not in the Houston office.", "You isn't in the Houston office."],
+                    "correct": "You aren't in the Houston office.",
+                    "accept": ["You aren't in the Houston office", "You aren't in the Houston office.", "You are not in the Houston office", "You are not in the Houston office."],
+                    "explanation": "Отрицание для 'you' — 'are not' = 'aren't'. Ты не в офисе Хьюстона.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Как спросить коллегу: 'Ты тестировщик?'",
+                    "options": ["Are you a tester?", "You are a tester?", "Am you a tester?"],
+                    "correct": "Are you a tester?",
+                    "accept": ["Are you a tester", "Are you a tester?", "are you a tester"],
+                    "explanation": "В вопросе глагол 'are' выходит на первое место. Are you...?",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "A: Are you a manager?\nB: No, I ___ not. I'm a developer.",
+                    "correct": "am",
+                    "accept": ["am", "Am", "AM", "'m", "'m"],
+                    "explanation": "Сокращение 'I am not' = 'I'm not'. Это стандартный ответ на вопрос 'Are you...?'",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "true_false",
+                    "question": "Предложение 'You isn't in my team' написано правильно.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Неправильно! С 'you' используется 'aren't', а не 'isn't'. Правильно: You aren't in my team.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "___ you in the QA team?",
+                    "correct": "Are",
+                    "accept": ["Are", "are", "ARE"],
+                    "explanation": "Вопрос: Are you in the QA team?",
+                    "topic": "grammar"
+                }
+            ]
+        },
+        {
+            "day": 3,
+            "title": "Day 3: Numbers 0-10 (Sprints & Versions)",
+            "description": "Числа от 0 до 10 в контексте версий и спринтов",
+            "grammar": {
+                "title": "Numbers 0-10",
+                "rule": "📘 Числа от 0 до 10:\n\n0 — zero\n1 — one\n2 — two\n3 — three\n4 — four\n5 — five\n6 — six\n7 — seven\n8 — eight\n9 — nine\n10 — ten\n\n📌 Примеры:\nSprint 8 (восьмой спринт)\nVersion 2.0 (версия два)\nI have 3 bugs. (У меня 3 бага.)",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🔢", "word": "zero", "transcription": "/ˈzɪərəʊ/", "translation": "ноль", "example": "Zero bugs!", "context_translation": "ноль", "context_example": "Ноль багов!"},
+                {"icon": "1️⃣", "word": "one", "transcription": "/wʌn/", "translation": "один", "example": "One sprint.", "context_translation": "один", "context_example": "Один спринт."},
+                {"icon": "8️⃣", "word": "eight", "transcription": "/eɪt/", "translation": "восемь", "example": "Sprint eight.", "context_translation": "восемь", "context_example": "Восьмой спринт."},
+                {"icon": "🔟", "word": "ten", "transcription": "/ten/", "translation": "десять", "example": "Ten tasks.", "context_translation": "десять", "context_example": "Десять задач."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "The new release is in Sprint ___ (8).",
+                    "options": ["seven", "eight", "nine", "ten"],
+                    "correct": "eight",
+                    "accept": ["eight", "Eight", "EIGHT"],
+                    "explanation": "Sprint 8 — восьмой спринт. Eight = 8.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "fill_blank",
+                    "question": "I have ___ (3) bugs to fix today.",
+                    "correct": "three",
+                    "accept": ["three", "Three", "THREE", "3"],
+                    "explanation": "Three = 3. У меня три бага.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "multiple_choice",
+                    "question": "Our team has ___ (5) developers.",
+                    "options": ["four", "five", "six", "seven"],
+                    "correct": "five",
+                    "accept": ["five", "Five", "FIVE"],
+                    "explanation": "Five = 5. В команде пять разработчиков.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "Version ___ (2.0) is ready.",
+                    "correct": "two",
+                    "accept": ["two", "Two", "TWO", "2"],
+                    "explanation": "Version 2.0 — версия два. Two = 2.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "Число 0 на английском будет 'zero'.",
+                    "correct": "True",
+                    "accept": ["True", "true", "TRUE", "Yes", "yes"],
+                    "explanation": "Да, zero — это 0.",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 4,
+            "title": "Day 4: Days of the Week (Stand-ups & Releases)",
+            "description": "Дни недели и ежедневные созвоны",
+            "grammar": {
+                "title": "Days of the Week",
+                "rule": "📘 Дни недели:\n\nMonday — понедельник\nTuesday — вторник\nWednesday — среда\nThursday — четверг\nFriday — пятница\nSaturday — суббота\nSunday — воскресенье\n\n📌 Примеры:\nOur daily stand-up is on Monday.\nThe release is on Friday.\nSee you on Tuesday!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "📅", "word": "Monday", "transcription": "/ˈmʌndeɪ/", "translation": "понедельник", "example": "Stand-up on Monday.", "context_translation": "понедельник", "context_example": "Стендап в понедельник."},
+                {"icon": "📅", "word": "Wednesday", "transcription": "/ˈwenzdeɪ/", "translation": "среда", "example": "Release on Wednesday.", "context_translation": "среда", "context_example": "Релиз в среду."},
+                {"icon": "📅", "word": "Friday", "transcription": "/ˈfraɪdeɪ/", "translation": "пятница", "example": "Demo on Friday.", "context_translation": "пятница", "context_example": "Демо в пятницу."},
+                {"icon": "📅", "word": "Sunday", "transcription": "/ˈsʌndeɪ/", "translation": "воскресенье", "example": "No work on Sunday.", "context_translation": "воскресенье", "context_example": "В воскресенье не работаем."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Our daily stand-up is on ___ (понедельник).",
+                    "options": ["Sunday", "Monday", "Friday", "Wednesday"],
+                    "correct": "Monday",
+                    "accept": ["Monday", "monday", "MONDAY"],
+                    "explanation": "Понедельник — Monday. День ежедневных созвонов.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Today is Tuesday. Tomorrow is ___.",
+                    "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+                    "correct": "Wednesday",
+                    "accept": ["Wednesday", "wednesday", "WEDNESDAY"],
+                    "explanation": "Вторник (Tuesday) -> Среда (Wednesday).",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "The release is on ___ (пятница).",
+                    "correct": "Friday",
+                    "accept": ["Friday", "friday", "FRIDAY"],
+                    "explanation": "Пятница — Friday. Релиз в пятницу.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "The day after Wednesday is ___.",
+                    "correct": "Thursday",
+                    "accept": ["Thursday", "thursday", "THURSDAY"],
+                    "explanation": "После среды (Wednesday) идет четверг (Thursday).",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "true_false",
+                    "question": "В английском языке дни недели пишутся с маленькой буквы.",
+                    "correct": "False",
+                    "accept": ["False", "false", "FALSE", "No", "no"],
+                    "explanation": "Неправильно! Дни недели в английском всегда пишутся с большой буквы: Monday, Tuesday и т.д.",
+                    "topic": "vocabulary"
+                }
+            ]
+        },
+        {
+            "day": 5,
+            "title": "Day 5: Words and Phrases (Daily IT Communication)",
+            "description": "Базовые фразы для общения с коллегами",
+            "grammar": {
+                "title": "Words and Phrases to Learn",
+                "rule": "📘 Полезные фразы:\n\n✅ Nice to meet you — Приятно познакомиться\n✅ Sorry — Извините\n✅ Thanks — Спасибо\n✅ See you tomorrow — Увидимся завтра\n✅ What's your name? — Как тебя зовут?\n\n📌 Примеры:\nA: Nice to meet you! \nB: Nice to meet you too!",
+                "examples": []
+            },
+            "vocabulary": [
+                {"icon": "🤝", "word": "Nice to meet you", "transcription": "/naɪs tuː miːt juː/", "translation": "Приятно познакомиться", "example": "Nice to meet you, Anna.", "context_translation": "Приятно познакомиться", "context_example": "Приятно познакомиться, Анна."},
+                {"icon": "🙏", "word": "Thanks", "transcription": "/θæŋks/", "translation": "Спасибо", "example": "Thanks for your help!", "context_translation": "Спасибо", "context_example": "Спасибо за помощь!"},
+                {"icon": "😔", "word": "Sorry", "transcription": "/ˈsɒri/", "translation": "Извините", "example": "Sorry, I'm late.", "context_translation": "Извините", "context_example": "Извините, я опоздал."},
+                {"icon": "👋", "word": "See you tomorrow", "transcription": "/siː juː təˈmɒrəʊ/", "translation": "Увидимся завтра", "example": "See you tomorrow at the stand-up.", "context_translation": "Увидимся завтра", "context_example": "Увидимся завтра на стендапе."}
+            ],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "Вы знакомитесь с новым коллегой. Что вы скажете?",
+                    "options": ["See you tomorrow", "Nice to meet you", "Sorry"],
+                    "correct": "Nice to meet you",
+                    "accept": ["Nice to meet you", "nice to meet you", "NICE TO MEET YOU"],
+                    "explanation": "Приятно познакомиться! Идеально для первого созвона.",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "Вы случайно сломали сборку (broke the build). Что вы скажете?",
+                    "options": ["Thanks", "Nice to meet you", "Sorry"],
+                    "correct": "Sorry",
+                    "accept": ["Sorry", "sorry", "SORRY"],
+                    "explanation": "Извинение. Sorry — универсальное слово, чтобы признать ошибку.",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 3,
+                    "type": "fill_blank",
+                    "question": "Коллега помог вам с багом. Вы говорите: ___!",
+                    "correct": "Thanks",
+                    "accept": ["Thanks", "thanks", "THANKS", "Thank you"],
+                    "explanation": "Thanks = Спасибо.",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 4,
+                    "type": "fill_blank",
+                    "question": "A: Goodbye! The stand-up is over.\nB: ___ ___ tomorrow!",
+                    "correct": "See you",
+                    "accept": ["See you", "see you", "SEE YOU"],
+                    "explanation": "See you tomorrow — До завтра! Стандартное прощание.",
+                    "topic": "phrases"
+                },
+                {
+                    "id": 5,
+                    "type": "multiple_choice",
+                    "question": "Как спросить имя коллеги?",
+                    "options": ["What's your name?", "How are you?", "Where are you?"],
+                    "correct": "What's your name?",
+                    "accept": ["What's your name?", "what's your name", "What is your name"],
+                    "explanation": "What's your name? = Как тебя зовут?",
+                    "topic": "phrases"
+                }
+            ]
+        },
+        {
+            "day": 6,
+            "title": "Day 6: Final Test",
+            "description": "Финальный тест на закрепление материала",
+            "grammar": {
+                "title": "Final Review",
+                "rule": "Вы готовы? Проверьте все знания за неделю! 💪",
+                "examples": []
+            },
+            "vocabulary": [],
+            "exercises": [
+                {
+                    "id": 1,
+                    "type": "multiple_choice",
+                    "question": "I ___ a developer.",
+                    "options": ["am", "is", "are", "be"],
+                    "correct": "am",
+                    "accept": ["am", "Am", "AM"],
+                    "explanation": "I am = I'm.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple_choice",
+                    "question": "You ___ in the QA team.",
+                    "options": ["am", "is", "are", "be"],
+                    "correct": "are",
+                    "accept": ["are", "Are", "ARE"],
+                    "explanation": "You are = You're.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 3,
+                    "type": "multiple_choice",
+                    "question": "Как правильно сказать 'Ты не менеджер'?",
+                    "options": ["You aren't a manager.", "You am not a manager.", "You isn't a manager."],
+                    "correct": "You aren't a manager.",
+                    "accept": ["You aren't a manager", "You aren't a manager.", "You are not a manager", "You are not a manager."],
+                    "explanation": "Отрицание для you — aren't.",
+                    "topic": "grammar"
+                },
+                {
+                    "id": 4,
+                    "type": "multiple_choice",
+                    "question": "The new release is in Sprint ___ (10).",
+                    "options": ["eight", "nine", "ten"],
+                    "correct": "ten",
+                    "accept": ["ten", "Ten", "TEN"],
+                    "explanation": "Ten = 10. Десятый спринт.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 5,
+                    "type": "fill_blank",
+                    "question": "Our daily stand-up is on ___ (среда).",
+                    "correct": "Wednesday",
+                    "accept": ["Wednesday", "wednesday", "WEDNESDAY"],
+                    "explanation": "Wednesday = среда.",
+                    "topic": "vocabulary"
+                },
+                {
+                    "id": 6,
+                    "type": "fill_blank",
+                    "question": "Вы знакомитесь с коллегой. Вы говорите: Nice to ___ you!",
+                    "correct": "meet",
+                    "accept": ["meet", "Meet", "MEET"],
+                    "explanation": "Nice to meet you = Приятно познакомиться.",
+                    "topic": "phrases"
+                }
+            ]
+        }
+    ]
+}

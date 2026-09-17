@@ -1,6 +1,6 @@
-const CACHE_NAME = 'ebw-beta-v1';
-const STATIC_CACHE = 'static-beta-v1';
-const WEEKS_CACHE = 'weeks-beta-v1';
+const CACHE_NAME = 'ebw-beta-v2';
+const STATIC_CACHE = 'static-beta-v2';
+const WEEKS_CACHE = 'weeks-beta-v2';
 
 const STATIC_ASSETS = [
   'index.html',
@@ -13,6 +13,7 @@ const STATIC_ASSETS = [
 ];
 
 const WEEK_FILES = [
+  'data/lessons/adults/A0/beginner_it_basics.json',
   'data/lessons/adults/B1/money_week.json',
   'data/lessons/adults/B1/adult_body_modals.json',
   'data/lessons/adults/B1/school_education.json'

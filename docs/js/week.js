@@ -76,7 +76,7 @@ function goBack() {
 
 async function loadWeekData() {
     try {
-        const url = `data/lessons/adults/B1/${currentWeekId}.json`;
+        const url = `data/lessons/adults/${currentLevel}/${currentWeekId}.json`;
         const response = await fetch(url);
 
         if (!response.ok) throw new Error('Week not found');

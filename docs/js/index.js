@@ -2,8 +2,17 @@
 
 // Данные об уровнях для взрослых (A0-C1)
 const adultLevels = [
-    { id: 'A0', title: 'A0 (Beginner)', icon: '🌱', description: 'Самый старт. Алфавит, цифры, простые фразы.', available: false, comingSoon: true },
-    { id: 'A1', title: 'A1 (Elementary)', icon: '🌿', description: 'Базовые фразы, простые диалоги.', available: false, comingSoon: true },
+{
+    id: 'A0',
+    title: 'A0 (Beginner)',
+    icon: '🌱',
+    description: 'Самый старт. Базовые фразы, глагол to be, числа, дни недели.',
+    available: true,
+    comingSoon: false,
+    weeks: [
+        { weekId: 'beginner_it_basics', title: '💻 IT Basics: Verb \'to be\' & Daily Routines' }
+    ]
+},    { id: 'A1', title: 'A1 (Elementary)', icon: '🌿', description: 'Базовые фразы, простые диалоги.', available: false, comingSoon: true },
     { id: 'A2', title: 'A2 (Pre-Intermediate)', icon: '🌳', description: 'Простые разговоры о повседневности.', available: false, comingSoon: true },
     {
         id: 'B1',
