@@ -13,12 +13,12 @@
             "description": "Знакомство с коллегами и основные утверждения",
             "grammar": {
                 "title": "Verb 'to be' (I am / You are)",
-                "rule": "📘 Глагол 'to be' (быть):\n\n✅ I am = I'm (Я есть)\n✅ You are = You're (Ты/Вы есть)\n\n📌 Примеры:\nI am a developer. = I'm a developer.\nYou are a tester. = You're a tester.\n\n⚠️ В английском нельзя сказать 'I developer'. Нужно обязательно 'I am a developer'.",
+                "rule": "📘 Глагол 'to be' (быть):\n\n✅ I am = I'm (Я есть)\n✅ You are = You're (Ты/Вы есть)\n\n📌 Примеры:\nI am a developer. = I'm a developer.\nYou are a QA engineer. = You're a QA engineer.\n\n⚠️ В английском нельзя сказать 'I developer'. Нужно обязательно 'I am a developer'.",
                 "examples": []
             },
             "vocabulary": [
                 {"icon": "👨‍💻", "word": "developer", "transcription": "/dɪˈveləpə/", "translation": "разработчик", "example": "I'm a developer.", "context_translation": "разработчик", "context_example": "Я разработчик."},
-                {"icon": "🧪", "word": "tester", "transcription": "/ˈtestə/", "translation": "тестировщик", "example": "You're a tester.", "context_translation": "тестировщик", "context_example": "Ты тестировщик."},
+                {"icon": "🧪", "word": "QA engineer", "transcription": "/ˌkjuː ˈeɪ ˌendʒɪˈnɪə/", "translation": "QA-инженер, тестировщик", "example": "You're a QA engineer.", "context_translation": "QA-инженер", "context_example": "Ты QA-инженер."},
                 {"icon": "📊", "word": "manager", "transcription": "/ˈmænɪdʒə/", "translation": "менеджер", "example": "I'm a manager.", "context_translation": "менеджер", "context_example": "Я менеджер."},
                 {"icon": "🌍", "word": "team", "transcription": "/tiːm/", "translation": "команда", "example": "You're in the QA team.", "context_translation": "команда", "context_example": "Ты в команде QA."}
             ],
@@ -55,10 +55,10 @@
                 {
                     "id": 4,
                     "type": "fill_blank",
-                    "question": "You ___ a new tester.",
+                    "question": "You ___ a new QA engineer.",
                     "correct": "are",
                     "accept": ["are", "Are", "ARE"],
-                    "explanation": "You are a new tester.",
+                    "explanation": "You are a new QA engineer.",
                     "topic": "grammar"
                 },
                 {
@@ -78,7 +78,7 @@
             "description": "Отрицания и вопросы с глаголом to be",
             "grammar": {
                 "title": "Negative and Questions with 'to be'",
-                "rule": "📘 Отрицания и вопросы:\n\n❌ Отрицание:\nI am not = I'm not\nYou are not = You aren't\n\n❓ Вопрос:\nAm I...?\nAre you...?\n\n📌 Примеры:\nI'm not a tester. (Я не тестировщик.)\nYou aren't in room 5. (Ты не в комнате 5.)\nAre you a developer? (Ты разработчик?)",
+                "rule": "📘 Отрицания и вопросы:\n\n❌ Отрицание:\nI am not = I'm not\nYou are not = You aren't\n\n❓ Вопрос:\nAm I...?\nAre you...?\n\n📌 Примеры:\nI'm not a QA engineer. (Я не QA-инженер.)\nYou aren't in room 5. (Ты не в комнате 5.)\nAre you a developer? (Ты разработчик?)",
                 "examples": []
             },
             "vocabulary": [
@@ -100,10 +100,10 @@
                 {
                     "id": 2,
                     "type": "multiple_choice",
-                    "question": "Как спросить коллегу: 'Ты тестировщик?'",
-                    "options": ["Are you a tester?", "You are a tester?", "Am you a tester?"],
-                    "correct": "Are you a tester?",
-                    "accept": ["Are you a tester", "Are you a tester?", "are you a tester"],
+                    "question": "Как спросить коллегу: 'Ты QA-инженер?'",
+                    "options": ["Are you a QA engineer?", "You are a QA engineer?", "Am you a QA engineer?"],
+                    "correct": "Are you a QA engineer?",
+                    "accept": ["Are you a QA engineer", "Are you a QA engineer?", "are you a QA engineer"],
                     "explanation": "В вопросе глагол 'are' выходит на первое место. Are you...?",
                     "topic": "grammar"
                 },
